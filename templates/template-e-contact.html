@@ -1,0 +1,2288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | {{COMPANY_NAME}} - {{CITY}} | {{PHONE}}</title>
+    <meta name="description" content="Contact {{COMPANY_NAME}} for professional {{SERVICE_1}} and {{SERVICE_2}} services in {{CITY}}. Call {{PHONE}} or fill out our form for a free estimate.">
+    <style>
+        /* ============================================
+           TEMPLATE E - CONCRETE (Industrial Minimal)
+           Contact Us Subpage
+           Light concrete bg, yellow accents
+           ============================================ */
+
+        :root {
+            --primary: {{PRIMARY_COLOR}};
+            --accent: {{ACCENT_COLOR}};
+            --bg: {{BG_COLOR}};
+            --text: {{TEXT_COLOR}};
+            --card-bg: #ffffff;
+            --concrete: #f0f0ec;
+            --yellow: #eab308;
+            --yellow-dark: #d4a007;
+            --yellow-light: rgba(234, 179, 8, 0.12);
+            --black: #1a1a1a;
+            --gray-100: #f7f7f5;
+            --gray-200: #e8e8e4;
+            --gray-300: #d4d4cf;
+            --gray-400: #9a9a95;
+            --gray-500: #6b6b66;
+            --nav-height: 72px;
+            --radius: 4px;
+            --radius-lg: 8px;
+            --transition: 0.3s ease;
+            --transition-fast: 0.15s ease;
+            --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+            --shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+            --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12);
+            --shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.15);
+            --yellow-glow: 0 0 20px rgba(234, 179, 8, 0.3);
+            --max-width: 1200px;
+        }
+
+        /* ---- RESET & BASE ---- */
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: var(--nav-height);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--concrete);
+            color: var(--black);
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: color var(--transition);
+        }
+
+        ul, ol {
+            list-style: none;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        button, input, textarea, select {
+            font-family: inherit;
+            font-size: inherit;
+            border: none;
+            outline: none;
+            background: none;
+        }
+
+        .container {
+            width: 100%;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .section-label {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--yellow);
+            margin-bottom: 12px;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--black);
+            line-height: 1.15;
+            margin-bottom: 16px;
+            letter-spacing: -0.5px;
+        }
+
+        .section-subtitle {
+            font-size: 1.1rem;
+            color: var(--gray-500);
+            line-height: 1.7;
+            max-width: 600px;
+        }
+
+        /* ---- NAVIGATION ---- */
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: var(--nav-height);
+            background: #ffffff;
+            z-index: 1000;
+            transition: box-shadow var(--transition);
+        }
+
+        .nav.scrolled {
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100%;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .nav-logo {
+            font-size: 1.35rem;
+            font-weight: 800;
+            color: var(--black);
+            letter-spacing: -0.5px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .nav-logo span {
+            color: var(--yellow);
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+
+        .nav-links a {
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--gray-500);
+            transition: color var(--transition);
+            position: relative;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--black);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--yellow);
+            transition: width var(--transition);
+        }
+
+        .nav-links a:hover::after,
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .nav-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 24px;
+            background: linear-gradient(135deg, var(--black) 0%, #2a2a2a 100%);
+            color: #ffffff;
+            font-size: 0.875rem;
+            font-weight: 600;
+            border-radius: var(--radius);
+            cursor: pointer;
+            transition: all var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .nav-cta::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--yellow);
+            transform: scaleX(0);
+            transition: transform var(--transition);
+        }
+
+        .nav-cta:hover::after {
+            transform: scaleX(1);
+        }
+
+        .nav-cta:hover {
+            background: linear-gradient(135deg, #2a2a2a 0%, #3a3a3a 100%);
+            transform: translateY(-1px) scale(1.05);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Mobile hamburger */
+        .nav-hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            padding: 4px;
+            z-index: 1001;
+        }
+
+        .nav-hamburger span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: var(--black);
+            transition: all var(--transition);
+            border-radius: 2px;
+        }
+
+        .nav-hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+
+        .nav-hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .nav-hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -5px);
+        }
+
+        /* Mobile menu */
+        .nav-mobile {
+            display: none;
+            position: fixed;
+            top: var(--nav-height);
+            left: 0;
+            width: 100%;
+            background: #ffffff;
+            padding: 24px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            z-index: 999;
+            flex-direction: column;
+            gap: 0;
+        }
+
+        .nav-mobile.open {
+            display: flex;
+        }
+
+        .nav-mobile a {
+            display: block;
+            padding: 14px 0;
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--black);
+            border-bottom: 1px solid var(--gray-200);
+            transition: color var(--transition);
+        }
+
+        .nav-mobile a:last-child {
+            border-bottom: none;
+        }
+
+        .nav-mobile a:hover {
+            color: var(--yellow);
+        }
+
+        /* ---- EMERGENCY BANNER ---- */
+        .emergency-banner {
+            position: relative;
+            background: linear-gradient(135deg, var(--yellow) 0%, var(--yellow-dark) 100%);
+            color: var(--black);
+            padding: 0;
+            overflow: hidden;
+            margin-top: var(--nav-height);
+        }
+
+        .emergency-banner-inner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            padding: 14px 24px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+
+        .emergency-dot {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background: #dc2626;
+            border-radius: 50%;
+            animation: emergencyPulse 1.5s ease-in-out infinite;
+            flex-shrink: 0;
+        }
+
+        @keyframes emergencyPulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.6);
+                opacity: 1;
+            }
+            50% {
+                box-shadow: 0 0 0 8px rgba(220, 38, 38, 0);
+                opacity: 0.8;
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(220, 38, 38, 0);
+                opacity: 1;
+            }
+        }
+
+        .emergency-banner-text {
+            font-size: 0.95rem;
+            font-weight: 700;
+            letter-spacing: 0.3px;
+        }
+
+        .emergency-banner-phone {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 20px;
+            background: var(--black);
+            color: #ffffff;
+            font-size: 0.9rem;
+            font-weight: 800;
+            border-radius: var(--radius);
+            transition: all var(--transition);
+            letter-spacing: 0.5px;
+        }
+
+        .emergency-banner-phone:hover {
+            background: #2a2a2a;
+            transform: scale(1.05);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+            color: var(--yellow);
+        }
+
+        .emergency-banner-stripe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: repeating-linear-gradient(
+                90deg,
+                var(--black) 0px,
+                var(--black) 10px,
+                var(--yellow) 10px,
+                var(--yellow) 20px
+            );
+        }
+
+        /* ---- HERO SECTION ---- */
+        .hero {
+            padding: 80px 0 60px 0;
+            background: var(--concrete);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -40%;
+            right: -20%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(234, 179, 8, 0.06) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: -30%;
+            left: -15%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(234, 179, 8, 0.04) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .hero-inner {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .hero-breadcrumb {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            font-size: 0.85rem;
+            color: var(--gray-400);
+            margin-bottom: 24px;
+        }
+
+        .hero-breadcrumb a {
+            color: var(--gray-500);
+            transition: color var(--transition);
+        }
+
+        .hero-breadcrumb a:hover {
+            color: var(--yellow);
+        }
+
+        .hero-breadcrumb .breadcrumb-sep {
+            color: var(--gray-300);
+            font-size: 0.7rem;
+        }
+
+        .hero-breadcrumb .breadcrumb-current {
+            color: var(--black);
+            font-weight: 600;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 14px;
+            background: var(--yellow-light);
+            color: var(--black);
+            font-size: 0.8rem;
+            font-weight: 600;
+            border-radius: 100px;
+            margin-bottom: 20px;
+            letter-spacing: 0.5px;
+        }
+
+        .hero-title {
+            font-size: 3.5rem;
+            font-weight: 900;
+            line-height: 1.05;
+            color: var(--black);
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            margin-bottom: 0;
+        }
+
+        .hero-accent-line {
+            width: 80px;
+            height: 5px;
+            background: var(--yellow);
+            margin: 20px auto 24px auto;
+            border-radius: 3px;
+        }
+
+        .hero-subtitle {
+            font-size: 1.15rem;
+            color: var(--gray-500);
+            line-height: 1.7;
+            max-width: 580px;
+            margin: 0 auto;
+        }
+
+        /* ---- CONTACT MAIN SECTION ---- */
+        .contact-main {
+            padding: 80px 0 100px 0;
+            background: #ffffff;
+            border-top: 1px solid var(--gray-200);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1.15fr 0.85fr;
+            gap: 60px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* ---- CONTACT FORM ---- */
+        .form-section {
+            position: relative;
+        }
+
+        .form-section-header {
+            margin-bottom: 32px;
+        }
+
+        .form-section-header .section-title {
+            font-size: 2rem;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .form-group label {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--black);
+            letter-spacing: 0.3px;
+        }
+
+        .form-group label .required {
+            color: #dc2626;
+            margin-left: 2px;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            padding: 14px 16px;
+            border: 2px solid var(--gray-200);
+            border-radius: var(--radius);
+            font-size: 0.95rem;
+            color: var(--black);
+            background: #ffffff;
+            transition: border-color var(--transition), box-shadow var(--transition);
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            border-color: var(--yellow);
+            box-shadow: 0 0 0 3px rgba(234, 179, 8, 0.15);
+        }
+
+        .form-group input::placeholder,
+        .form-group textarea::placeholder {
+            color: var(--gray-400);
+        }
+
+        .form-group textarea {
+            min-height: 140px;
+            resize: vertical;
+        }
+
+        .form-group select {
+            cursor: pointer;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%239a9a95' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 16px center;
+            padding-right: 44px;
+        }
+
+        .form-privacy {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            padding: 14px 16px;
+            background: var(--gray-100);
+            border-radius: var(--radius);
+            font-size: 0.8rem;
+            color: var(--gray-500);
+            line-height: 1.6;
+        }
+
+        .form-privacy-icon {
+            font-size: 1rem;
+            flex-shrink: 0;
+            margin-top: 1px;
+        }
+
+        .form-submit {
+            padding: 16px 32px;
+            background: linear-gradient(135deg, var(--black) 0%, #333333 100%);
+            color: #ffffff;
+            font-size: 1rem;
+            font-weight: 700;
+            border-radius: var(--radius);
+            cursor: pointer;
+            transition: all var(--transition);
+            border: none;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .form-submit::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--yellow);
+        }
+
+        .form-submit::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .form-submit:hover::before {
+            left: 100%;
+        }
+
+        .form-submit:hover {
+            background: linear-gradient(135deg, #2a2a2a 0%, #444444 100%);
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+        }
+
+        .form-submit:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .form-success {
+            display: none;
+            padding: 24px;
+            background: rgba(234, 179, 8, 0.1);
+            border: 2px solid var(--yellow);
+            border-radius: var(--radius-lg);
+            text-align: center;
+        }
+
+        .form-success-icon {
+            font-size: 2.5rem;
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        .form-success-title {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: var(--black);
+            margin-bottom: 8px;
+        }
+
+        .form-success-text {
+            font-size: 0.95rem;
+            color: var(--gray-500);
+            line-height: 1.6;
+        }
+
+        .form-success-text strong {
+            color: var(--black);
+        }
+
+        /* ---- CONTACT INFO SIDEBAR ---- */
+        .contact-sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .sidebar-header {
+            margin-bottom: 8px;
+        }
+
+        .sidebar-header .section-title {
+            font-size: 2rem;
+        }
+
+        /* Phone block */
+        .contact-phone-block {
+            background: var(--concrete);
+            padding: 32px;
+            border-radius: var(--radius-lg);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .contact-phone-block::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: var(--yellow);
+        }
+
+        .contact-phone-label {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--gray-400);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 8px;
+        }
+
+        .contact-phone-number {
+            display: block;
+            font-size: 1.8rem;
+            font-weight: 900;
+            color: var(--black);
+            letter-spacing: -0.5px;
+            transition: color var(--transition);
+            margin-bottom: 8px;
+        }
+
+        .contact-phone-number:hover {
+            color: var(--yellow);
+        }
+
+        .contact-phone-availability {
+            font-size: 0.85rem;
+            color: var(--gray-500);
+        }
+
+        /* Info cards */
+        .info-card {
+            display: flex;
+            gap: 16px;
+            align-items: flex-start;
+            padding: 24px;
+            background: var(--card-bg);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-sm);
+            transition: all var(--transition);
+        }
+
+        .info-card:hover {
+            box-shadow: var(--shadow);
+            transform: translateY(-2px);
+        }
+
+        .info-card-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--yellow-light);
+            border-radius: var(--radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            flex-shrink: 0;
+        }
+
+        .info-card-content h4 {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--black);
+            margin-bottom: 4px;
+        }
+
+        .info-card-content p {
+            font-size: 0.875rem;
+            color: var(--gray-500);
+            line-height: 1.6;
+        }
+
+        .info-card-content a {
+            color: var(--gray-500);
+            transition: color var(--transition);
+        }
+
+        .info-card-content a:hover {
+            color: var(--yellow);
+        }
+
+        /* Hours card */
+        .hours-card {
+            background: var(--card-bg);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-sm);
+            overflow: hidden;
+            transition: all var(--transition);
+        }
+
+        .hours-card:hover {
+            box-shadow: var(--shadow);
+        }
+
+        .hours-card-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 20px 24px;
+            background: var(--black);
+            color: #ffffff;
+        }
+
+        .hours-card-header-icon {
+            font-size: 1.2rem;
+        }
+
+        .hours-card-header-text {
+            font-size: 0.95rem;
+            font-weight: 700;
+            letter-spacing: 0.3px;
+        }
+
+        .hours-card-body {
+            padding: 8px 24px 20px 24px;
+        }
+
+        .hours-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--gray-200);
+            font-size: 0.875rem;
+        }
+
+        .hours-row:last-child {
+            border-bottom: none;
+        }
+
+        .hours-row-day {
+            color: var(--gray-500);
+            font-weight: 500;
+        }
+
+        .hours-row-time {
+            font-weight: 700;
+            color: var(--black);
+        }
+
+        .hours-row-time.emergency {
+            color: #dc2626;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .hours-row-time.highlight {
+            color: var(--yellow-dark);
+        }
+
+        /* ---- MAP SECTION ---- */
+        .map-section {
+            padding: 0 0 100px 0;
+            background: #ffffff;
+        }
+
+        .map-container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .map-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .map-header .section-title {
+            font-size: 2rem;
+        }
+
+        .map-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .map-placeholder {
+            position: relative;
+            height: 420px;
+            background: linear-gradient(145deg, var(--gray-200) 0%, var(--gray-300) 100%);
+            border-radius: var(--radius-lg);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            border: 2px solid var(--gray-200);
+        }
+
+        .map-placeholder::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background:
+                linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px),
+                linear-gradient(0deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+            background-size: 40px 40px;
+            pointer-events: none;
+        }
+
+        .map-pin {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .map-pin-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--yellow);
+            border-radius: 50% 50% 50% 0;
+            transform: rotate(-45deg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 16px rgba(234, 179, 8, 0.4);
+            animation: pinBounce 2s ease-in-out infinite;
+        }
+
+        .map-pin-icon span {
+            transform: rotate(45deg);
+            font-size: 1.5rem;
+        }
+
+        @keyframes pinBounce {
+            0%, 100% {
+                transform: rotate(-45deg) translateY(0);
+            }
+            50% {
+                transform: rotate(-45deg) translateY(-8px);
+            }
+        }
+
+        .map-pin-shadow {
+            width: 40px;
+            height: 8px;
+            background: rgba(0, 0, 0, 0.1);
+            border-radius: 50%;
+            animation: pinShadow 2s ease-in-out infinite;
+        }
+
+        @keyframes pinShadow {
+            0%, 100% {
+                transform: scale(1);
+                opacity: 0.3;
+            }
+            50% {
+                transform: scale(0.7);
+                opacity: 0.15;
+            }
+        }
+
+        .map-pin-label {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--black);
+            text-align: center;
+            margin-top: 4px;
+        }
+
+        .map-pin-address {
+            font-size: 0.85rem;
+            color: var(--gray-500);
+            text-align: center;
+        }
+
+        .map-grid-decoration {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+        }
+
+        .map-road-h {
+            position: absolute;
+            height: 2px;
+            background: rgba(0, 0, 0, 0.06);
+            left: 0;
+            width: 100%;
+        }
+
+        .map-road-v {
+            position: absolute;
+            width: 2px;
+            background: rgba(0, 0, 0, 0.06);
+            top: 0;
+            height: 100%;
+        }
+
+        .map-circle {
+            position: absolute;
+            border: 2px dashed rgba(234, 179, 8, 0.2);
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .map-info-bar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 32px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .map-info-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.875rem;
+            color: var(--gray-500);
+        }
+
+        .map-info-item span {
+            font-size: 1.1rem;
+        }
+
+        .map-info-item strong {
+            color: var(--black);
+            font-weight: 700;
+        }
+
+        /* ---- WHY CONTACT US SECTION ---- */
+        .why-contact {
+            padding: 100px 0;
+            background: var(--concrete);
+        }
+
+        .why-contact-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .why-contact-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .why-contact-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .why-card {
+            background: var(--card-bg);
+            padding: 32px 24px;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-sm);
+            text-align: center;
+            transition: all var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .why-card::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--yellow);
+            transform: scaleX(0);
+            transition: transform var(--transition);
+        }
+
+        .why-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .why-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow);
+        }
+
+        .why-card-icon {
+            font-size: 2rem;
+            margin-bottom: 16px;
+            display: block;
+        }
+
+        .why-card-title {
+            font-size: 1rem;
+            font-weight: 800;
+            color: var(--black);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .why-card-text {
+            font-size: 0.85rem;
+            color: var(--gray-500);
+            line-height: 1.6;
+        }
+
+        /* ---- FAQ SECTION ---- */
+        .faq-section {
+            padding: 100px 0;
+            background: #ffffff;
+            border-top: 1px solid var(--gray-200);
+        }
+
+        .faq-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .faq-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .faq-list {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .faq-item {
+            background: var(--card-bg);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-sm);
+            overflow: hidden;
+            transition: all var(--transition);
+        }
+
+        .faq-item:hover {
+            box-shadow: var(--shadow);
+        }
+
+        .faq-question {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 24px;
+            cursor: pointer;
+            transition: background var(--transition);
+            gap: 16px;
+        }
+
+        .faq-question:hover {
+            background: var(--gray-100);
+        }
+
+        .faq-question-text {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--black);
+            line-height: 1.4;
+        }
+
+        .faq-toggle {
+            width: 28px;
+            height: 28px;
+            background: var(--yellow-light);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            transition: all var(--transition);
+            font-size: 1.2rem;
+            color: var(--black);
+            font-weight: 700;
+        }
+
+        .faq-item.open .faq-toggle {
+            background: var(--yellow);
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.4s ease;
+            padding: 0 24px;
+        }
+
+        .faq-item.open .faq-answer {
+            max-height: 300px;
+            padding: 0 24px 20px 24px;
+        }
+
+        .faq-answer-text {
+            font-size: 0.9rem;
+            color: var(--gray-500);
+            line-height: 1.7;
+        }
+
+        /* ---- CTA BANNER ---- */
+        .cta-banner {
+            padding: 80px 0;
+            background: var(--black);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-banner::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -10%;
+            width: 120%;
+            height: 200%;
+            background: radial-gradient(circle at 50% 50%, rgba(234, 179, 8, 0.06) 0%, transparent 60%);
+            pointer-events: none;
+        }
+
+        .cta-banner-content {
+            position: relative;
+            z-index: 2;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .cta-banner-emoji {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .cta-banner-title {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: var(--yellow);
+            line-height: 1.15;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: -0.5px;
+        }
+
+        .cta-banner-text {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 36px;
+            line-height: 1.6;
+        }
+
+        .cta-banner-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 16px 40px;
+            background: linear-gradient(135deg, var(--yellow) 0%, var(--yellow-dark) 100%);
+            color: var(--black);
+            font-size: 1rem;
+            font-weight: 800;
+            border-radius: var(--radius);
+            cursor: pointer;
+            transition: all var(--transition);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-banner-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .cta-banner-btn:hover::before {
+            left: 100%;
+        }
+
+        .cta-banner-btn:hover {
+            background: linear-gradient(135deg, var(--yellow-dark) 0%, #b8900a 100%);
+            transform: translateY(-2px) scale(1.05);
+            box-shadow: 0 8px 28px rgba(234, 179, 8, 0.4);
+        }
+
+        .cta-banner-phone {
+            display: block;
+            margin-top: 20px;
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .cta-banner-phone a {
+            color: #ffffff;
+            font-weight: 700;
+            transition: color var(--transition);
+        }
+
+        .cta-banner-phone a:hover {
+            color: var(--yellow);
+        }
+
+        /* ---- FOOTER ---- */
+        .footer {
+            padding: 60px 0 0 0;
+            background: var(--black);
+            color: #ffffff;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.4fr 1fr 1fr;
+            gap: 48px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .footer-brand {
+            font-size: 1.25rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+            letter-spacing: -0.5px;
+        }
+
+        .footer-brand span {
+            color: var(--yellow);
+        }
+
+        .footer-desc {
+            font-size: 0.875rem;
+            color: rgba(255, 255, 255, 0.5);
+            line-height: 1.7;
+            margin-bottom: 20px;
+            max-width: 300px;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 12px;
+        }
+
+        .footer-social a {
+            width: 36px;
+            height: 36px;
+            border-radius: var(--radius);
+            background: rgba(255, 255, 255, 0.08);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.6);
+            transition: all var(--transition);
+        }
+
+        .footer-social a:hover {
+            background: var(--yellow);
+            color: var(--black);
+        }
+
+        .footer-col-title {
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .footer-links a {
+            font-size: 0.9rem;
+            color: var(--yellow);
+            transition: all var(--transition);
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .footer-links a:hover {
+            color: #ffffff;
+            transform: translateX(4px);
+        }
+
+        .footer-rating {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 16px;
+        }
+
+        .footer-rating-stars {
+            color: var(--yellow);
+            font-size: 0.9rem;
+        }
+
+        .footer-rating-text {
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .footer-bottom {
+            margin-top: 48px;
+            padding: 20px 24px;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            text-align: center;
+        }
+
+        .footer-bottom p {
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.35);
+        }
+
+        /* ---- SCROLLBAR ---- */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--concrete);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--gray-300);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--gray-400);
+        }
+
+        /* ---- ANIMATIONS ---- */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(24px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ---- RESPONSIVE 1024px ---- */
+        @media (max-width: 1024px) {
+            .why-contact-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 48px;
+            }
+
+            .map-placeholder {
+                height: 340px;
+            }
+        }
+
+        /* ---- RESPONSIVE 768px ---- */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .nav-hamburger {
+                display: flex;
+            }
+
+            .hero-title {
+                font-size: 2.4rem;
+            }
+
+            .hero-accent-line {
+                margin: 16px auto 20px auto;
+            }
+
+            .section-title {
+                font-size: 1.9rem;
+            }
+
+            .form-section-header .section-title,
+            .sidebar-header .section-title {
+                font-size: 1.7rem;
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+
+            .why-contact-grid {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+
+            .map-placeholder {
+                height: 280px;
+            }
+
+            .map-info-bar {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            .emergency-banner-inner {
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+            }
+
+            .cta-banner-title {
+                font-size: 1.8rem;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+
+            .container {
+                padding: 0 16px;
+            }
+        }
+
+        /* ---- RESPONSIVE 480px ---- */
+        @media (max-width: 480px) {
+            .hero-title {
+                font-size: 2rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1rem;
+            }
+
+            .contact-phone-number {
+                font-size: 1.5rem;
+            }
+
+            .cta-banner-title {
+                font-size: 1.5rem;
+            }
+
+            .map-placeholder {
+                height: 240px;
+            }
+
+            .why-card {
+                padding: 24px 20px;
+            }
+
+            .info-card {
+                padding: 18px;
+            }
+
+            .hours-card-body {
+                padding: 4px 18px 16px 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="{{HOMEPAGE_URL}}" class="nav-logo">
+                {{COMPANY_NAME}}
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="{{HOMEPAGE_URL}}">Home</a>
+                <a href="{{HOMEPAGE_URL}}#services">Services</a>
+                <a href="{{HOMEPAGE_URL}}#projects">Our Work</a>
+                <a href="{{HOMEPAGE_URL}}#why-us">Why Us</a>
+                <a href="{{HOMEPAGE_URL}}#testimonials">Reviews</a>
+                <a href="{{HOMEPAGE_URL}}#service-area">Area</a>
+                <a href="#contact" class="active">Contact</a>
+            </div>
+            <a href="tel:{{PHONE}}" class="nav-cta">{{CTA_TEXT}}</a>
+            <div class="nav-hamburger" id="hamburger" aria-label="Toggle menu" role="button" tabindex="0">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="nav-mobile" id="mobileMenu">
+            <a href="{{HOMEPAGE_URL}}">Home</a>
+            <a href="{{HOMEPAGE_URL}}#services">Services</a>
+            <a href="{{HOMEPAGE_URL}}#projects">Our Work</a>
+            <a href="{{HOMEPAGE_URL}}#why-us">Why Us</a>
+            <a href="{{HOMEPAGE_URL}}#testimonials">Reviews</a>
+            <a href="{{HOMEPAGE_URL}}#service-area">Service Area</a>
+            <a href="#contact">Contact</a>
+            <a href="tel:{{PHONE}}">{{CTA_TEXT}} &rarr;</a>
+        </div>
+    </nav>
+
+    <!-- ===== EMERGENCY BANNER ===== -->
+    <div class="emergency-banner">
+        <div class="emergency-banner-stripe"></div>
+        <div class="emergency-banner-inner">
+            <span class="emergency-dot"></span>
+            <span class="emergency-banner-text">24/7 Emergency Service Available &mdash; Fast Response Guaranteed</span>
+            <a href="tel:{{PHONE}}" class="emergency-banner-phone">Call Now: {{PHONE}}</a>
+        </div>
+    </div>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero">
+        <div class="hero-inner">
+            <nav class="hero-breadcrumb" aria-label="Breadcrumb">
+                <a href="{{HOMEPAGE_URL}}">Home</a>
+                <span class="breadcrumb-sep">&#9656;</span>
+                <span class="breadcrumb-current">Contact Us</span>
+            </nav>
+            <div class="hero-badge">Get Your Free Estimate Today</div>
+            <h1 class="hero-title">Contact Us</h1>
+            <div class="hero-accent-line"></div>
+            <p class="hero-subtitle">Ready to start your project? Reach out to our team for a free, no-obligation estimate. We respond to all inquiries within 1 hour during business hours.</p>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT MAIN SECTION ===== -->
+    <section class="contact-main" id="contact">
+        <div class="contact-grid">
+
+            <!-- Left: Contact Form -->
+            <div class="form-section fade-in">
+                <div class="form-section-header">
+                    <span class="section-label">Send A Message</span>
+                    <h2 class="section-title">Request Your Free Quote</h2>
+                    <p class="section-subtitle">Fill out the form below and a member of our team will get back to you promptly. All fields marked with * are required.</p>
+                </div>
+
+                <form class="contact-form" id="contactForm" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fullName">Full Name <span class="required">*</span></label>
+                            <input type="text" id="fullName" name="fullName" placeholder="John Doe" required autocomplete="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required autocomplete="email">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number <span class="required">*</span></label>
+                            <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567" required autocomplete="tel">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Needed <span class="required">*</span></label>
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Select a service...</option>
+                                <option value="{{SERVICE_1}}">{{SERVICE_1}}</option>
+                                <option value="{{SERVICE_2}}">{{SERVICE_2}}</option>
+                                <option value="{{SERVICE_3}}">{{SERVICE_3}}</option>
+                                <option value="{{SERVICE_4}}">{{SERVICE_4}}</option>
+                                <option value="{{SERVICE_5}}">{{SERVICE_5}}</option>
+                                <option value="{{SERVICE_6}}">{{SERVICE_6}}</option>
+                                <option value="emergency">Emergency Service</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Project Details</label>
+                        <textarea id="message" name="message" placeholder="Tell us about your project - scope, timeline, any specific requirements or concerns..."></textarea>
+                    </div>
+
+                    <div class="form-privacy">
+                        <span class="form-privacy-icon">&#128274;</span>
+                        <span>Your information is secure and will never be shared with third parties. We use it only to respond to your inquiry and provide service estimates.</span>
+                    </div>
+
+                    <button type="submit" class="form-submit" id="formSubmitBtn">Request Free Estimate &rarr;</button>
+
+                    <div class="form-success" id="formSuccess">
+                        <span class="form-success-icon">&#9989;</span>
+                        <div class="form-success-title">Message Sent Successfully!</div>
+                        <p class="form-success-text">Thank you for reaching out. We'll get back to you within 1 hour during business hours. For immediate assistance, call <strong>{{PHONE}}</strong>.</p>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Right: Contact Info Sidebar -->
+            <div class="contact-sidebar fade-in">
+                <div class="sidebar-header">
+                    <span class="section-label">Get In Touch</span>
+                    <h2 class="section-title">Contact Information</h2>
+                </div>
+
+                <!-- Phone Block -->
+                <div class="contact-phone-block">
+                    <div class="contact-phone-label">Call Us Now</div>
+                    <a href="tel:{{PHONE}}" class="contact-phone-number">{{PHONE}}</a>
+                    <div class="contact-phone-availability">&#9889; Fast response guaranteed &mdash; Available 24/7 for emergencies</div>
+                </div>
+
+                <!-- Email Card -->
+                <div class="info-card">
+                    <div class="info-card-icon">&#9993;</div>
+                    <div class="info-card-content">
+                        <h4>Email Us</h4>
+                        <p><a href="mailto:{{EMAIL}}">{{EMAIL}}</a></p>
+                        <p>We respond to all emails within 1 business hour.</p>
+                    </div>
+                </div>
+
+                <!-- Address Card -->
+                <div class="info-card">
+                    <div class="info-card-icon">&#128205;</div>
+                    <div class="info-card-content">
+                        <h4>Our Location</h4>
+                        <p>{{ADDRESS}}<br>{{CITY}}</p>
+                    </div>
+                </div>
+
+                <!-- License Card -->
+                <div class="info-card">
+                    <div class="info-card-icon">&#128737;</div>
+                    <div class="info-card-content">
+                        <h4>Licensed &amp; Insured</h4>
+                        <p>Fully licensed, bonded, and insured for your protection. License #{{LICENSE_NUMBER}}</p>
+                    </div>
+                </div>
+
+                <!-- Business Hours Card -->
+                <div class="hours-card">
+                    <div class="hours-card-header">
+                        <span class="hours-card-header-icon">&#128340;</span>
+                        <span class="hours-card-header-text">Business Hours</span>
+                    </div>
+                    <div class="hours-card-body">
+                        <div class="hours-row">
+                            <span class="hours-row-day">Monday - Friday</span>
+                            <span class="hours-row-time">7:00 AM - 6:00 PM</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="hours-row-day">Saturday</span>
+                            <span class="hours-row-time">8:00 AM - 4:00 PM</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="hours-row-day">Sunday</span>
+                            <span class="hours-row-time highlight">By Appointment</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="hours-row-day">Emergency</span>
+                            <span class="hours-row-time emergency">&#9889; 24/7 Available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MAP SECTION ===== -->
+    <section class="map-section">
+        <div class="map-container">
+            <div class="map-header fade-in">
+                <span class="section-label">Find Us</span>
+                <h2 class="section-title">Our Service Area</h2>
+                <p class="section-subtitle">Proudly serving {{CITY}} and surrounding communities within a 30-mile radius.</p>
+            </div>
+
+            <div class="map-placeholder fade-in">
+                <!-- Grid decoration -->
+                <div class="map-grid-decoration">
+                    <div class="map-road-h" style="top: 30%;"></div>
+                    <div class="map-road-h" style="top: 60%;"></div>
+                    <div class="map-road-h" style="top: 80%;"></div>
+                    <div class="map-road-v" style="left: 25%;"></div>
+                    <div class="map-road-v" style="left: 55%;"></div>
+                    <div class="map-road-v" style="left: 75%;"></div>
+                    <div class="map-circle" style="width: 200px; height: 200px;"></div>
+                    <div class="map-circle" style="width: 340px; height: 340px;"></div>
+                </div>
+
+                <!-- Pin -->
+                <div class="map-pin">
+                    <div class="map-pin-icon">
+                        <span>&#9733;</span>
+                    </div>
+                    <div class="map-pin-shadow"></div>
+                    <div class="map-pin-label">{{COMPANY_NAME}}</div>
+                    <div class="map-pin-address">{{ADDRESS}}, {{CITY}}</div>
+                </div>
+            </div>
+
+            <div class="map-info-bar fade-in">
+                <div class="map-info-item">
+                    <span>&#128205;</span>
+                    <strong>{{CITY}}</strong> &amp; surrounding areas
+                </div>
+                <div class="map-info-item">
+                    <span>&#128666;</span>
+                    Free on-site estimates
+                </div>
+                <div class="map-info-item">
+                    <span>&#9201;</span>
+                    Same-day service available
+                </div>
+                <div class="map-info-item">
+                    <span>&#9889;</span>
+                    <strong>30-mile</strong> service radius
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== WHY CONTACT US ===== -->
+    <section class="why-contact">
+        <div class="why-contact-header fade-in">
+            <span class="section-label">Why Choose Us</span>
+            <h2 class="section-title">The {{COMPANY_NAME}} Difference</h2>
+            <p class="section-subtitle">Here's what sets us apart from other contractors in {{CITY}}.</p>
+        </div>
+
+        <div class="why-contact-grid">
+            <div class="why-card fade-in">
+                <span class="why-card-icon">&#9889;</span>
+                <h3 class="why-card-title">Fast Response</h3>
+                <p class="why-card-text">We respond to all inquiries within 1 hour. Emergency calls get immediate dispatch, 24 hours a day.</p>
+            </div>
+
+            <div class="why-card fade-in">
+                <span class="why-card-icon">&#128176;</span>
+                <h3 class="why-card-title">Free Estimates</h3>
+                <p class="why-card-text">Transparent, written estimates with no hidden fees. We believe in honest, upfront pricing on every project.</p>
+            </div>
+
+            <div class="why-card fade-in">
+                <span class="why-card-icon">&#128737;</span>
+                <h3 class="why-card-title">Fully Licensed</h3>
+                <p class="why-card-text">Licensed, bonded, and fully insured. Your property and project are protected from start to finish.</p>
+            </div>
+
+            <div class="why-card fade-in">
+                <span class="why-card-icon">&#11088;</span>
+                <h3 class="why-card-title">{{RATING}}-Star Rated</h3>
+                <p class="why-card-text">With {{REVIEW_COUNT}}+ five-star reviews, our reputation speaks for itself. Quality workmanship guaranteed.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FAQ SECTION ===== -->
+    <section class="faq-section">
+        <div class="faq-header fade-in">
+            <span class="section-label">Common Questions</span>
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="section-subtitle">Quick answers to the questions we hear most often from our customers.</p>
+        </div>
+
+        <div class="faq-list">
+            <div class="faq-item fade-in">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                    <span class="faq-question-text">How quickly can you provide an estimate?</span>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p class="faq-answer-text">We typically provide estimates within 24-48 hours. For most projects, we can schedule an on-site assessment within 1-2 business days. Emergency estimates are available same-day. Call us at {{PHONE}} for the fastest response.</p>
+                </div>
+            </div>
+
+            <div class="faq-item fade-in">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                    <span class="faq-question-text">Do you offer free estimates?</span>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p class="faq-answer-text">Yes! All of our estimates are completely free with no obligation. We'll come to your property, assess the project scope, and provide a detailed written quote. There's never any pressure to commit.</p>
+                </div>
+            </div>
+
+            <div class="faq-item fade-in">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                    <span class="faq-question-text">What areas do you serve?</span>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p class="faq-answer-text">We serve {{CITY}} and all surrounding communities within a 30-mile radius. If you're unsure whether we cover your area, give us a call at {{PHONE}} and we'll be happy to confirm.</p>
+                </div>
+            </div>
+
+            <div class="faq-item fade-in">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                    <span class="faq-question-text">Are you licensed and insured?</span>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p class="faq-answer-text">Absolutely. We are fully licensed, bonded, and insured. We carry comprehensive general liability insurance and workers' compensation coverage. We're happy to provide proof of insurance upon request.</p>
+                </div>
+            </div>
+
+            <div class="faq-item fade-in">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                    <span class="faq-question-text">Do you offer emergency services?</span>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p class="faq-answer-text">Yes, we provide 24/7 emergency services for urgent situations. Call {{PHONE}} anytime and our emergency dispatch team will get a crew to your location as quickly as possible. Emergency rates may apply.</p>
+                </div>
+            </div>
+
+            <div class="faq-item fade-in">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                    <span class="faq-question-text">What payment methods do you accept?</span>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p class="faq-answer-text">We accept cash, checks, all major credit cards, and bank transfers. For larger projects, we also offer flexible financing options with approved credit. Payment terms are outlined in your project agreement.</p>
+                </div>
+            </div>
+
+            <div class="faq-item fade-in">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                    <span class="faq-question-text">Do you guarantee your work?</span>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p class="faq-answer-text">Yes. We stand behind every project with a written workmanship guarantee. The specific warranty period depends on the type of service, but we always ensure our customers are 100% satisfied with the finished result.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA BANNER ===== -->
+    <section class="cta-banner">
+        <div class="cta-banner-content fade-in">
+            <span class="cta-banner-emoji">&#128296;</span>
+            <h2 class="cta-banner-title">Ready To Get Started?</h2>
+            <p class="cta-banner-text">Don't wait &mdash; every day you delay could mean bigger problems and higher costs. Let our experts handle it right the first time.</p>
+            <a href="tel:{{PHONE}}" class="cta-banner-btn">Call {{PHONE}} Now &#9889;</a>
+            <span class="cta-banner-phone">Or <a href="mailto:{{EMAIL}}">email us</a> for a free estimate</span>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-brand">{{COMPANY_NAME}}</div>
+                <p class="footer-desc">Professional {{SERVICE_1}}, {{SERVICE_2}}, and more in {{CITY}}. Licensed, insured, and committed to quality craftsmanship on every project.</p>
+                <div class="footer-rating">
+                    <span class="footer-rating-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                    <span class="footer-rating-text">{{RATING}}/5 ({{REVIEW_COUNT}}+ reviews)</span>
+                </div>
+                <div class="footer-social" style="margin-top: 16px;">
+                    <a href="#" aria-label="Facebook">FB</a>
+                    <a href="#" aria-label="Instagram">IG</a>
+                    <a href="#" aria-label="Google">G</a>
+                    <a href="#" aria-label="Yelp">Y</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-title">Services</div>
+                <div class="footer-links">
+                    <a href="{{HOMEPAGE_URL}}#services">{{SERVICE_1}}</a>
+                    <a href="{{HOMEPAGE_URL}}#services">{{SERVICE_2}}</a>
+                    <a href="{{HOMEPAGE_URL}}#services">{{SERVICE_3}}</a>
+                    <a href="{{HOMEPAGE_URL}}#services">{{SERVICE_4}}</a>
+                    <a href="{{HOMEPAGE_URL}}#services">{{SERVICE_5}}</a>
+                    <a href="{{HOMEPAGE_URL}}#services">{{SERVICE_6}}</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-title">Contact</div>
+                <div class="footer-links">
+                    <a href="tel:{{PHONE}}">&#128222; {{PHONE}}</a>
+                    <a href="mailto:{{EMAIL}}">&#9993; {{EMAIL}}</a>
+                    <a href="#contact">&#128205; {{ADDRESS}}</a>
+                    <a href="#contact">&#128340; Mon-Fri 7AM-6PM</a>
+                    <a href="tel:{{PHONE}}">&#9889; 24/7 Emergency</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 {{COMPANY_NAME}}. All rights reserved. | Serving {{CITY}} and surrounding areas. | Licensed &amp; Insured</p>
+        </div>
+    </footer>
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script>
+        /* ============================================
+           TEMPLATE E - CONCRETE - Contact Page JS
+           ============================================ */
+
+        (function() {
+            'use strict';
+
+            /* ---- Mobile Menu Toggle ---- */
+            var hamburger = document.getElementById('hamburger');
+            var mobileMenu = document.getElementById('mobileMenu');
+            var mobileLinks = mobileMenu ? mobileMenu.querySelectorAll('a') : [];
+
+            if (hamburger && mobileMenu) {
+                hamburger.addEventListener('click', function() {
+                    hamburger.classList.toggle('active');
+                    mobileMenu.classList.toggle('open');
+                });
+
+                /* Close on link click */
+                for (var i = 0; i < mobileLinks.length; i++) {
+                    mobileLinks[i].addEventListener('click', function() {
+                        hamburger.classList.remove('active');
+                        mobileMenu.classList.remove('open');
+                    });
+                }
+
+                /* Close on outside click */
+                document.addEventListener('click', function(e) {
+                    if (!hamburger.contains(e.target) && !mobileMenu.contains(e.target)) {
+                        hamburger.classList.remove('active');
+                        mobileMenu.classList.remove('open');
+                    }
+                });
+            }
+
+            /* ---- Scroll-based Nav Shadow ---- */
+            var nav = document.getElementById('nav');
+            var scrollThreshold = 50;
+
+            function handleNavScroll() {
+                if (window.scrollY > scrollThreshold) {
+                    nav.classList.add('scrolled');
+                } else {
+                    nav.classList.remove('scrolled');
+                }
+            }
+
+            window.addEventListener('scroll', handleNavScroll, { passive: true });
+            handleNavScroll();
+
+            /* ---- Smooth Scroll for Anchor Links ---- */
+            var anchorLinks = document.querySelectorAll('a[href^="#"]');
+            for (var j = 0; j < anchorLinks.length; j++) {
+                anchorLinks[j].addEventListener('click', function(e) {
+                    var href = this.getAttribute('href');
+                    if (href === '#') return;
+                    var target = document.querySelector(href);
+                    if (target) {
+                        e.preventDefault();
+                        var navHeight = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--nav-height')) || 72;
+                        var targetTop = target.getBoundingClientRect().top + window.pageYOffset - navHeight;
+                        window.scrollTo({
+                            top: targetTop,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            }
+
+            /* ---- Fade-In on Scroll (Intersection Observer) ---- */
+            var fadeElements = document.querySelectorAll('.fade-in');
+
+            if ('IntersectionObserver' in window) {
+                var fadeObserver = new IntersectionObserver(function(entries) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('visible');
+                            fadeObserver.unobserve(entry.target);
+                        }
+                    });
+                }, {
+                    threshold: 0.15,
+                    rootMargin: '0px 0px -40px 0px'
+                });
+
+                fadeElements.forEach(function(el) {
+                    fadeObserver.observe(el);
+                });
+            } else {
+                /* Fallback: show everything */
+                fadeElements.forEach(function(el) {
+                    el.classList.add('visible');
+                });
+            }
+
+            /* ---- Contact Form Submit Handler ---- */
+            var contactForm = document.getElementById('contactForm');
+            var formSuccess = document.getElementById('formSuccess');
+            var formSubmitBtn = document.getElementById('formSubmitBtn');
+
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+
+                    var fullName = document.getElementById('fullName').value.trim();
+                    var email = document.getElementById('email').value.trim();
+                    var phone = document.getElementById('phone').value.trim();
+                    var service = document.getElementById('service').value;
+                    var message = document.getElementById('message').value.trim();
+
+                    /* Basic validation */
+                    if (!fullName || !email || !phone || !service) {
+                        alert('Please fill in all required fields.');
+                        return;
+                    }
+
+                    /* Email format check */
+                    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                    if (!emailRegex.test(email)) {
+                        alert('Please enter a valid email address.');
+                        return;
+                    }
+
+                    /* Phone format check */
+                    var phoneClean = phone.replace(/[\s\-\(\)\.]/g, '');
+                    if (phoneClean.length < 7) {
+                        alert('Please enter a valid phone number.');
+                        return;
+                    }
+
+                    /* Simulate form submission */
+                    formSubmitBtn.textContent = 'Sending...';
+                    formSubmitBtn.disabled = true;
+
+                    setTimeout(function() {
+                        contactForm.style.display = 'none';
+                        formSuccess.style.display = 'block';
+
+                        /* Scroll to success message */
+                        formSuccess.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+                        console.log('Contact form submitted:', {
+                            fullName: fullName,
+                            email: email,
+                            phone: phone,
+                            service: service,
+                            message: message
+                        });
+                    }, 1200);
+                });
+            }
+
+            /* ---- FAQ Accordion ---- */
+            var faqItems = document.querySelectorAll('.faq-item');
+
+            faqItems.forEach(function(item) {
+                var question = item.querySelector('.faq-question');
+
+                question.addEventListener('click', function() {
+                    var isOpen = item.classList.contains('open');
+
+                    /* Close all other items */
+                    faqItems.forEach(function(otherItem) {
+                        otherItem.classList.remove('open');
+                        var otherQuestion = otherItem.querySelector('.faq-question');
+                        if (otherQuestion) {
+                            otherQuestion.setAttribute('aria-expanded', 'false');
+                        }
+                    });
+
+                    /* Toggle current item */
+                    if (!isOpen) {
+                        item.classList.add('open');
+                        question.setAttribute('aria-expanded', 'true');
+                    }
+                });
+
+                /* Keyboard accessibility for FAQ */
+                question.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        question.click();
+                    }
+                });
+            });
+
+            /* ---- Keyboard Accessibility for Hamburger ---- */
+            if (hamburger) {
+                hamburger.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        hamburger.click();
+                    }
+                });
+            }
+
+            /* ---- Phone Number Click Tracking ---- */
+            var phoneLinks = document.querySelectorAll('a[href^="tel:"]');
+            phoneLinks.forEach(function(link) {
+                link.addEventListener('click', function() {
+                    console.log('Phone call initiated: {{PHONE}}');
+                });
+            });
+
+            /* ---- CTA Button Click Tracking ---- */
+            var ctaButtons = document.querySelectorAll('.form-submit, .nav-cta, .cta-banner-btn, .emergency-banner-phone');
+            ctaButtons.forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    console.log('CTA clicked:', this.textContent.trim());
+                });
+            });
+
+            /* ---- Real-time Form Validation Feedback ---- */
+            var formInputs = document.querySelectorAll('#contactForm input, #contactForm select, #contactForm textarea');
+
+            formInputs.forEach(function(input) {
+                input.addEventListener('blur', function() {
+                    if (this.required && !this.value.trim()) {
+                        this.style.borderColor = '#dc2626';
+                    } else {
+                        this.style.borderColor = '';
+                    }
+                });
+
+                input.addEventListener('focus', function() {
+                    this.style.borderColor = '';
+                });
+            });
+
+            /* ---- Auto-focus first form field on page load ---- */
+            var firstInput = document.getElementById('fullName');
+            if (firstInput && window.innerWidth > 768) {
+                setTimeout(function() {
+                    firstInput.focus();
+                }, 800);
+            }
+
+        })();
+    </script>
+</body>
+</html>

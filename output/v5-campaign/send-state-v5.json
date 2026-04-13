@@ -1,0 +1,422 @@
+{
+  "kapusicsgo@gmail.com": {
+    "sentAt": "2026-04-13T20:11:13.817Z",
+    "messageId": "05faac1f-709e-48ae-b437-decf2b4aed2b",
+    "company": "Sunset Dental Care",
+    "subject": "Quick chatbot idea for Sunset Dental Care",
+    "city": "Test City",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "kapusigergo14@gmail.com": {
+    "sentAt": "2026-04-13T20:23:25.074Z",
+    "messageId": "9c6f5bc0-fc11-42f7-b3d8-4907abdf5c7e",
+    "company": "Sunset Dental Care",
+    "subject": "Quick chatbot idea for Sunset Dental Care",
+    "city": "Test City",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "drpoulossteven@yahoo.com": {
+    "sentAt": "2026-04-13T20:25:58.011Z",
+    "messageId": "7a5a5b16-2d37-4c2e-8838-c0ceeb53aa10",
+    "company": "My Scottsdale Dentist Orthodontics & Implants",
+    "subject": "Quick chatbot idea for My Scottsdale Dentist Orthodontics",
+    "city": "Scottsdale",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "info@northscottsdaledentistry.com": {
+    "sentAt": "2026-04-13T20:26:04.032Z",
+    "messageId": "31a9b460-d246-436b-8337-95b92cbcd99d",
+    "company": "North Scottsdale Dentistry",
+    "subject": "North Scottsdale Dentistry — missing chatbot?",
+    "city": "Scottsdale",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 3
+  },
+  "info@azdmd.com": {
+    "sentAt": "2026-04-13T20:26:10.368Z",
+    "messageId": "f8ae1796-762b-4595-891b-cd7b83d48698",
+    "company": "Aesthetic Dentistry of Scottsdale",
+    "subject": "Noticed something about Aesthetic Dentistry of Scottsdale's site",
+    "city": "Scottsdale",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "office@nwdentalcenter.com": {
+    "sentAt": "2026-04-13T20:26:15.992Z",
+    "messageId": "6949ccf1-8ada-4478-a2cd-bc62d1374b7f",
+    "company": "Northwest Dental Center",
+    "subject": "Quick chatbot idea for Northwest Dental Center",
+    "city": "Boise",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "office@boisedentalarts.com": {
+    "sentAt": "2026-04-13T20:26:21.539Z",
+    "messageId": "dd509916-adfc-4dfb-a7e8-29771f22160a",
+    "company": "Boise Dental Arts",
+    "subject": "Boise Dental Arts — missing chatbot?",
+    "city": "Boise",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 3
+  },
+  "davegreendds@gmail.com": {
+    "sentAt": "2026-04-13T20:26:27.150Z",
+    "messageId": "4c53c837-c086-439d-9ddb-c28ca2d06478",
+    "company": "Dental Care Center",
+    "subject": "Noticed something about Dental Care Center's site",
+    "city": "Boise",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 3
+  },
+  "office@boisebenchdentistry.com": {
+    "sentAt": "2026-04-13T20:26:32.715Z",
+    "messageId": "20c5dd85-23af-4a5d-9f57-3f45185c2cfb",
+    "company": "Boise Bench Dentistry",
+    "subject": "Quick chatbot idea for Boise Bench Dentistry",
+    "city": "Boise",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "bmosh36@gmail.com": {
+    "sentAt": "2026-04-13T20:26:38.350Z",
+    "messageId": "c03d3f13-592c-4d6a-9483-b7abdca211d3",
+    "company": "KORsmiles Dental",
+    "subject": "KORsmiles Dental — missing chatbot?",
+    "city": "Scottsdale",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "stephanie@therenodentist.com": {
+    "sentAt": "2026-04-13T20:26:43.903Z",
+    "messageId": "7e59c73e-8c7f-4baa-9b63-3540ecc0803b",
+    "company": "The Reno Dentist",
+    "subject": "Noticed something about The Reno Dentist's site",
+    "city": "Reno",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 3
+  },
+  "info@salafamilydentistry.com": {
+    "sentAt": "2026-04-13T20:26:49.613Z",
+    "messageId": "ca21f2db-f3fa-4131-9fce-8267a2f75430",
+    "company": "Sala Family Dentistry",
+    "subject": "Quick chatbot idea for Sala Family Dentistry",
+    "city": "Reno",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "villagedentalreno@gmail.com": {
+    "sentAt": "2026-04-13T20:26:55.343Z",
+    "messageId": "a5e8c060-f759-4dec-83d9-4a4ea05a346b",
+    "company": "Village Dental Cosmetic & General Dentistry",
+    "subject": "Village Dental Cosmetic & — missing chatbot?",
+    "city": "Reno",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "manager@atenciodds.com": {
+    "sentAt": "2026-04-13T20:27:01.275Z",
+    "messageId": "4f4e8316-6f1c-4acb-9d8d-2330f18af23a",
+    "company": "Atencio Dentistry",
+    "subject": "Noticed something about Atencio Dentistry's site",
+    "city": "Reno",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "info@wellbeyonddental.com": {
+    "sentAt": "2026-04-13T20:27:06.924Z",
+    "messageId": "0a413c91-283f-4fbd-830b-8fb1917ef9be",
+    "company": "Well Beyond Dental",
+    "subject": "Quick chatbot idea for Well Beyond Dental",
+    "city": "Reno",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "smile@maplegrovedentistry.net": {
+    "sentAt": "2026-04-13T20:27:12.544Z",
+    "messageId": "d3f6d01e-4b5a-496d-9cb2-1aa76402312c",
+    "company": "Maple Grove Dentistry",
+    "subject": "Maple Grove Dentistry — missing chatbot?",
+    "city": "Boise",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "info@westsidedentalstudionv.com": {
+    "sentAt": "2026-04-13T20:27:18.205Z",
+    "messageId": "6f6ea1fb-8ee6-4fd9-b08c-4154a87b181a",
+    "company": "Westside Dental Studio",
+    "subject": "Noticed something about Westside Dental Studio's site",
+    "city": "Reno",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "idahostreetdental@gmail.com": {
+    "sentAt": "2026-04-13T20:27:23.744Z",
+    "messageId": "2dfcd402-a22b-4b31-809a-fd9d4e6913d1",
+    "company": "Idaho Street Dental",
+    "subject": "Quick chatbot idea for Idaho Street Dental",
+    "city": "Boise",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "info@westplainsdds.com": {
+    "sentAt": "2026-04-13T20:27:29.420Z",
+    "messageId": "9966acc5-2243-47f6-8b40-4f44839d008c",
+    "company": "5th Avenue Dental",
+    "subject": "5th Avenue Dental — missing chatbot?",
+    "city": "Spokane",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "office@logansmithdds.com": {
+    "sentAt": "2026-04-13T20:27:35.272Z",
+    "messageId": "3802118b-45a1-4858-b4c8-991d604c09af",
+    "company": "Smith Dental Group",
+    "subject": "Noticed something about Smith Dental Group's site",
+    "city": "Reno",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "info@ddentistryreno.com": {
+    "sentAt": "2026-04-13T20:27:40.895Z",
+    "messageId": "19e65833-ade2-42b9-b52d-83d3c1d3ef80",
+    "company": "D Dentistry - Dr. Dilan Munaweera DDS",
+    "subject": "Quick chatbot idea for D Dentistry",
+    "city": "Reno",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "appointments@drweigand.com": {
+    "sentAt": "2026-04-13T20:27:46.528Z",
+    "messageId": "d4588929-3892-42ac-82d7-bc941e6a50b8",
+    "company": "Richard D Weigand, DDS",
+    "subject": "Richard D Weigand DDS — missing chatbot?",
+    "city": "Spokane",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "info@dynamicdentalcare.com": {
+    "sentAt": "2026-04-13T20:27:52.189Z",
+    "messageId": "3f33bc9c-ca97-4cd0-9b7e-c40e133e84ba",
+    "company": "Dynamic Dental Care",
+    "subject": "Noticed something about Dynamic Dental Care's site",
+    "city": "Spokane",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 2
+  },
+  "info@dentalcareofspokane.com": {
+    "sentAt": "2026-04-13T20:27:58.216Z",
+    "messageId": "3948d118-0471-4fbb-9658-e2b973947e3e",
+    "company": "Dental Care of Spokane",
+    "subject": "Quick chatbot idea for Dental Care of Spokane",
+    "city": "Spokane",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "info@excellenceindentistry.com": {
+    "sentAt": "2026-04-13T20:28:03.775Z",
+    "messageId": "18d116f9-9d3d-4de6-8a60-ec1d49e5b23c",
+    "company": "Excellence in Dentistry - Madison",
+    "subject": "Excellence in Dentistry — missing chatbot?",
+    "city": "Madison",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "info@smilemorespokane.com": {
+    "sentAt": "2026-04-13T20:28:09.453Z",
+    "messageId": "fea35b80-3288-4309-adba-fe2a0e7009be",
+    "company": "Smile More Spokane Family Dentistry",
+    "subject": "Noticed something about Smile More Spokane Family's site",
+    "city": "Spokane",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 2
+  },
+  "info@artisandentalmadison.com": {
+    "sentAt": "2026-04-13T20:28:15.142Z",
+    "messageId": "dfc4e398-ec2f-4187-ad14-133d2126866a",
+    "company": "Artisan Dental, LLC",
+    "subject": "Quick chatbot idea for Artisan Dental LLC",
+    "city": "Madison",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "info@doorcreekdental.com": {
+    "sentAt": "2026-04-13T20:28:20.710Z",
+    "messageId": "91128941-4876-466b-bf33-ee64e08acfb8",
+    "company": "Door Creek Dental",
+    "subject": "Door Creek Dental — missing chatbot?",
+    "city": "Madison",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "info@wavelandfamilydental.com": {
+    "sentAt": "2026-04-13T20:28:26.288Z",
+    "messageId": "6e20d6d6-4ecb-4d1a-be9b-32fbfdbc680c",
+    "company": "Waveland Family Dental",
+    "subject": "Noticed something about Waveland Family Dental's site",
+    "city": "Des Moines",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "info@audubon-dental.com": {
+    "sentAt": "2026-04-13T20:28:31.897Z",
+    "messageId": "4e163716-6168-4509-acad-1e90de047035",
+    "company": "Audubon Dental | Cosmetic & Sedation Dentistry",
+    "subject": "Quick chatbot idea for Audubon Dental",
+    "city": "Spokane",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "info@dsmdentalcare.com": {
+    "sentAt": "2026-04-13T20:28:37.473Z",
+    "messageId": "b11896a4-34da-4556-a046-e4cf9402d627",
+    "company": "Des Moines Dental Care",
+    "subject": "Des Moines Dental Care — missing chatbot?",
+    "city": "Des Moines",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "info@fleurdentistry.com": {
+    "sentAt": "2026-04-13T20:28:43.080Z",
+    "messageId": "f02ca9a3-bc16-442f-8687-fca75f379bf2",
+    "company": "Fleur Dentistry",
+    "subject": "Noticed something about Fleur Dentistry's site",
+    "city": "Des Moines",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "fortdsmdental@gmail.com": {
+    "sentAt": "2026-04-13T20:28:48.682Z",
+    "messageId": "4fd5bd6d-fb54-4c9d-9e5d-d8bbdcfe54ea",
+    "company": "Fort Des Moines Dental",
+    "subject": "Quick chatbot idea for Fort Des Moines Dental",
+    "city": "Des Moines",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "schroederdentistry@gmail.com": {
+    "sentAt": "2026-04-13T20:28:54.536Z",
+    "messageId": "2bdd3f55-5ee0-48c8-a6c8-eab2b20f03a2",
+    "company": "Schroeder Cosmetic & Family Dentistry",
+    "subject": "Schroeder Cosmetic & Family — missing chatbot?",
+    "city": "Lexington",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "desmoines@emergencydental.com": {
+    "sentAt": "2026-04-13T20:29:00.430Z",
+    "messageId": "b938586b-f15e-4a23-90a1-f633de04d3b2",
+    "company": "Emergency Dental Care USA",
+    "subject": "Noticed something about Emergency Dental Care USA's site",
+    "city": "Des Moines",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 3
+  },
+  "parkhillsdentistry@gmail.com": {
+    "sentAt": "2026-04-13T20:29:06.117Z",
+    "messageId": "97084458-3583-454d-9a54-d7156261c23a",
+    "company": "Park Hills Dentistry",
+    "subject": "Quick chatbot idea for Park Hills Dentistry",
+    "city": "Lexington",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "jeffwking12@aol.com": {
+    "sentAt": "2026-04-13T20:29:11.998Z",
+    "messageId": "55a13147-153f-41de-af7f-453751100626",
+    "company": "Tates Creek Dental",
+    "subject": "Tates Creek Dental — missing chatbot?",
+    "city": "Lexington",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 2
+  },
+  "thesmilelexington@gmail.com": {
+    "sentAt": "2026-04-13T20:29:17.553Z",
+    "messageId": "a6f3c131-1b70-469f-bc3a-a24db71f73ee",
+    "company": "The Smile Lexington",
+    "subject": "Noticed something about The Smile Lexington's site",
+    "city": "Lexington",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "huntsvilleinfo@lifedentalgroup.com": {
+    "sentAt": "2026-04-13T20:29:23.272Z",
+    "messageId": "2ad22258-9979-4eda-a5b7-7d56e4896797",
+    "company": "Huntsville Dental",
+    "subject": "Quick chatbot idea for Huntsville Dental",
+    "city": "Huntsville",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 3
+  },
+  "info@tlcdentistry.net": {
+    "sentAt": "2026-04-13T20:29:28.885Z",
+    "messageId": "7d0ba8df-5fa3-4776-9a92-d305df8aec38",
+    "company": "TLC Dentistry",
+    "subject": "TLC Dentistry — missing chatbot?",
+    "city": "Lexington",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "dr.aprillenelson@gmail.com": {
+    "sentAt": "2026-04-13T20:29:34.800Z",
+    "messageId": "21741d2b-d14e-4412-a5f0-616e41e1530a",
+    "company": "Broadway Family & Cosmetic Dentistry",
+    "subject": "Noticed something about Broadway Family & Cosmetic's site",
+    "city": "Lexington",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "webreporting@gargle.com": {
+    "sentAt": "2026-04-13T20:29:40.482Z",
+    "messageId": "7fa2f1f2-79e2-4d51-af7f-2a185d38545f",
+    "company": "Vibe Dental Huntsville",
+    "subject": "Quick chatbot idea for Vibe Dental Huntsville",
+    "city": "Huntsville",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  }
+}

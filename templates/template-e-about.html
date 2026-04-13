@@ -1,0 +1,2077 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | {{COMPANY_NAME}} - Trusted Pros in {{CITY}}</title>
+    <meta name="description" content="Learn about {{COMPANY_NAME}}, our story, team, and values. Professional {{SERVICE_1}} &amp; {{SERVICE_2}} services in {{CITY}}. Licensed &amp; Insured.">
+    <style>
+        /* ============================================
+           TEMPLATE E - CONCRETE (Industrial Minimal)
+           About Us Subpage
+           Light, airy, construction-yellow accents
+           ============================================ */
+
+        :root {
+            --primary: {{PRIMARY_COLOR}};
+            --accent: {{ACCENT_COLOR}};
+            --bg: {{BG_COLOR}};
+            --text: {{TEXT_COLOR}};
+            --card-bg: #ffffff;
+            --concrete: #f0f0ec;
+            --yellow: #eab308;
+            --yellow-dark: #d4a007;
+            --yellow-light: rgba(234, 179, 8, 0.12);
+            --black: #1a1a1a;
+            --gray-100: #f7f7f5;
+            --gray-200: #e8e8e4;
+            --gray-300: #d4d4cf;
+            --gray-400: #9a9a95;
+            --gray-500: #6b6b66;
+            --nav-height: 72px;
+            --radius: 4px;
+            --radius-lg: 8px;
+            --transition: 0.3s ease;
+            --transition-fast: 0.15s ease;
+            --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+            --shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+            --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12);
+            --shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.15);
+            --yellow-glow: 0 0 20px rgba(234, 179, 8, 0.3);
+            --max-width: 1200px;
+        }
+
+        /* ---- RESET & BASE ---- */
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: var(--nav-height);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--concrete);
+            color: var(--black);
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: color var(--transition);
+        }
+
+        ul, ol {
+            list-style: none;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        button, input, textarea, select {
+            font-family: inherit;
+            font-size: inherit;
+            border: none;
+            outline: none;
+            background: none;
+        }
+
+        .container {
+            width: 100%;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .section-label {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--yellow);
+            margin-bottom: 12px;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--black);
+            line-height: 1.15;
+            margin-bottom: 16px;
+            letter-spacing: -0.5px;
+        }
+
+        .section-subtitle {
+            font-size: 1.1rem;
+            color: var(--gray-500);
+            line-height: 1.7;
+            max-width: 600px;
+        }
+
+        .accent-line {
+            width: 80px;
+            height: 5px;
+            background: var(--yellow);
+            border-radius: 3px;
+        }
+
+        .accent-line-center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* ---- NAVIGATION ---- */
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: var(--nav-height);
+            background: #ffffff;
+            z-index: 1000;
+            transition: box-shadow var(--transition);
+        }
+
+        .nav.scrolled {
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100%;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .nav-logo {
+            font-size: 1.35rem;
+            font-weight: 800;
+            color: var(--black);
+            letter-spacing: -0.5px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .nav-logo span {
+            color: var(--yellow);
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+
+        .nav-links a {
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--gray-500);
+            transition: color var(--transition);
+            position: relative;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--black);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--yellow);
+            transition: width var(--transition);
+        }
+
+        .nav-links a:hover::after,
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .nav-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 24px;
+            background: linear-gradient(135deg, var(--black) 0%, #2a2a2a 100%);
+            color: #ffffff;
+            font-size: 0.875rem;
+            font-weight: 600;
+            border-radius: var(--radius);
+            cursor: pointer;
+            transition: all var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .nav-cta::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--yellow);
+            transform: scaleX(0);
+            transition: transform var(--transition);
+        }
+
+        .nav-cta:hover::after {
+            transform: scaleX(1);
+        }
+
+        .nav-cta:hover {
+            background: linear-gradient(135deg, #2a2a2a 0%, #3a3a3a 100%);
+            transform: translateY(-1px) scale(1.05);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Mobile hamburger */
+        .nav-hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            padding: 4px;
+            z-index: 1001;
+        }
+
+        .nav-hamburger span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: var(--black);
+            transition: all var(--transition);
+            border-radius: 2px;
+        }
+
+        .nav-hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+
+        .nav-hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .nav-hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -5px);
+        }
+
+        /* Mobile menu */
+        .nav-mobile {
+            display: none;
+            position: fixed;
+            top: var(--nav-height);
+            left: 0;
+            width: 100%;
+            background: #ffffff;
+            padding: 24px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            z-index: 999;
+            flex-direction: column;
+            gap: 0;
+        }
+
+        .nav-mobile.open {
+            display: flex;
+        }
+
+        .nav-mobile a {
+            display: block;
+            padding: 14px 0;
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--black);
+            border-bottom: 1px solid var(--gray-200);
+            transition: color var(--transition);
+        }
+
+        .nav-mobile a:last-child {
+            border-bottom: none;
+        }
+
+        .nav-mobile a:hover {
+            color: var(--yellow);
+        }
+
+        /* ---- HERO / PAGE HEADER ---- */
+        .page-hero {
+            padding-top: calc(var(--nav-height) + 80px);
+            padding-bottom: 80px;
+            background: var(--concrete);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .page-hero::before {
+            content: '';
+            position: absolute;
+            top: -60px;
+            right: -80px;
+            width: 350px;
+            height: 350px;
+            background: var(--yellow);
+            opacity: 0.04;
+            border-radius: var(--radius);
+            transform: rotate(15deg);
+            pointer-events: none;
+        }
+
+        .page-hero::after {
+            content: '';
+            position: absolute;
+            bottom: -40px;
+            left: -60px;
+            width: 250px;
+            height: 250px;
+            background: var(--gray-300);
+            opacity: 0.08;
+            border-radius: var(--radius);
+            transform: rotate(-8deg);
+            pointer-events: none;
+        }
+
+        .page-hero .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .page-hero-breadcrumb {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            font-size: 0.85rem;
+            color: var(--gray-400);
+            margin-bottom: 24px;
+        }
+
+        .page-hero-breadcrumb a {
+            color: var(--gray-500);
+            transition: color var(--transition);
+        }
+
+        .page-hero-breadcrumb a:hover {
+            color: var(--yellow);
+        }
+
+        .page-hero-breadcrumb .separator {
+            color: var(--gray-300);
+            font-size: 0.7rem;
+        }
+
+        .page-hero-breadcrumb .current {
+            color: var(--black);
+            font-weight: 600;
+        }
+
+        .page-hero .accent-line {
+            margin: 20px auto 24px auto;
+        }
+
+        /* ---- OUR STORY SECTION ---- */
+        .story {
+            padding: 100px 0;
+            background: #ffffff;
+            border-top: 1px solid var(--gray-200);
+        }
+
+        .story-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 64px;
+            align-items: center;
+        }
+
+        .story-image {
+            position: relative;
+            height: 440px;
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+        }
+
+        .story-image-main {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(145deg, var(--gray-200) 0%, var(--gray-300) 100%);
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .story-image-main::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 40px,
+                rgba(234, 179, 8, 0.03) 40px,
+                rgba(234, 179, 8, 0.03) 80px
+            );
+        }
+
+        .story-image-icon {
+            font-size: 4rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        .story-image-badge {
+            position: absolute;
+            bottom: 24px;
+            right: 24px;
+            background: var(--yellow);
+            color: var(--black);
+            padding: 14px 24px;
+            border-radius: var(--radius);
+            font-weight: 800;
+            font-size: 0.95rem;
+            box-shadow: var(--shadow);
+            z-index: 3;
+        }
+
+        .story-image-badge span {
+            display: block;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            opacity: 0.7;
+        }
+
+        .story-content h3 {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: var(--black);
+            line-height: 1.3;
+            margin-bottom: 20px;
+        }
+
+        .story-content p {
+            font-size: 1rem;
+            color: var(--gray-500);
+            line-height: 1.8;
+            margin-bottom: 16px;
+        }
+
+        .story-content p:last-of-type {
+            margin-bottom: 32px;
+        }
+
+        .story-highlights {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-top: 32px;
+        }
+
+        .story-highlight {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px 16px;
+            background: var(--concrete);
+            border-radius: var(--radius);
+            transition: all var(--transition);
+        }
+
+        .story-highlight:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .story-highlight-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: var(--radius);
+            background: var(--yellow-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            flex-shrink: 0;
+        }
+
+        .story-highlight-text {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--black);
+        }
+
+        /* ---- MISSION & VISION SECTION ---- */
+        .mission {
+            padding: 100px 0;
+            background: var(--concrete);
+        }
+
+        .mission-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 32px;
+        }
+
+        .mission-card {
+            background: var(--card-bg);
+            border-radius: var(--radius-lg);
+            padding: 48px 40px;
+            box-shadow: var(--shadow-sm);
+            transition: all var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .mission-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: var(--yellow);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform var(--transition);
+        }
+
+        .mission-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .mission-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow);
+        }
+
+        .mission-card-icon {
+            width: 56px;
+            height: 56px;
+            border-radius: var(--radius);
+            background: var(--yellow-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 24px;
+        }
+
+        .mission-card h3 {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: var(--black);
+            margin-bottom: 16px;
+            letter-spacing: -0.3px;
+        }
+
+        .mission-card p {
+            font-size: 0.95rem;
+            color: var(--gray-500);
+            line-height: 1.75;
+        }
+
+        /* ---- TIMELINE SECTION ---- */
+        .timeline-section {
+            padding: 100px 0;
+            background: #ffffff;
+            border-top: 1px solid var(--gray-200);
+        }
+
+        .timeline-header {
+            text-align: center;
+            margin-bottom: 64px;
+        }
+
+        .timeline-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 3px;
+            height: 100%;
+            background: var(--gray-200);
+            border-radius: 2px;
+        }
+
+        .timeline-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 48px;
+            position: relative;
+        }
+
+        .timeline-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .timeline-item:nth-child(odd) {
+            flex-direction: row;
+        }
+
+        .timeline-item:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .timeline-content {
+            width: calc(50% - 40px);
+            background: var(--card-bg);
+            padding: 28px 24px;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-sm);
+            transition: all var(--transition);
+            position: relative;
+        }
+
+        .timeline-content:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow);
+        }
+
+        .timeline-item:nth-child(odd) .timeline-content {
+            margin-right: auto;
+        }
+
+        .timeline-item:nth-child(even) .timeline-content {
+            margin-left: auto;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: var(--yellow);
+            border: 4px solid #ffffff;
+            box-shadow: var(--shadow-sm);
+            z-index: 2;
+        }
+
+        .timeline-year {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--yellow);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 8px;
+        }
+
+        .timeline-content h4 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--black);
+            margin-bottom: 8px;
+        }
+
+        .timeline-content p {
+            font-size: 0.9rem;
+            color: var(--gray-500);
+            line-height: 1.65;
+        }
+
+        /* ---- TEAM SECTION ---- */
+        .team {
+            padding: 100px 0;
+            background: var(--concrete);
+        }
+
+        .team-header {
+            text-align: center;
+            margin-bottom: 64px;
+        }
+
+        .team-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 28px;
+        }
+
+        .team-card {
+            background: var(--card-bg);
+            border-radius: var(--radius-lg);
+            padding: 36px 24px;
+            text-align: center;
+            box-shadow: var(--shadow-sm);
+            transition: all var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .team-card::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--yellow);
+            transform: scaleX(0);
+            transition: transform var(--transition);
+        }
+
+        .team-card:hover::after {
+            transform: scaleX(1);
+        }
+
+        .team-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow);
+        }
+
+        .team-avatar {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            margin: 0 auto 24px auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .team-avatar-circle {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: linear-gradient(145deg, var(--gray-200) 0%, var(--gray-300) 60%, #c8c8c2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .team-avatar-circle::before {
+            content: '';
+            position: absolute;
+            top: 15%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            background: linear-gradient(145deg, var(--gray-300) 0%, #bbbbb5 100%);
+        }
+
+        .team-avatar-circle::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 40px;
+            border-radius: 50% 50% 0 0;
+            background: linear-gradient(145deg, var(--gray-300) 0%, #bbbbb5 100%);
+        }
+
+        .team-avatar-ring {
+            position: absolute;
+            top: -3px;
+            left: -3px;
+            width: calc(100% + 6px);
+            height: calc(100% + 6px);
+            border-radius: 50%;
+            border: 3px solid transparent;
+            transition: border-color var(--transition);
+        }
+
+        .team-card:hover .team-avatar-ring {
+            border-color: var(--yellow);
+        }
+
+        .team-name {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--black);
+            margin-bottom: 4px;
+        }
+
+        .team-role {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--yellow);
+            margin-bottom: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .team-bio {
+            font-size: 0.875rem;
+            color: var(--gray-500);
+            line-height: 1.65;
+        }
+
+        .team-social {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 18px;
+        }
+
+        .team-social a {
+            width: 32px;
+            height: 32px;
+            border-radius: var(--radius);
+            background: var(--concrete);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            color: var(--gray-500);
+            transition: all var(--transition);
+        }
+
+        .team-social a:hover {
+            background: var(--yellow);
+            color: var(--black);
+        }
+
+        /* ---- VALUES SECTION ---- */
+        .values {
+            padding: 100px 0;
+            background: #ffffff;
+            border-top: 1px solid var(--gray-200);
+        }
+
+        .values-header {
+            text-align: center;
+            margin-bottom: 64px;
+        }
+
+        .values-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 28px;
+        }
+
+        .value-card {
+            background: var(--card-bg);
+            border-radius: var(--radius-lg);
+            padding: 40px 28px;
+            text-align: center;
+            box-shadow: var(--shadow-sm);
+            transition: all var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .value-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 4px;
+            background: var(--yellow);
+            border-radius: 0 0 4px 4px;
+            transition: width var(--transition);
+        }
+
+        .value-card:hover::before {
+            width: 100%;
+        }
+
+        .value-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow);
+        }
+
+        .value-icon {
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            background: var(--yellow-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            margin: 0 auto 24px auto;
+            transition: all var(--transition);
+        }
+
+        .value-card:hover .value-icon {
+            background: var(--yellow);
+            box-shadow: var(--yellow-glow);
+            transform: scale(1.08);
+        }
+
+        .value-card h3 {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: var(--black);
+            margin-bottom: 12px;
+            letter-spacing: -0.3px;
+        }
+
+        .value-card p {
+            font-size: 0.9rem;
+            color: var(--gray-500);
+            line-height: 1.7;
+        }
+
+        /* ---- STATS / BY THE NUMBERS ---- */
+        .about-stats {
+            padding: 80px 0;
+            background: var(--black);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .about-stats::before {
+            content: '';
+            position: absolute;
+            top: -40px;
+            right: -40px;
+            width: 300px;
+            height: 300px;
+            background: var(--yellow);
+            opacity: 0.06;
+            border-radius: var(--radius);
+            transform: rotate(20deg);
+            pointer-events: none;
+        }
+
+        .about-stats::after {
+            content: '';
+            position: absolute;
+            bottom: -30px;
+            left: -30px;
+            width: 200px;
+            height: 200px;
+            background: var(--yellow);
+            opacity: 0.04;
+            border-radius: var(--radius);
+            transform: rotate(-15deg);
+            pointer-events: none;
+        }
+
+        .about-stats-header {
+            text-align: center;
+            margin-bottom: 56px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .about-stats-header .section-label {
+            color: var(--yellow);
+        }
+
+        .about-stats-header .section-title {
+            color: #ffffff;
+        }
+
+        .about-stats-header .section-subtitle {
+            color: rgba(255, 255, 255, 0.5);
+            margin: 0 auto;
+        }
+
+        .about-stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 32px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .about-stat-item {
+            text-align: center;
+            padding: 32px 16px;
+            border-radius: var(--radius-lg);
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: all var(--transition);
+        }
+
+        .about-stat-item:hover {
+            background: rgba(255, 255, 255, 0.08);
+            transform: translateY(-4px);
+            border-color: rgba(234, 179, 8, 0.3);
+        }
+
+        .about-stat-number {
+            font-size: 3rem;
+            font-weight: 900;
+            color: var(--yellow);
+            line-height: 1;
+            margin-bottom: 8px;
+            letter-spacing: -1px;
+        }
+
+        .about-stat-label {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 6px;
+        }
+
+        .about-stat-desc {
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.4);
+            line-height: 1.5;
+        }
+
+        /* ---- CERTIFICATIONS SECTION ---- */
+        .certifications {
+            padding: 80px 0;
+            background: var(--concrete);
+        }
+
+        .certifications-header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .certifications-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .certifications-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+
+        .cert-card {
+            background: var(--card-bg);
+            border-radius: var(--radius-lg);
+            padding: 32px 20px;
+            text-align: center;
+            box-shadow: var(--shadow-sm);
+            transition: all var(--transition);
+            border: 1px solid var(--gray-200);
+        }
+
+        .cert-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow);
+            border-color: var(--yellow);
+        }
+
+        .cert-icon {
+            font-size: 2.2rem;
+            margin-bottom: 16px;
+        }
+
+        .cert-name {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--black);
+            margin-bottom: 6px;
+        }
+
+        .cert-desc {
+            font-size: 0.8rem;
+            color: var(--gray-400);
+            line-height: 1.5;
+        }
+
+        /* ---- CTA BANNER ---- */
+        .cta-banner {
+            padding: 80px 24px;
+            background: var(--yellow);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-banner::before {
+            content: '';
+            position: absolute;
+            top: -80px;
+            right: -80px;
+            width: 300px;
+            height: 300px;
+            background: rgba(0, 0, 0, 0.05);
+            border-radius: var(--radius);
+            transform: rotate(15deg);
+            pointer-events: none;
+        }
+
+        .cta-banner-content {
+            max-width: 700px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+
+        .cta-banner-emoji {
+            font-size: 3rem;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        .cta-banner-title {
+            font-size: 2.2rem;
+            font-weight: 900;
+            color: var(--black);
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: -0.5px;
+        }
+
+        .cta-banner-text {
+            font-size: 1.05rem;
+            color: rgba(26, 26, 26, 0.7);
+            line-height: 1.7;
+            margin-bottom: 32px;
+        }
+
+        .cta-banner-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 16px 40px;
+            background: linear-gradient(135deg, var(--black) 0%, #2a2a2a 100%);
+            color: #ffffff;
+            font-size: 1rem;
+            font-weight: 700;
+            border-radius: var(--radius);
+            cursor: pointer;
+            transition: all var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-banner-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .cta-banner-btn:hover::before {
+            left: 100%;
+        }
+
+        .cta-banner-btn:hover {
+            transform: translateY(-2px) scale(1.05);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+        }
+
+        .cta-banner-phone {
+            display: block;
+            margin-top: 20px;
+            font-size: 0.95rem;
+            color: rgba(26, 26, 26, 0.6);
+        }
+
+        .cta-banner-phone a {
+            color: var(--black);
+            font-weight: 700;
+            border-bottom: 2px solid rgba(26, 26, 26, 0.3);
+            transition: border-color var(--transition);
+        }
+
+        .cta-banner-phone a:hover {
+            border-color: var(--black);
+        }
+
+        /* ---- FOOTER ---- */
+        .footer {
+            padding: 60px 0 0 0;
+            background: var(--black);
+            color: #ffffff;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.4fr 1fr 1fr;
+            gap: 48px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .footer-brand {
+            font-size: 1.25rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+            letter-spacing: -0.5px;
+        }
+
+        .footer-brand span {
+            color: var(--yellow);
+        }
+
+        .footer-desc {
+            font-size: 0.875rem;
+            color: rgba(255, 255, 255, 0.5);
+            line-height: 1.7;
+            margin-bottom: 20px;
+            max-width: 300px;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 12px;
+        }
+
+        .footer-social a {
+            width: 36px;
+            height: 36px;
+            border-radius: var(--radius);
+            background: rgba(255, 255, 255, 0.08);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.6);
+            transition: all var(--transition);
+        }
+
+        .footer-social a:hover {
+            background: var(--yellow);
+            color: var(--black);
+        }
+
+        .footer-col-title {
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .footer-links a {
+            font-size: 0.9rem;
+            color: var(--yellow);
+            transition: all var(--transition);
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .footer-links a:hover {
+            color: #ffffff;
+            transform: translateX(4px);
+        }
+
+        .footer-bottom {
+            margin-top: 48px;
+            padding: 20px 24px;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            text-align: center;
+        }
+
+        .footer-bottom p {
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.35);
+        }
+
+        .footer-rating {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 16px;
+        }
+
+        .footer-rating-stars {
+            color: var(--yellow);
+            font-size: 0.9rem;
+        }
+
+        .footer-rating-text {
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        /* ---- FADE-IN ANIMATION ---- */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ---- RESPONSIVE 768px ---- */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .nav-hamburger {
+                display: flex;
+            }
+
+            .section-title {
+                font-size: 1.9rem;
+            }
+
+            .page-hero {
+                padding-top: calc(var(--nav-height) + 48px);
+                padding-bottom: 56px;
+            }
+
+            .story-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .story-image {
+                height: 280px;
+            }
+
+            .story-highlights {
+                grid-template-columns: 1fr;
+            }
+
+            .mission-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .mission-card {
+                padding: 36px 28px;
+            }
+
+            .timeline::before {
+                left: 20px;
+            }
+
+            .timeline-item,
+            .timeline-item:nth-child(odd),
+            .timeline-item:nth-child(even) {
+                flex-direction: row;
+                padding-left: 52px;
+            }
+
+            .timeline-content {
+                width: 100%;
+            }
+
+            .timeline-item:nth-child(odd) .timeline-content,
+            .timeline-item:nth-child(even) .timeline-content {
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+            .timeline-dot {
+                left: 20px;
+                transform: translateX(-50%);
+            }
+
+            .team-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+            }
+
+            .team-card {
+                padding: 28px 16px;
+            }
+
+            .team-avatar {
+                width: 90px;
+                height: 90px;
+            }
+
+            .values-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 16px;
+            }
+
+            .value-card {
+                padding: 32px 20px;
+            }
+
+            .about-stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 16px;
+            }
+
+            .about-stat-number {
+                font-size: 2.2rem;
+            }
+
+            .certifications-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 16px;
+            }
+
+            .cta-banner-title {
+                font-size: 1.8rem;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+
+            .container {
+                padding: 0 16px;
+            }
+        }
+
+        /* ---- RESPONSIVE 480px ---- */
+        @media (max-width: 480px) {
+            .section-title {
+                font-size: 1.6rem;
+            }
+
+            .team-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .values-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .about-stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .certifications-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-banner-title {
+                font-size: 1.5rem;
+            }
+
+            .cta-banner-btn {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .timeline-item,
+            .timeline-item:nth-child(odd),
+            .timeline-item:nth-child(even) {
+                padding-left: 44px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="template-e.html" class="nav-logo">
+                {{COMPANY_NAME}}
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="template-e.html">Home</a>
+                <a href="template-e.html#services">Services</a>
+                <a href="template-e-about.html" class="active">About</a>
+                <a href="template-e.html#testimonials">Reviews</a>
+                <a href="template-e.html#contact">Contact</a>
+            </div>
+            <a href="template-e.html#contact" class="nav-cta">{{CTA_TEXT}}</a>
+            <div class="nav-hamburger" id="hamburger" aria-label="Toggle menu" role="button" tabindex="0">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="nav-mobile" id="mobileMenu">
+            <a href="template-e.html">Home</a>
+            <a href="template-e.html#services">Services</a>
+            <a href="template-e-about.html" class="active">About Us</a>
+            <a href="template-e.html#testimonials">Reviews</a>
+            <a href="template-e.html#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- ===== PAGE HERO ===== -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-breadcrumb fade-in">
+                <a href="template-e.html">Home</a>
+                <span class="separator">/</span>
+                <span class="current">About Us</span>
+            </div>
+            <span class="section-label fade-in">Who We Are</span>
+            <h1 class="section-title fade-in">About {{COMPANY_NAME}}</h1>
+            <div class="accent-line accent-line-center fade-in"></div>
+            <p class="section-subtitle fade-in">Built on trust, driven by craftsmanship. Learn what makes us the preferred choice for professional services in {{CITY}} and the surrounding communities.</p>
+        </div>
+    </section>
+
+    <!-- ===== OUR STORY ===== -->
+    <section class="story" id="our-story">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-image fade-in">
+                    <div class="story-image-main" aria-label="{{COMPANY_NAME}} team at work">
+                        <span class="story-image-icon">🏗️</span>
+                    </div>
+                    <div class="story-image-badge">
+                        Est. {{YEAR_FOUNDED}}
+                        <span>Serving {{CITY}}</span>
+                    </div>
+                </div>
+                <div class="story-content fade-in">
+                    <span class="section-label">Our Story</span>
+                    <h2 class="section-title">How It All Started</h2>
+                    <div class="accent-line" style="margin-bottom: 24px;"></div>
+                    <p>{{COMPANY_NAME}} was founded with a simple but powerful idea: deliver honest, quality workmanship that homeowners and businesses in {{CITY}} can count on. What started as a small operation has grown into one of the most trusted names in the local trade industry.</p>
+                    <p>From our humble beginnings, we have always believed that every project deserves the same level of care and attention to detail, whether it is a small residential repair or a large commercial installation. That commitment has earned us the loyalty of thousands of customers across {{CITY}} and the surrounding areas.</p>
+                    <p>Today, our team of skilled professionals continues to uphold the values that built this company: integrity, hard work, and an unwavering dedication to customer satisfaction. We do not just complete projects, we build lasting relationships.</p>
+                    <div class="story-highlights">
+                        <div class="story-highlight">
+                            <div class="story-highlight-icon">🏠</div>
+                            <div class="story-highlight-text">Locally Owned &amp; Operated</div>
+                        </div>
+                        <div class="story-highlight">
+                            <div class="story-highlight-icon">📋</div>
+                            <div class="story-highlight-text">Fully Licensed &amp; Insured</div>
+                        </div>
+                        <div class="story-highlight">
+                            <div class="story-highlight-icon">⭐</div>
+                            <div class="story-highlight-text">{{RATING}}/5 Average Rating</div>
+                        </div>
+                        <div class="story-highlight">
+                            <div class="story-highlight-icon">⚡</div>
+                            <div class="story-highlight-text">Fast &amp; Reliable Service</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MISSION & VISION ===== -->
+    <section class="mission" id="mission">
+        <div class="container">
+            <div class="mission-grid">
+                <div class="mission-card fade-in">
+                    <div class="mission-card-icon">🎯</div>
+                    <h3>Our Mission</h3>
+                    <p>To provide {{CITY}} homeowners and businesses with exceptional {{SERVICE_1}} and {{SERVICE_2}} services at fair prices, backed by honest communication and workmanship you can trust. We measure our success not just in completed projects, but in the confidence our clients have in recommending us to their neighbors and colleagues.</p>
+                </div>
+                <div class="mission-card fade-in">
+                    <div class="mission-card-icon">🔭</div>
+                    <h3>Our Vision</h3>
+                    <p>To be the most trusted and respected trade service provider in the {{CITY}} area, known for setting the standard in quality, reliability, and customer care. We are building a company that our team is proud to work for and that our community is proud to call their own.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== COMPANY TIMELINE ===== -->
+    <section class="timeline-section" id="timeline">
+        <div class="container">
+            <div class="timeline-header fade-in">
+                <span class="section-label">Our Journey</span>
+                <h2 class="section-title">Milestones &amp; Growth</h2>
+                <div class="accent-line accent-line-center" style="margin: 16px auto 20px auto;"></div>
+                <p class="section-subtitle">From our founding to today, every milestone reflects our commitment to excellence in {{CITY}}.</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">{{YEAR_FOUNDED}}</div>
+                        <h4>Company Founded</h4>
+                        <p>{{COMPANY_NAME}} was established in {{CITY}} with a small crew and a big vision for quality trade services in the community.</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">Year 2</div>
+                        <h4>Expanded Our Services</h4>
+                        <p>Growing demand led us to add {{SERVICE_2}} and {{SERVICE_3}} to our offerings, allowing us to serve more homeowners across {{CITY}}.</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">Year 5</div>
+                        <h4>100th Project Completed</h4>
+                        <p>We celebrated our 100th completed project, a testament to the trust the {{CITY}} community has placed in our team and craftsmanship.</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">Present</div>
+                        <h4>Industry Leaders in {{CITY}}</h4>
+                        <p>With {{REVIEW_COUNT}}+ five-star reviews and a growing team, {{COMPANY_NAME}} continues to set the standard for professional services in the region.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TEAM SECTION ===== -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="team-header fade-in">
+                <span class="section-label">The Crew</span>
+                <h2 class="section-title">Meet Our Team</h2>
+                <div class="accent-line accent-line-center" style="margin: 16px auto 20px auto;"></div>
+                <p class="section-subtitle">Our experienced professionals bring dedication and expertise to every project. Get to know the people behind {{COMPANY_NAME}}.</p>
+            </div>
+            <div class="team-grid">
+                <!-- Team Member 1 -->
+                <div class="team-card fade-in">
+                    <div class="team-avatar">
+                        <div class="team-avatar-circle" aria-label="Team member portrait placeholder"></div>
+                        <div class="team-avatar-ring"></div>
+                    </div>
+                    <div class="team-name">{{OWNER_NAME}}</div>
+                    <div class="team-role">Founder &amp; CEO</div>
+                    <p class="team-bio">With over 15 years of industry experience, {{OWNER_NAME}} founded {{COMPANY_NAME}} on the principles of quality craftsmanship and honest service.</p>
+                    <div class="team-social">
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Email">@</a>
+                    </div>
+                </div>
+                <!-- Team Member 2 -->
+                <div class="team-card fade-in">
+                    <div class="team-avatar">
+                        <div class="team-avatar-circle" aria-label="Team member portrait placeholder"></div>
+                        <div class="team-avatar-ring"></div>
+                    </div>
+                    <div class="team-name">Mike Thompson</div>
+                    <div class="team-role">Operations Manager</div>
+                    <p class="team-bio">Mike oversees daily operations and scheduling, ensuring every project in {{CITY}} runs smoothly from start to finish with zero delays.</p>
+                    <div class="team-social">
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Email">@</a>
+                    </div>
+                </div>
+                <!-- Team Member 3 -->
+                <div class="team-card fade-in">
+                    <div class="team-avatar">
+                        <div class="team-avatar-circle" aria-label="Team member portrait placeholder"></div>
+                        <div class="team-avatar-ring"></div>
+                    </div>
+                    <div class="team-name">Sarah Martinez</div>
+                    <div class="team-role">Lead Technician</div>
+                    <p class="team-bio">Sarah brings 10+ years of hands-on expertise in {{SERVICE_1}} and {{SERVICE_2}}, leading our skilled field crew on every job site.</p>
+                    <div class="team-social">
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Email">@</a>
+                    </div>
+                </div>
+                <!-- Team Member 4 -->
+                <div class="team-card fade-in">
+                    <div class="team-avatar">
+                        <div class="team-avatar-circle" aria-label="Team member portrait placeholder"></div>
+                        <div class="team-avatar-ring"></div>
+                    </div>
+                    <div class="team-name">David Chen</div>
+                    <div class="team-role">Customer Relations</div>
+                    <p class="team-bio">David is your first point of contact. He manages estimates, consultations, and ensures every client in {{CITY}} gets a five-star experience.</p>
+                    <div class="team-social">
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Email">@</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CORE VALUES ===== -->
+    <section class="values" id="values">
+        <div class="container">
+            <div class="values-header fade-in">
+                <span class="section-label">What Drives Us</span>
+                <h2 class="section-title">Our Core Values</h2>
+                <div class="accent-line accent-line-center" style="margin: 16px auto 20px auto;"></div>
+                <p class="section-subtitle">These four principles guide every decision we make and every project we deliver for our clients in {{CITY}}.</p>
+            </div>
+            <div class="values-grid">
+                <!-- Value 1: Quality -->
+                <div class="value-card fade-in">
+                    <div class="value-icon">🏆</div>
+                    <h3>Quality</h3>
+                    <p>We never cut corners. Every material is carefully selected, every technique is proven, and every finished project meets our exacting standards. Quality is not just a goal, it is our baseline.</p>
+                </div>
+                <!-- Value 2: Reliability -->
+                <div class="value-card fade-in">
+                    <div class="value-icon">🤝</div>
+                    <h3>Reliability</h3>
+                    <p>When we say we will be there, we are there. On time, on budget, and ready to work. Our clients trust us because we consistently deliver on our promises without excuses or delays.</p>
+                </div>
+                <!-- Value 3: Safety -->
+                <div class="value-card fade-in">
+                    <div class="value-icon">🛡️</div>
+                    <h3>Safety</h3>
+                    <p>Safety is non-negotiable on every job site. Our team follows strict safety protocols, maintains current certifications, and ensures every project meets or exceeds local building codes.</p>
+                </div>
+                <!-- Value 4: Experience -->
+                <div class="value-card fade-in">
+                    <div class="value-icon">⚡</div>
+                    <h3>Experience</h3>
+                    <p>With years of combined experience in {{SERVICE_1}}, {{SERVICE_2}}, and more, our team brings deep industry knowledge to solve complex challenges and deliver exceptional results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== STATS / BY THE NUMBERS ===== -->
+    <section class="about-stats" id="stats">
+        <div class="container">
+            <div class="about-stats-header fade-in">
+                <span class="section-label">By The Numbers</span>
+                <h2 class="section-title">Results That Speak</h2>
+                <p class="section-subtitle">Our track record in {{CITY}} speaks for itself. Here are the numbers behind our commitment to excellence.</p>
+            </div>
+            <div class="about-stats-grid">
+                <div class="about-stat-item fade-in">
+                    <div class="about-stat-number">{{REVIEW_COUNT}}+</div>
+                    <div class="about-stat-label">Happy Customers</div>
+                    <div class="about-stat-desc">Satisfied homeowners &amp; businesses across {{CITY}}</div>
+                </div>
+                <div class="about-stat-item fade-in">
+                    <div class="about-stat-number">{{RATING}}</div>
+                    <div class="about-stat-label">Star Rating</div>
+                    <div class="about-stat-desc">Average across Google, Yelp &amp; other platforms</div>
+                </div>
+                <div class="about-stat-item fade-in">
+                    <div class="about-stat-number">15+</div>
+                    <div class="about-stat-label">Years Experience</div>
+                    <div class="about-stat-desc">Combined expertise across all services</div>
+                </div>
+                <div class="about-stat-item fade-in">
+                    <div class="about-stat-number">24/7</div>
+                    <div class="about-stat-label">Emergency Service</div>
+                    <div class="about-stat-desc">Always available when you need us most</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CERTIFICATIONS & CREDENTIALS ===== -->
+    <section class="certifications" id="certifications">
+        <div class="container">
+            <div class="certifications-header fade-in">
+                <span class="section-label">Credentials</span>
+                <h2 class="section-title">Licensed &amp; Certified</h2>
+                <div class="accent-line accent-line-center" style="margin: 16px auto 20px auto;"></div>
+                <p class="section-subtitle">We invest in proper training and certifications so you can trust the quality and legality of every project.</p>
+            </div>
+            <div class="certifications-grid">
+                <div class="cert-card fade-in">
+                    <div class="cert-icon">📋</div>
+                    <div class="cert-name">State Licensed</div>
+                    <div class="cert-desc">Fully licensed contractor in compliance with all state regulations</div>
+                </div>
+                <div class="cert-card fade-in">
+                    <div class="cert-icon">🛡️</div>
+                    <div class="cert-name">Fully Insured</div>
+                    <div class="cert-desc">Comprehensive liability and workers compensation coverage</div>
+                </div>
+                <div class="cert-card fade-in">
+                    <div class="cert-icon">✅</div>
+                    <div class="cert-name">BBB Accredited</div>
+                    <div class="cert-desc">A+ rating with the Better Business Bureau for trust and integrity</div>
+                </div>
+                <div class="cert-card fade-in">
+                    <div class="cert-icon">🎓</div>
+                    <div class="cert-name">Ongoing Training</div>
+                    <div class="cert-desc">Team members receive continuous education on the latest industry practices</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA BANNER ===== -->
+    <section class="cta-banner">
+        <div class="cta-banner-content fade-in">
+            <span class="cta-banner-emoji">🏗️</span>
+            <h2 class="cta-banner-title">Ready to Work With Us?</h2>
+            <p class="cta-banner-text">Now that you know our story, let us show you what we can do. Contact {{COMPANY_NAME}} for a free, no-obligation estimate on your next project in {{CITY}}.</p>
+            <a href="template-e.html#contact" class="cta-banner-btn">{{CTA_TEXT}} &rarr;</a>
+            <span class="cta-banner-phone">Or call us directly: <a href="tel:{{PHONE}}">{{PHONE}}</a></span>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-brand">{{COMPANY_NAME}}</div>
+                <p class="footer-desc">Professional {{SERVICE_1}}, {{SERVICE_2}}, and more in {{CITY}}. Licensed, insured, and committed to quality craftsmanship on every project.</p>
+                <div class="footer-rating">
+                    <span class="footer-rating-stars">*****</span>
+                    <span class="footer-rating-text">{{RATING}}/5 ({{REVIEW_COUNT}}+ reviews)</span>
+                </div>
+                <div class="footer-social" style="margin-top: 16px;">
+                    <a href="#" aria-label="Facebook">FB</a>
+                    <a href="#" aria-label="Instagram">IG</a>
+                    <a href="#" aria-label="Google">G</a>
+                    <a href="#" aria-label="Yelp">Y</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-title">Services</div>
+                <div class="footer-links">
+                    <a href="template-e.html#services">{{SERVICE_1}}</a>
+                    <a href="template-e.html#services">{{SERVICE_2}}</a>
+                    <a href="template-e.html#services">{{SERVICE_3}}</a>
+                    <a href="template-e.html#services">{{SERVICE_4}}</a>
+                    <a href="template-e.html#services">{{SERVICE_5}}</a>
+                    <a href="template-e.html#services">{{SERVICE_6}}</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-title">Contact</div>
+                <div class="footer-links">
+                    <a href="tel:{{PHONE}}">{{PHONE}}</a>
+                    <a href="mailto:{{EMAIL}}">{{EMAIL}}</a>
+                    <a href="template-e.html#contact">{{ADDRESS}}</a>
+                    <a href="template-e.html#contact">Mon-Fri 7AM-6PM</a>
+                    <a href="template-e.html#contact">24/7 Emergency</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 {{COMPANY_NAME}}. All rights reserved. | Serving {{CITY}} and surrounding areas. | Licensed &amp; Insured</p>
+        </div>
+    </footer>
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script>
+        /* ============================================
+           TEMPLATE E - CONCRETE - About Page JS
+           ============================================ */
+
+        (function() {
+            'use strict';
+
+            /* ---- Mobile Menu Toggle ---- */
+            var hamburger = document.getElementById('hamburger');
+            var mobileMenu = document.getElementById('mobileMenu');
+            var mobileLinks = mobileMenu ? mobileMenu.querySelectorAll('a') : [];
+
+            if (hamburger && mobileMenu) {
+                hamburger.addEventListener('click', function() {
+                    hamburger.classList.toggle('active');
+                    mobileMenu.classList.toggle('open');
+                });
+
+                /* Close on link click */
+                for (var i = 0; i < mobileLinks.length; i++) {
+                    mobileLinks[i].addEventListener('click', function() {
+                        hamburger.classList.remove('active');
+                        mobileMenu.classList.remove('open');
+                    });
+                }
+
+                /* Close on outside click */
+                document.addEventListener('click', function(e) {
+                    if (!hamburger.contains(e.target) && !mobileMenu.contains(e.target)) {
+                        hamburger.classList.remove('active');
+                        mobileMenu.classList.remove('open');
+                    }
+                });
+            }
+
+            /* ---- Scroll-based Nav Shadow ---- */
+            var nav = document.getElementById('nav');
+            var scrollThreshold = 50;
+
+            function handleNavScroll() {
+                if (window.scrollY > scrollThreshold) {
+                    nav.classList.add('scrolled');
+                } else {
+                    nav.classList.remove('scrolled');
+                }
+            }
+
+            window.addEventListener('scroll', handleNavScroll, { passive: true });
+            handleNavScroll();
+
+            /* ---- Smooth Scroll for Anchor Links ---- */
+            var anchorLinks = document.querySelectorAll('a[href^="#"]');
+            for (var j = 0; j < anchorLinks.length; j++) {
+                anchorLinks[j].addEventListener('click', function(e) {
+                    var href = this.getAttribute('href');
+                    if (href === '#') return;
+                    var target = document.querySelector(href);
+                    if (target) {
+                        e.preventDefault();
+                        var navHeight = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--nav-height')) || 72;
+                        var targetTop = target.getBoundingClientRect().top + window.pageYOffset - navHeight;
+                        window.scrollTo({
+                            top: targetTop,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            }
+
+            /* ---- Fade-In on Scroll (Intersection Observer) ---- */
+            var fadeElements = document.querySelectorAll('.fade-in');
+
+            if ('IntersectionObserver' in window) {
+                var fadeObserver = new IntersectionObserver(function(entries) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('visible');
+                            fadeObserver.unobserve(entry.target);
+                        }
+                    });
+                }, {
+                    threshold: 0.15,
+                    rootMargin: '0px 0px -40px 0px'
+                });
+
+                fadeElements.forEach(function(el) {
+                    fadeObserver.observe(el);
+                });
+            } else {
+                /* Fallback: show everything */
+                fadeElements.forEach(function(el) {
+                    el.classList.add('visible');
+                });
+            }
+
+            /* ---- Animated Counter for Stats ---- */
+            var statNumbers = document.querySelectorAll('.about-stat-number');
+            var statsObserved = false;
+
+            function animateCounter(element) {
+                var text = element.textContent.trim();
+                var hasPlus = text.indexOf('+') !== -1;
+                var hasSlash = text.indexOf('/') !== -1;
+
+                /* Handle special formats like 24/7 */
+                if (hasSlash) return;
+
+                var numericText = text.replace(/[^0-9.]/g, '');
+                var targetNumber = parseFloat(numericText);
+
+                if (isNaN(targetNumber) || targetNumber === 0) return;
+
+                var isDecimal = numericText.indexOf('.') !== -1;
+                var duration = 1500;
+                var startTime = null;
+
+                element.textContent = isDecimal ? '0.0' : '0';
+
+                function step(timestamp) {
+                    if (!startTime) startTime = timestamp;
+                    var progress = Math.min((timestamp - startTime) / duration, 1);
+                    var easeProgress = 1 - Math.pow(1 - progress, 3);
+                    var currentValue = easeProgress * targetNumber;
+
+                    if (isDecimal) {
+                        element.textContent = currentValue.toFixed(1) + (hasPlus ? '+' : '');
+                    } else {
+                        element.textContent = Math.floor(currentValue) + (hasPlus ? '+' : '');
+                    }
+
+                    if (progress < 1) {
+                        requestAnimationFrame(step);
+                    } else {
+                        element.textContent = text;
+                    }
+                }
+
+                requestAnimationFrame(step);
+            }
+
+            if ('IntersectionObserver' in window) {
+                var statsObserver = new IntersectionObserver(function(entries) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting && !statsObserved) {
+                            statsObserved = true;
+                            statNumbers.forEach(function(el) {
+                                animateCounter(el);
+                            });
+                            statsObserver.disconnect();
+                        }
+                    });
+                }, {
+                    threshold: 0.3
+                });
+
+                var statsSection = document.getElementById('stats');
+                if (statsSection) {
+                    statsObserver.observe(statsSection);
+                }
+            }
+
+            /* ---- Keyboard Accessibility for Hamburger ---- */
+            if (hamburger) {
+                hamburger.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        hamburger.click();
+                    }
+                });
+            }
+
+            /* ---- Phone Number Click Tracking ---- */
+            var phoneLinks = document.querySelectorAll('a[href^="tel:"]');
+            phoneLinks.forEach(function(link) {
+                link.addEventListener('click', function() {
+                    console.log('Phone call initiated: {{PHONE}}');
+                });
+            });
+
+            /* ---- CTA Button Click Tracking ---- */
+            var ctaButtons = document.querySelectorAll('.nav-cta, .cta-banner-btn');
+            ctaButtons.forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    console.log('CTA clicked:', this.textContent.trim());
+                });
+            });
+
+        })();
+    </script>
+</body>
+</html>

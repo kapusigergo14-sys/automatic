@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{COMPANY_NAME}} - Our Services</title>
+    <meta name="description" content="Explore the full range of professional services offered by {{COMPANY_NAME}} in {{CITY}}. From {{SERVICE_1}} to {{SERVICE_6}}, we deliver quality results.">
+    <style>
+        :root {
+            --primary: {{PRIMARY_COLOR}};
+            --accent: {{ACCENT_COLOR}};
+            --bg: {{BG_COLOR}};
+            --text: {{TEXT_COLOR}};
+            --card-bg: #ffffff;
+            --warm-shadow: 0 8px 30px rgba(0,0,0,0.08);
+            --warm-shadow-hover: 0 12px 40px rgba(0,0,0,0.12);
+            --footer-bg: #2c2420;
+            --footer-text: #e8ddd4;
+            --radius-card: 22px;
+            --radius-pill: 999px;
+            --section-gap: 100px;
+        }
+
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            font-weight: 400;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: color 0.25s ease;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 28px;
+        }
+
+        /* ===== NAVIGATION ===== */
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 18px 0;
+            transition: background 0.35s ease, box-shadow 0.35s ease;
+        }
+
+        .nav.scrolled {
+            background: rgba(255, 252, 247, 0.92);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+        }
+
+        .nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 28px;
+        }
+
+        .nav-logo {
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--text);
+            letter-spacing: -0.3px;
+        }
+
+        .nav-logo span {
+            color: var(--accent);
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 36px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--text);
+            opacity: 0.75;
+            transition: opacity 0.25s ease;
+        }
+
+        .nav-links a:hover {
+            opacity: 1;
+        }
+
+        .nav-links a.active {
+            opacity: 1;
+            color: var(--accent);
+        }
+
+        .nav-cta {
+            display: inline-flex;
+            align-items: center;
+            padding: 11px 26px;
+            background: var(--accent);
+            color: #fff !important;
+            border-radius: var(--radius-pill);
+            font-size: 14px;
+            font-weight: 600;
+            opacity: 1 !important;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+        }
+
+        .nav-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+
+        .nav-toggle {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 4px;
+        }
+
+        .nav-toggle span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: var(--text);
+            border-radius: 2px;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        /* ===== PAGE HERO BANNER ===== */
+        .page-hero {
+            padding-top: 140px;
+            padding-bottom: 60px;
+            background: var(--bg);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .page-hero::before {
+            content: '';
+            position: absolute;
+            top: -120px;
+            right: -100px;
+            width: 400px;
+            height: 400px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+            opacity: 0.07;
+            animation: blob-morph 8s ease-in-out infinite;
+        }
+
+        .page-hero-content {
+            max-width: 600px;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 18px;
+            background: rgba(0,0,0,0.04);
+            border-radius: var(--radius-pill);
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--accent);
+            margin-bottom: 28px;
+            letter-spacing: 0.3px;
+        }
+
+        .hero-badge::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: var(--accent);
+            border-radius: 50%;
+            animation: pulse-dot 2s ease infinite;
+        }
+
+        @keyframes pulse-dot {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(0.8); }
+        }
+
+        @keyframes blob-morph {
+            0%, 100% { border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; }
+            25% { border-radius: 58% 42% 34% 66% / 63% 68% 32% 37%; }
+            50% { border-radius: 50% 50% 34% 66% / 56% 32% 68% 44%; }
+            75% { border-radius: 34% 66% 65% 35% / 42% 56% 44% 58%; }
+        }
+
+        .page-hero h1 {
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 1.12;
+            letter-spacing: -1.2px;
+            color: var(--text);
+            margin-bottom: 18px;
+        }
+
+        .page-hero h1 em {
+            font-style: normal;
+            color: var(--accent);
+        }
+
+        .page-hero-subtitle {
+            font-size: 17px;
+            line-height: 1.7;
+            color: var(--text);
+            opacity: 0.7;
+            max-width: 480px;
+        }
+
+        /* ===== SERVICES GRID SECTION ===== */
+        .services-detail {
+            padding: var(--section-gap) 0;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 28px;
+        }
+
+        .service-detail-card {
+            background: var(--card-bg);
+            border-radius: var(--radius-card);
+            padding: 36px 30px;
+            box-shadow: var(--warm-shadow);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: default;
+        }
+
+        .service-detail-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--warm-shadow-hover);
+        }
+
+        .service-icon {
+            width: 56px;
+            height: 56px;
+            border-radius: 16px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            margin-bottom: 22px;
+            opacity: 0.9;
+        }
+
+        .service-detail-card h3 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: var(--text);
+            letter-spacing: -0.2px;
+        }
+
+        .service-detail-card p {
+            font-size: 15px;
+            line-height: 1.7;
+            color: var(--text);
+            opacity: 0.6;
+            margin-bottom: 20px;
+        }
+
+        .service-detail-card .learn-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--accent);
+            transition: gap 0.25s ease;
+        }
+
+        .service-detail-card:hover .learn-link {
+            gap: 10px;
+        }
+
+        /* ===== CTA SECTION ===== */
+        .cta-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            font-size: 38px;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: -0.8px;
+            margin-bottom: 16px;
+        }
+
+        .cta-section p {
+            font-size: 17px;
+            color: rgba(255,255,255,0.8);
+            max-width: 500px;
+            margin: 0 auto 32px;
+            line-height: 1.7;
+        }
+
+        .btn-cta-white {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 16px 38px;
+            background: #fff;
+            color: var(--text);
+            border-radius: var(--radius-pill);
+            font-size: 16px;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+            box-shadow: 0 4px 18px rgba(0,0,0,0.12);
+        }
+
+        .btn-cta-white:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 28px rgba(0,0,0,0.18);
+        }
+
+        /* ===== FOOTER ===== */
+        .footer {
+            background: var(--footer-bg);
+            color: var(--footer-text);
+            padding: 70px 0 30px;
+            margin-top: var(--section-gap);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1fr 1fr;
+            gap: 48px;
+            margin-bottom: 50px;
+        }
+
+        .footer-brand p {
+            font-size: 14px;
+            line-height: 1.7;
+            opacity: 0.6;
+            margin-top: 14px;
+            max-width: 280px;
+        }
+
+        .footer h4 {
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            margin-bottom: 22px;
+            opacity: 0.9;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            font-size: 14px;
+            opacity: 0.55;
+            transition: opacity 0.25s ease;
+        }
+
+        .footer-links a:hover {
+            opacity: 1;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.08);
+            padding-top: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-bottom p {
+            font-size: 13px;
+            opacity: 0.4;
+        }
+
+        /* ===== CHATBOT WIDGET ===== */
+        .chatbot-wrapper {
+            position: fixed;
+            bottom: 28px;
+            right: 28px;
+            z-index: 9999;
+        }
+
+        .chatbot-tooltip {
+            position: absolute;
+            bottom: 62px;
+            right: 0;
+            background: var(--card-bg);
+            border-radius: 18px;
+            padding: 18px 22px;
+            box-shadow: 0 8px 40px rgba(0,0,0,0.15);
+            min-width: 260px;
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--text);
+            opacity: 0;
+            transform: translateY(8px);
+            pointer-events: none;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        .chatbot-tooltip.active {
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: auto;
+        }
+
+        .chatbot-tooltip::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            right: 28px;
+            width: 16px;
+            height: 16px;
+            background: var(--card-bg);
+            transform: rotate(45deg);
+            border-radius: 3px;
+        }
+
+        .chatbot-tooltip-close {
+            position: absolute;
+            top: 10px;
+            right: 14px;
+            background: none;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            opacity: 0.4;
+            color: var(--text);
+            transition: opacity 0.2s;
+        }
+
+        .chatbot-tooltip-close:hover {
+            opacity: 0.8;
+        }
+
+        .chatbot-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 28px;
+            background: var(--accent);
+            color: #fff;
+            border: none;
+            border-radius: var(--radius-pill);
+            font-size: 15px;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
+            box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .chatbot-btn:hover {
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.22);
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 1024px) {
+            .page-hero h1 { font-size: 42px; }
+            .footer-grid { grid-template-columns: 1fr 1fr; gap: 36px; }
+        }
+
+        @media (max-width: 768px) {
+            :root { --section-gap: 70px; }
+
+            .nav-links { display: none; }
+            .nav-links.open {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: rgba(255,252,247,0.98);
+                backdrop-filter: blur(16px);
+                padding: 24px 28px;
+                gap: 20px;
+                box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+            }
+            .nav-toggle { display: flex; }
+
+            .page-hero { padding-top: 110px; padding-bottom: 40px; }
+            .page-hero h1 { font-size: 36px; }
+
+            .services-grid { grid-template-columns: 1fr; }
+
+            .cta-section h2 { font-size: 28px; }
+
+            .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+            .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
+        }
+
+        @media (max-width: 480px) {
+            .page-hero h1 { font-size: 30px; }
+            .cta-section h2 { font-size: 24px; }
+            .btn-cta-white { width: 100%; justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="nav" id="navbar">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">{{COMPANY_SHORT_NAME}}</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="/">Home</a></li>
+                <li><a href="/services" class="active">Services</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/contact" class="nav-cta">{{CTA_TEXT}}</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- PAGE HERO BANNER -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <div class="hero-badge">What We Offer</div>
+                <h1>Our <em>Services</em></h1>
+                <p class="page-hero-subtitle">Comprehensive professional solutions tailored to your needs. {{COMPANY_NAME}} delivers expert {{SERVICE_1}} and more throughout {{CITY}} and the surrounding areas.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES GRID SECTION -->
+    <section class="services-detail">
+        <div class="container">
+            <div class="services-grid">
+                <div class="service-detail-card">
+                    <div class="service-icon">&#9881;</div>
+                    <h3>{{SERVICE_1}}</h3>
+                    <p>{{SERVICE_DESC_1}}</p>
+                    <a href="/contact" class="learn-link">Learn More &rarr;</a>
+                </div>
+                <div class="service-detail-card">
+                    <div class="service-icon">&#9733;</div>
+                    <h3>{{SERVICE_2}}</h3>
+                    <p>{{SERVICE_DESC_2}}</p>
+                    <a href="/contact" class="learn-link">Learn More &rarr;</a>
+                </div>
+                <div class="service-detail-card">
+                    <div class="service-icon">&#9670;</div>
+                    <h3>{{SERVICE_3}}</h3>
+                    <p>{{SERVICE_DESC_3}}</p>
+                    <a href="/contact" class="learn-link">Learn More &rarr;</a>
+                </div>
+                <div class="service-detail-card">
+                    <div class="service-icon">&#10003;</div>
+                    <h3>{{SERVICE_4}}</h3>
+                    <p>{{SERVICE_DESC_4}}</p>
+                    <a href="/contact" class="learn-link">Learn More &rarr;</a>
+                </div>
+                <div class="service-detail-card">
+                    <div class="service-icon">&#9752;</div>
+                    <h3>{{SERVICE_5}}</h3>
+                    <p>{{SERVICE_DESC_5}}</p>
+                    <a href="/contact" class="learn-link">Learn More &rarr;</a>
+                </div>
+                <div class="service-detail-card">
+                    <div class="service-icon">&#10038;</div>
+                    <h3>{{SERVICE_6}}</h3>
+                    <p>{{SERVICE_DESC_6}}</p>
+                    <a href="/contact" class="learn-link">Learn More &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Get Started?</h2>
+            <p>Contact {{COMPANY_NAME}} today for a free consultation and quote. We're here to help with all your needs in {{CITY}}.</p>
+            <a href="/contact" class="btn-cta-white">{{CTA_TEXT}} &rarr;</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="nav-logo" style="color: var(--footer-text);">{{COMPANY_NAME}}</a>
+                    <p>Professional {{SERVICE_1}} services in {{CITY}}. Trusted by {{REVIEW_COUNT}}+ clients with a {{RATING}}-star average rating.</p>
+                </div>
+                <div>
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/services">Our Services</a></li>
+                        <li><a href="/#reviews">Client Reviews</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="/services">{{SERVICE_1}}</a></li>
+                        <li><a href="/services">{{SERVICE_2}}</a></li>
+                        <li><a href="/services">{{SERVICE_3}}</a></li>
+                        <li><a href="/services">{{SERVICE_4}}</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="tel:{{PHONE}}">{{PHONE}}</a></li>
+                        <li><a href="/contact">{{CITY}}</a></li>
+                        <li><a href="#">Mon - Fri: 8am - 6pm</a></li>
+                        <li><a href="#">Sat: 9am - 2pm</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 {{COMPANY_NAME}}. All rights reserved.</p>
+                <p>Serving {{CITY}} and surrounding areas.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CHATBOT WIDGET -->
+    <div class="chatbot-wrapper">
+        <div class="chatbot-tooltip" id="chatTooltip">
+            <button class="chatbot-tooltip-close" onclick="closeChatTooltip()" aria-label="Close">&times;</button>
+            <strong>Hi there!</strong><br>
+            {{CHATBOT_GREETING}}
+        </div>
+        <button class="chatbot-btn" id="chatBtn" onclick="toggleChat()" aria-label="Open chat">
+            <span style="font-size:18px">&#128172;</span> Chat
+        </button>
+    </div>
+
+    <script>
+        // Navbar scroll effect
+        (function() {
+            var navbar = document.getElementById('navbar');
+            var lastScroll = 0;
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 40) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+                lastScroll = window.scrollY;
+            });
+        })();
+
+        // Mobile nav toggle
+        (function() {
+            var toggle = document.getElementById('navToggle');
+            var links = document.getElementById('navLinks');
+            toggle.addEventListener('click', function() {
+                links.classList.toggle('open');
+                var spans = toggle.querySelectorAll('span');
+                if (links.classList.contains('open')) {
+                    spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
+                    spans[1].style.opacity = '0';
+                    spans[2].style.transform = 'rotate(-45deg) translate(5px, -5px)';
+                } else {
+                    spans[0].style.transform = '';
+                    spans[1].style.opacity = '';
+                    spans[2].style.transform = '';
+                }
+            });
+            // Close menu on link click
+            links.querySelectorAll('a').forEach(function(a) {
+                a.addEventListener('click', function() {
+                    links.classList.remove('open');
+                    var spans = toggle.querySelectorAll('span');
+                    spans[0].style.transform = '';
+                    spans[1].style.opacity = '';
+                    spans[2].style.transform = '';
+                });
+            });
+        })();
+
+        // Chatbot tooltip
+        var chatTooltipShown = false;
+        setTimeout(function() {
+            document.getElementById('chatTooltip').classList.add('active');
+            chatTooltipShown = true;
+        }, 3000);
+
+        function toggleChat() {
+            var tooltip = document.getElementById('chatTooltip');
+            if (tooltip.classList.contains('active')) {
+                tooltip.classList.remove('active');
+                chatTooltipShown = false;
+            } else {
+                tooltip.classList.add('active');
+                chatTooltipShown = true;
+            }
+        }
+
+        function closeChatTooltip() {
+            document.getElementById('chatTooltip').classList.remove('active');
+            chatTooltipShown = false;
+        }
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+            anchor.addEventListener('click', function(e) {
+                var targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                var target = document.querySelector(targetId);
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

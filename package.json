@@ -1,0 +1,25 @@
+{
+  "name": "leadgen",
+  "version": "1.0.0",
+  "description": "AI Lead Generation System - Company Discovery, Website Analysis, Reviews & Scoring",
+  "scripts": {
+    "discover": "ts-node scripts/discover.ts",
+    "analyze": "ts-node scripts/analyze.ts",
+    "extract-email": "ts-node scripts/extract-email.ts",
+    "score": "ts-node scripts/score.ts",
+    "pipeline": "ts-node scripts/pipeline.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "playwright": "^1.50.0",
+    "puppeteer": "^24.40.0",
+    "resend": "^6.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.0"
+  }
+}

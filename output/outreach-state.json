@@ -1,0 +1,1136 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-04-06T21:09:41.539Z",
+  "leads": {
+    "kapusigergo14@gmail.com": {
+      "email": "kapusigergo14@gmail.com",
+      "businessName": "F",
+      "website": "https://www.franciscoroofingllc.com/",
+      "contactUrl": "https://www.franciscoroofingllc.com/",
+      "industry": "Roofing",
+      "country": "USA",
+      "outdatedScore": null,
+      "outdatedBreakdown": null,
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-05T16:58:03.942Z",
+          "messageId": "0ae97de0-558b-4664-8c12-94bc1bdd367c",
+          "subject": "I created 3 free redesign concepts for F"
+        },
+        {
+          "seq": 1,
+          "sentAt": "2026-04-05T16:59:25.032Z",
+          "messageId": "1ea1e769-be00-4ada-8f67-f52ee50ad439",
+          "subject": "I created 3 free redesign concepts for Francisco Roofing LLC"
+        }
+      ],
+      "nextTouchAt": "2026-04-08T16:58:03.942Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "sales@franciscoroofingllc.com": {
+      "email": "sales@franciscoroofingllc.com",
+      "businessName": "franciscoroofingllc",
+      "website": "https://www.franciscoroofingllc.com/",
+      "contactUrl": "https://www.franciscoroofingllc.com/contact",
+      "industry": "Roofing",
+      "country": "USA",
+      "outdatedScore": null,
+      "outdatedBreakdown": null,
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-05T17:01:37.751Z",
+          "messageId": "1b9f3b4d-492c-418f-a271-a6521ff14014",
+          "subject": "I created 3 free redesign concepts for franciscoroofingllc"
+        },
+        {
+          "seq": 1,
+          "sentAt": "2026-04-05T17:08:19.360Z",
+          "messageId": "8899d596-1adc-470c-929b-4e1a472c33dd",
+          "subject": "I created 3 free redesign concepts for franciscoroofingllc"
+        },
+        {
+          "seq": 1,
+          "sentAt": "2026-04-05T22:39:01.710Z",
+          "messageId": "d75b2f16-2f1b-40e7-961f-4596297eaa9d",
+          "subject": "I created 3 free redesign concepts for franciscoroofingllc"
+        }
+      ],
+      "nextTouchAt": "2026-04-08T17:01:37.751Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "info@hypnosiscenterofva.com": {
+      "email": "info@hypnosiscenterofva.com",
+      "businessName": "Hypnosis Center of Virginia",
+      "website": "https://hypnosiscenterofva.com/",
+      "contactUrl": "https://hypnosiscenterofva.com/",
+      "industry": "Medical",
+      "country": "Virginia Beach, VA US",
+      "outdatedScore": 0,
+      "outdatedBreakdown": "",
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T18:32:10.643Z",
+          "messageId": "c8c901d0-5c03-4631-8e71-0f0ef4bf0df7",
+          "subject": "Quick idea for Hypnosis Center of Virginia website"
+        },
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T19:20:26.559Z",
+          "messageId": "0a2a9076-d8b5-40e4-94e6-9b7c8765a194",
+          "subject": "Quick idea for Hypnosis Center of Virginia website"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T18:32:10.643Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "admin@borgsroofing.com": {
+      "email": "admin@borgsroofing.com",
+      "businessName": "Borg's Roofing",
+      "website": "https://borgsroofing.com.au/",
+      "contactUrl": "https://borgsroofing.com.au/",
+      "industry": "Roofing",
+      "country": "Australia",
+      "outdatedScore": 60,
+      "outdatedBreakdown": "wp=25;jq=15;legacy=10;heavy=10(4.2MB)",
+      "observation": "your homepage downloads 4.2MB on mobile — most homeowners bail before it finishes loading",
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T18:33:34.714Z",
+          "messageId": "1d79285d-cfa4-4e0d-b8d6-180c67ad9bdd",
+          "subject": "Quick idea for Borg's Roofing website"
+        },
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T19:23:27.603Z",
+          "messageId": "a4b4783a-e2ae-43c5-99d8-57cbe4e29321",
+          "subject": "Quick idea for Borg's Roofing website"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T18:33:34.714Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "info@srctn.co": {
+      "email": "info@srctn.co",
+      "businessName": "Commercial Roofing Services in Nashville",
+      "website": "https://srctn.com/",
+      "contactUrl": "https://srctn.com/",
+      "industry": "Roofing",
+      "country": "Nashville TN, USA",
+      "outdatedScore": 65,
+      "outdatedBreakdown": "wp=25;jq=15;dir=15;legacy=10",
+      "observation": "your /wp-includes/ folder is publicly browsable — a security flag worth closing this week",
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T18:37:51.944Z",
+          "messageId": "66e2d6e2-b2f9-4c6d-be60-882b16f45e61",
+          "subject": "Quick idea for Commercial Roofing Services in Nashville website"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T18:37:51.944Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "roofing@mypittsburghroofing.com": {
+      "email": "roofing@mypittsburghroofing.com",
+      "businessName": "MY Pittsburgh Roofing",
+      "website": "http://my-pittsburghroofing.com/",
+      "contactUrl": "http://my-pittsburghroofing.com/",
+      "industry": "Roofing",
+      "country": "Pittsburgh PA, USA",
+      "outdatedScore": 0,
+      "outdatedBreakdown": "",
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T18:42:53.127Z",
+          "messageId": "4d72e680-5298-411e-a3a7-cce2ab65cd3f",
+          "subject": "MY Pittsburgh Roofing: free website improvement concepts"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T18:42:53.127Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "info@mcclellandsroofing.com": {
+      "email": "info@mcclellandsroofing.com",
+      "businessName": "Top Roofing Contractor in Pittsburgh, PA",
+      "website": "https://mcclellandsroofing.com/",
+      "contactUrl": "https://mcclellandsroofing.com/",
+      "industry": "Roofing",
+      "country": "Pittsburgh PA, USA",
+      "outdatedScore": 65,
+      "outdatedBreakdown": "wp=25;jq=15;legacy=10;heavy=15(250.9MB)",
+      "observation": "your homepage downloads 250.9MB on mobile — most homeowners bail before it finishes loading",
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T18:44:42.630Z",
+          "messageId": "a60f2aec-5fc9-4d2a-b69f-ca6c19a327ab",
+          "subject": "Top Roofing Contractor in Pittsburgh, PA: free website improvement concepts"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T18:44:42.630Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "inquiries@smt.legal": {
+      "email": "inquiries@smt.legal",
+      "businessName": "Personal Injury Attorney in Pittsburgh, PA",
+      "website": "https://smt.legal/?utm_source=gmb&utm_medium=organic",
+      "contactUrl": "https://smt.legal/?utm_source=gmb&utm_medium=organic",
+      "industry": "Legal",
+      "country": "Pittsburgh PA, USA",
+      "outdatedScore": 80,
+      "outdatedBreakdown": "wp=25;jq=15;dir=15;legacy=10;heavy=15(71.4MB)",
+      "observation": "your homepage downloads 71.4MB on mobile — most clients bail before it finishes loading",
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T18:45:45.963Z",
+          "messageId": "5eafbe54-72df-4430-876e-db1084601e2f",
+          "subject": "Personal Injury Attorney in Pittsburgh, PA: free website improvement concepts"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T18:45:45.963Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "infor@goroof1.com": {
+      "email": "infor@goroof1.com",
+      "businessName": "Roofing Companies Cincinnati Simple and Stress",
+      "website": "https://goroof1.com/?utm_source=Google+Busuiness+Account&utm_medium=Website+Button&utm_campaign=Google+Business+Profile",
+      "contactUrl": "https://goroof1.com/?utm_source=Google+Busuiness+Account&utm_medium=Website+Button&utm_campaign=Google+Business+Profile",
+      "industry": "Roofing",
+      "country": "Cincinnati OH, USA",
+      "outdatedScore": 0,
+      "outdatedBreakdown": "",
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T18:50:48.368Z",
+          "messageId": "c0b57fdb-e71b-4c6e-adb1-ce3cdcd4a281",
+          "subject": "I created 3 free redesign concepts for Roofing Companies Cincinnati Simple and Stress"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T18:50:48.368Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "info@lascinti.org": {
+      "email": "info@lascinti.org",
+      "businessName": "Home",
+      "website": "https://www.lascinti.org/",
+      "contactUrl": "https://www.lascinti.org/",
+      "industry": "Legal",
+      "country": "Cincinnati OH, USA",
+      "outdatedScore": 0,
+      "outdatedBreakdown": "",
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T18:52:04.967Z",
+          "messageId": "22ffa9d6-55c9-4f6a-8c70-74deae23971a",
+          "subject": "Quick idea for Home website"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T18:52:04.967Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "info@craftsmanelectric.com": {
+      "email": "info@craftsmanelectric.com",
+      "businessName": "Home",
+      "website": "https://www.craftsmanelectric.com/",
+      "contactUrl": "https://www.craftsmanelectric.com/",
+      "industry": "Electrical",
+      "country": "Cincinnati OH, USA",
+      "outdatedScore": 65,
+      "outdatedBreakdown": "wp=25;jq=15;legacy=10;heavy=15(40.9MB)",
+      "observation": "your homepage downloads 40.9MB on mobile — most homeowners bail before it finishes loading",
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T18:54:24.803Z",
+          "messageId": "e2d12cd9-b4af-4673-b87b-45070b35155b",
+          "subject": "Quick idea for Home website"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T18:54:24.803Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "amber@communityroofing.com": {
+      "email": "amber@communityroofing.com",
+      "businessName": "Milwaukee",
+      "website": "https://www.communityroofingandrestoration.com/?utm_campaign=gmb&utm_source=gmb",
+      "contactUrl": "https://www.communityroofingandrestoration.com/?utm_campaign=gmb&utm_source=gmb",
+      "industry": "Roofing",
+      "country": "Milwaukee WI, USA",
+      "outdatedScore": 0,
+      "outdatedBreakdown": "",
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T18:57:16.550Z",
+          "messageId": "00ed8191-70ab-405c-976a-b35d197885c5",
+          "subject": "Milwaukee: free website improvement concepts"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T18:57:16.550Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "james@erawatech.com": {
+      "email": "james@erawatech.com",
+      "businessName": "Milwaukee Roofing",
+      "website": "https://milwaukeeroofing.com/",
+      "contactUrl": "https://milwaukeeroofing.com/",
+      "industry": "Roofing",
+      "country": "Milwaukee WI, USA",
+      "outdatedScore": 0,
+      "outdatedBreakdown": "",
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T18:58:26.523Z",
+          "messageId": "e0ce7ec4-6d81-4c88-abbb-52a658f49370",
+          "subject": "I created 3 free redesign concepts for Milwaukee Roofing"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T18:58:26.523Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "nick@castlebenefitsconsultinggroup.com": {
+      "email": "nick@castlebenefitsconsultinggroup.com",
+      "businessName": "Castle Benefits Consulting Group",
+      "website": "https://castlebenefitsconsultinggroup.com/",
+      "contactUrl": "https://castlebenefitsconsultinggroup.com/contact_us",
+      "industry": "Legal",
+      "country": "Spring City, PA USA",
+      "outdatedScore": null,
+      "outdatedBreakdown": null,
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T19:16:58.562Z",
+          "messageId": "135a24e7-9c2e-4884-a938-a4fa97ef5097",
+          "subject": "I created 3 free redesign concepts for Castle Benefits Consulting Group"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T19:16:58.562Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "mcronen@zimpatent.com": {
+      "email": "mcronen@zimpatent.com",
+      "businessName": "Zimmerman & Cronen",
+      "website": "https://zimpatent.com/",
+      "contactUrl": "https://zimpatent.com/",
+      "industry": "Legal",
+      "country": "Walnut Creek, CA USA",
+      "outdatedScore": null,
+      "outdatedBreakdown": null,
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T19:17:55.286Z",
+          "messageId": "2be32050-cc6f-4890-8aef-a40037b0ccc6",
+          "subject": "Quick idea for Zimmerman & Cronen website"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T19:17:55.286Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "fpl@lipinskipatentlaw.com": {
+      "email": "fpl@lipinskipatentlaw.com",
+      "businessName": "Lipinski Patent Law",
+      "website": "https://lipinskipatentlaw.com/",
+      "contactUrl": "https://lipinskipatentlaw.com/",
+      "industry": "Legal",
+      "country": "Stone Mountain, GA USA",
+      "outdatedScore": null,
+      "outdatedBreakdown": null,
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T19:18:51.874Z",
+          "messageId": "2a0307f7-0ab3-4616-ad93-527dcf0e304d",
+          "subject": "Lipinski Patent Law: free website improvement concepts"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T19:18:51.874Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "treygriffin@kcg3.com": {
+      "email": "treygriffin@kcg3.com",
+      "businessName": "KCG3 Roofing Sales",
+      "website": "https://kcg3.com/",
+      "contactUrl": "https://kcg3.com/",
+      "industry": "Roofing",
+      "country": "Edmond, OK USA",
+      "outdatedScore": null,
+      "outdatedBreakdown": null,
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T19:19:57.092Z",
+          "messageId": "0ffc0d97-3975-44a8-8709-9b829e1b9896",
+          "subject": "I created 3 free redesign concepts for KCG3 Roofing Sales"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T19:19:57.092Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "pageants@madisondonovangroup.com": {
+      "email": "pageants@madisondonovangroup.com",
+      "businessName": "Madison Donovan Group",
+      "website": "https://madisondonovangroup.com/",
+      "contactUrl": "https://madisondonovangroup.com/",
+      "industry": "Legal",
+      "country": "Laurel, MD USA",
+      "outdatedScore": null,
+      "outdatedBreakdown": null,
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T19:21:22.952Z",
+          "messageId": "311904a7-d7f3-4203-afe2-46bf2cbd482f",
+          "subject": "Madison Donovan Group: free website improvement concepts"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T19:21:22.952Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "jcaristo@caristoinc.com": {
+      "email": "jcaristo@caristoinc.com",
+      "businessName": "CARISTO CONSTRUCTION INC.",
+      "website": "https://caristoinc.com/",
+      "contactUrl": "https://caristoinc.com/",
+      "industry": "Construction",
+      "country": "Cooper City, FL USA",
+      "outdatedScore": null,
+      "outdatedBreakdown": null,
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T19:22:26.165Z",
+          "messageId": "edf330ee-2a77-41aa-9282-efac0693fbad",
+          "subject": "I created 3 free redesign concepts for CARISTO CONSTRUCTION INC."
+        }
+      ],
+      "nextTouchAt": "2026-04-09T19:22:26.165Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "enquiry@gmroofing.com.au": {
+      "email": "enquiry@gmroofing.com.au",
+      "businessName": "Roof Restoration Brisbane",
+      "website": "https://www.gmroofing.com.au/",
+      "contactUrl": "https://www.gmroofing.com.au/index.php/contact-us",
+      "industry": "Roofing",
+      "country": "Brisbane, QLD Australia",
+      "outdatedScore": null,
+      "outdatedBreakdown": null,
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T19:24:47.092Z",
+          "messageId": "8d8f44c9-56f8-499e-8d81-a7dc7d30045b",
+          "subject": "Roof Restoration Brisbane: free website improvement concepts"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T19:24:47.092Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "info@theslateroofingcompany.com.au": {
+      "email": "info@theslateroofingcompany.com.au",
+      "businessName": "Slate Roof Repairs in Sydney",
+      "website": "https://theslateroofingcompany.com.au/",
+      "contactUrl": "https://theslateroofingcompany.com.au/",
+      "industry": "Roofing",
+      "country": "Sydney, NSW Australia",
+      "outdatedScore": null,
+      "outdatedBreakdown": null,
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T19:26:08.266Z",
+          "messageId": "61a8aed7-af7d-4afa-b3e5-ad98fbb7c384",
+          "subject": "I created 3 free redesign concepts for Slate Roof Repairs in Sydney"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T19:26:08.266Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "bluemountainhvac02@gmail.com": {
+      "email": "bluemountainhvac02@gmail.com",
+      "businessName": "Blue Mountain Heating & Air, Inc.",
+      "website": "https://www.bluemtnhvac.com/",
+      "contactUrl": "https://www.bluemtnhvac.com/contact_us",
+      "industry": "HVAC",
+      "country": "USA",
+      "outdatedScore": null,
+      "outdatedBreakdown": null,
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T19:26:13.039Z",
+          "messageId": "4c316a41-e5e1-4dc9-8dab-856d6854ce29",
+          "subject": "I created 3 free redesign concepts for Blue Mountain Heating & Air, Inc."
+        }
+      ],
+      "nextTouchAt": "2026-04-09T19:26:13.039Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "admin@sandkroofing.com.au": {
+      "email": "admin@sandkroofing.com.au",
+      "businessName": "S&K Roofing",
+      "website": "https://www.sandkroofing.com.au/",
+      "contactUrl": "https://www.sandkroofing.com.au/",
+      "industry": "Roofing",
+      "country": "Port Kembla, NSW Australia",
+      "outdatedScore": null,
+      "outdatedBreakdown": null,
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T19:27:16.155Z",
+          "messageId": "8931caff-b1ac-4b04-9d48-40d64df50ad7",
+          "subject": "Quick idea for S&K Roofing website"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T19:27:16.155Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "info@copperandzincroofing.com.au": {
+      "email": "info@copperandzincroofing.com.au",
+      "businessName": "Home",
+      "website": "https://copperandzincroofing.com.au/",
+      "contactUrl": "https://copperandzincroofing.com.au/",
+      "industry": "Roofing",
+      "country": "Sydney, NSW Australia",
+      "outdatedScore": null,
+      "outdatedBreakdown": null,
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T19:28:21.465Z",
+          "messageId": "03fa334c-d8a6-4627-9eb1-3cb8bd6b3d4e",
+          "subject": "Home: free website improvement concepts"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T19:28:21.465Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "office@moraschiroofing.com.au": {
+      "email": "office@moraschiroofing.com.au",
+      "businessName": "Moraschi Roofing",
+      "website": "https://moraschiroofing.com.au/",
+      "contactUrl": "https://moraschiroofing.com.au/contact/",
+      "industry": "Roofing",
+      "country": "Canberra, ACT Australia",
+      "outdatedScore": null,
+      "outdatedBreakdown": null,
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T19:29:23.366Z",
+          "messageId": "f129de7d-660b-4bfd-bd4e-358748770700",
+          "subject": "I created 3 free redesign concepts for Moraschi Roofing"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T19:29:23.366Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "deancollins@live.com.au": {
+      "email": "deancollins@live.com.au",
+      "businessName": "Roofing in Newcastle",
+      "website": "https://www.deancollinsroofingmaintenance.com.au/",
+      "contactUrl": "https://www.deancollinsroofingmaintenance.com.au/contact/",
+      "industry": "Roofing",
+      "country": "Newcastle, NSW Australia",
+      "outdatedScore": null,
+      "outdatedBreakdown": null,
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T19:30:30.610Z",
+          "messageId": "be37623f-661d-4d88-8b5d-c0fcd2998d41",
+          "subject": "Quick idea for Roofing in Newcastle website"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T19:30:30.610Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "scott@orogeode.org": {
+      "email": "scott@orogeode.org",
+      "businessName": "OroGeode",
+      "website": "https://www.orogeode.org/",
+      "contactUrl": "https://www.orogeode.org/",
+      "industry": "Legal",
+      "country": "Charleston, WV USA",
+      "outdatedScore": null,
+      "outdatedBreakdown": null,
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T19:31:31.440Z",
+          "messageId": "30ddb849-2b54-4883-b56a-b7d780bf6986",
+          "subject": "OroGeode: free website improvement concepts"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T19:31:31.440Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "reiki.kathiedavis@gmail.com": {
+      "email": "Reiki.KathieDavis@gmail.com",
+      "businessName": "Reiki Empowers Healing",
+      "website": "https://reikiempowershealing.com/",
+      "contactUrl": "https://reikiempowershealing.com/",
+      "industry": "Medical",
+      "country": "Concord, NH USA",
+      "outdatedScore": null,
+      "outdatedBreakdown": null,
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T19:32:30.922Z",
+          "messageId": "06792994-bcaa-4670-9339-d282b3b01545",
+          "subject": "I created 3 free redesign concepts for Reiki Empowers Healing"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T19:32:30.922Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "info@certifiedroofing.com.au": {
+      "email": "info@certifiedroofing.com.au",
+      "businessName": "Residential & Commercial Roofing Companies Brisbane & Gold Coast",
+      "website": "https://www.certifiedroofing.com.au/",
+      "contactUrl": "https://www.certifiedroofing.com.au/contact-us/",
+      "industry": "Roofing",
+      "country": "Australia",
+      "outdatedScore": null,
+      "outdatedBreakdown": null,
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T19:33:50.490Z",
+          "messageId": "f9b29158-7694-4eba-b7f0-2aa199be4435",
+          "subject": "Quick idea for Residential & Commercial Roofing Companies Brisbane & Gold Coast website"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T19:33:50.490Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "eddie@attractiveroofingsolutions.com.au": {
+      "email": "eddie@attractiveroofingsolutions.com.au",
+      "businessName": "Attractive Roofing Solutions",
+      "website": "https://www.attractiveroofingsolutions.com.au/",
+      "contactUrl": "https://www.attractiveroofingsolutions.com.au/",
+      "industry": "Roofing",
+      "country": "Sydney, NSW Australia",
+      "outdatedScore": null,
+      "outdatedBreakdown": null,
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T19:35:20.035Z",
+          "messageId": "64b17e09-900e-4bca-b37a-bf5fc8954ee5",
+          "subject": "Attractive Roofing Solutions: free website improvement concepts"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T19:35:20.035Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "%20info@callcurrent.com": {
+      "email": "%20info@callcurrent.com",
+      "businessName": "Milwaukee Electricians",
+      "website": "https://www.currentelectricco.com/",
+      "contactUrl": "https://www.currentelectricco.com/",
+      "industry": "Electrical",
+      "country": "Milwaukee WI, USA",
+      "outdatedScore": 0,
+      "outdatedBreakdown": "",
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T20:01:04.668Z",
+          "messageId": "0720f084-44df-47b0-8096-c903bcaf3821",
+          "subject": "Quick idea for Milwaukee Electricians website"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T20:01:04.668Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "office@primeroofingfl.com": {
+      "email": "office@primeroofingfl.com",
+      "businessName": "Roof Replacement Contractors Jacksonville FL",
+      "website": "http://www.primeroofingfl.com/",
+      "contactUrl": "http://www.primeroofingfl.com/",
+      "industry": "Roofing",
+      "country": "Jacksonville FL, USA",
+      "outdatedScore": 0,
+      "outdatedBreakdown": "",
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T20:04:15.517Z",
+          "messageId": "a4d80906-4f60-46ab-a37d-512eaaac8b4e",
+          "subject": "Roof Replacement Contractors Jacksonville FL: free website improvement concepts"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T20:04:15.517Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "rlsose_kb_la@us.navy.mil": {
+      "email": "rlsose_kb_la@us.navy.mil",
+      "businessName": "RLSO Southeast",
+      "website": "http://www.jag.navy.mil/legal_services/rlso/rlso_southeast.htm#Jacksonville",
+      "contactUrl": "http://www.jag.navy.mil/legal_services/rlso/rlso_southeast.htm#Jacksonville",
+      "industry": "Legal",
+      "country": "Jacksonville FL, USA",
+      "outdatedScore": 0,
+      "outdatedBreakdown": "",
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T20:05:55.849Z",
+          "messageId": "a4e8e1a5-a158-4aaf-8338-e8695fecf9b5",
+          "subject": "I created 3 free redesign concepts for RLSO Southeast"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T20:05:55.849Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "service@empireelec.com": {
+      "email": "service@empireelec.com",
+      "businessName": "Elite Jacksonville Electrician",
+      "website": "https://www.empireelec.com/",
+      "contactUrl": "https://www.empireelec.com/",
+      "industry": "Electrical",
+      "country": "Jacksonville FL, USA",
+      "outdatedScore": 0,
+      "outdatedBreakdown": "",
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T20:08:25.736Z",
+          "messageId": "3dc014e7-524b-4907-ba48-19c3e32a3303",
+          "subject": "Elite Jacksonville Electrician: free website improvement concepts"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T20:08:25.736Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "info@a-plus-roofing.com": {
+      "email": "info@a-plus-roofing.com",
+      "businessName": "Best Roofers in Richmond VA",
+      "website": "https://aplusroofing.com/",
+      "contactUrl": "https://aplusroofing.com/",
+      "industry": "Roofing",
+      "country": "Richmond VA, USA",
+      "outdatedScore": 0,
+      "outdatedBreakdown": "",
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T20:33:47.525Z",
+          "messageId": "aa239d9f-5726-42ab-a032-daa22864004a",
+          "subject": "Quick idea for Best Roofers in Richmond VA website"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T20:33:47.525Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "info@tucsonlegal.com": {
+      "email": "info@tucsonlegal.com",
+      "businessName": "Tucson Legal, PLLC",
+      "website": "http://tucsonlegal.com/",
+      "contactUrl": "http://tucsonlegal.com/",
+      "industry": "Legal",
+      "country": "Tucson AZ, USA",
+      "outdatedScore": 50,
+      "outdatedBreakdown": "wp=15;legacy=10;noviewport=15;noHttps=10",
+      "observation": "your pages don't declare a viewport tag, so mobile browsers render them at desktop width",
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T20:39:35.947Z",
+          "messageId": "23013861-4c6f-491c-99bf-fe21f7cef574",
+          "subject": "I created 3 free redesign concepts for Tucson Legal, PLLC"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T20:39:35.947Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "spearizona@gmail.com": {
+      "email": "spearizona@gmail.com",
+      "businessName": "Electrician Tucson AZ",
+      "website": "http://www.spearizona.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+      "contactUrl": "http://www.spearizona.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+      "industry": "Electrical",
+      "country": "Tucson AZ, USA",
+      "outdatedScore": 0,
+      "outdatedBreakdown": "",
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T20:41:51.341Z",
+          "messageId": "f93331c7-6b3c-47ab-8a25-b4cc0ee6222f",
+          "subject": "Quick idea for Electrician Tucson AZ website"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T20:41:51.341Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "info@allseasonsroofingandcontracting.com": {
+      "email": "info@allseasonsroofingandcontracting.com",
+      "businessName": "Albuquerque Roofers",
+      "website": "https://allseasonsroofer.com/",
+      "contactUrl": "https://allseasonsroofer.com/",
+      "industry": "Roofing",
+      "country": "Albuquerque NM, USA",
+      "outdatedScore": 0,
+      "outdatedBreakdown": "",
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T20:44:43.341Z",
+          "messageId": "9749881c-5ca0-4c50-b782-8700cbf1115d",
+          "subject": "Quick idea for Albuquerque Roofers website"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T20:44:43.341Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "soshvac402@gmail.com": {
+      "email": "soshvac402@gmail.com",
+      "businessName": "SOS Heating & Cooling: Omaha, NE Air Conditioner & Heater Services",
+      "website": "http://www.soshvac.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb-profile-omaha",
+      "contactUrl": "http://www.soshvac.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb-profile-omaha",
+      "industry": "HVAC",
+      "country": "Omaha NE, USA",
+      "outdatedScore": 0,
+      "outdatedBreakdown": "",
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T20:48:59.062Z",
+          "messageId": "f5b6b9ba-d885-4fcc-81ac-50b1856b9d2f",
+          "subject": "Quick idea for SOS Heating & Cooling: Omaha, NE Air Conditioner & Heater Services website"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T20:48:59.062Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "info@inlawplumbing.com": {
+      "email": "info@inlawplumbing.com",
+      "businessName": "In-Law Plumbing & Drain Services, Inc",
+      "website": "http://www.inlawplumbing.com/",
+      "contactUrl": "http://www.inlawplumbing.com/",
+      "industry": "Plumbing",
+      "country": "Omaha NE, USA",
+      "outdatedScore": 65,
+      "outdatedBreakdown": "wp=15;jq3x=5(3.7.1);legacy=10;slow=10(5.8s);heavy=15(7.8MB);noHttps=10",
+      "observation": "your homepage downloads 7.8MB on mobile — most homeowners bail before it finishes loading",
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T20:53:06.154Z",
+          "messageId": "3cf5e1ec-f926-4818-8e2e-bce9dc4c27ca",
+          "subject": "Quick idea for In-Law Plumbing & Drain Services, Inc website"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T20:53:06.154Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "%20info@ckelectricomaha.com": {
+      "email": "%20info@ckelectricomaha.com",
+      "businessName": "Electrician in Omaha",
+      "website": "https://ckelectricomaha.com/",
+      "contactUrl": "https://ckelectricomaha.com/",
+      "industry": "Electrical",
+      "country": "Omaha NE, USA",
+      "outdatedScore": 0,
+      "outdatedBreakdown": "",
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T20:55:17.674Z",
+          "messageId": "b9481900-94ad-411b-bef8-a397d36cc0ed",
+          "subject": "Electrician in Omaha: free website improvement concepts"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T20:55:17.674Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "contact@jsrussellelectric.com": {
+      "email": "contact@jsrussellelectric.com",
+      "businessName": "Electricians Omaha NE",
+      "website": "http://www.jsrussellelectric.com/",
+      "contactUrl": "http://www.jsrussellelectric.com/",
+      "industry": "Electrical",
+      "country": "Omaha NE, USA",
+      "outdatedScore": 0,
+      "outdatedBreakdown": "",
+      "observation": null,
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T20:57:00.479Z",
+          "messageId": "81363adc-e18a-4cc2-92e2-59cfe5ddfbb8",
+          "subject": "Electricians Omaha NE: free website improvement concepts"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T20:57:00.479Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "info@glglegal.com.au": {
+      "email": "info@glglegal.com.au",
+      "businessName": "Brisbane's Property & Commercial Legal Experts",
+      "website": "https://www.glglegal.com.au/?utm_source=google&utm_medium=gmb&utm_campaign=seo",
+      "contactUrl": "https://www.glglegal.com.au/?utm_source=google&utm_medium=gmb&utm_campaign=seo",
+      "industry": "Legal",
+      "country": "Brisbane Australia, Australia",
+      "outdatedScore": 55,
+      "outdatedBreakdown": "wp=15;jq3x=5(3.7.1);legacy=10;slow=10(6.1s);heavy=15(15.2MB)",
+      "observation": "your homepage downloads 15.2MB on mobile — most clients bail before it finishes loading",
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T21:05:33.021Z",
+          "messageId": "014ff600-4030-445b-86fa-ce02a48faba5",
+          "subject": "Brisbane's Property & Commercial Legal Experts: free website improvement concepts"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T21:05:33.021Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    },
+    "service@totalairconditioning.com.au": {
+      "email": "service@totalairconditioning.com.au",
+      "businessName": "TOTAL AIR",
+      "website": "https://airconditioningperth.com.au/",
+      "contactUrl": "https://airconditioningperth.com.au/",
+      "industry": "HVAC",
+      "country": "Perth Australia, Australia",
+      "outdatedScore": 65,
+      "outdatedBreakdown": "wp=15;jq3x=5(3.7.1);dir=15;legacy=10;slow=10(7.0s);heavy=10(4.5MB)",
+      "observation": "your homepage downloads 4.5MB on mobile — most homeowners bail before it finishes loading",
+      "touches": [
+        {
+          "seq": 1,
+          "sentAt": "2026-04-06T21:09:41.539Z",
+          "messageId": "5b58f7b7-189c-4a1e-9ec0-76a0e4749f90",
+          "subject": "TOTAL AIR: free website improvement concepts"
+        }
+      ],
+      "nextTouchAt": "2026-04-09T21:09:41.539Z",
+      "nextSeq": 2,
+      "replied": false,
+      "bounced": false,
+      "completed": false,
+      "lastReplyCheck": null
+    }
+  }
+}

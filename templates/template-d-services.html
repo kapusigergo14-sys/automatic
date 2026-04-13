@@ -1,0 +1,2317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{COMPANY_NAME}} - Our Services | Professional {{SERVICE_1}} in {{CITY}}</title>
+    <meta name="description" content="Explore the full range of professional services offered by {{COMPANY_NAME}} in {{CITY}}. From {{SERVICE_1}} to {{SERVICE_6}}, we deliver quality results. Call {{PHONE}}.">
+    <style>
+        /* ============================================
+           TEMPLATE D - SERVICES SUBPAGE
+           BOLD INDUSTRIAL - Dark Theme, Orange Accents
+           Trade / Construction Business Template
+           ============================================ */
+
+        :root {
+            --primary: {{PRIMARY_COLOR}};
+            --accent: {{ACCENT_COLOR}};
+            --bg: {{BG_COLOR}};
+            --text: {{TEXT_COLOR}};
+            --card-bg: #252525;
+            --footer-bg: #111111;
+            --nav-height: 72px;
+            --radius: 4px;
+            --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            --shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.6);
+            --glow: 0 0 20px rgba(249, 115, 22, 0.3);
+            --glow-strong: 0 0 30px rgba(249, 115, 22, 0.5);
+        }
+
+        /* ---- RESET & BASE ---- */
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: var(--nav-height);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image:
+                repeating-linear-gradient(
+                    0deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(255,255,255,0.008) 2px,
+                    rgba(255,255,255,0.008) 4px
+                ),
+                repeating-linear-gradient(
+                    90deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(255,255,255,0.008) 2px,
+                    rgba(255,255,255,0.008) 4px
+                );
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color var(--transition);
+        }
+
+        a:hover {
+            color: #fb923c;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .section-pad {
+            padding: 100px 0;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-align: center;
+            margin-bottom: 16px;
+            color: var(--text);
+        }
+
+        .section-title span {
+            color: var(--accent);
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: #999;
+            font-size: 1.1rem;
+            margin-bottom: 56px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* ============================================
+           NAVIGATION
+           ============================================ */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: var(--nav-height);
+            background: rgba(17, 17, 17, 0.95);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            z-index: 9999;
+            transition: background var(--transition), box-shadow var(--transition);
+            border-bottom: 2px solid transparent;
+        }
+
+        .navbar.scrolled {
+            background: rgba(11, 11, 11, 0.98);
+            border-bottom-color: var(--accent);
+            box-shadow: 0 2px 30px rgba(0, 0, 0, 0.6);
+        }
+
+        .navbar .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100%;
+        }
+
+        .nav-logo {
+            font-size: 1.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: var(--text);
+            letter-spacing: 3px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .nav-logo .logo-icon {
+            font-size: 1.8rem;
+        }
+
+        .nav-logo .logo-accent {
+            color: var(--accent);
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: #ccc;
+            font-weight: 700;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: color var(--transition);
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent);
+            transition: width var(--transition);
+        }
+
+        .nav-links a:hover {
+            color: var(--accent);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .nav-links a.active {
+            color: var(--accent);
+        }
+
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .nav-cta {
+            background: var(--accent);
+            color: #000 !important;
+            padding: 10px 24px;
+            font-weight: 900;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: none;
+            cursor: pointer;
+            transition: transform var(--transition), box-shadow var(--transition), background var(--transition);
+        }
+
+        .nav-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--glow);
+            background: #fb923c;
+            color: #000 !important;
+        }
+
+        .nav-cta::after {
+            display: none !important;
+        }
+
+        /* Hamburger */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            z-index: 10001;
+            background: none;
+            border: none;
+            padding: 8px;
+        }
+
+        .hamburger span {
+            display: block;
+            width: 28px;
+            height: 3px;
+            background: var(--text);
+            transition: transform var(--transition), opacity var(--transition);
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(6px, 6px);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(6px, -6px);
+        }
+
+        /* ============================================
+           PAGE HERO BANNER
+           ============================================ */
+        .page-hero {
+            position: relative;
+            padding: 160px 0 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background:
+                linear-gradient(
+                    135deg,
+                    rgba(26, 26, 26, 0.97) 0%,
+                    rgba(20, 20, 20, 0.95) 50%,
+                    rgba(30, 20, 10, 0.97) 100%
+                );
+            clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+            overflow: hidden;
+        }
+
+        .page-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background:
+                radial-gradient(ellipse at 20% 50%, rgba(249, 115, 22, 0.08) 0%, transparent 60%),
+                radial-gradient(ellipse at 80% 20%, rgba(249, 115, 22, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .page-hero::after {
+            content: '';
+            position: absolute;
+            bottom: -60px;
+            right: -80px;
+            width: 350px;
+            height: 350px;
+            border: 3px solid rgba(249, 115, 22, 0.1);
+            transform: rotate(45deg);
+            pointer-events: none;
+        }
+
+        .page-hero-content {
+            text-align: center;
+            position: relative;
+            z-index: 2;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .page-hero-badge {
+            display: inline-block;
+            background: rgba(249, 115, 22, 0.15);
+            border: 1px solid rgba(249, 115, 22, 0.4);
+            color: var(--accent);
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            padding: 8px 24px;
+            margin-bottom: 24px;
+        }
+
+        .page-hero h1 {
+            font-size: 4rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            line-height: 1.1;
+            letter-spacing: 3px;
+            margin-bottom: 24px;
+            text-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+            color: var(--text);
+        }
+
+        .page-hero h1 .accent {
+            color: var(--accent);
+        }
+
+        .page-hero-sub {
+            font-size: 1.2rem;
+            color: #aaa;
+            max-width: 650px;
+            margin: 0 auto 32px;
+            line-height: 1.7;
+        }
+
+        .page-hero .breadcrumb {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 0.85rem;
+            color: #777;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+
+        .page-hero .breadcrumb a {
+            color: #999;
+            transition: color var(--transition);
+        }
+
+        .page-hero .breadcrumb a:hover {
+            color: var(--accent);
+        }
+
+        .page-hero .breadcrumb .separator {
+            color: var(--accent);
+            font-size: 0.7rem;
+        }
+
+        .page-hero .breadcrumb .current {
+            color: var(--accent);
+        }
+
+        /* Decorative diagonal lines in hero */
+        .page-hero .hero-decoration {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            overflow: hidden;
+        }
+
+        .page-hero .hero-decoration .line {
+            position: absolute;
+            background: rgba(249, 115, 22, 0.04);
+        }
+
+        .page-hero .hero-decoration .line-1 {
+            width: 2px;
+            height: 120%;
+            top: -10%;
+            left: 15%;
+            transform: rotate(15deg);
+        }
+
+        .page-hero .hero-decoration .line-2 {
+            width: 2px;
+            height: 120%;
+            top: -10%;
+            left: 85%;
+            transform: rotate(-15deg);
+        }
+
+        .page-hero .hero-decoration .line-3 {
+            width: 1px;
+            height: 120%;
+            top: -10%;
+            left: 40%;
+            transform: rotate(8deg);
+            background: rgba(249, 115, 22, 0.025);
+        }
+
+        .page-hero .hero-decoration .line-4 {
+            width: 1px;
+            height: 120%;
+            top: -10%;
+            left: 65%;
+            transform: rotate(-8deg);
+            background: rgba(249, 115, 22, 0.025);
+        }
+
+        /* ============================================
+           SERVICES INTRO SECTION
+           ============================================ */
+        .services-intro {
+            padding: 100px 0 60px;
+            position: relative;
+        }
+
+        .services-intro::before {
+            content: '';
+            position: absolute;
+            top: -60px;
+            left: -150px;
+            width: 400px;
+            height: 400px;
+            border: 2px solid rgba(249, 115, 22, 0.04);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .services-intro-inner {
+            display: flex;
+            align-items: center;
+            gap: 48px;
+        }
+
+        .services-intro-text {
+            flex: 1;
+        }
+
+        .services-intro-text .section-tag {
+            display: inline-block;
+            background: rgba(249, 115, 22, 0.15);
+            border: 1px solid rgba(249, 115, 22, 0.3);
+            color: var(--accent);
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            padding: 6px 18px;
+            margin-bottom: 20px;
+        }
+
+        .services-intro-text h2 {
+            font-size: 2.2rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            color: var(--text);
+        }
+
+        .services-intro-text h2 span {
+            color: var(--accent);
+        }
+
+        .services-intro-text p {
+            color: #999;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            margin-bottom: 16px;
+        }
+
+        .services-intro-stats {
+            flex: 0 0 360px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .intro-stat-card {
+            background: var(--card-bg);
+            border-top: 3px solid var(--accent);
+            padding: 28px 20px;
+            text-align: center;
+            transition: transform var(--transition), box-shadow var(--transition);
+        }
+
+        .intro-stat-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .intro-stat-number {
+            font-size: 2.2rem;
+            font-weight: 900;
+            color: var(--accent);
+            letter-spacing: 1px;
+            margin-bottom: 4px;
+        }
+
+        .intro-stat-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #888;
+            font-weight: 700;
+        }
+
+        /* ============================================
+           SERVICES GRID - DETAILED CARDS
+           ============================================ */
+        .services-section {
+            background:
+                linear-gradient(180deg, var(--bg) 0%, #1e1e1e 50%, var(--bg) 100%);
+            position: relative;
+            padding: 100px 0;
+        }
+
+        .services-section::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            right: -200px;
+            width: 500px;
+            height: 500px;
+            border: 2px solid rgba(249, 115, 22, 0.04);
+            border-radius: 50%;
+            transform: translateY(-50%);
+            pointer-events: none;
+        }
+
+        .services-section::after {
+            content: '';
+            position: absolute;
+            bottom: 100px;
+            left: -100px;
+            width: 300px;
+            height: 300px;
+            border: 3px solid rgba(249, 115, 22, 0.06);
+            transform: rotate(45deg);
+            pointer-events: none;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 28px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .service-card {
+            background: var(--card-bg);
+            border-top: 4px solid var(--accent);
+            padding: 48px 36px;
+            transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(249, 115, 22, 0.05) 0%, transparent 60%);
+            opacity: 0;
+            transition: opacity var(--transition);
+        }
+
+        .service-card::after {
+            content: '';
+            position: absolute;
+            bottom: -60px;
+            right: -60px;
+            width: 150px;
+            height: 150px;
+            border: 2px solid rgba(249, 115, 22, 0.06);
+            transform: rotate(45deg);
+            pointer-events: none;
+            transition: opacity var(--transition), transform var(--transition);
+            opacity: 0;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .service-card:hover::before {
+            opacity: 1;
+        }
+
+        .service-card:hover::after {
+            opacity: 1;
+            transform: rotate(45deg) translate(-10px, -10px);
+        }
+
+        .service-card-number {
+            position: absolute;
+            top: 16px;
+            right: 20px;
+            font-size: 4rem;
+            font-weight: 900;
+            color: rgba(249, 115, 22, 0.06);
+            line-height: 1;
+            pointer-events: none;
+            z-index: 0;
+            transition: color var(--transition);
+        }
+
+        .service-card:hover .service-card-number {
+            color: rgba(249, 115, 22, 0.1);
+        }
+
+        .service-icon {
+            font-size: 3.2rem;
+            margin-bottom: 24px;
+            display: block;
+            position: relative;
+            z-index: 1;
+            transition: transform var(--transition);
+        }
+
+        .service-card:hover .service-icon {
+            transform: scale(1.1);
+        }
+
+        .service-card h3 {
+            font-size: 1.35rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 14px;
+            color: var(--text);
+            position: relative;
+            z-index: 1;
+        }
+
+        .service-card .service-desc {
+            color: #999;
+            font-size: 0.95rem;
+            line-height: 1.8;
+            position: relative;
+            z-index: 1;
+            margin-bottom: 20px;
+        }
+
+        .service-card .service-features {
+            list-style: none;
+            margin-bottom: 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .service-card .service-features li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 6px 0;
+            color: #bbb;
+            font-size: 0.88rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+        }
+
+        .service-card .service-features li:last-child {
+            border-bottom: none;
+        }
+
+        .service-card .service-features li .feature-check {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 0.9rem;
+            flex-shrink: 0;
+        }
+
+        .service-card .learn-more {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 8px;
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            z-index: 1;
+            transition: letter-spacing var(--transition), color var(--transition), gap var(--transition);
+        }
+
+        .service-card .learn-more:hover {
+            letter-spacing: 2px;
+            gap: 12px;
+        }
+
+        .service-card .learn-more .arrow {
+            transition: transform var(--transition);
+        }
+
+        .service-card:hover .learn-more .arrow {
+            transform: translateX(4px);
+        }
+
+        /* ============================================
+           SERVICE PROCESS SECTION
+           ============================================ */
+        .process-section {
+            padding: 100px 0;
+            background: var(--bg);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .process-section::before {
+            content: '';
+            position: absolute;
+            top: -100px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 600px;
+            height: 600px;
+            border: 2px solid rgba(249, 115, 22, 0.04);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .process-grid::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 40px;
+            right: 40px;
+            height: 2px;
+            background: linear-gradient(
+                90deg,
+                transparent,
+                rgba(249, 115, 22, 0.2) 20%,
+                rgba(249, 115, 22, 0.2) 80%,
+                transparent
+            );
+            z-index: 0;
+        }
+
+        .process-card {
+            text-align: center;
+            padding: 40px 24px;
+            position: relative;
+            z-index: 1;
+            background: var(--bg);
+        }
+
+        .process-step-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 64px;
+            height: 64px;
+            background: var(--accent);
+            color: #000;
+            font-size: 1.5rem;
+            font-weight: 900;
+            margin-bottom: 24px;
+            position: relative;
+            transition: transform var(--transition), box-shadow var(--transition);
+        }
+
+        .process-card:hover .process-step-number {
+            transform: scale(1.1);
+            box-shadow: var(--glow-strong);
+        }
+
+        .process-card h3 {
+            font-size: 1.1rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+            color: var(--text);
+        }
+
+        .process-card p {
+            font-size: 0.9rem;
+            color: #888;
+            line-height: 1.7;
+        }
+
+        /* ============================================
+           WHY CHOOSE US / ADVANTAGES
+           ============================================ */
+        .advantages-section {
+            padding: 100px 0;
+            background: linear-gradient(180deg, #1e1e1e 0%, var(--bg) 100%);
+            position: relative;
+        }
+
+        .advantages-section::before {
+            content: '';
+            position: absolute;
+            top: -100px;
+            right: -100px;
+            width: 500px;
+            height: 500px;
+            border: 2px solid rgba(249, 115, 22, 0.06);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .advantages-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 28px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .advantage-card {
+            display: flex;
+            gap: 20px;
+            padding: 36px;
+            background: var(--card-bg);
+            border-left: 3px solid var(--accent);
+            transition: transform var(--transition), box-shadow var(--transition);
+        }
+
+        .advantage-card:hover {
+            transform: translateX(6px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .advantage-icon {
+            font-size: 2.2rem;
+            flex-shrink: 0;
+            transition: transform var(--transition);
+        }
+
+        .advantage-card:hover .advantage-icon {
+            transform: scale(1.15);
+        }
+
+        .advantage-text h3 {
+            font-size: 1.1rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+            color: var(--text);
+        }
+
+        .advantage-text p {
+            color: #888;
+            font-size: 0.92rem;
+            line-height: 1.7;
+        }
+
+        /* ============================================
+           SERVICE AREAS SECTION
+           ============================================ */
+        .areas-section {
+            padding: 100px 0;
+            background: var(--bg);
+            position: relative;
+        }
+
+        .areas-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .area-card {
+            background: var(--card-bg);
+            padding: 24px 28px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            border-left: 3px solid transparent;
+            transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+        }
+
+        .area-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow);
+            border-left-color: var(--accent);
+        }
+
+        .area-card .area-pin {
+            font-size: 1.4rem;
+            flex-shrink: 0;
+        }
+
+        .area-card .area-name {
+            font-weight: 700;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text);
+        }
+
+        .area-card .area-distance {
+            font-size: 0.78rem;
+            color: #777;
+            margin-top: 2px;
+        }
+
+        /* ============================================
+           TRUST / STATS BAR
+           ============================================ */
+        .trust-bar {
+            padding: 60px 0;
+            background: var(--card-bg);
+            border-top: 2px solid rgba(249, 115, 22, 0.15);
+            border-bottom: 2px solid rgba(249, 115, 22, 0.15);
+        }
+
+        .trust-bar-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 32px;
+            text-align: center;
+        }
+
+        .trust-bar-item {
+            transition: transform var(--transition);
+        }
+
+        .trust-bar-item:hover {
+            transform: translateY(-4px);
+        }
+
+        .trust-bar-icon {
+            font-size: 2rem;
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        .trust-bar-number {
+            font-size: 2rem;
+            font-weight: 900;
+            color: var(--accent);
+            letter-spacing: 1px;
+            margin-bottom: 4px;
+        }
+
+        .trust-bar-label {
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #888;
+            font-weight: 700;
+        }
+
+        /* ============================================
+           FAQ SECTION
+           ============================================ */
+        .faq-section {
+            padding: 100px 0;
+            background: var(--bg);
+            position: relative;
+        }
+
+        .faq-list {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid #333;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 24px 0;
+            cursor: pointer;
+            background: none;
+            border: none;
+            width: 100%;
+            text-align: left;
+            color: var(--text);
+            font-family: inherit;
+            font-size: 1.05rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: color var(--transition);
+        }
+
+        .faq-question:hover {
+            color: var(--accent);
+        }
+
+        .faq-toggle {
+            font-size: 1.5rem;
+            color: var(--accent);
+            font-weight: 300;
+            transition: transform var(--transition);
+            flex-shrink: 0;
+            margin-left: 16px;
+        }
+
+        .faq-item.open .faq-toggle {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.4s ease;
+        }
+
+        .faq-item.open .faq-answer {
+            max-height: 300px;
+            padding-bottom: 24px;
+        }
+
+        .faq-answer p {
+            color: #999;
+            font-size: 0.95rem;
+            line-height: 1.8;
+        }
+
+        /* ============================================
+           CTA BANNER
+           ============================================ */
+        .cta-banner {
+            padding: 100px 0;
+            background: var(--card-bg);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            border-top: 4px solid var(--accent);
+        }
+
+        .cta-banner::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background:
+                radial-gradient(ellipse at 30% 50%, rgba(249, 115, 22, 0.08) 0%, transparent 60%),
+                radial-gradient(ellipse at 70% 50%, rgba(249, 115, 22, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .cta-banner::after {
+            content: '';
+            position: absolute;
+            top: -80px;
+            left: -80px;
+            width: 300px;
+            height: 300px;
+            border: 3px solid rgba(249, 115, 22, 0.08);
+            transform: rotate(45deg);
+            pointer-events: none;
+        }
+
+        .cta-banner-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-banner h2 {
+            font-size: 2.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--text);
+            margin-bottom: 16px;
+        }
+
+        .cta-banner h2 span {
+            color: var(--accent);
+        }
+
+        .cta-banner p {
+            font-size: 1.1rem;
+            color: #999;
+            max-width: 550px;
+            margin: 0 auto 40px;
+            line-height: 1.7;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            display: inline-block;
+            background: var(--accent);
+            color: #000;
+            padding: 16px 40px;
+            font-size: 1rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border: none;
+            cursor: pointer;
+            transition: transform var(--transition), box-shadow var(--transition), background var(--transition);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(249, 115, 22, 0.4);
+            background: #fb923c;
+            color: #000;
+        }
+
+        .btn-secondary {
+            display: inline-block;
+            background: transparent;
+            color: var(--text);
+            padding: 16px 40px;
+            font-size: 1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border: 2px solid #555;
+            cursor: pointer;
+            transition: border-color var(--transition), color var(--transition), transform var(--transition);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+            transform: translateY(-3px);
+        }
+
+        .cta-phone-link {
+            display: block;
+            margin-top: 24px;
+            font-size: 1.5rem;
+            font-weight: 900;
+            color: var(--accent);
+            letter-spacing: 3px;
+            transition: letter-spacing var(--transition);
+        }
+
+        .cta-phone-link:hover {
+            letter-spacing: 5px;
+        }
+
+        .cta-phone-label {
+            display: block;
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: #777;
+            margin-top: 8px;
+            font-weight: 700;
+        }
+
+        /* ============================================
+           FOOTER
+           ============================================ */
+        .footer {
+            background: var(--footer-bg);
+            padding: 80px 0 0;
+            border-top: 3px solid var(--accent);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1fr;
+            gap: 48px;
+            padding-bottom: 48px;
+        }
+
+        .footer-brand .footer-logo {
+            font-size: 1.4rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: var(--text);
+            margin-bottom: 16px;
+            display: block;
+        }
+
+        .footer-brand .footer-logo .logo-accent {
+            color: var(--accent);
+        }
+
+        .footer-brand p {
+            color: #777;
+            font-size: 0.9rem;
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 12px;
+        }
+
+        .footer-social a {
+            width: 40px;
+            height: 40px;
+            background: #222;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            transition: background var(--transition), transform var(--transition), box-shadow var(--transition);
+        }
+
+        .footer-social a:hover {
+            background: var(--accent);
+            transform: translateY(-4px);
+            box-shadow: var(--glow);
+        }
+
+        .footer h4 {
+            font-size: 0.9rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--text);
+            margin-bottom: 20px;
+        }
+
+        .footer-links {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .footer-links a {
+            color: #777;
+            font-size: 0.9rem;
+            transition: color var(--transition), padding-left var(--transition);
+        }
+
+        .footer-links a:hover {
+            color: var(--accent);
+            padding-left: 6px;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #222;
+            padding: 24px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .footer-bottom p {
+            color: #555;
+            font-size: 0.8rem;
+        }
+
+        .footer-bottom a {
+            color: #555;
+            font-size: 0.8rem;
+        }
+
+        .footer-bottom a:hover {
+            color: var(--accent);
+        }
+
+        /* ============================================
+           SCROLL REVEAL ANIMATIONS
+           ============================================ */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .reveal-left {
+            opacity: 0;
+            transform: translateX(-30px);
+            transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .reveal-left.visible {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .reveal-right {
+            opacity: 0;
+            transform: translateX(30px);
+            transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .reveal-right.visible {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        /* ============================================
+           MOBILE RESPONSIVE
+           ============================================ */
+        @media (max-width: 1024px) {
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .process-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 32px;
+            }
+
+            .process-grid::before {
+                display: none;
+            }
+
+            .areas-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 32px;
+            }
+
+            .footer-brand {
+                grid-column: 1 / -1;
+            }
+
+            .services-intro-inner {
+                flex-direction: column;
+            }
+
+            .services-intro-stats {
+                flex: none;
+                width: 100%;
+                max-width: 400px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100vh;
+                background: rgba(11, 11, 11, 0.98);
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 32px;
+                z-index: 10000;
+            }
+
+            .nav-links.open {
+                display: flex;
+            }
+
+            .nav-links a {
+                font-size: 1.2rem;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .page-hero {
+                clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+                padding: 120px 0 80px;
+            }
+
+            .page-hero h1 {
+                font-size: 2.2rem;
+                letter-spacing: 1px;
+            }
+
+            .page-hero-sub {
+                font-size: 1rem;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .process-grid {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+
+            .process-card {
+                padding: 32px 20px;
+            }
+
+            .advantages-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .areas-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .trust-bar-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 24px;
+            }
+
+            .cta-banner h2 {
+                font-size: 1.6rem;
+                letter-spacing: 1px;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+
+            .footer-brand {
+                grid-column: auto;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .section-title {
+                font-size: 1.8rem;
+            }
+
+            .section-pad {
+                padding: 80px 0;
+            }
+
+            .services-intro-text h2 {
+                font-size: 1.6rem;
+            }
+
+            .services-intro-stats {
+                max-width: 100%;
+            }
+
+            .faq-question {
+                font-size: 0.9rem;
+                letter-spacing: 0.5px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .page-hero h1 {
+                font-size: 1.7rem;
+                letter-spacing: 1px;
+            }
+
+            .page-hero-badge {
+                font-size: 0.7rem;
+                letter-spacing: 2px;
+                padding: 6px 16px;
+            }
+
+            .page-hero .breadcrumb {
+                font-size: 0.72rem;
+                letter-spacing: 1px;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+                letter-spacing: 1px;
+            }
+
+            .section-pad {
+                padding: 64px 0;
+            }
+
+            .service-card {
+                padding: 32px 24px;
+            }
+
+            .service-card-number {
+                font-size: 3rem;
+            }
+
+            .process-step-number {
+                width: 52px;
+                height: 52px;
+                font-size: 1.2rem;
+            }
+
+            .advantage-card {
+                padding: 24px;
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            .trust-bar-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+            }
+
+            .trust-bar-number {
+                font-size: 1.6rem;
+            }
+
+            .cta-banner h2 {
+                font-size: 1.4rem;
+            }
+
+            .cta-phone-link {
+                font-size: 1.2rem;
+                letter-spacing: 2px;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .cta-buttons .btn-primary,
+            .cta-buttons .btn-secondary {
+                width: 100%;
+                max-width: 320px;
+                text-align: center;
+            }
+
+            .footer-social a {
+                width: 44px;
+                height: 44px;
+            }
+
+            .services-intro-stats {
+                grid-template-columns: 1fr 1fr;
+                gap: 12px;
+            }
+
+            .intro-stat-card {
+                padding: 20px 14px;
+            }
+
+            .intro-stat-number {
+                font-size: 1.8rem;
+            }
+
+            .services-intro {
+                padding: 64px 0 40px;
+            }
+
+            .services-section,
+            .process-section,
+            .advantages-section,
+            .areas-section,
+            .faq-section {
+                padding: 64px 0;
+            }
+
+            .area-card {
+                padding: 18px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ========== NAVIGATION ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="template-d.html" class="nav-logo">
+                <span class="logo-icon">&#x1f527;</span>
+                <span>{{COMPANY_NAME}}</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="template-d.html" onclick="closeMenu()">Home</a></li>
+                <li><a href="template-d-services.html" class="active" onclick="closeMenu()">Services</a></li>
+                <li><a href="template-d.html#gallery" onclick="closeMenu()">Our Work</a></li>
+                <li><a href="template-d.html#testimonials" onclick="closeMenu()">Reviews</a></li>
+                <li><a href="template-d.html#contact" onclick="closeMenu()">Contact</a></li>
+                <li><a href="template-d.html#contact" class="nav-cta" onclick="closeMenu()">{{CTA_TEXT}}</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== PAGE HERO BANNER ========== -->
+    <section class="page-hero">
+        <div class="hero-decoration">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+            <div class="line line-4"></div>
+        </div>
+        <div class="container">
+            <div class="page-hero-content">
+                <div class="page-hero-badge">Licensed &amp; Insured Professionals</div>
+                <h1>Our <span class="accent">Services</span></h1>
+                <p class="page-hero-sub">
+                    From routine maintenance to complex projects, {{COMPANY_NAME}} delivers expert
+                    craftsmanship and reliable results across {{CITY}} and surrounding areas.
+                </p>
+                <div class="breadcrumb">
+                    <a href="template-d.html">Home</a>
+                    <span class="separator">&#9654;</span>
+                    <span class="current">Services</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES INTRO ========== -->
+    <section class="services-intro">
+        <div class="container">
+            <div class="services-intro-inner">
+                <div class="services-intro-text reveal-left">
+                    <div class="section-tag">What We Offer</div>
+                    <h2>Professional <span>Solutions</span> for Every Need</h2>
+                    <p>
+                        At {{COMPANY_NAME}}, we bring years of hands-on experience to every job.
+                        Whether it's a small repair or a full-scale project, our licensed team
+                        delivers quality workmanship that stands the test of time.
+                    </p>
+                    <p>
+                        We serve residential and commercial clients throughout {{CITY}},
+                        offering transparent pricing, on-time completion, and a satisfaction
+                        guarantee on every project we take on.
+                    </p>
+                </div>
+                <div class="services-intro-stats reveal-right">
+                    <div class="intro-stat-card">
+                        <div class="intro-stat-number">10+</div>
+                        <div class="intro-stat-label">Years Exp.</div>
+                    </div>
+                    <div class="intro-stat-card">
+                        <div class="intro-stat-number">{{REVIEW_COUNT}}+</div>
+                        <div class="intro-stat-label">Clients Served</div>
+                    </div>
+                    <div class="intro-stat-card">
+                        <div class="intro-stat-number">{{RATING}}</div>
+                        <div class="intro-stat-label">Star Rating</div>
+                    </div>
+                    <div class="intro-stat-card">
+                        <div class="intro-stat-number">24/7</div>
+                        <div class="intro-stat-label">Availability</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== DETAILED SERVICES GRID ========== -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <h2 class="section-title reveal">What We <span>Specialize In</span></h2>
+            <p class="section-subtitle reveal">
+                Comprehensive services delivered by certified professionals with a commitment to excellence.
+            </p>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card reveal">
+                    <span class="service-card-number">01</span>
+                    <span class="service-icon">&#x1f528;</span>
+                    <h3>{{SERVICE_1}}</h3>
+                    <p class="service-desc">{{SERVICE_DESC_1}}</p>
+                    <ul class="service-features">
+                        <li>
+                            <span class="feature-check">&#10003;</span>
+                            Free on-site assessment
+                        </li>
+                        <li>
+                            <span class="feature-check">&#10003;</span>
+                            Licensed &amp; insured crew
+                        </li>
+                        <li>
+                            <span class="feature-check">&#10003;</span>
+                            Written warranty included
+                        </li>
+                    </ul>
+                    <a href="template-d.html#contact" class="learn-more">
+                        Learn More <span class="arrow">&rarr;</span>
+                    </a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card reveal">
+                    <span class="service-card-number">02</span>
+                    <span class="service-icon">&#x1f3e0;</span>
+                    <h3>{{SERVICE_2}}</h3>
+                    <p class="service-desc">{{SERVICE_DESC_2}}</p>
+                    <ul class="service-features">
+                        <li>
+                            <span class="feature-check">&#10003;</span>
+                            Premium materials only
+                        </li>
+                        <li>
+                            <span class="feature-check">&#10003;</span>
+                            Same-day estimates
+                        </li>
+                        <li>
+                            <span class="feature-check">&#10003;</span>
+                            100% satisfaction guarantee
+                        </li>
+                    </ul>
+                    <a href="template-d.html#contact" class="learn-more">
+                        Learn More <span class="arrow">&rarr;</span>
+                    </a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card reveal">
+                    <span class="service-card-number">03</span>
+                    <span class="service-icon">&#x26a1;</span>
+                    <h3>{{SERVICE_3}}</h3>
+                    <p class="service-desc">{{SERVICE_DESC_3}}</p>
+                    <ul class="service-features">
+                        <li>
+                            <span class="feature-check">&#10003;</span>
+                            Transparent pricing
+                        </li>
+                        <li>
+                            <span class="feature-check">&#10003;</span>
+                            Fully certified technicians
+                        </li>
+                        <li>
+                            <span class="feature-check">&#10003;</span>
+                            Emergency availability
+                        </li>
+                    </ul>
+                    <a href="template-d.html#contact" class="learn-more">
+                        Learn More <span class="arrow">&rarr;</span>
+                    </a>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card reveal">
+                    <span class="service-card-number">04</span>
+                    <span class="service-icon">&#x1f6e1;&#xfe0f;</span>
+                    <h3>{{SERVICE_4}}</h3>
+                    <p class="service-desc">{{SERVICE_DESC_4}}</p>
+                    <ul class="service-features">
+                        <li>
+                            <span class="feature-check">&#10003;</span>
+                            Detailed project planning
+                        </li>
+                        <li>
+                            <span class="feature-check">&#10003;</span>
+                            On-time completion
+                        </li>
+                        <li>
+                            <span class="feature-check">&#10003;</span>
+                            Clean job site guarantee
+                        </li>
+                    </ul>
+                    <a href="template-d.html#contact" class="learn-more">
+                        Learn More <span class="arrow">&rarr;</span>
+                    </a>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card reveal">
+                    <span class="service-card-number">05</span>
+                    <span class="service-icon">&#x1f3d7;&#xfe0f;</span>
+                    <h3>{{SERVICE_5}}</h3>
+                    <p class="service-desc">{{SERVICE_DESC_5}}</p>
+                    <ul class="service-features">
+                        <li>
+                            <span class="feature-check">&#10003;</span>
+                            Residential &amp; commercial
+                        </li>
+                        <li>
+                            <span class="feature-check">&#10003;</span>
+                            Code-compliant work
+                        </li>
+                        <li>
+                            <span class="feature-check">&#10003;</span>
+                            Long-term durability
+                        </li>
+                    </ul>
+                    <a href="template-d.html#contact" class="learn-more">
+                        Learn More <span class="arrow">&rarr;</span>
+                    </a>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card reveal">
+                    <span class="service-card-number">06</span>
+                    <span class="service-icon">&#x1f527;</span>
+                    <h3>{{SERVICE_6}}</h3>
+                    <p class="service-desc">{{SERVICE_DESC_6}}</p>
+                    <ul class="service-features">
+                        <li>
+                            <span class="feature-check">&#10003;</span>
+                            Expert consultation
+                        </li>
+                        <li>
+                            <span class="feature-check">&#10003;</span>
+                            Flexible scheduling
+                        </li>
+                        <li>
+                            <span class="feature-check">&#10003;</span>
+                            Competitive rates
+                        </li>
+                    </ul>
+                    <a href="template-d.html#contact" class="learn-more">
+                        Learn More <span class="arrow">&rarr;</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== OUR PROCESS ========== -->
+    <section class="process-section section-pad">
+        <div class="container">
+            <h2 class="section-title reveal">How We <span>Work</span></h2>
+            <p class="section-subtitle reveal">
+                A straightforward process designed to deliver results with zero hassle.
+            </p>
+            <div class="process-grid">
+                <div class="process-card reveal">
+                    <div class="process-step-number">01</div>
+                    <h3>Free Consultation</h3>
+                    <p>
+                        Call us or fill out our form. We'll discuss your needs
+                        and schedule an on-site assessment at a time that works for you.
+                    </p>
+                </div>
+                <div class="process-card reveal">
+                    <div class="process-step-number">02</div>
+                    <h3>Detailed Estimate</h3>
+                    <p>
+                        We provide a transparent, no-obligation quote with a full
+                        breakdown of materials, labor, and timeline for your project.
+                    </p>
+                </div>
+                <div class="process-card reveal">
+                    <div class="process-step-number">03</div>
+                    <h3>Expert Execution</h3>
+                    <p>
+                        Our certified team gets to work using premium materials
+                        and proven techniques. We keep you informed every step of the way.
+                    </p>
+                </div>
+                <div class="process-card reveal">
+                    <div class="process-step-number">04</div>
+                    <h3>Final Walkthrough</h3>
+                    <p>
+                        We do a thorough quality check with you. We don't leave until
+                        you're 100% satisfied with the finished result.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TRUST STATS BAR ========== -->
+    <section class="trust-bar">
+        <div class="container">
+            <div class="trust-bar-grid">
+                <div class="trust-bar-item reveal">
+                    <span class="trust-bar-icon">&#x1f3c6;</span>
+                    <div class="trust-bar-number">10+</div>
+                    <div class="trust-bar-label">Years Experience</div>
+                </div>
+                <div class="trust-bar-item reveal">
+                    <span class="trust-bar-icon">&#x2b50;</span>
+                    <div class="trust-bar-number">{{RATING}}</div>
+                    <div class="trust-bar-label">Star Rating</div>
+                </div>
+                <div class="trust-bar-item reveal">
+                    <span class="trust-bar-icon">&#x1f91d;</span>
+                    <div class="trust-bar-number">{{REVIEW_COUNT}}+</div>
+                    <div class="trust-bar-label">Happy Clients</div>
+                </div>
+                <div class="trust-bar-item reveal">
+                    <span class="trust-bar-icon">&#x26a1;</span>
+                    <div class="trust-bar-number">24/7</div>
+                    <div class="trust-bar-label">Emergency Service</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== WHY CHOOSE US ========== -->
+    <section class="advantages-section">
+        <div class="container">
+            <h2 class="section-title reveal">Why Choose <span>{{COMPANY_NAME}}</span></h2>
+            <p class="section-subtitle reveal">
+                We don't cut corners. Here's what sets us apart from the competition.
+            </p>
+            <div class="advantages-grid">
+                <div class="advantage-card reveal">
+                    <span class="advantage-icon">&#x1f6e1;&#xfe0f;</span>
+                    <div class="advantage-text">
+                        <h3>Licensed &amp; Insured</h3>
+                        <p>
+                            Fully licensed and carrying comprehensive insurance for your
+                            protection and complete peace of mind on every project.
+                        </p>
+                    </div>
+                </div>
+                <div class="advantage-card reveal">
+                    <span class="advantage-icon">&#x1f4b0;</span>
+                    <div class="advantage-text">
+                        <h3>Upfront Pricing</h3>
+                        <p>
+                            No hidden fees, no surprise charges. You get a detailed written
+                            quote before we start, and we stick to it.
+                        </p>
+                    </div>
+                </div>
+                <div class="advantage-card reveal">
+                    <span class="advantage-icon">&#x1f3af;</span>
+                    <div class="advantage-text">
+                        <h3>Quality Guarantee</h3>
+                        <p>
+                            We stand behind every job with a satisfaction guarantee. If
+                            it's not right, we'll make it right at no extra cost to you.
+                        </p>
+                    </div>
+                </div>
+                <div class="advantage-card reveal">
+                    <span class="advantage-icon">&#x23f0;</span>
+                    <div class="advantage-text">
+                        <h3>On-Time, Every Time</h3>
+                        <p>
+                            We respect your schedule. Our team shows up on time and
+                            completes work within the agreed-upon timeline.
+                        </p>
+                    </div>
+                </div>
+                <div class="advantage-card reveal">
+                    <span class="advantage-icon">&#x1f4f1;</span>
+                    <div class="advantage-text">
+                        <h3>Fast Communication</h3>
+                        <p>
+                            We answer calls, respond to messages quickly, and keep you
+                            updated throughout the entire project from start to finish.
+                        </p>
+                    </div>
+                </div>
+                <div class="advantage-card reveal">
+                    <span class="advantage-icon">&#x1f3da;&#xfe0f;</span>
+                    <div class="advantage-text">
+                        <h3>Clean Job Sites</h3>
+                        <p>
+                            We treat your property with respect. Every day we clean up
+                            after ourselves and leave the site spotless when we're done.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICE AREAS ========== -->
+    <section class="areas-section">
+        <div class="container">
+            <h2 class="section-title reveal">Areas We <span>Serve</span></h2>
+            <p class="section-subtitle reveal">
+                Proudly serving {{CITY}} and surrounding communities within 30 miles.
+            </p>
+            <div class="areas-grid">
+                <div class="area-card reveal">
+                    <span class="area-pin">&#x1f4cd;</span>
+                    <div>
+                        <div class="area-name">{{CITY}}</div>
+                        <div class="area-distance">Primary Service Area</div>
+                    </div>
+                </div>
+                <div class="area-card reveal">
+                    <span class="area-pin">&#x1f4cd;</span>
+                    <div>
+                        <div class="area-name">{{NEARBY_CITY_1}}</div>
+                        <div class="area-distance">Within 15 miles</div>
+                    </div>
+                </div>
+                <div class="area-card reveal">
+                    <span class="area-pin">&#x1f4cd;</span>
+                    <div>
+                        <div class="area-name">{{NEARBY_CITY_2}}</div>
+                        <div class="area-distance">Within 20 miles</div>
+                    </div>
+                </div>
+                <div class="area-card reveal">
+                    <span class="area-pin">&#x1f4cd;</span>
+                    <div>
+                        <div class="area-name">{{NEARBY_CITY_3}}</div>
+                        <div class="area-distance">Within 25 miles</div>
+                    </div>
+                </div>
+                <div class="area-card reveal">
+                    <span class="area-pin">&#x1f4cd;</span>
+                    <div>
+                        <div class="area-name">{{NEARBY_CITY_4}}</div>
+                        <div class="area-distance">Within 20 miles</div>
+                    </div>
+                </div>
+                <div class="area-card reveal">
+                    <span class="area-pin">&#x1f4cd;</span>
+                    <div>
+                        <div class="area-name">{{NEARBY_CITY_5}}</div>
+                        <div class="area-distance">Within 30 miles</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FAQ SECTION ========== -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title reveal">Frequently Asked <span>Questions</span></h2>
+            <p class="section-subtitle reveal">
+                Got questions? We've got answers. If you don't see yours here, give us a call.
+            </p>
+            <div class="faq-list">
+                <div class="faq-item reveal">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        How do I get a free estimate?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            Simply give us a call at {{PHONE}} or fill out the contact form on our website.
+                            We'll schedule a convenient time to visit your property, assess the work needed,
+                            and provide you with a detailed written estimate at no cost and no obligation.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        Are you licensed and insured?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            Yes, {{COMPANY_NAME}} is fully licensed and carries comprehensive general
+                            liability and workers' compensation insurance. We're happy to provide proof
+                            of insurance upon request for your complete peace of mind.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        What areas do you serve?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            We proudly serve {{CITY}} and all surrounding communities within a 30-mile
+                            radius. If you're unsure whether we cover your area, just give us a call
+                            and we'll be happy to let you know.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        Do you offer emergency services?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            Absolutely. We offer 24/7 emergency services for urgent situations.
+                            Call us at {{PHONE}} any time &mdash; day or night, weekends and holidays
+                            included &mdash; and we'll dispatch a technician as quickly as possible.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        What payment methods do you accept?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            We accept cash, checks, and all major credit cards for your convenience.
+                            For larger projects, we also offer flexible payment plans. Our team
+                            will discuss all available options during the estimate process.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        Do you provide warranties on your work?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            Yes, all of our work comes with a written warranty. The specific terms
+                            vary by service type, but we stand behind everything we do. If something
+                            isn't right, we'll come back and fix it at no additional cost.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA BANNER ========== -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="cta-banner-content">
+                <h2>Ready to Get <span>Started?</span></h2>
+                <p>
+                    Contact us today for a free, no-obligation estimate. Our team is standing
+                    by to help with your next project in {{CITY}}.
+                </p>
+                <div class="cta-buttons">
+                    <a href="template-d.html#contact" class="btn-primary">{{CTA_TEXT}} &rarr;</a>
+                    <a href="tel:{{PHONE}}" class="btn-secondary">Call Now</a>
+                </div>
+                <a href="tel:{{PHONE}}" class="cta-phone-link">{{PHONE}}</a>
+                <span class="cta-phone-label">Call or Text &mdash; We Answer Fast</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="footer-logo">
+                        &#x1f527; <span class="logo-accent">{{COMPANY_NAME}}</span>
+                    </span>
+                    <p>
+                        Proudly serving {{CITY}} and the surrounding area for over a decade.
+                        Licensed, insured, and committed to quality workmanship on every project.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="Instagram">ig</a>
+                        <a href="#" aria-label="Google">G</a>
+                        <a href="#" aria-label="Yelp">Y</a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">{{SERVICE_1}}</a></li>
+                        <li><a href="#services">{{SERVICE_2}}</a></li>
+                        <li><a href="#services">{{SERVICE_3}}</a></li>
+                        <li><a href="#services">{{SERVICE_4}}</a></li>
+                        <li><a href="#services">{{SERVICE_5}}</a></li>
+                        <li><a href="#services">{{SERVICE_6}}</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="template-d.html">Home</a></li>
+                        <li><a href="template-d-services.html">Services</a></li>
+                        <li><a href="template-d.html#gallery">Our Work</a></li>
+                        <li><a href="template-d.html#testimonials">Reviews</a></li>
+                        <li><a href="template-d.html#contact">Contact Us</a></li>
+                        <li><a href="template-d.html#contact">Free Estimate</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 {{COMPANY_NAME}}. All rights reserved. Licensed &amp; Insured.</p>
+                <div>
+                    <a href="#">Privacy Policy</a> &nbsp;|&nbsp;
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== JAVASCRIPT ========== -->
+    <script>
+        /* ---- Mobile Menu ---- */
+        function toggleMenu() {
+            var nav = document.getElementById('navLinks');
+            var hamburger = document.getElementById('hamburger');
+            nav.classList.toggle('open');
+            hamburger.classList.toggle('active');
+            if (nav.classList.contains('open')) {
+                document.body.style.overflow = 'hidden';
+            } else {
+                document.body.style.overflow = '';
+            }
+        }
+
+        function closeMenu() {
+            var nav = document.getElementById('navLinks');
+            var hamburger = document.getElementById('hamburger');
+            nav.classList.remove('open');
+            hamburger.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        /* ---- Scroll-based nav ---- */
+        var navbar = document.getElementById('navbar');
+        var scrollThreshold = 80;
+
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > scrollThreshold) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        /* ---- Scroll Reveal ---- */
+        var revealElements = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+        var revealObserver = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.1,
+            rootMargin: '0px 0px -40px 0px'
+        });
+
+        revealElements.forEach(function(el) {
+            revealObserver.observe(el);
+        });
+
+        /* ---- FAQ Toggle ---- */
+        function toggleFaq(button) {
+            var item = button.parentElement;
+            var allItems = document.querySelectorAll('.faq-item');
+
+            allItems.forEach(function(faqItem) {
+                if (faqItem !== item) {
+                    faqItem.classList.remove('open');
+                }
+            });
+
+            item.classList.toggle('open');
+        }
+
+        /* ---- Smooth Scroll for anchor links ---- */
+        document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+            anchor.addEventListener('click', function(e) {
+                var targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                var target = document.querySelector(targetId);
+                if (target) {
+                    e.preventDefault();
+                    var offsetTop = target.getBoundingClientRect().top + window.pageYOffset - 72;
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+node_modules/
+.env
+.env.local
+.env.*.local
+
+# Ignore EVERYTHING under output/ by default...
+output/*
+output/**/*
+
+# ...then allow ONLY the specific state-of-truth files we need on GitHub:
+!output/leads/
+output/leads/*
+!output/leads/dental-v5-modern.json
+!output/leads/dental-v4-qualified.json
+
+!output/dental-campaign/
+output/dental-campaign/*
+!output/dental-campaign/send-state.json
+
+!output/v5-campaign/
+output/v5-campaign/*
+!output/v5-campaign/send-state-v5.json
+
+!output/outreach-state.json
+
+!output/static/
+output/static/*
+!output/static/smartflowdev-dental-proposal.pdf
+
+# Logs + tooling
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.tsbuildinfo
+
+# Generated per-lead artifacts (never commit)
+*.tmp.html

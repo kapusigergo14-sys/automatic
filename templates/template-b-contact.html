@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{COMPANY_NAME}} - Contact Us</title>
+    <meta name="description" content="Get in touch with {{COMPANY_NAME}} in {{CITY}}. Call {{PHONE}} or fill out our contact form for a free quote on {{SERVICE_1}} and more.">
+    <style>
+        :root {
+            --primary: {{PRIMARY_COLOR}};
+            --accent: {{ACCENT_COLOR}};
+            --bg: {{BG_COLOR}};
+            --text: {{TEXT_COLOR}};
+            --card-bg: #ffffff;
+            --warm-shadow: 0 8px 30px rgba(0,0,0,0.08);
+            --warm-shadow-hover: 0 12px 40px rgba(0,0,0,0.12);
+            --footer-bg: #2c2420;
+            --footer-text: #e8ddd4;
+            --radius-card: 22px;
+            --radius-pill: 999px;
+            --section-gap: 100px;
+        }
+
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            font-weight: 400;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: color 0.25s ease;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 28px;
+        }
+
+        /* ===== NAVIGATION ===== */
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 18px 0;
+            transition: background 0.35s ease, box-shadow 0.35s ease;
+        }
+
+        .nav.scrolled {
+            background: rgba(255, 252, 247, 0.92);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+        }
+
+        .nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 28px;
+        }
+
+        .nav-logo {
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--text);
+            letter-spacing: -0.3px;
+        }
+
+        .nav-logo span {
+            color: var(--accent);
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 36px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--text);
+            opacity: 0.75;
+            transition: opacity 0.25s ease;
+        }
+
+        .nav-links a:hover {
+            opacity: 1;
+        }
+
+        .nav-links a.active {
+            opacity: 1;
+            color: var(--accent);
+        }
+
+        .nav-cta {
+            display: inline-flex;
+            align-items: center;
+            padding: 11px 26px;
+            background: var(--accent);
+            color: #fff !important;
+            border-radius: var(--radius-pill);
+            font-size: 14px;
+            font-weight: 600;
+            opacity: 1 !important;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+        }
+
+        .nav-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+
+        .nav-toggle {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 4px;
+        }
+
+        .nav-toggle span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: var(--text);
+            border-radius: 2px;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        /* ===== PAGE HERO BANNER ===== */
+        .page-hero {
+            padding-top: 140px;
+            padding-bottom: 60px;
+            background: var(--bg);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .page-hero::before {
+            content: '';
+            position: absolute;
+            top: -120px;
+            right: -100px;
+            width: 400px;
+            height: 400px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+            opacity: 0.07;
+            animation: blob-morph 8s ease-in-out infinite;
+        }
+
+        .page-hero-content {
+            max-width: 600px;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 18px;
+            background: rgba(0,0,0,0.04);
+            border-radius: var(--radius-pill);
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--accent);
+            margin-bottom: 28px;
+            letter-spacing: 0.3px;
+        }
+
+        .hero-badge::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: var(--accent);
+            border-radius: 50%;
+            animation: pulse-dot 2s ease infinite;
+        }
+
+        @keyframes pulse-dot {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(0.8); }
+        }
+
+        @keyframes blob-morph {
+            0%, 100% { border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; }
+            25% { border-radius: 58% 42% 34% 66% / 63% 68% 32% 37%; }
+            50% { border-radius: 50% 50% 34% 66% / 56% 32% 68% 44%; }
+            75% { border-radius: 34% 66% 65% 35% / 42% 56% 44% 58%; }
+        }
+
+        .page-hero h1 {
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 1.12;
+            letter-spacing: -1.2px;
+            color: var(--text);
+            margin-bottom: 18px;
+        }
+
+        .page-hero h1 em {
+            font-style: normal;
+            color: var(--accent);
+        }
+
+        .page-hero-subtitle {
+            font-size: 17px;
+            line-height: 1.7;
+            color: var(--text);
+            opacity: 0.7;
+            max-width: 480px;
+        }
+
+        /* ===== CONTACT SECTION ===== */
+        .contact-section {
+            padding: var(--section-gap) 0;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 48px;
+            align-items: start;
+        }
+
+        /* Form styles */
+        .contact-form {
+            background: var(--card-bg);
+            border-radius: var(--radius-card);
+            padding: 48px 42px;
+            box-shadow: var(--warm-shadow);
+        }
+
+        .contact-form h2 {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 8px;
+            letter-spacing: -0.3px;
+        }
+
+        .contact-form > p {
+            font-size: 15px;
+            color: var(--text);
+            opacity: 0.6;
+            margin-bottom: 32px;
+            line-height: 1.6;
+        }
+
+        .form-group {
+            margin-bottom: 22px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 8px;
+            letter-spacing: 0.2px;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 14px 18px;
+            border: 2px solid rgba(0,0,0,0.07);
+            border-radius: 14px;
+            font-size: 15px;
+            font-family: inherit;
+            color: var(--text);
+            background: var(--bg);
+            transition: border-color 0.25s ease, box-shadow 0.25s ease;
+            outline: none;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 4px rgba(0,0,0,0.04);
+        }
+
+        .form-group input::placeholder,
+        .form-group textarea::placeholder {
+            color: var(--text);
+            opacity: 0.35;
+        }
+
+        .form-group textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px;
+        }
+
+        .form-submit {
+            width: 100%;
+            padding: 16px 32px;
+            background: var(--accent);
+            color: #fff;
+            border: none;
+            border-radius: var(--radius-pill);
+            font-size: 16px;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+            box-shadow: 0 4px 18px rgba(0,0,0,0.12);
+            margin-top: 8px;
+        }
+
+        .form-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 28px rgba(0,0,0,0.18);
+        }
+
+        /* Contact info side */
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .contact-info-card {
+            background: var(--card-bg);
+            border-radius: var(--radius-card);
+            padding: 28px 26px;
+            box-shadow: var(--warm-shadow);
+            display: flex;
+            align-items: flex-start;
+            gap: 18px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .contact-info-card:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--warm-shadow-hover);
+        }
+
+        .contact-info-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 14px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            flex-shrink: 0;
+            opacity: 0.9;
+        }
+
+        .contact-info-card h3 {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 6px;
+            letter-spacing: -0.2px;
+        }
+
+        .contact-info-card p {
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--text);
+            opacity: 0.6;
+        }
+
+        .contact-info-card a {
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        /* ===== MAP SECTION ===== */
+        .map-section {
+            padding: 0 0 var(--section-gap);
+        }
+
+        .map-placeholder {
+            width: 100%;
+            height: 320px;
+            border-radius: var(--radius-card);
+            background: linear-gradient(135deg, rgba(44,36,32,0.06) 0%, rgba(44,36,32,0.03) 100%);
+            position: relative;
+            overflow: hidden;
+            box-shadow: var(--warm-shadow);
+        }
+
+        .map-placeholder::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image:
+                linear-gradient(rgba(0,0,0,0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0,0,0,0.03) 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+
+        .map-pin {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -100%);
+            text-align: center;
+        }
+
+        .map-pin-icon {
+            width: 44px;
+            height: 44px;
+            border-radius: 50% 50% 50% 0;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            transform: rotate(-45deg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+        }
+
+        .map-pin-icon::after {
+            content: '';
+            width: 14px;
+            height: 14px;
+            background: #fff;
+            border-radius: 50%;
+            transform: rotate(45deg);
+        }
+
+        .map-pin-shadow {
+            width: 30px;
+            height: 8px;
+            background: rgba(0,0,0,0.1);
+            border-radius: 50%;
+            margin: 6px auto 0;
+        }
+
+        .map-pin-label {
+            margin-top: 10px;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text);
+            opacity: 0.7;
+            background: var(--card-bg);
+            padding: 6px 14px;
+            border-radius: var(--radius-pill);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            white-space: nowrap;
+        }
+
+        /* ===== FOOTER ===== */
+        .footer {
+            background: var(--footer-bg);
+            color: var(--footer-text);
+            padding: 70px 0 30px;
+            margin-top: var(--section-gap);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1fr 1fr;
+            gap: 48px;
+            margin-bottom: 50px;
+        }
+
+        .footer-brand p {
+            font-size: 14px;
+            line-height: 1.7;
+            opacity: 0.6;
+            margin-top: 14px;
+            max-width: 280px;
+        }
+
+        .footer h4 {
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            margin-bottom: 22px;
+            opacity: 0.9;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            font-size: 14px;
+            opacity: 0.55;
+            transition: opacity 0.25s ease;
+        }
+
+        .footer-links a:hover {
+            opacity: 1;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.08);
+            padding-top: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-bottom p {
+            font-size: 13px;
+            opacity: 0.4;
+        }
+
+        /* ===== CHATBOT WIDGET ===== */
+        .chatbot-wrapper {
+            position: fixed;
+            bottom: 28px;
+            right: 28px;
+            z-index: 9999;
+        }
+
+        .chatbot-tooltip {
+            position: absolute;
+            bottom: 62px;
+            right: 0;
+            background: var(--card-bg);
+            border-radius: 18px;
+            padding: 18px 22px;
+            box-shadow: 0 8px 40px rgba(0,0,0,0.15);
+            min-width: 260px;
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--text);
+            opacity: 0;
+            transform: translateY(8px);
+            pointer-events: none;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        .chatbot-tooltip.active {
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: auto;
+        }
+
+        .chatbot-tooltip::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            right: 28px;
+            width: 16px;
+            height: 16px;
+            background: var(--card-bg);
+            transform: rotate(45deg);
+            border-radius: 3px;
+        }
+
+        .chatbot-tooltip-close {
+            position: absolute;
+            top: 10px;
+            right: 14px;
+            background: none;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            opacity: 0.4;
+            color: var(--text);
+            transition: opacity 0.2s;
+        }
+
+        .chatbot-tooltip-close:hover {
+            opacity: 0.8;
+        }
+
+        .chatbot-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 28px;
+            background: var(--accent);
+            color: #fff;
+            border: none;
+            border-radius: var(--radius-pill);
+            font-size: 15px;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
+            box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .chatbot-btn:hover {
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.22);
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 1024px) {
+            .page-hero h1 { font-size: 42px; }
+            .footer-grid { grid-template-columns: 1fr 1fr; gap: 36px; }
+        }
+
+        @media (max-width: 768px) {
+            :root { --section-gap: 70px; }
+
+            .nav-links { display: none; }
+            .nav-links.open {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: rgba(255,252,247,0.98);
+                backdrop-filter: blur(16px);
+                padding: 24px 28px;
+                gap: 20px;
+                box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+            }
+            .nav-toggle { display: flex; }
+
+            .page-hero { padding-top: 110px; padding-bottom: 40px; }
+            .page-hero h1 { font-size: 36px; }
+
+            .contact-grid { grid-template-columns: 1fr; }
+            .contact-form { padding: 32px 24px; }
+            .form-row { grid-template-columns: 1fr; }
+
+            .map-placeholder { height: 240px; }
+
+            .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+            .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
+        }
+
+        @media (max-width: 480px) {
+            .page-hero h1 { font-size: 30px; }
+            .map-placeholder { height: 200px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="nav" id="navbar">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">{{COMPANY_SHORT_NAME}}</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="/">Home</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact" class="active">Contact</a></li>
+                <li><a href="/contact" class="nav-cta">{{CTA_TEXT}}</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- PAGE HERO BANNER -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <div class="hero-badge">Get in Touch</div>
+                <h1>Contact <em>Us</em></h1>
+                <p class="page-hero-subtitle">Have a question or ready to get started? Reach out to {{COMPANY_NAME}} and our team will respond within 24 hours.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <form class="contact-form" id="contactForm" onsubmit="return handleSubmit(event)">
+                    <h2>Send Us a Message</h2>
+                    <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Smith" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" placeholder="Tell us about your project or question..." required></textarea>
+                    </div>
+                    <button type="submit" class="form-submit">Send Message &rarr;</button>
+                </form>
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon">&#128205;</div>
+                        <div>
+                            <h3>Our Address</h3>
+                            <p>{{CITY}}<br>Serving the greater {{CITY}} area and surrounding communities.</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon">&#128222;</div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>Call us directly at<br><a href="tel:{{PHONE}}">{{PHONE}}</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon">&#9993;</div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>Send us an email at<br><a href="mailto:info@{{COMPANY_NAME}}.com">info@{{COMPANY_NAME}}.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon">&#128337;</div>
+                        <div>
+                            <h3>Business Hours</h3>
+                            <p>Monday - Friday: 8am - 6pm<br>Saturday: 9am - 2pm<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAP PLACEHOLDER -->
+    <section class="map-section">
+        <div class="container">
+            <div class="map-placeholder">
+                <div class="map-pin">
+                    <div class="map-pin-icon"></div>
+                    <div class="map-pin-shadow"></div>
+                    <div class="map-pin-label">{{COMPANY_NAME}} - {{CITY}}</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="nav-logo" style="color: var(--footer-text);">{{COMPANY_NAME}}</a>
+                    <p>Professional {{SERVICE_1}} services in {{CITY}}. Trusted by {{REVIEW_COUNT}}+ clients with a {{RATING}}-star average rating.</p>
+                </div>
+                <div>
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/services">Our Services</a></li>
+                        <li><a href="/#reviews">Client Reviews</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="/services">{{SERVICE_1}}</a></li>
+                        <li><a href="/services">{{SERVICE_2}}</a></li>
+                        <li><a href="/services">{{SERVICE_3}}</a></li>
+                        <li><a href="/services">{{SERVICE_4}}</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="tel:{{PHONE}}">{{PHONE}}</a></li>
+                        <li><a href="/contact">{{CITY}}</a></li>
+                        <li><a href="#">Mon - Fri: 8am - 6pm</a></li>
+                        <li><a href="#">Sat: 9am - 2pm</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 {{COMPANY_NAME}}. All rights reserved.</p>
+                <p>Serving {{CITY}} and surrounding areas.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CHATBOT WIDGET -->
+    <div class="chatbot-wrapper">
+        <div class="chatbot-tooltip" id="chatTooltip">
+            <button class="chatbot-tooltip-close" onclick="closeChatTooltip()" aria-label="Close">&times;</button>
+            <strong>Hi there!</strong><br>
+            {{CHATBOT_GREETING}}
+        </div>
+        <button class="chatbot-btn" id="chatBtn" onclick="toggleChat()" aria-label="Open chat">
+            <span style="font-size:18px">&#128172;</span> Chat
+        </button>
+    </div>
+
+    <script>
+        // Navbar scroll effect
+        (function() {
+            var navbar = document.getElementById('navbar');
+            var lastScroll = 0;
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 40) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+                lastScroll = window.scrollY;
+            });
+        })();
+
+        // Mobile nav toggle
+        (function() {
+            var toggle = document.getElementById('navToggle');
+            var links = document.getElementById('navLinks');
+            toggle.addEventListener('click', function() {
+                links.classList.toggle('open');
+                var spans = toggle.querySelectorAll('span');
+                if (links.classList.contains('open')) {
+                    spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
+                    spans[1].style.opacity = '0';
+                    spans[2].style.transform = 'rotate(-45deg) translate(5px, -5px)';
+                } else {
+                    spans[0].style.transform = '';
+                    spans[1].style.opacity = '';
+                    spans[2].style.transform = '';
+                }
+            });
+            // Close menu on link click
+            links.querySelectorAll('a').forEach(function(a) {
+                a.addEventListener('click', function() {
+                    links.classList.remove('open');
+                    var spans = toggle.querySelectorAll('span');
+                    spans[0].style.transform = '';
+                    spans[1].style.opacity = '';
+                    spans[2].style.transform = '';
+                });
+            });
+        })();
+
+        // Chatbot tooltip
+        var chatTooltipShown = false;
+        setTimeout(function() {
+            document.getElementById('chatTooltip').classList.add('active');
+            chatTooltipShown = true;
+        }, 3000);
+
+        function toggleChat() {
+            var tooltip = document.getElementById('chatTooltip');
+            if (tooltip.classList.contains('active')) {
+                tooltip.classList.remove('active');
+                chatTooltipShown = false;
+            } else {
+                tooltip.classList.add('active');
+                chatTooltipShown = true;
+            }
+        }
+
+        function closeChatTooltip() {
+            document.getElementById('chatTooltip').classList.remove('active');
+            chatTooltipShown = false;
+        }
+
+        // Form submission
+        function handleSubmit(e) {
+            e.preventDefault();
+            var btn = e.target.querySelector('.form-submit');
+            var originalText = btn.textContent;
+            btn.textContent = 'Sending...';
+            btn.style.opacity = '0.7';
+            btn.disabled = true;
+            setTimeout(function() {
+                btn.textContent = 'Message Sent!';
+                btn.style.opacity = '1';
+                btn.style.background = '#27ae60';
+                e.target.reset();
+                setTimeout(function() {
+                    btn.textContent = originalText;
+                    btn.style.background = '';
+                    btn.disabled = false;
+                }, 2500);
+            }, 1200);
+            return false;
+        }
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+            anchor.addEventListener('click', function(e) {
+                var targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                var target = document.querySelector(targetId);
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

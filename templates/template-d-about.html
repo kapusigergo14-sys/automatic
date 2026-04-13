@@ -1,0 +1,2110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About {{COMPANY_NAME}} - Learn about our story, team, and values. Trusted professionals serving {{CITY}} with quality {{SERVICE_1}} services.">
+    <title>About Us | {{COMPANY_NAME}} - Trusted {{SERVICE_1}} Pros in {{CITY}}</title>
+    <style>
+        /* ============================================
+           TEMPLATE D - BOLD INDUSTRIAL - ABOUT PAGE
+           Trade / Construction Business Template
+           ============================================ */
+
+        :root {
+            --primary: {{PRIMARY_COLOR}};
+            --accent: {{ACCENT_COLOR}};
+            --bg: {{BG_COLOR}};
+            --text: {{TEXT_COLOR}};
+            --card-bg: #252525;
+            --footer-bg: #111111;
+            --nav-height: 72px;
+            --radius: 4px;
+            --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            --shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.6);
+            --glow: 0 0 20px rgba(249, 115, 22, 0.3);
+            --glow-strong: 0 0 30px rgba(249, 115, 22, 0.5);
+        }
+
+        /* ---- RESET & BASE ---- */
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: var(--nav-height);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image:
+                repeating-linear-gradient(
+                    0deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(255,255,255,0.008) 2px,
+                    rgba(255,255,255,0.008) 4px
+                ),
+                repeating-linear-gradient(
+                    90deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(255,255,255,0.008) 2px,
+                    rgba(255,255,255,0.008) 4px
+                );
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color var(--transition);
+        }
+
+        a:hover {
+            color: #fb923c;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .section-pad {
+            padding: 100px 0;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-align: center;
+            margin-bottom: 16px;
+            color: var(--text);
+        }
+
+        .section-title span {
+            color: var(--accent);
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: #999;
+            font-size: 1.1rem;
+            margin-bottom: 56px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* ============================================
+           NAVIGATION
+           ============================================ */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: var(--nav-height);
+            background: rgba(17, 17, 17, 0.95);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            z-index: 9999;
+            transition: background var(--transition), box-shadow var(--transition);
+            border-bottom: 2px solid transparent;
+        }
+
+        .navbar.scrolled {
+            background: rgba(11, 11, 11, 0.98);
+            border-bottom-color: var(--accent);
+            box-shadow: 0 2px 30px rgba(0, 0, 0, 0.6);
+        }
+
+        .navbar .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100%;
+        }
+
+        .nav-logo {
+            font-size: 1.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: var(--text);
+            letter-spacing: 3px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .nav-logo .logo-icon {
+            font-size: 1.8rem;
+        }
+
+        .nav-logo .logo-accent {
+            color: var(--accent);
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: #ccc;
+            font-weight: 700;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: color var(--transition);
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent);
+            transition: width var(--transition);
+        }
+
+        .nav-links a:hover {
+            color: var(--accent);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .nav-links a.active {
+            color: var(--accent);
+        }
+
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .nav-cta {
+            background: var(--accent);
+            color: #000 !important;
+            padding: 10px 24px;
+            font-weight: 900;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: none;
+            cursor: pointer;
+            transition: transform var(--transition), box-shadow var(--transition), background var(--transition);
+        }
+
+        .nav-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--glow);
+            background: #fb923c;
+            color: #000 !important;
+        }
+
+        .nav-cta::after {
+            display: none !important;
+        }
+
+        /* Hamburger */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            z-index: 10001;
+            background: none;
+            border: none;
+            padding: 8px;
+        }
+
+        .hamburger span {
+            display: block;
+            width: 28px;
+            height: 3px;
+            background: var(--text);
+            transition: transform var(--transition), opacity var(--transition);
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(6px, 6px);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(6px, -6px);
+        }
+
+        /* ============================================
+           PAGE HERO / BANNER
+           ============================================ */
+        .page-hero {
+            position: relative;
+            min-height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background:
+                linear-gradient(
+                    135deg,
+                    rgba(26, 26, 26, 0.97) 0%,
+                    rgba(20, 20, 20, 0.95) 50%,
+                    rgba(30, 20, 10, 0.97) 100%
+                );
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+            padding: 140px 0 120px;
+            overflow: hidden;
+        }
+
+        .page-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background:
+                radial-gradient(ellipse at 20% 50%, rgba(249, 115, 22, 0.08) 0%, transparent 60%),
+                radial-gradient(ellipse at 80% 20%, rgba(249, 115, 22, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .page-hero::after {
+            content: '';
+            position: absolute;
+            bottom: -60px;
+            right: -100px;
+            width: 350px;
+            height: 350px;
+            border: 3px solid rgba(249, 115, 22, 0.1);
+            transform: rotate(45deg);
+            pointer-events: none;
+        }
+
+        .page-hero-content {
+            text-align: center;
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+        }
+
+        .page-hero-badge {
+            display: inline-block;
+            background: rgba(249, 115, 22, 0.15);
+            border: 1px solid rgba(249, 115, 22, 0.4);
+            color: var(--accent);
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            padding: 8px 24px;
+            margin-bottom: 24px;
+        }
+
+        .page-hero h1 {
+            font-size: 4rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            line-height: 1.05;
+            letter-spacing: 3px;
+            margin-bottom: 20px;
+            text-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .page-hero h1 .accent {
+            color: var(--accent);
+        }
+
+        .page-hero-sub {
+            font-size: 1.2rem;
+            color: #aaa;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+
+        /* Decorative corner elements */
+        .page-hero .corner-tl,
+        .page-hero .corner-br {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            pointer-events: none;
+            z-index: 2;
+        }
+
+        .page-hero .corner-tl {
+            top: 100px;
+            left: 40px;
+            border-top: 3px solid rgba(249, 115, 22, 0.2);
+            border-left: 3px solid rgba(249, 115, 22, 0.2);
+        }
+
+        .page-hero .corner-br {
+            bottom: 80px;
+            right: 40px;
+            border-bottom: 3px solid rgba(249, 115, 22, 0.2);
+            border-right: 3px solid rgba(249, 115, 22, 0.2);
+        }
+
+        /* ============================================
+           BREADCRUMB
+           ============================================ */
+        .breadcrumb-bar {
+            background: #1e1e1e;
+            padding: 16px 0;
+            border-bottom: 1px solid #333;
+            position: relative;
+            z-index: 2;
+        }
+
+        .breadcrumb {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .breadcrumb a {
+            color: #888;
+            transition: color var(--transition);
+        }
+
+        .breadcrumb a:hover {
+            color: var(--accent);
+        }
+
+        .breadcrumb .separator {
+            color: #555;
+        }
+
+        .breadcrumb .current {
+            color: var(--accent);
+        }
+
+        /* ============================================
+           OUR STORY SECTION
+           ============================================ */
+        .story-section {
+            position: relative;
+            overflow: hidden;
+            background:
+                linear-gradient(180deg, var(--bg) 0%, #1e1e1e 100%);
+        }
+
+        .story-section::before {
+            content: '';
+            position: absolute;
+            top: -150px;
+            left: -150px;
+            width: 500px;
+            height: 500px;
+            border: 2px solid rgba(249, 115, 22, 0.04);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .story-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .story-text {
+            position: relative;
+        }
+
+        .story-label {
+            display: inline-block;
+            color: var(--accent);
+            font-size: 0.8rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 16px;
+            position: relative;
+            padding-left: 40px;
+        }
+
+        .story-label::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 28px;
+            height: 3px;
+            background: var(--accent);
+        }
+
+        .story-text h2 {
+            font-size: 2.2rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            line-height: 1.15;
+            margin-bottom: 24px;
+        }
+
+        .story-text h2 span {
+            color: var(--accent);
+        }
+
+        .story-text p {
+            color: #999;
+            font-size: 1rem;
+            line-height: 1.8;
+            margin-bottom: 18px;
+        }
+
+        .story-text p:last-child {
+            margin-bottom: 0;
+        }
+
+        .story-text .highlight-text {
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        .story-image {
+            position: relative;
+            min-height: 480px;
+            background:
+                linear-gradient(135deg, #252525 0%, #1a1a1a 100%);
+            border-top: 4px solid var(--accent);
+            overflow: hidden;
+        }
+
+        .story-image::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background:
+                radial-gradient(circle at 30% 40%, rgba(249, 115, 22, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 70%, rgba(249, 115, 22, 0.06) 0%, transparent 40%);
+            pointer-events: none;
+        }
+
+        .story-image::after {
+            content: '{{COMPANY_NAME}}';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.8rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            color: rgba(255, 255, 255, 0.08);
+            pointer-events: none;
+            white-space: nowrap;
+        }
+
+        .story-image .image-badge {
+            position: absolute;
+            bottom: 24px;
+            left: 24px;
+            background: var(--accent);
+            color: #000;
+            padding: 12px 24px;
+            font-weight: 900;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Story stats row */
+        .story-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-top: 40px;
+        }
+
+        .story-stat {
+            text-align: center;
+            padding: 24px 16px;
+            background: var(--card-bg);
+            border-top: 3px solid var(--accent);
+            transition: transform var(--transition), box-shadow var(--transition);
+        }
+
+        .story-stat:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--glow);
+        }
+
+        .story-stat .stat-num {
+            font-size: 2.2rem;
+            font-weight: 900;
+            color: var(--accent);
+            letter-spacing: 1px;
+            line-height: 1;
+            margin-bottom: 6px;
+        }
+
+        .story-stat .stat-label {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #888;
+        }
+
+        /* ============================================
+           MISSION SECTION
+           ============================================ */
+        .mission-section {
+            background: var(--card-bg);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .mission-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background:
+                radial-gradient(ellipse at 10% 90%, rgba(249, 115, 22, 0.06) 0%, transparent 50%),
+                radial-gradient(ellipse at 90% 10%, rgba(249, 115, 22, 0.04) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .mission-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+            align-items: center;
+        }
+
+        .mission-content h2 {
+            font-size: 2rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .mission-content h2 span {
+            color: var(--accent);
+        }
+
+        .mission-content p {
+            color: #999;
+            font-size: 1rem;
+            line-height: 1.8;
+            margin-bottom: 16px;
+        }
+
+        .mission-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-top: 28px;
+        }
+
+        .mission-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            color: #bbb;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .mission-list .check-icon {
+            flex-shrink: 0;
+            width: 28px;
+            height: 28px;
+            background: rgba(249, 115, 22, 0.15);
+            border: 1px solid rgba(249, 115, 22, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent);
+            font-size: 0.9rem;
+            font-weight: 700;
+            margin-top: 2px;
+        }
+
+        .mission-visual {
+            position: relative;
+        }
+
+        .mission-quote-card {
+            background: #1a1a1a;
+            border-left: 4px solid var(--accent);
+            padding: 40px 36px;
+            position: relative;
+        }
+
+        .mission-quote-card::before {
+            content: '\201C';
+            position: absolute;
+            top: 16px;
+            right: 24px;
+            font-size: 5rem;
+            color: rgba(249, 115, 22, 0.1);
+            font-family: Georgia, serif;
+            line-height: 1;
+        }
+
+        .mission-quote-card blockquote {
+            font-size: 1.2rem;
+            font-style: italic;
+            color: #ccc;
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        .mission-quote-card .quote-author {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .mission-quote-card .quote-avatar {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, var(--accent), #ea580c);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            font-weight: 900;
+            color: #000;
+        }
+
+        .mission-quote-card .quote-name {
+            font-weight: 800;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .mission-quote-card .quote-role {
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* ============================================
+           TEAM SECTION
+           ============================================ */
+        .team-section {
+            background: var(--bg);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .team-section::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 800px;
+            height: 800px;
+            border: 2px solid rgba(249, 115, 22, 0.03);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .team-card {
+            background: var(--card-bg);
+            text-align: center;
+            padding: 40px 20px 36px;
+            border-top: 4px solid transparent;
+            transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .team-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(249, 115, 22, 0.04) 0%, transparent 60%);
+            opacity: 0;
+            transition: opacity var(--transition);
+        }
+
+        .team-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-hover);
+            border-top-color: var(--accent);
+        }
+
+        .team-card:hover::before {
+            opacity: 1;
+        }
+
+        .team-avatar {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            margin: 0 auto 24px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .team-avatar .avatar-gradient {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.2rem;
+            font-weight: 900;
+            color: #000;
+            position: relative;
+            z-index: 1;
+        }
+
+        .team-card:nth-child(1) .avatar-gradient {
+            background: linear-gradient(135deg, #f97316, #ea580c);
+        }
+
+        .team-card:nth-child(2) .avatar-gradient {
+            background: linear-gradient(135deg, #fb923c, #f97316);
+        }
+
+        .team-card:nth-child(3) .avatar-gradient {
+            background: linear-gradient(135deg, #fdba74, #fb923c);
+        }
+
+        .team-card:nth-child(4) .avatar-gradient {
+            background: linear-gradient(135deg, #f97316, #c2410c);
+        }
+
+        .team-avatar::before {
+            content: '';
+            position: absolute;
+            inset: -5px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--accent), #ea580c);
+            opacity: 0.25;
+            z-index: 0;
+            transition: opacity var(--transition), inset var(--transition);
+        }
+
+        .team-card:hover .team-avatar::before {
+            opacity: 0.4;
+            inset: -8px;
+        }
+
+        .team-name {
+            font-size: 1.1rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text);
+            margin-bottom: 6px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .team-role {
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--accent);
+            margin-bottom: 14px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .team-bio {
+            font-size: 0.88rem;
+            color: #888;
+            line-height: 1.6;
+            position: relative;
+            z-index: 1;
+        }
+
+        .team-social {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 16px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .team-social a {
+            width: 32px;
+            height: 32px;
+            background: #1a1a1a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            color: #888;
+            transition: background var(--transition), color var(--transition), transform var(--transition);
+        }
+
+        .team-social a:hover {
+            background: var(--accent);
+            color: #000;
+            transform: translateY(-2px);
+        }
+
+        /* ============================================
+           TIMELINE SECTION
+           ============================================ */
+        .timeline-section {
+            background:
+                linear-gradient(180deg, #1e1e1e 0%, var(--bg) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+            padding-left: 40px;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 14px;
+            width: 3px;
+            height: 100%;
+            background: linear-gradient(180deg, var(--accent), rgba(249, 115, 22, 0.2));
+        }
+
+        .timeline-item {
+            position: relative;
+            padding: 0 0 48px 40px;
+        }
+
+        .timeline-item:last-child {
+            padding-bottom: 0;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            left: -26px;
+            top: 4px;
+            width: 16px;
+            height: 16px;
+            background: var(--accent);
+            border: 3px solid var(--bg);
+            transform: rotate(45deg);
+            z-index: 2;
+        }
+
+        .timeline-year {
+            display: inline-block;
+            background: rgba(249, 115, 22, 0.15);
+            border: 1px solid rgba(249, 115, 22, 0.3);
+            color: var(--accent);
+            font-size: 0.8rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            padding: 4px 16px;
+            margin-bottom: 12px;
+        }
+
+        .timeline-item h3 {
+            font-size: 1.2rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text);
+            margin-bottom: 8px;
+        }
+
+        .timeline-item p {
+            color: #888;
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        /* ============================================
+           VALUES SECTION
+           ============================================ */
+        .values-section {
+            background: var(--card-bg);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .values-section::before {
+            content: '';
+            position: absolute;
+            bottom: -100px;
+            right: -100px;
+            width: 400px;
+            height: 400px;
+            border: 3px solid rgba(249, 115, 22, 0.06);
+            transform: rotate(45deg);
+            pointer-events: none;
+        }
+
+        .values-section::after {
+            content: '';
+            position: absolute;
+            top: -80px;
+            left: -80px;
+            width: 300px;
+            height: 300px;
+            border: 2px solid rgba(249, 115, 22, 0.04);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+
+        .value-card {
+            background: #1a1a1a;
+            border-top: 4px solid var(--accent);
+            padding: 40px 28px;
+            text-align: center;
+            transition: transform var(--transition), box-shadow var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .value-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(249, 115, 22, 0.05) 0%, transparent 60%);
+            opacity: 0;
+            transition: opacity var(--transition);
+        }
+
+        .value-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .value-card:hover::before {
+            opacity: 1;
+        }
+
+        .value-icon {
+            width: 64px;
+            height: 64px;
+            margin: 0 auto 20px;
+            background: rgba(249, 115, 22, 0.12);
+            border: 2px solid rgba(249, 115, 22, 0.25);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            transition: transform var(--transition), box-shadow var(--transition);
+            position: relative;
+            z-index: 1;
+        }
+
+        .value-card:hover .value-icon {
+            transform: scale(1.1) rotate(5deg);
+            box-shadow: var(--glow);
+        }
+
+        .value-card h3 {
+            font-size: 1.15rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text);
+            margin-bottom: 12px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .value-card p {
+            color: #888;
+            font-size: 0.9rem;
+            line-height: 1.7;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ============================================
+           CERTIFICATIONS & AWARDS
+           ============================================ */
+        .certs-section {
+            background: var(--bg);
+            position: relative;
+        }
+
+        .certs-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+
+        .cert-card {
+            background: var(--card-bg);
+            border-left: 3px solid var(--accent);
+            padding: 32px 24px;
+            display: flex;
+            gap: 16px;
+            align-items: flex-start;
+            transition: transform var(--transition), box-shadow var(--transition);
+        }
+
+        .cert-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .cert-icon {
+            flex-shrink: 0;
+            width: 48px;
+            height: 48px;
+            background: rgba(249, 115, 22, 0.12);
+            border: 1px solid rgba(249, 115, 22, 0.25);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .cert-card h4 {
+            font-size: 0.95rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text);
+            margin-bottom: 6px;
+        }
+
+        .cert-card p {
+            color: #777;
+            font-size: 0.85rem;
+            line-height: 1.5;
+        }
+
+        /* ============================================
+           CTA BANNER
+           ============================================ */
+        .cta-banner {
+            background: var(--accent);
+            padding: 64px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-banner::before {
+            content: '';
+            position: absolute;
+            top: -50px;
+            left: -50px;
+            width: 200px;
+            height: 200px;
+            background: rgba(0, 0, 0, 0.08);
+            transform: rotate(45deg);
+            pointer-events: none;
+        }
+
+        .cta-banner::after {
+            content: '';
+            position: absolute;
+            bottom: -80px;
+            right: -30px;
+            width: 250px;
+            height: 250px;
+            background: rgba(0, 0, 0, 0.06);
+            transform: rotate(25deg);
+            pointer-events: none;
+        }
+
+        .cta-banner h2 {
+            font-size: 2rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #000;
+            margin-bottom: 12px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-banner p {
+            color: rgba(0, 0, 0, 0.7);
+            font-size: 1.1rem;
+            margin-bottom: 28px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .btn-dark {
+            display: inline-block;
+            background: #000;
+            color: var(--text) !important;
+            padding: 16px 48px;
+            font-size: 1rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border: none;
+            cursor: pointer;
+            transition: transform var(--transition), box-shadow var(--transition);
+            position: relative;
+            z-index: 1;
+        }
+
+        .btn-dark:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+            color: var(--accent) !important;
+        }
+
+        /* ============================================
+           FOOTER
+           ============================================ */
+        .footer {
+            background: var(--footer-bg);
+            padding: 80px 0 0;
+            border-top: 3px solid var(--accent);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1fr;
+            gap: 48px;
+            padding-bottom: 48px;
+        }
+
+        .footer-brand .footer-logo {
+            font-size: 1.4rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: var(--text);
+            margin-bottom: 16px;
+            display: block;
+        }
+
+        .footer-brand .footer-logo .logo-accent {
+            color: var(--accent);
+        }
+
+        .footer-brand p {
+            color: #777;
+            font-size: 0.9rem;
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 12px;
+        }
+
+        .footer-social a {
+            width: 40px;
+            height: 40px;
+            background: #222;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            transition: background var(--transition), transform var(--transition), box-shadow var(--transition);
+        }
+
+        .footer-social a:hover {
+            background: var(--accent);
+            transform: translateY(-4px);
+            box-shadow: var(--glow);
+        }
+
+        .footer h4 {
+            font-size: 0.9rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--text);
+            margin-bottom: 20px;
+        }
+
+        .footer-links {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .footer-links a {
+            color: #777;
+            font-size: 0.9rem;
+            transition: color var(--transition), padding-left var(--transition);
+        }
+
+        .footer-links a:hover {
+            color: var(--accent);
+            padding-left: 6px;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #222;
+            padding: 24px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .footer-bottom p {
+            color: #555;
+            font-size: 0.8rem;
+        }
+
+        .footer-bottom a {
+            color: #555;
+            font-size: 0.8rem;
+        }
+
+        .footer-bottom a:hover {
+            color: var(--accent);
+        }
+
+        /* ============================================
+           SCROLL REVEAL ANIMATION
+           ============================================ */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.7s ease, transform 0.7s ease;
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ============================================
+           SELECTION & FOCUS
+           ============================================ */
+        ::selection {
+            background: var(--accent);
+            color: #000;
+        }
+
+        ::-moz-selection {
+            background: var(--accent);
+            color: #000;
+        }
+
+        *:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 2px;
+        }
+
+        /* ============================================
+           SCROLLBAR STYLING
+           ============================================ */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #333;
+            border-radius: 0;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--accent);
+        }
+
+        /* ============================================
+           RESPONSIVE: 1024px
+           ============================================ */
+        @media (max-width: 1024px) {
+            .page-hero h1 {
+                font-size: 3rem;
+            }
+
+            .story-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .story-image {
+                min-height: 350px;
+                order: -1;
+            }
+
+            .mission-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .team-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+            }
+
+            .values-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .certs-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 36px;
+            }
+        }
+
+        /* ============================================
+           RESPONSIVE: 768px
+           ============================================ */
+        @media (max-width: 768px) {
+            .section-pad {
+                padding: 80px 0;
+            }
+
+            .section-title {
+                font-size: 1.8rem;
+            }
+
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                position: fixed;
+                top: var(--nav-height);
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(17, 17, 17, 0.98);
+                backdrop-filter: blur(12px);
+                -webkit-backdrop-filter: blur(12px);
+                padding: 32px 24px;
+                gap: 0;
+                z-index: 10000;
+                overflow-y: auto;
+            }
+
+            .nav-links.open {
+                display: flex;
+            }
+
+            .nav-links li {
+                border-bottom: 1px solid #333;
+                width: 100%;
+            }
+
+            .nav-links a {
+                display: block;
+                padding: 18px 0;
+                font-size: 1rem;
+            }
+
+            .nav-links a::after {
+                display: none;
+            }
+
+            .nav-links .nav-cta {
+                display: block;
+                text-align: center;
+                margin-top: 16px;
+                padding: 16px 24px;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .page-hero {
+                min-height: 40vh;
+                padding: 120px 0 100px;
+                clip-path: polygon(0 0, 100% 0, 100% 94%, 0 100%);
+            }
+
+            .page-hero h1 {
+                font-size: 2.2rem;
+                letter-spacing: 1px;
+            }
+
+            .page-hero .corner-tl,
+            .page-hero .corner-br {
+                display: none;
+            }
+
+            .story-text h2 {
+                font-size: 1.7rem;
+            }
+
+            .story-stats {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 12px;
+            }
+
+            .story-stat .stat-num {
+                font-size: 1.6rem;
+            }
+
+            .mission-content h2 {
+                font-size: 1.6rem;
+            }
+
+            .timeline {
+                padding-left: 30px;
+            }
+
+            .timeline::before {
+                left: 10px;
+            }
+
+            .timeline-dot {
+                left: -20px;
+                width: 12px;
+                height: 12px;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+        /* ============================================
+           RESPONSIVE: 480px
+           ============================================ */
+        @media (max-width: 480px) {
+            .page-hero h1 {
+                font-size: 1.8rem;
+                letter-spacing: 0;
+            }
+
+            .page-hero-badge {
+                font-size: 0.7rem;
+                letter-spacing: 2px;
+                padding: 6px 16px;
+            }
+
+            .page-hero-sub {
+                font-size: 1rem;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+                letter-spacing: 1px;
+            }
+
+            .section-pad {
+                padding: 64px 0;
+            }
+
+            .story-stats {
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 8px;
+            }
+
+            .story-stat {
+                padding: 16px 8px;
+            }
+
+            .story-stat .stat-num {
+                font-size: 1.3rem;
+            }
+
+            .story-stat .stat-label {
+                font-size: 0.65rem;
+                letter-spacing: 1px;
+            }
+
+            .team-grid {
+                grid-template-columns: 1fr;
+                gap: 16px;
+                max-width: 340px;
+            }
+
+            .values-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .certs-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-banner h2 {
+                font-size: 1.4rem;
+            }
+
+            .cta-banner p {
+                font-size: 0.95rem;
+            }
+
+            .btn-dark {
+                padding: 14px 36px;
+                font-size: 0.9rem;
+            }
+
+            .timeline-item {
+                padding-left: 30px;
+                padding-bottom: 36px;
+            }
+
+            .footer-social a {
+                width: 44px;
+                height: 44px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ========== NAVIGATION ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="{{SITE_URL}}" class="nav-logo">
+                <span class="logo-icon">&#x1f527;</span>
+                <span>{{COMPANY_NAME}}</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="{{SITE_URL}}#services" onclick="closeMenu()">Services</a></li>
+                <li><a href="{{SITE_URL}}#gallery" onclick="closeMenu()">Our Work</a></li>
+                <li><a href="{{SITE_URL}}#testimonials" onclick="closeMenu()">Reviews</a></li>
+                <li><a href="{{SITE_URL}}about" class="active" onclick="closeMenu()">About</a></li>
+                <li><a href="{{SITE_URL}}#contact" onclick="closeMenu()">Contact</a></li>
+                <li><a href="tel:{{PHONE}}" class="nav-cta" onclick="closeMenu()">{{CTA_TEXT}}</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== PAGE HERO ========== -->
+    <section class="page-hero">
+        <div class="corner-tl"></div>
+        <div class="corner-br"></div>
+        <div class="container">
+            <div class="page-hero-content">
+                <div class="page-hero-badge">Serving {{CITY}} &amp; Surrounding Areas</div>
+                <h1>About <span class="accent">{{COMPANY_NAME}}</span></h1>
+                <p class="page-hero-sub">
+                    Built on hard work, honesty, and a commitment to quality. We're the team {{CITY}} trusts for professional {{SERVICE_1}} and more.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== BREADCRUMB ========== -->
+    <div class="breadcrumb-bar">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="{{SITE_URL}}">Home</a>
+                <span class="separator">&#x276F;</span>
+                <span class="current">About Us</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== OUR STORY ========== -->
+    <section class="story-section section-pad" id="story">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-text reveal">
+                    <span class="story-label">Our Story</span>
+                    <h2>From Humble Beginnings to <span>Industry Leaders</span></h2>
+                    <p>
+                        {{COMPANY_NAME}} started with a simple idea: do honest work at a fair price and treat every customer's property like our own. Founded in {{CITY}}, what began as a one-person operation has grown into one of the region's most trusted service companies.
+                    </p>
+                    <p>
+                        Our founder saw too many companies cutting corners, overcharging homeowners, and leaving jobs half-finished. That wasn't going to fly. From day one, we committed to <span class="highlight-text">doing things right the first time</span> &mdash; no shortcuts, no excuses, no hidden fees.
+                    </p>
+                    <p>
+                        Over the years, we've expanded our team, invested in the latest equipment, and taken on bigger, more complex projects. But one thing has never changed: our dedication to quality craftsmanship and genuine customer care. Every member of our crew shares this commitment.
+                    </p>
+                    <p>
+                        Today, {{COMPANY_NAME}} is proud to serve {{CITY}} and the surrounding communities with a full range of professional services. We've earned our reputation one project at a time &mdash; and we plan to keep it that way.
+                    </p>
+                </div>
+                <div class="story-image reveal">
+                    <span class="image-badge">Est. in {{CITY}}</span>
+                </div>
+            </div>
+            <div class="story-stats reveal">
+                <div class="story-stat">
+                    <div class="stat-num">10+</div>
+                    <div class="stat-label">Years in Business</div>
+                </div>
+                <div class="story-stat">
+                    <div class="stat-num">{{REVIEW_COUNT}}+</div>
+                    <div class="stat-label">Happy Customers</div>
+                </div>
+                <div class="story-stat">
+                    <div class="stat-num">{{RATING}}</div>
+                    <div class="stat-label">Star Rating</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== MISSION ========== -->
+    <section class="mission-section section-pad" id="mission">
+        <div class="container">
+            <div class="mission-grid">
+                <div class="mission-content reveal">
+                    <h2>Our Mission: <span>Built Different</span></h2>
+                    <p>
+                        We exist to raise the bar in the trades industry. While others race to the bottom on price, we compete on quality, reliability, and results. That's what keeps our customers coming back.
+                    </p>
+                    <p>
+                        Every project we take on gets the same treatment &mdash; meticulous planning, skilled execution, and a thorough final inspection. We don't leave until you're satisfied.
+                    </p>
+                    <ul class="mission-list">
+                        <li>
+                            <span class="check-icon">&#x2713;</span>
+                            <span>100% satisfaction guarantee on every project, large or small</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">&#x2713;</span>
+                            <span>Transparent, upfront pricing with no hidden costs or surprises</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">&#x2713;</span>
+                            <span>Licensed, bonded, and fully insured for your complete protection</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">&#x2713;</span>
+                            <span>Background-checked, drug-tested professional technicians</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">&#x2713;</span>
+                            <span>24/7 emergency service &mdash; we're there when you need us most</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mission-visual reveal">
+                    <div class="mission-quote-card">
+                        <blockquote>
+                            &ldquo;We don't just fix problems &mdash; we build relationships. Every customer who trusts us with their home or business deserves our absolute best effort. That's not just a policy, it's personal.&rdquo;
+                        </blockquote>
+                        <div class="quote-author">
+                            <div class="quote-avatar">F</div>
+                            <div>
+                                <div class="quote-name">Founder</div>
+                                <div class="quote-role">{{COMPANY_NAME}}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TEAM ========== -->
+    <section class="team-section section-pad" id="team">
+        <div class="container">
+            <h2 class="section-title reveal">Meet Our <span>Team</span></h2>
+            <p class="section-subtitle reveal">
+                Skilled professionals who take pride in their craft. Every team member is licensed, trained, and committed to excellence.
+            </p>
+            <div class="team-grid">
+                <div class="team-card reveal">
+                    <div class="team-avatar">
+                        <div class="avatar-gradient">JM</div>
+                    </div>
+                    <div class="team-name">James Mitchell</div>
+                    <div class="team-role">Owner &amp; Lead Tech</div>
+                    <p class="team-bio">15+ years of hands-on experience. Licensed master technician who leads every major project personally.</p>
+                    <div class="team-social">
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Email">@</a>
+                    </div>
+                </div>
+                <div class="team-card reveal">
+                    <div class="team-avatar">
+                        <div class="avatar-gradient">SR</div>
+                    </div>
+                    <div class="team-name">Sarah Rivera</div>
+                    <div class="team-role">Operations Manager</div>
+                    <p class="team-bio">Keeps the wheels turning. Sarah coordinates scheduling, logistics, and ensures every project stays on track.</p>
+                    <div class="team-social">
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Email">@</a>
+                    </div>
+                </div>
+                <div class="team-card reveal">
+                    <div class="team-avatar">
+                        <div class="avatar-gradient">DK</div>
+                    </div>
+                    <div class="team-name">Derek Kim</div>
+                    <div class="team-role">Senior Technician</div>
+                    <p class="team-bio">Certified specialist with 10+ years in the field. Known for meticulous attention to detail on complex jobs.</p>
+                    <div class="team-social">
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Email">@</a>
+                    </div>
+                </div>
+                <div class="team-card reveal">
+                    <div class="team-avatar">
+                        <div class="avatar-gradient">MJ</div>
+                    </div>
+                    <div class="team-name">Maria Johnson</div>
+                    <div class="team-role">Customer Relations</div>
+                    <p class="team-bio">Your first point of contact. Maria ensures every customer gets fast, friendly, and professional support.</p>
+                    <div class="team-social">
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Email">@</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TIMELINE ========== -->
+    <section class="timeline-section section-pad" id="timeline">
+        <div class="container">
+            <h2 class="section-title reveal">Our <span>Journey</span></h2>
+            <p class="section-subtitle reveal">
+                Key milestones that shaped who we are today. Every step built on hard work and customer trust.
+            </p>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-year">Year 1</span>
+                    <h3>Company Founded</h3>
+                    <p>{{COMPANY_NAME}} launched in {{CITY}} with a truck, a toolbox, and a mission to deliver honest, quality work. Word spread fast through neighborhood referrals.</p>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-year">Year 3</span>
+                    <h3>Team Expansion</h3>
+                    <p>Growing demand led us to bring on our first full-time technicians. We invested in professional training and industry certifications for every team member.</p>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-year">Year 5</span>
+                    <h3>Regional Recognition</h3>
+                    <p>Named a top-rated service provider in {{CITY}}. Our commitment to quality earned us consistent 5-star reviews and repeat business from loyal customers.</p>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-year">Year 8</span>
+                    <h3>Service Area Growth</h3>
+                    <p>Expanded operations to cover the entire {{CITY}} metro area and surrounding communities within 30 miles. Added 24/7 emergency service capabilities.</p>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-year">Today</span>
+                    <h3>Industry Leaders</h3>
+                    <p>{{REVIEW_COUNT}}+ satisfied customers and counting. We continue to invest in the latest equipment, training, and technology to deliver the best results possible.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== VALUES ========== -->
+    <section class="values-section section-pad" id="values">
+        <div class="container">
+            <h2 class="section-title reveal">Our Core <span>Values</span></h2>
+            <p class="section-subtitle reveal">
+                These aren't just words on a wall. They're the principles we live by on every single job.
+            </p>
+            <div class="values-grid">
+                <div class="value-card reveal">
+                    <div class="value-icon">&#x1f3c6;</div>
+                    <h3>Quality</h3>
+                    <p>We never cut corners. Premium materials, proven techniques, and meticulous craftsmanship on every project. Our work stands the test of time.</p>
+                </div>
+                <div class="value-card reveal">
+                    <div class="value-icon">&#x1f91d;</div>
+                    <h3>Reliability</h3>
+                    <p>When we say we'll be there, we're there. On time, prepared, and ready to work. You can count on us to deliver exactly what we promise.</p>
+                </div>
+                <div class="value-card reveal">
+                    <div class="value-icon">&#x1f6e1;&#xfe0f;</div>
+                    <h3>Safety</h3>
+                    <p>Safety isn't optional. We follow strict protocols, maintain proper insurance, and ensure every job site is secure for our crew and your property.</p>
+                </div>
+                <div class="value-card reveal">
+                    <div class="value-icon">&#x1f4aa;</div>
+                    <h3>Experience</h3>
+                    <p>With over a decade of hands-on work in {{CITY}}, we've seen it all and solved it all. Our experience means faster, smarter solutions for you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CERTIFICATIONS ========== -->
+    <section class="certs-section section-pad" id="certifications">
+        <div class="container">
+            <h2 class="section-title reveal">Credentials &amp; <span>Certifications</span></h2>
+            <p class="section-subtitle reveal">
+                Fully licensed, insured, and certified. Your confidence is backed by verified credentials.
+            </p>
+            <div class="certs-grid">
+                <div class="cert-card reveal">
+                    <div class="cert-icon">&#x1f6e1;&#xfe0f;</div>
+                    <div>
+                        <h4>Licensed &amp; Insured</h4>
+                        <p>Full state licensing with comprehensive general liability and workers' compensation coverage.</p>
+                    </div>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-icon">&#x2705;</div>
+                    <div>
+                        <h4>Industry Certified</h4>
+                        <p>Our technicians hold current industry certifications and complete ongoing professional training.</p>
+                    </div>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-icon">&#x1f3c5;</div>
+                    <div>
+                        <h4>BBB Accredited</h4>
+                        <p>Proud member of the Better Business Bureau with an A+ rating and zero unresolved complaints.</p>
+                    </div>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-icon">&#x2b50;</div>
+                    <div>
+                        <h4>Top Rated</h4>
+                        <p>Consistently ranked among the highest-rated service providers in the {{CITY}} metropolitan area.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA BANNER ========== -->
+    <section class="cta-banner">
+        <div class="container">
+            <h2>Ready to Work With the Best?</h2>
+            <p>Contact us today for a free, no-obligation estimate. We respond fast because your time matters.</p>
+            <a href="{{SITE_URL}}#contact" class="btn-dark">{{CTA_TEXT}} &rarr;</a>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="footer-logo">
+                        &#x1f527; <span class="logo-accent">{{COMPANY_NAME}}</span>
+                    </span>
+                    <p>
+                        Proudly serving {{CITY}} and the surrounding area for over a decade.
+                        Licensed, insured, and committed to quality workmanship on every project.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="Instagram">ig</a>
+                        <a href="#" aria-label="Google">G</a>
+                        <a href="#" aria-label="Yelp">Y</a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="{{SITE_URL}}#services">{{SERVICE_1}}</a></li>
+                        <li><a href="{{SITE_URL}}#services">{{SERVICE_2}}</a></li>
+                        <li><a href="{{SITE_URL}}#services">{{SERVICE_3}}</a></li>
+                        <li><a href="{{SITE_URL}}#services">{{SERVICE_4}}</a></li>
+                        <li><a href="{{SITE_URL}}#services">{{SERVICE_5}}</a></li>
+                        <li><a href="{{SITE_URL}}#services">{{SERVICE_6}}</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="{{SITE_URL}}">Home</a></li>
+                        <li><a href="{{SITE_URL}}#services">Services</a></li>
+                        <li><a href="{{SITE_URL}}#gallery">Our Work</a></li>
+                        <li><a href="{{SITE_URL}}#testimonials">Reviews</a></li>
+                        <li><a href="{{SITE_URL}}about">About Us</a></li>
+                        <li><a href="{{SITE_URL}}#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 {{COMPANY_NAME}}. All rights reserved. Licensed &amp; Insured.</p>
+                <div>
+                    <a href="#">Privacy Policy</a> &nbsp;|&nbsp;
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== JAVASCRIPT ========== -->
+    <script>
+        /* ---- Mobile Menu ---- */
+        function toggleMenu() {
+            var nav = document.getElementById('navLinks');
+            var hamburger = document.getElementById('hamburger');
+            nav.classList.toggle('open');
+            hamburger.classList.toggle('active');
+            if (nav.classList.contains('open')) {
+                document.body.style.overflow = 'hidden';
+            } else {
+                document.body.style.overflow = '';
+            }
+        }
+
+        function closeMenu() {
+            var nav = document.getElementById('navLinks');
+            var hamburger = document.getElementById('hamburger');
+            nav.classList.remove('open');
+            hamburger.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        /* ---- Scroll-based nav ---- */
+        var navbar = document.getElementById('navbar');
+        var scrollThreshold = 80;
+
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > scrollThreshold) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        /* ---- Scroll Reveal ---- */
+        var revealElements = document.querySelectorAll('.reveal');
+        var revealObserver = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.1,
+            rootMargin: '0px 0px -40px 0px'
+        });
+
+        revealElements.forEach(function(el) {
+            revealObserver.observe(el);
+        });
+
+        /* ---- Smooth Scroll for anchor links ---- */
+        document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+            anchor.addEventListener('click', function(e) {
+                var targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                var target = document.querySelector(targetId);
+                if (target) {
+                    e.preventDefault();
+                    var offsetTop = target.getBoundingClientRect().top + window.pageYOffset - 72;
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        /* ---- Close mobile menu on Escape ---- */
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeMenu();
+            }
+        });
+
+        /* ---- Close mobile menu on resize ---- */
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 768) {
+                closeMenu();
+            }
+        });
+    </script>
+</body>
+</html>

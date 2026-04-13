@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{COMPANY_NAME}} - About Us</title>
+    <meta name="description" content="Learn about {{COMPANY_NAME}}, a trusted {{SERVICE_1}} provider in {{CITY}}. Discover our story, meet our team, and learn what drives our commitment to quality.">
+    <style>
+        :root {
+            --primary: {{PRIMARY_COLOR}};
+            --accent: {{ACCENT_COLOR}};
+            --bg: {{BG_COLOR}};
+            --text: {{TEXT_COLOR}};
+            --card-bg: #ffffff;
+            --warm-shadow: 0 8px 30px rgba(0,0,0,0.08);
+            --warm-shadow-hover: 0 12px 40px rgba(0,0,0,0.12);
+            --footer-bg: #2c2420;
+            --footer-text: #e8ddd4;
+            --radius-card: 22px;
+            --radius-pill: 999px;
+            --section-gap: 100px;
+        }
+
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            font-weight: 400;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: color 0.25s ease;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 28px;
+        }
+
+        /* ===== NAVIGATION ===== */
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 18px 0;
+            transition: background 0.35s ease, box-shadow 0.35s ease;
+        }
+
+        .nav.scrolled {
+            background: rgba(255, 252, 247, 0.92);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+        }
+
+        .nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 28px;
+        }
+
+        .nav-logo {
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--text);
+            letter-spacing: -0.3px;
+        }
+
+        .nav-logo span {
+            color: var(--accent);
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 36px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--text);
+            opacity: 0.75;
+            transition: opacity 0.25s ease;
+        }
+
+        .nav-links a:hover {
+            opacity: 1;
+        }
+
+        .nav-links a.active {
+            opacity: 1;
+            color: var(--accent);
+        }
+
+        .nav-cta {
+            display: inline-flex;
+            align-items: center;
+            padding: 11px 26px;
+            background: var(--accent);
+            color: #fff !important;
+            border-radius: var(--radius-pill);
+            font-size: 14px;
+            font-weight: 600;
+            opacity: 1 !important;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+        }
+
+        .nav-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+
+        .nav-toggle {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 4px;
+        }
+
+        .nav-toggle span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: var(--text);
+            border-radius: 2px;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        /* ===== PAGE HERO BANNER ===== */
+        .page-hero {
+            padding-top: 140px;
+            padding-bottom: 60px;
+            background: var(--bg);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .page-hero::before {
+            content: '';
+            position: absolute;
+            top: -120px;
+            right: -100px;
+            width: 400px;
+            height: 400px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+            opacity: 0.07;
+            animation: blob-morph 8s ease-in-out infinite;
+        }
+
+        .page-hero-content {
+            max-width: 600px;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 18px;
+            background: rgba(0,0,0,0.04);
+            border-radius: var(--radius-pill);
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--accent);
+            margin-bottom: 28px;
+            letter-spacing: 0.3px;
+        }
+
+        .hero-badge::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: var(--accent);
+            border-radius: 50%;
+            animation: pulse-dot 2s ease infinite;
+        }
+
+        @keyframes pulse-dot {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(0.8); }
+        }
+
+        @keyframes blob-morph {
+            0%, 100% { border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; }
+            25% { border-radius: 58% 42% 34% 66% / 63% 68% 32% 37%; }
+            50% { border-radius: 50% 50% 34% 66% / 56% 32% 68% 44%; }
+            75% { border-radius: 34% 66% 65% 35% / 42% 56% 44% 58%; }
+        }
+
+        @keyframes blob-float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            33% { transform: translateY(-14px) rotate(2deg); }
+            66% { transform: translateY(8px) rotate(-1deg); }
+        }
+
+        .page-hero h1 {
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 1.12;
+            letter-spacing: -1.2px;
+            color: var(--text);
+            margin-bottom: 18px;
+        }
+
+        .page-hero h1 em {
+            font-style: normal;
+            color: var(--accent);
+        }
+
+        .page-hero-subtitle {
+            font-size: 17px;
+            line-height: 1.7;
+            color: var(--text);
+            opacity: 0.7;
+            max-width: 480px;
+        }
+
+        /* ===== OUR STORY SECTION ===== */
+        .story-section {
+            padding: var(--section-gap) 0;
+        }
+
+        .story-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .story-content h2 {
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: -0.8px;
+            color: var(--text);
+            margin-bottom: 24px;
+            line-height: 1.2;
+        }
+
+        .story-content h2 em {
+            font-style: normal;
+            color: var(--accent);
+        }
+
+        .story-content p {
+            font-size: 16px;
+            line-height: 1.8;
+            color: var(--text);
+            opacity: 0.7;
+            margin-bottom: 18px;
+        }
+
+        .story-content p:last-child {
+            margin-bottom: 0;
+        }
+
+        .story-visual {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .story-blob {
+            width: 360px;
+            height: 360px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+            animation: blob-morph 8s ease-in-out infinite, blob-float 6s ease-in-out infinite;
+            position: relative;
+            opacity: 0.9;
+        }
+
+        .story-blob::before {
+            content: '';
+            position: absolute;
+            inset: -30px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+            opacity: 0.15;
+            animation: blob-morph 8s ease-in-out infinite reverse;
+            z-index: -1;
+        }
+
+        .story-blob::after {
+            content: '';
+            position: absolute;
+            inset: 40px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 50% 30% 60% 40% / 40% 60% 30% 50%;
+            animation: blob-morph 6s ease-in-out infinite 1s;
+        }
+
+        /* ===== SECTION COMMON ===== */
+        .section-header {
+            text-align: center;
+            margin-bottom: 56px;
+        }
+
+        .section-tag {
+            display: inline-block;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.8px;
+            color: var(--accent);
+            margin-bottom: 14px;
+        }
+
+        .section-title {
+            font-size: 40px;
+            font-weight: 700;
+            letter-spacing: -0.8px;
+            color: var(--text);
+            line-height: 1.2;
+            margin-bottom: 14px;
+        }
+
+        .section-subtitle {
+            font-size: 16px;
+            color: var(--text);
+            opacity: 0.6;
+            max-width: 480px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        /* ===== TEAM SECTION ===== */
+        .team-section {
+            padding: var(--section-gap) 0;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 28px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .team-card {
+            background: var(--card-bg);
+            border-radius: var(--radius-card);
+            padding: 40px 28px;
+            box-shadow: var(--warm-shadow);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .team-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--warm-shadow-hover);
+        }
+
+        .team-avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            margin: 0 auto 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            font-weight: 700;
+            color: #fff;
+            opacity: 0.9;
+        }
+
+        .team-card h3 {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 6px;
+            letter-spacing: -0.2px;
+        }
+
+        .team-card p {
+            font-size: 14px;
+            color: var(--text);
+            opacity: 0.55;
+            font-weight: 500;
+        }
+
+        /* ===== VALUES SECTION ===== */
+        .values-section {
+            padding: var(--section-gap) 0;
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+
+        .value-card {
+            background: var(--card-bg);
+            border-radius: var(--radius-card);
+            padding: 34px 24px;
+            box-shadow: var(--warm-shadow);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .value-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--warm-shadow-hover);
+        }
+
+        .value-icon {
+            width: 56px;
+            height: 56px;
+            border-radius: 16px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            margin: 0 auto 20px;
+            opacity: 0.9;
+        }
+
+        .value-card h3 {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 10px;
+            letter-spacing: -0.2px;
+        }
+
+        .value-card p {
+            font-size: 14px;
+            line-height: 1.65;
+            color: var(--text);
+            opacity: 0.6;
+        }
+
+        /* ===== FOOTER ===== */
+        .footer {
+            background: var(--footer-bg);
+            color: var(--footer-text);
+            padding: 70px 0 30px;
+            margin-top: var(--section-gap);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1fr 1fr;
+            gap: 48px;
+            margin-bottom: 50px;
+        }
+
+        .footer-brand p {
+            font-size: 14px;
+            line-height: 1.7;
+            opacity: 0.6;
+            margin-top: 14px;
+            max-width: 280px;
+        }
+
+        .footer h4 {
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            margin-bottom: 22px;
+            opacity: 0.9;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            font-size: 14px;
+            opacity: 0.55;
+            transition: opacity 0.25s ease;
+        }
+
+        .footer-links a:hover {
+            opacity: 1;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.08);
+            padding-top: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-bottom p {
+            font-size: 13px;
+            opacity: 0.4;
+        }
+
+        /* ===== CHATBOT WIDGET ===== */
+        .chatbot-wrapper {
+            position: fixed;
+            bottom: 28px;
+            right: 28px;
+            z-index: 9999;
+        }
+
+        .chatbot-tooltip {
+            position: absolute;
+            bottom: 62px;
+            right: 0;
+            background: var(--card-bg);
+            border-radius: 18px;
+            padding: 18px 22px;
+            box-shadow: 0 8px 40px rgba(0,0,0,0.15);
+            min-width: 260px;
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--text);
+            opacity: 0;
+            transform: translateY(8px);
+            pointer-events: none;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        .chatbot-tooltip.active {
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: auto;
+        }
+
+        .chatbot-tooltip::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            right: 28px;
+            width: 16px;
+            height: 16px;
+            background: var(--card-bg);
+            transform: rotate(45deg);
+            border-radius: 3px;
+        }
+
+        .chatbot-tooltip-close {
+            position: absolute;
+            top: 10px;
+            right: 14px;
+            background: none;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            opacity: 0.4;
+            color: var(--text);
+            transition: opacity 0.2s;
+        }
+
+        .chatbot-tooltip-close:hover {
+            opacity: 0.8;
+        }
+
+        .chatbot-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 28px;
+            background: var(--accent);
+            color: #fff;
+            border: none;
+            border-radius: var(--radius-pill);
+            font-size: 15px;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
+            box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .chatbot-btn:hover {
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.22);
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 1024px) {
+            .page-hero h1 { font-size: 42px; }
+            .story-blob { width: 280px; height: 280px; }
+            .values-grid { grid-template-columns: 1fr 1fr; }
+            .footer-grid { grid-template-columns: 1fr 1fr; gap: 36px; }
+        }
+
+        @media (max-width: 768px) {
+            :root { --section-gap: 70px; }
+
+            .nav-links { display: none; }
+            .nav-links.open {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: rgba(255,252,247,0.98);
+                backdrop-filter: blur(16px);
+                padding: 24px 28px;
+                gap: 20px;
+                box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+            }
+            .nav-toggle { display: flex; }
+
+            .page-hero { padding-top: 110px; padding-bottom: 40px; }
+            .page-hero h1 { font-size: 36px; }
+
+            .story-grid { grid-template-columns: 1fr; gap: 40px; }
+            .story-visual { order: -1; }
+            .story-blob { width: 240px; height: 240px; }
+            .story-content h2 { font-size: 28px; }
+
+            .section-title { font-size: 30px; }
+
+            .team-grid { grid-template-columns: 1fr; max-width: 400px; }
+            .values-grid { grid-template-columns: 1fr; }
+
+            .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+            .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
+        }
+
+        @media (max-width: 480px) {
+            .page-hero h1 { font-size: 30px; }
+            .story-blob { width: 200px; height: 200px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="nav" id="navbar">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">{{COMPANY_SHORT_NAME}}</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="/">Home</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/about" class="active">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/contact" class="nav-cta">{{CTA_TEXT}}</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- PAGE HERO BANNER -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <div class="hero-badge">Our Story</div>
+                <h1>About <em>Us</em></h1>
+                <p class="page-hero-subtitle">Get to know the people and values behind {{COMPANY_NAME}}. We've been proudly serving {{CITY}} with dedication, expertise, and a commitment to excellence.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- OUR STORY SECTION -->
+    <section class="story-section">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-content">
+                    <h2>Our <em>Story</em></h2>
+                    <p>{{COMPANY_NAME}} was founded with a simple mission: to provide the highest quality {{SERVICE_1}} services in {{CITY}}. What started as a small, dedicated team has grown into a trusted name that homeowners and businesses rely on for expert solutions.</p>
+                    <p>Over the years, we've built our reputation on reliability, craftsmanship, and genuine care for every client. Our team combines years of hands-on experience with the latest techniques and industry knowledge to deliver results that exceed expectations.</p>
+                    <p>Today, we're proud to serve {{CITY}} and the surrounding communities, bringing the same passion and attention to detail to every project we take on -- from small residential jobs to large commercial engagements.</p>
+                </div>
+                <div class="story-visual">
+                    <div class="story-blob"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEAM SECTION -->
+    <section class="team-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">Our Team</div>
+                <h2 class="section-title">Meet the Experts</h2>
+                <p class="section-subtitle">Our experienced professionals are dedicated to delivering the best results for every client.</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-avatar">DS</div>
+                    <h3>Dr. Smith</h3>
+                    <p>Lead Specialist</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">SK</div>
+                    <h3>Sarah K.</h3>
+                    <p>Operations Manager</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">RD</div>
+                    <h3>Ryan D.</h3>
+                    <p>Senior Technician</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">LM</div>
+                    <h3>Lisa M.</h3>
+                    <p>Client Relations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VALUES SECTION -->
+    <section class="values-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">What Drives Us</div>
+                <h2 class="section-title">Our Core Values</h2>
+                <p class="section-subtitle">The principles that guide every project and interaction at {{COMPANY_NAME}}.</p>
+            </div>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">&#9733;</div>
+                    <h3>Quality</h3>
+                    <p>We never cut corners. Every project receives meticulous attention to detail and the highest standard of workmanship.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">&#9829;</div>
+                    <h3>Trust</h3>
+                    <p>Transparency, honesty, and integrity are at the heart of everything we do. We earn trust through consistent results.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">&#9670;</div>
+                    <h3>Innovation</h3>
+                    <p>We stay ahead of industry trends and continuously adopt the latest techniques and technologies to serve you better.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">&#10003;</div>
+                    <h3>Care</h3>
+                    <p>Your satisfaction is our priority. We treat every property and every client with genuine respect and care.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="nav-logo" style="color: var(--footer-text);">{{COMPANY_NAME}}</a>
+                    <p>Professional {{SERVICE_1}} services in {{CITY}}. Trusted by {{REVIEW_COUNT}}+ clients with a {{RATING}}-star average rating.</p>
+                </div>
+                <div>
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/services">Our Services</a></li>
+                        <li><a href="/#reviews">Client Reviews</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="/services">{{SERVICE_1}}</a></li>
+                        <li><a href="/services">{{SERVICE_2}}</a></li>
+                        <li><a href="/services">{{SERVICE_3}}</a></li>
+                        <li><a href="/services">{{SERVICE_4}}</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="tel:{{PHONE}}">{{PHONE}}</a></li>
+                        <li><a href="/contact">{{CITY}}</a></li>
+                        <li><a href="#">Mon - Fri: 8am - 6pm</a></li>
+                        <li><a href="#">Sat: 9am - 2pm</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 {{COMPANY_NAME}}. All rights reserved.</p>
+                <p>Serving {{CITY}} and surrounding areas.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CHATBOT WIDGET -->
+    <div class="chatbot-wrapper">
+        <div class="chatbot-tooltip" id="chatTooltip">
+            <button class="chatbot-tooltip-close" onclick="closeChatTooltip()" aria-label="Close">&times;</button>
+            <strong>Hi there!</strong><br>
+            {{CHATBOT_GREETING}}
+        </div>
+        <button class="chatbot-btn" id="chatBtn" onclick="toggleChat()" aria-label="Open chat">
+            <span style="font-size:18px">&#128172;</span> Chat
+        </button>
+    </div>
+
+    <script>
+        // Navbar scroll effect
+        (function() {
+            var navbar = document.getElementById('navbar');
+            var lastScroll = 0;
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 40) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+                lastScroll = window.scrollY;
+            });
+        })();
+
+        // Mobile nav toggle
+        (function() {
+            var toggle = document.getElementById('navToggle');
+            var links = document.getElementById('navLinks');
+            toggle.addEventListener('click', function() {
+                links.classList.toggle('open');
+                var spans = toggle.querySelectorAll('span');
+                if (links.classList.contains('open')) {
+                    spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
+                    spans[1].style.opacity = '0';
+                    spans[2].style.transform = 'rotate(-45deg) translate(5px, -5px)';
+                } else {
+                    spans[0].style.transform = '';
+                    spans[1].style.opacity = '';
+                    spans[2].style.transform = '';
+                }
+            });
+            // Close menu on link click
+            links.querySelectorAll('a').forEach(function(a) {
+                a.addEventListener('click', function() {
+                    links.classList.remove('open');
+                    var spans = toggle.querySelectorAll('span');
+                    spans[0].style.transform = '';
+                    spans[1].style.opacity = '';
+                    spans[2].style.transform = '';
+                });
+            });
+        })();
+
+        // Chatbot tooltip
+        var chatTooltipShown = false;
+        setTimeout(function() {
+            document.getElementById('chatTooltip').classList.add('active');
+            chatTooltipShown = true;
+        }, 3000);
+
+        function toggleChat() {
+            var tooltip = document.getElementById('chatTooltip');
+            if (tooltip.classList.contains('active')) {
+                tooltip.classList.remove('active');
+                chatTooltipShown = false;
+            } else {
+                tooltip.classList.add('active');
+                chatTooltipShown = true;
+            }
+        }
+
+        function closeChatTooltip() {
+            document.getElementById('chatTooltip').classList.remove('active');
+            chatTooltipShown = false;
+        }
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+            anchor.addEventListener('click', function(e) {
+                var targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                var target = document.querySelector(targetId);
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

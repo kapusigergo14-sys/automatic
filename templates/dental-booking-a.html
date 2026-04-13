@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Online - {{COMPANY_NAME}} | {{CITY}}</title>
+    <meta name="description" content="Book your dental appointment online at {{COMPANY_NAME}} in {{CITY}}. Easy scheduling, Google Calendar sync, and SMS reminders.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: {{PRIMARY_COLOR}};
+            --accent: {{ACCENT_COLOR}};
+            --bg: {{BG_COLOR}};
+            --text: {{TEXT_COLOR}};
+            --card-bg: #ffffff;
+            --warm-shadow: 0 4px 24px rgba(0,0,0,0.06);
+            --warm-shadow-hover: 0 12px 40px rgba(0,0,0,0.10);
+            --footer-bg: #1a1f2e;
+            --footer-text: #c8cdd8;
+            --radius-card: 18px;
+            --radius-pill: 999px;
+            --section-gap: 72px;
+        }
+
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+        body {
+            font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg); color: var(--text);
+            line-height: 1.6; font-weight: 400; overflow-x: hidden;
+            -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+        }
+        img { max-width: 100%; display: block; }
+        a { text-decoration: none; color: inherit; transition: color 0.25s ease; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 28px; }
+
+        /* ===== NAVIGATION (same as landing) ===== */
+        .nav {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+            padding: 16px 0;
+            background: rgba(255,255,255,0.65);
+            backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+            transition: background 0.35s ease, box-shadow 0.35s ease, padding 0.35s ease;
+        }
+        .nav.scrolled {
+            background: rgba(255,255,255,0.95);
+            box-shadow: 0 1px 16px rgba(0,0,0,0.06); padding: 10px 0;
+        }
+        .nav-inner {
+            display: flex; align-items: center; justify-content: space-between;
+            max-width: 1200px; margin: 0 auto; padding: 0 28px;
+        }
+        .nav-logo {
+            font-size: 21px; font-weight: 800; color: var(--primary);
+            letter-spacing: -0.5px; display: flex; align-items: center; gap: 8px;
+        }
+        .nav-logo .logo-icon {
+            width: 36px; height: 36px; border-radius: 10px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            display: flex; align-items: center; justify-content: center;
+            color: #fff; font-size: 18px; font-weight: 700;
+        }
+        .nav-links { display: flex; align-items: center; gap: 32px; list-style: none; }
+        .nav-links a {
+            font-size: 14px; font-weight: 500; color: var(--text); opacity: 0.7;
+            transition: opacity 0.25s ease; position: relative;
+        }
+        .nav-links a::after {
+            content: ''; position: absolute; bottom: -4px; left: 0;
+            width: 0; height: 2px; background: var(--accent);
+            transition: width 0.3s ease; border-radius: 1px;
+        }
+        .nav-links a:hover { opacity: 1; }
+        .nav-links a:hover::after { width: 100%; }
+        .nav-links a.active { opacity: 1; font-weight: 600; color: var(--primary); }
+        .nav-links a.active::after { width: 100%; }
+        .nav-phone {
+            font-size: 14px; font-weight: 600; color: var(--text); opacity: 0.8;
+            display: flex; align-items: center; gap: 6px;
+        }
+        .nav-cta {
+            display: inline-flex; align-items: center;
+            padding: 10px 24px; background: var(--accent); color: #fff !important;
+            border-radius: var(--radius-pill); font-size: 14px; font-weight: 600;
+            opacity: 1 !important; transition: transform 0.25s ease, box-shadow 0.25s ease;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+        }
+        .nav-cta::after { display: none !important; }
+        .nav-cta:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.18); }
+        .nav-toggle {
+            display: none; flex-direction: column; gap: 5px;
+            cursor: pointer; background: none; border: none; padding: 4px;
+        }
+        .nav-toggle span {
+            display: block; width: 24px; height: 2px; background: var(--text);
+            border-radius: 2px; transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        /* ===== PAGE HERO ===== */
+        .page-hero {
+            padding-top: 110px; padding-bottom: 48px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            text-align: center; color: #fff; position: relative; overflow: hidden;
+        }
+        .page-hero::before {
+            content: ''; position: absolute; inset: 0;
+            background: radial-gradient(ellipse at 30% 20%, rgba(255,255,255,0.1) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        .page-hero h1 {
+            font-size: 40px; font-weight: 800; letter-spacing: -1px;
+            margin-bottom: 10px; position: relative;
+        }
+        .page-hero p {
+            font-size: 17px; opacity: 0.88; max-width: 520px;
+            margin: 0 auto; position: relative;
+        }
+
+        /* ===== MAIN CONTENT ===== */
+        .main { max-width: 1200px; margin: 0 auto; padding: 48px 28px; }
+
+        /* ===== BOOKING CARD ===== */
+        .booking-card {
+            background: var(--card-bg); border-radius: var(--radius-card);
+            box-shadow: var(--warm-shadow); padding: 40px;
+            margin-bottom: 40px; border: 1px solid rgba(0,0,0,0.04);
+        }
+        .booking-card h2 {
+            font-size: 24px; font-weight: 800; margin-bottom: 28px;
+            color: var(--text); letter-spacing: -0.5px;
+        }
+        .form-grid {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 20px; margin-bottom: 28px;
+        }
+        .form-group { display: flex; flex-direction: column; gap: 6px; }
+        .form-group.full { grid-column: 1 / -1; }
+        .form-group label {
+            font-size: 12px; font-weight: 700; color: var(--text); opacity: 0.6;
+            text-transform: uppercase; letter-spacing: 0.8px;
+        }
+        .form-group select,
+        .form-group input {
+            padding: 13px 16px;
+            border: 2px solid rgba(0,0,0,0.07);
+            border-radius: 14px; font-size: 15px;
+            font-family: 'Inter', sans-serif; color: var(--text);
+            background: var(--bg); transition: border-color 0.25s ease;
+            outline: none;
+        }
+        .form-group select:focus,
+        .form-group input:focus { border-color: var(--accent); box-shadow: 0 0 0 4px rgba(0,0,0,0.03); }
+
+        /* ===== CALENDAR ===== */
+        .calendar-section { margin-bottom: 28px; }
+        .calendar-section h3 {
+            font-size: 16px; font-weight: 700; margin-bottom: 14px; color: var(--text);
+        }
+        .calendar-header {
+            display: flex; justify-content: space-between;
+            align-items: center; margin-bottom: 12px;
+        }
+        .calendar-header span { font-size: 15px; font-weight: 700; color: var(--text); }
+        .calendar-nav {
+            background: none; border: 2px solid rgba(0,0,0,0.07);
+            border-radius: 10px; width: 34px; height: 34px;
+            cursor: pointer; display: flex; align-items: center;
+            justify-content: center; font-size: 16px; color: var(--text);
+            opacity: 0.6; transition: border-color 0.2s ease;
+        }
+        .calendar-nav:hover { border-color: var(--accent); opacity: 1; }
+        .calendar-grid {
+            display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px;
+        }
+        .cal-day-label {
+            text-align: center; font-size: 11px; font-weight: 700;
+            color: var(--text); opacity: 0.4; text-transform: uppercase;
+            padding: 8px 0; letter-spacing: 0.5px;
+        }
+        .cal-day {
+            text-align: center; padding: 10px 4px; border-radius: 12px;
+            font-size: 14px; font-weight: 500; color: var(--text);
+            cursor: pointer; transition: all 0.15s;
+            border: 2px solid transparent;
+        }
+        .cal-day:hover { background: rgba(0,0,0,0.03); }
+        .cal-day.empty { cursor: default; }
+        .cal-day.empty:hover { background: transparent; }
+        .cal-day.selected {
+            background: var(--accent); color: #fff; font-weight: 700;
+            border-color: var(--accent);
+        }
+        .cal-day.today { border-color: var(--primary); font-weight: 700; color: var(--primary); }
+
+        /* ===== TIME SLOTS ===== */
+        .time-section { margin-bottom: 32px; }
+        .time-section h3 {
+            font-size: 16px; font-weight: 700; margin-bottom: 12px; color: var(--text);
+        }
+        .time-slots { display: flex; gap: 10px; flex-wrap: wrap; }
+        .time-slot {
+            padding: 10px 24px; border: 2px solid rgba(0,0,0,0.07);
+            border-radius: 12px; font-size: 14px; font-weight: 500;
+            color: var(--text); cursor: pointer; transition: all 0.15s;
+            background: var(--card-bg);
+        }
+        .time-slot:hover { border-color: var(--accent); color: var(--accent); }
+        .time-slot.selected {
+            background: var(--accent); color: #fff;
+            border-color: var(--accent); font-weight: 700;
+        }
+
+        /* ===== CONFIRM BUTTON ===== */
+        .confirm-btn {
+            background: var(--accent); color: #fff; border: none;
+            padding: 16px 52px; border-radius: var(--radius-pill);
+            font-size: 16px; font-weight: 700; font-family: 'Inter', sans-serif;
+            cursor: pointer; transition: transform 0.25s ease, box-shadow 0.25s ease;
+            box-shadow: 0 4px 18px rgba(0,0,0,0.12);
+        }
+        .confirm-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.18); }
+
+        /* ===== CHECKMARKS ===== */
+        .checkmarks {
+            display: grid; grid-template-columns: repeat(4, 1fr);
+            gap: 16px; margin-bottom: var(--section-gap);
+        }
+        .check-item {
+            display: flex; align-items: center; gap: 12px;
+            background: var(--card-bg); padding: 18px 20px;
+            border-radius: 14px; box-shadow: var(--warm-shadow);
+            border: 1px solid rgba(0,0,0,0.04);
+        }
+        .check-icon {
+            width: 32px; height: 32px; border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            display: flex; align-items: center; justify-content: center;
+            flex-shrink: 0; color: #fff; font-size: 14px; font-weight: 700;
+        }
+        .check-item span { font-size: 14px; font-weight: 600; color: var(--text); }
+
+        /* ===== HOW IT WORKS ===== */
+        .how-section { margin-bottom: var(--section-gap); text-align: center; }
+        .how-section h2 {
+            font-size: 32px; font-weight: 800; margin-bottom: 40px;
+            color: var(--text); letter-spacing: -0.5px;
+        }
+        .how-steps {
+            display: flex; align-items: flex-start;
+            justify-content: center; gap: 12px;
+        }
+        .how-step {
+            flex: 1; max-width: 210px;
+            display: flex; flex-direction: column; align-items: center;
+        }
+        .how-step-icon {
+            width: 64px; height: 64px; border-radius: 18px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            display: flex; align-items: center; justify-content: center;
+            margin-bottom: 14px; box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+            font-size: 28px; color: #fff;
+        }
+        .how-step-num {
+            font-size: 11px; font-weight: 800; color: var(--accent);
+            margin-bottom: 6px; text-transform: uppercase; letter-spacing: 1.5px;
+        }
+        .how-step-title {
+            font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 6px;
+        }
+        .how-step-desc { font-size: 13px; color: var(--text); opacity: 0.55; line-height: 1.5; }
+        .how-arrow {
+            display: flex; align-items: center; padding-top: 28px;
+            color: var(--text); opacity: 0.2; font-size: 24px;
+        }
+
+        /* ===== CHATBOT SECTION ===== */
+        .chatbot-section {
+            background: var(--card-bg); border-radius: var(--radius-card);
+            box-shadow: var(--warm-shadow); padding: 40px;
+            margin-bottom: var(--section-gap);
+            display: flex; align-items: center; gap: 48px;
+            border: 1px solid rgba(0,0,0,0.04);
+        }
+        .chatbot-text { flex: 1; }
+        .chatbot-text h2 {
+            font-size: 26px; font-weight: 800; color: var(--text);
+            margin-bottom: 10px; letter-spacing: -0.5px;
+        }
+        .chatbot-text p { font-size: 15px; color: var(--text); opacity: 0.6; line-height: 1.7; }
+        .chatbot-widget {
+            width: 320px; flex-shrink: 0;
+            background: var(--bg); border-radius: 18px;
+            overflow: hidden; box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+            border: 1px solid rgba(0,0,0,0.06);
+        }
+        .cw-header {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: #fff; padding: 16px 18px;
+            display: flex; align-items: center; gap: 10px;
+        }
+        .cw-header-avatar {
+            width: 32px; height: 32px; border-radius: 50%;
+            background: rgba(255,255,255,0.2);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 14px;
+        }
+        .cw-header-info { font-size: 14px; font-weight: 700; }
+        .cw-header-info span { display: block; font-size: 11px; font-weight: 400; opacity: 0.8; }
+        .cw-dot {
+            width: 8px; height: 8px; border-radius: 50%;
+            background: #4ade80; margin-left: auto;
+            animation: cwpulse 2s ease infinite;
+        }
+        @keyframes cwpulse { 0%,100% { opacity: 1; } 50% { opacity: 0.5; } }
+        .cw-messages { padding: 16px; display: flex; flex-direction: column; gap: 10px; }
+        .cw-msg {
+            padding: 10px 14px; border-radius: 14px;
+            font-size: 13px; line-height: 1.55; max-width: 85%;
+        }
+        .cw-bot {
+            background: var(--card-bg); color: var(--text);
+            box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+            align-self: flex-start; border-bottom-left-radius: 4px;
+        }
+        .cw-user {
+            background: var(--accent); color: #fff;
+            align-self: flex-end; border-bottom-right-radius: 4px;
+        }
+        .cw-input-bar {
+            display: flex; gap: 8px; padding: 12px 14px;
+            border-top: 1px solid rgba(0,0,0,0.06);
+        }
+        .cw-input-bar input {
+            flex: 1; border: 2px solid rgba(0,0,0,0.06);
+            border-radius: 20px; padding: 8px 14px;
+            font-size: 12px; font-family: 'Inter', sans-serif;
+            outline: none; color: var(--text); background: var(--card-bg);
+        }
+        .cw-input-bar button {
+            background: var(--accent); color: #fff; border: none;
+            border-radius: 50%; width: 32px; height: 32px;
+            display: flex; align-items: center; justify-content: center;
+            cursor: pointer; font-size: 14px;
+        }
+        .cw-powered {
+            text-align: center; padding: 4px 0 8px;
+            font-size: 10px; color: var(--text); opacity: 0.3;
+        }
+        .cw-powered a { color: var(--accent); font-weight: 600; opacity: 1; }
+
+        /* ===== FOOTER (same as landing) ===== */
+        .footer {
+            background: var(--footer-bg); color: var(--footer-text);
+            padding: 64px 0 28px;
+        }
+        .footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
+        .footer-brand { max-width: 320px; }
+        .footer-brand-logo { font-size: 20px; font-weight: 800; color: #fff; letter-spacing: -0.3px; margin-bottom: 12px; display: inline-block; }
+        .footer-brand p { font-size: 14px; line-height: 1.7; opacity: 0.55; margin-bottom: 18px; }
+        .footer-socials { display: flex; gap: 10px; }
+        .footer-social-link {
+            width: 38px; height: 38px; border-radius: 10px;
+            background: rgba(255,255,255,0.06);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 14px; color: var(--footer-text);
+            transition: background 0.25s ease, transform 0.25s ease;
+        }
+        .footer-social-link:hover { background: rgba(255,255,255,0.12); transform: translateY(-2px); }
+        .footer h4 { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.2px; margin-bottom: 20px; opacity: 0.9; color: #fff; }
+        .footer-links { list-style: none; }
+        .footer-links li { margin-bottom: 10px; }
+        .footer-links a { font-size: 14px; opacity: 0.5; transition: opacity 0.25s ease, padding-left 0.25s ease; }
+        .footer-links a:hover { opacity: 1; padding-left: 4px; }
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.08);
+            padding-top: 22px; display: flex; justify-content: space-between; align-items: center;
+        }
+        .footer-bottom p { font-size: 13px; opacity: 0.35; }
+
+        /* ===== UTILITIES ===== */
+        ::selection { background: var(--accent); color: #fff; }
+        *:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: var(--bg); }
+        ::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.12); border-radius: 3px; }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 1024px) {
+            .checkmarks { grid-template-columns: repeat(2, 1fr); }
+            .how-steps { flex-wrap: wrap; }
+            .how-arrow { display: none; }
+            .chatbot-section { flex-direction: column; }
+            .chatbot-widget { width: 100%; max-width: 360px; }
+            .footer-grid { grid-template-columns: 1fr 1fr; gap: 36px; }
+        }
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .nav-links.open {
+                display: flex; flex-direction: column;
+                position: absolute; top: 100%; left: 0; right: 0;
+                background: rgba(255,255,255,0.98); backdrop-filter: blur(16px);
+                padding: 24px 28px; gap: 18px; box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+            }
+            .nav-toggle { display: flex; }
+            .page-hero { padding-top: 100px; }
+            .page-hero h1 { font-size: 30px; }
+            .form-grid { grid-template-columns: 1fr; }
+            .booking-card { padding: 28px 22px; }
+            .checkmarks { grid-template-columns: 1fr; }
+            .how-steps { gap: 24px; }
+            .how-step { max-width: none; }
+            .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+            .footer-bottom { flex-direction: column; gap: 10px; text-align: center; }
+        }
+        @media (max-width: 480px) {
+            .container, .main { padding: 0 18px; }
+            .page-hero h1 { font-size: 26px; }
+            .booking-card { padding: 22px 18px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="nav" id="navbar">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">+</span>
+                {{COMPANY_SHORT_NAME}}
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#" class="active">Book Online</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="tel:{{PHONE}}" class="nav-phone">&#128222; {{PHONE}}</a></li>
+                <li><a href="#" class="nav-cta">Book Now</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Book Your Appointment Online</h1>
+            <p>Choose a convenient time and we'll take care of the rest. Fast, easy, and available 24/7.</p>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <div class="main">
+
+        <!-- BOOKING CARD -->
+        <div class="booking-card">
+            <h2>Schedule Your Visit</h2>
+            <div class="form-grid">
+                <div class="form-group full">
+                    <label>Service</label>
+                    <select>
+                        <option>{{SERVICE_1}}</option>
+                        <option>{{SERVICE_2}}</option>
+                        <option>{{SERVICE_3}}</option>
+                        <option>{{SERVICE_4}}</option>
+                        <option>{{SERVICE_5}}</option>
+                        <option>{{SERVICE_6}}</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Patient Name</label>
+                    <input type="text" value="Sarah Mitchell">
+                </div>
+                <div class="form-group">
+                    <label>Phone Number</label>
+                    <input type="text" value="{{PHONE}}">
+                </div>
+                <div class="form-group full">
+                    <label>Email Address</label>
+                    <input type="email" value="sarah@email.com">
+                </div>
+            </div>
+
+            <!-- CALENDAR -->
+            <div class="calendar-section">
+                <h3>Select a Date</h3>
+                <div class="calendar-header">
+                    <button class="calendar-nav">&lsaquo;</button>
+                    <span>April 2026</span>
+                    <button class="calendar-nav">&rsaquo;</button>
+                </div>
+                <div class="calendar-grid">
+                    <div class="cal-day-label">Mon</div>
+                    <div class="cal-day-label">Tue</div>
+                    <div class="cal-day-label">Wed</div>
+                    <div class="cal-day-label">Thu</div>
+                    <div class="cal-day-label">Fri</div>
+                    <div class="cal-day-label">Sat</div>
+                    <div class="cal-day-label">Sun</div>
+                    <div class="cal-day empty"></div>
+                    <div class="cal-day empty"></div>
+                    <div class="cal-day">1</div>
+                    <div class="cal-day">2</div>
+                    <div class="cal-day">3</div>
+                    <div class="cal-day">4</div>
+                    <div class="cal-day">5</div>
+                    <div class="cal-day">6</div>
+                    <div class="cal-day">7</div>
+                    <div class="cal-day">8</div>
+                    <div class="cal-day today">9</div>
+                    <div class="cal-day">10</div>
+                    <div class="cal-day">11</div>
+                    <div class="cal-day">12</div>
+                    <div class="cal-day">13</div>
+                    <div class="cal-day selected">14</div>
+                    <div class="cal-day">15</div>
+                    <div class="cal-day">16</div>
+                    <div class="cal-day">17</div>
+                    <div class="cal-day">18</div>
+                    <div class="cal-day">19</div>
+                    <div class="cal-day">20</div>
+                    <div class="cal-day">21</div>
+                    <div class="cal-day">22</div>
+                    <div class="cal-day">23</div>
+                    <div class="cal-day">24</div>
+                    <div class="cal-day">25</div>
+                    <div class="cal-day">26</div>
+                    <div class="cal-day">27</div>
+                    <div class="cal-day">28</div>
+                    <div class="cal-day">29</div>
+                    <div class="cal-day">30</div>
+                </div>
+            </div>
+
+            <!-- TIME SLOTS -->
+            <div class="time-section">
+                <h3>Select a Time</h3>
+                <div class="time-slots">
+                    <div class="time-slot">8:00 AM</div>
+                    <div class="time-slot">8:30 AM</div>
+                    <div class="time-slot">9:00 AM</div>
+                    <div class="time-slot selected">9:30 AM</div>
+                    <div class="time-slot">10:00 AM</div>
+                    <div class="time-slot">10:30 AM</div>
+                    <div class="time-slot">11:00 AM</div>
+                    <div class="time-slot">11:30 AM</div>
+                    <div class="time-slot">1:00 PM</div>
+                    <div class="time-slot">2:00 PM</div>
+                    <div class="time-slot">3:00 PM</div>
+                    <div class="time-slot">3:30 PM</div>
+                </div>
+            </div>
+
+            <button class="confirm-btn">Confirm Booking &rarr;</button>
+        </div>
+
+        <!-- CHECKMARKS -->
+        <div class="checkmarks">
+            <div class="check-item">
+                <div class="check-icon">&#10003;</div>
+                <span>Google Calendar sync</span>
+            </div>
+            <div class="check-item">
+                <div class="check-icon">&#10003;</div>
+                <span>SMS reminders 24h before</span>
+            </div>
+            <div class="check-item">
+                <div class="check-icon">&#10003;</div>
+                <span>24/7 online availability</span>
+            </div>
+            <div class="check-item">
+                <div class="check-icon">&#10003;</div>
+                <span>Easy reschedule anytime</span>
+            </div>
+        </div>
+
+        <!-- HOW IT WORKS -->
+        <div class="how-section">
+            <h2>How It Works</h2>
+            <div class="how-steps">
+                <div class="how-step">
+                    <div class="how-step-icon">&#128197;</div>
+                    <div class="how-step-num">Step 1</div>
+                    <div class="how-step-title">Patient Books Online</div>
+                    <div class="how-step-desc">Patient selects service, date and time on your website</div>
+                </div>
+                <div class="how-arrow">&rarr;</div>
+                <div class="how-step">
+                    <div class="how-step-icon">&#128198;</div>
+                    <div class="how-step-num">Step 2</div>
+                    <div class="how-step-title">Calendar Event Created</div>
+                    <div class="how-step-desc">Booking is automatically added to your Google Calendar</div>
+                </div>
+                <div class="how-arrow">&rarr;</div>
+                <div class="how-step">
+                    <div class="how-step-icon">&#128231;</div>
+                    <div class="how-step-num">Step 3</div>
+                    <div class="how-step-title">Email to Reception</div>
+                    <div class="how-step-desc">Your reception team gets notified instantly via email</div>
+                </div>
+                <div class="how-arrow">&rarr;</div>
+                <div class="how-step">
+                    <div class="how-step-icon">&#128241;</div>
+                    <div class="how-step-num">Step 4</div>
+                    <div class="how-step-title">SMS Reminder Sent</div>
+                    <div class="how-step-desc">Patient receives an SMS reminder 24 hours before</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CHATBOT SECTION -->
+        <div class="chatbot-section">
+            <div class="chatbot-text">
+                <h2>Need help? Chat with our AI assistant</h2>
+                <p>Our intelligent chatbot is available 24/7 to answer your questions about treatments, pricing, opening hours, and help you book the right appointment. No waiting on hold -- just instant, friendly support whenever you need it.</p>
+            </div>
+            <div class="chatbot-widget">
+                <div class="cw-header">
+                    <div class="cw-header-avatar">&#129489;</div>
+                    <div class="cw-header-info">
+                        {{COMPANY_SHORT_NAME}} Assistant
+                        <span>Online now</span>
+                    </div>
+                    <div class="cw-dot"></div>
+                </div>
+                <div class="cw-messages">
+                    <div class="cw-msg cw-bot">Hi there! I'm the {{COMPANY_SHORT_NAME}} assistant. How can I help you today?</div>
+                    <div class="cw-msg cw-user">Do you have any availability this Thursday afternoon?</div>
+                    <div class="cw-msg cw-bot">Yes! We have openings at 1:30 PM, 2:00 PM and 3:30 PM this Thursday. Would you like me to book one for you?</div>
+                </div>
+                <div class="cw-input-bar">
+                    <input type="text" placeholder="Type your message..." disabled>
+                    <button aria-label="Send">&rarr;</button>
+                </div>
+                <div class="cw-powered">Powered by <a href="#">smartflowdev</a></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="footer-brand-logo">{{COMPANY_NAME}}</a>
+                    <p>Professional dental care in {{CITY}}. Trusted by {{REVIEW_COUNT}}+ patients with a {{RATING}}-star average rating. Your smile is our priority.</p>
+                    <div class="footer-socials">
+                        <a href="#" class="footer-social-link" aria-label="Facebook">f</a>
+                        <a href="#" class="footer-social-link" aria-label="Instagram">&#9744;</a>
+                        <a href="#" class="footer-social-link" aria-label="LinkedIn">in</a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">{{SERVICE_1}}</a></li>
+                        <li><a href="#">{{SERVICE_2}}</a></li>
+                        <li><a href="#">{{SERVICE_3}}</a></li>
+                        <li><a href="#">{{SERVICE_4}}</a></li>
+                        <li><a href="#">{{SERVICE_5}}</a></li>
+                        <li><a href="#">{{SERVICE_6}}</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="tel:{{PHONE}}">{{PHONE}}</a></li>
+                        <li><a href="#">{{CITY}}</a></li>
+                        <li><a href="#">Mon - Fri: 8am - 6pm</a></li>
+                        <li><a href="#">Sat: 9am - 2pm</a></li>
+                        <li><a href="#">Book Appointment</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 {{COMPANY_NAME}}. All rights reserved.</p>
+                <p>Serving {{CITY}} and surrounding areas.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        (function() {
+            var navbar = document.getElementById('navbar');
+            window.addEventListener('scroll', function() {
+                navbar.classList.toggle('scrolled', window.scrollY > 40);
+            });
+        })();
+        (function() {
+            var toggle = document.getElementById('navToggle');
+            var links = document.getElementById('navLinks');
+            toggle.addEventListener('click', function() {
+                links.classList.toggle('open');
+                var spans = toggle.querySelectorAll('span');
+                if (links.classList.contains('open')) {
+                    spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
+                    spans[1].style.opacity = '0';
+                    spans[2].style.transform = 'rotate(-45deg) translate(5px, -5px)';
+                } else {
+                    spans[0].style.transform = '';
+                    spans[1].style.opacity = '';
+                    spans[2].style.transform = '';
+                }
+            });
+            links.querySelectorAll('a').forEach(function(a) {
+                a.addEventListener('click', function() {
+                    links.classList.remove('open');
+                    var spans = toggle.querySelectorAll('span');
+                    spans[0].style.transform = '';
+                    spans[1].style.opacity = '';
+                    spans[2].style.transform = '';
+                });
+            });
+        })();
+    </script>
+
+</body>
+</html>

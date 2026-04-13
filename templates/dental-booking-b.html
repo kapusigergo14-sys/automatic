@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{COMPANY_NAME}} - Book Your Appointment Online</title>
+<meta name="description" content="Book your appointment online at {{COMPANY_NAME}} in {{CITY}}. Easy scheduling, SMS confirmations, and 24/7 availability.">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+    :root {
+        --primary: {{PRIMARY_COLOR}};
+        --accent: {{ACCENT_COLOR}};
+        --bg: {{BG_COLOR}};
+        --text: {{TEXT_COLOR}};
+        --card-bg: #ffffff;
+        --black: #0a0a0a;
+        --red: #ff3300;
+        --off-white: #f7f7f5;
+        --section-gap: 80px;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
+    body {
+        font-family: 'Nunito', system-ui, sans-serif;
+        background-color: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        font-weight: 400;
+        overflow-x: hidden;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    img { max-width: 100%; display: block; }
+    a { text-decoration: none; color: inherit; transition: color 0.2s ease; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
+
+    /* ===== NAVIGATION ===== */
+    .nav {
+        position: fixed;
+        top: 0; left: 0; right: 0;
+        z-index: 1000;
+        background: var(--black);
+        border-bottom: 2px solid var(--red);
+    }
+
+    .nav-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 32px;
+        height: 64px;
+    }
+
+    .nav-logo {
+        font-family: 'Archivo', sans-serif;
+        font-size: 20px;
+        font-weight: 800;
+        color: #fff;
+        letter-spacing: -0.5px;
+        text-transform: uppercase;
+    }
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 0;
+        list-style: none;
+    }
+
+    .nav-links a {
+        font-family: 'Archivo', sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        color: rgba(255,255,255,0.6);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 22px 18px;
+        transition: color 0.2s, background 0.2s;
+        border-bottom: 3px solid transparent;
+        margin-bottom: -2px;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active {
+        color: #fff;
+        border-bottom-color: var(--red);
+    }
+
+    .nav-cta {
+        display: inline-flex;
+        align-items: center;
+        padding: 10px 24px !important;
+        background: var(--red);
+        color: #fff !important;
+        border: none;
+        border-bottom: none !important;
+        font-size: 13px !important;
+        font-weight: 700 !important;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        margin-left: 12px;
+        transition: background 0.2s ease;
+    }
+
+    .nav-cta:hover {
+        background: #e62e00;
+        border-bottom-color: transparent !important;
+    }
+
+    /* ===== BOOKING HERO ===== */
+    .booking-hero {
+        padding-top: 64px;
+        background: var(--black);
+        color: #fff;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .booking-hero::before {
+        content: '';
+        position: absolute;
+        top: -50px;
+        right: -50px;
+        width: 300px;
+        height: 300px;
+        border: 3px solid var(--red);
+        border-radius: 50%;
+        opacity: 0.06;
+    }
+
+    .booking-hero::after {
+        content: '';
+        position: absolute;
+        bottom: 30px;
+        left: 60px;
+        width: 150px;
+        height: 3px;
+        background: var(--red);
+        opacity: 0.15;
+    }
+
+    .booking-hero-inner {
+        padding: 80px 0 70px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .booking-hero-tag {
+        font-family: 'Archivo', sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: var(--red);
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .booking-hero-tag::before {
+        content: '';
+        width: 40px;
+        height: 2px;
+        background: var(--red);
+    }
+
+    .booking-hero h1 {
+        font-family: 'Archivo', sans-serif;
+        font-size: 52px;
+        font-weight: 800;
+        line-height: 1.05;
+        letter-spacing: -2px;
+        margin-bottom: 16px;
+    }
+
+    .booking-hero h1 span { color: var(--red); }
+
+    .booking-hero-sub {
+        font-size: 17px;
+        color: rgba(255,255,255,0.55);
+        max-width: 520px;
+        line-height: 1.7;
+    }
+
+    /* ===== BOOKING FORM SECTION ===== */
+    .booking-section {
+        padding: var(--section-gap) 0;
+        background: var(--off-white);
+    }
+
+    .booking-layout {
+        display: grid;
+        grid-template-columns: 1fr 380px;
+        gap: 40px;
+        align-items: start;
+    }
+
+    .booking-form-card {
+        background: #fff;
+        border: 2px solid var(--black);
+        padding: 40px;
+    }
+
+    .booking-form-title {
+        font-family: 'Archivo', sans-serif;
+        font-size: 24px;
+        font-weight: 800;
+        color: var(--black);
+        margin-bottom: 32px;
+        letter-spacing: -0.5px;
+    }
+
+    .form-group { margin-bottom: 22px; }
+
+    .form-group label {
+        display: block;
+        font-family: 'Archivo', sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        color: var(--black);
+        margin-bottom: 6px;
+        text-transform: uppercase;
+        letter-spacing: 0.8px;
+    }
+
+    .form-group input,
+    .form-group select {
+        width: 100%;
+        padding: 14px 16px;
+        border: 2px solid var(--black);
+        border-radius: 0;
+        font-size: 15px;
+        font-family: 'Nunito', sans-serif;
+        color: var(--text);
+        background: #fff;
+        transition: border-color 0.2s;
+        outline: none;
+        -webkit-appearance: none;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus {
+        border-color: var(--red);
+    }
+
+    .form-group input::placeholder {
+        color: var(--text);
+        opacity: 0.3;
+    }
+
+    .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+
+    /* ===== CALENDAR GRID ===== */
+    .calendar-section { margin-bottom: 28px; }
+
+    .calendar-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 16px;
+    }
+
+    .calendar-month {
+        font-family: 'Archivo', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: var(--black);
+    }
+
+    .calendar-nav {
+        display: flex;
+        gap: 4px;
+    }
+
+    .calendar-nav button {
+        width: 36px;
+        height: 36px;
+        border: 2px solid var(--black);
+        background: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background 0.2s;
+        font-family: 'Archivo', sans-serif;
+        font-weight: 700;
+    }
+
+    .calendar-nav button:hover {
+        background: var(--off-white);
+    }
+
+    .calendar-grid {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 4px;
+    }
+
+    .calendar-day-name {
+        font-family: 'Archivo', sans-serif;
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: var(--text);
+        opacity: 0.4;
+        text-align: center;
+        padding: 8px 0;
+    }
+
+    .calendar-day {
+        aspect-ratio: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Archivo', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        border: 2px solid transparent;
+        cursor: pointer;
+        transition: all 0.15s;
+        background: #fff;
+    }
+
+    .calendar-day:hover {
+        border-color: var(--black);
+    }
+
+    .calendar-day.disabled {
+        opacity: 0.2;
+        pointer-events: none;
+    }
+
+    .calendar-day.selected {
+        background: var(--red);
+        color: #fff;
+        border-color: var(--red);
+    }
+
+    .calendar-day.today {
+        border-color: var(--black);
+        font-weight: 800;
+    }
+
+    /* ===== TIME SLOTS ===== */
+    .time-slots-section { margin-bottom: 28px; }
+
+    .time-slots-label {
+        font-family: 'Archivo', sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.8px;
+        color: var(--black);
+        margin-bottom: 12px;
+    }
+
+    .time-slots-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 8px;
+    }
+
+    .time-slot {
+        padding: 12px 8px;
+        border: 2px solid var(--black);
+        background: #fff;
+        font-family: 'Archivo', sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.15s;
+    }
+
+    .time-slot:hover {
+        background: var(--off-white);
+    }
+
+    .time-slot.selected {
+        background: var(--red);
+        color: #fff;
+        border-color: var(--red);
+    }
+
+    .time-slot.disabled {
+        opacity: 0.2;
+        pointer-events: none;
+        text-decoration: line-through;
+    }
+
+    /* ===== CONFIRM BUTTON ===== */
+    .booking-confirm {
+        width: 100%;
+        padding: 18px 32px;
+        background: var(--red);
+        color: #fff;
+        border: 2px solid var(--red);
+        border-radius: 0;
+        font-family: 'Archivo', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        cursor: pointer;
+        transition: background 0.2s, border-color 0.2s;
+        margin-top: 8px;
+    }
+
+    .booking-confirm:hover {
+        background: var(--black);
+        border-color: var(--black);
+    }
+
+    /* ===== SIDEBAR ===== */
+    .sidebar-card {
+        background: #fff;
+        border: 2px solid var(--black);
+        padding: 32px;
+        margin-bottom: 20px;
+    }
+
+    .sidebar-card-title {
+        font-family: 'Archivo', sans-serif;
+        font-size: 16px;
+        font-weight: 800;
+        color: var(--black);
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .check-list { list-style: none; }
+
+    .check-list li {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        margin-bottom: 16px;
+        font-size: 14px;
+        line-height: 1.5;
+        color: var(--text);
+    }
+
+    .check-list li:last-child { margin-bottom: 0; }
+
+    .check-icon {
+        width: 24px;
+        height: 24px;
+        min-width: 24px;
+        background: var(--red);
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: 800;
+        margin-top: 1px;
+    }
+
+    /* ===== WORKFLOW SECTION ===== */
+    .workflow-section {
+        padding: var(--section-gap) 0;
+        background: #fff;
+    }
+
+    .workflow-section .section-header {
+        text-align: left;
+        margin-bottom: 48px;
+    }
+
+    .section-tag {
+        font-family: 'Archivo', sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: var(--red);
+        margin-bottom: 12px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .section-tag::before {
+        content: '';
+        width: 30px;
+        height: 2px;
+        background: var(--red);
+    }
+
+    .section-title {
+        font-family: 'Archivo', sans-serif;
+        font-size: 42px;
+        font-weight: 800;
+        letter-spacing: -1.5px;
+        color: var(--black);
+        line-height: 1.1;
+        margin-bottom: 12px;
+    }
+
+    .section-subtitle {
+        font-size: 16px;
+        color: var(--text);
+        opacity: 0.6;
+        max-width: 500px;
+        line-height: 1.6;
+    }
+
+    .workflow-steps {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0;
+        position: relative;
+    }
+
+    .workflow-steps::before {
+        content: '';
+        position: absolute;
+        top: 36px;
+        left: 72px;
+        right: 72px;
+        height: 2px;
+        background: var(--black);
+        z-index: 0;
+    }
+
+    .workflow-step {
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        padding: 0 16px;
+    }
+
+    .workflow-step-number {
+        width: 72px;
+        height: 72px;
+        border: 3px solid var(--black);
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 20px;
+        font-family: 'Archivo', sans-serif;
+        font-size: 28px;
+        font-weight: 900;
+        color: var(--black);
+    }
+
+    .workflow-step:first-child .workflow-step-number {
+        background: var(--red);
+        border-color: var(--red);
+        color: #fff;
+    }
+
+    .workflow-step-title {
+        font-family: 'Archivo', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        color: var(--black);
+        margin-bottom: 6px;
+        letter-spacing: -0.2px;
+    }
+
+    .workflow-step-desc {
+        font-size: 13px;
+        color: var(--text);
+        opacity: 0.55;
+        line-height: 1.5;
+    }
+
+    /* ===== CHATBOT SECTION ===== */
+    .chatbot-section {
+        padding: var(--section-gap) 0;
+        background: var(--black);
+        color: #fff;
+        position: relative;
+    }
+
+    .chatbot-section::before {
+        content: '';
+        position: absolute;
+        top: 40px;
+        right: 100px;
+        width: 160px;
+        height: 160px;
+        border: 3px solid var(--red);
+        border-radius: 50%;
+        opacity: 0.06;
+    }
+
+    .chatbot-section-inner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        align-items: center;
+    }
+
+    .chatbot-section .section-tag::before { background: var(--red); }
+    .chatbot-section .section-title { color: #fff; }
+
+    .chatbot-section-text {
+        font-size: 16px;
+        color: rgba(255,255,255,0.6);
+        line-height: 1.7;
+        margin-top: 16px;
+        max-width: 440px;
+    }
+
+    .chatbot-demo {
+        border: 2px solid rgba(255,255,255,0.15);
+        overflow: hidden;
+    }
+
+    .chatbot-demo-header {
+        background: rgba(255,255,255,0.08);
+        padding: 14px 18px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: 'Archivo', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .chatbot-demo-dot {
+        width: 8px;
+        height: 8px;
+        background: var(--red);
+        border-radius: 50%;
+    }
+
+    .chatbot-demo-body {
+        padding: 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        min-height: 200px;
+    }
+
+    .demo-msg {
+        padding: 10px 14px;
+        font-size: 13px;
+        line-height: 1.5;
+        max-width: 85%;
+    }
+
+    .demo-msg-bot {
+        background: rgba(255,255,255,0.08);
+        border: 1px solid rgba(255,255,255,0.1);
+        color: rgba(255,255,255,0.85);
+        align-self: flex-start;
+    }
+
+    .demo-msg-user {
+        background: var(--red);
+        color: #fff;
+        align-self: flex-end;
+    }
+
+    .chatbot-demo-footer {
+        padding: 10px 18px;
+        border-top: 1px solid rgba(255,255,255,0.08);
+        font-size: 10px;
+        color: rgba(255,255,255,0.25);
+        text-align: center;
+    }
+
+    /* ===== FOOTER ===== */
+    .footer {
+        background: var(--black);
+        color: rgba(255,255,255,0.7);
+        padding: 60px 0 24px;
+        border-top: 3px solid var(--red);
+    }
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr 1fr;
+        gap: 48px;
+        margin-bottom: 48px;
+    }
+
+    .footer-brand-logo {
+        font-family: 'Archivo', sans-serif;
+        font-size: 20px;
+        font-weight: 800;
+        color: #fff;
+        letter-spacing: -0.3px;
+        text-transform: uppercase;
+        margin-bottom: 14px;
+        display: block;
+    }
+
+    .footer-brand p {
+        font-size: 14px;
+        line-height: 1.7;
+        opacity: 0.5;
+        margin-bottom: 20px;
+    }
+
+    .footer h4 {
+        font-family: 'Archivo', sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+
+    .footer-links { list-style: none; }
+    .footer-links li { margin-bottom: 10px; }
+
+    .footer-links a {
+        font-size: 14px;
+        opacity: 0.5;
+        transition: opacity 0.2s, color 0.2s;
+    }
+
+    .footer-links a:hover { opacity: 1; color: var(--red); }
+
+    .footer-bottom {
+        border-top: 1px solid rgba(255,255,255,0.08);
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-bottom p { font-size: 12px; opacity: 0.35; }
+
+    /* ===== UTILITIES ===== */
+    ::selection { background: var(--red); color: #fff; }
+    ::-moz-selection { background: var(--red); color: #fff; }
+    *:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
+
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--black); }
+
+    @media (max-width: 1024px) {
+        .booking-layout { grid-template-columns: 1fr; }
+        .booking-sidebar { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .chatbot-section-inner { grid-template-columns: 1fr; gap: 40px; }
+        .workflow-steps { grid-template-columns: repeat(2, 1fr); gap: 32px; }
+        .workflow-steps::before { display: none; }
+        .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
+    }
+
+    @media (max-width: 768px) {
+        .nav-links { display: none; }
+        .booking-hero h1 { font-size: 36px; }
+        .time-slots-grid { grid-template-columns: repeat(3, 1fr); }
+        .workflow-steps { grid-template-columns: 1fr; }
+        .booking-sidebar { grid-template-columns: 1fr; }
+        .section-title { font-size: 32px; }
+        .footer-grid { grid-template-columns: 1fr; }
+        .footer-bottom { flex-direction: column; gap: 8px; text-align: center; }
+    }
+</style>
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">{{COMPANY_SHORT_NAME}}</a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#" class="active">Book Online</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="tel:{{PHONE}}" class="nav-cta">Call {{PHONE}}</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- BOOKING HERO -->
+    <section class="booking-hero">
+        <div class="container">
+            <div class="booking-hero-inner">
+                <div class="booking-hero-tag">Online Scheduling</div>
+                <h1>Book Your <span>Appointment</span> Online</h1>
+                <p class="booking-hero-sub">Schedule your visit at {{COMPANY_NAME}} in {{CITY}}. Choose your service, pick a time, and confirm in seconds.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOOKING FORM -->
+    <section class="booking-section">
+        <div class="container">
+            <div class="booking-layout">
+                <div class="booking-form-card">
+                    <h2 class="booking-form-title">Select Your Appointment</h2>
+
+                    <div class="form-group">
+                        <label for="booking-service">Service</label>
+                        <select id="booking-service">
+                            <option value="">Choose a service...</option>
+                            <option value="s1">{{SERVICE_1}}</option>
+                            <option value="s2">{{SERVICE_2}}</option>
+                            <option value="s3">{{SERVICE_3}}</option>
+                            <option value="s4">{{SERVICE_4}}</option>
+                            <option value="s5">{{SERVICE_5}}</option>
+                            <option value="s6">{{SERVICE_6}}</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="booking-name">Full Name</label>
+                            <input type="text" id="booking-name" placeholder="John Smith">
+                        </div>
+                        <div class="form-group">
+                            <label for="booking-phone">Phone Number</label>
+                            <input type="tel" id="booking-phone" placeholder="(555) 123-4567">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="booking-email">Email Address</label>
+                        <input type="email" id="booking-email" placeholder="john@example.com">
+                    </div>
+
+                    <!-- Calendar -->
+                    <div class="calendar-section">
+                        <label style="display:block;font-family:'Archivo',sans-serif;font-size:12px;font-weight:700;color:var(--black);margin-bottom:12px;text-transform:uppercase;letter-spacing:0.8px;">Select Date</label>
+                        <div class="calendar-header">
+                            <span class="calendar-month">April 2025</span>
+                            <div class="calendar-nav">
+                                <button>&#8249;</button>
+                                <button>&#8250;</button>
+                            </div>
+                        </div>
+                        <div class="calendar-grid">
+                            <div class="calendar-day-name">Mon</div>
+                            <div class="calendar-day-name">Tue</div>
+                            <div class="calendar-day-name">Wed</div>
+                            <div class="calendar-day-name">Thu</div>
+                            <div class="calendar-day-name">Fri</div>
+                            <div class="calendar-day-name">Sat</div>
+                            <div class="calendar-day-name">Sun</div>
+
+                            <div class="calendar-day disabled"></div>
+                            <div class="calendar-day disabled">1</div>
+                            <div class="calendar-day disabled">2</div>
+                            <div class="calendar-day disabled">3</div>
+                            <div class="calendar-day disabled">4</div>
+                            <div class="calendar-day disabled">5</div>
+                            <div class="calendar-day disabled">6</div>
+
+                            <div class="calendar-day">7</div>
+                            <div class="calendar-day">8</div>
+                            <div class="calendar-day today">9</div>
+                            <div class="calendar-day">10</div>
+                            <div class="calendar-day">11</div>
+                            <div class="calendar-day">12</div>
+                            <div class="calendar-day disabled">13</div>
+
+                            <div class="calendar-day selected">14</div>
+                            <div class="calendar-day">15</div>
+                            <div class="calendar-day">16</div>
+                            <div class="calendar-day">17</div>
+                            <div class="calendar-day">18</div>
+                            <div class="calendar-day">19</div>
+                            <div class="calendar-day disabled">20</div>
+
+                            <div class="calendar-day">21</div>
+                            <div class="calendar-day">22</div>
+                            <div class="calendar-day">23</div>
+                            <div class="calendar-day">24</div>
+                            <div class="calendar-day">25</div>
+                            <div class="calendar-day">26</div>
+                            <div class="calendar-day disabled">27</div>
+
+                            <div class="calendar-day">28</div>
+                            <div class="calendar-day">29</div>
+                            <div class="calendar-day">30</div>
+                            <div class="calendar-day disabled"></div>
+                            <div class="calendar-day disabled"></div>
+                            <div class="calendar-day disabled"></div>
+                            <div class="calendar-day disabled"></div>
+                        </div>
+                    </div>
+
+                    <!-- Time Slots -->
+                    <div class="time-slots-section">
+                        <div class="time-slots-label">Available Times - Mon, Apr 14</div>
+                        <div class="time-slots-grid">
+                            <div class="time-slot">8:00 AM</div>
+                            <div class="time-slot">9:00 AM</div>
+                            <div class="time-slot selected">10:00 AM</div>
+                            <div class="time-slot">11:00 AM</div>
+                            <div class="time-slot disabled">12:00 PM</div>
+                            <div class="time-slot">1:00 PM</div>
+                            <div class="time-slot">2:00 PM</div>
+                            <div class="time-slot">3:00 PM</div>
+                            <div class="time-slot disabled">4:00 PM</div>
+                            <div class="time-slot">5:00 PM</div>
+                        </div>
+                    </div>
+
+                    <button class="booking-confirm">Confirm Appointment &#8594;</button>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="booking-sidebar">
+                    <div class="sidebar-card">
+                        <div class="sidebar-card-title">Why Book Online?</div>
+                        <ul class="check-list">
+                            <li>
+                                <div class="check-icon">&#10003;</div>
+                                <div><strong>Calendar Sync</strong><br>Automatically syncs with your Google or iCal calendar</div>
+                            </li>
+                            <li>
+                                <div class="check-icon">&#10003;</div>
+                                <div><strong>SMS Confirmations</strong><br>Get instant text confirmations and reminders</div>
+                            </li>
+                            <li>
+                                <div class="check-icon">&#10003;</div>
+                                <div><strong>24/7 Availability</strong><br>Book anytime, even outside office hours</div>
+                            </li>
+                            <li>
+                                <div class="check-icon">&#10003;</div>
+                                <div><strong>Easy Reschedule</strong><br>Reschedule or cancel with one click</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-card">
+                        <div class="sidebar-card-title">Need Help?</div>
+                        <p style="font-size:14px;color:var(--text);opacity:0.6;line-height:1.6;margin-bottom:16px;">Can't find a time that works? Call us directly and we'll find the perfect slot for you.</p>
+                        <a href="tel:{{PHONE}}" style="display:block;text-align:center;padding:14px;background:var(--black);color:#fff;font-family:'Archivo',sans-serif;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:1px;transition:background 0.2s;">Call {{PHONE}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WORKFLOW DIAGRAM -->
+    <section class="workflow-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">How It Works</div>
+                <h2 class="section-title">4 Simple Steps</h2>
+                <p class="section-subtitle">Book your appointment in under 60 seconds.</p>
+            </div>
+            <div class="workflow-steps">
+                <div class="workflow-step">
+                    <div class="workflow-step-number">1</div>
+                    <div class="workflow-step-title">Choose Service</div>
+                    <div class="workflow-step-desc">Select the treatment you need from our list of services</div>
+                </div>
+                <div class="workflow-step">
+                    <div class="workflow-step-number">2</div>
+                    <div class="workflow-step-title">Pick Date & Time</div>
+                    <div class="workflow-step-desc">Browse the calendar and select a slot that works for you</div>
+                </div>
+                <div class="workflow-step">
+                    <div class="workflow-step-number">3</div>
+                    <div class="workflow-step-title">Enter Details</div>
+                    <div class="workflow-step-desc">Fill in your name, phone, and email for confirmation</div>
+                </div>
+                <div class="workflow-step">
+                    <div class="workflow-step-number">4</div>
+                    <div class="workflow-step-title">Get Confirmed</div>
+                    <div class="workflow-step-desc">Receive instant SMS and email confirmation</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CHATBOT SECTION -->
+    <section class="chatbot-section">
+        <div class="container">
+            <div class="chatbot-section-inner">
+                <div>
+                    <div class="section-tag">AI Assistant</div>
+                    <h2 class="section-title">Prefer to Chat?</h2>
+                    <p class="chatbot-section-text">Our AI assistant can help you book appointments, answer questions about our services, check availability, and more. Available 24/7 for your convenience.</p>
+                </div>
+                <div class="chatbot-demo">
+                    <div class="chatbot-demo-header">
+                        <div class="chatbot-demo-dot"></div>
+                        <span>{{COMPANY_SHORT_NAME}} Assistant</span>
+                    </div>
+                    <div class="chatbot-demo-body">
+                        <div class="demo-msg demo-msg-bot">Hello! I'm the {{COMPANY_SHORT_NAME}} assistant. I can help you book an appointment or answer questions about our services.</div>
+                        <div class="demo-msg demo-msg-user">Do you have any openings for a cleaning this week?</div>
+                        <div class="demo-msg demo-msg-bot">Yes! We have several openings this week. I can see slots on Wednesday at 10 AM, Thursday at 2 PM, and Friday at 9 AM. Would any of those work?</div>
+                    </div>
+                    <div class="chatbot-demo-footer">Powered by smartflowdev</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="footer-brand-logo">{{COMPANY_NAME}}</a>
+                    <p>Professional {{SERVICE_1}} services in {{CITY}}. Trusted by {{REVIEW_COUNT}}+ patients with a {{RATING}}-star average rating.</p>
+                </div>
+                <div>
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">{{SERVICE_1}}</a></li>
+                        <li><a href="#">{{SERVICE_2}}</a></li>
+                        <li><a href="#">{{SERVICE_3}}</a></li>
+                        <li><a href="#">{{SERVICE_4}}</a></li>
+                        <li><a href="#">{{SERVICE_5}}</a></li>
+                        <li><a href="#">{{SERVICE_6}}</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="tel:{{PHONE}}">{{PHONE}}</a></li>
+                        <li><a href="#">{{CITY}}</a></li>
+                        <li><a href="#">Mon - Fri: 8am - 6pm</a></li>
+                        <li><a href="#">Sat: 9am - 2pm</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 {{COMPANY_NAME}}. All rights reserved.</p>
+                <p>Serving {{CITY}} and surrounding areas.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Calendar day click
+        document.querySelectorAll('.calendar-day:not(.disabled)').forEach(function(day) {
+            day.addEventListener('click', function() {
+                document.querySelectorAll('.calendar-day').forEach(function(d) { d.classList.remove('selected'); });
+                this.classList.add('selected');
+            });
+        });
+
+        // Time slot click
+        document.querySelectorAll('.time-slot:not(.disabled)').forEach(function(slot) {
+            slot.addEventListener('click', function() {
+                document.querySelectorAll('.time-slot').forEach(function(s) { s.classList.remove('selected'); });
+                this.classList.add('selected');
+            });
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+            anchor.addEventListener('click', function(e) {
+                var targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                var target = document.querySelector(targetId);
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

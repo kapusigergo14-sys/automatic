@@ -1,0 +1,2710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{COMPANY_NAME}} - Professional {{SERVICE_1}}, {{SERVICE_2}}, {{SERVICE_3}} &amp; more services in {{CITY}}. Licensed &amp; Insured. Call {{PHONE}} for a free estimate.">
+    <meta name="keywords" content="{{SERVICE_1}}, {{SERVICE_2}}, {{SERVICE_3}}, {{SERVICE_4}}, {{SERVICE_5}}, {{SERVICE_6}}, {{CITY}}, professional services">
+    <meta property="og:title" content="{{COMPANY_NAME}} | Our Services | {{CITY}}">
+    <meta property="og:description" content="Explore our full range of professional services. Licensed, insured, and trusted in {{CITY}}.">
+    <meta property="og:type" content="website">
+    <title>{{COMPANY_NAME}} | Our Services | Professional {{SERVICE_1}} &amp; More in {{CITY}}</title>
+    <style>
+        /* ============================================
+           TEMPLATE E - CONCRETE (Industrial Minimal)
+           SERVICES SUBPAGE
+           Light, airy, construction-yellow accents
+           ============================================ */
+
+        :root {
+            --primary: {{PRIMARY_COLOR}};
+            --accent: {{ACCENT_COLOR}};
+            --bg: {{BG_COLOR}};
+            --text: {{TEXT_COLOR}};
+            --card-bg: #ffffff;
+            --concrete: #f0f0ec;
+            --yellow: #eab308;
+            --yellow-dark: #d4a007;
+            --yellow-light: rgba(234, 179, 8, 0.12);
+            --black: #1a1a1a;
+            --gray-100: #f7f7f5;
+            --gray-200: #e8e8e4;
+            --gray-300: #d4d4cf;
+            --gray-400: #9a9a95;
+            --gray-500: #6b6b66;
+            --gray-600: #4a4a46;
+            --nav-height: 72px;
+            --radius: 4px;
+            --radius-lg: 8px;
+            --radius-xl: 12px;
+            --transition: 0.3s ease;
+            --transition-fast: 0.15s ease;
+            --transition-slow: 0.5s ease;
+            --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+            --shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+            --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12);
+            --shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.15);
+            --yellow-glow: 0 0 20px rgba(234, 179, 8, 0.3);
+            --max-width: 1200px;
+        }
+
+        /* ---- RESET & BASE ---- */
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: var(--nav-height);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--concrete);
+            color: var(--black);
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: color var(--transition);
+        }
+
+        ul, ol {
+            list-style: none;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        button, input, textarea, select {
+            font-family: inherit;
+            font-size: inherit;
+            border: none;
+            outline: none;
+            background: none;
+        }
+
+        .container {
+            width: 100%;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* ---- TYPOGRAPHY UTILITIES ---- */
+        .section-label {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--yellow);
+            margin-bottom: 12px;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--black);
+            line-height: 1.15;
+            margin-bottom: 16px;
+            letter-spacing: -0.5px;
+        }
+
+        .section-subtitle {
+            font-size: 1.1rem;
+            color: var(--gray-500);
+            line-height: 1.7;
+            max-width: 600px;
+        }
+
+        /* ---- NAVIGATION ---- */
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: var(--nav-height);
+            background: #ffffff;
+            z-index: 1000;
+            transition: box-shadow var(--transition);
+        }
+
+        .nav.scrolled {
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100%;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .nav-logo {
+            font-size: 1.35rem;
+            font-weight: 800;
+            color: var(--black);
+            letter-spacing: -0.5px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .nav-logo span {
+            color: var(--yellow);
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+
+        .nav-links a {
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--gray-500);
+            transition: color var(--transition);
+            position: relative;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--black);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--yellow);
+            transition: width var(--transition);
+        }
+
+        .nav-links a:hover::after,
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .nav-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 24px;
+            background: linear-gradient(135deg, var(--black) 0%, #2a2a2a 100%);
+            color: #ffffff;
+            font-size: 0.875rem;
+            font-weight: 600;
+            border-radius: var(--radius);
+            cursor: pointer;
+            transition: all var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .nav-cta::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--yellow);
+            transform: scaleX(0);
+            transition: transform var(--transition);
+        }
+
+        .nav-cta:hover::after {
+            transform: scaleX(1);
+        }
+
+        .nav-cta:hover {
+            background: linear-gradient(135deg, #2a2a2a 0%, #3a3a3a 100%);
+            transform: translateY(-1px) scale(1.05);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Mobile hamburger */
+        .nav-hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            padding: 4px;
+            z-index: 1001;
+        }
+
+        .nav-hamburger span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: var(--black);
+            transition: all var(--transition);
+            border-radius: 2px;
+        }
+
+        .nav-hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+
+        .nav-hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .nav-hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -5px);
+        }
+
+        /* Mobile menu */
+        .nav-mobile {
+            display: none;
+            position: fixed;
+            top: var(--nav-height);
+            left: 0;
+            width: 100%;
+            background: #ffffff;
+            padding: 24px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            z-index: 999;
+            flex-direction: column;
+            gap: 0;
+        }
+
+        .nav-mobile.open {
+            display: flex;
+        }
+
+        .nav-mobile a {
+            display: block;
+            padding: 14px 0;
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--black);
+            border-bottom: 1px solid var(--gray-200);
+            transition: color var(--transition);
+        }
+
+        .nav-mobile a:last-child {
+            border-bottom: none;
+        }
+
+        .nav-mobile a:hover {
+            color: var(--yellow);
+        }
+
+        /* ---- HERO BANNER ---- */
+        .hero-banner {
+            padding-top: calc(var(--nav-height) + 80px);
+            padding-bottom: 80px;
+            background: var(--concrete);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-banner::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background:
+                linear-gradient(135deg, rgba(234, 179, 8, 0.04) 0%, transparent 50%),
+                linear-gradient(225deg, rgba(26, 26, 26, 0.02) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .hero-banner::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent 0%, var(--yellow) 50%, transparent 100%);
+            opacity: 0.4;
+        }
+
+        .hero-banner-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .hero-banner-breadcrumb {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85rem;
+            color: var(--gray-400);
+            margin-bottom: 24px;
+        }
+
+        .hero-banner-breadcrumb a {
+            color: var(--gray-500);
+            transition: color var(--transition);
+        }
+
+        .hero-banner-breadcrumb a:hover {
+            color: var(--yellow);
+        }
+
+        .hero-banner-breadcrumb .breadcrumb-separator {
+            color: var(--gray-300);
+            font-size: 0.75rem;
+        }
+
+        .hero-banner-breadcrumb .breadcrumb-current {
+            color: var(--black);
+            font-weight: 600;
+        }
+
+        .hero-accent-line {
+            width: 80px;
+            height: 5px;
+            background: var(--yellow);
+            margin: 20px auto 24px auto;
+            border-radius: 3px;
+        }
+
+        .hero-banner-title {
+            font-size: 3.5rem;
+            font-weight: 900;
+            color: var(--black);
+            line-height: 1.05;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            margin-bottom: 0;
+        }
+
+        .hero-banner-subtitle {
+            font-size: 1.15rem;
+            color: var(--gray-500);
+            line-height: 1.7;
+            max-width: 580px;
+            margin: 0 auto 36px auto;
+        }
+
+        .hero-banner-badges {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 14px;
+            background: rgba(234, 179, 8, 0.12);
+            color: var(--black);
+            font-size: 0.8rem;
+            font-weight: 600;
+            border-radius: 100px;
+            letter-spacing: 0.5px;
+        }
+
+        /* Decorative geometric shapes in hero */
+        .hero-shape {
+            position: absolute;
+            border-radius: var(--radius);
+            pointer-events: none;
+            opacity: 0.5;
+        }
+
+        .hero-shape-1 {
+            width: 120px;
+            height: 120px;
+            background: var(--gray-200);
+            top: 20%;
+            left: -30px;
+            transform: rotate(-12deg);
+        }
+
+        .hero-shape-2 {
+            width: 80px;
+            height: 160px;
+            background: rgba(234, 179, 8, 0.15);
+            top: 15%;
+            right: -20px;
+            transform: rotate(8deg);
+        }
+
+        .hero-shape-3 {
+            width: 60px;
+            height: 60px;
+            background: var(--gray-300);
+            bottom: 15%;
+            left: 8%;
+            transform: rotate(20deg);
+        }
+
+        .hero-shape-4 {
+            width: 100px;
+            height: 40px;
+            background: rgba(234, 179, 8, 0.1);
+            bottom: 25%;
+            right: 5%;
+            transform: rotate(-5deg);
+        }
+
+        /* ---- TRUST BADGES BAR ---- */
+        .trust-bar {
+            padding: 32px 0;
+            background: var(--concrete);
+        }
+
+        .trust-bar-inner {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .trust-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 22px;
+            background: var(--yellow);
+            color: var(--black);
+            font-size: 0.85rem;
+            font-weight: 700;
+            border-radius: 100px;
+            letter-spacing: 0.3px;
+            transition: all var(--transition);
+        }
+
+        .trust-badge:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(234, 179, 8, 0.4);
+        }
+
+        .trust-badge-icon {
+            font-size: 1rem;
+        }
+
+        /* ---- SERVICES OVERVIEW SECTION ---- */
+        .services-overview {
+            padding: 100px 0;
+            background: #ffffff;
+            position: relative;
+        }
+
+        .services-overview::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, rgba(240, 240, 236, 0.3) 0%, transparent 30%);
+            pointer-events: none;
+        }
+
+        .services-overview-header {
+            text-align: center;
+            margin-bottom: 60px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .services-overview-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .services-overview-intro {
+            max-width: 800px;
+            margin: 0 auto 48px auto;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .services-overview-intro p {
+            font-size: 1.05rem;
+            color: var(--gray-500);
+            line-height: 1.8;
+        }
+
+        .services-overview-intro p + p {
+            margin-top: 16px;
+        }
+
+        /* ---- MAIN SERVICES GRID (2x3) ---- */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 32px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .service-card {
+            background: var(--card-bg);
+            padding: 44px 36px;
+            border-radius: var(--radius-lg);
+            border-left: 4px solid var(--yellow);
+            box-shadow: var(--shadow-sm);
+            transition: all var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(234, 179, 8, 0.03) 0%, transparent 60%);
+            opacity: 0;
+            transition: opacity var(--transition);
+        }
+
+        .service-card::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 120px;
+            height: 120px;
+            background: radial-gradient(circle at bottom right, rgba(234, 179, 8, 0.06) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity var(--transition);
+        }
+
+        .service-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-hover), 0 0 20px rgba(234, 179, 8, 0.3);
+        }
+
+        .service-card:hover::before,
+        .service-card:hover::after {
+            opacity: 1;
+        }
+
+        .service-card-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 18px;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .service-icon-wrapper {
+            width: 64px;
+            height: 64px;
+            border-radius: var(--radius-lg);
+            background: var(--yellow-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            transition: all var(--transition);
+        }
+
+        .service-card:hover .service-icon-wrapper {
+            background: var(--yellow);
+            box-shadow: 0 4px 16px rgba(234, 179, 8, 0.35);
+        }
+
+        .service-icon {
+            font-size: 1.75rem;
+            display: block;
+            line-height: 1;
+        }
+
+        .service-number {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            font-size: 4rem;
+            font-weight: 900;
+            color: rgba(234, 179, 8, 0.08);
+            line-height: 1;
+            letter-spacing: -2px;
+            pointer-events: none;
+            transition: color var(--transition);
+        }
+
+        .service-card:hover .service-number {
+            color: rgba(234, 179, 8, 0.15);
+        }
+
+        .service-card-body {
+            position: relative;
+            z-index: 2;
+        }
+
+        .service-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--black);
+            margin-bottom: 12px;
+            letter-spacing: -0.2px;
+            line-height: 1.3;
+        }
+
+        .service-desc {
+            font-size: 0.95rem;
+            color: var(--gray-500);
+            line-height: 1.75;
+            margin-bottom: 20px;
+        }
+
+        .service-features {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-bottom: 24px;
+        }
+
+        .service-feature {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.875rem;
+            color: var(--gray-600);
+        }
+
+        .service-feature-check {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: var(--yellow-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 0.65rem;
+            color: var(--yellow-dark);
+            font-weight: 700;
+        }
+
+        .service-card:hover .service-feature-check {
+            background: var(--yellow);
+            color: var(--black);
+        }
+
+        .service-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--yellow);
+            transition: all var(--transition);
+            position: relative;
+        }
+
+        .service-link::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--yellow);
+            transition: width var(--transition);
+        }
+
+        .service-link:hover {
+            gap: 12px;
+            color: var(--yellow-dark);
+        }
+
+        .service-link:hover::after {
+            width: 100%;
+        }
+
+        /* ---- PROCESS SECTION ---- */
+        .process-section {
+            padding: 100px 0;
+            background: var(--concrete);
+            position: relative;
+        }
+
+        .process-header {
+            text-align: center;
+            margin-bottom: 70px;
+        }
+
+        .process-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .process-timeline {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+        }
+
+        .process-timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 3px;
+            height: 100%;
+            background: linear-gradient(180deg, var(--yellow) 0%, var(--gray-300) 100%);
+            border-radius: 3px;
+        }
+
+        .process-step {
+            display: flex;
+            align-items: flex-start;
+            gap: 40px;
+            margin-bottom: 48px;
+            position: relative;
+        }
+
+        .process-step:last-child {
+            margin-bottom: 0;
+        }
+
+        .process-step:nth-child(even) {
+            flex-direction: row-reverse;
+            text-align: right;
+        }
+
+        .process-step-content {
+            flex: 1;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-sm);
+            transition: all var(--transition);
+        }
+
+        .process-step-content:hover {
+            box-shadow: var(--shadow);
+            transform: translateY(-3px);
+        }
+
+        .process-step-number {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: var(--yellow);
+            color: var(--black);
+            font-size: 1.1rem;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            position: relative;
+            z-index: 2;
+            box-shadow: 0 0 0 6px var(--concrete), 0 0 0 9px var(--yellow);
+        }
+
+        .process-step-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--black);
+            margin-bottom: 8px;
+        }
+
+        .process-step-desc {
+            font-size: 0.9rem;
+            color: var(--gray-500);
+            line-height: 1.7;
+        }
+
+        /* ---- WHY CHOOSE US SECTION ---- */
+        .why-us-section {
+            padding: 100px 0;
+            background: #ffffff;
+            position: relative;
+        }
+
+        .why-us-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .why-us-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .why-us-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .why-us-card {
+            text-align: center;
+            padding: 36px 24px;
+            background: var(--gray-100);
+            border-radius: var(--radius-lg);
+            transition: all var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .why-us-card::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--yellow);
+            transform: scaleX(0);
+            transition: transform var(--transition);
+        }
+
+        .why-us-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow), var(--yellow-glow);
+            background: var(--card-bg);
+        }
+
+        .why-us-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .why-us-icon {
+            font-size: 2rem;
+            margin-bottom: 16px;
+            display: block;
+        }
+
+        .why-us-title {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--black);
+            margin-bottom: 8px;
+        }
+
+        .why-us-text {
+            font-size: 0.85rem;
+            color: var(--gray-500);
+            line-height: 1.6;
+        }
+
+        /* ---- STATS BANNER ---- */
+        .stats-banner {
+            padding: 60px 0;
+            background: var(--black);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stats-banner::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -10%;
+            width: 120%;
+            height: 200%;
+            background: radial-gradient(circle at 30% 50%, rgba(234, 179, 8, 0.08) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .stats-banner::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 120%;
+            height: 200%;
+            background: radial-gradient(circle at 70% 50%, rgba(234, 179, 8, 0.05) 0%, transparent 40%);
+            pointer-events: none;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 32px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 900;
+            color: var(--yellow);
+            line-height: 1;
+            margin-bottom: 8px;
+            letter-spacing: -1px;
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.6);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-weight: 600;
+        }
+
+        /* ---- SERVICE AREAS SECTION ---- */
+        .service-areas {
+            padding: 100px 0;
+            background: var(--concrete);
+        }
+
+        .service-areas-header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .service-areas-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .areas-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .area-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 20px;
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--black);
+            transition: all var(--transition);
+            border-left: 3px solid transparent;
+        }
+
+        .area-item:hover {
+            border-left-color: var(--yellow);
+            box-shadow: var(--shadow-sm);
+            transform: translateX(4px);
+        }
+
+        .area-item-pin {
+            color: var(--yellow);
+            font-size: 0.85rem;
+        }
+
+        /* ---- TESTIMONIALS SECTION ---- */
+        .testimonials-section {
+            padding: 100px 0;
+            background: #ffffff;
+        }
+
+        .testimonials-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .testimonials-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 28px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .testimonial-card {
+            background: var(--gray-100);
+            padding: 36px 28px;
+            border-radius: var(--radius-lg);
+            position: relative;
+            transition: all var(--transition);
+        }
+
+        .testimonial-card::before {
+            content: '\201C';
+            position: absolute;
+            top: 16px;
+            left: 24px;
+            font-size: 4rem;
+            color: var(--yellow);
+            opacity: 0.25;
+            line-height: 1;
+            font-family: Georgia, serif;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow), var(--yellow-glow);
+        }
+
+        .testimonial-stars {
+            color: var(--yellow);
+            font-size: 0.9rem;
+            margin-bottom: 16px;
+            letter-spacing: 2px;
+        }
+
+        .testimonial-text {
+            font-size: 0.95rem;
+            color: var(--gray-600);
+            line-height: 1.7;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .testimonial-avatar {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: var(--yellow-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--yellow-dark);
+            flex-shrink: 0;
+        }
+
+        .testimonial-name {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--black);
+        }
+
+        .testimonial-role {
+            font-size: 0.8rem;
+            color: var(--gray-400);
+        }
+
+        /* ---- FAQ SECTION ---- */
+        .faq-section {
+            padding: 100px 0;
+            background: var(--concrete);
+        }
+
+        .faq-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .faq-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .faq-list {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .faq-item {
+            background: var(--card-bg);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            border-left: 3px solid var(--yellow);
+            box-shadow: var(--shadow-sm);
+            transition: all var(--transition);
+        }
+
+        .faq-item:hover {
+            box-shadow: var(--shadow);
+        }
+
+        .faq-question {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 24px;
+            cursor: pointer;
+            transition: background var(--transition);
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        .faq-question:hover {
+            background: var(--gray-100);
+        }
+
+        .faq-question-text {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--black);
+            flex: 1;
+            padding-right: 16px;
+        }
+
+        .faq-toggle {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: var(--yellow-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            transition: all var(--transition);
+            font-size: 1.2rem;
+            color: var(--yellow-dark);
+            font-weight: 700;
+            line-height: 1;
+        }
+
+        .faq-item.open .faq-toggle {
+            background: var(--yellow);
+            color: var(--black);
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.4s ease;
+        }
+
+        .faq-item.open .faq-answer {
+            max-height: 300px;
+        }
+
+        .faq-answer-inner {
+            padding: 0 24px 20px 24px;
+            font-size: 0.9rem;
+            color: var(--gray-500);
+            line-height: 1.75;
+        }
+
+        /* ---- CTA BANNER ---- */
+        .cta-banner {
+            padding: 80px 0;
+            background: var(--black);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-banner::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -10%;
+            width: 120%;
+            height: 200%;
+            background: radial-gradient(circle at 50% 50%, rgba(234, 179, 8, 0.06) 0%, transparent 60%);
+            pointer-events: none;
+        }
+
+        .cta-banner::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background:
+                linear-gradient(45deg, transparent 48%, rgba(234, 179, 8, 0.03) 49%, rgba(234, 179, 8, 0.03) 51%, transparent 52%),
+                linear-gradient(-45deg, transparent 48%, rgba(234, 179, 8, 0.03) 49%, rgba(234, 179, 8, 0.03) 51%, transparent 52%);
+            background-size: 60px 60px;
+            pointer-events: none;
+        }
+
+        .cta-banner-content {
+            position: relative;
+            z-index: 2;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .cta-banner-emoji {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .cta-banner-title {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: var(--yellow);
+            line-height: 1.15;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: -0.5px;
+        }
+
+        .cta-banner-text {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 36px;
+            line-height: 1.6;
+        }
+
+        .cta-banner-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 16px 40px;
+            background: linear-gradient(135deg, var(--yellow) 0%, var(--yellow-dark) 100%);
+            color: var(--black);
+            font-size: 1rem;
+            font-weight: 800;
+            border-radius: var(--radius);
+            cursor: pointer;
+            transition: all var(--transition);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-banner-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .cta-banner-btn:hover::before {
+            left: 100%;
+        }
+
+        .cta-banner-btn:hover {
+            background: linear-gradient(135deg, var(--yellow-dark) 0%, #b8900a 100%);
+            transform: translateY(-2px) scale(1.05);
+            box-shadow: 0 8px 28px rgba(234, 179, 8, 0.4);
+        }
+
+        .cta-banner-phone {
+            display: block;
+            margin-top: 20px;
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .cta-banner-phone a {
+            color: #ffffff;
+            font-weight: 700;
+            transition: color var(--transition);
+        }
+
+        .cta-banner-phone a:hover {
+            color: var(--yellow);
+        }
+
+        /* ---- SECONDARY CTA STRIP ---- */
+        .cta-strip {
+            padding: 48px 0;
+            background: var(--yellow);
+            text-align: center;
+        }
+
+        .cta-strip-inner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 32px;
+            flex-wrap: wrap;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .cta-strip-text {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--black);
+            letter-spacing: -0.3px;
+        }
+
+        .cta-strip-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 32px;
+            background: var(--black);
+            color: #ffffff;
+            font-size: 0.95rem;
+            font-weight: 700;
+            border-radius: var(--radius);
+            cursor: pointer;
+            transition: all var(--transition);
+        }
+
+        .cta-strip-btn:hover {
+            background: #2a2a2a;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+        }
+
+        /* ---- FOOTER ---- */
+        .footer {
+            padding: 60px 0 0 0;
+            background: var(--black);
+            color: #ffffff;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.4fr 1fr 1fr;
+            gap: 48px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .footer-brand {
+            font-size: 1.25rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+            letter-spacing: -0.5px;
+        }
+
+        .footer-brand span {
+            color: var(--yellow);
+        }
+
+        .footer-desc {
+            font-size: 0.875rem;
+            color: rgba(255, 255, 255, 0.5);
+            line-height: 1.7;
+            margin-bottom: 20px;
+            max-width: 300px;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 12px;
+        }
+
+        .footer-social a {
+            width: 36px;
+            height: 36px;
+            border-radius: var(--radius);
+            background: rgba(255, 255, 255, 0.08);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.6);
+            transition: all var(--transition);
+        }
+
+        .footer-social a:hover {
+            background: var(--yellow);
+            color: var(--black);
+        }
+
+        .footer-col-title {
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .footer-links a {
+            font-size: 0.9rem;
+            color: var(--yellow);
+            transition: all var(--transition);
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .footer-links a:hover {
+            color: #ffffff;
+            transform: translateX(4px);
+        }
+
+        .footer-rating {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 16px;
+        }
+
+        .footer-rating-stars {
+            color: var(--yellow);
+            font-size: 0.9rem;
+        }
+
+        .footer-rating-text {
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .footer-bottom {
+            margin-top: 48px;
+            padding: 20px 24px;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            text-align: center;
+        }
+
+        .footer-bottom p {
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.35);
+        }
+
+        /* ---- ANIMATIONS ---- */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(24px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-8px);
+            }
+        }
+
+        @keyframes pulseGlow {
+            0%, 100% {
+                box-shadow: 0 0 0 0 rgba(234, 179, 8, 0.4);
+            }
+            50% {
+                box-shadow: 0 0 20px 4px rgba(234, 179, 8, 0.15);
+            }
+        }
+
+        .fade-in {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .fade-in-delay-1 {
+            transition-delay: 0.1s;
+        }
+
+        .fade-in-delay-2 {
+            transition-delay: 0.2s;
+        }
+
+        .fade-in-delay-3 {
+            transition-delay: 0.3s;
+        }
+
+        .fade-in-delay-4 {
+            transition-delay: 0.4s;
+        }
+
+        .fade-in-delay-5 {
+            transition-delay: 0.5s;
+        }
+
+        .fade-in-delay-6 {
+            transition-delay: 0.6s;
+        }
+
+        /* ---- RESPONSIVE 768px ---- */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .nav-hamburger {
+                display: flex;
+            }
+
+            .hero-banner {
+                padding-top: calc(var(--nav-height) + 48px);
+                padding-bottom: 56px;
+            }
+
+            .hero-banner-title {
+                font-size: 2.4rem;
+            }
+
+            .hero-shape {
+                display: none;
+            }
+
+            .trust-bar-inner {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+
+            .process-timeline::before {
+                left: 24px;
+            }
+
+            .process-step {
+                flex-direction: row !important;
+                gap: 24px;
+            }
+
+            .process-step:nth-child(even) {
+                text-align: left;
+            }
+
+            .process-step-number {
+                box-shadow: 0 0 0 6px var(--concrete), 0 0 0 8px var(--yellow);
+            }
+
+            .process-step-content {
+                padding: 24px;
+            }
+
+            .why-us-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 16px;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 24px;
+            }
+
+            .stat-number {
+                font-size: 2.2rem;
+            }
+
+            .areas-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 12px;
+            }
+
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .section-title {
+                font-size: 1.9rem;
+            }
+
+            .cta-banner-title {
+                font-size: 1.8rem;
+            }
+
+            .cta-strip-inner {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+
+            .container {
+                padding: 0 16px;
+            }
+        }
+
+        /* ---- RESPONSIVE 480px ---- */
+        @media (max-width: 480px) {
+            .hero-banner {
+                padding-top: calc(var(--nav-height) + 36px);
+                padding-bottom: 44px;
+            }
+
+            .hero-banner-title {
+                font-size: 1.85rem;
+                letter-spacing: -0.5px;
+            }
+
+            .hero-banner-subtitle {
+                font-size: 1rem;
+            }
+
+            .hero-accent-line {
+                width: 60px;
+                height: 4px;
+                margin: 16px auto 20px auto;
+            }
+
+            .hero-banner-badges {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .section-label {
+                font-size: 0.7rem;
+                letter-spacing: 2px;
+            }
+
+            .section-title {
+                font-size: 1.6rem;
+            }
+
+            .service-card {
+                padding: 32px 24px;
+            }
+
+            .service-card-header {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            .service-number {
+                display: none;
+            }
+
+            .process-timeline::before {
+                left: 20px;
+            }
+
+            .process-step {
+                gap: 16px;
+            }
+
+            .process-step-number {
+                width: 40px;
+                height: 40px;
+                font-size: 0.95rem;
+            }
+
+            .process-step-content {
+                padding: 20px;
+            }
+
+            .why-us-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .why-us-card {
+                padding: 28px 20px;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+            }
+
+            .stat-number {
+                font-size: 1.9rem;
+            }
+
+            .stat-label {
+                font-size: 0.75rem;
+                letter-spacing: 1px;
+            }
+
+            .areas-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .testimonial-card {
+                padding: 28px 22px;
+            }
+
+            .faq-question {
+                padding: 16px 20px;
+            }
+
+            .faq-answer-inner {
+                padding: 0 20px 16px 20px;
+            }
+
+            .cta-banner {
+                padding: 60px 0;
+            }
+
+            .cta-banner-title {
+                font-size: 1.5rem;
+            }
+
+            .cta-banner-btn {
+                padding: 14px 28px;
+                font-size: 0.9rem;
+            }
+
+            .cta-strip-text {
+                font-size: 1.05rem;
+                text-align: center;
+            }
+
+            .footer-grid {
+                gap: 28px;
+            }
+
+            .nav-cta {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="template-e.html" class="nav-logo">
+                {{COMPANY_NAME}}
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="template-e.html">Home</a>
+                <a href="template-e-services.html" class="active">Services</a>
+                <a href="template-e.html#projects">Our Work</a>
+                <a href="template-e.html#why-us">Why Us</a>
+                <a href="template-e.html#testimonials">Reviews</a>
+                <a href="template-e.html#contact">Contact</a>
+            </div>
+            <a href="template-e.html#contact" class="nav-cta">{{CTA_TEXT}}</a>
+            <div class="nav-hamburger" id="hamburger" aria-label="Toggle menu" role="button" tabindex="0">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="nav-mobile" id="mobileMenu">
+            <a href="template-e.html" class="mobile-link">Home</a>
+            <a href="template-e-services.html" class="mobile-link">Services</a>
+            <a href="template-e.html#projects" class="mobile-link">Our Work</a>
+            <a href="template-e.html#why-us" class="mobile-link">Why Us</a>
+            <a href="template-e.html#testimonials" class="mobile-link">Reviews</a>
+            <a href="template-e.html#contact" class="mobile-link">Contact</a>
+            <a href="template-e.html#contact" class="mobile-link">{{CTA_TEXT}} &rarr;</a>
+        </div>
+    </nav>
+
+    <!-- ===== HERO BANNER ===== -->
+    <section class="hero-banner" id="hero">
+        <!-- Decorative shapes -->
+        <div class="hero-shape hero-shape-1" aria-hidden="true"></div>
+        <div class="hero-shape hero-shape-2" aria-hidden="true"></div>
+        <div class="hero-shape hero-shape-3" aria-hidden="true"></div>
+        <div class="hero-shape hero-shape-4" aria-hidden="true"></div>
+
+        <div class="hero-banner-content">
+            <div class="hero-banner-breadcrumb">
+                <a href="template-e.html">Home</a>
+                <span class="breadcrumb-separator">/</span>
+                <span class="breadcrumb-current">Services</span>
+            </div>
+            <span class="section-label">What We Do</span>
+            <h1 class="hero-banner-title">Our Services</h1>
+            <div class="hero-accent-line"></div>
+            <p class="hero-banner-subtitle">
+                {{COMPANY_NAME}} delivers comprehensive professional services for residential and commercial projects throughout {{CITY}}. Explore our full range of expert solutions below.
+            </p>
+            <div class="hero-banner-badges">
+                <div class="hero-badge">
+                    <span>&#9733;</span> Rated {{RATING}}/5 from {{REVIEW_COUNT}}+ reviews
+                </div>
+                <div class="hero-badge">
+                    <span>&#9889;</span> Licensed &amp; Insured
+                </div>
+                <div class="hero-badge">
+                    <span>&#128736;</span> Free Estimates
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TRUST BADGES ===== -->
+    <section class="trust-bar">
+        <div class="trust-bar-inner">
+            <div class="trust-badge">
+                <span class="trust-badge-icon">&#128737;</span> Licensed &amp; Insured
+            </div>
+            <div class="trust-badge">
+                <span class="trust-badge-icon">&#128170;</span> Free Estimates
+            </div>
+            <div class="trust-badge">
+                <span class="trust-badge-icon">&#9889;</span> 24/7 Emergency
+            </div>
+            <div class="trust-badge">
+                <span class="trust-badge-icon">&#11088;</span> {{RATING}}-Star Rated
+            </div>
+            <div class="trust-badge">
+                <span class="trust-badge-icon">&#128295;</span> Satisfaction Guaranteed
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICES OVERVIEW ===== -->
+    <section class="services-overview" id="services">
+        <div class="container">
+            <div class="services-overview-header fade-in">
+                <span class="section-label">Our Expertise</span>
+                <h2 class="section-title">Professional Services You Can Trust</h2>
+                <p class="section-subtitle">From routine maintenance to complex installations, our team has the skills and experience to handle projects of any size with precision and care.</p>
+            </div>
+            <div class="services-overview-intro fade-in">
+                <p>At {{COMPANY_NAME}}, we take pride in delivering top-quality workmanship on every project we undertake. Our team of licensed professionals brings years of experience and a commitment to excellence that sets us apart from the competition in {{CITY}} and surrounding areas.</p>
+                <p>Each of our services is backed by our satisfaction guarantee, comprehensive insurance, and a dedication to completing your project on time and within budget.</p>
+            </div>
+        </div>
+
+        <!-- 2x3 Service Cards Grid -->
+        <div class="services-grid">
+            <!-- Service Card 1 -->
+            <div class="service-card fade-in fade-in-delay-1" id="service-1">
+                <span class="service-number" aria-hidden="true">01</span>
+                <div class="service-card-header">
+                    <div class="service-icon-wrapper">
+                        <span class="service-icon">&#128295;</span>
+                    </div>
+                    <div>
+                        <h3 class="service-title">{{SERVICE_1}}</h3>
+                    </div>
+                </div>
+                <div class="service-card-body">
+                    <p class="service-desc">{{SERVICE_DESC_1}}</p>
+                    <div class="service-features">
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>Professional assessment and diagnosis</span>
+                        </div>
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>Premium materials and equipment</span>
+                        </div>
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>Workmanship warranty included</span>
+                        </div>
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>Same-day service available</span>
+                        </div>
+                    </div>
+                    <a href="template-e.html#contact" class="service-link">Learn More &rarr;</a>
+                </div>
+            </div>
+
+            <!-- Service Card 2 -->
+            <div class="service-card fade-in fade-in-delay-2" id="service-2">
+                <span class="service-number" aria-hidden="true">02</span>
+                <div class="service-card-header">
+                    <div class="service-icon-wrapper">
+                        <span class="service-icon">&#128296;</span>
+                    </div>
+                    <div>
+                        <h3 class="service-title">{{SERVICE_2}}</h3>
+                    </div>
+                </div>
+                <div class="service-card-body">
+                    <p class="service-desc">{{SERVICE_DESC_2}}</p>
+                    <div class="service-features">
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>Comprehensive project planning</span>
+                        </div>
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>Expert installation and fitting</span>
+                        </div>
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>Quality materials guaranteed</span>
+                        </div>
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>Post-completion inspection</span>
+                        </div>
+                    </div>
+                    <a href="template-e.html#contact" class="service-link">Learn More &rarr;</a>
+                </div>
+            </div>
+
+            <!-- Service Card 3 -->
+            <div class="service-card fade-in fade-in-delay-3" id="service-3">
+                <span class="service-number" aria-hidden="true">03</span>
+                <div class="service-card-header">
+                    <div class="service-icon-wrapper">
+                        <span class="service-icon">&#9889;</span>
+                    </div>
+                    <div>
+                        <h3 class="service-title">{{SERVICE_3}}</h3>
+                    </div>
+                </div>
+                <div class="service-card-body">
+                    <p class="service-desc">{{SERVICE_DESC_3}}</p>
+                    <div class="service-features">
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>Thorough initial consultation</span>
+                        </div>
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>Code-compliant execution</span>
+                        </div>
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>Transparent pricing upfront</span>
+                        </div>
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>Clean and tidy worksite</span>
+                        </div>
+                    </div>
+                    <a href="template-e.html#contact" class="service-link">Learn More &rarr;</a>
+                </div>
+            </div>
+
+            <!-- Service Card 4 -->
+            <div class="service-card fade-in fade-in-delay-4" id="service-4">
+                <span class="service-number" aria-hidden="true">04</span>
+                <div class="service-card-header">
+                    <div class="service-icon-wrapper">
+                        <span class="service-icon">&#128737;</span>
+                    </div>
+                    <div>
+                        <h3 class="service-title">{{SERVICE_4}}</h3>
+                    </div>
+                </div>
+                <div class="service-card-body">
+                    <p class="service-desc">{{SERVICE_DESC_4}}</p>
+                    <div class="service-features">
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>Detailed safety inspections</span>
+                        </div>
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>Industry-leading techniques</span>
+                        </div>
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>Extended warranty options</span>
+                        </div>
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>Emergency response available</span>
+                        </div>
+                    </div>
+                    <a href="template-e.html#contact" class="service-link">Learn More &rarr;</a>
+                </div>
+            </div>
+
+            <!-- Service Card 5 -->
+            <div class="service-card fade-in fade-in-delay-5" id="service-5">
+                <span class="service-number" aria-hidden="true">05</span>
+                <div class="service-card-header">
+                    <div class="service-icon-wrapper">
+                        <span class="service-icon">&#127968;</span>
+                    </div>
+                    <div>
+                        <h3 class="service-title">{{SERVICE_5}}</h3>
+                    </div>
+                </div>
+                <div class="service-card-body">
+                    <p class="service-desc">{{SERVICE_DESC_5}}</p>
+                    <div class="service-features">
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>Custom design solutions</span>
+                        </div>
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>Experienced certified team</span>
+                        </div>
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>On-time project delivery</span>
+                        </div>
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>Full project management</span>
+                        </div>
+                    </div>
+                    <a href="template-e.html#contact" class="service-link">Learn More &rarr;</a>
+                </div>
+            </div>
+
+            <!-- Service Card 6 -->
+            <div class="service-card fade-in fade-in-delay-6" id="service-6">
+                <span class="service-number" aria-hidden="true">06</span>
+                <div class="service-card-header">
+                    <div class="service-icon-wrapper">
+                        <span class="service-icon">&#128297;</span>
+                    </div>
+                    <div>
+                        <h3 class="service-title">{{SERVICE_6}}</h3>
+                    </div>
+                </div>
+                <div class="service-card-body">
+                    <p class="service-desc">{{SERVICE_DESC_6}}</p>
+                    <div class="service-features">
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>State-of-the-art equipment</span>
+                        </div>
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>Flexible scheduling options</span>
+                        </div>
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>Competitive market pricing</span>
+                        </div>
+                        <div class="service-feature">
+                            <span class="service-feature-check">&#10003;</span>
+                            <span>100% satisfaction guarantee</span>
+                        </div>
+                    </div>
+                    <a href="template-e.html#contact" class="service-link">Learn More &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== OUR PROCESS ===== -->
+    <section class="process-section" id="process">
+        <div class="container">
+            <div class="process-header fade-in">
+                <span class="section-label">How We Work</span>
+                <h2 class="section-title">Our Proven Process</h2>
+                <p class="section-subtitle">We follow a structured approach to ensure every project is completed to the highest standards, on time, and within budget.</p>
+            </div>
+        </div>
+        <div class="process-timeline">
+            <div class="process-step fade-in">
+                <div class="process-step-number">1</div>
+                <div class="process-step-content">
+                    <h3 class="process-step-title">Free Consultation</h3>
+                    <p class="process-step-desc">Contact us to schedule a free on-site assessment. We'll evaluate your needs, discuss your vision, and provide honest recommendations tailored to your project and budget.</p>
+                </div>
+            </div>
+            <div class="process-step fade-in">
+                <div class="process-step-number">2</div>
+                <div class="process-step-content">
+                    <h3 class="process-step-title">Detailed Estimate</h3>
+                    <p class="process-step-desc">You'll receive a comprehensive written estimate with transparent pricing. No hidden fees, no surprises. We break down every cost so you know exactly what you're paying for.</p>
+                </div>
+            </div>
+            <div class="process-step fade-in">
+                <div class="process-step-number">3</div>
+                <div class="process-step-content">
+                    <h3 class="process-step-title">Project Planning</h3>
+                    <p class="process-step-desc">Once approved, our team creates a detailed project timeline and coordinates all materials, permits, and logistics. We keep you informed at every step of the planning process.</p>
+                </div>
+            </div>
+            <div class="process-step fade-in">
+                <div class="process-step-number">4</div>
+                <div class="process-step-content">
+                    <h3 class="process-step-title">Expert Execution</h3>
+                    <p class="process-step-desc">Our licensed professionals carry out the work with precision and care. We maintain a clean worksite, respect your property, and ensure all work meets or exceeds local building codes.</p>
+                </div>
+            </div>
+            <div class="process-step fade-in">
+                <div class="process-step-number">5</div>
+                <div class="process-step-content">
+                    <h3 class="process-step-title">Final Inspection</h3>
+                    <p class="process-step-desc">We perform a thorough walkthrough with you to ensure everything meets our quality standards and your expectations. Your project isn't complete until you're 100% satisfied with the results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== WHY CHOOSE US ===== -->
+    <section class="why-us-section" id="why-us">
+        <div class="container">
+            <div class="why-us-header fade-in">
+                <span class="section-label">Why {{COMPANY_NAME}}</span>
+                <h2 class="section-title">Why Customers Choose Us</h2>
+                <p class="section-subtitle">We've built our reputation on quality, reliability, and customer satisfaction. Here's what sets us apart.</p>
+            </div>
+        </div>
+        <div class="why-us-grid">
+            <div class="why-us-card fade-in">
+                <span class="why-us-icon">&#128737;</span>
+                <h3 class="why-us-title">Licensed &amp; Insured</h3>
+                <p class="why-us-text">Fully licensed, bonded, and insured for your complete peace of mind on every project.</p>
+            </div>
+            <div class="why-us-card fade-in">
+                <span class="why-us-icon">&#11088;</span>
+                <h3 class="why-us-title">{{RATING}}-Star Rated</h3>
+                <p class="why-us-text">Consistently rated {{RATING}}/5 stars by {{REVIEW_COUNT}}+ satisfied customers in {{CITY}}.</p>
+            </div>
+            <div class="why-us-card fade-in">
+                <span class="why-us-icon">&#128176;</span>
+                <h3 class="why-us-title">Transparent Pricing</h3>
+                <p class="why-us-text">Honest, upfront pricing with detailed written estimates. No hidden fees or surprise charges.</p>
+            </div>
+            <div class="why-us-card fade-in">
+                <span class="why-us-icon">&#9889;</span>
+                <h3 class="why-us-title">Fast Response</h3>
+                <p class="why-us-text">24/7 emergency service with rapid response times. We're here when you need us most.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== STATS BANNER ===== -->
+    <section class="stats-banner" id="stats">
+        <div class="stats-grid">
+            <div class="stat-item fade-in">
+                <div class="stat-number">{{YEARS_IN_BUSINESS}}+</div>
+                <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-item fade-in">
+                <div class="stat-number">{{PROJECTS_COMPLETED}}+</div>
+                <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat-item fade-in">
+                <div class="stat-number">{{REVIEW_COUNT}}+</div>
+                <div class="stat-label">Happy Customers</div>
+            </div>
+            <div class="stat-item fade-in">
+                <div class="stat-number">{{RATING}}</div>
+                <div class="stat-label">Star Rating</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICE AREAS ===== -->
+    <section class="service-areas" id="areas">
+        <div class="container">
+            <div class="service-areas-header fade-in">
+                <span class="section-label">Coverage Area</span>
+                <h2 class="section-title">Areas We Serve</h2>
+                <p class="section-subtitle">We proudly serve {{CITY}} and surrounding communities. Contact us to confirm service availability in your area.</p>
+            </div>
+        </div>
+        <div class="areas-grid">
+            <div class="area-item fade-in">
+                <span class="area-item-pin">&#128205;</span>
+                <span>{{CITY}}</span>
+            </div>
+            <div class="area-item fade-in">
+                <span class="area-item-pin">&#128205;</span>
+                <span>{{NEARBY_CITY_1}}</span>
+            </div>
+            <div class="area-item fade-in">
+                <span class="area-item-pin">&#128205;</span>
+                <span>{{NEARBY_CITY_2}}</span>
+            </div>
+            <div class="area-item fade-in">
+                <span class="area-item-pin">&#128205;</span>
+                <span>{{NEARBY_CITY_3}}</span>
+            </div>
+            <div class="area-item fade-in">
+                <span class="area-item-pin">&#128205;</span>
+                <span>{{NEARBY_CITY_4}}</span>
+            </div>
+            <div class="area-item fade-in">
+                <span class="area-item-pin">&#128205;</span>
+                <span>{{NEARBY_CITY_5}}</span>
+            </div>
+            <div class="area-item fade-in">
+                <span class="area-item-pin">&#128205;</span>
+                <span>{{NEARBY_CITY_6}}</span>
+            </div>
+            <div class="area-item fade-in">
+                <span class="area-item-pin">&#128205;</span>
+                <span>{{NEARBY_CITY_7}}</span>
+            </div>
+            <div class="area-item fade-in">
+                <span class="area-item-pin">&#128205;</span>
+                <span>{{NEARBY_CITY_8}}</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="testimonials-header fade-in">
+                <span class="section-label">Client Reviews</span>
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-subtitle">Don't just take our word for it. Hear from real customers who've experienced our commitment to quality and professionalism.</p>
+            </div>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card fade-in">
+                <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p class="testimonial-text">"{{TESTIMONIAL_1}}"</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">{{TESTIMONIAL_1_INITIAL}}</div>
+                    <div>
+                        <div class="testimonial-name">{{TESTIMONIAL_1_NAME}}</div>
+                        <div class="testimonial-role">{{TESTIMONIAL_1_ROLE}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card fade-in">
+                <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p class="testimonial-text">"{{TESTIMONIAL_2}}"</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">{{TESTIMONIAL_2_INITIAL}}</div>
+                    <div>
+                        <div class="testimonial-name">{{TESTIMONIAL_2_NAME}}</div>
+                        <div class="testimonial-role">{{TESTIMONIAL_2_ROLE}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card fade-in">
+                <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p class="testimonial-text">"{{TESTIMONIAL_3}}"</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">{{TESTIMONIAL_3_INITIAL}}</div>
+                    <div>
+                        <div class="testimonial-name">{{TESTIMONIAL_3_NAME}}</div>
+                        <div class="testimonial-role">{{TESTIMONIAL_3_ROLE}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FAQ SECTION ===== -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="faq-header fade-in">
+                <span class="section-label">Common Questions</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Get answers to the most common questions about our services, process, and pricing.</p>
+            </div>
+        </div>
+        <div class="faq-list">
+            <div class="faq-item fade-in">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                    <span class="faq-question-text">How do I get a free estimate?</span>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">Getting a free estimate is easy. Simply call us at {{PHONE}} or fill out our online contact form. We'll schedule a convenient time for an on-site assessment where we evaluate your project needs and provide a detailed, written estimate with transparent pricing.</div>
+                </div>
+            </div>
+            <div class="faq-item fade-in">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                    <span class="faq-question-text">Are you licensed and insured?</span>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">Absolutely. {{COMPANY_NAME}} is fully licensed, bonded, and insured. We carry comprehensive liability insurance and workers' compensation coverage to protect both our team and your property throughout every project.</div>
+                </div>
+            </div>
+            <div class="faq-item fade-in">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                    <span class="faq-question-text">What areas do you serve?</span>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">We proudly serve {{CITY}} and all surrounding communities. Our service area extends throughout the region to ensure local homeowners and businesses have access to our professional services. Contact us to confirm coverage in your specific location.</div>
+                </div>
+            </div>
+            <div class="faq-item fade-in">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                    <span class="faq-question-text">Do you offer emergency services?</span>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">Yes, we offer 24/7 emergency services for urgent situations. If you're experiencing an emergency, call us immediately at {{PHONE}} and we'll dispatch a team to your location as quickly as possible. Emergency response times are typically within the hour.</div>
+                </div>
+            </div>
+            <div class="faq-item fade-in">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                    <span class="faq-question-text">What warranty do you provide?</span>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">All of our work comes with a comprehensive workmanship warranty. We stand behind the quality of our services and will address any issues that arise from our installation or repairs. Specific warranty terms are outlined in your project estimate.</div>
+                </div>
+            </div>
+            <div class="faq-item fade-in">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                    <span class="faq-question-text">How long does a typical project take?</span>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">Project timelines vary based on scope and complexity. Minor repairs can often be completed same-day, while larger installations may take several days to a few weeks. We'll provide a detailed timeline during your estimate and keep you updated throughout the entire process.</div>
+                </div>
+            </div>
+            <div class="faq-item fade-in">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                    <span class="faq-question-text">Do you offer financing options?</span>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">We understand that larger projects require careful budgeting. We offer flexible payment options and can discuss financing arrangements to help make your project more manageable. Contact us to learn about current payment plans available for your project.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA BANNER ===== -->
+    <section class="cta-banner" id="cta">
+        <div class="cta-banner-content">
+            <span class="cta-banner-emoji">&#128736;</span>
+            <h2 class="cta-banner-title">Ready to Get Started?</h2>
+            <p class="cta-banner-text">Contact {{COMPANY_NAME}} today for a free, no-obligation estimate. Our team is ready to deliver professional results that exceed your expectations.</p>
+            <a href="template-e.html#contact" class="cta-banner-btn">{{CTA_TEXT}} &rarr;</a>
+            <span class="cta-banner-phone">Or call us now: <a href="tel:{{PHONE}}">{{PHONE}}</a></span>
+        </div>
+    </section>
+
+    <!-- ===== SECONDARY CTA STRIP ===== -->
+    <section class="cta-strip">
+        <div class="cta-strip-inner">
+            <span class="cta-strip-text">&#9889; 24/7 Emergency Service Available &mdash; Call Now!</span>
+            <a href="tel:{{PHONE}}" class="cta-strip-btn">&#128222; {{PHONE}}</a>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-brand">&#128295; {{COMPANY_NAME}}</div>
+                <p class="footer-desc">Professional {{SERVICE_1}}, {{SERVICE_2}}, and more in {{CITY}}. Licensed, insured, and committed to quality craftsmanship on every project.</p>
+                <div class="footer-rating">
+                    <span class="footer-rating-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                    <span class="footer-rating-text">{{RATING}}/5 ({{REVIEW_COUNT}}+ reviews)</span>
+                </div>
+                <div class="footer-social" style="margin-top: 16px;">
+                    <a href="#" aria-label="Facebook">FB</a>
+                    <a href="#" aria-label="Instagram">IG</a>
+                    <a href="#" aria-label="Google">G</a>
+                    <a href="#" aria-label="Yelp">Y</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-title">Services</div>
+                <div class="footer-links">
+                    <a href="#service-1">&#128295; {{SERVICE_1}}</a>
+                    <a href="#service-2">&#128296; {{SERVICE_2}}</a>
+                    <a href="#service-3">&#9889; {{SERVICE_3}}</a>
+                    <a href="#service-4">&#128737; {{SERVICE_4}}</a>
+                    <a href="#service-5">&#127968; {{SERVICE_5}}</a>
+                    <a href="#service-6">&#128297; {{SERVICE_6}}</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-title">Contact</div>
+                <div class="footer-links">
+                    <a href="tel:{{PHONE}}">&#128222; {{PHONE}}</a>
+                    <a href="mailto:{{EMAIL}}">&#128231; {{EMAIL}}</a>
+                    <a href="template-e.html#contact">&#128205; {{ADDRESS}}</a>
+                    <a href="template-e.html#contact">&#128336; Mon-Fri 7AM-6PM</a>
+                    <a href="template-e.html#contact">&#9889; 24/7 Emergency</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 {{COMPANY_NAME}}. All rights reserved. | Serving {{CITY}} and surrounding areas. | Licensed &amp; Insured</p>
+        </div>
+    </footer>
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script>
+        /* ============================================
+           TEMPLATE E - CONCRETE - Services Page JS
+           ============================================ */
+
+        (function() {
+            'use strict';
+
+            /* ---- Mobile Menu Toggle ---- */
+            var hamburger = document.getElementById('hamburger');
+            var mobileMenu = document.getElementById('mobileMenu');
+            var mobileLinks = mobileMenu ? mobileMenu.querySelectorAll('a') : [];
+
+            if (hamburger && mobileMenu) {
+                hamburger.addEventListener('click', function() {
+                    hamburger.classList.toggle('active');
+                    mobileMenu.classList.toggle('open');
+                });
+
+                /* Close on link click */
+                for (var i = 0; i < mobileLinks.length; i++) {
+                    mobileLinks[i].addEventListener('click', function() {
+                        hamburger.classList.remove('active');
+                        mobileMenu.classList.remove('open');
+                    });
+                }
+
+                /* Close on outside click */
+                document.addEventListener('click', function(e) {
+                    if (!hamburger.contains(e.target) && !mobileMenu.contains(e.target)) {
+                        hamburger.classList.remove('active');
+                        mobileMenu.classList.remove('open');
+                    }
+                });
+            }
+
+            /* ---- Scroll-based Nav Shadow ---- */
+            var nav = document.getElementById('nav');
+            var scrollThreshold = 50;
+
+            function handleNavScroll() {
+                if (window.scrollY > scrollThreshold) {
+                    nav.classList.add('scrolled');
+                } else {
+                    nav.classList.remove('scrolled');
+                }
+            }
+
+            window.addEventListener('scroll', handleNavScroll, { passive: true });
+            handleNavScroll();
+
+            /* ---- Smooth Scroll for Anchor Links ---- */
+            var anchorLinks = document.querySelectorAll('a[href^="#"]');
+            for (var j = 0; j < anchorLinks.length; j++) {
+                anchorLinks[j].addEventListener('click', function(e) {
+                    var href = this.getAttribute('href');
+                    if (href === '#') return;
+                    var target = document.querySelector(href);
+                    if (target) {
+                        e.preventDefault();
+                        var navHeight = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--nav-height')) || 72;
+                        var targetTop = target.getBoundingClientRect().top + window.pageYOffset - navHeight;
+                        window.scrollTo({
+                            top: targetTop,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            }
+
+            /* ---- Fade-In on Scroll (Intersection Observer) ---- */
+            var fadeElements = document.querySelectorAll('.fade-in');
+
+            if ('IntersectionObserver' in window) {
+                var fadeObserver = new IntersectionObserver(function(entries) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('visible');
+                            fadeObserver.unobserve(entry.target);
+                        }
+                    });
+                }, {
+                    threshold: 0.15,
+                    rootMargin: '0px 0px -40px 0px'
+                });
+
+                fadeElements.forEach(function(el) {
+                    fadeObserver.observe(el);
+                });
+            } else {
+                /* Fallback: show everything */
+                fadeElements.forEach(function(el) {
+                    el.classList.add('visible');
+                });
+            }
+
+            /* ---- FAQ Accordion ---- */
+            var faqItems = document.querySelectorAll('.faq-item');
+
+            faqItems.forEach(function(item) {
+                var question = item.querySelector('.faq-question');
+
+                question.addEventListener('click', function() {
+                    var isOpen = item.classList.contains('open');
+
+                    /* Close all other FAQ items */
+                    faqItems.forEach(function(otherItem) {
+                        otherItem.classList.remove('open');
+                        var otherQuestion = otherItem.querySelector('.faq-question');
+                        if (otherQuestion) {
+                            otherQuestion.setAttribute('aria-expanded', 'false');
+                        }
+                    });
+
+                    /* Toggle current item */
+                    if (!isOpen) {
+                        item.classList.add('open');
+                        question.setAttribute('aria-expanded', 'true');
+                    }
+                });
+
+                /* Keyboard accessibility for FAQ */
+                question.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        question.click();
+                    }
+                });
+            });
+
+            /* ---- Keyboard Accessibility for Hamburger ---- */
+            if (hamburger) {
+                hamburger.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        hamburger.click();
+                    }
+                });
+            }
+
+            /* ---- Phone Number Click Tracking ---- */
+            var phoneLinks = document.querySelectorAll('a[href^="tel:"]');
+            phoneLinks.forEach(function(link) {
+                link.addEventListener('click', function() {
+                    console.log('Phone call initiated: {{PHONE}}');
+                });
+            });
+
+            /* ---- CTA Button Click Tracking ---- */
+            var ctaButtons = document.querySelectorAll('.nav-cta, .cta-banner-btn, .cta-strip-btn, .service-link');
+            ctaButtons.forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    console.log('CTA clicked:', this.textContent.trim());
+                });
+            });
+
+            /* ---- Animated Counter for Stats ---- */
+            var statNumbers = document.querySelectorAll('.stat-number');
+            var statsObserved = false;
+
+            function animateCounter(element) {
+                var text = element.textContent.trim();
+                var hasPlus = text.indexOf('+') !== -1;
+                var hasDot = text.indexOf('.') !== -1;
+                var numericValue = parseFloat(text.replace(/[^0-9.]/g, ''));
+
+                if (isNaN(numericValue) || numericValue === 0) return;
+
+                var duration = 2000;
+                var startTime = null;
+                var isDecimal = hasDot;
+                var decimalPlaces = isDecimal ? (text.split('.')[1] || '').replace(/[^0-9]/g, '').length : 0;
+
+                function step(timestamp) {
+                    if (!startTime) startTime = timestamp;
+                    var progress = Math.min((timestamp - startTime) / duration, 1);
+
+                    /* Ease out cubic */
+                    var eased = 1 - Math.pow(1 - progress, 3);
+                    var currentValue = eased * numericValue;
+
+                    if (isDecimal) {
+                        element.textContent = currentValue.toFixed(decimalPlaces) + (hasPlus ? '+' : '');
+                    } else {
+                        element.textContent = Math.floor(currentValue) + (hasPlus ? '+' : '');
+                    }
+
+                    if (progress < 1) {
+                        requestAnimationFrame(step);
+                    } else {
+                        element.textContent = text;
+                    }
+                }
+
+                requestAnimationFrame(step);
+            }
+
+            if ('IntersectionObserver' in window && statNumbers.length > 0) {
+                var statsObserver = new IntersectionObserver(function(entries) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting && !statsObserved) {
+                            statsObserved = true;
+                            statNumbers.forEach(function(el) {
+                                animateCounter(el);
+                            });
+                            statsObserver.disconnect();
+                        }
+                    });
+                }, {
+                    threshold: 0.3
+                });
+
+                statNumbers.forEach(function(el) {
+                    statsObserver.observe(el);
+                });
+            }
+
+            /* ---- Service Card Focus Enhancement ---- */
+            var serviceCards = document.querySelectorAll('.service-card');
+            serviceCards.forEach(function(card) {
+                card.setAttribute('tabindex', '0');
+                card.setAttribute('role', 'article');
+
+                card.addEventListener('focus', function() {
+                    this.style.boxShadow = 'var(--shadow-hover), 0 0 20px rgba(234, 179, 8, 0.3), 0 0 0 3px var(--yellow)';
+                });
+
+                card.addEventListener('blur', function() {
+                    this.style.boxShadow = '';
+                });
+            });
+
+            /* ---- Back to Top on Logo Click ---- */
+            var logo = document.querySelector('.nav-logo');
+            if (logo) {
+                logo.addEventListener('click', function(e) {
+                    if (this.getAttribute('href') === '#' || this.getAttribute('href') === '') {
+                        e.preventDefault();
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }
+                });
+            }
+
+        })();
+    </script>
+</body>
+</html>

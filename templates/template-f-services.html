@@ -1,0 +1,2643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{COMPANY_NAME}} - Professional services including {{SERVICE_1}}, {{SERVICE_2}}, {{SERVICE_3}} &amp; more in {{CITY}}. Licensed &amp; Insured. Call {{PHONE}} today.">
+    <title>Our Services | {{COMPANY_NAME}} | Professional {{SERVICE_1}} in {{CITY}} | {{PHONE}}</title>
+    <style>
+        /* ============================================
+           TEMPLATE F - STEEL & GLASS - SERVICES PAGE
+           Modern Industrial - Clean & Refined
+           Apple meets Construction aesthetic
+           ============================================ */
+
+        :root {
+            --primary: {{PRIMARY_COLOR}};
+            --accent: {{ACCENT_COLOR}};
+            --bg: {{BG_COLOR}};
+            --text: {{TEXT_COLOR}};
+            --card-bg: #ffffff;
+            --border-color: #d1d5db;
+            --steel-dark: #374151;
+            --steel-light: #f4f5f7;
+            --steel-mid: #9ca3af;
+            --blue: #2563eb;
+            --blue-light: #dbeafe;
+            --blue-dark: #1d4ed8;
+            --footer-bg: #1f2937;
+            --nav-height: 56px;
+            --radius: 6px;
+            --radius-lg: 12px;
+            --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+            --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+            --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.12);
+            --shadow-blue: 0 4px 20px rgba(37, 99, 235, 0.2);
+        }
+
+        /* ---- RESET & BASE ---- */
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: var(--nav-height);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+                'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--steel-light);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        a {
+            color: var(--blue);
+            text-decoration: none;
+            transition: color var(--transition);
+        }
+
+        a:hover {
+            color: var(--blue-dark);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .section-pad {
+            padding: 90px 0;
+        }
+
+        /* ---- TYPOGRAPHY ---- */
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 700;
+            line-height: 1.2;
+            color: var(--text);
+        }
+
+        h1 {
+            font-size: clamp(2.2rem, 5vw, 3.2rem);
+            letter-spacing: -0.03em;
+        }
+
+        h2 {
+            font-size: clamp(1.8rem, 4vw, 2.4rem);
+            letter-spacing: -0.02em;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            letter-spacing: -0.01em;
+        }
+
+        h4 {
+            font-size: 1.1rem;
+        }
+
+        p {
+            color: #4b5563;
+            line-height: 1.7;
+        }
+
+        .section-label {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--blue);
+            margin-bottom: 12px;
+            padding: 4px 12px;
+            background: var(--blue-light);
+            border-radius: 100px;
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 640px;
+            margin: 0 auto 60px;
+        }
+
+        .section-header p {
+            margin-top: 16px;
+            font-size: 1.05rem;
+        }
+
+        /* ============================================
+           NAVIGATION - Thin white bar
+           ============================================ */
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: var(--nav-height);
+            background: #ffffff;
+            z-index: 1000;
+            transition: box-shadow var(--transition);
+        }
+
+        .nav.scrolled {
+            box-shadow: 0 1px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .nav-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: var(--text);
+            text-decoration: none;
+            letter-spacing: -0.02em;
+            flex-shrink: 0;
+        }
+
+        .nav-logo span {
+            color: var(--blue);
+        }
+
+        .nav-logo-icon {
+            width: 28px;
+            height: 28px;
+            background: var(--blue);
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 0.85rem;
+            font-weight: 700;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: var(--steel-dark);
+            text-decoration: none;
+            transition: color var(--transition);
+            position: relative;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--blue);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--blue);
+            transition: width var(--transition);
+        }
+
+        .nav-links a:hover::after,
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .nav-cta {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--blue) !important;
+            border: 2px solid var(--blue);
+            padding: 7px 20px;
+            border-radius: 6px;
+            transition: all var(--transition);
+            flex-shrink: 0;
+        }
+
+        .nav-cta:hover {
+            background: var(--blue);
+            color: #fff !important;
+        }
+
+        .nav-cta::after {
+            display: none !important;
+        }
+
+        /* ---- Hamburger ---- */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            padding: 4px;
+            background: none;
+            border: none;
+            z-index: 1001;
+        }
+
+        .hamburger span {
+            width: 22px;
+            height: 2px;
+            background: var(--text);
+            transition: all var(--transition);
+            border-radius: 2px;
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -5px);
+        }
+
+        /* ---- Mobile Menu ---- */
+        .mobile-menu {
+            display: none;
+            position: fixed;
+            top: var(--nav-height);
+            left: 0;
+            width: 100%;
+            background: #ffffff;
+            box-shadow: var(--shadow-lg);
+            padding: 16px 0;
+            z-index: 999;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .mobile-menu.open {
+            display: block;
+        }
+
+        .mobile-menu a {
+            display: block;
+            padding: 12px 24px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: var(--steel-dark);
+            text-decoration: none;
+            transition: background var(--transition);
+        }
+
+        .mobile-menu a:hover {
+            background: var(--steel-light);
+            color: var(--blue);
+        }
+
+        .mobile-menu .nav-cta-mobile {
+            display: block;
+            margin: 12px 24px 8px;
+            padding: 12px;
+            text-align: center;
+            background: var(--blue);
+            color: #fff;
+            border-radius: var(--radius);
+            font-weight: 600;
+        }
+
+        /* ============================================
+           HERO BANNER - Services Page
+           ============================================ */
+        .hero-banner {
+            padding-top: calc(var(--nav-height) + 72px);
+            padding-bottom: 72px;
+            background: #ffffff;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-banner::before {
+            content: '';
+            position: absolute;
+            top: -60%;
+            right: -10%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(37, 99, 235, 0.04) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .hero-banner::after {
+            content: '';
+            position: absolute;
+            bottom: -40%;
+            left: -8%;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(37, 99, 235, 0.03) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .hero-banner-inner {
+            max-width: 780px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-banner .breadcrumb {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.82rem;
+            font-weight: 500;
+            color: var(--steel-mid);
+            margin-bottom: 24px;
+        }
+
+        .hero-banner .breadcrumb a {
+            color: var(--steel-mid);
+            text-decoration: none;
+            transition: color var(--transition);
+        }
+
+        .hero-banner .breadcrumb a:hover {
+            color: var(--blue);
+        }
+
+        .hero-banner .breadcrumb .sep {
+            color: var(--border-color);
+            font-size: 0.7rem;
+        }
+
+        .hero-banner .breadcrumb .current {
+            color: var(--blue);
+            font-weight: 600;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--blue);
+            background: var(--blue-light);
+            padding: 6px 16px;
+            border-radius: 100px;
+            margin-bottom: 24px;
+        }
+
+        .hero-banner h1 {
+            margin-bottom: 12px;
+        }
+
+        .hero-banner h1 .accent {
+            color: var(--blue);
+        }
+
+        .hero-line {
+            width: 60px;
+            height: 3px;
+            background: var(--blue);
+            margin: 20px auto 24px;
+            border-radius: 2px;
+        }
+
+        .hero-banner p {
+            font-size: 1.15rem;
+            max-width: 600px;
+            margin: 0 auto;
+            color: #4b5563;
+        }
+
+        .hero-banner .hero-stats {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 40px;
+            padding-top: 32px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .hero-banner .hero-stat {
+            text-align: center;
+        }
+
+        .hero-banner .hero-stat-number {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--blue);
+            letter-spacing: -0.03em;
+            line-height: 1;
+        }
+
+        .hero-banner .hero-stat-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--steel-mid);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-top: 6px;
+        }
+
+        .hero-stat-divider {
+            width: 1px;
+            height: 36px;
+            background: var(--border-color);
+        }
+
+        /* ============================================
+           SERVICES OVERVIEW - Intro Section
+           ============================================ */
+        .services-overview {
+            background: var(--steel-light);
+            position: relative;
+        }
+
+        .services-overview-inner {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .services-overview-text .section-label {
+            margin-bottom: 16px;
+        }
+
+        .services-overview-text h2 {
+            margin-bottom: 20px;
+        }
+
+        .services-overview-text h2 .accent {
+            color: var(--blue);
+        }
+
+        .services-overview-text p {
+            font-size: 1rem;
+            margin-bottom: 16px;
+        }
+
+        .services-overview-text p:last-of-type {
+            margin-bottom: 28px;
+        }
+
+        .services-overview-checklist {
+            list-style: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        .services-overview-checklist li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--steel-dark);
+        }
+
+        .services-overview-checklist li .check-icon {
+            width: 22px;
+            height: 22px;
+            background: var(--blue-light);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
+            color: var(--blue);
+            flex-shrink: 0;
+        }
+
+        .services-overview-visual {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        .overview-stat-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 28px 20px;
+            text-align: center;
+            transition: all var(--transition);
+        }
+
+        .overview-stat-card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--blue);
+        }
+
+        .overview-stat-card:nth-child(1) {
+            border-top: 3px solid var(--blue);
+        }
+
+        .overview-stat-card:nth-child(2) {
+            margin-top: 24px;
+            border-top: 3px solid #22c55e;
+        }
+
+        .overview-stat-card:nth-child(3) {
+            margin-top: -24px;
+            border-top: 3px solid #f59e0b;
+        }
+
+        .overview-stat-card:nth-child(4) {
+            border-top: 3px solid #8b5cf6;
+        }
+
+        .overview-stat-icon {
+            font-size: 1.8rem;
+            margin-bottom: 12px;
+        }
+
+        .overview-stat-card h4 {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: var(--blue);
+            margin-bottom: 4px;
+        }
+
+        .overview-stat-card p {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--steel-mid);
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+        }
+
+        /* ============================================
+           MAIN SERVICES GRID - 6 Cards (2x3)
+           ============================================ */
+        .services-main {
+            background: #ffffff;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 28px;
+        }
+
+        .service-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-top: 3px solid var(--blue);
+            border-radius: var(--radius-lg);
+            padding: 40px 32px;
+            transition: all var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.02) 0%, transparent 60%);
+            opacity: 0;
+            transition: opacity var(--transition);
+            pointer-events: none;
+        }
+
+        .service-card:hover {
+            box-shadow: var(--shadow-blue);
+            transform: translateY(-4px);
+        }
+
+        .service-card:hover::before {
+            opacity: 1;
+        }
+
+        .service-card-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 18px;
+            margin-bottom: 20px;
+        }
+
+        .service-icon {
+            width: 56px;
+            height: 56px;
+            background: var(--steel-light);
+            border: 1px solid var(--border-color);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+            transition: all var(--transition);
+        }
+
+        .service-card:hover .service-icon {
+            background: var(--blue-light);
+            border-color: var(--blue);
+        }
+
+        .service-card-header-text {
+            flex: 1;
+        }
+
+        .service-card-header-text h3 {
+            font-size: 1.2rem;
+            margin-bottom: 4px;
+        }
+
+        .service-card-header-text .service-tag {
+            display: inline-block;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--blue);
+            background: var(--blue-light);
+            padding: 3px 10px;
+            border-radius: 100px;
+        }
+
+        .service-card-body p {
+            font-size: 0.92rem;
+            line-height: 1.7;
+            margin-bottom: 16px;
+            color: #4b5563;
+        }
+
+        .service-card-features {
+            list-style: none;
+            margin-bottom: 24px;
+        }
+
+        .service-card-features li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--steel-dark);
+            padding: 6px 0;
+            border-bottom: 1px solid #f3f4f6;
+        }
+
+        .service-card-features li:last-child {
+            border-bottom: none;
+        }
+
+        .service-card-features li .feat-dot {
+            width: 6px;
+            height: 6px;
+            background: var(--blue);
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .service-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.88rem;
+            font-weight: 600;
+            color: var(--blue);
+            transition: all var(--transition);
+            position: relative;
+        }
+
+        .service-link:hover {
+            gap: 10px;
+        }
+
+        .service-link::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background: var(--blue);
+            transition: width var(--transition);
+        }
+
+        .service-link:hover::after {
+            width: calc(100% - 20px);
+        }
+
+        /* ============================================
+           PROCESS SECTION - How We Work
+           ============================================ */
+        .process {
+            background: var(--steel-light);
+        }
+
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            position: relative;
+        }
+
+        .process-grid::before {
+            content: '';
+            position: absolute;
+            top: 40px;
+            left: 12.5%;
+            width: 75%;
+            height: 2px;
+            background: linear-gradient(90deg, var(--blue), var(--blue-light), var(--blue));
+            z-index: 0;
+            opacity: 0.3;
+        }
+
+        .process-step {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 32px 24px;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            transition: all var(--transition);
+        }
+
+        .process-step:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--blue);
+        }
+
+        .process-step-number {
+            width: 48px;
+            height: 48px;
+            background: var(--blue);
+            color: #ffffff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            font-weight: 800;
+            margin: 0 auto 20px;
+            position: relative;
+        }
+
+        .process-step-number::after {
+            content: '';
+            position: absolute;
+            inset: -4px;
+            border: 2px solid var(--blue-light);
+            border-radius: 50%;
+        }
+
+        .process-step h4 {
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+
+        .process-step p {
+            font-size: 0.85rem;
+            line-height: 1.6;
+        }
+
+        /* ============================================
+           SERVICE AREAS / COVERAGE
+           ============================================ */
+        .coverage {
+            background: #ffffff;
+        }
+
+        .coverage-inner {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+            align-items: center;
+        }
+
+        .coverage-text .section-label {
+            margin-bottom: 16px;
+        }
+
+        .coverage-text h2 {
+            margin-bottom: 16px;
+        }
+
+        .coverage-text h2 .accent {
+            color: var(--blue);
+        }
+
+        .coverage-text p {
+            font-size: 1rem;
+            margin-bottom: 24px;
+        }
+
+        .coverage-areas {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        .coverage-area-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 14px;
+            background: var(--steel-light);
+            border-radius: var(--radius);
+            font-size: 0.88rem;
+            font-weight: 500;
+            color: var(--steel-dark);
+            transition: all var(--transition);
+        }
+
+        .coverage-area-item:hover {
+            background: var(--blue-light);
+            color: var(--blue);
+        }
+
+        .coverage-area-item .area-pin {
+            color: var(--blue);
+            font-size: 0.9rem;
+        }
+
+        .coverage-map-wrap {
+            background: var(--steel-light);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 48px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 380px;
+            text-align: center;
+        }
+
+        .coverage-map-icon {
+            font-size: 3.5rem;
+            margin-bottom: 16px;
+        }
+
+        .coverage-map-wrap h4 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+
+        .coverage-map-wrap p {
+            font-size: 0.9rem;
+            color: var(--steel-mid);
+            max-width: 260px;
+        }
+
+        .coverage-map-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 16px;
+            padding: 6px 16px;
+            background: var(--blue-light);
+            color: var(--blue);
+            font-size: 0.78rem;
+            font-weight: 600;
+            border-radius: 100px;
+        }
+
+        /* ============================================
+           WHY CHOOSE US - Features Strip
+           ============================================ */
+        .why-choose {
+            background: var(--steel-light);
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+
+        .why-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 32px 24px;
+            text-align: center;
+            transition: all var(--transition);
+        }
+
+        .why-card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--blue);
+        }
+
+        .why-card-icon {
+            width: 56px;
+            height: 56px;
+            background: var(--blue-light);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin: 0 auto 18px;
+            transition: all var(--transition);
+        }
+
+        .why-card:hover .why-card-icon {
+            background: var(--blue);
+            transform: scale(1.08);
+        }
+
+        .why-card:hover .why-card-icon span {
+            filter: brightness(10);
+        }
+
+        .why-card h4 {
+            font-size: 0.95rem;
+            margin-bottom: 8px;
+        }
+
+        .why-card p {
+            font-size: 0.85rem;
+            line-height: 1.6;
+        }
+
+        /* ============================================
+           PRICING / PACKAGES
+           ============================================ */
+        .packages {
+            background: #ffffff;
+        }
+
+        .packages-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 28px;
+        }
+
+        .package-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 40px 32px;
+            text-align: center;
+            transition: all var(--transition);
+            position: relative;
+        }
+
+        .package-card:hover {
+            box-shadow: var(--shadow-md);
+        }
+
+        .package-card.featured {
+            border-color: var(--blue);
+            box-shadow: var(--shadow-blue);
+        }
+
+        .package-card.featured::before {
+            content: 'Most Popular';
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--blue);
+            color: #ffffff;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            padding: 4px 16px;
+            border-radius: 100px;
+        }
+
+        .package-icon {
+            font-size: 2rem;
+            margin-bottom: 16px;
+        }
+
+        .package-card h3 {
+            font-size: 1.15rem;
+            margin-bottom: 8px;
+        }
+
+        .package-card .package-desc {
+            font-size: 0.88rem;
+            color: var(--steel-mid);
+            margin-bottom: 20px;
+        }
+
+        .package-price {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: var(--text);
+            margin-bottom: 4px;
+        }
+
+        .package-price-note {
+            font-size: 0.78rem;
+            color: var(--steel-mid);
+            margin-bottom: 24px;
+        }
+
+        .package-features {
+            list-style: none;
+            text-align: left;
+            margin-bottom: 28px;
+        }
+
+        .package-features li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 8px 0;
+            font-size: 0.87rem;
+            color: var(--steel-dark);
+            border-bottom: 1px solid #f3f4f6;
+        }
+
+        .package-features li:last-child {
+            border-bottom: none;
+        }
+
+        .package-features li .pkg-check {
+            color: var(--blue);
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+
+        .btn-package {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            width: 100%;
+            padding: 13px 24px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            border-radius: var(--radius);
+            border: 2px solid var(--border-color);
+            background: transparent;
+            color: var(--steel-dark);
+            cursor: pointer;
+            transition: all var(--transition);
+            text-decoration: none;
+            font-family: inherit;
+        }
+
+        .btn-package:hover {
+            border-color: var(--blue);
+            color: var(--blue);
+        }
+
+        .package-card.featured .btn-package {
+            background: var(--blue);
+            border-color: var(--blue);
+            color: #ffffff;
+        }
+
+        .package-card.featured .btn-package:hover {
+            background: var(--blue-dark);
+            border-color: var(--blue-dark);
+        }
+
+        /* ============================================
+           TESTIMONIAL STRIP
+           ============================================ */
+        .testimonial-strip {
+            background: var(--steel-light);
+        }
+
+        .testimonial-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .testimonial-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 32px 28px;
+            transition: all var(--transition);
+        }
+
+        .testimonial-card:hover {
+            box-shadow: var(--shadow-md);
+        }
+
+        .testimonial-stars {
+            font-size: 0.9rem;
+            color: #f59e0b;
+            margin-bottom: 14px;
+            letter-spacing: 2px;
+        }
+
+        .testimonial-card blockquote {
+            font-size: 0.92rem;
+            font-style: italic;
+            color: #4b5563;
+            line-height: 1.7;
+            margin-bottom: 18px;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .testimonial-avatar {
+            width: 40px;
+            height: 40px;
+            background: var(--blue-light);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--blue);
+            flex-shrink: 0;
+        }
+
+        .testimonial-author-info h5 {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--text);
+        }
+
+        .testimonial-author-info p {
+            font-size: 0.78rem;
+            color: var(--steel-mid);
+        }
+
+        /* ============================================
+           FAQ SECTION
+           ============================================ */
+        .faq {
+            background: #ffffff;
+        }
+
+        .faq-list {
+            max-width: 780px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            margin-bottom: 12px;
+            background: var(--card-bg);
+            overflow: hidden;
+            transition: all var(--transition);
+        }
+
+        .faq-item:hover {
+            border-color: var(--blue);
+        }
+
+        .faq-question {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 24px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text);
+            text-align: left;
+            transition: all var(--transition);
+        }
+
+        .faq-question:hover {
+            color: var(--blue);
+        }
+
+        .faq-question .faq-toggle {
+            width: 28px;
+            height: 28px;
+            background: var(--steel-light);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            color: var(--steel-mid);
+            flex-shrink: 0;
+            transition: all var(--transition);
+        }
+
+        .faq-item.active .faq-question .faq-toggle {
+            background: var(--blue);
+            color: #ffffff;
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .faq-answer-inner {
+            padding: 0 24px 24px;
+        }
+
+        .faq-answer-inner p {
+            font-size: 0.9rem;
+            line-height: 1.7;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 300px;
+        }
+
+        /* ============================================
+           CTA BANNER
+           ============================================ */
+        .cta-banner {
+            background: linear-gradient(135deg, var(--blue) 0%, var(--blue-dark) 100%);
+            text-align: center;
+            padding: 80px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-banner::before {
+            content: '';
+            position: absolute;
+            top: -40%;
+            right: -8%;
+            width: 350px;
+            height: 350px;
+            background: rgba(255, 255, 255, 0.06);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .cta-banner::after {
+            content: '';
+            position: absolute;
+            bottom: -30%;
+            left: -5%;
+            width: 300px;
+            height: 300px;
+            background: rgba(255, 255, 255, 0.04);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .cta-banner-inner {
+            max-width: 640px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-banner h2 {
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+
+        .cta-banner p {
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 1.1rem;
+            margin-bottom: 32px;
+        }
+
+        .cta-banner .btn-white {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 15px 36px;
+            background: #ffffff;
+            color: var(--blue);
+            font-size: 1rem;
+            font-weight: 700;
+            border-radius: var(--radius);
+            border: none;
+            cursor: pointer;
+            transition: all var(--transition);
+            text-decoration: none;
+        }
+
+        .cta-banner .btn-white:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            color: var(--blue-dark);
+        }
+
+        .cta-banner .cta-phone {
+            display: block;
+            margin-top: 18px;
+            font-size: 0.88rem;
+            color: rgba(255, 255, 255, 0.75);
+        }
+
+        .cta-banner .cta-phone a {
+            color: #ffffff;
+            font-weight: 600;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        .cta-banner .cta-phone a:hover {
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        /* ============================================
+           FOOTER - Dark steel
+           ============================================ */
+        .footer {
+            background: var(--footer-bg);
+            padding: 64px 0 0;
+            color: #d1d5db;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.4fr 1fr 1fr;
+            gap: 48px;
+            padding-bottom: 48px;
+            border-bottom: 1px solid #374151;
+        }
+
+        .footer-brand h4 {
+            color: #ffffff;
+            font-size: 1.15rem;
+            margin-bottom: 12px;
+        }
+
+        .footer-brand h4 span {
+            color: var(--blue);
+        }
+
+        .footer-brand p {
+            font-size: 0.88rem;
+            color: #9ca3af;
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 10px;
+        }
+
+        .footer-social a {
+            width: 36px;
+            height: 36px;
+            background: #374151;
+            border-radius: var(--radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+            color: #d1d5db;
+            transition: all var(--transition);
+            text-decoration: none;
+        }
+
+        .footer-social a:hover {
+            background: var(--blue);
+            color: #fff;
+        }
+
+        .footer-col h5 {
+            color: #ffffff;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 18px;
+        }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+        .footer-col ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-col ul li a {
+            font-size: 0.88rem;
+            color: #9ca3af;
+            text-decoration: none;
+            transition: color var(--transition);
+        }
+
+        .footer-col ul li a:hover {
+            color: var(--blue);
+        }
+
+        .footer-bottom {
+            padding: 24px 0;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #6b7280;
+        }
+
+        /* ============================================
+           CHATBOT WIDGET
+           ============================================ */
+        .chatbot-toggle {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            width: 56px;
+            height: 56px;
+            background: var(--blue);
+            color: #ffffff;
+            border: none;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: var(--shadow-lg);
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all var(--transition);
+        }
+
+        .chatbot-toggle:hover {
+            background: var(--blue-dark);
+            transform: scale(1.08);
+        }
+
+        .chatbot-tooltip {
+            position: fixed;
+            bottom: 88px;
+            right: 24px;
+            background: #ffffff;
+            color: var(--text);
+            padding: 10px 16px;
+            border-radius: var(--radius);
+            font-size: 0.82rem;
+            font-weight: 500;
+            box-shadow: var(--shadow-lg);
+            z-index: 9998;
+            white-space: nowrap;
+            opacity: 0;
+            transform: translateY(8px);
+            transition: all var(--transition);
+            pointer-events: none;
+        }
+
+        .chatbot-tooltip::after {
+            content: '';
+            position: absolute;
+            bottom: -6px;
+            right: 22px;
+            width: 12px;
+            height: 12px;
+            background: #ffffff;
+            transform: rotate(45deg);
+        }
+
+        .chatbot-toggle:hover + .chatbot-tooltip {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ============================================
+           RESPONSIVE BREAKPOINTS
+           ============================================ */
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .nav-cta {
+                display: none;
+            }
+
+            .hero-banner {
+                padding-top: calc(var(--nav-height) + 48px);
+                padding-bottom: 48px;
+            }
+
+            .hero-banner h1 {
+                font-size: 2rem;
+            }
+
+            .hero-banner .hero-stats {
+                gap: 24px;
+                flex-wrap: wrap;
+            }
+
+            .hero-banner .hero-stat-number {
+                font-size: 1.4rem;
+            }
+
+            .services-overview-inner {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .services-overview-visual {
+                max-width: 400px;
+                margin: 0 auto;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .process-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 16px;
+            }
+
+            .process-grid::before {
+                display: none;
+            }
+
+            .coverage-inner {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+
+            .why-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 16px;
+            }
+
+            .packages-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+                max-width: 420px;
+                margin: 0 auto;
+            }
+
+            .testimonial-cards {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+
+            .section-pad {
+                padding: 64px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-banner h1 {
+                font-size: 1.7rem;
+            }
+
+            .hero-banner .hero-stats {
+                flex-direction: column;
+                gap: 16px;
+            }
+
+            .hero-stat-divider {
+                width: 40px;
+                height: 1px;
+            }
+
+            .services-overview-checklist {
+                grid-template-columns: 1fr;
+            }
+
+            .services-overview-visual {
+                grid-template-columns: 1fr;
+                max-width: 280px;
+            }
+
+            .overview-stat-card:nth-child(2),
+            .overview-stat-card:nth-child(3) {
+                margin-top: 0;
+            }
+
+            .process-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .coverage-areas {
+                grid-template-columns: 1fr;
+            }
+
+            .why-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .section-pad {
+                padding: 48px 0;
+            }
+
+            .service-card {
+                padding: 28px 22px;
+            }
+
+            .faq-question {
+                padding: 16px 20px;
+                font-size: 0.9rem;
+            }
+
+            .faq-answer-inner {
+                padding: 0 20px 20px;
+            }
+        }
+
+        /* ---- Utility ---- */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0;
+        }
+
+        /* Smooth reveal animation */
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-up {
+            animation: fadeUp 0.6s ease forwards;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ============================================
+         NAVIGATION
+         ============================================ -->
+    <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-inner">
+            <a href="{{HOME_URL}}" class="nav-logo" aria-label="{{COMPANY_NAME}} home">
+                <div class="nav-logo-icon">S</div>
+                <span>{{COMPANY_NAME}}</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="{{HOME_URL}}">Home</a></li>
+                <li><a href="{{SERVICES_URL}}" class="active">Services</a></li>
+                <li><a href="{{HOME_URL}}#portfolio">Portfolio</a></li>
+                <li><a href="{{HOME_URL}}#why-us">Why Us</a></li>
+                <li><a href="{{HOME_URL}}#reviews">Reviews</a></li>
+                <li><a href="{{HOME_URL}}#contact">Contact</a></li>
+            </ul>
+
+            <a href="{{HOME_URL}}#contact" class="nav-cta">Free Quote</a>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu" role="navigation" aria-label="Mobile navigation">
+        <a href="{{HOME_URL}}">Home</a>
+        <a href="{{SERVICES_URL}}">Services</a>
+        <a href="{{HOME_URL}}#portfolio">Portfolio</a>
+        <a href="{{HOME_URL}}#why-us">Why Us</a>
+        <a href="{{HOME_URL}}#reviews">Reviews</a>
+        <a href="{{HOME_URL}}#contact">Contact</a>
+        <a href="tel:{{PHONE}}" class="nav-cta-mobile">{{CTA_TEXT}} &mdash; {{PHONE}}</a>
+    </div>
+
+    <!-- ============================================
+         HERO BANNER - Services Page
+         ============================================ -->
+    <section class="hero-banner" id="hero">
+        <div class="container">
+            <div class="hero-banner-inner">
+                <div class="breadcrumb">
+                    <a href="{{HOME_URL}}">Home</a>
+                    <span class="sep">&#9656;</span>
+                    <span class="current">Our Services</span>
+                </div>
+
+                <div class="hero-badge">
+                    &#9881; Professional &amp; Reliable Service
+                </div>
+
+                <h1>
+                    <span class="accent">Our Services</span><br>
+                    Built for {{CITY}} Properties
+                </h1>
+
+                <div class="hero-line"></div>
+
+                <p>
+                    {{COMPANY_NAME}} delivers expert craftsmanship across a full range of
+                    professional services. Every project is completed to the highest
+                    industry standards with precision and care.
+                </p>
+
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">{{YEARS_IN_BUSINESS}}+</div>
+                        <div class="hero-stat-label">Years Experience</div>
+                    </div>
+                    <div class="hero-stat-divider"></div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">{{PROJECTS_COMPLETED}}+</div>
+                        <div class="hero-stat-label">Projects Done</div>
+                    </div>
+                    <div class="hero-stat-divider"></div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">{{RATING}}</div>
+                        <div class="hero-stat-label">Star Rating</div>
+                    </div>
+                    <div class="hero-stat-divider"></div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">{{REVIEW_COUNT}}+</div>
+                        <div class="hero-stat-label">5-Star Reviews</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SERVICES OVERVIEW - Introduction
+         ============================================ -->
+    <section class="services-overview section-pad" id="overview">
+        <div class="container">
+            <div class="services-overview-inner">
+                <div class="services-overview-text">
+                    <span class="section-label">What We Do</span>
+                    <h2>Comprehensive <span class="accent">Solutions</span> for Every Need</h2>
+                    <p>
+                        At {{COMPANY_NAME}}, we pride ourselves on delivering a complete range
+                        of professional services tailored to the unique needs of {{CITY}}
+                        property owners. From initial consultation to final walkthrough,
+                        our team ensures exceptional results every time.
+                    </p>
+                    <p>
+                        With {{YEARS_IN_BUSINESS}}+ years of hands-on experience and a
+                        commitment to using only the finest materials, we have built a
+                        reputation for quality that speaks for itself.
+                    </p>
+
+                    <ul class="services-overview-checklist">
+                        <li>
+                            <span class="check-icon">&#10003;</span>
+                            Licensed &amp; Insured
+                        </li>
+                        <li>
+                            <span class="check-icon">&#10003;</span>
+                            Free Estimates
+                        </li>
+                        <li>
+                            <span class="check-icon">&#10003;</span>
+                            Satisfaction Guaranteed
+                        </li>
+                        <li>
+                            <span class="check-icon">&#10003;</span>
+                            Premium Materials
+                        </li>
+                        <li>
+                            <span class="check-icon">&#10003;</span>
+                            On-Time Completion
+                        </li>
+                        <li>
+                            <span class="check-icon">&#10003;</span>
+                            Transparent Pricing
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="services-overview-visual">
+                    <div class="overview-stat-card">
+                        <div class="overview-stat-icon">&#128736;</div>
+                        <h4>{{PROJECTS_COMPLETED}}+</h4>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="overview-stat-card">
+                        <div class="overview-stat-icon">&#9733;</div>
+                        <h4>{{RATING}}/5</h4>
+                        <p>Customer Rating</p>
+                    </div>
+                    <div class="overview-stat-card">
+                        <div class="overview-stat-icon">&#128197;</div>
+                        <h4>{{YEARS_IN_BUSINESS}}+</h4>
+                        <p>Years In Business</p>
+                    </div>
+                    <div class="overview-stat-card">
+                        <div class="overview-stat-icon">&#128101;</div>
+                        <h4>{{REVIEW_COUNT}}+</h4>
+                        <p>Happy Customers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         MAIN SERVICES GRID - 6 Detailed Cards
+         ============================================ -->
+    <section class="services-main section-pad" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Expertise</span>
+                <h2>Professional Services We Offer</h2>
+                <p>
+                    Explore our full range of professional services. Each one is
+                    backed by years of expertise and an unwavering commitment to quality.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service Card 1 -->
+                <div class="service-card">
+                    <div class="service-card-header">
+                        <div class="service-icon">&#127968;</div>
+                        <div class="service-card-header-text">
+                            <h3>{{SERVICE_1}}</h3>
+                            <span class="service-tag">Core Service</span>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <p>{{SERVICE_DESC_1}}</p>
+                        <ul class="service-card-features">
+                            <li><span class="feat-dot"></span> {{SERVICE_1_FEATURE_1}}</li>
+                            <li><span class="feat-dot"></span> {{SERVICE_1_FEATURE_2}}</li>
+                            <li><span class="feat-dot"></span> {{SERVICE_1_FEATURE_3}}</li>
+                            <li><span class="feat-dot"></span> {{SERVICE_1_FEATURE_4}}</li>
+                        </ul>
+                        <a href="{{HOME_URL}}#contact" class="service-link">Learn More &#8594;</a>
+                    </div>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="service-card">
+                    <div class="service-card-header">
+                        <div class="service-icon">&#128295;</div>
+                        <div class="service-card-header-text">
+                            <h3>{{SERVICE_2}}</h3>
+                            <span class="service-tag">Core Service</span>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <p>{{SERVICE_DESC_2}}</p>
+                        <ul class="service-card-features">
+                            <li><span class="feat-dot"></span> {{SERVICE_2_FEATURE_1}}</li>
+                            <li><span class="feat-dot"></span> {{SERVICE_2_FEATURE_2}}</li>
+                            <li><span class="feat-dot"></span> {{SERVICE_2_FEATURE_3}}</li>
+                            <li><span class="feat-dot"></span> {{SERVICE_2_FEATURE_4}}</li>
+                        </ul>
+                        <a href="{{HOME_URL}}#contact" class="service-link">Learn More &#8594;</a>
+                    </div>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="service-card">
+                    <div class="service-card-header">
+                        <div class="service-icon">&#9881;</div>
+                        <div class="service-card-header-text">
+                            <h3>{{SERVICE_3}}</h3>
+                            <span class="service-tag">Specialized</span>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <p>{{SERVICE_DESC_3}}</p>
+                        <ul class="service-card-features">
+                            <li><span class="feat-dot"></span> {{SERVICE_3_FEATURE_1}}</li>
+                            <li><span class="feat-dot"></span> {{SERVICE_3_FEATURE_2}}</li>
+                            <li><span class="feat-dot"></span> {{SERVICE_3_FEATURE_3}}</li>
+                            <li><span class="feat-dot"></span> {{SERVICE_3_FEATURE_4}}</li>
+                        </ul>
+                        <a href="{{HOME_URL}}#contact" class="service-link">Learn More &#8594;</a>
+                    </div>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="service-card">
+                    <div class="service-card-header">
+                        <div class="service-icon">&#128681;</div>
+                        <div class="service-card-header-text">
+                            <h3>{{SERVICE_4}}</h3>
+                            <span class="service-tag">Specialized</span>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <p>{{SERVICE_DESC_4}}</p>
+                        <ul class="service-card-features">
+                            <li><span class="feat-dot"></span> {{SERVICE_4_FEATURE_1}}</li>
+                            <li><span class="feat-dot"></span> {{SERVICE_4_FEATURE_2}}</li>
+                            <li><span class="feat-dot"></span> {{SERVICE_4_FEATURE_3}}</li>
+                            <li><span class="feat-dot"></span> {{SERVICE_4_FEATURE_4}}</li>
+                        </ul>
+                        <a href="{{HOME_URL}}#contact" class="service-link">Learn More &#8594;</a>
+                    </div>
+                </div>
+
+                <!-- Service Card 5 -->
+                <div class="service-card">
+                    <div class="service-card-header">
+                        <div class="service-icon">&#127919;</div>
+                        <div class="service-card-header-text">
+                            <h3>{{SERVICE_5}}</h3>
+                            <span class="service-tag">Premium</span>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <p>{{SERVICE_DESC_5}}</p>
+                        <ul class="service-card-features">
+                            <li><span class="feat-dot"></span> {{SERVICE_5_FEATURE_1}}</li>
+                            <li><span class="feat-dot"></span> {{SERVICE_5_FEATURE_2}}</li>
+                            <li><span class="feat-dot"></span> {{SERVICE_5_FEATURE_3}}</li>
+                            <li><span class="feat-dot"></span> {{SERVICE_5_FEATURE_4}}</li>
+                        </ul>
+                        <a href="{{HOME_URL}}#contact" class="service-link">Learn More &#8594;</a>
+                    </div>
+                </div>
+
+                <!-- Service Card 6 -->
+                <div class="service-card">
+                    <div class="service-card-header">
+                        <div class="service-icon">&#128170;</div>
+                        <div class="service-card-header-text">
+                            <h3>{{SERVICE_6}}</h3>
+                            <span class="service-tag">Premium</span>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <p>{{SERVICE_DESC_6}}</p>
+                        <ul class="service-card-features">
+                            <li><span class="feat-dot"></span> {{SERVICE_6_FEATURE_1}}</li>
+                            <li><span class="feat-dot"></span> {{SERVICE_6_FEATURE_2}}</li>
+                            <li><span class="feat-dot"></span> {{SERVICE_6_FEATURE_3}}</li>
+                            <li><span class="feat-dot"></span> {{SERVICE_6_FEATURE_4}}</li>
+                        </ul>
+                        <a href="{{HOME_URL}}#contact" class="service-link">Learn More &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         PROCESS - How We Work
+         ============================================ -->
+    <section class="process section-pad" id="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Process</span>
+                <h2>How We Deliver Results</h2>
+                <p>
+                    A streamlined, transparent process that keeps you informed
+                    at every step &mdash; from first call to final inspection.
+                </p>
+            </div>
+
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="process-step-number">1</div>
+                    <h4>Free Consultation</h4>
+                    <p>
+                        Contact us by phone or form. We discuss your needs,
+                        timeline, and schedule an on-site assessment at no cost.
+                    </p>
+                </div>
+
+                <div class="process-step">
+                    <div class="process-step-number">2</div>
+                    <h4>Detailed Estimate</h4>
+                    <p>
+                        We inspect the project area, take measurements, and
+                        provide a transparent, itemized quote with no hidden fees.
+                    </p>
+                </div>
+
+                <div class="process-step">
+                    <div class="process-step-number">3</div>
+                    <h4>Expert Execution</h4>
+                    <p>
+                        Our skilled crew handles the work with precision using
+                        premium materials. We keep the site clean and on schedule.
+                    </p>
+                </div>
+
+                <div class="process-step">
+                    <div class="process-step-number">4</div>
+                    <h4>Final Walkthrough</h4>
+                    <p>
+                        We walk through every detail with you, ensuring complete
+                        satisfaction before the project is marked as done.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SERVICE AREAS / COVERAGE
+         ============================================ -->
+    <section class="coverage section-pad" id="coverage">
+        <div class="container">
+            <div class="coverage-inner">
+                <div class="coverage-text">
+                    <span class="section-label">Service Areas</span>
+                    <h2>Proudly Serving <span class="accent">{{CITY}}</span> &amp; Beyond</h2>
+                    <p>
+                        We provide professional services across {{CITY}} and surrounding
+                        communities. No matter where you are in our service area, you can
+                        count on the same exceptional quality and reliability.
+                    </p>
+
+                    <div class="coverage-areas">
+                        <div class="coverage-area-item">
+                            <span class="area-pin">&#128205;</span>
+                            {{CITY}}
+                        </div>
+                        <div class="coverage-area-item">
+                            <span class="area-pin">&#128205;</span>
+                            {{NEARBY_CITY_1}}
+                        </div>
+                        <div class="coverage-area-item">
+                            <span class="area-pin">&#128205;</span>
+                            {{NEARBY_CITY_2}}
+                        </div>
+                        <div class="coverage-area-item">
+                            <span class="area-pin">&#128205;</span>
+                            {{NEARBY_CITY_3}}
+                        </div>
+                        <div class="coverage-area-item">
+                            <span class="area-pin">&#128205;</span>
+                            {{NEARBY_CITY_4}}
+                        </div>
+                        <div class="coverage-area-item">
+                            <span class="area-pin">&#128205;</span>
+                            {{NEARBY_CITY_5}}
+                        </div>
+                        <div class="coverage-area-item">
+                            <span class="area-pin">&#128205;</span>
+                            {{NEARBY_CITY_6}}
+                        </div>
+                        <div class="coverage-area-item">
+                            <span class="area-pin">&#128205;</span>
+                            {{NEARBY_CITY_7}}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="coverage-map-wrap">
+                    <div class="coverage-map-icon">&#127759;</div>
+                    <h4>Serving {{STATE}} Statewide</h4>
+                    <p>
+                        Professional services available throughout the
+                        greater {{CITY}} metropolitan area and beyond.
+                    </p>
+                    <div class="coverage-map-badge">
+                        &#10003; Licensed in {{STATE}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         WHY CHOOSE US
+         ============================================ -->
+    <section class="why-choose section-pad" id="why-us">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Why Us</span>
+                <h2>The {{COMPANY_NAME}} Advantage</h2>
+                <p>
+                    What sets us apart from the competition? Here are the
+                    reasons our clients choose us again and again.
+                </p>
+            </div>
+
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-card-icon"><span>&#128176;</span></div>
+                    <h4>Transparent Pricing</h4>
+                    <p>
+                        Honest, upfront quotes with no hidden fees. You know
+                        exactly what to expect before work begins.
+                    </p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-card-icon"><span>&#128198;</span></div>
+                    <h4>On-Time Guarantee</h4>
+                    <p>
+                        We respect your time. Projects are completed on
+                        schedule, every time &mdash; guaranteed.
+                    </p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-card-icon"><span>&#127942;</span></div>
+                    <h4>Quality Materials</h4>
+                    <p>
+                        We use only premium-grade materials from trusted
+                        suppliers for lasting, beautiful results.
+                    </p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-card-icon"><span>&#128274;</span></div>
+                    <h4>Fully Licensed</h4>
+                    <p>
+                        Licensed, bonded, and insured for your complete
+                        peace of mind on every single project.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         PACKAGES / TIERS
+         ============================================ -->
+    <section class="packages section-pad" id="packages">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Packages</span>
+                <h2>Service Packages for Every Budget</h2>
+                <p>
+                    Choose the service level that fits your project scope and
+                    budget. All packages include our quality guarantee.
+                </p>
+            </div>
+
+            <div class="packages-grid">
+                <!-- Basic Package -->
+                <div class="package-card">
+                    <div class="package-icon">&#128204;</div>
+                    <h3>{{PACKAGE_1_NAME}}</h3>
+                    <p class="package-desc">{{PACKAGE_1_DESC}}</p>
+                    <div class="package-price">{{PACKAGE_1_PRICE}}</div>
+                    <div class="package-price-note">Starting price &middot; Free estimate</div>
+                    <ul class="package-features">
+                        <li><span class="pkg-check">&#10003;</span> {{PACKAGE_1_FEATURE_1}}</li>
+                        <li><span class="pkg-check">&#10003;</span> {{PACKAGE_1_FEATURE_2}}</li>
+                        <li><span class="pkg-check">&#10003;</span> {{PACKAGE_1_FEATURE_3}}</li>
+                        <li><span class="pkg-check">&#10003;</span> {{PACKAGE_1_FEATURE_4}}</li>
+                    </ul>
+                    <a href="{{HOME_URL}}#contact" class="btn-package">Get Started &#8594;</a>
+                </div>
+
+                <!-- Standard Package (Featured) -->
+                <div class="package-card featured">
+                    <div class="package-icon">&#9733;</div>
+                    <h3>{{PACKAGE_2_NAME}}</h3>
+                    <p class="package-desc">{{PACKAGE_2_DESC}}</p>
+                    <div class="package-price">{{PACKAGE_2_PRICE}}</div>
+                    <div class="package-price-note">Most popular &middot; Best value</div>
+                    <ul class="package-features">
+                        <li><span class="pkg-check">&#10003;</span> {{PACKAGE_2_FEATURE_1}}</li>
+                        <li><span class="pkg-check">&#10003;</span> {{PACKAGE_2_FEATURE_2}}</li>
+                        <li><span class="pkg-check">&#10003;</span> {{PACKAGE_2_FEATURE_3}}</li>
+                        <li><span class="pkg-check">&#10003;</span> {{PACKAGE_2_FEATURE_4}}</li>
+                        <li><span class="pkg-check">&#10003;</span> {{PACKAGE_2_FEATURE_5}}</li>
+                    </ul>
+                    <a href="{{HOME_URL}}#contact" class="btn-package">Get Started &#8594;</a>
+                </div>
+
+                <!-- Premium Package -->
+                <div class="package-card">
+                    <div class="package-icon">&#128142;</div>
+                    <h3>{{PACKAGE_3_NAME}}</h3>
+                    <p class="package-desc">{{PACKAGE_3_DESC}}</p>
+                    <div class="package-price">{{PACKAGE_3_PRICE}}</div>
+                    <div class="package-price-note">Premium tier &middot; Full service</div>
+                    <ul class="package-features">
+                        <li><span class="pkg-check">&#10003;</span> {{PACKAGE_3_FEATURE_1}}</li>
+                        <li><span class="pkg-check">&#10003;</span> {{PACKAGE_3_FEATURE_2}}</li>
+                        <li><span class="pkg-check">&#10003;</span> {{PACKAGE_3_FEATURE_3}}</li>
+                        <li><span class="pkg-check">&#10003;</span> {{PACKAGE_3_FEATURE_4}}</li>
+                        <li><span class="pkg-check">&#10003;</span> {{PACKAGE_3_FEATURE_5}}</li>
+                        <li><span class="pkg-check">&#10003;</span> {{PACKAGE_3_FEATURE_6}}</li>
+                    </ul>
+                    <a href="{{HOME_URL}}#contact" class="btn-package">Get Started &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         TESTIMONIAL STRIP
+         ============================================ -->
+    <section class="testimonial-strip section-pad" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Client Feedback</span>
+                <h2>What Our Clients Say</h2>
+                <p>
+                    Real reviews from real customers. See why {{CITY}} property
+                    owners trust {{COMPANY_NAME}} for their projects.
+                </p>
+            </div>
+
+            <div class="testimonial-cards">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <blockquote>
+                        &ldquo;{{TESTIMONIAL_1}}&rdquo;
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">{{REVIEWER_1_INITIAL}}</div>
+                        <div class="testimonial-author-info">
+                            <h5>{{REVIEWER_1_NAME}}</h5>
+                            <p>{{REVIEWER_1_LOCATION}}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <blockquote>
+                        &ldquo;{{TESTIMONIAL_2}}&rdquo;
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">{{REVIEWER_2_INITIAL}}</div>
+                        <div class="testimonial-author-info">
+                            <h5>{{REVIEWER_2_NAME}}</h5>
+                            <p>{{REVIEWER_2_LOCATION}}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <blockquote>
+                        &ldquo;{{TESTIMONIAL_3}}&rdquo;
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">{{REVIEWER_3_INITIAL}}</div>
+                        <div class="testimonial-author-info">
+                            <h5>{{REVIEWER_3_NAME}}</h5>
+                            <p>{{REVIEWER_3_LOCATION}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FAQ SECTION
+         ============================================ -->
+    <section class="faq section-pad" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">FAQ</span>
+                <h2>Frequently Asked Questions</h2>
+                <p>
+                    Got questions? We have answers. If you need more details,
+                    don't hesitate to give us a call at {{PHONE}}.
+                </p>
+            </div>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        {{FAQ_1_QUESTION}}
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer" role="region">
+                        <div class="faq-answer-inner">
+                            <p>{{FAQ_1_ANSWER}}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        {{FAQ_2_QUESTION}}
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer" role="region">
+                        <div class="faq-answer-inner">
+                            <p>{{FAQ_2_ANSWER}}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        {{FAQ_3_QUESTION}}
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer" role="region">
+                        <div class="faq-answer-inner">
+                            <p>{{FAQ_3_ANSWER}}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        {{FAQ_4_QUESTION}}
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer" role="region">
+                        <div class="faq-answer-inner">
+                            <p>{{FAQ_4_ANSWER}}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        {{FAQ_5_QUESTION}}
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer" role="region">
+                        <div class="faq-answer-inner">
+                            <p>{{FAQ_5_ANSWER}}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        {{FAQ_6_QUESTION}}
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer" role="region">
+                        <div class="faq-answer-inner">
+                            <p>{{FAQ_6_ANSWER}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         CTA BANNER
+         ============================================ -->
+    <section class="cta-banner" id="cta">
+        <div class="container">
+            <div class="cta-banner-inner">
+                <h2>Ready to Get Started?</h2>
+                <p>
+                    Contact {{COMPANY_NAME}} today for a free, no-obligation estimate.
+                    Let us show you why {{CITY}} property owners trust us with their
+                    most important projects.
+                </p>
+                <a href="{{HOME_URL}}#contact" class="btn-white">{{CTA_TEXT}} &#8594;</a>
+                <span class="cta-phone">
+                    Or call us directly at <a href="tel:{{PHONE}}">{{PHONE}}</a>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FOOTER - Dark steel
+         ============================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand Column -->
+                <div class="footer-brand">
+                    <h4><span>{{COMPANY_NAME}}</span></h4>
+                    <p>
+                        Professional {{SERVICE_1}} and {{SERVICE_2}} services in {{CITY}}.
+                        Licensed, insured, and committed to excellence on every project.
+                        Your satisfaction is our reputation.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="Instagram">in</a>
+                        <a href="#" aria-label="Google">G</a>
+                        <a href="#" aria-label="Yelp">Y</a>
+                    </div>
+                </div>
+
+                <!-- Services Column -->
+                <div class="footer-col">
+                    <h5>Services</h5>
+                    <ul>
+                        <li><a href="#services">{{SERVICE_1}}</a></li>
+                        <li><a href="#services">{{SERVICE_2}}</a></li>
+                        <li><a href="#services">{{SERVICE_3}}</a></li>
+                        <li><a href="#services">{{SERVICE_4}}</a></li>
+                        <li><a href="#services">{{SERVICE_5}}</a></li>
+                        <li><a href="#services">{{SERVICE_6}}</a></li>
+                    </ul>
+                </div>
+
+                <!-- Quick Links Column -->
+                <div class="footer-col">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="{{HOME_URL}}">Home</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#process">Our Process</a></li>
+                        <li><a href="#why-us">Why Choose Us</a></li>
+                        <li><a href="#testimonials">Client Reviews</a></li>
+                        <li><a href="{{HOME_URL}}#contact">Free Estimate</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                &copy; 2024 {{COMPANY_NAME}}. All rights reserved. Licensed &amp; Insured.
+                Serving {{CITY}} and surrounding areas.
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================
+         CHATBOT WIDGET
+         ============================================ -->
+    <button class="chatbot-toggle" id="chatbotToggle" aria-label="Open chat assistant">
+        &#128295;
+    </button>
+    <div class="chatbot-tooltip">Need help? Chat with us!</div>
+
+    <!-- ============================================
+         JAVASCRIPT
+         ============================================ -->
+    <script>
+        /* ---- Mobile Menu Toggle ---- */
+        (function() {
+            var hamburger = document.getElementById('hamburger');
+            var mobileMenu = document.getElementById('mobileMenu');
+
+            if (hamburger && mobileMenu) {
+                hamburger.addEventListener('click', function() {
+                    var isOpen = mobileMenu.classList.toggle('open');
+                    hamburger.classList.toggle('active');
+                    hamburger.setAttribute('aria-expanded', isOpen);
+                });
+
+                /* Close menu on link click */
+                var menuLinks = mobileMenu.querySelectorAll('a');
+                for (var i = 0; i < menuLinks.length; i++) {
+                    menuLinks[i].addEventListener('click', function() {
+                        mobileMenu.classList.remove('open');
+                        hamburger.classList.remove('active');
+                        hamburger.setAttribute('aria-expanded', 'false');
+                    });
+                }
+            }
+        })();
+
+        /* ---- Scroll-triggered nav shadow ---- */
+        (function() {
+            var nav = document.getElementById('nav');
+            var scrollThreshold = 10;
+
+            function handleScroll() {
+                if (window.scrollY > scrollThreshold) {
+                    nav.classList.add('scrolled');
+                } else {
+                    nav.classList.remove('scrolled');
+                }
+            }
+
+            window.addEventListener('scroll', handleScroll, { passive: true });
+            handleScroll();
+        })();
+
+        /* ---- FAQ Accordion Toggle ---- */
+        (function() {
+            var faqItems = document.querySelectorAll('.faq-item');
+
+            for (var i = 0; i < faqItems.length; i++) {
+                var question = faqItems[i].querySelector('.faq-question');
+
+                question.addEventListener('click', function() {
+                    var parent = this.closest('.faq-item');
+                    var isActive = parent.classList.contains('active');
+
+                    /* Close all items */
+                    for (var j = 0; j < faqItems.length; j++) {
+                        faqItems[j].classList.remove('active');
+                        faqItems[j].querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+                    }
+
+                    /* Open clicked item if it was closed */
+                    if (!isActive) {
+                        parent.classList.add('active');
+                        this.setAttribute('aria-expanded', 'true');
+                    }
+                });
+            }
+        })();
+
+        /* ---- Chatbot toggle placeholder ---- */
+        (function() {
+            var chatbotToggle = document.getElementById('chatbotToggle');
+
+            if (chatbotToggle) {
+                chatbotToggle.addEventListener('click', function() {
+                    alert('Chat feature coming soon! Call us at {{PHONE}} for immediate assistance.');
+                });
+            }
+        })();
+
+        /* ---- Smooth scroll for anchor links ---- */
+        (function() {
+            var links = document.querySelectorAll('a[href^="#"]');
+
+            for (var i = 0; i < links.length; i++) {
+                links[i].addEventListener('click', function(e) {
+                    var targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+
+                    var target = document.querySelector(targetId);
+                    if (target) {
+                        e.preventDefault();
+                        var navHeight = parseInt(
+                            getComputedStyle(document.documentElement)
+                                .getPropertyValue('--nav-height')
+                        ) || 56;
+                        var top = target.getBoundingClientRect().top + window.pageYOffset - navHeight;
+
+                        window.scrollTo({
+                            top: top,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            }
+        })();
+
+        /* ---- Scroll reveal animation ---- */
+        (function() {
+            var revealElements = document.querySelectorAll(
+                '.service-card, .process-step, .why-card, .package-card, .testimonial-card, .faq-item, .coverage-area-item, .overview-stat-card'
+            );
+
+            function checkReveal() {
+                var windowHeight = window.innerHeight;
+                for (var i = 0; i < revealElements.length; i++) {
+                    var el = revealElements[i];
+                    var rect = el.getBoundingClientRect();
+                    if (rect.top < windowHeight - 60) {
+                        el.classList.add('fade-up');
+                    }
+                }
+            }
+
+            window.addEventListener('scroll', checkReveal, { passive: true });
+            window.addEventListener('load', checkReveal);
+            checkReveal();
+        })();
+    </script>
+</body>
+</html>
