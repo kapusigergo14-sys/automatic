@@ -1459,5 +1459,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "contact@northendsmiles.com": {
+    "sentAt": "2026-04-14T18:06:53.148Z",
+    "messageId": "7f3f6ae7-5e9d-4363-8016-654936e2c314",
+    "company": "North End Dental",
+    "subject": "North End Dental — missing chatbot?",
+    "city": "Colorado Springs",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
