@@ -1,0 +1,212 @@
+{
+  "HU::fogorvos Budapest": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 7,
+    "totalNewLeads": 7,
+    "lastResultsCount": 15
+  },
+  "HU::fogászat Budapest": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 15
+  },
+  "HU::fogorvos Debrecen": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 9,
+    "totalNewLeads": 9,
+    "lastResultsCount": 15
+  },
+  "HU::fogászat Debrecen": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 15
+  },
+  "HU::fogorvos Szeged": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 11,
+    "totalNewLeads": 11,
+    "lastResultsCount": 14
+  },
+  "HU::fogászat Szeged": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 15
+  },
+  "HU::fogorvos Miskolc": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 7,
+    "totalNewLeads": 7,
+    "lastResultsCount": 13
+  },
+  "HU::fogászat Miskolc": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 15
+  },
+  "HU::fogorvos Pécs": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 8,
+    "totalNewLeads": 8,
+    "lastResultsCount": 14
+  },
+  "HU::fogászat Pécs": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 13
+  },
+  "HU::fogorvos Győr": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 9,
+    "totalNewLeads": 9,
+    "lastResultsCount": 14
+  },
+  "HU::fogászat Győr": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 14
+  },
+  "HU::fogorvos Nyíregyháza": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 6,
+    "totalNewLeads": 6,
+    "lastResultsCount": 13
+  },
+  "HU::fogorvos Kecskemét": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 10,
+    "totalNewLeads": 10,
+    "lastResultsCount": 14
+  },
+  "HU::fogorvos Székesfehérvár": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 9,
+    "totalNewLeads": 9,
+    "lastResultsCount": 14
+  },
+  "HU::fogászat Székesfehérvár": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 14
+  },
+  "HU::fogorvos Szombathely": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 5,
+    "totalNewLeads": 5,
+    "lastResultsCount": 11
+  },
+  "HU::fogorvos Szolnok": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 5,
+    "totalNewLeads": 5,
+    "lastResultsCount": 10
+  },
+  "HU::fogorvos Tatabánya": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 7,
+    "totalNewLeads": 7,
+    "lastResultsCount": 11
+  },
+  "HU::fogorvos Kaposvár": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 4,
+    "totalNewLeads": 4,
+    "lastResultsCount": 11
+  },
+  "HU::fogorvos Veszprém": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 10,
+    "totalNewLeads": 10,
+    "lastResultsCount": 13
+  },
+  "HU::fogorvos Békéscsaba": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 9
+  },
+  "HU::fogorvos Zalaegerszeg": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 5,
+    "totalNewLeads": 5,
+    "lastResultsCount": 12
+  },
+  "HU::fogorvos Sopron": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 12,
+    "totalNewLeads": 12,
+    "lastResultsCount": 15
+  },
+  "HU::fogorvos Eger": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 10
+  },
+  "HU::fogorvos Nagykanizsa": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 4,
+    "totalNewLeads": 4,
+    "lastResultsCount": 8
+  },
+  "HU::fogorvos Dunaújváros": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 4,
+    "totalNewLeads": 4,
+    "lastResultsCount": 8
+  },
+  "HU::fogorvos Hódmezővásárhely": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 8
+  },
+  "HU::fogorvos Salgótarján": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 6
+  },
+  "HU::fogorvos Esztergom": {
+    "lastRunAt": "2026-04-14T20:06:15.760Z",
+    "totalRuns": 1,
+    "lastNewLeads": 8,
+    "totalNewLeads": 8,
+    "lastResultsCount": 13
+  }
+}

@@ -36,6 +36,50 @@ const OUT_DIR = path.resolve(__dirname, '../output/dental-campaign');
 const V4_STATE_FILE = path.resolve(__dirname, '../output/dental-campaign/send-state.json');
 const V5_STATE_FILE = path.resolve(__dirname, '../output/v5-campaign/send-state-v5.json');
 const LEADS_FILE = path.resolve(__dirname, '../output/leads/dental-v5-modern.json');
+const CITY_PROGRESS_FILE = path.resolve(__dirname, '../output/v5-campaign/city-progress.json');
+
+// ── Smart query rotation state ──
+interface CityProgress {
+  lastRunAt: string;        // ISO timestamp
+  totalRuns: number;
+  lastNewLeads: number;     // qualified leads added in last run
+  totalNewLeads: number;    // cumulative qualified leads
+  lastResultsCount: number; // raw Google Places results count
+}
+
+function makeQueryKey(country: string, query: string): string {
+  return `${country}::${query}`;
+}
+
+function loadCityProgress(): Record<string, CityProgress> {
+  if (!fs.existsSync(CITY_PROGRESS_FILE)) return {};
+  try {
+    return JSON.parse(fs.readFileSync(CITY_PROGRESS_FILE, 'utf-8'));
+  } catch {
+    return {};
+  }
+}
+
+function saveCityProgress(progress: Record<string, CityProgress>): void {
+  fs.mkdirSync(path.dirname(CITY_PROGRESS_FILE), { recursive: true });
+  fs.writeFileSync(CITY_PROGRESS_FILE, JSON.stringify(progress, null, 2));
+}
+
+function shouldRunQuery(
+  key: string,
+  progress: Record<string, CityProgress>,
+  cooldownDays: number
+): { run: boolean; reason: string } {
+  const entry = progress[key];
+  if (!entry) return { run: true, reason: 'never run' };
+  const ageMs = Date.now() - new Date(entry.lastRunAt).getTime();
+  const ageDays = ageMs / (24 * 3600 * 1000);
+  // Strict cooldown: don't re-run within N days regardless of yield.
+  // (No new dental practice opens within hours/days. Re-running would just
+  // hit the cached Google Places result set and cost API quota for nothing.)
+  if (ageDays >= cooldownDays) return { run: true, reason: `>${cooldownDays}d cooldown ok` };
+  return { run: false, reason: `cooled (${ageDays.toFixed(1)}d ago)` };
+}
 
 interface V5Lead {
   name: string;
@@ -56,14 +100,20 @@ function parseArgs() {
   let concurrency = 10;
   let resume = false;
   let marketsRaw = '';
+  let maxQueries = 50;
+  let minCooldownDays = 7;
+  let resetProgress = false;
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--limit') { limit = parseInt(args[i + 1], 10); i++; }
     if (args[i] === '--concurrency') { concurrency = parseInt(args[i + 1], 10); i++; }
     if (args[i] === '--resume') resume = true;
     if (args[i] === '--markets' && args[i + 1]) { marketsRaw = args[i + 1]; i++; }
+    if (args[i] === '--max-queries') { maxQueries = parseInt(args[i + 1], 10); i++; }
+    if (args[i] === '--min-cooldown-days') { minCooldownDays = parseInt(args[i + 1], 10); i++; }
+    if (args[i] === '--reset-progress') resetProgress = true;
   }
   const markets = parseMarketList(marketsRaw);
-  return { limit, concurrency, resume, markets };
+  return { limit, concurrency, resume, markets, maxQueries, minCooldownDays, resetProgress };
 }
 
 
@@ -190,6 +240,7 @@ interface Candidate {
   phone?: string;
   city: string;
   country: string;
+  sourceQueryKey?: string;
 }
 
 interface ProcessResult {
@@ -257,19 +308,73 @@ async function parallelMap<T, R>(items: T[], concurrency: number, fn: (item: T, 
 
 // ── Main ──
 async function main() {
-  const { limit, concurrency, resume, markets } = parseArgs();
+  const { limit, concurrency, resume, markets, maxQueries, minCooldownDays, resetProgress } = parseArgs();
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
   fs.mkdirSync(path.dirname(LEADS_FILE), { recursive: true });
   fs.mkdirSync(path.dirname(V5_STATE_FILE), { recursive: true });
 
   // Resolve search queries from the requested markets
-  const SEARCH_QUERIES = getQueriesForMarkets(markets);
+  const ALL_QUERIES = getQueriesForMarkets(markets);
 
   console.log('🦷 AUTO DENTAL v5 — FAST COLLECT (modern/középszerű, NO CHATBOT)');
   console.log(`   Markets:     ${markets.join(', ')}`);
-  console.log(`   Queries:     ${SEARCH_QUERIES.length}`);
+  console.log(`   Queries:     ${ALL_QUERIES.length} total in selected markets`);
+  console.log(`   Max/run:     ${maxQueries}`);
+  console.log(`   Cooldown:    ${minCooldownDays} days`);
   console.log(`   Concurrency: ${concurrency}, target: ${limit} leads\n`);
+
+  // ── Smart query rotation ──
+  if (resetProgress) {
+    saveCityProgress({});
+    console.log('♻️  city-progress.json reset (--reset-progress)\n');
+  }
+  const cityProgress = loadCityProgress();
+
+  let neverRun = 0;
+  let dueAge = 0;
+  let cooledDown = 0;
+  const eligibleQueries: typeof ALL_QUERIES = [];
+  for (const q of ALL_QUERIES) {
+    const key = makeQueryKey(q.country, q.query);
+    const decision = shouldRunQuery(key, cityProgress, minCooldownDays);
+    if (decision.run) {
+      eligibleQueries.push(q);
+      if (decision.reason === 'never run') neverRun++;
+      else dueAge++;
+    } else {
+      cooledDown++;
+    }
+  }
+
+  // Cap to maxQueries — prefer never-run > due > recently-fertile order
+  const sorted = [...eligibleQueries].sort((a, b) => {
+    const ka = makeQueryKey(a.country, a.query);
+    const kb = makeQueryKey(b.country, b.query);
+    const ea = cityProgress[ka];
+    const eb = cityProgress[kb];
+    // never-run first
+    if (!ea && eb) return -1;
+    if (ea && !eb) return 1;
+    if (!ea && !eb) return 0;
+    // older first (older = more time has passed)
+    return new Date(ea!.lastRunAt).getTime() - new Date(eb!.lastRunAt).getTime();
+  });
+  const SEARCH_QUERIES = sorted.slice(0, maxQueries);
+
+  console.log('🔍 Smart rotation status:');
+  console.log(`   Never run:                  ${neverRun}`);
+  console.log(`   Due (>${minCooldownDays}d cooldown):       ${dueAge}`);
+  console.log(`   Cooled down (skip):         ${cooledDown}`);
+  console.log(`   Eligible total:             ${eligibleQueries.length}`);
+  console.log(`   To run this batch:          ${SEARCH_QUERIES.length} (max ${maxQueries})\n`);
+
+  if (SEARCH_QUERIES.length === 0) {
+    console.log('⏭️  All queries cooled down. Nothing to mine right now.');
+    console.log(`   Next eligible: wait until cooldown expires (${minCooldownDays} days from last run).`);
+    console.log('   Or: --reset-progress to force re-run, or expand markets.ts city lists.');
+    return;
+  }
 
   // Cross-dedup: v4 send-state + v5 send-state
   // IMPORTANT: only dedup by CUSTOM domains — public webmail providers (gmail, yahoo, etc)
@@ -309,6 +414,7 @@ async function main() {
   // STAGE 1 — Google Places (parallel 5 queries)
   console.log('═══ STAGE 1: Google Places search ═══\n');
   const allCandidates: Candidate[] = [];
+  const perQueryStats = new Map<string, { resultsCount: number; newQualified: number }>();
   const queryChunks: Array<typeof SEARCH_QUERIES> = [];
   for (let i = 0; i < SEARCH_QUERIES.length; i += 5) {
     queryChunks.push(SEARCH_QUERIES.slice(i, i + 5));
@@ -316,8 +422,10 @@ async function main() {
   for (const chunk of queryChunks) {
     const results = await Promise.all(chunk.map(async ({ query, country }) => {
       const places = await placesSearch(query);
+      const key = makeQueryKey(country, query);
+      perQueryStats.set(key, { resultsCount: places.length, newQualified: 0 });
       console.log(`  🔎 "${query}" → ${places.length}`);
-      return places.map(p => ({ ...p, country } as Candidate));
+      return places.map(p => ({ ...p, country, sourceQueryKey: key } as Candidate));
     }));
     for (const r of results) allCandidates.push(...r);
   }
@@ -357,6 +465,11 @@ async function main() {
       qualified++;
       qualifiedLeads.push(r.lead);
       fs.writeFileSync(LEADS_FILE, JSON.stringify(qualifiedLeads, null, 2));
+      // Credit this qualified lead to the source query
+      if (c.sourceQueryKey) {
+        const stat = perQueryStats.get(c.sourceQueryKey);
+        if (stat) stat.newQualified++;
+      }
       console.log(`  [${idx + 1}/${targetToProcess.length}] ✅ ${c.name.slice(0, 40)} | ${r.lead.email} | ${c.city} ${c.country} (total: ${qualified})`);
     } else {
       if (r.reason === 'has chatbot' || r.reason === 'has chatbot (contact page)') hasChatbotCount++;
@@ -371,15 +484,41 @@ async function main() {
     return r;
   });
 
+  // Update city-progress with this run's results
+  const nowIso = new Date().toISOString();
+  for (const q of SEARCH_QUERIES) {
+    const key = makeQueryKey(q.country, q.query);
+    const stat = perQueryStats.get(key) || { resultsCount: 0, newQualified: 0 };
+    const prev = cityProgress[key];
+    cityProgress[key] = {
+      lastRunAt: nowIso,
+      totalRuns: (prev?.totalRuns || 0) + 1,
+      lastNewLeads: stat.newQualified,
+      totalNewLeads: (prev?.totalNewLeads || 0) + stat.newQualified,
+      lastResultsCount: stat.resultsCount,
+    };
+  }
+  saveCityProgress(cityProgress);
+
+  // Compute exhausted count
+  const exhaustedThisRun = SEARCH_QUERIES.filter((q) => {
+    const stat = perQueryStats.get(makeQueryKey(q.country, q.query));
+    return stat && stat.newQualified === 0;
+  }).length;
+
   console.log(`\n${'═'.repeat(60)}`);
   console.log(`✅ v5 COLLECTION DONE`);
-  console.log(`   Candidates processed:   ${processed}`);
-  console.log(`   Qualified (no chatbot): ${qualified}`);
-  console.log(`   Skipped — has chatbot:  ${hasChatbotCount}`);
-  console.log(`   Skipped — no email:     ${noEmailCount}`);
-  console.log(`   Skipped — not modern:   ${notModernCount}`);
-  console.log(`   Skipped — fetch failed: ${fetchFailCount}`);
-  console.log(`   File:                   ${LEADS_FILE}`);
+  console.log(`   Queries run this batch:  ${SEARCH_QUERIES.length}`);
+  console.log(`     → exhausted (0 new):   ${exhaustedThisRun}`);
+  console.log(`     → fertile (>0 new):    ${SEARCH_QUERIES.length - exhaustedThisRun}`);
+  console.log(`   Candidates processed:    ${processed}`);
+  console.log(`   Qualified (no chatbot):  ${qualified}`);
+  console.log(`   Skipped — has chatbot:   ${hasChatbotCount}`);
+  console.log(`   Skipped — no email:      ${noEmailCount}`);
+  console.log(`   Skipped — not modern:    ${notModernCount}`);
+  console.log(`   Skipped — fetch failed:  ${fetchFailCount}`);
+  console.log(`   Leads file:              ${LEADS_FILE}`);
+  console.log(`   City progress:           ${CITY_PROGRESS_FILE}`);
   console.log(`${'═'.repeat(60)}\n`);
   console.log(`📧 To send:   npx ts-node scripts/send-dental-v5.ts\n`);
 }
