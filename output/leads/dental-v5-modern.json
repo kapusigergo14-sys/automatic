@@ -1,36 +1,25 @@
 [
   {
-    "name": "Broadmoor Dental",
-    "website": "http://broadmoordental.com/?utm_source=gbp&utm_medium=organic&utm_campaign=yext_listing",
-    "phone": "(719) 674-2651",
+    "name": "Colorado Dental Group",
+    "website": "https://coloradodentalgroup.com/",
+    "phone": "(719) 355-2700",
     "city": "Colorado Springs",
     "country": "US",
-    "email": "broadmoordental@mydentalmail.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:16.509Z"
-  },
-  {
-    "name": "Boulder Canyon Dental",
-    "website": "https://www.bouldercanyondental.com/",
-    "phone": "(970) 514-0662",
-    "city": "Boulder",
-    "country": "US",
-    "email": "frontdesk@bouldercanyondental.com",
+    "email": "colorado@coloradodentalgroup.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:17.459Z"
+    "collectedAt": "2026-04-14T17:58:46.057Z"
   },
   {
-    "name": "Ironwood Dental",
-    "website": "https://www.ironwooddentalaz.com/",
-    "phone": "(520) 888-2900",
-    "city": "Tucson",
+    "name": "North End Dental",
+    "website": "https://www.northendsmiles.com/",
+    "phone": "(719) 745-4464",
+    "city": "Colorado Springs",
     "country": "US",
-    "email": "info@ironwooddentalaz.com",
+    "email": "contact@northendsmiles.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:18.865Z"
+    "collectedAt": "2026-04-14T17:58:46.281Z"
   },
   {
     "name": "Radiant Dental Health",
@@ -41,7 +30,18 @@
     "email": "info@radiantdentalhealth.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:18.954Z"
+    "collectedAt": "2026-04-14T17:58:48.976Z"
+  },
+  {
+    "name": "Coronado Family Dental",
+    "website": "https://www.coronadofamilydentalnm.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing",
+    "phone": "(505) 557-4939",
+    "city": "Albuquerque",
+    "country": "US",
+    "email": "info@coronadofamilydentalnm.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:58:53.918Z"
   },
   {
     "name": "Avenues Dentistry",
@@ -52,7 +52,7 @@
     "email": "avenuesfamilydentistry@gmail.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:25.322Z"
+    "collectedAt": "2026-04-14T17:58:55.758Z"
   },
   {
     "name": "La Familia Dental Center",
@@ -63,7 +63,7 @@
     "email": "drwelker@lfmctr.org",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:27.070Z"
+    "collectedAt": "2026-04-14T17:58:57.188Z"
   },
   {
     "name": "East Mountain Dental",
@@ -74,7 +74,7 @@
     "email": "southprovo@platinumdentalservices.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:28.240Z"
+    "collectedAt": "2026-04-14T17:58:58.427Z"
   },
   {
     "name": "Capitol Dental",
@@ -85,7 +85,7 @@
     "email": "info@capitoldentalinc.com",
     "hasBooking": true,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:30.753Z"
+    "collectedAt": "2026-04-14T17:59:01.598Z"
   },
   {
     "name": "Ben Lomond Dental",
@@ -96,18 +96,7 @@
     "email": "northogdendental@gmail.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:31.056Z"
-  },
-  {
-    "name": "Anderton Dental Group",
-    "website": "http://www.andertondental.com/",
-    "phone": "(801) 621-1835",
-    "city": "South Ogden",
-    "country": "US",
-    "email": "staff@andertondental.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:32.370Z"
+    "collectedAt": "2026-04-14T17:59:01.874Z"
   },
   {
     "name": "Sunrise Dental Eugene",
@@ -118,7 +107,29 @@
     "email": "myeugenedentist@gmail.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:32.929Z"
+    "collectedAt": "2026-04-14T17:59:02.456Z"
+  },
+  {
+    "name": "Anderton Dental Group",
+    "website": "http://www.andertondental.com/",
+    "phone": "(801) 621-1835",
+    "city": "South Ogden",
+    "country": "US",
+    "email": "staff@andertondental.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T17:59:03.312Z"
+  },
+  {
+    "name": "Cornerstone Family Dentistry",
+    "website": "https://www.bendoregondentistry.com/",
+    "phone": "(541) 389-2885",
+    "city": "Bend",
+    "country": "US",
+    "email": "benddentist@gmail.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:05.473Z"
   },
   {
     "name": "Tacoma Family Dental",
@@ -129,18 +140,18 @@
     "email": "info@tacomafamilydental.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:36.473Z"
+    "collectedAt": "2026-04-14T17:59:05.625Z"
   },
   {
-    "name": "Barkley Village Family Dentistry",
-    "website": "http://barkleyvillagefamilydentistry.com/",
-    "phone": "(360) 733-1334",
+    "name": "Whatcom Dental",
+    "website": "https://whatcomdental.com/",
+    "phone": "(360) 255-5000",
     "city": "Bellingham",
     "country": "US",
-    "email": "barkleyvillagefamilydentistry@gmail.com",
+    "email": "whatcomdental@gmail.com",
     "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:39.653Z"
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:09.580Z"
   },
   {
     "name": "Anchorage Dental Arts",
@@ -151,18 +162,7 @@
     "email": "anchoragedentalarts@gci.net",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:41.197Z"
-  },
-  {
-    "name": "Ohana Dental Kahala",
-    "website": "https://www.ohanadentalhawaii.com/locations/ohana-dental-kahala-office/?utm_source=gmb&utm_medium=organic",
-    "phone": "(808) 735-7777",
-    "city": "Honolulu",
-    "country": "US",
-    "email": "kahala@ohanadentalhawaii.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:42.129Z"
+    "collectedAt": "2026-04-14T17:59:10.970Z"
   },
   {
     "name": "Kahala Smile Professionals",
@@ -173,7 +173,7 @@
     "email": "drcandacewada@gmail.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:42.509Z"
+    "collectedAt": "2026-04-14T17:59:12.411Z"
   },
   {
     "name": "Falls Dental",
@@ -184,7 +184,7 @@
     "email": "info@fallsdentalsf.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:42.926Z"
+    "collectedAt": "2026-04-14T17:59:12.704Z"
   },
   {
     "name": "Dental Essence",
@@ -195,7 +195,7 @@
     "email": "office@mydentalessence.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:42.934Z"
+    "collectedAt": "2026-04-14T17:59:12.832Z"
   },
   {
     "name": "Family Dental Center",
@@ -206,18 +206,7 @@
     "email": "info@familydentalcenter.org",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:43.649Z"
-  },
-  {
-    "name": "Great Plains Dental",
-    "website": "http://www.greatplainsdental.com/",
-    "phone": "(605) 339-2955",
-    "city": "Sioux Falls",
-    "country": "US",
-    "email": "admin@44interactive.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:43.774Z"
+    "collectedAt": "2026-04-14T17:59:12.966Z"
   },
   {
     "name": "Park Center Dental Care",
@@ -228,40 +217,7 @@
     "email": "info@parkcenterdentalcare.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:43.785Z"
-  },
-  {
-    "name": "Dakota Dental",
-    "website": "http://www.dakotadentalsd.com/",
-    "phone": "(605) 332-6377",
-    "city": "Sioux Falls",
-    "country": "US",
-    "email": "frontdesk@dakotadentalsd.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:44.589Z"
-  },
-  {
-    "name": "Saving Smiles Dentistry",
-    "website": "https://savingsmilesdentistry.com/",
-    "phone": "(701) 237-4297",
-    "city": "Fargo",
-    "country": "US",
-    "email": "info@savingsmilesdentistry.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:44.831Z"
-  },
-  {
-    "name": "South University Dental Associates",
-    "website": "https://southuniversitydental.com/",
-    "phone": "(701) 232-8884",
-    "city": "Fargo",
-    "country": "US",
-    "email": "office@southuniversitydental.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:45.093Z"
+    "collectedAt": "2026-04-14T17:59:13.514Z"
   },
   {
     "name": "Neighborhood Dental",
@@ -272,7 +228,18 @@
     "email": "nbd41@neighborhooddentalcare.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:45.307Z"
+    "collectedAt": "2026-04-14T17:59:13.643Z"
+  },
+  {
+    "name": "Saving Smiles Dentistry",
+    "website": "https://savingsmilesdentistry.com/",
+    "phone": "(701) 237-4297",
+    "city": "Fargo",
+    "country": "US",
+    "email": "info@savingsmilesdentistry.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:14.025Z"
   },
   {
     "name": "Vetter Dental",
@@ -283,7 +250,7 @@
     "email": "info@vetterdentalfargo.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:45.381Z"
+    "collectedAt": "2026-04-14T17:59:14.420Z"
   },
   {
     "name": "Northern Lights Dental",
@@ -294,29 +261,29 @@
     "email": "info@nldentalfargo.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:45.735Z"
+    "collectedAt": "2026-04-14T17:59:14.929Z"
   },
   {
-    "name": "Dental Care Fargo",
-    "website": "http://www.dentalcarefargo.com/",
-    "phone": "(701) 232-3379",
-    "city": "Fargo",
+    "name": "Dakota Dental",
+    "website": "http://www.dakotadentalsd.com/",
+    "phone": "(605) 332-6377",
+    "city": "Sioux Falls",
     "country": "US",
-    "email": "info@dentalcarefargo.com",
+    "email": "frontdesk@dakotadentalsd.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:45.756Z"
+    "collectedAt": "2026-04-14T17:59:15.121Z"
   },
   {
-    "name": "Cornerstone Dental",
-    "website": "https://www.cstonedentalfargo.com/",
-    "phone": "(701) 237-3583",
+    "name": "South University Dental Associates",
+    "website": "https://southuniversitydental.com/",
+    "phone": "(701) 232-8884",
     "city": "Fargo",
     "country": "US",
-    "email": "office@cstonedentalfargo.com",
-    "hasBooking": true,
+    "email": "office@southuniversitydental.com",
+    "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:45.931Z"
+    "collectedAt": "2026-04-14T17:59:15.135Z"
   },
   {
     "name": "10th Street Dental",
@@ -327,18 +294,29 @@
     "email": "frontoffice@moderndentalsiouxfalls.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:46.031Z"
+    "collectedAt": "2026-04-14T17:59:15.223Z"
   },
   {
-    "name": "Tronsgard and Sullivan, DDS, PC",
-    "website": "https://www.tronsgardsullivan.com/",
-    "phone": "(701) 232-6983",
+    "name": "Dental Care Fargo",
+    "website": "http://www.dentalcarefargo.com/",
+    "phone": "(701) 232-3379",
     "city": "Fargo",
     "country": "US",
-    "email": "office@tronsgardsullivan.com",
+    "email": "info@dentalcarefargo.com",
     "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T17:59:15.399Z"
+  },
+  {
+    "name": "Cornerstone Dental",
+    "website": "https://www.cstonedentalfargo.com/",
+    "phone": "(701) 237-3583",
+    "city": "Fargo",
+    "country": "US",
+    "email": "office@cstonedentalfargo.com",
+    "hasBooking": true,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:46.145Z"
+    "collectedAt": "2026-04-14T17:59:15.508Z"
   },
   {
     "name": "Karmazin Dental",
@@ -349,7 +327,18 @@
     "email": "info@karmazindental.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:46.279Z"
+    "collectedAt": "2026-04-14T17:59:15.716Z"
+  },
+  {
+    "name": "Tronsgard and Sullivan, DDS, PC",
+    "website": "https://www.tronsgardsullivan.com/",
+    "phone": "(701) 232-6983",
+    "city": "Fargo",
+    "country": "US",
+    "email": "office@tronsgardsullivan.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:15.722Z"
   },
   {
     "name": "Melinda Harr Dental",
@@ -360,18 +349,7 @@
     "email": "office@harrdds.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:46.788Z"
-  },
-  {
-    "name": "Arch Dental",
-    "website": "https://www.archdentalfargo.com/",
-    "phone": "(701) 235-6075",
-    "city": "Fargo",
-    "country": "US",
-    "email": "info@archdentalfargo.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:47.224Z"
+    "collectedAt": "2026-04-14T17:59:16.244Z"
   },
   {
     "name": "Valley Dental",
@@ -382,18 +360,18 @@
     "email": "smith@valleydentalfargo.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:47.288Z"
+    "collectedAt": "2026-04-14T17:59:16.827Z"
   },
   {
-    "name": "Concept Dentistry",
-    "website": "http://www.myconceptdentistry.com/",
-    "phone": "(701) 532-2500",
-    "city": "West Fargo",
+    "name": "Arch Dental",
+    "website": "https://www.archdentalfargo.com/",
+    "phone": "(701) 235-6075",
+    "city": "Fargo",
     "country": "US",
-    "email": "myconceptdentistry@gmail.com",
+    "email": "info@archdentalfargo.com",
     "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:47.386Z"
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:17.113Z"
   },
   {
     "name": "Midtown Dental",
@@ -404,7 +382,18 @@
     "email": "office@midtowndentalomaha.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:47.848Z"
+    "collectedAt": "2026-04-14T17:59:17.625Z"
+  },
+  {
+    "name": "Great Plains Dental",
+    "website": "http://www.greatplainsdental.com/",
+    "phone": "(605) 339-2955",
+    "city": "Sioux Falls",
+    "country": "US",
+    "email": "admin@44interactive.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T17:59:17.939Z"
   },
   {
     "name": "Briar Hills Dental",
@@ -415,7 +404,7 @@
     "email": "info@briarhillsdental.com",
     "hasBooking": true,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:48.239Z"
+    "collectedAt": "2026-04-14T17:59:18.545Z"
   },
   {
     "name": "Healthy Smiles Family Dentistry",
@@ -426,7 +415,7 @@
     "email": "thehealthysmiles@gmail.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:48.347Z"
+    "collectedAt": "2026-04-14T17:59:18.783Z"
   },
   {
     "name": "Capital Dental",
@@ -437,18 +426,7 @@
     "email": "contactus@mycapitaldental.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:48.774Z"
-  },
-  {
-    "name": "Pacific Hills Dental",
-    "website": "https://www.pacifichillsdental.com/",
-    "phone": "(402) 330-2243",
-    "city": "Omaha",
-    "country": "US",
-    "email": "office@pacifichillsdental.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:49.860Z"
+    "collectedAt": "2026-04-14T17:59:18.937Z"
   },
   {
     "name": "Today's Dental - Millard",
@@ -459,18 +437,7 @@
     "email": "tdmillard@mytodaysdental.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:49.878Z"
-  },
-  {
-    "name": "Roots Dental",
-    "website": "http://www.rootsdentalne.com/",
-    "phone": "(402) 413-6686",
-    "city": "Lincoln",
-    "country": "US",
-    "email": "hello@rootsdentalne.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:49.898Z"
+    "collectedAt": "2026-04-14T17:59:19.580Z"
   },
   {
     "name": "Antelope Creek Family Dentistry - Normal Blvd",
@@ -481,7 +448,73 @@
     "email": "info@antelopecreekfamilydentistry.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:50.145Z"
+    "collectedAt": "2026-04-14T17:59:20.164Z"
+  },
+  {
+    "name": "Pacific Hills Dental",
+    "website": "https://www.pacifichillsdental.com/",
+    "phone": "(402) 330-2243",
+    "city": "Omaha",
+    "country": "US",
+    "email": "office@pacifichillsdental.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:20.225Z"
+  },
+  {
+    "name": "Midlands Dental Group Omaha",
+    "website": "http://www.midlandsdentalgroup.com/",
+    "phone": "(402) 492-8300",
+    "city": "Omaha",
+    "country": "US",
+    "email": "info@midlandsdentalgroup.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T17:59:20.235Z"
+  },
+  {
+    "name": "NorthStar Dental - Nebraska Family Dentistry",
+    "website": "https://northstardentalne.com/",
+    "phone": "(402) 742-0000",
+    "city": "Lincoln",
+    "country": "US",
+    "email": "nebraskafamilydentistrynsd@gmail.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:20.313Z"
+  },
+  {
+    "name": "Coddington Dental - Nebraska Family Dentistry",
+    "website": "https://coddingtondental.com/",
+    "phone": "(402) 438-5555",
+    "city": "Lincoln",
+    "country": "US",
+    "email": "nebraskafamilydentistrycodd@gmail.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:20.446Z"
+  },
+  {
+    "name": "Roots Dental",
+    "website": "http://www.rootsdentalne.com/",
+    "phone": "(402) 413-6686",
+    "city": "Lincoln",
+    "country": "US",
+    "email": "hello@rootsdentalne.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T17:59:20.545Z"
+  },
+  {
+    "name": "Northeast Lincoln Family Dentistry - Nebraska Family Dentistry",
+    "website": "https://lincolndentistne.com/",
+    "phone": "(402) 890-8000",
+    "city": "Lincoln",
+    "country": "US",
+    "email": "nebraskafamilydentistrynelfd@gmail.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:20.800Z"
   },
   {
     "name": "East Wichita Dentist",
@@ -492,18 +525,7 @@
     "email": "info@eastwichitadentist.com",
     "hasBooking": true,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:50.948Z"
-  },
-  {
-    "name": "Wichita Dental Group, P.A.",
-    "website": "http://www.wichitadental.com/",
-    "phone": "(316) 265-0849",
-    "city": "Wichita",
-    "country": "US",
-    "email": "wdgteam@wichitadental.com",
-    "hasBooking": true,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:50.973Z"
+    "collectedAt": "2026-04-14T17:59:21.019Z"
   },
   {
     "name": "Humlicek Dental",
@@ -514,7 +536,18 @@
     "email": "info@humlicekfamilydental.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:51.217Z"
+    "collectedAt": "2026-04-14T17:59:21.239Z"
+  },
+  {
+    "name": "Wichita Dental Group, P.A.",
+    "website": "http://www.wichitadental.com/",
+    "phone": "(316) 265-0849",
+    "city": "Wichita",
+    "country": "US",
+    "email": "wdgteam@wichitadental.com",
+    "hasBooking": true,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T17:59:21.297Z"
   },
   {
     "name": "Dental Care of Wichita",
@@ -525,7 +558,7 @@
     "email": "info@dentalcareofwichita.com",
     "hasBooking": true,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:51.636Z"
+    "collectedAt": "2026-04-14T17:59:21.668Z"
   },
   {
     "name": "Auburn Family Dental : Wichita Dentist",
@@ -536,7 +569,18 @@
     "email": "admin@auburn-familydental.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:52.060Z"
+    "collectedAt": "2026-04-14T17:59:21.680Z"
+  },
+  {
+    "name": "Hillside Family Dentist, P.A.",
+    "website": "https://www.hillsidefamilydentist.com/?utm_source=extnet&utm_medium=yext&y_source=1_NTk2MTIxMjEtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "phone": "(316) 681-1530",
+    "city": "Wichita",
+    "country": "US",
+    "email": "office@hillsidefamilydentist.com",
+    "hasBooking": true,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:21.947Z"
   },
   {
     "name": "Westport Dental",
@@ -547,29 +591,7 @@
     "email": "topeka@familydentalks.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:52.195Z"
-  },
-  {
-    "name": "Shunga Family Dental Care",
-    "website": "https://shungafamilydental.com/",
-    "phone": "(785) 271-1002",
-    "city": "Topeka",
-    "country": "US",
-    "email": "shunga@familydentalks.com",
-    "hasBooking": true,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:52.563Z"
-  },
-  {
-    "name": "Admire Dental",
-    "website": "http://admiredentallincoln.com/",
-    "phone": "(402) 261-1135",
-    "city": "Lincoln",
-    "country": "US",
-    "email": "lincoln@admiredental.com",
-    "hasBooking": true,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:52.642Z"
+    "collectedAt": "2026-04-14T17:59:22.254Z"
   },
   {
     "name": "The Tooth Fairy",
@@ -580,7 +602,18 @@
     "email": "hello@rfuenzalida.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:52.709Z"
+    "collectedAt": "2026-04-14T17:59:22.391Z"
+  },
+  {
+    "name": "Shunga Family Dental Care",
+    "website": "https://shungafamilydental.com/",
+    "phone": "(785) 271-1002",
+    "city": "Topeka",
+    "country": "US",
+    "email": "shunga@familydentalks.com",
+    "hasBooking": true,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:22.407Z"
   },
   {
     "name": "Emerald Dental",
@@ -591,18 +624,7 @@
     "email": "info@theemeralddental.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:53.068Z"
-  },
-  {
-    "name": "Wichita Dental Co.",
-    "website": "https://www.wichitadentalco.com/",
-    "phone": "(316) 330-3011",
-    "city": "Wichita",
-    "country": "US",
-    "email": "info@wichitadentalco.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:53.280Z"
+    "collectedAt": "2026-04-14T17:59:22.711Z"
   },
   {
     "name": "Topeka Dental Clinic a part of Kansas Youth Dental",
@@ -613,7 +635,7 @@
     "email": "contact@youth-dental-kansas.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:53.293Z"
+    "collectedAt": "2026-04-14T17:59:22.822Z"
   },
   {
     "name": "Dove Dental Group",
@@ -624,18 +646,18 @@
     "email": "hello@dovedentalgroup.com",
     "hasBooking": true,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:53.789Z"
+    "collectedAt": "2026-04-14T17:59:23.411Z"
   },
   {
-    "name": "Lindsay Michael Dentistry",
-    "website": "http://www.frankjohnsondds.com/",
-    "phone": "(785) 357-7706",
-    "city": "Topeka",
+    "name": "Wichita Dental Co.",
+    "website": "https://www.wichitadentalco.com/",
+    "phone": "(316) 330-3011",
+    "city": "Wichita",
     "country": "US",
-    "email": "frankjohnsondental@aspidamail.com",
+    "email": "info@wichitadentalco.com",
     "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:54.262Z"
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:23.506Z"
   },
   {
     "name": "Elevate Dental Studio",
@@ -646,7 +668,7 @@
     "email": "info@elevatedentalmo.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:54.513Z"
+    "collectedAt": "2026-04-14T17:59:23.641Z"
   },
   {
     "name": "Kelly Dental of Springfield",
@@ -657,7 +679,7 @@
     "email": "info@kelly-dental.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:54.662Z"
+    "collectedAt": "2026-04-14T17:59:25.076Z"
   },
   {
     "name": "Quail Creek Dental",
@@ -668,40 +690,18 @@
     "email": "mattstunkel@gmail.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:54.863Z"
+    "collectedAt": "2026-04-14T17:59:25.604Z"
   },
   {
-    "name": "The Smile Spot-Springfield",
-    "website": "https://www.thesmilespot.com/location/springfield",
-    "phone": "(417) 275-6565",
-    "city": "Springfield",
-    "country": "US",
-    "email": "s2info@thesmilespot.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:55.401Z"
-  },
-  {
-    "name": "Columbia Center For Dentistry",
-    "website": "http://www.columbiacenterfordentistry.com/",
-    "phone": "(573) 446-2687",
+    "name": "All American Dental - Columbia",
+    "website": "https://allamericandentalmo.com/?utm_source=GMBListing&utm_medium=Organic",
+    "phone": "(573) 615-0016",
     "city": "Columbia",
     "country": "US",
-    "email": "columbiacenterfordentistryllc@gmail.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:55.810Z"
-  },
-  {
-    "name": "iTooth",
-    "website": "https://www.itooth.net/",
-    "phone": "(417) 459-4607",
-    "city": "Springfield",
-    "country": "US",
-    "email": "appointments@itooth.net",
+    "email": "aadfrontdesk2016@gmail.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:55.950Z"
+    "collectedAt": "2026-04-14T17:59:25.954Z"
   },
   {
     "name": "Davis & Miller General Dentistry",
@@ -712,29 +712,18 @@
     "email": "info@ddscolumbia.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:56.306Z"
+    "collectedAt": "2026-04-14T17:59:25.958Z"
   },
   {
-    "name": "Columbia Healthy Smiles",
-    "website": "https://www.columbiahealthysmiles.com/",
-    "phone": "(573) 875-7071",
-    "city": "Columbia",
+    "name": "iTooth",
+    "website": "https://www.itooth.net/",
+    "phone": "(417) 459-4607",
+    "city": "Springfield",
     "country": "US",
-    "email": "info@columbiahealthysmiles.com",
+    "email": "appointments@itooth.net",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:57.257Z"
-  },
-  {
-    "name": "Chase Patton, D.D.S.",
-    "website": "https://www.chasepattondds.com/",
-    "phone": "(573) 875-7040",
-    "city": "Columbia",
-    "country": "US",
-    "email": "info@chasepattondds.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:57.269Z"
+    "collectedAt": "2026-04-14T17:59:26.456Z"
   },
   {
     "name": "Topeka Oral Surgery",
@@ -745,18 +734,29 @@
     "email": "zellerbaker@topekaoralsurgery.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:57.617Z"
+    "collectedAt": "2026-04-14T17:59:26.500Z"
   },
   {
-    "name": "Columbia Family Dental",
-    "website": "https://columbiafamilydentalmo.com/",
-    "phone": "(573) 446-1775",
+    "name": "Columbia Center For Dentistry",
+    "website": "http://www.columbiacenterfordentistry.com/",
+    "phone": "(573) 446-2687",
     "city": "Columbia",
     "country": "US",
-    "email": "info@columbiafamilydentalmo.com",
+    "email": "columbiacenterfordentistryllc@gmail.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T17:59:26.510Z"
+  },
+  {
+    "name": "Columbia Healthy Smiles",
+    "website": "https://www.columbiahealthysmiles.com/",
+    "phone": "(573) 875-7071",
+    "city": "Columbia",
+    "country": "US",
+    "email": "info@columbiahealthysmiles.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:58.145Z"
+    "collectedAt": "2026-04-14T17:59:26.919Z"
   },
   {
     "name": "Moxie Dental",
@@ -767,18 +767,29 @@
     "email": "frontdesk@moxiedentalmo.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:58.163Z"
+    "collectedAt": "2026-04-14T17:59:27.277Z"
   },
   {
-    "name": "Bear Creek Family Dental",
-    "website": "http://www.bcfdental.com/",
-    "phone": "(573) 355-5870",
+    "name": "Chase Patton, D.D.S.",
+    "website": "https://www.chasepattondds.com/",
+    "phone": "(573) 875-7040",
     "city": "Columbia",
     "country": "US",
-    "email": "drshull@bcfdental.com",
+    "email": "info@chasepattondds.com",
     "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:58.545Z"
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:27.309Z"
+  },
+  {
+    "name": "Columbia Family Dental",
+    "website": "https://columbiafamilydentalmo.com/",
+    "phone": "(573) 446-1775",
+    "city": "Columbia",
+    "country": "US",
+    "email": "info@columbiafamilydentalmo.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:27.754Z"
   },
   {
     "name": "Plaza Dental Group",
@@ -789,7 +800,18 @@
     "email": "plazadentalgroup@toothemail.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:58.554Z"
+    "collectedAt": "2026-04-14T17:59:27.843Z"
+  },
+  {
+    "name": "Bear Creek Family Dental",
+    "website": "http://www.bcfdental.com/",
+    "phone": "(573) 355-5870",
+    "city": "Columbia",
+    "country": "US",
+    "email": "drshull@bcfdental.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T17:59:27.960Z"
   },
   {
     "name": "Kevin G. Jones, DDS",
@@ -800,7 +822,7 @@
     "email": "smile@jonesfamilydental.com",
     "hasBooking": true,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:56:59.361Z"
+    "collectedAt": "2026-04-14T17:59:28.670Z"
   },
   {
     "name": "32 Dental Urgent Care",
@@ -811,7 +833,7 @@
     "email": "info@32dentalurgent.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:56:59.889Z"
+    "collectedAt": "2026-04-14T17:59:28.903Z"
   },
   {
     "name": "Northwest Arkansas Family Dental",
@@ -822,7 +844,7 @@
     "email": "kiferdental@nwafamilydentist.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:00.201Z"
+    "collectedAt": "2026-04-14T17:59:29.415Z"
   },
   {
     "name": "River Dental",
@@ -833,18 +855,7 @@
     "email": "fayetteville@riverdentalar.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:00.901Z"
-  },
-  {
-    "name": "Downtown Dental Care",
-    "website": "https://www.ddclr.com/?utm_source=google.com&utm_medium=business+profile",
-    "phone": "(501) 216-1564",
-    "city": "Little Rock",
-    "country": "US",
-    "email": "info@ddclr.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:01.402Z"
+    "collectedAt": "2026-04-14T17:59:29.929Z"
   },
   {
     "name": "Sequoyah Dental",
@@ -855,7 +866,7 @@
     "email": "info@sequoyahdental.com",
     "hasBooking": true,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:01.462Z"
+    "collectedAt": "2026-04-14T17:59:30.203Z"
   },
   {
     "name": "Fish Family Dentistry",
@@ -866,18 +877,7 @@
     "email": "info@fishdentistry.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:01.675Z"
-  },
-  {
-    "name": "Barnes Family Dental",
-    "website": "https://www.drkellie.com/",
-    "phone": "(479) 443-8009",
-    "city": "Fayetteville",
-    "country": "US",
-    "email": "kelliebarnesdds@yahoo.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:01.866Z"
+    "collectedAt": "2026-04-14T17:59:30.305Z"
   },
   {
     "name": "Beavers & Broomfield Family Dentistry",
@@ -888,7 +888,29 @@
     "email": "office@bbdentistry.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:01.894Z"
+    "collectedAt": "2026-04-14T17:59:30.628Z"
+  },
+  {
+    "name": "Barnes Family Dental",
+    "website": "https://www.drkellie.com/",
+    "phone": "(479) 443-8009",
+    "city": "Fayetteville",
+    "country": "US",
+    "email": "kelliebarnesdds@yahoo.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:30.757Z"
+  },
+  {
+    "name": "Downtown Dental Care",
+    "website": "https://www.ddclr.com/?utm_source=google.com&utm_medium=business+profile",
+    "phone": "(501) 216-1564",
+    "city": "Little Rock",
+    "country": "US",
+    "email": "info@ddclr.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:30.897Z"
   },
   {
     "name": "Mississippi Smiles Dentistry",
@@ -899,29 +921,7 @@
     "email": "contact@mississippismilesdentistry.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:02.193Z"
-  },
-  {
-    "name": "Brad Jones DDS General Dentistry",
-    "website": "https://www.bradjonesdds.com/",
-    "phone": "(479) 521-3107",
-    "city": "Fayetteville",
-    "country": "US",
-    "email": "info@bradjonesdds.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:02.594Z"
-  },
-  {
-    "name": "Eastover Dental of Jackson",
-    "website": "https://eastoverdentalclinic.com/",
-    "phone": "(601) 353-8459",
-    "city": "Jackson",
-    "country": "US",
-    "email": "eastover@garnerdental.net",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:02.616Z"
+    "collectedAt": "2026-04-14T17:59:31.086Z"
   },
   {
     "name": "Sunnybrook Dentistry & Braces",
@@ -932,7 +932,18 @@
     "email": "contactsunnybrook@sunnybrookdentistry.com",
     "hasBooking": true,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:02.947Z"
+    "collectedAt": "2026-04-14T17:59:31.768Z"
+  },
+  {
+    "name": "Eastover Dental of Jackson",
+    "website": "https://eastoverdentalclinic.com/",
+    "phone": "(601) 353-8459",
+    "city": "Jackson",
+    "country": "US",
+    "email": "eastover@garnerdental.net",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:31.904Z"
   },
   {
     "name": "Jones Family Dentistry",
@@ -943,7 +954,7 @@
     "email": "team@latofonts.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:03.427Z"
+    "collectedAt": "2026-04-14T17:59:32.487Z"
   },
   {
     "name": "Dr. Carl H. Boykin, DDS",
@@ -954,7 +965,7 @@
     "email": "chboykin@hotmail.com",
     "hasBooking": true,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:03.731Z"
+    "collectedAt": "2026-04-14T17:59:32.825Z"
   },
   {
     "name": "Capital Dental, Inc | Dr. Will Umphlett",
@@ -965,7 +976,7 @@
     "email": "info@capitaldentalinc.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:03.791Z"
+    "collectedAt": "2026-04-14T17:59:32.831Z"
   },
   {
     "name": "Beach View Family Dental of Gulfport",
@@ -976,7 +987,7 @@
     "email": "beachview@garnerdental.net",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:04.054Z"
+    "collectedAt": "2026-04-14T17:59:32.847Z"
   },
   {
     "name": "Lakeland Family Dentistry",
@@ -987,7 +998,7 @@
     "email": "lakelandfamilydentistry207@gmail.com",
     "hasBooking": true,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:04.179Z"
+    "collectedAt": "2026-04-14T17:59:33.019Z"
   },
   {
     "name": "South Mississippi Smiles - Gulfport",
@@ -998,7 +1009,7 @@
     "email": "contact@smsmiles.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:04.181Z"
+    "collectedAt": "2026-04-14T17:59:33.151Z"
   },
   {
     "name": "Wheeler Family Dentistry",
@@ -1009,7 +1020,7 @@
     "email": "ewheel@bellsouth.net",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:04.304Z"
+    "collectedAt": "2026-04-14T17:59:33.247Z"
   },
   {
     "name": "Smile Gulf Coast",
@@ -1020,18 +1031,18 @@
     "email": "smileteam@smilegulfcoast.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:04.566Z"
+    "collectedAt": "2026-04-14T17:59:33.495Z"
   },
   {
-    "name": "Magic City Dentistry",
-    "website": "http://www.magiccitydentistry.com/",
-    "phone": "(205) 238-6800",
-    "city": "Birmingham",
+    "name": "Brad Jones DDS General Dentistry",
+    "website": "https://www.bradjonesdds.com/",
+    "phone": "(479) 521-3107",
+    "city": "Fayetteville",
     "country": "US",
-    "email": "kdixon.mcd@gmail.com",
+    "email": "info@bradjonesdds.com",
     "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:05.189Z"
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:33.763Z"
   },
   {
     "name": "Zimmerman Family Dentistry",
@@ -1042,7 +1053,18 @@
     "email": "zimmermandds@live.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:05.508Z"
+    "collectedAt": "2026-04-14T17:59:34.219Z"
+  },
+  {
+    "name": "Magic City Dentistry",
+    "website": "http://www.magiccitydentistry.com/",
+    "phone": "(205) 238-6800",
+    "city": "Birmingham",
+    "country": "US",
+    "email": "kdixon.mcd@gmail.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T17:59:34.277Z"
   },
   {
     "name": "Birmingham Dental",
@@ -1053,7 +1075,7 @@
     "email": "office@birminghamdental.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:05.549Z"
+    "collectedAt": "2026-04-14T17:59:34.344Z"
   },
   {
     "name": "Birmingham Family Dental Services",
@@ -1064,7 +1086,7 @@
     "email": "info@birminghamfamilydental.comor",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:05.645Z"
+    "collectedAt": "2026-04-14T17:59:34.793Z"
   },
   {
     "name": "Hall Dental",
@@ -1075,7 +1097,7 @@
     "email": "birminghamdmd@gmail.com",
     "hasBooking": true,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:06.585Z"
+    "collectedAt": "2026-04-14T17:59:35.540Z"
   },
   {
     "name": "Doug Lewis Dentistry",
@@ -1086,7 +1108,7 @@
     "email": "info@douglewisdmd.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:06.780Z"
+    "collectedAt": "2026-04-14T17:59:35.938Z"
   },
   {
     "name": "Papania Family Dentistry",
@@ -1097,7 +1119,7 @@
     "email": "pfd.catherine@gmail.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:07.520Z"
+    "collectedAt": "2026-04-14T17:59:36.736Z"
   },
   {
     "name": "Rabbit Creek Dental",
@@ -1108,7 +1130,7 @@
     "email": "info@rabbitcreekdental.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:08.260Z"
+    "collectedAt": "2026-04-14T17:59:36.959Z"
   },
   {
     "name": "Hollon and Taylor Dental - Mobile",
@@ -1119,7 +1141,7 @@
     "email": "info@mobilealdentist.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:08.919Z"
+    "collectedAt": "2026-04-14T17:59:37.305Z"
   },
   {
     "name": "Smile Center Mobile",
@@ -1130,7 +1152,7 @@
     "email": "info@smilecentermobile.com",
     "hasBooking": true,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:08.942Z"
+    "collectedAt": "2026-04-14T17:59:37.352Z"
   },
   {
     "name": "Dental Wellness Center of Birmingham",
@@ -1141,18 +1163,7 @@
     "email": "info@dentalwellnessbirmingham.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:09.336Z"
-  },
-  {
-    "name": "Dental Co. of Knoxville",
-    "website": "https://www.dentalcoknox.com/?utm_source=local&utm_medium=organic&utm_campaign=gbp_home",
-    "phone": "(865) 722-0239",
-    "city": "Knoxville",
-    "country": "US",
-    "email": "info@dentalcoknox.com",
-    "hasBooking": true,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:10.229Z"
+    "collectedAt": "2026-04-14T17:59:38.177Z"
   },
   {
     "name": "Dean Cosmetic Dentistry",
@@ -1163,18 +1174,18 @@
     "email": "info@deancosmeticdentistry.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:10.316Z"
+    "collectedAt": "2026-04-14T17:59:38.916Z"
   },
   {
-    "name": "Beaver Creek Dental",
-    "website": "http://beavercreekdental.com/",
-    "phone": "(865) 896-3065",
+    "name": "Dental Co. of Knoxville",
+    "website": "https://www.dentalcoknox.com/?utm_source=local&utm_medium=organic&utm_campaign=gbp_home",
+    "phone": "(865) 722-0239",
     "city": "Knoxville",
     "country": "US",
-    "email": "beavercreekdental@outlook.com",
+    "email": "info@dentalcoknox.com",
     "hasBooking": true,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:10.629Z"
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:39.154Z"
   },
   {
     "name": "Azalea Road Dental",
@@ -1185,7 +1196,18 @@
     "email": "info@azalearoaddental.com",
     "hasBooking": true,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:10.914Z"
+    "collectedAt": "2026-04-14T17:59:39.162Z"
+  },
+  {
+    "name": "Beaver Creek Dental",
+    "website": "http://beavercreekdental.com/",
+    "phone": "(865) 896-3065",
+    "city": "Knoxville",
+    "country": "US",
+    "email": "beavercreekdental@outlook.com",
+    "hasBooking": true,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T17:59:39.753Z"
   },
   {
     "name": "Higginbotham Family Dental",
@@ -1196,18 +1218,7 @@
     "email": "hilltophfd@higginbothamfamilydental.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:11.858Z"
-  },
-  {
-    "name": "Main Street Dental",
-    "website": "https://msdmemphis.com/",
-    "phone": "(901) 527-0716",
-    "city": "Memphis",
-    "country": "US",
-    "email": "appointments@msdmemphis.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:12.566Z"
+    "collectedAt": "2026-04-14T17:59:40.297Z"
   },
   {
     "name": "American Family Dentistry Memphis Poplar",
@@ -1218,7 +1229,7 @@
     "email": "afdmemphispoplar@mydentalmail.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:13.042Z"
+    "collectedAt": "2026-04-14T17:59:41.088Z"
   },
   {
     "name": "Cornerstone Dental Arts",
@@ -1229,7 +1240,7 @@
     "email": "info@whatasmile.com",
     "hasBooking": true,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:13.495Z"
+    "collectedAt": "2026-04-14T17:59:41.105Z"
   },
   {
     "name": "Walnut Grove Dental Group",
@@ -1240,18 +1251,29 @@
     "email": "frontdesk@walnutgrovedentalgroup.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:13.516Z"
+    "collectedAt": "2026-04-14T17:59:41.281Z"
   },
   {
-    "name": "Midtown Dental Studio of Mobile",
-    "website": "https://www.midtowndentalstudiollc.com/",
-    "phone": "(251) 471-1516",
-    "city": "Mobile",
+    "name": "Ginski Family Dentistry of Memphis",
+    "website": "https://dentistmemphistn.com/",
+    "phone": "(901) 763-1600",
+    "city": "Memphis",
     "country": "US",
-    "email": "midtown@garnerdental.net",
+    "email": "info@ginskidds.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:13.991Z"
+    "collectedAt": "2026-04-14T17:59:41.714Z"
+  },
+  {
+    "name": "Main Street Dental",
+    "website": "https://msdmemphis.com/",
+    "phone": "(901) 527-0716",
+    "city": "Memphis",
+    "country": "US",
+    "email": "appointments@msdmemphis.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:42.192Z"
   },
   {
     "name": "SOLA Dental",
@@ -1262,18 +1284,18 @@
     "email": "info@sola.dental",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:13.998Z"
+    "collectedAt": "2026-04-14T17:59:42.651Z"
   },
   {
-    "name": "Dental Artistry",
-    "website": "https://www.lafayettedentalartistry.com/",
-    "phone": "(337) 406-1110",
-    "city": "Lafayette",
+    "name": "Midtown Dental Studio of Mobile",
+    "website": "https://www.midtowndentalstudiollc.com/",
+    "phone": "(251) 471-1516",
+    "city": "Mobile",
     "country": "US",
-    "email": "info@sammonsdds.com",
+    "email": "midtown@garnerdental.net",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:14.766Z"
+    "collectedAt": "2026-04-14T17:59:43.954Z"
   },
   {
     "name": "Curtis H Roy",
@@ -1284,7 +1306,7 @@
     "email": "info@drcurtisroy.com",
     "hasBooking": true,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:15.353Z"
+    "collectedAt": "2026-04-14T17:59:44.131Z"
   },
   {
     "name": "Lafayette Dental Studio",
@@ -1295,18 +1317,7 @@
     "email": "lafayette.dental.studio@gmail.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:15.687Z"
-  },
-  {
-    "name": "Morgan Family Dentistry",
-    "website": "http://www.yourlafayettedentist.com/",
-    "phone": "(337) 534-8888",
-    "city": "Lafayette",
-    "country": "US",
-    "email": "morganfamilydentistry1@yahoo.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:15.853Z"
+    "collectedAt": "2026-04-14T17:59:44.704Z"
   },
   {
     "name": "Taylor Dental",
@@ -1317,7 +1328,29 @@
     "email": "contacttaylor@taylordentalgroup.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:15.863Z"
+    "collectedAt": "2026-04-14T17:59:44.739Z"
+  },
+  {
+    "name": "Dental Artistry",
+    "website": "https://www.lafayettedentalartistry.com/",
+    "phone": "(337) 406-1110",
+    "city": "Lafayette",
+    "country": "US",
+    "email": "info@sammonsdds.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:44.915Z"
+  },
+  {
+    "name": "Morgan Family Dentistry",
+    "website": "http://www.yourlafayettedentist.com/",
+    "phone": "(337) 534-8888",
+    "city": "Lafayette",
+    "country": "US",
+    "email": "morganfamilydentistry1@yahoo.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T17:59:45.110Z"
   },
   {
     "name": "Vintage Dental",
@@ -1328,18 +1361,7 @@
     "email": "vintagedental@lusfiber.net",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:16.641Z"
-  },
-  {
-    "name": "Bonaventure Dental Care",
-    "website": "https://bonaventuredental.com/?utm_source=gmb&utm_medium=organic",
-    "phone": "(225) 753-0123",
-    "city": "Baton Rouge",
-    "country": "US",
-    "email": "front@bonaventuredental.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:18.013Z"
+    "collectedAt": "2026-04-14T17:59:45.274Z"
   },
   {
     "name": "Shreveport Dental Solutions",
@@ -1350,7 +1372,7 @@
     "email": "hello@shreveportsdentist.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:18.336Z"
+    "collectedAt": "2026-04-14T17:59:47.356Z"
   },
   {
     "name": "College Family Dentistry",
@@ -1361,18 +1383,7 @@
     "email": "collegefamilydentistry@gmail.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:18.549Z"
-  },
-  {
-    "name": "Brush Dental",
-    "website": "http://www.brushdentalbr.com/",
-    "phone": "(225) 960-6447",
-    "city": "Baton Rouge",
-    "country": "US",
-    "email": "info@brushdentalbr.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:19.362Z"
+    "collectedAt": "2026-04-14T17:59:47.570Z"
   },
   {
     "name": "Southern Roots Dentistry",
@@ -1383,18 +1394,18 @@
     "email": "abby@srdentistry.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:19.396Z"
+    "collectedAt": "2026-04-14T17:59:47.982Z"
   },
   {
-    "name": "Baton Rouge Family Dentistry",
-    "website": "http://www.brfamilydentistry.com/",
-    "phone": "(225) 456-2222",
+    "name": "Bonaventure Dental Care",
+    "website": "https://bonaventuredental.com/?utm_source=gmb&utm_medium=organic",
+    "phone": "(225) 753-0123",
     "city": "Baton Rouge",
     "country": "US",
-    "email": "info@brfamilydentistry.com",
+    "email": "front@bonaventuredental.com",
     "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:19.583Z"
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:48.652Z"
   },
   {
     "name": "Broadmoor Family Dental Care",
@@ -1405,18 +1416,7 @@
     "email": "info@broadmoorfamilydental.org",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:19.670Z"
-  },
-  {
-    "name": "Crosstown Dental Group",
-    "website": "http://www.crosstowndentist.com/",
-    "phone": "(901) 881-1234",
-    "city": "Memphis",
-    "country": "US",
-    "email": "info@crosstowndentist.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:20.618Z"
+    "collectedAt": "2026-04-14T17:59:48.677Z"
   },
   {
     "name": "Superior Dentistry",
@@ -1427,7 +1427,29 @@
     "email": "info@superiordentistry.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:20.992Z"
+    "collectedAt": "2026-04-14T17:59:49.064Z"
+  },
+  {
+    "name": "Brush Dental",
+    "website": "http://www.brushdentalbr.com/",
+    "phone": "(225) 960-6447",
+    "city": "Baton Rouge",
+    "country": "US",
+    "email": "info@brushdentalbr.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T17:59:49.208Z"
+  },
+  {
+    "name": "Crosstown Dental Group",
+    "website": "http://www.crosstowndentist.com/",
+    "phone": "(901) 881-1234",
+    "city": "Memphis",
+    "country": "US",
+    "email": "info@crosstowndentist.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T17:59:50.602Z"
   },
   {
     "name": "Cormier Family Dentistry",
@@ -1438,18 +1460,7 @@
     "email": "adam@cormierfamilydentistry.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:20.998Z"
-  },
-  {
-    "name": "New Smile Dental",
-    "website": "https://www.newsmiledds.com/",
-    "phone": "(479) 434-4277",
-    "city": "Fort Smith",
-    "country": "US",
-    "email": "info@newsmiledds.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:21.495Z"
+    "collectedAt": "2026-04-14T17:59:51.595Z"
   },
   {
     "name": "Northside Dental - Fort Smith Dentist",
@@ -1460,7 +1471,7 @@
     "email": "dentistryfs@gmail.com",
     "hasBooking": true,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:22.643Z"
+    "collectedAt": "2026-04-14T17:59:52.201Z"
   },
   {
     "name": "Franklin Street Dentistry",
@@ -1471,7 +1482,7 @@
     "email": "info@franklinstreetdentistry.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:24.199Z"
+    "collectedAt": "2026-04-14T17:59:55.087Z"
   },
   {
     "name": "Kiefer Family Dental",
@@ -1482,73 +1493,7 @@
     "email": "kelsey.kiefer@kieferfamilydental.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:24.293Z"
-  },
-  {
-    "name": "Evansville Main Street Family Dental",
-    "website": "http://www.evansvillemainstreetfamilydental.com/",
-    "phone": "(812) 423-3426",
-    "city": "Evansville",
-    "country": "US",
-    "email": "template.placeholder@gmail.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:25.010Z"
-  },
-  {
-    "name": "Tri-State Family Dental Centers",
-    "website": "http://www.tristatefamilydental.com/",
-    "phone": "(812) 425-4206",
-    "city": "Evansville",
-    "country": "US",
-    "email": "tristate@tristatefamilydental.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:25.961Z"
-  },
-  {
-    "name": "Legacy Dental",
-    "website": "https://www.legacydentalfortwayne.com/",
-    "phone": "(260) 408-6540",
-    "city": "Fort Wayne",
-    "country": "US",
-    "email": "frontdesk@legacydentalfw.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:26.335Z"
-  },
-  {
-    "name": "Dupont Family Dentistry",
-    "website": "https://dupontfamilydentistry.com/",
-    "phone": "(260) 489-1100",
-    "city": "Fort Wayne",
-    "country": "US",
-    "email": "frontoffice@dupontfamilydentistry.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:26.956Z"
-  },
-  {
-    "name": "Tooth Acres Dentistry",
-    "website": "https://www.toothacresdentistry.com/",
-    "phone": "(260) 235-2992",
-    "city": "Fort Wayne",
-    "country": "US",
-    "email": "toothacres@outlook.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:27.208Z"
-  },
-  {
-    "name": "Summit Dental Group - Southwest Fort Wayne",
-    "website": "https://summitdentalgrp.com/p/dentist-Fort-Wayne-IN-Illinois-Rd-p50909.asp?utm_source=google&utm_medium=organic&utm_campaign=gbp",
-    "phone": "(260) 297-7081",
-    "city": "Fort Wayne",
-    "country": "US",
-    "email": "southwest@summitdentalgrp.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:27.299Z"
+    "collectedAt": "2026-04-14T17:59:55.150Z"
   },
   {
     "name": "Moore Dental Care",
@@ -1559,7 +1504,62 @@
     "email": "info@mooredentalcare.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:27.586Z"
+    "collectedAt": "2026-04-14T17:59:55.681Z"
+  },
+  {
+    "name": "Evansville Main Street Family Dental",
+    "website": "http://www.evansvillemainstreetfamilydental.com/",
+    "phone": "(812) 423-3426",
+    "city": "Evansville",
+    "country": "US",
+    "email": "template.placeholder@gmail.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T17:59:55.906Z"
+  },
+  {
+    "name": "Tri-State Family Dental Centers",
+    "website": "http://www.tristatefamilydental.com/",
+    "phone": "(812) 425-4206",
+    "city": "Evansville",
+    "country": "US",
+    "email": "tristate@tristatefamilydental.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T17:59:56.535Z"
+  },
+  {
+    "name": "Legacy Dental",
+    "website": "https://www.legacydentalfortwayne.com/",
+    "phone": "(260) 408-6540",
+    "city": "Fort Wayne",
+    "country": "US",
+    "email": "frontdesk@legacydentalfw.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:56.840Z"
+  },
+  {
+    "name": "Dupont Family Dentistry",
+    "website": "https://dupontfamilydentistry.com/",
+    "phone": "(260) 489-1100",
+    "city": "Fort Wayne",
+    "country": "US",
+    "email": "frontoffice@dupontfamilydentistry.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:57.237Z"
+  },
+  {
+    "name": "Summit Dental Group - Southwest Fort Wayne",
+    "website": "https://summitdentalgrp.com/p/dentist-Fort-Wayne-IN-Illinois-Rd-p50909.asp?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+    "phone": "(260) 297-7081",
+    "city": "Fort Wayne",
+    "country": "US",
+    "email": "southwest@summitdentalgrp.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T17:59:57.775Z"
   },
   {
     "name": "Lima Road Dentistry",
@@ -1570,29 +1570,18 @@
     "email": "office@bestdentistftwayne.com",
     "hasBooking": true,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:27.700Z"
+    "collectedAt": "2026-04-14T17:59:57.925Z"
   },
   {
-    "name": "Alex Rang Dentistry",
-    "website": "http://alexrangdds.com/",
-    "phone": "(812) 867-2414",
-    "city": "Evansville",
-    "country": "US",
-    "email": "alandry@alexrangdds.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:27.769Z"
-  },
-  {
-    "name": "Gebfert-Park Family Dentistry",
-    "website": "http://www.gebfertparkfamilydentistry.com/",
-    "phone": "(260) 490-4440",
+    "name": "Tooth Acres Dentistry",
+    "website": "https://www.toothacresdentistry.com/",
+    "phone": "(260) 235-2992",
     "city": "Fort Wayne",
     "country": "US",
-    "email": "info@gebfertparkfamilydentistry.com",
+    "email": "toothacres@outlook.com",
     "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:27.838Z"
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:58.050Z"
   },
   {
     "name": "Elite Dental",
@@ -1603,7 +1592,18 @@
     "email": "info@elitedentalfw.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:27.845Z"
+    "collectedAt": "2026-04-14T17:59:58.122Z"
+  },
+  {
+    "name": "Gebfert-Park Family Dentistry",
+    "website": "http://www.gebfertparkfamilydentistry.com/",
+    "phone": "(260) 490-4440",
+    "city": "Fort Wayne",
+    "country": "US",
+    "email": "info@gebfertparkfamilydentistry.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T17:59:58.224Z"
   },
   {
     "name": "Family Dental Health",
@@ -1614,7 +1614,18 @@
     "email": "dr.hendricks2016@gmail.com",
     "hasBooking": true,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:28.022Z"
+    "collectedAt": "2026-04-14T17:59:58.848Z"
+  },
+  {
+    "name": "DK Dental - Douglas Kosek DDS & Associates",
+    "website": "https://www.dkdentalsouthbend.com/?y_source=1_MTA1MDkyNjMxNS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "phone": "(574) 232-2992",
+    "city": "South Bend",
+    "country": "US",
+    "email": "ktowner@premierdentistpartners.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T17:59:59.880Z"
   },
   {
     "name": "Erskine Family Dentistry",
@@ -1625,18 +1636,18 @@
     "email": "smcdds@aol.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:29.302Z"
+    "collectedAt": "2026-04-14T17:59:59.903Z"
   },
   {
-    "name": "Akron Smiles Dental Center",
-    "website": "https://www.akronsmilesbright.com/?utm_source=GMBSocialClimb&utm_medium=AkronSmilesDentalCenter&scct=PN12733888c139cc316daaeb29410e0f22",
-    "phone": "(330) 208-1100",
-    "city": "Akron",
+    "name": "Alex Rang Dentistry",
+    "website": "http://alexrangdds.com/",
+    "phone": "(812) 867-2414",
+    "city": "Evansville",
     "country": "US",
-    "email": "info@akronsmilesbright.com",
+    "email": "alandry@alexrangdds.com",
     "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:29.418Z"
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T17:59:59.956Z"
   },
   {
     "name": "Arlington Dental",
@@ -1647,7 +1658,7 @@
     "email": "arlingtondentalgroup2785@gmail.com",
     "hasBooking": true,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:29.486Z"
+    "collectedAt": "2026-04-14T18:00:00.781Z"
   },
   {
     "name": "Firestone Family Dental",
@@ -1658,62 +1669,7 @@
     "email": "micah@micahrich.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:30.521Z"
-  },
-  {
-    "name": "AxessPointe Community Health Centers/Arlington",
-    "website": "https://axessfamilyservices.org/services/healthcare/axesspointe/",
-    "phone": "(330) 724-5471",
-    "city": "Akron",
-    "country": "US",
-    "email": "info@axessfamily.org",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:31.559Z"
-  },
-  {
-    "name": "Dayton Dental Care Unlimited",
-    "website": "http://www.dentalcaredayton.com/",
-    "phone": "(937) 278-7954",
-    "city": "Dayton",
-    "country": "US",
-    "email": "jatkin7@yahoo.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:31.633Z"
-  },
-  {
-    "name": "Rahn Dental",
-    "website": "http://rahndentalgroup.com/?utm_source=gbp&utm_medium=organic&utm_campaign=yext_listing",
-    "phone": "(937) 870-2538",
-    "city": "Dayton",
-    "country": "US",
-    "email": "rahndental@mydentalmail.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:32.965Z"
-  },
-  {
-    "name": "Dayton Comprehensive Dentistry",
-    "website": "https://www.dayton-dentistry.com/",
-    "phone": "(937) 253-3601",
-    "city": "Dayton",
-    "country": "US",
-    "email": "sarah@daytondental.me",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:32.978Z"
-  },
-  {
-    "name": "Advanced Dentistry of Dayton",
-    "website": "https://www.advanceddentistryofdayton.com/",
-    "phone": "(937) 848-5986",
-    "city": "Dayton",
-    "country": "US",
-    "email": "info@advanceddentistryofdayton.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:33.274Z"
+    "collectedAt": "2026-04-14T18:00:00.984Z"
   },
   {
     "name": "Van Buren Dental",
@@ -1724,7 +1680,51 @@
     "email": "vanburendental@woh.rr.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:33.288Z"
+    "collectedAt": "2026-04-14T18:00:02.187Z"
+  },
+  {
+    "name": "Dayton Dental Care Unlimited",
+    "website": "http://www.dentalcaredayton.com/",
+    "phone": "(937) 278-7954",
+    "city": "Dayton",
+    "country": "US",
+    "email": "jatkin7@yahoo.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:02.344Z"
+  },
+  {
+    "name": "Dayton Comprehensive Dentistry",
+    "website": "https://www.dayton-dentistry.com/",
+    "phone": "(937) 253-3601",
+    "city": "Dayton",
+    "country": "US",
+    "email": "sarah@daytondental.me",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:02.479Z"
+  },
+  {
+    "name": "Rahn Dental",
+    "website": "http://rahndentalgroup.com/?utm_source=gbp&utm_medium=organic&utm_campaign=yext_listing",
+    "phone": "(937) 870-2538",
+    "city": "Dayton",
+    "country": "US",
+    "email": "rahndental@mydentalmail.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:03.095Z"
+  },
+  {
+    "name": "Advanced Dentistry of Dayton",
+    "website": "https://www.advanceddentistryofdayton.com/",
+    "phone": "(937) 848-5986",
+    "city": "Dayton",
+    "country": "US",
+    "email": "info@advanceddentistryofdayton.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:03.443Z"
   },
   {
     "name": "Toledo Family Dental Care",
@@ -1735,29 +1735,18 @@
     "email": "toledofdc@mydentalmail.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:33.788Z"
+    "collectedAt": "2026-04-14T18:00:03.877Z"
   },
   {
-    "name": "Westgate Family Dental",
-    "website": "https://westgatefamilydental.com/",
-    "phone": "(419) 578-4110",
-    "city": "Toledo",
+    "name": "Akron Smiles Dental Center",
+    "website": "https://www.akronsmilesbright.com/?utm_source=GMBSocialClimb&utm_medium=AkronSmilesDentalCenter&scct=PN12733888c139cc316daaeb29410e0f22",
+    "phone": "(330) 208-1100",
+    "city": "Akron",
     "country": "US",
-    "email": "office@westgatefamilydental.com",
+    "email": "info@akronsmilesbright.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:33.798Z"
-  },
-  {
-    "name": "Corner Dental - Lewis",
-    "website": "https://cornerdental.com/corner-dental-lewis?y_source=1_NTkxODgzMC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
-    "phone": "(419) 481-9760",
-    "city": "Toledo",
-    "country": "US",
-    "email": "35501@nadentalgroup.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:34.154Z"
+    "collectedAt": "2026-04-14T18:00:03.949Z"
   },
   {
     "name": "Smiles of Toledo Dental",
@@ -1768,29 +1757,7 @@
     "email": "smilesoftoledo@gmail.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:34.166Z"
-  },
-  {
-    "name": "Oak Openings Dental",
-    "website": "http://oakopeningsdental.com/?utm_source=gbp&utm_medium=organic&utm_campaign=yext_listing",
-    "phone": "(419) 792-2419",
-    "city": "Toledo",
-    "country": "US",
-    "email": "oakopenings@mydentalmail.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:34.169Z"
-  },
-  {
-    "name": "Toledo Dental Arts",
-    "website": "https://www.toledodentist.com/?utm_source=google&utm_medium=google_business_profile&utm_campaign=website_click",
-    "phone": "(419) 537-5000",
-    "city": "Toledo",
-    "country": "US",
-    "email": "appointments@toledodentalarts.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:34.546Z"
+    "collectedAt": "2026-04-14T18:00:04.183Z"
   },
   {
     "name": "River East Dental Group",
@@ -1801,18 +1768,51 @@
     "email": "35506@nadentalgroup.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:34.690Z"
+    "collectedAt": "2026-04-14T18:00:04.387Z"
   },
   {
-    "name": "Jamboree Dental",
-    "website": "https://www.jamboreekidsdental.com/?utm_source=GMBSocialClimb&utm_medium=JamboreeDental",
-    "phone": "(330) 792-9600",
-    "city": "Youngstown",
+    "name": "Westgate Family Dental",
+    "website": "https://westgatefamilydental.com/",
+    "phone": "(419) 578-4110",
+    "city": "Toledo",
     "country": "US",
-    "email": "info@jamboreekidsdental.com",
+    "email": "office@westgatefamilydental.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:34.943Z"
+    "collectedAt": "2026-04-14T18:00:04.435Z"
+  },
+  {
+    "name": "Corner Dental - Lewis",
+    "website": "https://cornerdental.com/corner-dental-lewis?y_source=1_NTkxODgzMC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "phone": "(419) 481-9760",
+    "city": "Toledo",
+    "country": "US",
+    "email": "35501@nadentalgroup.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:04.501Z"
+  },
+  {
+    "name": "Toledo Dental Arts",
+    "website": "https://www.toledodentist.com/?utm_source=google&utm_medium=google_business_profile&utm_campaign=website_click",
+    "phone": "(419) 537-5000",
+    "city": "Toledo",
+    "country": "US",
+    "email": "appointments@toledodentalarts.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:04.960Z"
+  },
+  {
+    "name": "Oak Openings Dental",
+    "website": "http://oakopeningsdental.com/?utm_source=gbp&utm_medium=organic&utm_campaign=yext_listing",
+    "phone": "(419) 792-2419",
+    "city": "Toledo",
+    "country": "US",
+    "email": "oakopenings@mydentalmail.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:04.991Z"
   },
   {
     "name": "Great Smiles Family Dentistry",
@@ -1823,29 +1823,18 @@
     "email": "office@greatsmilestoledo.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:34.982Z"
+    "collectedAt": "2026-04-14T18:00:05.162Z"
   },
   {
-    "name": "DeChellis & Stonestreet Dentistry",
-    "website": "http://www.dechellisdentistry.com/",
-    "phone": "(330) 726-8060",
+    "name": "Jamboree Dental",
+    "website": "https://www.jamboreekidsdental.com/?utm_source=GMBSocialClimb&utm_medium=JamboreeDental",
+    "phone": "(330) 792-9600",
     "city": "Youngstown",
     "country": "US",
-    "email": "boardman@dechellisdentistry.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:35.205Z"
-  },
-  {
-    "name": "Midwest Dental Center",
-    "website": "https://midwestdental-center.com/",
-    "phone": "(419) 475-5450",
-    "city": "Toledo",
-    "country": "US",
-    "email": "midwestdental@ymail.com",
+    "email": "info@jamboreekidsdental.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:35.351Z"
+    "collectedAt": "2026-04-14T18:00:05.301Z"
   },
   {
     "name": "Dental Express",
@@ -1856,7 +1845,29 @@
     "email": "350002@nadentalgroup.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:35.603Z"
+    "collectedAt": "2026-04-14T18:00:05.612Z"
+  },
+  {
+    "name": "Midwest Dental Center",
+    "website": "https://midwestdental-center.com/",
+    "phone": "(419) 475-5450",
+    "city": "Toledo",
+    "country": "US",
+    "email": "midwestdental@ymail.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:05.667Z"
+  },
+  {
+    "name": "DeChellis & Stonestreet Dentistry",
+    "website": "http://www.dechellisdentistry.com/",
+    "phone": "(330) 726-8060",
+    "city": "Youngstown",
+    "country": "US",
+    "email": "boardman@dechellisdentistry.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:05.884Z"
   },
   {
     "name": "Refresh Dental",
@@ -1867,7 +1878,7 @@
     "email": "35009@nadentalgroup.om",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:35.842Z"
+    "collectedAt": "2026-04-14T18:00:06.162Z"
   },
   {
     "name": "Lake Erie Dental: Kevin Sambuchino, DMD",
@@ -1878,18 +1889,7 @@
     "email": "lakeeriedentalstaff@gmail.com",
     "hasBooking": true,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:36.082Z"
-  },
-  {
-    "name": "Hammerlee Dental Care",
-    "website": "https://hammerleedentalcare.com/?utm_source=Google&utm_medium=GMB&utm_campaign=Website",
-    "phone": "(814) 868-3647",
-    "city": "Erie",
-    "country": "US",
-    "email": "info@hammerleedentalcare.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:36.285Z"
+    "collectedAt": "2026-04-14T18:00:06.512Z"
   },
   {
     "name": "Merski Dental",
@@ -1900,7 +1900,18 @@
     "email": "info@merskidental.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:36.451Z"
+    "collectedAt": "2026-04-14T18:00:06.830Z"
+  },
+  {
+    "name": "Hammerlee Dental Care",
+    "website": "https://hammerleedentalcare.com/?utm_source=Google&utm_medium=GMB&utm_campaign=Website",
+    "phone": "(814) 868-3647",
+    "city": "Erie",
+    "country": "US",
+    "email": "info@hammerleedentalcare.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:08.201Z"
   },
   {
     "name": "Reichel Dental",
@@ -1911,7 +1922,7 @@
     "email": "info.reicheldental@gmail.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:36.673Z"
+    "collectedAt": "2026-04-14T18:00:08.443Z"
   },
   {
     "name": "Peach Street Dental & Dentures",
@@ -1922,18 +1933,7 @@
     "email": "info@peachstreetdental.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:36.808Z"
-  },
-  {
-    "name": "Dental Arts of Erie",
-    "website": "https://www.dentalartsoferie.com/",
-    "phone": "(814) 315-6209",
-    "city": "Erie",
-    "country": "US",
-    "email": "eben@eyebytes.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:37.009Z"
+    "collectedAt": "2026-04-14T18:00:08.818Z"
   },
   {
     "name": "David M. Hazzouri Dental",
@@ -1944,7 +1944,7 @@
     "email": "david@davidhazzouri.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:39.111Z"
+    "collectedAt": "2026-04-14T18:00:09.919Z"
   },
   {
     "name": "Fairmont Dental Associates",
@@ -1955,40 +1955,7 @@
     "email": "fairmontdental@hotmail.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:39.385Z"
-  },
-  {
-    "name": "CCDC Cedar Crest Dental Care",
-    "website": "http://ccdc.dentist/",
-    "phone": "(610) 437-9000",
-    "city": "Allentown",
-    "country": "US",
-    "email": "info@ccdc.dentist",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:40.127Z"
-  },
-  {
-    "name": "Brookside Dental Care",
-    "website": "https://brooksidesmiles.com/",
-    "phone": "(610) 686-9221",
-    "city": "Allentown",
-    "country": "US",
-    "email": "frontdesk@brooksidesmiles.com",
-    "hasBooking": true,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:40.244Z"
-  },
-  {
-    "name": "Risley Dental",
-    "website": "http://www.risleydental.com/",
-    "phone": "(610) 395-6965",
-    "city": "Allentown",
-    "country": "US",
-    "email": "risleydmd@gmail.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:40.679Z"
+    "collectedAt": "2026-04-14T18:00:10.486Z"
   },
   {
     "name": "Evolve Dental Care",
@@ -1999,18 +1966,40 @@
     "email": "frontdesk@evolvefamilydental.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:40.787Z"
+    "collectedAt": "2026-04-14T18:00:10.736Z"
   },
   {
-    "name": "Syracuse Family Dental",
-    "website": "http://syracusefamilydental.com/",
-    "phone": "(315) 218-6466",
-    "city": "Syracuse",
+    "name": "CCDC Cedar Crest Dental Care",
+    "website": "http://ccdc.dentist/",
+    "phone": "(610) 437-9000",
+    "city": "Allentown",
     "country": "US",
-    "email": "info@syrdental.com",
+    "email": "info@ccdc.dentist",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:41.311Z"
+    "collectedAt": "2026-04-14T18:00:11.028Z"
+  },
+  {
+    "name": "Brookside Dental Care",
+    "website": "https://brooksidesmiles.com/",
+    "phone": "(610) 686-9221",
+    "city": "Allentown",
+    "country": "US",
+    "email": "frontdesk@brooksidesmiles.com",
+    "hasBooking": true,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:11.162Z"
+  },
+  {
+    "name": "Risley Dental",
+    "website": "http://www.risleydental.com/",
+    "phone": "(610) 395-6965",
+    "city": "Allentown",
+    "country": "US",
+    "email": "risleydmd@gmail.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:11.969Z"
   },
   {
     "name": "SmileKrafters",
@@ -2021,18 +2010,18 @@
     "email": "info@smilekrafters.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:41.369Z"
+    "collectedAt": "2026-04-14T18:00:12.220Z"
   },
   {
-    "name": "Syracuse Dentist - Smiles By Design",
-    "website": "https://www.smilesbd.com/",
-    "phone": "(315) 474-1711",
+    "name": "Syracuse Family Dental",
+    "website": "http://syracusefamilydental.com/",
+    "phone": "(315) 218-6466",
     "city": "Syracuse",
     "country": "US",
-    "email": "info@smilesbd.com",
+    "email": "info@syrdental.com",
     "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:41.660Z"
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:12.351Z"
   },
   {
     "name": "James Street Dental Arts",
@@ -2043,18 +2032,18 @@
     "email": "info@jamesstreetdentalarts.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:41.824Z"
+    "collectedAt": "2026-04-14T18:00:12.746Z"
   },
   {
-    "name": "Berry Good Dental Care",
-    "website": "http://berrygooddental.com/?utm_source=gbp&utm_medium=organic&utm_campaign=yext_listing",
-    "phone": "(315) 904-9164",
+    "name": "Syracuse Dentist - Smiles By Design",
+    "website": "https://www.smilesbd.com/",
+    "phone": "(315) 474-1711",
     "city": "Syracuse",
     "country": "US",
-    "email": "berrygooddc@mydentalmail.com",
+    "email": "info@smilesbd.com",
     "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:42.144Z"
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:12.973Z"
   },
   {
     "name": "Anthony J Grasso Jr DDS",
@@ -2065,29 +2054,18 @@
     "email": "questions@syracusenydentist.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:42.152Z"
+    "collectedAt": "2026-04-14T18:00:13.056Z"
   },
   {
-    "name": "Cornerstone Dental, LLP",
-    "website": "https://cornerstonedentalny.com/",
-    "phone": "(585) 865-7030",
-    "city": "Rochester",
+    "name": "Berry Good Dental Care",
+    "website": "http://berrygooddental.com/?utm_source=gbp&utm_medium=organic&utm_campaign=yext_listing",
+    "phone": "(315) 904-9164",
+    "city": "Syracuse",
     "country": "US",
-    "email": "info@cornerstonedentalny.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:42.475Z"
-  },
-  {
-    "name": "East Avenue Dentistry PLLC",
-    "website": "http://www.eastavenuedentistry.com/",
-    "phone": "(585) 482-5504",
-    "city": "Rochester",
-    "country": "US",
-    "email": "1641@eastavenuedentistry.com",
+    "email": "berrygooddc@mydentalmail.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:42.554Z"
+    "collectedAt": "2026-04-14T18:00:13.434Z"
   },
   {
     "name": "Your Syracuse Family Dentist",
@@ -2098,7 +2076,29 @@
     "email": "ysfd@ysfd.biz",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:42.581Z"
+    "collectedAt": "2026-04-14T18:00:13.610Z"
+  },
+  {
+    "name": "Nardozza Salamino Dental Arts Group Affiliated with The Smilist Dental",
+    "website": "https://thesmilist.com/dentist-locations/upstate-new-york/syracuse-dentist/",
+    "phone": "(315) 468-1000",
+    "city": "Syracuse",
+    "country": "US",
+    "email": "patientcare@thesmilist.com",
+    "hasBooking": true,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:13.840Z"
+  },
+  {
+    "name": "Cornerstone Dental, LLP",
+    "website": "https://cornerstonedentalny.com/",
+    "phone": "(585) 865-7030",
+    "city": "Rochester",
+    "country": "US",
+    "email": "info@cornerstonedentalny.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:13.917Z"
   },
   {
     "name": "CNY Dental Arts PLLC",
@@ -2109,18 +2109,7 @@
     "email": "healthysmiles@cnydentalarts.com",
     "hasBooking": true,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:42.804Z"
-  },
-  {
-    "name": "Torrado Dental",
-    "website": "https://torradodental.com/?utm_source=Website&utm_medium=GMB",
-    "phone": "(585) 442-1900",
-    "city": "Brighton",
-    "country": "US",
-    "email": "generalmail@torradodental.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:42.982Z"
+    "collectedAt": "2026-04-14T18:00:13.992Z"
   },
   {
     "name": "Dr. Janice Pliszczak, DDS",
@@ -2131,7 +2120,18 @@
     "email": "info@onondagahilldentist.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:42.990Z"
+    "collectedAt": "2026-04-14T18:00:14.031Z"
+  },
+  {
+    "name": "East Avenue Dentistry PLLC",
+    "website": "http://www.eastavenuedentistry.com/",
+    "phone": "(585) 482-5504",
+    "city": "Rochester",
+    "country": "US",
+    "email": "1641@eastavenuedentistry.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:14.393Z"
   },
   {
     "name": "Gentle Dental Care of Rochester",
@@ -2142,18 +2142,7 @@
     "email": "contactus@rochestergentledentalpc.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:43.052Z"
-  },
-  {
-    "name": "Silver Maple Dental",
-    "website": "https://www.silvermaplerochester.com/",
-    "phone": "(585) 381-2600",
-    "city": "Rochester",
-    "country": "US",
-    "email": "smiles@silvermaplerochester.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:43.387Z"
+    "collectedAt": "2026-04-14T18:00:14.466Z"
   },
   {
     "name": "Full Heart Dentistry",
@@ -2164,18 +2153,7 @@
     "email": "smiles@fullheartdentistry.com",
     "hasBooking": true,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:43.643Z"
-  },
-  {
-    "name": "Christopher Santay DDS",
-    "website": "http://drsantaydds.com/",
-    "phone": "(315) 446-6477",
-    "city": "Syracuse",
-    "country": "US",
-    "email": "info@drsantaydds.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:43.662Z"
+    "collectedAt": "2026-04-14T18:00:14.820Z"
   },
   {
     "name": "Spinelli Dental",
@@ -2186,18 +2164,29 @@
     "email": "spinellidental@gmail.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:43.956Z"
+    "collectedAt": "2026-04-14T18:00:14.930Z"
   },
   {
-    "name": "Nickel City Dentistry",
-    "website": "http://www.nickelcitydentistry.com/",
-    "phone": "(716) 838-1415",
-    "city": "Buffalo",
+    "name": "Christopher Santay DDS",
+    "website": "http://drsantaydds.com/",
+    "phone": "(315) 446-6477",
+    "city": "Syracuse",
     "country": "US",
-    "email": "snyder@nickelcitydentistry.com",
+    "email": "info@drsantaydds.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:44.414Z"
+    "collectedAt": "2026-04-14T18:00:15.069Z"
+  },
+  {
+    "name": "Silver Maple Dental",
+    "website": "https://www.silvermaplerochester.com/",
+    "phone": "(585) 381-2600",
+    "city": "Rochester",
+    "country": "US",
+    "email": "smiles@silvermaplerochester.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:15.304Z"
   },
   {
     "name": "Winning Smiles - Buffalo",
@@ -2208,18 +2197,18 @@
     "email": "32009@nadentalgroup.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:44.429Z"
+    "collectedAt": "2026-04-14T18:00:16.649Z"
   },
   {
-    "name": "comfort dental",
-    "website": "http://www.comfortdental.us/",
-    "phone": "(716) 823-3030",
+    "name": "Nickel City Dentistry",
+    "website": "http://www.nickelcitydentistry.com/",
+    "phone": "(716) 838-1415",
     "city": "Buffalo",
     "country": "US",
-    "email": "info@comfortdental.us",
+    "email": "snyder@nickelcitydentistry.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:44.582Z"
+    "collectedAt": "2026-04-14T18:00:17.335Z"
   },
   {
     "name": "Smile Center Buffalo, NY",
@@ -2230,29 +2219,7 @@
     "email": "%20mail@smilecenterny.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:45.209Z"
-  },
-  {
-    "name": "Dental Wellness of Albany",
-    "website": "https://www.651dental.com/",
-    "phone": "(518) 427-2447",
-    "city": "Albany",
-    "country": "US",
-    "email": "651dental@gmail.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:45.559Z"
-  },
-  {
-    "name": "Albany Group Dental Practice",
-    "website": "https://albanygroupdental.com/",
-    "phone": "(518) 869-7167",
-    "city": "Albany",
-    "country": "US",
-    "email": "info@albanygroupdental.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:46.738Z"
+    "collectedAt": "2026-04-14T18:00:17.499Z"
   },
   {
     "name": "Brighton Dental Care - Implants & Invisalign Dentist Clinic In Rochester NY",
@@ -2263,29 +2230,40 @@
     "email": "info@brightondc.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:47.487Z"
+    "collectedAt": "2026-04-14T18:00:18.146Z"
   },
   {
-    "name": "Colvin Avenue Dental",
-    "website": "https://colvinavenuedental.com/",
-    "phone": "(518) 459-7993",
+    "name": "Dental Wellness of Albany",
+    "website": "https://www.651dental.com/",
+    "phone": "(518) 427-2447",
     "city": "Albany",
     "country": "US",
-    "email": "info@colvindental.com",
+    "email": "651dental@gmail.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:47.702Z"
+    "collectedAt": "2026-04-14T18:00:18.544Z"
   },
   {
-    "name": "1st Advantage Dental - Colonie",
-    "website": "http://1stadvantagedentalcolonie.com/?utm_source=gbp&utm_medium=organic&utm_campaign=yext_listing",
-    "phone": "(518) 851-8469",
+    "name": "Whitney M. Young, Jr. Health Center - Albany Dental Clinic",
+    "website": "http://wmyhealth.org/",
+    "phone": "(518) 465-6330",
     "city": "Albany",
     "country": "US",
-    "email": "1stadcolonie@mydentalmail.com",
+    "email": "info@wmyhealth.org",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:48.049Z"
+    "collectedAt": "2026-04-14T18:00:19.897Z"
+  },
+  {
+    "name": "Albany Group Dental Practice",
+    "website": "https://albanygroupdental.com/",
+    "phone": "(518) 869-7167",
+    "city": "Albany",
+    "country": "US",
+    "email": "info@albanygroupdental.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:20.113Z"
   },
   {
     "name": "Willard Street Family Dental",
@@ -2296,7 +2274,18 @@
     "email": "aaamherst@yahoo.com",
     "hasBooking": true,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:48.057Z"
+    "collectedAt": "2026-04-14T18:00:20.494Z"
+  },
+  {
+    "name": "Colvin Avenue Dental",
+    "website": "https://colvinavenuedental.com/",
+    "phone": "(518) 459-7993",
+    "city": "Albany",
+    "country": "US",
+    "email": "info@colvindental.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:20.670Z"
   },
   {
     "name": "Chittenden Dental + Wellness | Vermont Sleep Center",
@@ -2307,40 +2296,18 @@
     "email": "info@chittendendental.com",
     "hasBooking": true,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:48.557Z"
+    "collectedAt": "2026-04-14T18:00:20.698Z"
   },
   {
-    "name": "Associates In Dentistry",
-    "website": "http://www.kropfdental.com/",
-    "phone": "(802) 863-5552",
-    "city": "Burlington",
+    "name": "1st Advantage Dental - Colonie",
+    "website": "http://1stadvantagedentalcolonie.com/?utm_source=gbp&utm_medium=organic&utm_campaign=yext_listing",
+    "phone": "(518) 851-8469",
+    "city": "Albany",
     "country": "US",
-    "email": "aident@kropfdental.com",
-    "hasBooking": true,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:49.234Z"
-  },
-  {
-    "name": "Amazing Smiles Inc Dr. Brad Kline, DMD",
-    "website": "https://drbradkline.com/",
-    "phone": "(802) 863-1315",
-    "city": "Burlington",
-    "country": "US",
-    "email": "office@bradkklinedmd.com",
-    "hasBooking": true,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:49.343Z"
-  },
-  {
-    "name": "Champlain Smile Solutions",
-    "website": "https://www.champlainsmilesolutions.com/index.htm",
-    "phone": "(802) 899-9486",
-    "city": "South Burlington",
-    "country": "US",
-    "email": "office@champlainsmilesolutions.com",
+    "email": "1stadcolonie@mydentalmail.com",
     "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:49.531Z"
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:21.040Z"
   },
   {
     "name": "Catamount Family Dental PLC",
@@ -2351,18 +2318,7 @@
     "email": "office@catamountfamilydentalvt.com",
     "hasBooking": true,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:49.834Z"
-  },
-  {
-    "name": "Community Health Centers – Riverside",
-    "website": "https://www.chcb.org/locations/riverside/",
-    "phone": "(802) 864-6309",
-    "city": "Burlington",
-    "country": "US",
-    "email": "info@chcb.org",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:49.948Z"
+    "collectedAt": "2026-04-14T18:00:21.085Z"
   },
   {
     "name": "Timberlane Adult Dentistry & Periodontics",
@@ -2373,95 +2329,18 @@
     "email": "mailbox@timberlaneadultdentistry.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:50.338Z"
+    "collectedAt": "2026-04-14T18:00:21.247Z"
   },
   {
-    "name": "Dunkling & Penney",
-    "website": "http://www.bettersmilesvt.com/",
-    "phone": "(802) 863-3479",
+    "name": "Amazing Smiles Inc Dr. Brad Kline, DMD",
+    "website": "https://drbradkline.com/",
+    "phone": "(802) 863-1315",
     "city": "Burlington",
     "country": "US",
-    "email": "bettersmilesvtb@comcast.net",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:50.493Z"
-  },
-  {
-    "name": "Maine Dentistry - Portland",
-    "website": "https://www.mainedentistry.com/",
-    "phone": "(207) 607-7221",
-    "city": "Portland",
-    "country": "US",
-    "email": "info@mdauburn.com",
-    "hasBooking": false,
+    "email": "office@bradkklinedmd.com",
+    "hasBooking": true,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:50.508Z"
-  },
-  {
-    "name": "Thrive Dental Studio",
-    "website": "http://thrivedentalstudio.com/",
-    "phone": "(207) 305-4200",
-    "city": "Portland",
-    "country": "US",
-    "email": "smile@thrivedentalstudio.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:50.874Z"
-  },
-  {
-    "name": "The Dental Loft",
-    "website": "http://thedentalloftme.com/",
-    "phone": "(207) 773-2446",
-    "city": "Portland",
-    "country": "US",
-    "email": "admin@thedentalloftme.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:51.276Z"
-  },
-  {
-    "name": "Coastal Family Dental",
-    "website": "http://portlandmedentist.com/",
-    "phone": "(207) 797-7433",
-    "city": "Portland",
-    "country": "US",
-    "email": "info@portlandmedentist.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:51.784Z"
-  },
-  {
-    "name": "Portland Dental Health Care & Implant Center",
-    "website": "http://www.portlandmainedental.com/",
-    "phone": "(207) 797-5000",
-    "city": "Portland",
-    "country": "US",
-    "email": "dentalfloss12@gmail.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:52.305Z"
-  },
-  {
-    "name": "1330 Dental Associates",
-    "website": "http://www.1330dental.com/",
-    "phone": "(207) 773-3738",
-    "city": "Portland",
-    "country": "US",
-    "email": "info@1330dental.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:52.389Z"
-  },
-  {
-    "name": "Albany Dental Care, P.C.",
-    "website": "https://www.albanydentalcare.com/",
-    "phone": "(518) 482-0881",
-    "city": "Albany",
-    "country": "US",
-    "email": "office@albanydentalcare.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:53.195Z"
+    "collectedAt": "2026-04-14T18:00:21.344Z"
   },
   {
     "name": "Champlain Dental Group",
@@ -2472,7 +2351,117 @@
     "email": "pcompanion@champlaindentalgroup.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:53.289Z"
+    "collectedAt": "2026-04-14T18:00:21.373Z"
+  },
+  {
+    "name": "Champlain Smile Solutions",
+    "website": "https://www.champlainsmilesolutions.com/index.htm",
+    "phone": "(802) 899-9486",
+    "city": "South Burlington",
+    "country": "US",
+    "email": "office@champlainsmilesolutions.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:21.432Z"
+  },
+  {
+    "name": "Colchester Dental Group",
+    "website": "https://www.colchesterdental.com/?utm_source=GoogleOrganic&utm_medium=GMBwebsite&utm_campaign=GMBWebsiteLink",
+    "phone": "(802) 587-8223",
+    "city": "Colchester",
+    "country": "US",
+    "email": "colchesterdental106@gmail.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:21.765Z"
+  },
+  {
+    "name": "Maine Dentistry - Portland",
+    "website": "https://www.mainedentistry.com/",
+    "phone": "(207) 607-7221",
+    "city": "Portland",
+    "country": "US",
+    "email": "info@mdauburn.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:21.923Z"
+  },
+  {
+    "name": "Associates In Dentistry",
+    "website": "http://www.kropfdental.com/",
+    "phone": "(802) 863-5552",
+    "city": "Burlington",
+    "country": "US",
+    "email": "aident@kropfdental.com",
+    "hasBooking": true,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:22.092Z"
+  },
+  {
+    "name": "The Dental Loft",
+    "website": "http://thedentalloftme.com/",
+    "phone": "(207) 773-2446",
+    "city": "Portland",
+    "country": "US",
+    "email": "admin@thedentalloftme.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:22.243Z"
+  },
+  {
+    "name": "Thrive Dental Studio",
+    "website": "http://thrivedentalstudio.com/",
+    "phone": "(207) 305-4200",
+    "city": "Portland",
+    "country": "US",
+    "email": "smile@thrivedentalstudio.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:22.532Z"
+  },
+  {
+    "name": "Coastal Family Dental",
+    "website": "http://portlandmedentist.com/",
+    "phone": "(207) 797-7433",
+    "city": "Portland",
+    "country": "US",
+    "email": "info@portlandmedentist.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:23.181Z"
+  },
+  {
+    "name": "Portland Dental Health Care & Implant Center",
+    "website": "http://www.portlandmainedental.com/",
+    "phone": "(207) 797-5000",
+    "city": "Portland",
+    "country": "US",
+    "email": "dentalfloss12@gmail.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:23.647Z"
+  },
+  {
+    "name": "1330 Dental Associates",
+    "website": "http://www.1330dental.com/",
+    "phone": "(207) 773-3738",
+    "city": "Portland",
+    "country": "US",
+    "email": "info@1330dental.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:24.100Z"
+  },
+  {
+    "name": "Albany Dental Care, P.C.",
+    "website": "https://www.albanydentalcare.com/",
+    "phone": "(518) 482-0881",
+    "city": "Albany",
+    "country": "US",
+    "email": "office@albanydentalcare.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:24.935Z"
   },
   {
     "name": "Dr. Dental: Dentistry & Braces",
@@ -2483,40 +2472,7 @@
     "email": "patientbilling@mydrdental.com",
     "hasBooking": true,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:54.094Z"
-  },
-  {
-    "name": "Amoskeag Urgent Dental Care",
-    "website": "https://www.urgentdentalcareofnh.com/",
-    "phone": "(603) 627-3927",
-    "city": "Manchester",
-    "country": "US",
-    "email": "manchester@urgentdentalcareofnh.com",
-    "hasBooking": true,
-    "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:54.157Z"
-  },
-  {
-    "name": "Portland Smiles",
-    "website": "http://www.portlandsmilesdentist.com/",
-    "phone": "(207) 773-2111",
-    "city": "Portland",
-    "country": "US",
-    "email": "portlandsmilesdds@gmail.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:54.341Z"
-  },
-  {
-    "name": "Sprucewood Dental Associates",
-    "website": "http://www.sprucewooddental.com/",
-    "phone": "(802) 864-1890",
-    "city": "South Burlington",
-    "country": "US",
-    "email": "office@sprucewooddental.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:54.634Z"
+    "collectedAt": "2026-04-14T18:00:26.892Z"
   },
   {
     "name": "New Hampshire Family Dentistry",
@@ -2527,40 +2483,29 @@
     "email": "nhfdoffice@nhfamilydentist.com",
     "hasBooking": true,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:54.867Z"
+    "collectedAt": "2026-04-14T18:00:27.115Z"
   },
   {
-    "name": "Vachon Dental",
-    "website": "http://www.vachondental.com/?utm_source=Google&utm_medium=Website&utm_campaign=Google_NEXT",
-    "phone": "(603) 627-2092",
-    "city": "Manchester",
+    "name": "Portland Smiles",
+    "website": "http://www.portlandsmilesdentist.com/",
+    "phone": "(207) 773-2111",
+    "city": "Portland",
     "country": "US",
-    "email": "info@vachondental.com",
+    "email": "portlandsmilesdds@gmail.com",
     "hasBooking": false,
     "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:55.083Z"
+    "collectedAt": "2026-04-14T18:00:27.160Z"
   },
   {
-    "name": "Manchester Dental",
-    "website": "http://manchestercitydental.com/",
-    "phone": "(603) 624-4147",
+    "name": "Amoskeag Urgent Dental Care",
+    "website": "https://www.urgentdentalcareofnh.com/",
+    "phone": "(603) 627-3927",
     "city": "Manchester",
     "country": "US",
-    "email": "admin@manchestercitydental.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:55.103Z"
-  },
-  {
-    "name": "Spindel General and Cosmetic Dentistry",
-    "website": "http://www.elizabethspindel.com/",
-    "phone": "(603) 669-9049",
-    "city": "Manchester",
-    "country": "US",
-    "email": "elizabeth@elizabethspindel.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-14T15:57:55.246Z"
+    "email": "manchester@urgentdentalcareofnh.com",
+    "hasBooking": true,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:27.210Z"
   },
   {
     "name": "Webster Dental Associates of Manchester",
@@ -2571,6 +2516,1249 @@
     "email": "websterdentalassoc@gmail.com",
     "hasBooking": false,
     "modernScore": 3,
-    "collectedAt": "2026-04-14T15:57:55.547Z"
+    "collectedAt": "2026-04-14T18:00:28.273Z"
+  },
+  {
+    "name": "Vachon Dental",
+    "website": "http://www.vachondental.com/?utm_source=Google&utm_medium=Website&utm_campaign=Google_NEXT",
+    "phone": "(603) 627-2092",
+    "city": "Manchester",
+    "country": "US",
+    "email": "info@vachondental.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:28.719Z"
+  },
+  {
+    "name": "Spindel General and Cosmetic Dentistry",
+    "website": "http://www.elizabethspindel.com/",
+    "phone": "(603) 669-9049",
+    "city": "Manchester",
+    "country": "US",
+    "email": "elizabeth@elizabethspindel.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:29.541Z"
+  },
+  {
+    "name": "Manchester Dental",
+    "website": "http://manchestercitydental.com/",
+    "phone": "(603) 624-4147",
+    "city": "Manchester",
+    "country": "US",
+    "email": "admin@manchestercitydental.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:30.830Z"
+  },
+  {
+    "name": "The Dentist at Liberty Place - Birmingham",
+    "website": "https://rodericksdentalpartners.co.uk/our-practices/liberty-place-dental?keywordutm_medium=organic&utm_campaign=gbp&utm_source=google&utm_content=Liberty",
+    "phone": "0121 633 9535",
+    "city": "26-38 Sheepcote St",
+    "country": "UK",
+    "email": "liberty.place@rodericksdental.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:32.385Z"
+  },
+  {
+    "name": "Edgbaston Dental Centre",
+    "website": "http://www.edgbastondentalcentre.com/",
+    "phone": "0121 440 2751",
+    "city": "Edgbaston",
+    "country": "UK",
+    "email": "info@edgbastondentalcentre.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:32.489Z"
+  },
+  {
+    "name": "Acorn Dental - Moseley, Birmingham",
+    "website": "http://www.acorndental.co.uk/",
+    "phone": "0121 777 1537",
+    "city": "208 Swanshurst Ln",
+    "country": "UK",
+    "email": "welcome@acorndental.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:33.209Z"
+  },
+  {
+    "name": "Twelve Dental",
+    "website": "http://www.twelvedental.com/",
+    "phone": "0121 633 8833",
+    "city": "12 Waterloo St",
+    "country": "UK",
+    "email": "info@twelvedental.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:34.057Z"
+  },
+  {
+    "name": "St Paul's Square Dental Practice",
+    "website": "https://www.dazzlingsmile.co.uk/",
+    "phone": "0121 233 0867",
+    "city": "51 St Paul's Square",
+    "country": "UK",
+    "email": "info@dazzlingsmile.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:34.104Z"
+  },
+  {
+    "name": "Birmingham Dental Hospital",
+    "website": "http://www.bhamcommunity.nhs.uk/dentalhospital/",
+    "phone": "0121 466 5555",
+    "city": "5 Mill Pool Way",
+    "country": "UK",
+    "email": "dental.hospital@nhs.net",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:34.355Z"
+  },
+  {
+    "name": "Great Hampton Dental",
+    "website": "http://www.greathamptondental.co.uk/",
+    "phone": "0121 529 3000",
+    "city": "124 Livery St",
+    "country": "UK",
+    "email": "reception@greathamptondental.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:35.225Z"
+  },
+  {
+    "name": "360 Dental Care",
+    "website": "http://www.360dentalcare.co.uk/",
+    "phone": "0161 834 1000",
+    "city": "6 Southern St",
+    "country": "UK",
+    "email": "smile@360dentalcare.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:35.914Z"
+  },
+  {
+    "name": "KissDental Manchester",
+    "website": "https://www.kissdental.co.uk/kissdental-manchester/",
+    "phone": "0161 832 9477",
+    "city": "Cheetham Hill",
+    "country": "UK",
+    "email": "hello@kissdental.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:36.265Z"
+  },
+  {
+    "name": "Gartside Street Dental Lounge",
+    "website": "http://www.gartsidestreetdental.com/",
+    "phone": "0161 883 3374",
+    "city": "74 Gartside St",
+    "country": "UK",
+    "email": "enquiries@gartsidestreet.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:36.498Z"
+  },
+  {
+    "name": "Manchester Dental Practice",
+    "website": "https://www.manchesterdentalpractice.co.uk/",
+    "phone": "0161 833 0704",
+    "city": "2-4 Exchange St",
+    "country": "UK",
+    "email": "info@manchesterdentalpractice.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:36.599Z"
+  },
+  {
+    "name": "Night and Day Emergency Dentist Manchester",
+    "website": "http://www.nightanddayemergencydentist.co.uk/",
+    "phone": "07415 849849",
+    "city": "Withington",
+    "country": "UK",
+    "email": "manchester@nightanddaydentist.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:37.000Z"
+  },
+  {
+    "name": "Aesthetique Dental Care",
+    "website": "https://aesthetique.me.uk/?utm_source=google&utm_medium=GMB",
+    "phone": "0113 245 8066",
+    "city": "21 Wharf St",
+    "country": "UK",
+    "email": "info@smileclinicleeds.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:37.289Z"
+  },
+  {
+    "name": "Beyu Dental",
+    "website": "https://beyudental.com/?utm_source=googlelocal&utm_medium=listing&utm_campaign=googlebusinessprofile",
+    "phone": "0113 465 8888",
+    "city": "4 Wellington Pl",
+    "country": "UK",
+    "email": "hello@beyudental.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:37.360Z"
+  },
+  {
+    "name": "Leeds City Dentalcare",
+    "website": "https://www.leedscitydentalcare.co.uk/",
+    "phone": "0113 270 5020",
+    "city": "159 Beeston Rd",
+    "country": "UK",
+    "email": "info@leedscitydentalcare.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:37.434Z"
+  },
+  {
+    "name": "New Smile Dental Care",
+    "website": "https://www.newsmiledentalcare.co.uk/",
+    "phone": "0113 242 5528",
+    "city": "Woodhouse",
+    "country": "UK",
+    "email": "selbyroad@newsmiledentalcare.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:38.414Z"
+  },
+  {
+    "name": "Briggate Dental",
+    "website": "https://www.briggatedental.co.uk/",
+    "phone": "0113 244 6095",
+    "city": "4 Lower Briggate",
+    "country": "UK",
+    "email": "hello@briggatedental.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:38.589Z"
+  },
+  {
+    "name": "School Road Dental Surgery",
+    "website": "http://schoolroaddental.co.uk/",
+    "phone": "0114 266 1335",
+    "city": "257 School Rd",
+    "country": "UK",
+    "email": "reception@schoolroaddental.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:39.815Z"
+  },
+  {
+    "name": "Mola Dental",
+    "website": "https://moladental.com/?utm_source=google+business+profile&utm_medium=organic&utm_campaign=Google_Business_Profile&utm_id=Google+Business+Profile",
+    "phone": "0114 317 7002",
+    "city": "Archer Rd",
+    "country": "UK",
+    "email": "hello@moladental.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:39.932Z"
+  },
+  {
+    "name": "Manor Park Dental Practice",
+    "website": "http://manorparkdental.co.uk/",
+    "phone": "0114 239 2985",
+    "city": "1A Motehall Rd",
+    "country": "UK",
+    "email": "patientrelationsteam@nationwidehealthcareproviderslimited.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:40.261Z"
+  },
+  {
+    "name": "Abbeydale Road Family Dental Centre",
+    "website": "http://www.abbeydaleroaddental.co.uk/",
+    "phone": "0114 255 4433",
+    "city": "Highfield",
+    "country": "UK",
+    "email": "patientrelationsteam@nationwidehealthcareproviderslimited.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:40.734Z"
+  },
+  {
+    "name": "The Dental Architect",
+    "website": "http://www.thedentalarchitect.com/",
+    "phone": "0113 868 4324",
+    "city": "56 Wellington St",
+    "country": "UK",
+    "email": "smiles@thedentalarchitect.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:40.961Z"
+  },
+  {
+    "name": "Sharrow Vale Dental Care",
+    "website": "http://www.sharrowvaledentalcare.co.uk/",
+    "phone": "0114 268 6076",
+    "city": "Sharrow",
+    "country": "UK",
+    "email": "enquiries@sharrowvaledentalcare.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:41.148Z"
+  },
+  {
+    "name": "Eastgate Dental & Cosmetic Centre Bristol",
+    "website": "https://www.eastgatedentalbristol.co.uk/",
+    "phone": "0117 452 9500",
+    "city": "Eastgate Rd",
+    "country": "UK",
+    "email": "info@eastgatedentalbristol.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:41.680Z"
+  },
+  {
+    "name": "Queen Square Dental Clinic",
+    "website": "https://www.queensquareclinic.com/",
+    "phone": "0117 927 2797",
+    "city": "17 Queen Square",
+    "country": "UK",
+    "email": "enquiries@queensquareclinic.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:42.336Z"
+  },
+  {
+    "name": "Montgomery Dental Care",
+    "website": "https://montgomerydental.uk/",
+    "phone": "0114 272 4690",
+    "city": "83 Infirmary Rd",
+    "country": "UK",
+    "email": "contact@montgomerydental.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:43.876Z"
+  },
+  {
+    "name": "Clifton Dental Studio",
+    "website": "https://www.cliftonsmiles.com/",
+    "phone": "0117 973 1910",
+    "city": "Clifton",
+    "country": "UK",
+    "email": "info@cliftonsmiles.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:44.200Z"
+  },
+  {
+    "name": "Bristol Dental Sedation and Implant Clinic",
+    "website": "https://www.bdsiclinic.co.uk/",
+    "phone": "0117 403 0988",
+    "city": "88-90 High St",
+    "country": "UK",
+    "email": "hello@bdsiclinic.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:44.295Z"
+  },
+  {
+    "name": "The Dental Surgery",
+    "website": "http://www.cliftondentalsurgery.co.uk/",
+    "phone": "0117 973 7444",
+    "city": "Clifton",
+    "country": "UK",
+    "email": "reception@cliftondentalsurgery.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:44.559Z"
+  },
+  {
+    "name": "High Street Dental Clinic",
+    "website": "http://www.highstreetdental.co.uk/",
+    "phone": "0117 926 0265",
+    "city": "44 High St",
+    "country": "UK",
+    "email": "reception@highstreetdental.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:44.901Z"
+  },
+  {
+    "name": "Elgin Park Dental Practice - Redland",
+    "website": "http://www.elginpark.co.uk/",
+    "phone": "0117 973 5677",
+    "city": "Redland",
+    "country": "UK",
+    "email": "reception@elginpark.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:45.042Z"
+  },
+  {
+    "name": "Horfield Dental Care",
+    "website": "http://www.horfielddentalcare.co.uk/",
+    "phone": "0117 951 3026",
+    "city": "525 Gloucester Rd",
+    "country": "UK",
+    "email": "info@horfielddentalcare.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:45.800Z"
+  },
+  {
+    "name": "Liverpool Smile Studio",
+    "website": "https://www.liverpoolsmilestudio.co.uk/",
+    "phone": "0151 709 2203",
+    "city": "65 Rodney St",
+    "country": "UK",
+    "email": "info@liverpoolsmilestudio.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:45.882Z"
+  },
+  {
+    "name": "The Redland Road Dental Practice",
+    "website": "http://www.redlanddental.co.uk/",
+    "phone": "0117 924 6070",
+    "city": "Redland",
+    "country": "UK",
+    "email": "info@redlanddental.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:46.232Z"
+  },
+  {
+    "name": "Pall Mall Dental Clinic Ltd",
+    "website": "http://www.pallmalldental.com/",
+    "phone": "0151 258 1968",
+    "city": "42 Pall Mall",
+    "country": "UK",
+    "email": "info@pallmalldental.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:46.854Z"
+  },
+  {
+    "name": "Duthie Dental",
+    "website": "https://duthie.dental/",
+    "phone": "0151 722 2642",
+    "city": "113-119 Woolton Rd",
+    "country": "UK",
+    "email": "reception@duthie.dental",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:46.969Z"
+  },
+  {
+    "name": "Newcastle Dental Care",
+    "website": "https://www.newcastledentalcare.co.uk/",
+    "phone": "0191 232 4284",
+    "city": "11 Ridley Pl",
+    "country": "UK",
+    "email": "enquiries@newcastledentalcare.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:47.182Z"
+  },
+  {
+    "name": "Newcastle Advanced Dentistry | Kingston Park Clinic | Private Dentist Newcastle",
+    "website": "http://www.newcastledentistry.co.uk/",
+    "phone": "0191 286 3398",
+    "city": "1 Stuart Ct",
+    "country": "UK",
+    "email": "info@newcastledentistry.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:47.492Z"
+  },
+  {
+    "name": "Honour Health Dental - Jesmond, Newcastle",
+    "website": "http://www.honourhealth.co.uk/",
+    "phone": "0191 281 3913",
+    "city": "Jesmond",
+    "country": "UK",
+    "email": "jesmond@honourhealth.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:48.251Z"
+  },
+  {
+    "name": "Great North Dental Care",
+    "website": "http://www.greatnorthdentalcare.co.uk/",
+    "phone": "0191 236 3975",
+    "city": "Wideopen",
+    "country": "UK",
+    "email": "reception@greatnorthdentalcare.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:48.748Z"
+  },
+  {
+    "name": "Gosforth Dental Surgery - Newcastle Dentist",
+    "website": "https://www.gosforthdentalsurgery.co.uk/",
+    "phone": "0191 284 7871",
+    "city": "Gosforth",
+    "country": "UK",
+    "email": "info@gosforthdentalsurgery.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:48.825Z"
+  },
+  {
+    "name": "Night and Day Emergency Dentist Liverpool",
+    "website": "https://www.nightanddayemergencydentist-liverpool.co.uk/",
+    "phone": "07513 201000",
+    "city": "Aigburth",
+    "country": "UK",
+    "email": "liverpool@nightanddaydentist.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:49.156Z"
+  },
+  {
+    "name": "Seven Dental",
+    "website": "http://sevendental.co.uk/",
+    "phone": "0115 970 0007",
+    "city": "Hyson Green",
+    "country": "UK",
+    "email": "patientrelationsteam@nationwidehealthcareproviderslimited.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:49.178Z"
+  },
+  {
+    "name": "Kingswalk Dental Implant Practice",
+    "website": "http://www.kingswalkdental.co.uk/",
+    "phone": "0191 222 0725",
+    "city": "50 Leazes Park Rd",
+    "country": "UK",
+    "email": "reception@kingswalkdental.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:49.198Z"
+  },
+  {
+    "name": "City Dental Practice Nottingham",
+    "website": "http://www.citydentalnottingham.co.uk/",
+    "phone": "0115 941 7034",
+    "city": "11 King's Walk",
+    "country": "UK",
+    "email": "info@citydentalnottingham.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:49.731Z"
+  },
+  {
+    "name": "Alpha Dental Care Nottingham",
+    "website": "https://alphadental.co.uk/nottingham/?utm_source=google&utm_medium=organic&utm_campaign=gmb-listing",
+    "phone": "0115 950 7555",
+    "city": "171 Carlton Rd",
+    "country": "UK",
+    "email": "nottinghamreception@riverdalehealthcare.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:50.049Z"
+  },
+  {
+    "name": "Stella Dental Nottingham",
+    "website": "http://www.stelladentalsuite.co.uk/",
+    "phone": "0115 718 1602",
+    "city": "21 The Ropewalk",
+    "country": "UK",
+    "email": "clients@stelladentalsuite.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:50.923Z"
+  },
+  {
+    "name": "Arnold Dental Care",
+    "website": "http://www.arnolddentalcare.com/",
+    "phone": "0115 967 0850",
+    "city": "Arnold",
+    "country": "UK",
+    "email": "reception@arnolddentalcare.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:50.996Z"
+  },
+  {
+    "name": "Carlton Dental Care",
+    "website": "https://www.carltondentalcare.com/",
+    "phone": "0115 987 3306",
+    "city": "Carlton",
+    "country": "UK",
+    "email": "treatment-coordinator@carltondentalcare.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:51.932Z"
+  },
+  {
+    "name": "Cardiff Dental and Aesthetics Centre",
+    "website": "https://thedentalsurgerycardiff.co.uk/",
+    "phone": "029 2022 9877",
+    "city": "107 Clare Rd",
+    "country": "UK",
+    "email": "enquiries@thedentalsurgerycardiff.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:54.014Z"
+  },
+  {
+    "name": "Church Road Dental Practice",
+    "website": "http://www.cardiffdentalcare.com/",
+    "phone": "029 2061 4444",
+    "city": "33 Church Rd",
+    "country": "UK",
+    "email": "info@cardiffdentalcare.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:54.325Z"
+  },
+  {
+    "name": "Park Place Dental Practice",
+    "website": "https://www.parkplacedental.co.uk/",
+    "phone": "029 2037 3831",
+    "city": "3-4 Park Pl",
+    "country": "UK",
+    "email": "reception@parkplacedental.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:54.811Z"
+  },
+  {
+    "name": "Bamboo Cosmetic Dentistry",
+    "website": "https://www.bamboodental.co.uk/?utm_source=google&utm_medium=business_profile",
+    "phone": "029 2056 9769",
+    "city": "28 Cowbridge Rd W",
+    "country": "UK",
+    "email": "enquiries@bamboodental.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:54.831Z"
+  },
+  {
+    "name": "Gedling Dental - Nottingham",
+    "website": "http://www.gedling-dental.co.uk/",
+    "phone": "0115 961 1764",
+    "city": "Carlton",
+    "country": "UK",
+    "email": "gedlingdental@gmail.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:54.943Z"
+  },
+  {
+    "name": "Luna Dental│New Patients | Emergency Appointments | Implants | Dentures | Crowns",
+    "website": "https://www.lunadental.co.uk/",
+    "phone": "029 2022 9254",
+    "city": "St Davids Centre",
+    "country": "UK",
+    "email": "hello@lunadental.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:55.334Z"
+  },
+  {
+    "name": "Rhiwbina Dental Surgery @The Pines",
+    "website": "http://www.rhiwbinadental.com/",
+    "phone": "029 2062 6551",
+    "city": "Heol-y-Forlan",
+    "country": "UK",
+    "email": "reception@rhiwbinadental.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:55.720Z"
+  },
+  {
+    "name": "Birchgrove Dental Practice",
+    "website": "https://www.birchgrovedental.co.uk/",
+    "phone": "029 2069 3858",
+    "city": "Birchgrove",
+    "country": "UK",
+    "email": "info@birchgrovedental.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:55.745Z"
+  },
+  {
+    "name": "Paste Dental",
+    "website": "http://www.pastedental.co.uk/",
+    "phone": "028 9032 5345",
+    "city": "23 Dublin Rd",
+    "country": "UK",
+    "email": "hello@pastedental.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:56.543Z"
+  },
+  {
+    "name": "New Life Teeth",
+    "website": "https://www.newlifeteeth.co.uk/dental-implants/single-dental-implants/?utm_source=gmb&utm_medium=organic&utm_campaign=gmb-listing-belfast",
+    "phone": "0808 502 1696",
+    "city": "743-745 Lisburn Rd",
+    "country": "UK",
+    "email": "hello@newlifeteeth.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:56.592Z"
+  },
+  {
+    "name": "Holly Tree House Dental Practice",
+    "website": "http://www.hollytreehousedentalpractice.co.uk/",
+    "phone": "0115 962 2882",
+    "city": "Mapperley Park",
+    "country": "UK",
+    "email": "reception@hollytreehousedentalpractice.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:56.849Z"
+  },
+  {
+    "name": "Elite Dental Practice",
+    "website": "https://www.elitedentalpractice.co.uk/",
+    "phone": "028 9045 9696",
+    "city": "246-248 Ravenhill Rd",
+    "country": "UK",
+    "email": "mail@elitedentalpractice.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:58.121Z"
+  },
+  {
+    "name": "Sandown Dental & Implant Clinic",
+    "website": "https://www.sandowndental.com/",
+    "phone": "028 9047 1070",
+    "city": "33-35 Sandown Rd",
+    "country": "UK",
+    "email": "info@sandowndental.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:58.601Z"
+  },
+  {
+    "name": "East Belfast Dental & Implants",
+    "website": "http://www.eastbelfastdentalclinic.co.uk/",
+    "phone": "028 9045 1966",
+    "city": "65 Cregagh Rd",
+    "country": "UK",
+    "email": "info@eastbelfastdentalclinic.co.uk",
+    "hasBooking": true,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:59.220Z"
+  },
+  {
+    "name": "Bay House Dental Practice",
+    "website": "https://www.bayhousedentalpractice.co.uk/",
+    "phone": "029 2023 1258",
+    "city": "Pontcanna",
+    "country": "UK",
+    "email": "contact@bayhousedentalpractice.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:59.563Z"
+  },
+  {
+    "name": "The Dental Centre Belfast",
+    "website": "https://www.thedentalcentrebelfast.com/",
+    "phone": "028 9032 8765",
+    "city": "315-317 Donegall Rd.",
+    "country": "UK",
+    "email": "info@thedentalcentrebelfast.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:59.607Z"
+  },
+  {
+    "name": "Braden Dental Care",
+    "website": "http://www.bradendentalcare.co.uk/",
+    "phone": "028 9049 1333",
+    "city": "380 Ormeau Rd",
+    "country": "UK",
+    "email": "info@bradendentalcare.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:00:59.806Z"
+  },
+  {
+    "name": "The Row Dental Edinburgh",
+    "website": "https://therowdental.com/?&utm_source=the-row-dental&utm_medium=organic&utm_campaign=gmb",
+    "phone": "0131 210 0103",
+    "city": "31 Albany St",
+    "country": "UK",
+    "email": "info@therowdental.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:59.889Z"
+  },
+  {
+    "name": "Martina Collins Dental & Skin Clinic - (Private Dentist Belfast | Cosmetic Dentist Belfast | Invisalign Belfast)",
+    "website": "https://martinacollins.com/",
+    "phone": "028 9066 6684",
+    "city": "509-511 Lisburn Rd",
+    "country": "UK",
+    "email": "info@martinacollins.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:00:59.926Z"
+  },
+  {
+    "name": "Edinburgh Dental Studio",
+    "website": "https://www.edinburghdentalstudio.co.uk/",
+    "phone": "0131 226 3725",
+    "city": "6 Randolph Pl",
+    "country": "UK",
+    "email": "info@edinburghdentalstudio.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:01:00.141Z"
+  },
+  {
+    "name": "Slateford Dental Care",
+    "website": "https://slateforddentalcare.com/",
+    "phone": "0131 337 2689",
+    "city": "47-51 Slateford Rd",
+    "country": "UK",
+    "email": "appointment@slateforddentalcare.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:01:00.498Z"
+  },
+  {
+    "name": "Frederick Street Dental Care I Oral Surgery Referral Centre",
+    "website": "https://frederickstreetdental.co.uk/",
+    "phone": "0131 629 1158",
+    "city": "57 Frederick St",
+    "country": "UK",
+    "email": "info@frederickstreetdental.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:01:00.822Z"
+  },
+  {
+    "name": "Queen's Quarter Dental",
+    "website": "http://www.queensquarterdental.com/",
+    "phone": "028 9032 3321",
+    "city": "11 University St",
+    "country": "UK",
+    "email": "admin@queensquarterdental.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:01:01.232Z"
+  },
+  {
+    "name": "Edinburgh Dental",
+    "website": "http://www.edinburghdental.co.uk/",
+    "phone": "0131 667 4433",
+    "city": "59 Ratcliffe Terrace",
+    "country": "UK",
+    "email": "info@edinburghdental.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:01:01.484Z"
+  },
+  {
+    "name": "Haymarket Dental",
+    "website": "http://www.haymarketdental.com/",
+    "phone": "0131 229 6633",
+    "city": "264 Morrison St",
+    "country": "UK",
+    "email": "info@haymarketdental.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:01:01.554Z"
+  },
+  {
+    "name": "Links Dental Practice",
+    "website": "https://linksdentalpractice.co.uk/",
+    "phone": "0131 516 8940",
+    "city": "101-103 Whitehouse Loan",
+    "country": "UK",
+    "email": "info@linksdentalpractice.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:01:01.993Z"
+  },
+  {
+    "name": "Dentistry On The Square",
+    "website": "https://dentistryonthesquare.co.uk/",
+    "phone": "0141 530 4047",
+    "city": "12 Niddrie Square",
+    "country": "UK",
+    "email": "info@dentistryonthesquare.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:01:02.522Z"
+  },
+  {
+    "name": "Bruntsfield Dental",
+    "website": "http://www.bruntsfielddental.com/",
+    "phone": "0131 229 3040",
+    "city": "226 Bruntsfield Pl",
+    "country": "UK",
+    "email": "info@bruntsfielddental.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:01:02.532Z"
+  },
+  {
+    "name": "Edinburgh Dental Care",
+    "website": "https://www.edinburghdentalcare.uk/",
+    "phone": "0131 374 5170",
+    "city": "Leith",
+    "country": "UK",
+    "email": "info@edinburghdentalcare.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:01:02.644Z"
+  },
+  {
+    "name": "Meadowbank Dental Practice",
+    "website": "https://www.meadowbankdental.co.uk/?utm_source=gmb&utm_medium=organic",
+    "phone": "0131 659 5670",
+    "city": "15 Earlston Pl",
+    "country": "UK",
+    "email": "reception@meadowbankdental.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:01:02.846Z"
+  },
+  {
+    "name": "City Dental Care",
+    "website": "http://www.citydentalcare.co.uk/",
+    "phone": "0131 228 2442",
+    "city": "9 Earl Grey St",
+    "country": "UK",
+    "email": "info@citydentalcare.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:01:03.146Z"
+  },
+  {
+    "name": "New Town Dental Care",
+    "website": "http://www.newtowndentalcare.co.uk/",
+    "phone": "0131 556 2776",
+    "city": "4 Henderson Row",
+    "country": "UK",
+    "email": "info@newtowndentalcare.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:01:03.214Z"
+  },
+  {
+    "name": "Barnton Dental",
+    "website": "http://www.barntondental.com/",
+    "phone": "0131 336 3354",
+    "city": "461 Queensferry Rd",
+    "country": "UK",
+    "email": "info@barntondental.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:01:03.392Z"
+  },
+  {
+    "name": "1Smile Dental Clinic",
+    "website": "http://www.1smile.co.uk/",
+    "phone": "0141 237 2080",
+    "city": "13 Renfield St",
+    "country": "UK",
+    "email": "dental@1smile.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:01:03.517Z"
+  },
+  {
+    "name": "West Dental Glasgow",
+    "website": "https://westdental.co.uk/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+    "phone": "0141 339 0873",
+    "city": "2 Lansdowne Cres",
+    "country": "UK",
+    "email": "hello@westdental.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:01:03.589Z"
+  },
+  {
+    "name": "NI Dental Care Lisburn Road",
+    "website": "http://www.nidentalcare.co.uk/",
+    "phone": "028 9066 4009",
+    "city": "639 Lisburn Rd",
+    "country": "UK",
+    "email": "reception@nidentalcare.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:01:03.710Z"
+  },
+  {
+    "name": "G1 Dental",
+    "website": "http://www.g1dental.com/",
+    "phone": "0141 332 6332",
+    "city": "54 Dundas St",
+    "country": "UK",
+    "email": "info@g1dental.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:01:04.001Z"
+  },
+  {
+    "name": "Shawlands Dental Care - Glasgow",
+    "website": "https://www.shawlandsdentalcare.co.uk/?utm_source=gmb&utm_medium=organic",
+    "phone": "0141 632 1378",
+    "city": "Shawlands",
+    "country": "UK",
+    "email": "info@shawlandsdentalcare.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:01:04.311Z"
+  },
+  {
+    "name": "Glasgow Dental Centre",
+    "website": "http://www.glasgowdentalcentre.co.uk/",
+    "phone": "0141 554 6187",
+    "city": "1403 Gallowgate",
+    "country": "UK",
+    "email": "info@glasgowdentalcentre.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:01:04.472Z"
+  },
+  {
+    "name": "Kalyani Dental Lounge and Gallery",
+    "website": "http://www.dentalpractice.com/",
+    "phone": "0141 331 0722",
+    "city": "200 Bath St",
+    "country": "UK",
+    "email": "info@dentalpractice.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:01:04.519Z"
+  },
+  {
+    "name": "Queen's Drive Dental Practice",
+    "website": "https://queensdrivedentalpractice.co.uk/",
+    "phone": "0141 319 7934",
+    "city": "118 Queen's Dr",
+    "country": "UK",
+    "email": "reception@glasgowdentist.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:01:04.569Z"
+  },
+  {
+    "name": "Dental Scotland, Glasgow, Bridge Street | Invisalign, NHS & Private",
+    "website": "https://dentalscotland.com/",
+    "phone": "0141 255 1115",
+    "city": "1 Bridge St",
+    "country": "UK",
+    "email": "info@amcomputerstx.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:01:04.926Z"
+  },
+  {
+    "name": "Sloan Dental Merchant City",
+    "website": "https://www.sloandental.co.uk/merchant-city-glasgow-dental-practice/",
+    "phone": "0141 552 3428",
+    "city": "125 High St",
+    "country": "UK",
+    "email": "info@sloandental.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:01:05.450Z"
+  },
+  {
+    "name": "Complete Dental Care - Glasgow",
+    "website": "http://www.glasgowdentalcare.co.uk/",
+    "phone": "0141 427 0296",
+    "city": "Kinning Park",
+    "country": "UK",
+    "email": "prw@glasgowdentalcare.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:01:05.512Z"
+  },
+  {
+    "name": "Andrew Scott Dental Care",
+    "website": "https://andrewscottdental.co.uk/",
+    "phone": "01224 806700",
+    "city": "39 Queen's Rd",
+    "country": "UK",
+    "email": "info@andrewscottdental.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:01:05.541Z"
+  },
+  {
+    "name": "Bridge St Aesthetic and Dental Implant Clinic Aberdeen",
+    "website": "https://www.bridgestdental.co.uk/",
+    "phone": "01224 588477",
+    "city": "24-28 Bridge St",
+    "country": "UK",
+    "email": "info.bridgestdental@gmail.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:01:05.919Z"
+  },
+  {
+    "name": "Old Town Dental Care - Invisalign, Dentist in Aberdeen",
+    "website": "https://oldtown-dentalcare.co.uk/",
+    "phone": "01224 483666",
+    "city": "519 King St",
+    "country": "UK",
+    "email": "info.otdc@gmail.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:01:05.943Z"
+  },
+  {
+    "name": "Academy Dental Care",
+    "website": "http://www.academydentalcare.co.uk/",
+    "phone": "01224 211471",
+    "city": "86 Crown St",
+    "country": "UK",
+    "email": "info@academydentalcare.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:01:06.091Z"
+  },
+  {
+    "name": "Holburn Dental and Implant Centre",
+    "website": "https://holburndentalclinic.co.uk/",
+    "phone": "01224 588210",
+    "city": "616 Holburn St",
+    "country": "UK",
+    "email": "info@holburndentalclinic.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:01:06.237Z"
+  },
+  {
+    "name": "Woodside Dental Practice",
+    "website": "https://woodside-dental.co.uk/",
+    "phone": "01224 524444",
+    "city": "Woodside",
+    "country": "UK",
+    "email": "info@woodside-dental.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:01:06.801Z"
+  },
+  {
+    "name": "Advance Dental Centre",
+    "website": "http://www.advancedentalcentre.co.uk/",
+    "phone": "01224 571967",
+    "city": "17 Crown St",
+    "country": "UK",
+    "email": "advancedentalcentre@gmail.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:01:06.826Z"
+  },
+  {
+    "name": "West End Dental",
+    "website": "https://westenddentalaberdeen.co.uk/",
+    "phone": "01224 224224",
+    "city": "189 Great Western Rd",
+    "country": "UK",
+    "email": "reception@westenddentalaberdeen.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:01:06.953Z"
+  },
+  {
+    "name": "Aberdeen Dental Care",
+    "website": "http://www.aberdeendentalcare.co.uk/",
+    "phone": "01224 013999",
+    "city": "116 Rosemount Pl",
+    "country": "UK",
+    "email": "reception@aberdeendentalcare.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:01:07.020Z"
+  },
+  {
+    "name": "Dundee Dental Care",
+    "website": "http://dundeedentalcare.co.uk/",
+    "phone": "01382 698090",
+    "city": "31a Buttar's Loan",
+    "country": "UK",
+    "email": "info@dundeedentalcare.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:01:08.362Z"
+  },
+  {
+    "name": "Scottish Dental Implants & Cosmetic Dentistry",
+    "website": "https://www.scottishdentalimplants.com/?utm_source=Google&utm_medium=Google+business+profile&utm_campaign=Scottish+Dental+Implants+GBP&utm_id=Scottish+Dental+Implants+GBP",
+    "phone": "01382 219404",
+    "city": "22 Commercial St",
+    "country": "UK",
+    "email": "reception@scottishdentalimplants.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:01:08.436Z"
+  },
+  {
+    "name": "I-Smile Dental clinic",
+    "website": "http://i-smiledentalclinic.com/",
+    "phone": "01224 643469",
+    "city": "322 George St",
+    "country": "UK",
+    "email": "info@i-smiledentalclinic.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:01:08.464Z"
+  },
+  {
+    "name": "Union Street Dental Care",
+    "website": "http://www.dundeedentists.co.uk/",
+    "phone": "01382 225022",
+    "city": "26 Union St",
+    "country": "UK",
+    "email": "enquiries@dundeedentists.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:01:08.541Z"
+  },
+  {
+    "name": "The Dental Practice",
+    "website": "http://www.thedentalpracticeaberdeen.co.uk/",
+    "phone": "01224 641773",
+    "city": "21 Rubislaw Terrace",
+    "country": "UK",
+    "email": "enquiries@thedentalpracticeaberdeen.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:01:09.376Z"
+  },
+  {
+    "name": "Portlethen Dental Care",
+    "website": "http://www.portlethendentalcare.co.uk/",
+    "phone": "01224 781776",
+    "city": "Portlethen",
+    "country": "UK",
+    "email": "reception@portlethendentalcare.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:01:09.795Z"
+  },
+  {
+    "name": "Oris Dental & Implant Studio",
+    "website": "https://www.oris-dental.co.uk/",
+    "phone": "01382 530916",
+    "city": "Monifieth",
+    "country": "UK",
+    "email": "info@us21377pog.wpdns.site",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-14T18:01:10.853Z"
+  },
+  {
+    "name": "West End Dental Practice",
+    "website": "http://www.westenddentaldundee.com/",
+    "phone": "01382 644219",
+    "city": "243 Perth Rd",
+    "country": "UK",
+    "email": "info@westenddentaldundee.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-14T18:01:15.954Z"
   }
 ]
