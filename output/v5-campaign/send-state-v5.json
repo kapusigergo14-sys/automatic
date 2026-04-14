@@ -1438,5 +1438,15 @@
     "country": "US",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@ironwooddentalaz.com": {
+    "sentAt": "2026-04-14T15:58:16.726Z",
+    "messageId": "afd41339-0cd3-4775-a81a-b05df635193d",
+    "company": "Ironwood Dental",
+    "subject": "Noticed something about Ironwood Dental's site",
+    "city": "Tucson",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
