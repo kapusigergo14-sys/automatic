@@ -14,7 +14,7 @@ on:
       limit:
         description: 'Max emails to send'
         type: string
-        default: '100'
+        default: '30'
       spread_minutes:
         description: 'Spread window in minutes'
         type: string
@@ -77,7 +77,7 @@ jobs:
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: |
-          LIMIT="${{ github.event.inputs.limit || '100' }}"
+          LIMIT="${{ github.event.inputs.limit || '30' }}"
           SPREAD="${{ github.event.inputs.spread_minutes || '240' }}"
           DRY="${{ github.event.inputs.dry_run }}"
           DRY_FLAG=""

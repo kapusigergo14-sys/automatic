@@ -418,5 +418,1005 @@
     "country": "US",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "frontdesk@springsdentistry.com": {
+    "sentAt": "2026-04-14T15:25:15.367Z",
+    "messageId": "857a924b-9df7-44ae-b91d-055559e1e9c0",
+    "company": "Springs Dentistry",
+    "subject": "Quick chatbot idea for Springs Dentistry",
+    "city": "Colorado Springs",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 3
+  },
+  "crossroads.frontoffice@gmail.com": {
+    "sentAt": "2026-04-14T15:25:22.257Z",
+    "messageId": "f2d4edc9-597f-4491-ac9d-479c891ac32b",
+    "company": "Crossroads Family Dentistry",
+    "subject": "Crossroads Family Dentistry — missing chatbot?",
+    "city": "Colorado Springs",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "info@sprucedentalco.com": {
+    "sentAt": "2026-04-14T15:25:27.883Z",
+    "messageId": "0b62d043-858a-403c-b6e8-7914cd661a0d",
+    "company": "Spruce Dental",
+    "subject": "Noticed something about Spruce Dental's site",
+    "city": "Colorado Springs",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 3
+  },
+  "fcsmiles@gmail.com": {
+    "sentAt": "2026-04-14T15:25:33.653Z",
+    "messageId": "798274f6-752c-4ad4-8657-7b4e4116e7ef",
+    "company": "Foothills Family Dental",
+    "subject": "Quick chatbot idea for Foothills Family Dental",
+    "city": "Fort Collins",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 3
+  },
+  "contactus@smilecos.com": {
+    "sentAt": "2026-04-14T15:25:40.172Z",
+    "messageId": "3bdf0c21-f392-4b00-97a5-5a182176ee99",
+    "company": "SmileCOS Dentistry",
+    "subject": "SmileCOS Dentistry — missing chatbot?",
+    "city": "Colorado Springs",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "contactus@emergencydentalofamerica.com": {
+    "sentAt": "2026-04-14T15:25:45.729Z",
+    "messageId": "6af2c6d3-d68b-4bb4-ae00-1d8ef7c5aac0",
+    "company": "Emergency Dental of Colorado Springs",
+    "subject": "Noticed something about Emergency Dental of Colorado's site",
+    "city": "Colorado Springs",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 3
+  },
+  "bdental@briargatedental.com": {
+    "sentAt": "2026-04-14T15:25:51.563Z",
+    "messageId": "f162687d-7a08-4e4a-b8c7-d41e6875fcfb",
+    "company": "Briargate Dental Center",
+    "subject": "Quick chatbot idea for Briargate Dental Center",
+    "city": "Colorado Springs",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "care@alpinedentalhealth.com": {
+    "sentAt": "2026-04-14T15:25:57.421Z",
+    "messageId": "c5133ef2-29d4-4a95-a981-a29efb88afed",
+    "company": "Alpine Dental Health - S. Taft Hill Road, Fort Collins",
+    "subject": "Alpine Dental Health — missing chatbot?",
+    "city": "Fort Collins",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "frontoffice.hortondental@gmail.com": {
+    "sentAt": "2026-04-14T15:26:03.033Z",
+    "messageId": "af1da360-312e-4f70-b033-677779b4060b",
+    "company": "Horton Family Dental",
+    "subject": "Noticed something about Horton Family Dental's site",
+    "city": "Fort Collins",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "rockymountaindental@gmail.com": {
+    "sentAt": "2026-04-14T15:26:08.631Z",
+    "messageId": "e4ee2157-da48-4db2-98f8-ebeda853d41e",
+    "company": "Rocky Mountain Dental Care",
+    "subject": "Quick chatbot idea for Rocky Mountain Dental Care",
+    "city": "Fort Collins",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "info@boulderdentistryco.com": {
+    "sentAt": "2026-04-14T15:26:14.277Z",
+    "messageId": "6941c361-8d2b-48ad-ac87-1d253275cbe9",
+    "company": "Boulder Dentistry Co.",
+    "subject": "Boulder Dentistry Co. — missing chatbot?",
+    "city": "Boulder",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 2
+  },
+  "patientcare@boulderdental.com": {
+    "sentAt": "2026-04-14T15:26:19.915Z",
+    "messageId": "6f7f5cef-1da1-4def-ba30-c86c545df674",
+    "company": "North Boulder Dental",
+    "subject": "Noticed something about North Boulder Dental's site",
+    "city": "Boulder",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "office@alberdentalstudio.com": {
+    "sentAt": "2026-04-14T15:26:25.503Z",
+    "messageId": "7eee74df-bedd-4be9-a148-999efcb289e6",
+    "company": "Alber Dental Studio",
+    "subject": "Quick chatbot idea for Alber Dental Studio",
+    "city": "Boulder",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 3
+  },
+  "bouldersmiledesign@gmail.com": {
+    "sentAt": "2026-04-14T15:26:31.162Z",
+    "messageId": "480a25bd-7d89-480c-ac7c-037494027dce",
+    "company": "Boulder Smile Design",
+    "subject": "Boulder Smile Design — missing chatbot?",
+    "city": "Boulder",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "boulder@expdent.com": {
+    "sentAt": "2026-04-14T15:26:37.046Z",
+    "messageId": "191651d6-eeb9-4503-81a4-58a05e8c45eb",
+    "company": "Experience Dental Boulder",
+    "subject": "Noticed something about Experience Dental Boulder's site",
+    "city": "Boulder",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 3
+  },
+  "info@tucsondentalstudio.com": {
+    "sentAt": "2026-04-14T15:26:42.671Z",
+    "messageId": "33846c22-330b-40c3-9ad5-57c14b5f1fa1",
+    "company": "Tucson Dental Studio",
+    "subject": "Quick chatbot idea for Tucson Dental Studio",
+    "city": "Tucson",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "info@simplysmilesdentist.com": {
+    "sentAt": "2026-04-14T15:26:48.384Z",
+    "messageId": "35ae9cec-b87f-4461-b32c-b361b1a65c78",
+    "company": "Simply Smiles Dentist Tucson",
+    "subject": "Simply Smiles Dentist Tucson — missing chatbot?",
+    "city": "Tucson",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 3
+  },
+  "office@dentalwiseaz.com": {
+    "sentAt": "2026-04-14T15:26:53.958Z",
+    "messageId": "a2e0fab3-0c73-4180-9e4a-aa388e1f8a1d",
+    "company": "Dental Wise",
+    "subject": "Noticed something about Dental Wise's site",
+    "city": "Tucson",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "frontoffice@weissmanfamilydental.org": {
+    "sentAt": "2026-04-14T15:26:59.513Z",
+    "messageId": "9b0c72ff-9f24-4072-8635-03b514dbdd3e",
+    "company": "Weissman Family Dental",
+    "subject": "Quick chatbot idea for Weissman Family Dental",
+    "city": "Boulder",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "info@designagency.com": {
+    "sentAt": "2026-04-14T15:27:05.166Z",
+    "messageId": "985726d7-16a8-4659-ae15-686cfcea4aba",
+    "company": "Wilmot Family Dentistry",
+    "subject": "Wilmot Family Dentistry — missing chatbot?",
+    "city": "Tucson",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "laserdoc@smileaz.com": {
+    "sentAt": "2026-04-14T15:27:10.806Z",
+    "messageId": "44cd89d7-65d7-49db-bc56-d59787447d14",
+    "company": "Arizona Advanced Dental",
+    "subject": "Noticed something about Arizona Advanced Dental's site",
+    "city": "Mesa",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "analyticsintegration2k22@gmail.com": {
+    "sentAt": "2026-04-14T15:27:16.460Z",
+    "messageId": "556fa9a8-4a0b-4f7f-a827-fbaa978fd12e",
+    "company": "Desert Family Dental",
+    "subject": "Quick chatbot idea for Desert Family Dental",
+    "city": "Mesa",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "info@snowfamilydentistry.com": {
+    "sentAt": "2026-04-14T15:27:22.127Z",
+    "messageId": "e0d31e24-b340-47bc-a85e-ae81c3c7e0e6",
+    "company": "Snow Family Dentistry - Family Dentist in Mesa, AZ",
+    "subject": "Snow Family Dentistry — missing chatbot?",
+    "city": "Mesa",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "info@mydentalaz.com": {
+    "sentAt": "2026-04-14T15:27:27.943Z",
+    "messageId": "0f3bf18a-cb2e-4961-8d94-a66478fa2b8d",
+    "company": "My Dental Dentistry & Implants Mesa",
+    "subject": "Noticed something about My Dental Dentistry &'s site",
+    "city": "Mesa",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "arizonadentalhealth@gmail.com": {
+    "sentAt": "2026-04-14T15:27:34.416Z",
+    "messageId": "bdff9ef4-0853-4332-ace4-a353c00b9c2c",
+    "company": "Arizona Dental Health",
+    "subject": "Quick chatbot idea for Arizona Dental Health",
+    "city": "Mesa",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "info@tempedentalcare.com": {
+    "sentAt": "2026-04-14T15:27:40.088Z",
+    "messageId": "bea86cb2-045f-4703-9f66-6a39528c00a1",
+    "company": "Tempe Dental Care",
+    "subject": "Tempe Dental Care — missing chatbot?",
+    "city": "Tempe",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "tempe.dentistry@yahoo.com": {
+    "sentAt": "2026-04-14T15:27:45.703Z",
+    "messageId": "ad7608cf-a143-4c23-b8a4-e806bc2d9a68",
+    "company": "Tempe Dentistry - Dr. Jeremy Chan",
+    "subject": "Noticed something about Tempe Dentistry's site",
+    "city": "Tempe",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 3
+  },
+  "drdanielfrontdesk@yahoo.com": {
+    "sentAt": "2026-04-14T15:27:51.266Z",
+    "messageId": "15c129f8-fec3-4485-a785-7daa94f18e06",
+    "company": "Boulder Premier Dentistry",
+    "subject": "Quick chatbot idea for Boulder Premier Dentistry",
+    "city": "Boulder",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "dentalteam@weekend-dentalcare.com": {
+    "sentAt": "2026-04-14T15:27:57.114Z",
+    "messageId": "487e76bd-bacf-485f-8471-4e6c81bc180f",
+    "company": "Weekend Dental Care Tempe",
+    "subject": "Weekend Dental Care Tempe — missing chatbot?",
+    "city": "Tempe",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "osunadentalcare@gmail.com": {
+    "sentAt": "2026-04-14T15:28:02.719Z",
+    "messageId": "5bb21eea-1880-4530-8c4e-17411e78b1db",
+    "company": "Osuna Dental Care",
+    "subject": "Noticed something about Osuna Dental Care's site",
+    "city": "Albuquerque",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "info@adcnm.com": {
+    "sentAt": "2026-04-14T15:28:08.528Z",
+    "messageId": "9b7234dd-4e90-4b5a-8185-aa63d13db796",
+    "company": "Academy Dental Care",
+    "subject": "Quick chatbot idea for Academy Dental Care",
+    "city": "Albuquerque",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "newagedentistryabq@gmail.com": {
+    "sentAt": "2026-04-14T15:28:14.260Z",
+    "messageId": "a8221621-8c38-44e3-a4f2-62c7668b11af",
+    "company": "New Age Dentistry – Albuquerque Dentist",
+    "subject": "New Age Dentistry  — missing chatbot?",
+    "city": "Albuquerque",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "raeann@nmsmilecenter.com": {
+    "sentAt": "2026-04-14T15:28:19.924Z",
+    "messageId": "27521b1c-18ea-4e32-923b-d05e8f074667",
+    "company": "New Mexico Smile Center",
+    "subject": "Noticed something about New Mexico Smile Center's site",
+    "city": "Albuquerque",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "hello@tempe-dental.com": {
+    "sentAt": "2026-04-14T15:28:25.796Z",
+    "messageId": "3de3ad97-f7b5-464d-8c91-99abdf73e336",
+    "company": "Tempe Dental",
+    "subject": "Quick chatbot idea for Tempe Dental",
+    "city": "Tempe",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "info@ahhdental.com": {
+    "sentAt": "2026-04-14T15:28:31.819Z",
+    "messageId": "8451d1b5-9a93-4f17-809d-f86962897f6c",
+    "company": "Ahh Dental",
+    "subject": "Ahh Dental — missing chatbot?",
+    "city": "Santa Fe",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "saltlakedentaloffice@gmail.com": {
+    "sentAt": "2026-04-14T15:28:37.484Z",
+    "messageId": "1c0e9dbd-9f81-4615-9151-a97edc2cbcbc",
+    "company": "Salt Lake Dental",
+    "subject": "Noticed something about Salt Lake Dental's site",
+    "city": "Salt Lake City",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 3
+  },
+  "santafedentistry@mb2dental.com": {
+    "sentAt": "2026-04-14T15:28:43.234Z",
+    "messageId": "e9e38f47-2d2d-40d7-a519-ae4a9b6f3c62",
+    "company": "Santa Fe Family Dentistry & Orthodontics",
+    "subject": "Quick chatbot idea for Santa Fe Family Dentistry",
+    "city": "Santa Fe",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "slcdentalcenter@gmail.com": {
+    "sentAt": "2026-04-14T15:28:49.453Z",
+    "messageId": "87c2d993-8676-43b3-8d64-177ef3cd9827",
+    "company": "Stoker Dental & Orthodontics (Formerly Salt Lake City Dental Center)",
+    "subject": "Stoker Dental & Orthodontics — missing chatbot?",
+    "city": "Salt Lake City",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "kris@wm4d.com": {
+    "sentAt": "2026-04-14T15:28:55.050Z",
+    "messageId": "308c9c39-376f-40cf-a6ff-e6dc6743ed47",
+    "company": "Legacy Dental",
+    "subject": "Noticed something about Legacy Dental's site",
+    "city": "Salt Lake City",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 3
+  },
+  "gbwiest@gmail.com": {
+    "sentAt": "2026-04-14T15:29:00.640Z",
+    "messageId": "13b331f7-cb78-4c6e-a866-cdc72a9e7212",
+    "company": "Provo Dental - Gary B Wiest DMD, Kevin B Wiest DDS and Connor Wright DDS",
+    "subject": "Quick chatbot idea for Provo Dental",
+    "city": "Provo",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "citycreekdental@gmail.com": {
+    "sentAt": "2026-04-14T15:29:06.378Z",
+    "messageId": "cb9ec8fb-6f35-4c86-ab20-b87d0494a065",
+    "company": "City Creek Dental",
+    "subject": "City Creek Dental — missing chatbot?",
+    "city": "Salt Lake City",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "receptionist@provofamilydentistry.com": {
+    "sentAt": "2026-04-14T15:29:12.065Z",
+    "messageId": "e1b28a33-2b96-4df6-95c0-207a1b7f72d0",
+    "company": "Provo Family Dentistry",
+    "subject": "Noticed something about Provo Family Dentistry's site",
+    "city": "Provo",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "sugarhouse@platinumdentalservices.com": {
+    "sentAt": "2026-04-14T15:29:17.714Z",
+    "messageId": "16eb0f45-7632-4c8a-94c4-9fb56cfce6f8",
+    "company": "Platinum Dental of Salt Lake City",
+    "subject": "Quick chatbot idea for Platinum Dental of Salt",
+    "city": "Salt Lake City",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "hello@thedentalspa.com": {
+    "sentAt": "2026-04-14T15:29:23.348Z",
+    "messageId": "cb533a73-7c93-4712-998d-ce07126d1fdf",
+    "company": "The Dental Spa",
+    "subject": "The Dental Spa — missing chatbot?",
+    "city": "Salt Lake City",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "info@highlanddental.com": {
+    "sentAt": "2026-04-14T15:29:29.129Z",
+    "messageId": "4b44fe04-50d7-4bc0-b67a-dc4a22d39600",
+    "company": "Highland Dental Center",
+    "subject": "Noticed something about Highland Dental Center's site",
+    "city": "Salt Lake City",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "office@downtowndentalprovo.com": {
+    "sentAt": "2026-04-14T15:29:34.959Z",
+    "messageId": "7d22f875-ad8d-4558-8968-3ed4a7459be4",
+    "company": "Downtown Dental",
+    "subject": "Quick chatbot idea for Downtown Dental",
+    "city": "Provo",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "adcprovo@gmail.com": {
+    "sentAt": "2026-04-14T15:29:40.535Z",
+    "messageId": "eae44858-8e0b-4add-96bc-dc4cc521e714",
+    "company": "Advanced Dental Care",
+    "subject": "Advanced Dental Care — missing chatbot?",
+    "city": "Provo",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "info@mckellpackerdental.com": {
+    "sentAt": "2026-04-14T15:29:46.157Z",
+    "messageId": "7fab985b-6639-46ad-b7d1-3e9e64bdec52",
+    "company": "McKell/Packer Dental",
+    "subject": "Noticed something about McKellPacker Dental's site",
+    "city": "Provo",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "ogden3@platinumdentalservices.com": {
+    "sentAt": "2026-04-14T15:29:51.818Z",
+    "messageId": "db9e1ee1-c5ad-49f0-a8a5-f46ec2192976",
+    "company": "Healy Dental Care",
+    "subject": "Quick chatbot idea for Healy Dental Care",
+    "city": "Ogden",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "moosedentistpdm@gmail.com": {
+    "sentAt": "2026-04-14T15:29:57.478Z",
+    "messageId": "c66ea148-f6ad-4d0d-b355-450229d83429",
+    "company": "Mountain View Pediatric Dentistry of Pleasant View",
+    "subject": "Mountain View Pediatric Dentistry — missing chatbot?",
+    "city": "Pleasant View",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "office@ssknight.com": {
+    "sentAt": "2026-04-14T15:30:03.148Z",
+    "messageId": "57d3271b-2a85-4887-ba21-7da9b6d7abc5",
+    "company": "Knight Family Dentistry",
+    "subject": "Noticed something about Knight Family Dentistry's site",
+    "city": "Farr West",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "pvdsc5742@gmail.com": {
+    "sentAt": "2026-04-14T15:30:09.052Z",
+    "messageId": "ba1e96a2-9613-4197-bda9-0bde2afaadb0",
+    "company": "Pleasant Valley Dental and Sleep Center",
+    "subject": "Quick chatbot idea for Pleasant Valley Dental and",
+    "city": "Ogden",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "info@questdental.com": {
+    "sentAt": "2026-04-14T15:30:14.697Z",
+    "messageId": "6e3a5a48-5480-4f78-a13d-582c9fb1ea74",
+    "company": "Quest Dental",
+    "subject": "Quest Dental — missing chatbot?",
+    "city": "Eugene",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "office@eugenedentalgroup.com": {
+    "sentAt": "2026-04-14T15:30:20.284Z",
+    "messageId": "935b7977-f857-42cc-ae23-a8fda40b8277",
+    "company": "Eugene Dental Group",
+    "subject": "Noticed something about Eugene Dental Group's site",
+    "city": "Eugene",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "office@eugenefamilydental.com": {
+    "sentAt": "2026-04-14T15:30:25.988Z",
+    "messageId": "9e3dbc7e-ba1f-41ca-9d8f-ec4363d4d56c",
+    "company": "Eugene Family Dental",
+    "subject": "Quick chatbot idea for Eugene Family Dental",
+    "city": "Eugene",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "drmercedesdelvalle@gmail.com": {
+    "sentAt": "2026-04-14T15:30:31.998Z",
+    "messageId": "52e7bddf-279e-490a-887e-4193abb4dc46",
+    "company": "Integrated Family Dentistry",
+    "subject": "Integrated Family Dentistry — missing chatbot?",
+    "city": "Eugene",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "eugenedentalassociates@mydentalmail.com": {
+    "sentAt": "2026-04-14T15:30:37.561Z",
+    "messageId": "d38faad6-3cd5-408b-a11a-00dd0644d9d8",
+    "company": "Eugene Dental Associates",
+    "subject": "Noticed something about Eugene Dental Associates's site",
+    "city": "Eugene",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "info@salemsmiles.com": {
+    "sentAt": "2026-04-14T15:30:43.442Z",
+    "messageId": "e689a971-3166-46ae-99e6-64d014f29e81",
+    "company": "Oak Park Dental",
+    "subject": "Quick chatbot idea for Oak Park Dental",
+    "city": "Salem",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "info@salemdentistry.net": {
+    "sentAt": "2026-04-14T15:30:49.005Z",
+    "messageId": "1003450a-c728-42ce-bf7f-d0edbb7e1a01",
+    "company": "Salem Family and Cosmetic Dentistry",
+    "subject": "Salem Family and Cosmetic — missing chatbot?",
+    "city": "Salem",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "help@arvory.com": {
+    "sentAt": "2026-04-14T15:30:54.664Z",
+    "messageId": "4cf08792-f9c9-4805-a1a9-5b6022a9ba18",
+    "company": "Roots Dental & Dental Implant Center - Salem",
+    "subject": "Noticed something about Roots Dental & Dental's site",
+    "city": "Salem",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 3
+  },
+  "torghele@yahoo.com": {
+    "sentAt": "2026-04-14T15:31:00.314Z",
+    "messageId": "6fede7de-b136-47fb-9592-a9e757dae2d7",
+    "company": "Torghele and Schmid Dental",
+    "subject": "Quick chatbot idea for Torghele and Schmid Dental",
+    "city": "Ogden",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "office@willisdental.net": {
+    "sentAt": "2026-04-14T15:31:05.960Z",
+    "messageId": "637fff75-74a1-473b-9f87-0b97a618a42f",
+    "company": "Willis Dental",
+    "subject": "Willis Dental — missing chatbot?",
+    "city": "Salem",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 3
+  },
+  "crownpointdentalcare@mydentalmail.com": {
+    "sentAt": "2026-04-14T15:31:11.628Z",
+    "messageId": "f85d3b0e-72d8-4865-8cc6-85f1b6a3a3d7",
+    "company": "Crown Point Dental Care",
+    "subject": "Noticed something about Crown Point Dental Care's site",
+    "city": "Salem",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "485-6123emailinfo@mydentisteugene.comaddress": {
+    "sentAt": "2026-04-14T15:31:17.204Z",
+    "messageId": "7c8fd2ce-2c7d-471a-9840-6ccd15cf2fa6",
+    "company": "Butler Family Dental",
+    "subject": "Quick chatbot idea for Butler Family Dental",
+    "city": "Eugene",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "info@ksfamilydentist.com": {
+    "sentAt": "2026-04-14T15:31:22.999Z",
+    "messageId": "a5bf3e5d-2400-43ca-93fb-2b9989a744e4",
+    "company": "Smith and Emerick Family Dental",
+    "subject": "Smith and Emerick Family — missing chatbot?",
+    "city": "Salem",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 2
+  },
+  "info@skylinedentalbend.com": {
+    "sentAt": "2026-04-14T15:31:29.058Z",
+    "messageId": "d61f89f9-0d6c-4d6b-83c6-d412e731f2e1",
+    "company": "Skyline Dental",
+    "subject": "Noticed something about Skyline Dental's site",
+    "city": "Bend",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "mailbox@drgiruc.com": {
+    "sentAt": "2026-04-14T15:31:34.973Z",
+    "messageId": "03d618ac-8cd6-471d-a48f-cf639dd1e274",
+    "company": "Dr. Margaret Giruc",
+    "subject": "Quick chatbot idea for Dr. Margaret Giruc",
+    "city": "Salem",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 3
+  },
+  "info@nwxdental.com": {
+    "sentAt": "2026-04-14T15:31:40.603Z",
+    "messageId": "f0ef36e6-20df-4d04-b6d6-8a8b9321ca1a",
+    "company": "Drew Family Dentistry",
+    "subject": "Drew Family Dentistry — missing chatbot?",
+    "city": "Bend",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "admin@millpointdental.com": {
+    "sentAt": "2026-04-14T15:31:46.528Z",
+    "messageId": "9ceb7313-fd96-42b6-85f8-2a10090c38a8",
+    "company": "Mill Point Dental Center",
+    "subject": "Noticed something about Mill Point Dental Center's site",
+    "city": "Bend",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "info@cascadiafamilydental.com": {
+    "sentAt": "2026-04-14T15:31:52.251Z",
+    "messageId": "0c60166b-38ad-46c3-b409-970e2dd4ed12",
+    "company": "Cascadia Family Dental",
+    "subject": "Quick chatbot idea for Cascadia Family Dental",
+    "city": "Bend",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "info@tacomaadvanced.com": {
+    "sentAt": "2026-04-14T15:31:57.868Z",
+    "messageId": "fbfde2aa-838c-499d-9af7-d7a562d2f5a5",
+    "company": "Tacoma Advanced Dental",
+    "subject": "Tacoma Advanced Dental — missing chatbot?",
+    "city": "Tacoma",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "info@barrett-dental.com": {
+    "sentAt": "2026-04-14T15:32:03.487Z",
+    "messageId": "2b6be8f7-c310-452a-8b6a-94468ce93063",
+    "company": "Barrett Family Dental of Tacoma",
+    "subject": "Noticed something about Barrett Family Dental of's site",
+    "city": "Tacoma",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 2
+  },
+  "info@benddentalwellness.com": {
+    "sentAt": "2026-04-14T15:32:09.158Z",
+    "messageId": "66379d86-2b0a-4cdd-84e0-4beff1cef91f",
+    "company": "Bend Dental Wellness",
+    "subject": "Quick chatbot idea for Bend Dental Wellness",
+    "city": "Bend",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "tacomadentalgroup@gmail.com": {
+    "sentAt": "2026-04-14T15:32:14.835Z",
+    "messageId": "0521b8b3-df78-497c-a50b-8e2215ccd828",
+    "company": "Tacoma Dental Group",
+    "subject": "Tacoma Dental Group — missing chatbot?",
+    "city": "Tacoma",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "frontdesk@thetacomadentist.com": {
+    "sentAt": "2026-04-14T15:32:20.747Z",
+    "messageId": "07ebd945-451e-47f1-89c2-fc389aeb4ac4",
+    "company": "Advanced Dental Care - Tacoma",
+    "subject": "Noticed something about Advanced Dental Care's site",
+    "city": "Tacoma",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "reception@waterplacedental.com": {
+    "sentAt": "2026-04-14T15:32:26.331Z",
+    "messageId": "dbf8eb56-eb8c-4278-aaec-09498f8de7e6",
+    "company": "Waterplace Dental",
+    "subject": "Quick chatbot idea for Waterplace Dental",
+    "city": "Salem",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "info@accessdentaloly.com": {
+    "sentAt": "2026-04-14T15:32:32.012Z",
+    "messageId": "edcef555-2b6e-4076-9f42-b7f28f04e706",
+    "company": "Access Dental",
+    "subject": "Access Dental — missing chatbot?",
+    "city": "Olympia",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "odc.1840@gmail.com": {
+    "sentAt": "2026-04-14T15:32:37.656Z",
+    "messageId": "347d06d3-c5af-496e-84b8-66111e40dd1e",
+    "company": "Olympia Dental Center",
+    "subject": "Noticed something about Olympia Dental Center's site",
+    "city": "Tumwater",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "info@drwinterdentistry.com": {
+    "sentAt": "2026-04-14T15:32:43.236Z",
+    "messageId": "f317c4fd-c228-4e96-bfea-6f0ec75f28ee",
+    "company": "Westside Dental",
+    "subject": "Quick chatbot idea for Westside Dental",
+    "city": "Olympia",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "connect@bhamrd.com": {
+    "sentAt": "2026-04-14T15:32:49.076Z",
+    "messageId": "99218175-5d12-4b6a-b244-a05d27085163",
+    "company": "Roots Dental",
+    "subject": "Roots Dental — missing chatbot?",
+    "city": "Bellingham",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "info@bellinghambaydental.com": {
+    "sentAt": "2026-04-14T15:32:55.090Z",
+    "messageId": "c53a5d3f-ac0f-4cd0-9bd9-7ac56c053f5d",
+    "company": "Bellingham Bay Dental",
+    "subject": "Noticed something about Bellingham Bay Dental's site",
+    "city": "Bellingham",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 2
+  },
+  "info@sagawanw.com": {
+    "sentAt": "2026-04-14T15:33:00.735Z",
+    "messageId": "6ba32db9-c94a-4df8-9f03-0b7a42f8914c",
+    "company": "Sagawa NW Dentistry",
+    "subject": "Quick chatbot idea for Sagawa NW Dentistry",
+    "city": "Olympia",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "front-desk@dorschfamilydental.com": {
+    "sentAt": "2026-04-14T15:33:06.360Z",
+    "messageId": "de7bf194-815b-4763-91e7-a5d491b1a42a",
+    "company": "Dorsch Family Dental",
+    "subject": "Dorsch Family Dental — missing chatbot?",
+    "city": "Bellingham",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "drmcrory@northsidedentalcare.net": {
+    "sentAt": "2026-04-14T15:33:11.996Z",
+    "messageId": "899bd724-8182-4379-b2be-da77bfb36e3a",
+    "company": "Northside Dental Care",
+    "subject": "Noticed something about Northside Dental Care's site",
+    "city": "Bellingham",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "info@bellinghamfamilydentistry.com": {
+    "sentAt": "2026-04-14T15:33:17.722Z",
+    "messageId": "b0df880d-99ee-42cb-bd10-c65dd27b8c53",
+    "company": "Bellingham Family Dentistry",
+    "subject": "Quick chatbot idea for Bellingham Family Dentistry",
+    "city": "Bellingham",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "info@localdentistbellingham.com": {
+    "sentAt": "2026-04-14T15:33:23.293Z",
+    "messageId": "ad30d348-a21e-4cc6-a451-74b81266fd40",
+    "company": "The Local Dentist",
+    "subject": "The Local Dentist — missing chatbot?",
+    "city": "Bellingham",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "bhamoffice@cefamilydental.com": {
+    "sentAt": "2026-04-14T15:33:28.852Z",
+    "messageId": "e9374e6f-abb1-427c-8ac4-261e07b35fbe",
+    "company": "CE Family Dental North",
+    "subject": "Noticed something about CE Family Dental North's site",
+    "city": "Bellingham",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "xxx@xxx.com": {
+    "sentAt": "2026-04-14T15:33:34.525Z",
+    "messageId": "6484482a-0048-4a3b-a173-dfaeb00fde2e",
+    "company": "South Anchorage Dental Center",
+    "subject": "Quick chatbot idea for South Anchorage Dental Center",
+    "city": "Anchorage",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "reception@creeksidewa.com": {
+    "sentAt": "2026-04-14T15:33:40.133Z",
+    "messageId": "b9b915f0-11c2-484a-9568-d611805d35c6",
+    "company": "Creekside Dental Care",
+    "subject": "Creekside Dental Care — missing chatbot?",
+    "city": "Bellingham",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "bvdental227@gmail.com": {
+    "sentAt": "2026-04-14T15:33:45.714Z",
+    "messageId": "0e485257-7fbe-4c6d-8929-6270c14258d4",
+    "company": "Bayview Dental",
+    "subject": "Noticed something about Bayview Dental's site",
+    "city": "Bellingham",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "smiles@familyfirstdentistry.com": {
+    "sentAt": "2026-04-14T15:33:51.289Z",
+    "messageId": "6a9abe05-f682-4096-a2cd-1c38dac8a2a6",
+    "company": "Family First Dentistry",
+    "subject": "Quick chatbot idea for Family First Dentistry",
+    "city": "Anchorage",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "schedule@peakhealthdentistry.com": {
+    "sentAt": "2026-04-14T15:33:56.934Z",
+    "messageId": "8340048d-630e-4c69-b288-f09a2ebdb452",
+    "company": "Peak Health Dentistry at Gentle Care",
+    "subject": "Peak Health Dentistry at — missing chatbot?",
+    "city": "Anchorage",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 3
+  },
+  "aksmilesdentist@gmail.com": {
+    "sentAt": "2026-04-14T15:34:02.660Z",
+    "messageId": "dd7bc62d-50ea-48d5-9d81-6ee26333e97d",
+    "company": "Alaska Smiles",
+    "subject": "Noticed something about Alaska Smiles's site",
+    "city": "Anchorage",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 3
+  },
+  "honolulu@hawaiifamilydental.com": {
+    "sentAt": "2026-04-14T15:34:08.443Z",
+    "messageId": "73c4467b-3ba1-488e-a89f-25f83eca87cf",
+    "company": "Hawaii Family Dental – Honolulu",
+    "subject": "Quick chatbot idea for Hawaii Family Dental ",
+    "city": "Honolulu",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "info@hawaiidentalsmiles.com": {
+    "sentAt": "2026-04-14T15:34:14.111Z",
+    "messageId": "ed9c2409-d32f-4c33-874e-9772da152197",
+    "company": "Hawaii Dental Clinic - Downtown Honolulu",
+    "subject": "Hawaii Dental Clinic — missing chatbot?",
+    "city": "Honolulu",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "info@kaizendentalhawaii.com": {
+    "sentAt": "2026-04-14T15:34:19.711Z",
+    "messageId": "375e3f14-45b8-476c-b3d7-2c1cc234020a",
+    "company": "Kaizen Dental Center - Downtown Honolulu",
+    "subject": "Noticed something about Kaizen Dental Center's site",
+    "city": "Honolulu",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
+  },
+  "barkley.dental@comcast.net": {
+    "sentAt": "2026-04-14T15:34:25.347Z",
+    "messageId": "86449d0a-baf2-4da5-9155-3d02c4319578",
+    "company": "Barkley Boulevard Dental Care",
+    "subject": "Quick chatbot idea for Barkley Boulevard Dental Care",
+    "city": "Bellingham",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "frontdesk@kaimukidentalgroup.com": {
+    "sentAt": "2026-04-14T15:34:31.059Z",
+    "messageId": "61eafcd3-8a01-4c27-ba75-0c7c5c631560",
+    "company": "Kaimuki Dental Group LLC",
+    "subject": "Kaimuki Dental Group LLC — missing chatbot?",
+    "city": "Honolulu",
+    "country": "US",
+    "hasBooking": true,
+    "modernScore": 2
+  },
+  "allstardentalimplant@gmail.com": {
+    "sentAt": "2026-04-14T15:34:36.713Z",
+    "messageId": "9db93337-d756-4c97-a1de-43338fc25d76",
+    "company": "All Star Dental Care",
+    "subject": "Noticed something about All Star Dental Care's site",
+    "city": "Honolulu",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
+  },
+  "alamoanadentistry@gmail.com": {
+    "sentAt": "2026-04-14T15:34:42.306Z",
+    "messageId": "e8f3ee80-a5a9-4f50-b70e-3342bc160464",
+    "company": "Ala Moana Dentistry",
+    "subject": "Quick chatbot idea for Ala Moana Dentistry",
+    "city": "Honolulu",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
