@@ -1418,5 +1418,15 @@
     "country": "US",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "broadmoordental@mydentalmail.com": {
+    "sentAt": "2026-04-14T15:58:03.406Z",
+    "messageId": "90365381-ce70-4539-8012-018327986095",
+    "company": "Broadmoor Dental",
+    "subject": "Quick chatbot idea for Broadmoor Dental",
+    "city": "Colorado Springs",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
