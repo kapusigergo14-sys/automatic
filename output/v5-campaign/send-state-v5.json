@@ -1448,5 +1448,16 @@
     "country": "US",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "colorado@coloradodentalgroup.com": {
+    "sentAt": "2026-04-14T18:01:22.330Z",
+    "messageId": "e9f9150c-98c5-4ed6-9316-2eaec43c4ee1",
+    "company": "Colorado Dental Group",
+    "subject": "Quick chatbot idea for Colorado Dental Group",
+    "city": "Colorado Springs",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
