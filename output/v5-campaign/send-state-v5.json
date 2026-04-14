@@ -1428,5 +1428,15 @@
     "country": "US",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "frontdesk@bouldercanyondental.com": {
+    "sentAt": "2026-04-14T15:58:10.445Z",
+    "messageId": "3f930227-47ce-475b-a21d-1cb4e2bdf59e",
+    "company": "Boulder Canyon Dental",
+    "subject": "Boulder Canyon Dental — missing chatbot?",
+    "city": "Boulder",
+    "country": "US",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
