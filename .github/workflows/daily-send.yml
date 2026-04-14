@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       markets:
-        description: 'Markets — comma-separated (e.g. US,UK,HU). Blank = all English markets.'
+        description: 'Markets — pick any combo, comma-separated. Available: US | UK | CA | AU | NZ | IE | HU. Examples: HU  /  US,UK  /  US,UK,HU  /  UK,IE,HU'
         type: string
         default: 'US,UK,CA,AU,NZ,IE'
       dry_run:
