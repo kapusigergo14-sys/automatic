@@ -21,6 +21,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import * as dotenv from 'dotenv';
+import { getQueriesForMarkets, parseMarketList } from './markets';
 
 dotenv.config({ path: path.resolve(__dirname, '../.env.local') });
 
@@ -54,74 +55,17 @@ function parseArgs() {
   let limit = 500;
   let concurrency = 10;
   let resume = false;
+  let marketsRaw = '';
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--limit') { limit = parseInt(args[i + 1], 10); i++; }
     if (args[i] === '--concurrency') { concurrency = parseInt(args[i + 1], 10); i++; }
     if (args[i] === '--resume') resume = true;
+    if (args[i] === '--markets' && args[i + 1]) { marketsRaw = args[i + 1]; i++; }
   }
-  return { limit, concurrency, resume };
+  const markets = parseMarketList(marketsRaw);
+  return { limit, concurrency, resume, markets };
 }
 
-// ── Search queries: English-speaking dental markets ──
-const SEARCH_QUERIES: Array<{ query: string; country: string }> = [
-  // US — fresh mid-size cities not yet used
-  { query: 'dentist Colorado Springs Colorado', country: 'US' },
-  { query: 'dentist Fort Collins Colorado', country: 'US' },
-  { query: 'dentist Boulder Colorado', country: 'US' },
-  { query: 'dentist Tucson Arizona', country: 'US' },
-  { query: 'dentist Mesa Arizona', country: 'US' },
-  { query: 'dentist Tempe Arizona', country: 'US' },
-  { query: 'dentist Albuquerque New Mexico', country: 'US' },
-  { query: 'dentist Santa Fe New Mexico', country: 'US' },
-  { query: 'dentist Salt Lake City Utah', country: 'US' },
-  { query: 'dentist Provo Utah', country: 'US' },
-  { query: 'dentist Ogden Utah', country: 'US' },
-  { query: 'dentist Eugene Oregon', country: 'US' },
-  { query: 'dentist Salem Oregon', country: 'US' },
-  { query: 'dentist Bend Oregon', country: 'US' },
-  { query: 'dentist Tacoma Washington', country: 'US' },
-  { query: 'dentist Olympia Washington', country: 'US' },
-  { query: 'dentist Bellingham Washington', country: 'US' },
-  { query: 'dentist Anchorage Alaska', country: 'US' },
-  { query: 'dentist Honolulu Hawaii', country: 'US' },
-  { query: 'dentist Sioux Falls South Dakota', country: 'US' },
-  { query: 'dentist Fargo North Dakota', country: 'US' },
-  { query: 'dentist Omaha Nebraska', country: 'US' },
-  { query: 'dentist Lincoln Nebraska', country: 'US' },
-  { query: 'dentist Wichita Kansas', country: 'US' },
-  { query: 'dentist Topeka Kansas', country: 'US' },
-  { query: 'dentist Springfield Missouri', country: 'US' },
-  { query: 'dentist Columbia Missouri', country: 'US' },
-  { query: 'dentist Little Rock Arkansas', country: 'US' },
-  { query: 'dentist Fayetteville Arkansas', country: 'US' },
-  { query: 'dentist Jackson Mississippi', country: 'US' },
-  { query: 'dentist Gulfport Mississippi', country: 'US' },
-  { query: 'dentist Birmingham Alabama', country: 'US' },
-  { query: 'dentist Mobile Alabama', country: 'US' },
-  { query: 'dentist Knoxville Tennessee', country: 'US' },
-  { query: 'dentist Memphis Tennessee', country: 'US' },
-  { query: 'dentist Lafayette Louisiana', country: 'US' },
-  { query: 'dentist Baton Rouge Louisiana', country: 'US' },
-  { query: 'dentist Shreveport Louisiana', country: 'US' },
-  { query: 'dentist Fort Smith Arkansas', country: 'US' },
-  { query: 'dentist Evansville Indiana', country: 'US' },
-  { query: 'dentist Fort Wayne Indiana', country: 'US' },
-  { query: 'dentist South Bend Indiana', country: 'US' },
-  { query: 'dentist Akron Ohio', country: 'US' },
-  { query: 'dentist Dayton Ohio', country: 'US' },
-  { query: 'dentist Toledo Ohio', country: 'US' },
-  { query: 'dentist Youngstown Ohio', country: 'US' },
-  { query: 'dentist Erie Pennsylvania', country: 'US' },
-  { query: 'dentist Scranton Pennsylvania', country: 'US' },
-  { query: 'dentist Allentown Pennsylvania', country: 'US' },
-  { query: 'dentist Syracuse New York', country: 'US' },
-  { query: 'dentist Rochester New York', country: 'US' },
-  { query: 'dentist Buffalo New York', country: 'US' },
-  { query: 'dentist Albany New York', country: 'US' },
-  { query: 'dentist Burlington Vermont', country: 'US' },
-  { query: 'dentist Portland Maine', country: 'US' },
-  { query: 'dentist Manchester New Hampshire', country: 'US' },
-];
 
 // ── Google Places search ──
 async function placesSearch(query: string): Promise<any[]> {
@@ -313,13 +257,18 @@ async function parallelMap<T, R>(items: T[], concurrency: number, fn: (item: T, 
 
 // ── Main ──
 async function main() {
-  const { limit, concurrency, resume } = parseArgs();
+  const { limit, concurrency, resume, markets } = parseArgs();
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
   fs.mkdirSync(path.dirname(LEADS_FILE), { recursive: true });
   fs.mkdirSync(path.dirname(V5_STATE_FILE), { recursive: true });
 
+  // Resolve search queries from the requested markets
+  const SEARCH_QUERIES = getQueriesForMarkets(markets);
+
   console.log('🦷 AUTO DENTAL v5 — FAST COLLECT (modern/középszerű, NO CHATBOT)');
+  console.log(`   Markets:     ${markets.join(', ')}`);
+  console.log(`   Queries:     ${SEARCH_QUERIES.length}`);
   console.log(`   Concurrency: ${concurrency}, target: ${limit} leads\n`);
 
   // Cross-dedup: v4 send-state + v5 send-state

@@ -26,6 +26,8 @@ output/v5-campaign/*
 !output/static/
 output/static/*
 !output/static/smartflowdev-dental-proposal.pdf
+!output/static/smartflowdev-dental-proposal-en.pdf
+!output/static/smartflowdev-dental-proposal-hu.pdf
 
 # Logs + tooling
 *.log

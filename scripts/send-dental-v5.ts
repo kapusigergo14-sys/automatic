@@ -22,6 +22,9 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { execSync } from 'child_process';
 import * as dotenv from 'dotenv';
+import { getMarket, parseMarketList } from './markets';
+import { pickSubject, buildBody } from './email-bodies';
+import type { LangCode } from './markets';
 
 dotenv.config({ path: path.resolve(__dirname, '../.env.local') });
 
@@ -35,7 +38,7 @@ if (!RESEND_API_KEY) {
 const LEADS_FILE = path.resolve(__dirname, '../output/leads/dental-v5-modern.json');
 const V4_STATE_FILE = path.resolve(__dirname, '../output/dental-campaign/send-state.json');
 const V5_STATE_FILE = path.resolve(__dirname, '../output/v5-campaign/send-state-v5.json');
-const STATIC_PDF_PATH = path.resolve(__dirname, '../output/static/smartflowdev-dental-proposal.pdf');
+const STATIC_PDF_DIR = path.resolve(__dirname, '../output/static');
 
 interface V5Lead {
   name: string;
@@ -55,19 +58,23 @@ function parseArgs(): {
   limit: number;
   spreadMinutes: number;
   gitCommitPerSend: boolean;
+  markets: string[];
 } {
   const args = process.argv.slice(2);
   let dryRun = false;
   let limit = Infinity;
   let spreadMinutes = 0;
   let gitCommitPerSend = false;
+  let marketsRaw = '';
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--dry-run') dryRun = true;
     if (args[i] === '--limit' && args[i + 1]) { limit = parseInt(args[i + 1], 10); i++; }
     if (args[i] === '--spread-minutes' && args[i + 1]) { spreadMinutes = parseInt(args[i + 1], 10); i++; }
     if (args[i] === '--git-commit-per-send') gitCommitPerSend = true;
+    if (args[i] === '--markets' && args[i + 1]) { marketsRaw = args[i + 1]; i++; }
   }
-  return { dryRun, limit, spreadMinutes, gitCommitPerSend };
+  const markets = parseMarketList(marketsRaw);
+  return { dryRun, limit, spreadMinutes, gitCommitPerSend, markets };
 }
 
 // ── Spread delay helper ──
@@ -129,47 +136,15 @@ function cleanName(name: string): string {
   return name
     .replace(/\s*-\s*.*/g, '')       // drop " - tagline" after dash
     .replace(/\s*\|.*/g, '')          // drop after pipe
-    .replace(/[^a-zA-Z0-9 &'.]/g, '') // strip odd chars
+    // Keep ASCII + extended Latin (HU/DE/ES/FR diacritics) + space + a few punctuation
+    .replace(/[^\p{L}\p{N} &'.]/gu, '')
     .trim()
-    .split(' ')
+    .split(/\s+/)
     .slice(0, 4)
     .join(' ');
 }
 
-// ── Subject rotation ──
-const SUBJECT_VARIANTS = [
-  (company: string) => `Quick chatbot idea for ${company}`,
-  (company: string) => `${company} — missing chatbot?`,
-  (company: string) => `Noticed something about ${company}'s site`,
-];
-
-function pickSubject(idx: number, company: string): string {
-  return SUBJECT_VARIANTS[idx % SUBJECT_VARIANTS.length](company);
-}
-
-// ── Email body template ──
-function buildBodyHtml(company: string): string {
-  const c = esc(company);
-  return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:560px;margin:0 auto;color:#2b2b2b;line-height:1.6;font-size:15px">
-<p style="margin:0 0 14px 0">Hi ${c} team,</p>
-
-<p style="margin:0 0 14px 0">Geri here &mdash; I build AI chatbots for dental practices.</p>
-
-<p style="margin:0 0 14px 0">Your site actually looks solid, but there's no chatbot yet &mdash; which is probably costing you a few patients a month in after-hours inquiries.</p>
-
-<p style="margin:0 0 14px 0">I can install a branded one on your site in <strong>48 hours</strong>, everything included. Short overview attached as a PDF.</p>
-
-<p style="margin:0 0 14px 0">If it's interesting, just reply. If not, no worries &mdash; delete this and I'll stop reaching out.</p>
-
-<p style="margin:0 0 18px 0">Cheers,<br><strong>Geri</strong> &middot; <a href="https://smartflowdev.com" style="color:#6366F1;text-decoration:none">smartflowdev.com</a></p>
-
-<p style="margin:0">
-  <a href="https://smartflowdev.com" style="display:block;text-decoration:none">
-    <img src="https://www.smartflowdev.com/chatbot-preview.png" alt="AI Chatbot Proposal — smartflowdev" width="420" style="display:block;width:100%;max-width:420px;height:auto;border-radius:10px;border:1px solid #e4e4e7" />
-  </a>
-</p>
-</div>`;
-}
+// (Subject + body now come from email-bodies.ts via pickSubject/buildBody imports)
 
 // ── Send via Resend ──
 async function sendEmail(
@@ -208,15 +183,16 @@ async function sendEmail(
 
 // ── Main ──
 async function main() {
-  const { dryRun, limit, spreadMinutes, gitCommitPerSend } = parseArgs();
+  const { dryRun, limit, spreadMinutes, gitCommitPerSend, markets } = parseArgs();
 
   console.log('╔═══════════════════════════════════════════════════════════════╗');
-  console.log('║  DENTAL v5 SEND — chatbot pitch (static PDF)                  ║');
+  console.log('║  DENTAL v5 SEND — chatbot pitch (static PDF, multi-market)    ║');
   console.log('╚═══════════════════════════════════════════════════════════════╝');
   console.log(`  Mode:            ${dryRun ? '🔹 DRY RUN' : '📧 LIVE'}`);
   console.log(`  Limit:           ${limit === Infinity ? 'no limit' : limit}`);
   console.log(`  Spread minutes:  ${spreadMinutes || 'off (fixed 5s delay)'}`);
   console.log(`  Git per send:    ${gitCommitPerSend ? 'YES' : 'no'}`);
+  console.log(`  Markets:         ${markets.join(', ')}`);
   console.log('');
 
   // Load leads
@@ -224,8 +200,12 @@ async function main() {
     console.log('❌ No leads file. Run `auto-dental-v5-collect.ts` first.');
     return;
   }
-  const leads: V5Lead[] = JSON.parse(fs.readFileSync(LEADS_FILE, 'utf-8'));
-  console.log(`📋 Loaded ${leads.length} qualified leads`);
+  const allLeads: V5Lead[] = JSON.parse(fs.readFileSync(LEADS_FILE, 'utf-8'));
+
+  // Filter leads by selected markets
+  const marketSet = new Set(markets);
+  const leads = allLeads.filter((l) => marketSet.has(l.country.toUpperCase()));
+  console.log(`📋 Loaded ${allLeads.length} total qualified leads → ${leads.length} match selected markets`);
 
   // Load state for cross-dedup
   const skipEmails = new Set<string>();
@@ -240,14 +220,24 @@ async function main() {
   }
   console.log(`🔒 Dedup: ${skipEmails.size} already-sent emails will be skipped\n`);
 
-  // Load static PDF
-  if (!fs.existsSync(STATIC_PDF_PATH)) {
-    console.log(`❌ Static PDF missing: ${STATIC_PDF_PATH}`);
-    return;
+  // Load PDFs once per language (lazy cache)
+  const pdfCache = new Map<LangCode, { base64: string; sizeKb: number }>();
+  function loadPdf(lang: LangCode, pdfFile: string): { base64: string; sizeKb: number } | null {
+    if (pdfCache.has(lang)) return pdfCache.get(lang)!;
+    const fullPath = path.join(STATIC_PDF_DIR, pdfFile);
+    if (!fs.existsSync(fullPath)) {
+      console.log(`❌ PDF missing for lang=${lang}: ${fullPath}`);
+      return null;
+    }
+    const buffer = fs.readFileSync(fullPath);
+    const cached = {
+      base64: buffer.toString('base64'),
+      sizeKb: Math.round(buffer.length / 1024),
+    };
+    pdfCache.set(lang, cached);
+    console.log(`📎 PDF loaded for lang=${lang}: ${cached.sizeKb} KB`);
+    return cached;
   }
-  const pdfBuffer = fs.readFileSync(STATIC_PDF_PATH);
-  const pdfBase64 = pdfBuffer.toString('base64');
-  console.log(`📎 Static PDF loaded: ${(pdfBuffer.length / 1024).toFixed(0)} KB (${(pdfBase64.length / 1024).toFixed(0)} KB base64)\n`);
 
   // Ensure state dir
   fs.mkdirSync(path.dirname(V5_STATE_FILE), { recursive: true });
@@ -265,10 +255,26 @@ async function main() {
       continue;
     }
 
+    // Resolve market for this lead
+    const market = getMarket(lead.country);
+    if (!market) {
+      console.log(`   ⚠️  Skipping ${lead.email} — no market config for country ${lead.country}`);
+      skipped++;
+      continue;
+    }
+
+    // Load PDF for this lang (cached)
+    const pdf = loadPdf(market.lang, market.pdfFile);
+    if (!pdf) {
+      console.log(`   ❌ Skipping ${lead.email} — PDF unavailable`);
+      failed++;
+      continue;
+    }
+
     const company = cleanName(lead.name);
-    const subject = pickSubject(sent, company);
-    const body = buildBodyHtml(company);
-    const pdfFilename = 'SmartflowDev-AI-Chatbot-Proposal.pdf';
+    const subject = pickSubject(sent, company, market.lang);
+    const body = buildBody(company, market.lang);
+    const pdfFilename = market.pdfFilename;
 
     console.log(`[${sent + 1}/${Math.min(limit, leads.length - skipped)}] ${lead.name}`);
     console.log(`   📧 ${lead.email} · ${lead.city} ${lead.country}`);
@@ -282,7 +288,7 @@ async function main() {
       continue;
     }
 
-    const result = await sendEmail(lead.email, subject, body, pdfBase64, pdfFilename);
+    const result = await sendEmail(lead.email, subject, body, pdf.base64, pdfFilename);
 
     if (result.ok) {
       v5State[emailLower] = {
@@ -292,6 +298,7 @@ async function main() {
         subject,
         city: lead.city,
         country: lead.country,
+        lang: market.lang,
         hasBooking: lead.hasBooking,
         modernScore: lead.modernScore,
       };
