@@ -8,9 +8,9 @@ on:
   workflow_dispatch:
     inputs:
       markets:
-        description: 'Markets — pick any combo, comma-separated. Available: US | UK | CA | AU | NZ | IE | HU. Examples: HU  /  US,UK  /  US,UK,HU  /  UK,IE,HU'
+        description: 'Markets — comma-separated. Available: US | UK | AU (OSM-supported). Examples: US  /  US,UK  /  US,UK,AU'
         type: string
-        default: 'US,UK,CA,AU,NZ,IE'
+        default: 'US,UK,AU'
       dry_run:
         description: 'Dry run (no emails sent)'
         type: boolean
@@ -58,22 +58,28 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install Playwright browsers
-        run: npx playwright install chromium --with-deps
-
-      - name: Collect new leads (parallel fetch, chatbot filter)
-        env:
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Collect new leads via OSM (zero-cost)
         run: |
-          MARKETS="${{ github.event.inputs.markets || 'US,UK,CA,AU,NZ,IE' }}"
-          npx ts-node scripts/auto-dental-v5-collect.ts --markets "$MARKETS" --limit 300 --concurrency 10
+          MARKETS_INPUT="${{ github.event.inputs.markets || 'US,UK,AU' }}"
+          # OSM collector only supports US/UK/AU — filter out any other codes gracefully
+          MARKETS=$(echo "$MARKETS_INPUT" | tr ',' '\n' | tr -d ' ' | grep -E '^(US|UK|AU)$' | paste -sd, || echo '')
+          if [ -z "$MARKETS" ]; then
+            echo "ℹ️  No OSM-supported markets in input ($MARKETS_INPUT). Skipping collect step."
+          else
+            echo "🦷 Running OSM collect for: $MARKETS"
+            npx ts-node scripts/osm-collect.ts \
+              --markets "$MARKETS" \
+              --limit 150 \
+              --regions-per-market 3 \
+              --concurrency 10 \
+              --min-cooldown-days 7 || echo "⚠️  OSM collect step errored — continuing to send step with existing pool."
+          fi
 
       - name: Commit collected leads
         run: |
-          git add output/leads/dental-v5-modern.json || true
+          git add output/leads/dental-v5-modern.json output/v5-campaign/osm-region-progress.json || true
           if ! git diff --staged --quiet; then
-            git commit -m "chore(v5): collect leads [skip ci]"
+            git commit -m "chore(osm): collect leads [skip ci]"
             git push origin HEAD
           else
             echo "No new leads to commit"
@@ -83,7 +89,7 @@ jobs:
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: |
-          MARKETS="${{ github.event.inputs.markets || 'US,UK,CA,AU,NZ,IE' }}"
+          MARKETS="${{ github.event.inputs.markets || 'US,UK,AU' }}"
           LIMIT="${{ github.event.inputs.limit || '30' }}"
           SPREAD="${{ github.event.inputs.spread_minutes || '240' }}"
           DRY="${{ github.event.inputs.dry_run }}"
