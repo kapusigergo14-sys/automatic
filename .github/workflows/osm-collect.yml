@@ -1,0 +1,98 @@
+name: OSM dental lead collection (zero-cost)
+
+on:
+  workflow_dispatch:
+    inputs:
+      markets:
+        description: 'Markets — pick any combo, comma-separated. Available: US | UK | AU. Examples: US  /  US,UK  /  US,UK,AU'
+        type: string
+        default: 'US,UK,AU'
+      limit:
+        description: 'Max new leads per run'
+        type: string
+        default: '300'
+      regions_per_market:
+        description: 'How many regions per market to process this run (max 20 US / 20 UK / 10 AU)'
+        type: string
+        default: '5'
+      concurrency:
+        description: 'Parallel HTTP workers during scrape'
+        type: string
+        default: '10'
+      min_cooldown_days:
+        description: 'Min days before a region can be re-queried'
+        type: string
+        default: '7'
+      dry_run:
+        description: 'Dry run (no file writes, no commits)'
+        type: boolean
+        default: false
+      reset_progress:
+        description: 'Reset osm-region-progress.json before running'
+        type: boolean
+        default: false
+
+concurrency:
+  group: osm-collect
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  osm-collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout (full history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure git
+        run: |
+          git config user.name 'smartflowdev-bot'
+          git config user.email 'bot@smartflowdev.com'
+          git config --global push.default current
+
+      - name: Setup Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run OSM collector
+        run: |
+          MARKETS="${{ github.event.inputs.markets || 'US,UK,AU' }}"
+          LIMIT="${{ github.event.inputs.limit || '300' }}"
+          REGIONS="${{ github.event.inputs.regions_per_market || '5' }}"
+          CONCURRENCY="${{ github.event.inputs.concurrency || '10' }}"
+          COOLDOWN="${{ github.event.inputs.min_cooldown_days || '7' }}"
+          DRY="${{ github.event.inputs.dry_run }}"
+          RESET="${{ github.event.inputs.reset_progress }}"
+          FLAGS=""
+          if [ "$DRY" = "true" ]; then FLAGS="$FLAGS --dry-run"; fi
+          if [ "$RESET" = "true" ]; then FLAGS="$FLAGS --reset-progress"; fi
+          npx ts-node scripts/osm-collect.ts \
+            --markets "$MARKETS" \
+            --limit "$LIMIT" \
+            --regions-per-market "$REGIONS" \
+            --concurrency "$CONCURRENCY" \
+            --min-cooldown-days "$COOLDOWN" \
+            $FLAGS
+
+      - name: Commit collected leads
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git add output/leads/dental-v5-modern.json output/v5-campaign/osm-region-progress.json || true
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(osm): collect dental leads [skip ci]"
+            git push origin HEAD
+          else
+            echo "No new OSM leads to commit"
+          fi

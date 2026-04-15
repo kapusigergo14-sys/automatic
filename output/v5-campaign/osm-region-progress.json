@@ -1,0 +1,16 @@
+{
+  "AU-SYDNEY": {
+    "lastRunAt": "2026-04-15T16:34:16.393Z",
+    "totalRuns": 1,
+    "lastNewLeads": 22,
+    "totalNewLeads": 22,
+    "lastResultsCount": 72
+  },
+  "AU-MELBOURNE": {
+    "lastRunAt": "2026-04-15T16:34:16.393Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 55
+  }
+}

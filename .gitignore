@@ -21,6 +21,7 @@ output/dental-campaign/*
 output/v5-campaign/*
 !output/v5-campaign/send-state-v5.json
 !output/v5-campaign/city-progress.json
+!output/v5-campaign/osm-region-progress.json
 
 !output/outreach-state.json
 
