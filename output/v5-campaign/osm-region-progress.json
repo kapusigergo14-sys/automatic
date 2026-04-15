@@ -12,5 +12,110 @@
     "lastNewLeads": 0,
     "totalNewLeads": 0,
     "lastResultsCount": 55
+  },
+  "US-NYC": {
+    "lastRunAt": "2026-04-15T17:11:11.897Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-LA": {
+    "lastRunAt": "2026-04-15T17:11:11.897Z",
+    "totalRuns": 1,
+    "lastNewLeads": 37,
+    "totalNewLeads": 37,
+    "lastResultsCount": 74
+  },
+  "US-CHICAGO": {
+    "lastRunAt": "2026-04-15T17:11:11.897Z",
+    "totalRuns": 1,
+    "lastNewLeads": 17,
+    "totalNewLeads": 17,
+    "lastResultsCount": 61
+  },
+  "US-HOUSTON": {
+    "lastRunAt": "2026-04-15T17:11:11.897Z",
+    "totalRuns": 1,
+    "lastNewLeads": 17,
+    "totalNewLeads": 17,
+    "lastResultsCount": 36
+  },
+  "US-PHOENIX": {
+    "lastRunAt": "2026-04-15T17:11:11.897Z",
+    "totalRuns": 1,
+    "lastNewLeads": 16,
+    "totalNewLeads": 16,
+    "lastResultsCount": 45
+  },
+  "UK-LONDON": {
+    "lastRunAt": "2026-04-15T17:11:11.897Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-MANCHESTER": {
+    "lastRunAt": "2026-04-15T17:11:11.897Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-BIRMINGHAM": {
+    "lastRunAt": "2026-04-15T17:11:11.897Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-LEEDS": {
+    "lastRunAt": "2026-04-15T17:11:11.897Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-LIVERPOOL": {
+    "lastRunAt": "2026-04-15T17:11:11.897Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-BRISBANE": {
+    "lastRunAt": "2026-04-15T17:11:11.897Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-PERTH": {
+    "lastRunAt": "2026-04-15T17:11:11.897Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-ADELAIDE": {
+    "lastRunAt": "2026-04-15T17:11:11.897Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 7
+  },
+  "AU-CANBERRA": {
+    "lastRunAt": "2026-04-15T17:11:11.897Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 5
+  },
+  "AU-HOBART": {
+    "lastRunAt": "2026-04-15T17:11:11.897Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
   }
 }
