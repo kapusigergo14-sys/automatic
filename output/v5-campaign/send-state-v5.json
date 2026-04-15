@@ -2647,5 +2647,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 2
+  },
+  "info@wichitadentalco.com": {
+    "sentAt": "2026-04-15T18:34:31.296Z",
+    "messageId": "bbbb88a6-f4e4-4fb4-babc-a6b69f41244a",
+    "company": "Wichita Dental Co.",
+    "subject": "Quick chatbot idea for Wichita Dental Co.",
+    "city": "Wichita",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
