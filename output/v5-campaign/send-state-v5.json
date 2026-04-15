@@ -2636,5 +2636,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "hello@dovedentalgroup.com": {
+    "sentAt": "2026-04-15T18:27:42.526Z",
+    "messageId": "19ba321d-d213-4288-b7f2-2948f1a34112",
+    "company": "Dove Dental Group",
+    "subject": "Noticed something about Dove Dental Group's site",
+    "city": "Springfield",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 2
   }
 }
