@@ -163,7 +163,7 @@ async function sendEmail(
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'Geri <geri@smartflowdev.com>',
+        from: 'Geri <studio@smartflowdev.com>',
         reply_to: 'kapusicsgo@gmail.com',
         to: [to],
         subject,
