@@ -6102,5 +6102,136 @@
     "hasBooking": false,
     "modernScore": 3,
     "collectedAt": "2026-04-15T17:11:08.408Z"
+  },
+  {
+    "name": "Durham Family Dental",
+    "website": "https://www.durhamfamilydental.co.uk",
+    "phone": "+44 191 487 6263",
+    "city": "Gateshead",
+    "country": "UK",
+    "email": "hello@durhamfamilydental.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-15T18:00:40.617Z"
+  },
+  {
+    "name": "Bensham Dental Practice",
+    "website": "https://www.nhs.uk/services/dentist/bensham-dental-practice/V001649",
+    "phone": "+44 191 477 1981",
+    "city": "Gateshead",
+    "country": "UK",
+    "email": "benshamdental@gmail.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-15T18:00:41.946Z"
+  },
+  {
+    "name": "Park View Dental Practice",
+    "website": "https://www.parkviewdentists.co.uk",
+    "phone": "+44 191 265 9258",
+    "city": "Newcastle upon Tyne",
+    "country": "UK",
+    "email": "admin@parkviewdentists.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-15T18:00:41.997Z"
+  },
+  {
+    "name": "Windmill Heaton Orthodontics",
+    "website": "https://www.windmillorthodontics.com/practices/newcastle",
+    "phone": "+44 191 2767755",
+    "city": "Newcastle upon Tyne",
+    "country": "UK",
+    "email": "whreception@riverdalehealthcare.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-15T18:00:42.140Z"
+  },
+  {
+    "name": "Gosforth Smiles",
+    "website": "https://55gosforthsmiles.co.uk",
+    "phone": "+44191 285 4182",
+    "city": "Newcastle",
+    "country": "UK",
+    "email": "info@55gosforthsmiles.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-15T18:00:42.625Z"
+  },
+  {
+    "name": "The Cosmetic Dental Clinic",
+    "website": "https://www.thecosmeticdentalclinic.com",
+    "city": "Newcastle upon Tyne",
+    "country": "UK",
+    "email": "info@thecosmeticdentalclinic.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-15T18:00:43.930Z"
+  },
+  {
+    "name": "Fresh Family Dental",
+    "website": "https://freshfamilydental.com.au",
+    "phone": "+61 7 5551 6060",
+    "city": "Gold Coast QLD",
+    "country": "AU",
+    "email": "hello@freshfamilydental.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-15T18:00:45.183Z"
+  },
+  {
+    "name": "Burleigh Dental Studio",
+    "website": "https://burleighdentalstudio.com.au",
+    "phone": "+61 7 5576 6208",
+    "city": "Gold Coast QLD",
+    "country": "AU",
+    "email": "info@burleighdentalstudio.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-15T18:00:45.721Z"
+  },
+  {
+    "name": "The Dental Lounge @ Robina",
+    "website": "https://www.thedentalloungerobina.com.au",
+    "phone": "+61 7 5580 8855",
+    "city": "Gold Coast QLD",
+    "country": "AU",
+    "email": "info@thedentalloungerobina.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-15T18:00:46.980Z"
+  },
+  {
+    "name": "Mermaid Smiles",
+    "website": "https://mermaidsmiles.com.au",
+    "phone": "+61 7 5629 7817",
+    "city": "Gold Coast QLD",
+    "country": "AU",
+    "email": "info@mermaidsmiles.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-15T18:00:47.164Z"
+  },
+  {
+    "name": "Precision Dental Group",
+    "website": "https://www.precisiondentalgroup.com.au",
+    "phone": "+61 7 5539 9515",
+    "city": "Gold Coast QLD",
+    "country": "AU",
+    "email": "info@precisiondentalgroup.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-15T18:00:47.630Z"
+  },
+  {
+    "name": "Miami Village Dental",
+    "website": "https://www.miamivillagedental.com.au",
+    "phone": "+61 7 5576 7411",
+    "city": "Gold Coast QLD",
+    "country": "AU",
+    "email": "info@miamivillagedental.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-15T18:00:48.651Z"
   }
 ]
