@@ -1,1 +1,78 @@
-[]
+[
+  {
+    "name": "Creek Road Dental Practice",
+    "website": "http://www.creekroaddentists.co.uk",
+    "city": "London",
+    "country": "UK",
+    "email": "smile@creekroaddentists.co.uk",
+    "hasBooking": false,
+    "modernScore": 1,
+    "collectedAt": "2026-04-15T20:31:37.614Z"
+  },
+  {
+    "name": "21st Century Cosmetic Dental",
+    "website": "http://21stcenturycosmeticdental.com",
+    "phone": "+1-718-206-4887",
+    "city": "Jamaica",
+    "country": "US",
+    "email": "azar@webconceptsmedia.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-15T20:35:13.460Z"
+  },
+  {
+    "name": "True Dental Care for Kids & Teens",
+    "website": "http://www.pediatricdentalnj.com",
+    "phone": "+1 201-347-0747",
+    "city": "Jersey City",
+    "country": "US",
+    "email": "info@truedentalcare.us",
+    "hasBooking": true,
+    "modernScore": 2,
+    "collectedAt": "2026-04-15T20:35:18.500Z"
+  },
+  {
+    "name": "Alfa Dental",
+    "website": "http://alfadentalny.com",
+    "phone": "+1-718-332-2532",
+    "city": "Brooklyn",
+    "country": "US",
+    "email": "info@alfadentalny.com",
+    "hasBooking": true,
+    "modernScore": 2,
+    "collectedAt": "2026-04-15T20:35:25.772Z"
+  },
+  {
+    "name": "Jack Irwin DDS",
+    "website": "http://www.jackirwindds.com",
+    "phone": "+1-718-768-8372",
+    "city": "New York NY",
+    "country": "US",
+    "email": "jackirwin@jackirwindds.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-15T20:35:26.606Z"
+  },
+  {
+    "name": "The Dentists LLC",
+    "website": "http://thedentistsllc.com",
+    "phone": "+1 201-836-2720",
+    "city": "Teaneck",
+    "country": "US",
+    "email": "dentistsllc@optonline.net",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-15T20:35:28.148Z"
+  },
+  {
+    "name": "Orthodontic Experts",
+    "website": "http://www.orthodonticexprts.com/chicago-pilsen-orthodontist.html",
+    "phone": "+1-312-767-2009",
+    "city": "Chicago",
+    "country": "US",
+    "email": "aurora@orthoexp.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-15T20:36:42.285Z"
+  }
+]

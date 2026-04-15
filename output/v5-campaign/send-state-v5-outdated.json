@@ -1,1 +1,86 @@
-{}
+{
+  "smile@creekroaddentists.co.uk": {
+    "sentAt": "2026-04-15T20:39:30.966Z",
+    "messageId": "34c5b513-e1b3-4d78-a699-6563c4f6f04f",
+    "company": "Creek Road Dental Practice",
+    "subject": "Honest take on Creek Road Dental Practice's website",
+    "city": "London",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 1,
+    "pitch": "redesign"
+  },
+  "azar@webconceptsmedia.com": {
+    "sentAt": "2026-04-15T20:39:37.309Z",
+    "messageId": "c7c7431a-9988-41ac-b728-785fce54c52d",
+    "company": "21st Century Cosmetic Dental",
+    "subject": "21st Century Cosmetic Dental — honest feedback on your site",
+    "city": "Jamaica",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2,
+    "pitch": "redesign"
+  },
+  "info@truedentalcare.us": {
+    "sentAt": "2026-04-15T20:39:43.281Z",
+    "messageId": "6eb6de65-648c-4996-b158-8a4aa554db47",
+    "company": "True Dental Care for Kids & Teens",
+    "subject": "My honest take on True Dental Care for's website",
+    "city": "Jersey City",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 2,
+    "pitch": "redesign"
+  },
+  "info@alfadentalny.com": {
+    "sentAt": "2026-04-15T20:39:49.329Z",
+    "messageId": "87cea9ea-c10b-42f4-8602-c250822c0bf8",
+    "company": "Alfa Dental",
+    "subject": "Honest take on Alfa Dental's website",
+    "city": "Brooklyn",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 2,
+    "pitch": "redesign"
+  },
+  "jackirwin@jackirwindds.com": {
+    "sentAt": "2026-04-15T20:39:55.192Z",
+    "messageId": "2bf5faad-78bb-48b2-92f6-7cf5eb18ab9d",
+    "company": "Jack Irwin DDS",
+    "subject": "Jack Irwin DDS — honest feedback on your site",
+    "city": "New York NY",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2,
+    "pitch": "redesign"
+  },
+  "dentistsllc@optonline.net": {
+    "sentAt": "2026-04-15T20:40:00.988Z",
+    "messageId": "dd388893-b31b-46cb-b4c6-163d3ebc9294",
+    "company": "The Dentists LLC",
+    "subject": "My honest take on The Dentists LLC's website",
+    "city": "Teaneck",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2,
+    "pitch": "redesign"
+  },
+  "aurora@orthoexp.com": {
+    "sentAt": "2026-04-15T20:40:06.569Z",
+    "messageId": "ba3dd437-b3bf-4675-ba96-f3dadc626244",
+    "company": "Orthodontic Experts",
+    "subject": "Honest take on Orthodontic Experts's website",
+    "city": "Chicago",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2,
+    "pitch": "redesign"
+  }
+}

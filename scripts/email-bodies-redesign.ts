@@ -26,25 +26,25 @@ function escHtml(s: string): string {
 // ─── English ─────────────────────────────────────────────
 
 const EN_SUBJECTS = [
-  (c: string) => `Quick note about ${c}'s website`,
-  (c: string) => `${c} — website refresh idea`,
-  (c: string) => `Noticed something about ${c}'s site`,
+  (c: string) => `Honest take on ${c}'s website`,
+  (c: string) => `${c} — honest feedback on your site`,
+  (c: string) => `My honest take on ${c}'s website`,
 ];
 
 const EN_BODY = (companyRaw: string): string => {
   const c = escHtml(companyRaw);
-  return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:560px;margin:0 auto;color:#2b2b2b;line-height:1.6;font-size:15px">
-<p style="margin:0 0 14px 0">Hi ${c} team,</p>
+  return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:560px;margin:0 auto;color:#2b2b2b;line-height:1.65;font-size:15px">
+<p style="margin:0 0 14px 0">Hey ${c},</p>
 
-<p style="margin:0 0 14px 0">Geri here &mdash; I run <a href="https://smartflowdev.com" style="color:#059669;text-decoration:none">smartflowdev.com</a>, a small studio that modernizes dental practice websites in 7 days.</p>
+<p style="margin:0 0 14px 0">Your website is probably costing you new patients. Not trying to be harsh &mdash; just what I noticed when I pulled it up on my phone this morning. Slow load, no HTTPS, dated design. The kind of stuff new patients judge a practice on in the first 50 milliseconds.</p>
 
-<p style="margin:0 0 14px 0">I came across your site and noticed a few things that could be costing you patients: slow mobile load, no HTTPS, or a dated visual design. Dental practices that modernize typically see <strong>30&ndash;50% more contact form submissions</strong> just from the credibility boost.</p>
+<p style="margin:0 0 14px 0">I'm Geri, I run <a href="https://smartflowdev.com" style="color:#059669;text-decoration:none">smartflowdev.com</a>. I redesign dental practice sites in <strong>7 days</strong>, flat pricing from <strong>$800 to $2,500</strong>. Mobile-first, fast, clean &mdash; the stuff that actually moves the needle on new patient inquiries.</p>
 
-<p style="margin:0 0 14px 0">We do full redesigns with flat pricing &mdash; <strong>Starter $800</strong> (5-page site), <strong>Standard $1,500</strong> (8 pages + SEO), <strong>Premium $2,500</strong> + <strong>$49/month</strong> for the integrated AI chatbot (first month free; includes hosting, AI API, and priority support). Short proposal attached with our process and what's included.</p>
+<p style="margin:0 0 14px 0">Here's my offer: reply and I'll build you a <strong>free design concept</strong>. A real mockup of your new site with your actual practice name and brand colors &mdash; no obligation, no sales call, no BS. You can keep it even if we don't end up working together.</p>
 
-<p style="margin:0 0 14px 0">No obligation &mdash; if it's of interest, just reply and I'll put together a <strong>free design concept</strong> for your practice, no charge. A real mockup you can keep even if we don't end up working together. If not a good fit, no worries &mdash; delete this and I'll stop reaching out.</p>
+<p style="margin:0 0 18px 0">&mdash; Geri<br><a href="https://smartflowdev.com" style="color:#059669;text-decoration:none">smartflowdev.com</a></p>
 
-<p style="margin:0 0 18px 0">Cheers,<br><strong>Geri</strong> &middot; <a href="https://smartflowdev.com" style="color:#059669;text-decoration:none">smartflowdev.com</a></p>
+<p style="margin:0 0 6px 0;padding-top:14px;border-top:1px solid #e5e7eb;color:#6b7280;font-size:13.5px;line-height:1.6"><strong style="color:#059669">PS.</strong> Premium tier ($2,500) includes an AI chatbot that actually books appointments through conversation. A patient asks "do you take Delta Dental?" at 11pm &mdash; the bot answers and schedules them for Tuesday morning. $49/mo after the first free month. Sounds like sci-fi, works like magic.</p>
 </div>`;
 };
 

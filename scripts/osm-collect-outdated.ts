@@ -336,8 +336,10 @@ async function processCandidate(c: RawCandidate): Promise<ProcessResult> {
   if (!email) return { lead: null, reason: 'no email' };
 
   const modern = modernScore(html, normalizedUrl);
-  // INVERTED: we want outdated sites, so modernScore MUST be < 2
-  if (modern >= 2) return { lead: null, reason: `modern-not-outdated (${modern}/3)` };
+  // Target any site missing at least one modern marker (HTTPS, DOCTYPE,
+  // or mobile viewport). A 2/3 site still has a legitimate redesign pitch
+  // (e.g. missing mobile viewport = not responsive). Only 3/3 is skipped.
+  if (modern >= 3) return { lead: null, reason: `fully-modern (${modern}/3)` };
 
   return {
     lead: {
@@ -591,7 +593,7 @@ async function main() {
       );
     } else {
       if (r.reason === 'no email') noEmailCount++;
-      else if (r.reason.startsWith('modern-not-outdated')) modernNotOutdatedCount++;
+      else if (r.reason.startsWith('fully-modern')) modernNotOutdatedCount++;
       else if (r.reason === 'fetch failed') fetchFailCount++;
 
       if (processed % 25 === 0) {
