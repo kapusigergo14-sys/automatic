@@ -62,7 +62,7 @@ function buildHtml(): string {
       page-break-after: always;
       page-break-inside: avoid;
       background: var(--bg);
-      padding: 72px 80px;
+      padding: 48px 80px 40px;
     }
     .page:last-child { page-break-after: auto; }
 
@@ -119,15 +119,15 @@ function buildHtml(): string {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding: 80px 100px;
+      padding: 60px 100px;
     }
     .cover-headline {
-      font-size: 88px;
+      font-size: 76px;
       font-weight: 900;
-      letter-spacing: -3.5px;
+      letter-spacing: -3px;
       line-height: 0.92;
       color: var(--ink);
-      margin-bottom: 28px;
+      margin-bottom: 22px;
       max-width: 1000px;
     }
     .cover-headline span {
@@ -162,19 +162,19 @@ function buildHtml(): string {
 
     /* ─── Page 2: Problem/Solution ──────── */
     .section-title {
-      font-size: 56px;
+      font-size: 46px;
       font-weight: 800;
-      letter-spacing: -2px;
-      line-height: 1;
+      letter-spacing: -1.8px;
+      line-height: 1.02;
       color: var(--ink);
-      margin-bottom: 16px;
+      margin-bottom: 12px;
     }
     .section-sub {
-      font-size: 18px;
+      font-size: 16px;
       color: var(--ink-muted);
       line-height: 1.5;
       max-width: 760px;
-      margin-bottom: 48px;
+      margin-bottom: 24px;
     }
 
     .compare-grid {
@@ -184,9 +184,8 @@ function buildHtml(): string {
       margin-top: 24px;
     }
     .compare-card {
-      border-radius: 20px;
-      padding: 32px;
-      min-height: 380px;
+      border-radius: 18px;
+      padding: 24px 26px;
     }
     .compare-card.bad {
       background: #FEF2F2;
@@ -206,23 +205,23 @@ function buildHtml(): string {
     .compare-card.bad .compare-label { color: #DC2626; }
     .compare-card.good .compare-label { color: var(--accent); }
     .compare-title {
-      font-size: 26px;
+      font-size: 22px;
       font-weight: 800;
       letter-spacing: -0.5px;
       color: var(--ink);
-      margin-bottom: 20px;
+      margin-bottom: 14px;
       line-height: 1.15;
     }
     .compare-list {
       list-style: none;
       display: flex;
       flex-direction: column;
-      gap: 14px;
+      gap: 10px;
     }
     .compare-list li {
-      font-size: 15px;
+      font-size: 13px;
       color: var(--ink-soft);
-      padding-left: 28px;
+      padding-left: 24px;
       position: relative;
       line-height: 1.4;
     }
@@ -246,33 +245,33 @@ function buildHtml(): string {
     .feature-card {
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 24px 22px;
+      border-radius: 14px;
+      padding: 18px 18px;
     }
     .feature-icon {
-      width: 42px;
-      height: 42px;
-      border-radius: 12px;
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
       background: var(--accent-soft);
       color: var(--accent);
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 800;
-      margin-bottom: 16px;
+      margin-bottom: 10px;
     }
     .feature-title {
-      font-size: 17px;
+      font-size: 15px;
       font-weight: 700;
       color: var(--ink);
       letter-spacing: -0.2px;
-      margin-bottom: 6px;
+      margin-bottom: 4px;
     }
     .feature-desc {
-      font-size: 13px;
+      font-size: 12px;
       color: var(--ink-muted);
-      line-height: 1.5;
+      line-height: 1.45;
     }
 
     /* ─── Page 4: Process ──────────────── */
@@ -285,38 +284,38 @@ function buildHtml(): string {
     .process-step {
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 28px 24px;
+      border-radius: 14px;
+      padding: 22px 20px;
       position: relative;
     }
     .process-num {
       display: inline-block;
       background: var(--accent);
       color: #fff;
-      font-size: 11px;
+      font-size: 10px;
       font-weight: 800;
       letter-spacing: 0.5px;
-      padding: 5px 12px;
+      padding: 4px 10px;
       border-radius: 100px;
-      margin-bottom: 16px;
+      margin-bottom: 12px;
     }
     .process-day {
-      font-size: 22px;
+      font-size: 18px;
       font-weight: 800;
       color: var(--ink);
       letter-spacing: -0.5px;
-      margin-bottom: 8px;
+      margin-bottom: 6px;
     }
     .process-desc {
-      font-size: 13px;
+      font-size: 12px;
       color: var(--ink-muted);
-      line-height: 1.5;
+      line-height: 1.45;
     }
 
     .guarantee-row {
       display: flex;
-      gap: 18px;
-      margin-top: 40px;
+      gap: 16px;
+      margin-top: 28px;
     }
     .guarantee-pill {
       background: var(--card);
@@ -334,13 +333,13 @@ function buildHtml(): string {
 
     /* ─── Page 5: Trust ────────────────── */
     .trust-big {
-      font-size: 44px;
+      font-size: 36px;
       font-weight: 800;
-      letter-spacing: -1.5px;
+      letter-spacing: -1.2px;
       line-height: 1.1;
       color: var(--ink);
-      margin-top: 8px;
-      margin-bottom: 32px;
+      margin-top: 4px;
+      margin-bottom: 24px;
       max-width: 1000px;
     }
     .trust-big span {
@@ -355,16 +354,16 @@ function buildHtml(): string {
     .trust-stat {
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 28px 24px;
+      border-radius: 14px;
+      padding: 22px 22px;
     }
     .trust-stat-num {
-      font-size: 44px;
+      font-size: 38px;
       font-weight: 900;
-      letter-spacing: -2px;
+      letter-spacing: -1.8px;
       color: var(--accent);
       line-height: 1;
-      margin-bottom: 10px;
+      margin-bottom: 8px;
     }
     .trust-stat-label {
       font-size: 14px;
@@ -388,8 +387,8 @@ function buildHtml(): string {
     .price-card {
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 32px 28px;
+      border-radius: 18px;
+      padding: 24px 24px;
       position: relative;
     }
     .price-card.featured {
@@ -411,43 +410,43 @@ function buildHtml(): string {
       border-radius: 100px;
     }
     .price-tier {
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 700;
       color: var(--ink-muted);
       text-transform: uppercase;
       letter-spacing: 1px;
-      margin-bottom: 12px;
+      margin-bottom: 8px;
     }
     .price-amount {
-      font-size: 48px;
+      font-size: 40px;
       font-weight: 900;
-      letter-spacing: -2px;
+      letter-spacing: -1.8px;
       color: var(--ink);
       line-height: 1;
-      margin-bottom: 6px;
+      margin-bottom: 4px;
     }
     .price-amount small {
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 600;
       color: var(--ink-muted);
       letter-spacing: -0.3px;
     }
     .price-delivery {
-      font-size: 13px;
+      font-size: 12px;
       color: var(--accent);
       font-weight: 700;
-      margin-bottom: 20px;
+      margin-bottom: 14px;
     }
     .price-list {
       list-style: none;
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 8px;
     }
     .price-list li {
-      font-size: 13px;
+      font-size: 12px;
       color: var(--ink-soft);
-      padding-left: 22px;
+      padding-left: 20px;
       position: relative;
       line-height: 1.4;
     }
@@ -466,24 +465,23 @@ function buildHtml(): string {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding: 80px 100px;
+      padding: 60px 100px;
     }
-    .cta .brand,
-    .cta .page-num { color: rgba(255,255,255,0.75); }
+    .cta .brand { color: rgba(255,255,255,0.75); }
     .cta .brand-accent { color: #fff; }
     .cta-headline {
-      font-size: 80px;
+      font-size: 64px;
       font-weight: 900;
-      letter-spacing: -3px;
-      line-height: 0.95;
-      margin-bottom: 28px;
+      letter-spacing: -2.5px;
+      line-height: 0.98;
+      margin-bottom: 22px;
       max-width: 1000px;
     }
     .cta-sub {
-      font-size: 20px;
-      line-height: 1.5;
-      margin-bottom: 48px;
-      max-width: 760px;
+      font-size: 17px;
+      line-height: 1.55;
+      margin-bottom: 32px;
+      max-width: 800px;
       opacity: 0.95;
     }
     .cta-reply {
@@ -518,11 +516,10 @@ function buildHtml(): string {
       <h1 class="cover-headline">Modern dental websites<br><span>in 7 days.</span></h1>
       <p class="cover-sub">A focused small studio that redesigns dental practice websites with flat pricing — no agency retainer, no open-ended hours, no surprises.</p>
       <div class="cover-meta">
-        <div><strong>$800 – $3,000</strong>Flat pricing</div>
-        <div><strong>7 days</strong>Typical delivery</div>
-        <div><strong>3 revisions</strong>Included</div>
+        <div><strong>$800 – $2,500</strong>Flat pricing</div>
+        <div><strong>5–10 days</strong>Typical delivery</div>
+        <div><strong>AI chatbot $49/mo</strong>Premium &middot; first month free</div>
       </div>
-      <div class="page-num">01 / 07</div>
     </div>
   `;
 
@@ -530,7 +527,7 @@ function buildHtml(): string {
   const page2 = `
     <div class="page">
       ${brand}
-      <div class="pill" style="margin-top:32px;margin-bottom:20px;"><span class="pill-dot"></span>Why modernize</div>
+      <div class="pill" style="margin-top:16px;margin-bottom:14px;"><span class="pill-dot"></span>Why modernize</div>
       <h2 class="section-title">An outdated site<br>costs you patients.</h2>
       <p class="section-sub">75% of visitors judge a practice's credibility from its website. If yours loads slow, breaks on mobile, or looks like 2012, new patients keep scrolling.</p>
       <div class="compare-grid">
@@ -567,7 +564,7 @@ function buildHtml(): string {
   const page3 = `
     <div class="page">
       ${brand}
-      <div class="pill" style="margin-top:32px;margin-bottom:20px;"><span class="pill-dot"></span>What you get</div>
+      <div class="pill" style="margin-top:16px;margin-bottom:14px;"><span class="pill-dot"></span>What you get</div>
       <h2 class="section-title">Everything a modern<br>dental site needs.</h2>
       <p class="section-sub">Every redesign includes these essentials — no upsells, no "enterprise tier" gatekeeping.</p>
       <div class="features-grid">
@@ -610,7 +607,7 @@ function buildHtml(): string {
   const page4 = `
     <div class="page">
       ${brand}
-      <div class="pill" style="margin-top:32px;margin-bottom:20px;"><span class="pill-dot"></span>How it works</div>
+      <div class="pill" style="margin-top:16px;margin-bottom:14px;"><span class="pill-dot"></span>How it works</div>
       <h2 class="section-title">From kick-off to live<br>in 7 days.</h2>
       <p class="section-sub">A focused week. No back-and-forth for months, no mystery timeline. You brief us Monday, your new site is live by Sunday.</p>
       <div class="process-row">
@@ -648,7 +645,7 @@ function buildHtml(): string {
   const page5 = `
     <div class="page">
       ${brand}
-      <div class="pill" style="margin-top:32px;margin-bottom:20px;"><span class="pill-dot"></span>Why modernize matters</div>
+      <div class="pill" style="margin-top:16px;margin-bottom:14px;"><span class="pill-dot"></span>Why modernize matters</div>
       <h2 class="trust-big">Dental practices that modernize see <span>30-50% more<br>contact form submissions</span> within 60 days.</h2>
       <div class="trust-grid">
         <div class="trust-stat">
@@ -675,7 +672,7 @@ function buildHtml(): string {
   const page6 = `
     <div class="page">
       ${brand}
-      <div class="pill" style="margin-top:32px;margin-bottom:20px;"><span class="pill-dot"></span>Flat pricing — no surprises</div>
+      <div class="pill" style="margin-top:16px;margin-bottom:14px;"><span class="pill-dot"></span>Flat pricing — no surprises</div>
       <h2 class="section-title">Pick your tier.<br>Launch next week.</h2>
       <p class="section-sub">Flat rates. No hourly billing, no retainers, no add-on fees. What you see is what you pay — one invoice, end of the week.</p>
       <div class="pricing-grid">
@@ -684,12 +681,11 @@ function buildHtml(): string {
           <div class="price-amount">$800</div>
           <div class="price-delivery">5-day delivery</div>
           <ul class="price-list">
-            <li>Single landing page</li>
-            <li>Mobile responsive</li>
-            <li>HTTPS + fast hosting</li>
+            <li>Full 5-page site (Home, Services, About, Contact, Team)</li>
+            <li>Mobile responsive + HTTPS + fast hosting</li>
             <li>Contact form + Google Maps</li>
             <li>1 revision round</li>
-            <li>Best for: solo practitioners</li>
+            <li>Best for: solo practitioners, new practices</li>
           </ul>
         </div>
         <div class="price-card featured">
@@ -697,25 +693,28 @@ function buildHtml(): string {
           <div class="price-amount">$1,500</div>
           <div class="price-delivery">7-day delivery</div>
           <ul class="price-list">
-            <li>Full 4-page site (Home, About, Services, Contact)</li>
+            <li>8 pages + individual service detail pages</li>
             <li>Everything in Starter, plus:</li>
-            <li>SEO foundation + schema</li>
+            <li>SEO foundation + Schema + Google My Business</li>
+            <li>Testimonials + FAQ sections</li>
             <li>Content editing tools (you can update it)</li>
             <li>3 revision rounds</li>
-            <li>Best for: small practices, 1-3 dentists</li>
+            <li>Best for: 2-5 dentists, established practices</li>
           </ul>
         </div>
         <div class="price-card">
           <div class="price-tier">Premium</div>
-          <div class="price-amount">$3,000</div>
+          <div class="price-amount">$2,500</div>
           <div class="price-delivery">10-day delivery</div>
           <ul class="price-list">
-            <li>10+ pages with service detail pages</li>
+            <li>12+ pages, full feature set</li>
             <li>Everything in Standard, plus:</li>
-            <li>Online booking widget integration</li>
-            <li>Patient testimonial system</li>
-            <li>Blog/news section</li>
-            <li>Best for: multi-location groups</li>
+            <li><strong>AI chatbot (24/7 patient assistant)</strong> &mdash; $49/mo, first month free</li>
+            <li><strong>Online booking integrated with the chatbot</strong></li>
+            <li>Blog / News section</li>
+            <li>Patient review submission system</li>
+            <li>Custom animations, unlimited revisions</li>
+            <li>Ongoing priority support while subscribed</li>
           </ul>
         </div>
       </div>
@@ -727,10 +726,10 @@ function buildHtml(): string {
   const page7 = `
     <div class="page cta">
       ${brand}
-      <h2 class="cta-headline">Ready to see<br>some examples?</h2>
-      <p class="cta-sub">Reply to this email with "yes" and I'll send over 3 dental sites we've built — real URLs, you can click around. Within the hour, not the week.</p>
+      <h2 class="cta-headline">Interested? We'll<br>build you a free<br>concept.</h2>
+      <p class="cta-sub">Just reply to this email and we'll put together a design concept for your practice &mdash; free of charge, no obligation, no sales pitch. You get a real mockup of how your new site could look. If you like it, we talk. If not, you keep it.</p>
       <div class="cta-reply">
-        <span>→</span> Just reply: <strong style="margin-left:6px;">yes</strong>
+        <span>→</span> Reply to get your <strong style="margin-left:6px;">free concept</strong>
       </div>
       <div class="cta-footer">
         <strong>Gergő Kapusi</strong> — smartflowdev.com<br>

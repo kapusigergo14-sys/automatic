@@ -40,9 +40,9 @@ const EN_BODY = (companyRaw: string): string => {
 
 <p style="margin:0 0 14px 0">I came across your site and noticed a few things that could be costing you patients: slow mobile load, no HTTPS, or a dated visual design. Dental practices that modernize typically see <strong>30&ndash;50% more contact form submissions</strong> just from the credibility boost.</p>
 
-<p style="margin:0 0 14px 0">We do full redesigns with flat pricing &mdash; Starter $800 (landing page), Standard $1,500 (full 4-page site), Premium $3,000 (10+ pages). Short proposal attached with our process and what's included.</p>
+<p style="margin:0 0 14px 0">We do full redesigns with flat pricing &mdash; <strong>Starter $800</strong> (5-page site), <strong>Standard $1,500</strong> (8 pages + SEO), <strong>Premium $2,500</strong> + <strong>$49/month</strong> for the integrated AI chatbot (first month free; includes hosting, AI API, and priority support). Short proposal attached with our process and what's included.</p>
 
-<p style="margin:0 0 14px 0">No obligation &mdash; if it's of interest, just reply with a quick "yes" and I'll send over 3 example dental sites we've built within the hour. If not, no worries &mdash; delete this and I'll stop reaching out.</p>
+<p style="margin:0 0 14px 0">No obligation &mdash; if it's of interest, just reply and I'll put together a <strong>free design concept</strong> for your practice, no charge. A real mockup you can keep even if we don't end up working together. If not a good fit, no worries &mdash; delete this and I'll stop reaching out.</p>
 
 <p style="margin:0 0 18px 0">Cheers,<br><strong>Geri</strong> &middot; <a href="https://smartflowdev.com" style="color:#059669;text-decoration:none">smartflowdev.com</a></p>
 </div>`;
