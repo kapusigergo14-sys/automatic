@@ -2680,5 +2680,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "mattstunkel@gmail.com": {
+    "sentAt": "2026-04-15T19:04:38.673Z",
+    "messageId": "209700cd-a0b4-432c-ad40-f2623c62cf41",
+    "company": "Quail Creek Dental",
+    "subject": "Quick chatbot idea for Quail Creek Dental",
+    "city": "Springfield",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
