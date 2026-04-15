@@ -12,6 +12,7 @@ output/**/*
 output/leads/*
 !output/leads/dental-v5-modern.json
 !output/leads/dental-v4-qualified.json
+!output/leads/dental-v5-outdated.json
 
 !output/dental-campaign/
 output/dental-campaign/*
@@ -22,6 +23,8 @@ output/v5-campaign/*
 !output/v5-campaign/send-state-v5.json
 !output/v5-campaign/city-progress.json
 !output/v5-campaign/osm-region-progress.json
+!output/v5-campaign/send-state-v5-outdated.json
+!output/v5-campaign/osm-region-progress-outdated.json
 
 !output/outreach-state.json
 
@@ -30,6 +33,7 @@ output/static/*
 !output/static/smartflowdev-dental-proposal.pdf
 !output/static/smartflowdev-dental-proposal-en.pdf
 !output/static/smartflowdev-dental-proposal-hu.pdf
+!output/static/smartflowdev-dental-proposal-redesign-en.pdf
 
 # Logs + tooling
 *.log
