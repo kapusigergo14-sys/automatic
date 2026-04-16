@@ -3846,5 +3846,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "office@bestdentistftwayne.com": {
+    "sentAt": "2026-04-16T18:27:17.963Z",
+    "messageId": "<202604161827.57603984053@smtp-relay.mailin.fr>",
+    "company": "Lima Road Dentistry",
+    "subject": "Quick chatbot idea for Lima Road Dentistry",
+    "city": "Fort Wayne",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 2
   }
 }
