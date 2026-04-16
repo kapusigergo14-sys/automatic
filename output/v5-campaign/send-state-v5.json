@@ -3186,5 +3186,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@sequoyahdental.com": {
+    "sentAt": "2026-04-16T15:27:18.414Z",
+    "messageId": "61e59584-fcd6-4151-9439-41db0b201ac5",
+    "company": "Sequoyah Dental",
+    "subject": "Noticed something about Sequoyah Dental's site",
+    "city": "Fayetteville",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
