@@ -3516,5 +3516,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@whatasmile.com": {
+    "sentAt": "2026-04-16T18:08:54.810Z",
+    "messageId": "<202604161808.96974271815@smtp-relay.mailin.fr>",
+    "company": "Cornerstone Dental Arts",
+    "subject": "Quick chatbot idea for Cornerstone Dental Arts",
+    "city": "Knoxville",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
