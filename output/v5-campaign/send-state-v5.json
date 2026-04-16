@@ -4143,5 +4143,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "boardman@dechellisdentistry.com": {
+    "sentAt": "2026-04-16T20:18:40.735Z",
+    "messageId": "<202604162018.55244470381@smtp-relay.mailin.fr>",
+    "company": "DeChellis & Stonestreet Dentistry",
+    "subject": "DeChellis & Stonestreet Dentistry — what happens when someone visits your site at 11pm?",
+    "city": "Youngstown",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
