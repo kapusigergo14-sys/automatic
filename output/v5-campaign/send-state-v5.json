@@ -4286,5 +4286,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@smilekrafters.com": {
+    "sentAt": "2026-04-16T20:20:02.475Z",
+    "messageId": "<202604162020.47880216312@smtp-relay.mailin.fr>",
+    "company": "SmileKrafters",
+    "subject": "Honest question about SmileKrafters's website",
+    "city": "Allentown",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
