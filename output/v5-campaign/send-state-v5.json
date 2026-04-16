@@ -3252,5 +3252,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 2
+  },
+  "info@capitaldentalinc.com": {
+    "sentAt": "2026-04-16T17:54:31.153Z",
+    "messageId": "<202604161754.40002296138@smtp-relay.mailin.fr>",
+    "company": "Capital Dental, Inc | Dr. Will Umphlett",
+    "subject": "Quick chatbot idea for Capital Dental Inc",
+    "city": "Jackson",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
