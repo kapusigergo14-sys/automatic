@@ -4099,5 +4099,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "office@greatsmilestoledo.com": {
+    "sentAt": "2026-04-16T20:18:15.490Z",
+    "messageId": "<202604162018.55810312148@smtp-relay.mailin.fr>",
+    "company": "Great Smiles Family Dentistry",
+    "subject": "You're losing patients after 5pm, Great Smiles Family Dentistry",
+    "city": "Toledo",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
