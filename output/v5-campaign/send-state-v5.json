@@ -2713,5 +2713,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "info@happy-dentistry.com.au": {
+    "sentAt": "2026-04-16T06:17:05.181Z",
+    "messageId": "72135cb4-ea27-414d-9de0-4cada8d3f1d5",
+    "company": "Happy Dentistry",
+    "subject": "Happy Dentistry — missing chatbot?",
+    "city": "Melbourne Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
