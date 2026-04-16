@@ -4000,5 +4000,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@advanceddentistryofdayton.com": {
+    "sentAt": "2026-04-16T20:17:18.408Z",
+    "messageId": "<202604162017.60969922864@smtp-relay.mailin.fr>",
+    "company": "Advanced Dentistry of Dayton",
+    "subject": "You're losing patients after 5pm, Advanced Dentistry of Dayton",
+    "city": "Dayton",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
