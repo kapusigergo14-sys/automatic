@@ -3725,5 +3725,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@crosstowndentist.com": {
+    "sentAt": "2026-04-16T18:20:32.148Z",
+    "messageId": "<202604161820.92985318905@smtp-relay.mailin.fr>",
+    "company": "Crosstown Dental Group",
+    "subject": "Crosstown Dental Group — missing chatbot?",
+    "city": "Memphis",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
