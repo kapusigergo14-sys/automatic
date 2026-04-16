@@ -4187,5 +4187,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@hammerleedentalcare.com": {
+    "sentAt": "2026-04-16T20:19:05.889Z",
+    "messageId": "<202604162019.88792111133@smtp-relay.mailin.fr>",
+    "company": "Hammerlee Dental Care",
+    "subject": "Honest question about Hammerlee Dental Care's website",
+    "city": "Erie",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
