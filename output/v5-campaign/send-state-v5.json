@@ -3945,5 +3945,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 2
+  },
+  "micah@micahrich.com": {
+    "sentAt": "2026-04-16T20:16:46.849Z",
+    "messageId": "<202604162016.17198766718@smtp-relay.mailin.fr>",
+    "company": "Firestone Family Dental",
+    "subject": "Firestone Family Dental — what happens when someone visits your site at 11pm?",
+    "city": "Akron",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
