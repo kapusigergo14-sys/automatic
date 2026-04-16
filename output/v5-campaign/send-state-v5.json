@@ -2900,5 +2900,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "info@spadental.com.au": {
+    "sentAt": "2026-04-16T06:27:44.279Z",
+    "messageId": "32ffc92d-04f4-4d0a-82ab-912b0ea7c64a",
+    "company": "Spa Dental Sydney CBD",
+    "subject": "Quick chatbot idea for Spa Dental Sydney CBD",
+    "city": "Sydney Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
