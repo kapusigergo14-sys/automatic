@@ -3329,5 +3329,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "contact@smsmiles.com": {
+    "sentAt": "2026-04-16T15:35:07.175Z",
+    "messageId": "db1bc45a-79be-49ea-a190-2d9fcec97767",
+    "company": "South Mississippi Smiles - Gulfport",
+    "subject": "Quick chatbot idea for South Mississippi Smiles",
+    "city": "Gulfport",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
