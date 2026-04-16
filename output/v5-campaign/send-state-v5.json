@@ -3648,5 +3648,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "hello@shreveportsdentist.com": {
+    "sentAt": "2026-04-16T18:16:15.182Z",
+    "messageId": "<202604161816.41434419530@smtp-relay.mailin.fr>",
+    "company": "Shreveport Dental Solutions",
+    "subject": "Quick chatbot idea for Shreveport Dental Solutions",
+    "city": "Shreveport",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
