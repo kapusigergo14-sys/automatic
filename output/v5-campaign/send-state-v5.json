@@ -3197,5 +3197,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "contact@mississippismilesdentistry.com": {
+    "sentAt": "2026-04-16T17:51:17.659Z",
+    "messageId": "<202604161751.62161366886@smtp-relay.mailin.fr>",
+    "company": "Mississippi Smiles Dentistry",
+    "subject": "Mississippi Smiles Dentistry — missing chatbot?",
+    "city": "Jackson",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
