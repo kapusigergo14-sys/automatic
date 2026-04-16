@@ -3593,5 +3593,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "lafayette.dental.studio@gmail.com": {
+    "sentAt": "2026-04-16T18:13:08.220Z",
+    "messageId": "<202604161813.69132932166@smtp-relay.mailin.fr>",
+    "company": "Lafayette Dental Studio",
+    "subject": "Lafayette Dental Studio — missing chatbot?",
+    "city": "Lafayette",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
