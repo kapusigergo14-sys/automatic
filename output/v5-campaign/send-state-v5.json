@@ -3494,5 +3494,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 2
+  },
+  "hilltophfd@higginbothamfamilydental.com": {
+    "sentAt": "2026-04-16T18:07:47.845Z",
+    "messageId": "<202604161807.94409208489@smtp-relay.mailin.fr>",
+    "company": "Higginbotham Family Dental",
+    "subject": "Higginbotham Family Dental — missing chatbot?",
+    "city": "Memphis",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
