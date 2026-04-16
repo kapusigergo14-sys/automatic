@@ -4341,5 +4341,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "berrygooddc@mydentalmail.com": {
+    "sentAt": "2026-04-16T20:20:34.278Z",
+    "messageId": "<202604162020.97860658885@smtp-relay.mailin.fr>",
+    "company": "Berry Good Dental Care",
+    "subject": "Berry Good Dental Care — what happens when someone visits your site at 11pm?",
+    "city": "Syracuse",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
