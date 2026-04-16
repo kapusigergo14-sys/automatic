@@ -2779,5 +2779,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "adohc@csu.edu.au": {
+    "sentAt": "2026-04-16T06:20:49.217Z",
+    "messageId": "8198b1b7-c5c8-4abe-a48b-a35a0daf376b",
+    "company": "CSU Dental & Oral Health Clinic, Orange",
+    "subject": "CSU Dental & Oral — missing chatbot?",
+    "city": "Orange Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
