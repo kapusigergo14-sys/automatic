@@ -3098,5 +3098,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "smile@jonesfamilydental.com": {
+    "sentAt": "2026-04-16T17:45:56.466Z",
+    "messageId": "<202604161745.23215523943@smtp-relay.mailin.fr>",
+    "company": "Kevin G. Jones, DDS",
+    "subject": "Kevin G. Jones DDS — missing chatbot?",
+    "city": "Little Rock",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
