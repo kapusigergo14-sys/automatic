@@ -5261,5 +5261,133 @@
     "hasBooking": false,
     "modernScore": 3,
     "collectedAt": "2026-04-16T20:13:59.468Z"
+  },
+  {
+    "name": "Davis Pediatric Dentistry",
+    "website": "https://www.tucsonkidsdentist.com",
+    "phone": "+1 520-326-8516",
+    "city": "Tucson",
+    "country": "US",
+    "email": "office@tucsonkidsdentist.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-16T20:15:49.160Z"
+  },
+  {
+    "name": "Petra I. Mayer D.D.S.",
+    "website": "https://www.mayerperio.com",
+    "city": "Albuquerque",
+    "country": "US",
+    "email": "mayerperio@qwestoffice.net",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-16T20:15:49.383Z"
+  },
+  {
+    "name": "Jennifer Ridgeway, DDS",
+    "website": "https://www.ridgewaydds.com",
+    "city": "Albuquerque",
+    "country": "US",
+    "email": "jennifer@ridgewaydds.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-16T20:15:49.728Z"
+  },
+  {
+    "name": "El Rio Northwest Dental",
+    "website": "https://elrio.org/location/northwest",
+    "phone": "+1 520-670-3909",
+    "city": "Tucson",
+    "country": "US",
+    "email": "first.last@company.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-16T20:15:50.761Z"
+  },
+  {
+    "name": "Isham Dental",
+    "website": "https://www.ishamdentalabq.com",
+    "phone": "+1-505-881-0422",
+    "city": "Albuquerque",
+    "country": "US",
+    "email": "ishamdental@gmail.com",
+    "hasBooking": true,
+    "modernScore": 3,
+    "collectedAt": "2026-04-16T20:15:51.025Z"
+  },
+  {
+    "name": "Dr. Gregory Torosian",
+    "website": "https://www.drgregtorosian.com",
+    "phone": "+1 402 393 5857",
+    "city": "Omaha",
+    "country": "US",
+    "email": "torosiandds@gmail.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-16T20:15:51.450Z"
+  },
+  {
+    "name": "Desert Valley Pediatric Dentristry",
+    "website": "https://www.dvsmiles.com/tucson-locations/desert-valley-pediatric-dentistry-tucson-south",
+    "phone": "+1 520-999-7199",
+    "city": "Tucson",
+    "country": "US",
+    "email": "info@dvsmiles.com",
+    "hasBooking": true,
+    "modernScore": 3,
+    "collectedAt": "2026-04-16T20:15:51.602Z"
+  },
+  {
+    "name": "Anding Family Dental - Omaha",
+    "website": "https://andingfamilydental.com",
+    "phone": "+1-402-858-1131",
+    "city": "Omaha",
+    "country": "US",
+    "email": "andingfd@gmail.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-16T20:15:52.191Z"
+  },
+  {
+    "name": "Anderson Orthodontics",
+    "website": "https://www.abqortho.com",
+    "city": "Albuquerque",
+    "country": "US",
+    "email": "tc@abqortho.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-16T20:15:52.598Z"
+  },
+  {
+    "name": "Comfort Dental",
+    "website": "https://comfortdental.com",
+    "city": "Albuquerque",
+    "country": "US",
+    "email": "info@comfortdental.biz",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-16T20:15:52.650Z"
+  },
+  {
+    "name": "Broadway Family & Cosmetic Dentistry",
+    "website": "https://www.smilesofbroadway.com",
+    "phone": "+1 712 323 3615",
+    "city": "Council Bluffs",
+    "country": "US",
+    "email": "care@smilesofbroadway.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-16T20:15:52.798Z"
+  },
+  {
+    "name": "Parr Dental",
+    "website": "https://www.parrdental.com",
+    "phone": "+1-402-556-7794",
+    "city": "Omaha",
+    "country": "US",
+    "email": "wjparrdds@msn.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-16T20:15:54.217Z"
   }
 ]
