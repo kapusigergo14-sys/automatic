@@ -4066,5 +4066,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "35501@nadentalgroup.com": {
+    "sentAt": "2026-04-16T20:17:56.351Z",
+    "messageId": "<202604162017.82707846660@smtp-relay.mailin.fr>",
+    "company": "Corner Dental - Lewis",
+    "subject": "You're losing patients after 5pm, Corner Dental",
+    "city": "Toledo",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
