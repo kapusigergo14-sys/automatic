@@ -4176,5 +4176,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@merskidental.com": {
+    "sentAt": "2026-04-16T20:18:59.637Z",
+    "messageId": "<202604162018.61995916972@smtp-relay.mailin.fr>",
+    "company": "Merski Dental",
+    "subject": "Merski Dental — what happens when someone visits your site at 11pm?",
+    "city": "Erie",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
