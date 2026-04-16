@@ -3351,5 +3351,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "office@birminghamdental.com": {
+    "sentAt": "2026-04-16T18:00:03.889Z",
+    "messageId": "<202604161800.17284464145@smtp-relay.mailin.fr>",
+    "company": "Birmingham Dental",
+    "subject": "Quick chatbot idea for Birmingham Dental",
+    "city": "Birmingham",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
