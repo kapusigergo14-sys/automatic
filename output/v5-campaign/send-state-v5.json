@@ -4385,5 +4385,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "healthysmiles@cnydentalarts.com": {
+    "sentAt": "2026-04-16T20:21:00.675Z",
+    "messageId": "<202604162021.75477016142@smtp-relay.mailin.fr>",
+    "company": "CNY Dental Arts PLLC",
+    "subject": "Honest question about CNY Dental Arts PLLC's website",
+    "city": "Syracuse",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 2
   }
 }
