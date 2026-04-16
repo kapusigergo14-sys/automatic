@@ -3428,5 +3428,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@smilecentermobile.com": {
+    "sentAt": "2026-04-16T18:04:07.581Z",
+    "messageId": "<202604161804.44237044615@smtp-relay.mailin.fr>",
+    "company": "Smile Center Mobile",
+    "subject": "Smile Center Mobile — missing chatbot?",
+    "city": "Mobile",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
