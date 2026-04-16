@@ -4154,5 +4154,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "35009@nadentalgroup.om": {
+    "sentAt": "2026-04-16T20:18:47.134Z",
+    "messageId": "<202604162018.84756967996@smtp-relay.mailin.fr>",
+    "company": "Refresh Dental",
+    "subject": "Honest question about Refresh Dental's website",
+    "city": "Poland",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
