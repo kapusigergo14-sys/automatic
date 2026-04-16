@@ -4253,5 +4253,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@ccdc.dentist": {
+    "sentAt": "2026-04-16T20:19:43.578Z",
+    "messageId": "<202604162019.11224222643@smtp-relay.mailin.fr>",
+    "company": "CCDC Cedar Crest Dental Care",
+    "subject": "Honest question about CCDC Cedar Crest Dental's website",
+    "city": "Allentown",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
