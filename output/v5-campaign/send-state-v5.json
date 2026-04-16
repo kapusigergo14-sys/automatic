@@ -2768,5 +2768,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "info@ndiscovered.com": {
+    "sentAt": "2026-04-16T06:20:10.055Z",
+    "messageId": "e47676ff-d789-4e91-a95c-227b4fbadf40",
+    "company": "Dr James McMillan Dental Surgery",
+    "subject": "Quick chatbot idea for Dr James McMillan Dental",
+    "city": "Orange Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
