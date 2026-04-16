@@ -4220,5 +4220,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "david@davidhazzouri.com": {
+    "sentAt": "2026-04-16T20:19:24.701Z",
+    "messageId": "<202604162019.28173778555@smtp-relay.mailin.fr>",
+    "company": "David M. Hazzouri Dental",
+    "subject": "Honest question about David M. Hazzouri Dental's website",
+    "city": "Scranton",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
