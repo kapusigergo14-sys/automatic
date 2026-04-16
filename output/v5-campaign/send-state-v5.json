@@ -3538,5 +3538,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@ginskidds.com": {
+    "sentAt": "2026-04-16T18:10:02.756Z",
+    "messageId": "<202604161810.41739612888@smtp-relay.mailin.fr>",
+    "company": "Ginski Family Dentistry of Memphis",
+    "subject": "Noticed something about Ginski Family Dentistry of's site",
+    "city": "Memphis",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
