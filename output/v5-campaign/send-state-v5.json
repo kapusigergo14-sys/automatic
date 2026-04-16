@@ -3835,5 +3835,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "southwest@summitdentalgrp.com": {
+    "sentAt": "2026-04-16T18:26:44.079Z",
+    "messageId": "<202604161826.11893095577@smtp-relay.mailin.fr>",
+    "company": "Summit Dental Group - Southwest Fort Wayne",
+    "subject": "Noticed something about Summit Dental Group's site",
+    "city": "Fort Wayne",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
