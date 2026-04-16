@@ -2823,5 +2823,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "emerald@serenity-dental.com.au": {
+    "sentAt": "2026-04-16T06:23:15.742Z",
+    "messageId": "ee685e88-c61c-49b1-b436-de195d8c27fd",
+    "company": "Serenity Dental CQ - Rockhampton Dentist",
+    "subject": "Noticed something about Serenity Dental CQ's site",
+    "city": "Rockhampton Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
