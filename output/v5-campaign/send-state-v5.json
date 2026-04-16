@@ -3461,5 +3461,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@dentalcoknox.com": {
+    "sentAt": "2026-04-16T18:05:50.683Z",
+    "messageId": "<202604161805.80660438464@smtp-relay.mailin.fr>",
+    "company": "Dental Co. of Knoxville",
+    "subject": "Dental Co. of Knoxville — missing chatbot?",
+    "city": "Knoxville",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
