@@ -3967,5 +3967,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "jatkin7@yahoo.com": {
+    "sentAt": "2026-04-16T20:16:59.452Z",
+    "messageId": "<202604162016.74162657476@smtp-relay.mailin.fr>",
+    "company": "Dayton Dental Care Unlimited",
+    "subject": "You're losing patients after 5pm, Dayton Dental Care Unlimited",
+    "city": "Dayton",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
