@@ -4198,5 +4198,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info.reicheldental@gmail.com": {
+    "sentAt": "2026-04-16T20:19:12.188Z",
+    "messageId": "<202604162019.16725399653@smtp-relay.mailin.fr>",
+    "company": "Reichel Dental",
+    "subject": "You're losing patients after 5pm, Reichel Dental",
+    "city": "Erie",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
