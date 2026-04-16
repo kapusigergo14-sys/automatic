@@ -3351,5 +3351,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "smileteam@smilegulfcoast.com": {
+    "sentAt": "2026-04-16T15:36:17.835Z",
+    "messageId": "42e0c43b-cf09-4d40-a2ab-4bc0d4fd904b",
+    "company": "Smile Gulf Coast",
+    "subject": "Noticed something about Smile Gulf Coast's site",
+    "city": "Gulfport",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
