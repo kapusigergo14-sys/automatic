@@ -3714,5 +3714,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@brushdentalbr.com": {
+    "sentAt": "2026-04-16T18:19:56.436Z",
+    "messageId": "<202604161819.20757285430@smtp-relay.mailin.fr>",
+    "company": "Brush Dental",
+    "subject": "Quick chatbot idea for Brush Dental",
+    "city": "Baton Rouge",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
