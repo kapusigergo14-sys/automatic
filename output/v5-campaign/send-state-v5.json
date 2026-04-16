@@ -3241,5 +3241,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "chboykin@hotmail.com": {
+    "sentAt": "2026-04-16T17:53:52.501Z",
+    "messageId": "<202604161753.65380023057@smtp-relay.mailin.fr>",
+    "company": "Dr. Carl H. Boykin, DDS",
+    "subject": "Noticed something about Dr. Carl H. Boykin's site",
+    "city": "Jackson",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 2
   }
 }
