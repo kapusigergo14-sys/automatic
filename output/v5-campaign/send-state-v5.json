@@ -3626,5 +3626,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "morganfamilydentistry1@yahoo.com": {
+    "sentAt": "2026-04-16T18:14:58.347Z",
+    "messageId": "<202604161814.69661760239@smtp-relay.mailin.fr>",
+    "company": "Morgan Family Dentistry",
+    "subject": "Morgan Family Dentistry — missing chatbot?",
+    "city": "Lafayette",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
