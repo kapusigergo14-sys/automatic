@@ -3417,5 +3417,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@mobilealdentist.com": {
+    "sentAt": "2026-04-16T18:03:33.012Z",
+    "messageId": "<202604161803.65181093461@smtp-relay.mailin.fr>",
+    "company": "Hollon and Taylor Dental - Mobile",
+    "subject": "Quick chatbot idea for Hollon and Taylor Dental",
+    "city": "Mobile",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
