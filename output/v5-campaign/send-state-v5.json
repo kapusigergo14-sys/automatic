@@ -3208,5 +3208,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "office@bbdentistry.com": {
+    "sentAt": "2026-04-16T15:28:31.664Z",
+    "messageId": "532c53a6-2a91-4073-b7e8-5b2e12d457e4",
+    "company": "Beavers & Broomfield Family Dentistry",
+    "subject": "Beavers & Broomfield Family — missing chatbot?",
+    "city": "Fayetteville",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
