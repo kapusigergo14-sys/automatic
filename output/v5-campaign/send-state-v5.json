@@ -3978,5 +3978,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "sarah@daytondental.me": {
+    "sentAt": "2026-04-16T20:17:05.761Z",
+    "messageId": "<202604162017.47086342565@smtp-relay.mailin.fr>",
+    "company": "Dayton Comprehensive Dentistry",
+    "subject": "Dayton Comprehensive Dentistry — what happens when someone visits your site at 11pm?",
+    "city": "Dayton",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
