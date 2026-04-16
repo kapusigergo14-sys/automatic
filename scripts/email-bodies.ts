@@ -23,7 +23,7 @@ function escHtml(s: string): string {
 // ─── English ─────────────────────────────────────────────
 
 const EN_SUBJECTS = [
-  (c: string) => `You're losing patients after 5pm, ${c}`,
+  (c: string) => `Noticed something about ${c}'s site`,
   (c: string) => `${c} — what happens when someone visits your site at 11pm?`,
   (c: string) => `Honest question about ${c}'s website`,
 ];
