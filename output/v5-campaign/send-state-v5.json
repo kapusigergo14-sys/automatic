@@ -3439,5 +3439,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@dentalwellnessbirmingham.com": {
+    "sentAt": "2026-04-16T18:04:40.536Z",
+    "messageId": "<202604161804.56822483450@smtp-relay.mailin.fr>",
+    "company": "Dental Wellness Center of Birmingham",
+    "subject": "Noticed something about Dental Wellness Center of's site",
+    "city": "Birmingham",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
