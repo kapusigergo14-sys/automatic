@@ -42,7 +42,7 @@ const EN_BODY = (companyRaw: string): string => {
 
 <p style="margin:0 0 14px 0">Here's my offer: reply and I'll build you a <strong>free design concept</strong>. A real mockup of your new site with your actual practice name and brand colors &mdash; no obligation, no sales call, no BS. You can keep it even if we don't end up working together.</p>
 
-<p style="margin:0 0 18px 0">&mdash; Geri<br><a href="https://smartflowdev.com" style="color:#059669;text-decoration:none">smartflowdev.com</a></p>
+<p style="margin:0 0 18px 0">&mdash; Geri<br><a href="https://smartflowdev.com" style="color:#059669;text-decoration:none">smartflowdev.com</a> &middot; <a href="https://smartflowdev.com/proposal" style="color:#059669;text-decoration:none">See our full proposal</a></p>
 
 <p style="margin:0 0 6px 0;padding-top:14px;border-top:1px solid #e5e7eb;color:#6b7280;font-size:13.5px;line-height:1.6"><strong style="color:#059669">PS.</strong> Premium tier ($2,500) includes an AI chatbot that actually books appointments through conversation. A patient asks "do you take Delta Dental?" at 11pm &mdash; the bot answers and schedules them for Tuesday morning. $49/mo after the first free month. Sounds like sci-fi, works like magic.</p>
 </div>`;

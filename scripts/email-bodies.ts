@@ -41,13 +41,7 @@ const EN_BODY = (companyRaw: string): string => {
 
 <p style="margin:0 0 14px 0">If it's interesting, just reply. If not, no worries &mdash; delete this and I'll stop reaching out.</p>
 
-<p style="margin:0 0 18px 0">Cheers,<br><strong>Geri</strong> &middot; <a href="https://smartflowdev.com" style="color:#6366F1;text-decoration:none">smartflowdev.com</a></p>
-
-<p style="margin:0">
-  <a href="https://smartflowdev.com" style="display:block;text-decoration:none">
-    <img src="https://www.smartflowdev.com/chatbot-preview.png" alt="AI Chatbot Proposal — smartflowdev" width="420" style="display:block;width:100%;max-width:420px;height:auto;border-radius:10px;border:1px solid #e4e4e7" />
-  </a>
-</p>
+<p style="margin:0 0 18px 0">Cheers,<br><strong>Geri</strong> &middot; <a href="https://smartflowdev.com" style="color:#6366F1;text-decoration:none">smartflowdev.com</a> &middot; <a href="https://smartflowdev.com/chatbot" style="color:#6366F1;text-decoration:none">See how the chatbot works</a></p>
 </div>`;
 };
 
