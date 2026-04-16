@@ -3582,5 +3582,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@drcurtisroy.com": {
+    "sentAt": "2026-04-16T18:12:34.167Z",
+    "messageId": "<202604161812.10210929088@smtp-relay.mailin.fr>",
+    "company": "Curtis H Roy",
+    "subject": "Quick chatbot idea for Curtis H Roy",
+    "city": "Lafayette",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
