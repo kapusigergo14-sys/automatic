@@ -3560,5 +3560,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@sola.dental": {
+    "sentAt": "2026-04-16T18:11:18.050Z",
+    "messageId": "<202604161811.78958416962@smtp-relay.mailin.fr>",
+    "company": "SOLA Dental",
+    "subject": "SOLA Dental — missing chatbot?",
+    "city": "Lafayette",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
