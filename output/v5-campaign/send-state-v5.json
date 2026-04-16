@@ -3813,5 +3813,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "frontdesk@legacydentalfw.com": {
+    "sentAt": "2026-04-16T18:25:26.350Z",
+    "messageId": "<202604161825.10241530024@smtp-relay.mailin.fr>",
+    "company": "Legacy Dental",
+    "subject": "Quick chatbot idea for Legacy Dental",
+    "city": "Fort Wayne",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
