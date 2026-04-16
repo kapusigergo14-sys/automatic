@@ -167,7 +167,8 @@ async function sendEmail(
         to: [to],
         subject,
         html,
-        attachments: [{ filename: pdfFilename, content: pdfBase64 }],
+        // No PDF attachment — improves deliverability. PDF only sent
+        // manually when a lead replies asking for the proposal.
       }),
     });
     if (!res.ok) {

@@ -37,7 +37,7 @@ const EN_BODY = (companyRaw: string): string => {
 
 <p style="margin:0 0 14px 0">Your site actually looks solid, but there's no chatbot yet &mdash; which is probably costing you a few patients a month in after-hours inquiries.</p>
 
-<p style="margin:0 0 14px 0">I can install a branded one on your site in <strong>48 hours</strong>, everything included. Short overview attached as a PDF.</p>
+<p style="margin:0 0 14px 0">I can install a branded one on your site in <strong>48 hours</strong>, everything included. Reply and I'll send over a short proposal with pricing and examples.</p>
 
 <p style="margin:0 0 14px 0">If it's interesting, just reply. If not, no worries &mdash; delete this and I'll stop reaching out.</p>
 

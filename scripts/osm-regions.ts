@@ -42,6 +42,18 @@ export const OSM_REGIONS: OsmRegion[] = [
   { code: 'US-ATLANTA',       country: 'US', city: 'Atlanta GA',        bbox: [33.65, -84.55, 33.89, -84.28] },
   { code: 'US-MIAMI',         country: 'US', city: 'Miami FL',          bbox: [25.70, -80.35, 25.92, -80.12] },
 
+  // US — smaller cities (better Overpass success rate, less rate-limited)
+  { code: 'US-TUCSON',        country: 'US', city: 'Tucson AZ',         bbox: [32.15, -111.02, 32.30, -110.85] },
+  { code: 'US-ALBUQUERQUE',   country: 'US', city: 'Albuquerque NM',    bbox: [35.03, -106.72, 35.15, -106.55] },
+  { code: 'US-OMAHA',         country: 'US', city: 'Omaha NE',          bbox: [41.20, -96.05, 41.32, -95.88] },
+  { code: 'US-SPOKANE',       country: 'US', city: 'Spokane WA',        bbox: [47.62, -117.48, 47.72, -117.35] },
+  { code: 'US-RICHMOND',      country: 'US', city: 'Richmond VA',       bbox: [37.50, -77.55, 37.60, -77.40] },
+  { code: 'US-WICHITA',       country: 'US', city: 'Wichita KS',        bbox: [37.63, -97.40, 37.75, -97.25] },
+  { code: 'US-TOLEDO',        country: 'US', city: 'Toledo OH',          bbox: [41.62, -83.62, 41.70, -83.50] },
+  { code: 'US-KNOXVILLE',     country: 'US', city: 'Knoxville TN',      bbox: [35.92, -84.00, 36.00, -83.85] },
+  { code: 'US-RALEIGH',       country: 'US', city: 'Raleigh NC',        bbox: [35.72, -78.72, 35.84, -78.58] },
+  { code: 'US-LEXINGTON',     country: 'US', city: 'Lexington KY',      bbox: [37.97, -84.55, 38.08, -84.42] },
+
   // ─── UK — copied from auto-100-dental-v3.ts lines 47-91 (44 regions) ───
   { code: 'UK-LONDON',        country: 'UK', city: 'London',            bbox: [51.28, -0.51, 51.69, 0.33] },
   { code: 'UK-MANCHESTER',    country: 'UK', city: 'Manchester',        bbox: [53.35, -2.30, 53.55, -2.08] },
