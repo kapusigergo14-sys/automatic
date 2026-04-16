@@ -3318,5 +3318,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@bradjonesdds.com": {
+    "sentAt": "2026-04-16T17:58:13.647Z",
+    "messageId": "<202604161758.38392223574@smtp-relay.mailin.fr>",
+    "company": "Brad Jones DDS General Dentistry",
+    "subject": "Quick chatbot idea for Brad Jones DDS General",
+    "city": "Fayetteville",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
