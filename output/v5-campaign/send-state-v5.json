@@ -3043,5 +3043,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "appointments@itooth.net": {
+    "sentAt": "2026-04-16T15:19:31.436Z",
+    "messageId": "8cc7d922-2588-4f58-9345-2470e62c43d3",
+    "company": "iTooth",
+    "subject": "iTooth — missing chatbot?",
+    "city": "Springfield",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
