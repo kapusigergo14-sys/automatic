@@ -4077,5 +4077,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "appointments@toledodentalarts.com": {
+    "sentAt": "2026-04-16T20:18:02.780Z",
+    "messageId": "<202604162018.48833639244@smtp-relay.mailin.fr>",
+    "company": "Toledo Dental Arts",
+    "subject": "Toledo Dental Arts — what happens when someone visits your site at 11pm?",
+    "city": "Toledo",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
