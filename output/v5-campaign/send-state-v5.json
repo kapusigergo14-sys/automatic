@@ -3340,5 +3340,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "kdixon.mcd@gmail.com": {
+    "sentAt": "2026-04-16T17:59:25.772Z",
+    "messageId": "<202604161759.36462023237@smtp-relay.mailin.fr>",
+    "company": "Magic City Dentistry",
+    "subject": "Noticed something about Magic City Dentistry's site",
+    "city": "Birmingham",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
