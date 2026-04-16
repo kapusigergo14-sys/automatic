@@ -4264,5 +4264,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "frontdesk@brooksidesmiles.com": {
+    "sentAt": "2026-04-16T20:19:49.830Z",
+    "messageId": "<202604162019.49661091450@smtp-relay.mailin.fr>",
+    "company": "Brookside Dental Care",
+    "subject": "You're losing patients after 5pm, Brookside Dental Care",
+    "city": "Allentown",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
