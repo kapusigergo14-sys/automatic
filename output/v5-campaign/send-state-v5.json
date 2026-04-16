@@ -2878,5 +2878,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "hello@paramountdentalsydney.com.au": {
+    "sentAt": "2026-04-16T06:26:22.103Z",
+    "messageId": "0f36c4c1-704b-48f7-9da4-b96f6b3b84f3",
+    "company": "Paramount Dental Sydney",
+    "subject": "Paramount Dental Sydney — missing chatbot?",
+    "city": "Sydney Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
