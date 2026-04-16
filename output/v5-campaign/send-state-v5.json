@@ -3307,5 +3307,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "beachview@garnerdental.net": {
+    "sentAt": "2026-04-16T15:33:54.849Z",
+    "messageId": "33e7f1e2-e54c-433d-962a-7970a07db7aa",
+    "company": "Beach View Family Dental of Gulfport",
+    "subject": "Beach View Family Dental — missing chatbot?",
+    "city": "Gulfport",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
