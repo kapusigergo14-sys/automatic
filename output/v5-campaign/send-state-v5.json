@@ -2845,5 +2845,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "rockhampton@1300smiles.com.au": {
+    "sentAt": "2026-04-16T06:24:31.620Z",
+    "messageId": "bd41c058-507e-45c2-975d-34085761232e",
+    "company": "1300SMILES Dentists Rockhampton",
+    "subject": "1300SMILES Dentists Rockhampton — missing chatbot?",
+    "city": "Rockhampton Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
