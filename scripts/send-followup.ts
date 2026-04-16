@@ -20,9 +20,9 @@ import * as dotenv from 'dotenv';
 
 dotenv.config({ path: path.resolve(__dirname, '../.env.local') });
 
-const RESEND_API_KEY = process.env.RESEND_API_KEY || '';
-if (!RESEND_API_KEY) {
-  console.error('❌ Missing RESEND_API_KEY env var');
+const BREVO_API_KEY = process.env.BREVO_API_KEY || '';
+if (!BREVO_API_KEY) {
+  console.error('❌ Missing BREVO_API_KEY env var');
   process.exit(1);
 }
 
@@ -93,28 +93,32 @@ function cleanName(name: string): string {
     .join(' ');
 }
 
-// ── Send via Resend ──
+// ── Send via Brevo ──
 async function sendEmail(
-  from: string,
+  from: string, // "Geri <geri@smartflowdev.com>" format — parsed below
   to: string,
   subject: string,
   html: string,
   replyTo: string
 ): Promise<{ ok: boolean; id?: string; error?: string }> {
+  // Parse "Name <email>" format
+  const match = from.match(/^(.+?)\s*<(.+?)>$/);
+  const fromName = match ? match[1].trim() : 'Geri';
+  const fromEmail = match ? match[2].trim() : from;
+
   try {
-    const res = await fetch('https://api.resend.com/emails', {
+    const res = await fetch('https://api.brevo.com/v3/smtp/email', {
       method: 'POST',
       headers: {
-        Authorization: `Bearer ${RESEND_API_KEY}`,
+        'api-key': BREVO_API_KEY,
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from,
-        reply_to: replyTo,
-        to: [to],
+        sender: { name: fromName, email: fromEmail },
+        to: [{ email: to }],
+        replyTo: { email: replyTo },
         subject,
-        html,
-        // NO attachments — follow-up is clean text only
+        htmlContent: html,
       }),
     });
     if (!res.ok) {
@@ -122,7 +126,7 @@ async function sendEmail(
       return { ok: false, error: `HTTP ${res.status}: ${errText.slice(0, 200)}` };
     }
     const data = (await res.json()) as any;
-    return { ok: true, id: data?.id };
+    return { ok: true, id: data?.messageId };
   } catch (err: any) {
     return { ok: false, error: err.message || String(err) };
   }

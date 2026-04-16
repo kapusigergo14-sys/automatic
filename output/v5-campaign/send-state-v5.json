@@ -9,16 +9,6 @@
     "hasBooking": false,
     "modernScore": 3
   },
-  "kapusigergo14@gmail.com": {
-    "sentAt": "2026-04-13T20:23:25.074Z",
-    "messageId": "9c6f5bc0-fc11-42f7-b3d8-4907abdf5c7e",
-    "company": "Sunset Dental Care",
-    "subject": "Quick chatbot idea for Sunset Dental Care",
-    "city": "Test City",
-    "country": "US",
-    "hasBooking": false,
-    "modernScore": 3
-  },
   "drpoulossteven@yahoo.com": {
     "sentAt": "2026-04-13T20:25:58.011Z",
     "messageId": "7a5a5b16-2d37-4c2e-8838-c0ceeb53aa10",
@@ -27,7 +17,9 @@
     "city": "Scottsdale",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T15:33:10.132Z",
+    "followup1MessageId": "62f0969b-cfcd-488c-9320-01bacdbc7b15"
   },
   "info@northscottsdaledentistry.com": {
     "sentAt": "2026-04-13T20:26:04.032Z",
@@ -37,7 +29,9 @@
     "city": "Scottsdale",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T15:33:15.382Z",
+    "followup1MessageId": "a9cd9228-f807-466f-80a3-0f37b7c04b18"
   },
   "info@azdmd.com": {
     "sentAt": "2026-04-13T20:26:10.368Z",
@@ -47,7 +41,9 @@
     "city": "Scottsdale",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T15:33:20.630Z",
+    "followup1MessageId": "a689837d-e40d-4b56-969b-7853acd31c7a"
   },
   "office@nwdentalcenter.com": {
     "sentAt": "2026-04-13T20:26:15.992Z",
@@ -57,7 +53,9 @@
     "city": "Boise",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T15:33:26.181Z",
+    "followup1MessageId": "0248574c-62a6-4344-8b09-8564bd717e72"
   },
   "office@boisedentalarts.com": {
     "sentAt": "2026-04-13T20:26:21.539Z",
@@ -67,7 +65,9 @@
     "city": "Boise",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T15:33:31.421Z",
+    "followup1MessageId": "fa31ba7f-a64c-4fbd-a43e-9a605029a143"
   },
   "davegreendds@gmail.com": {
     "sentAt": "2026-04-13T20:26:27.150Z",
@@ -77,7 +77,9 @@
     "city": "Boise",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T15:33:36.645Z",
+    "followup1MessageId": "4ffcf1f2-f0f8-4850-b351-13a1ec3078d6"
   },
   "office@boisebenchdentistry.com": {
     "sentAt": "2026-04-13T20:26:32.715Z",
@@ -87,7 +89,9 @@
     "city": "Boise",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T15:33:41.898Z",
+    "followup1MessageId": "a954ecab-6a10-4493-8d56-71774bb4953f"
   },
   "bmosh36@gmail.com": {
     "sentAt": "2026-04-13T20:26:38.350Z",
@@ -97,7 +101,9 @@
     "city": "Scottsdale",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T15:33:47.129Z",
+    "followup1MessageId": "3a2ce982-ffc6-418b-a22b-7d79db36c473"
   },
   "stephanie@therenodentist.com": {
     "sentAt": "2026-04-13T20:26:43.903Z",
@@ -107,7 +113,9 @@
     "city": "Reno",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T15:33:52.357Z",
+    "followup1MessageId": "c215f671-7d99-4299-921d-4ba08c428db3"
   },
   "info@salafamilydentistry.com": {
     "sentAt": "2026-04-13T20:26:49.613Z",
@@ -117,7 +125,9 @@
     "city": "Reno",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T15:33:57.617Z",
+    "followup1MessageId": "154df8fa-af84-4aae-917d-fa204557e91e"
   },
   "villagedentalreno@gmail.com": {
     "sentAt": "2026-04-13T20:26:55.343Z",
@@ -127,7 +137,9 @@
     "city": "Reno",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T15:34:02.848Z",
+    "followup1MessageId": "9750436c-8103-4ad8-a24a-f70680f69e34"
   },
   "manager@atenciodds.com": {
     "sentAt": "2026-04-13T20:27:01.275Z",
@@ -137,7 +149,9 @@
     "city": "Reno",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T15:34:08.086Z",
+    "followup1MessageId": "62a21322-a393-483c-bb81-9bf15cd9c117"
   },
   "info@wellbeyonddental.com": {
     "sentAt": "2026-04-13T20:27:06.924Z",
@@ -147,7 +161,9 @@
     "city": "Reno",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T15:34:13.416Z",
+    "followup1MessageId": "a964b268-2dac-4d85-a620-4fceca1eaa7e"
   },
   "smile@maplegrovedentistry.net": {
     "sentAt": "2026-04-13T20:27:12.544Z",
@@ -157,7 +173,9 @@
     "city": "Boise",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T15:34:18.657Z",
+    "followup1MessageId": "93af26ae-424f-400d-a4f2-ca1d3d3c6aba"
   },
   "info@westsidedentalstudionv.com": {
     "sentAt": "2026-04-13T20:27:18.205Z",
@@ -167,7 +185,9 @@
     "city": "Reno",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T15:34:24.036Z",
+    "followup1MessageId": "d616b971-9d6e-45d2-92b7-051e7fc86e51"
   },
   "idahostreetdental@gmail.com": {
     "sentAt": "2026-04-13T20:27:23.744Z",
@@ -177,7 +197,9 @@
     "city": "Boise",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T15:34:29.271Z",
+    "followup1MessageId": "3ad600c5-0cb1-4da4-9133-898340a76697"
   },
   "info@westplainsdds.com": {
     "sentAt": "2026-04-13T20:27:29.420Z",
@@ -187,7 +209,9 @@
     "city": "Spokane",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T15:34:34.508Z",
+    "followup1MessageId": "e55f17eb-f339-4fde-8552-046d853f0206"
   },
   "office@logansmithdds.com": {
     "sentAt": "2026-04-13T20:27:35.272Z",
@@ -197,7 +221,9 @@
     "city": "Reno",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T15:34:39.745Z",
+    "followup1MessageId": "d94208b1-b16a-48a2-98a5-5f58ca9df24e"
   },
   "info@ddentistryreno.com": {
     "sentAt": "2026-04-13T20:27:40.895Z",
@@ -207,7 +233,9 @@
     "city": "Reno",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T15:34:44.965Z",
+    "followup1MessageId": "be7c56c0-bcbe-4f4e-a2c2-05ff87d998fa"
   },
   "appointments@drweigand.com": {
     "sentAt": "2026-04-13T20:27:46.528Z",
@@ -217,7 +245,9 @@
     "city": "Spokane",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T15:34:50.196Z",
+    "followup1MessageId": "11339e3b-27ca-476e-89fa-c19dfe741162"
   },
   "info@dynamicdentalcare.com": {
     "sentAt": "2026-04-13T20:27:52.189Z",
@@ -227,7 +257,9 @@
     "city": "Spokane",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T15:34:55.430Z",
+    "followup1MessageId": "e7a06afa-0513-4d61-a583-9c11c5cf8a75"
   },
   "info@dentalcareofspokane.com": {
     "sentAt": "2026-04-13T20:27:58.216Z",
@@ -237,7 +269,9 @@
     "city": "Spokane",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T15:35:00.650Z",
+    "followup1MessageId": "fdd60aca-2c6d-4c30-8c80-9496d0642835"
   },
   "info@excellenceindentistry.com": {
     "sentAt": "2026-04-13T20:28:03.775Z",
@@ -247,7 +281,9 @@
     "city": "Madison",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T15:35:05.864Z",
+    "followup1MessageId": "d6ba8e2e-1476-456c-8bef-859915425cd3"
   },
   "info@smilemorespokane.com": {
     "sentAt": "2026-04-13T20:28:09.453Z",
@@ -257,7 +293,9 @@
     "city": "Spokane",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T15:35:11.121Z",
+    "followup1MessageId": "61c0fc40-7948-4ad1-8117-efedc5b1d1b9"
   },
   "info@artisandentalmadison.com": {
     "sentAt": "2026-04-13T20:28:15.142Z",
@@ -267,7 +305,9 @@
     "city": "Madison",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T15:35:16.390Z",
+    "followup1MessageId": "d2e2b94c-f1c2-4fb6-830f-481ecaaee67d"
   },
   "info@doorcreekdental.com": {
     "sentAt": "2026-04-13T20:28:20.710Z",
@@ -277,7 +317,9 @@
     "city": "Madison",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T15:35:21.626Z",
+    "followup1MessageId": "7ade3156-aa0f-4328-a366-72f0f58f8d30"
   },
   "info@wavelandfamilydental.com": {
     "sentAt": "2026-04-13T20:28:26.288Z",
@@ -287,7 +329,9 @@
     "city": "Des Moines",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T15:35:26.880Z",
+    "followup1MessageId": "c91186f1-d129-42a6-bbad-8db52c3c2ce8"
   },
   "info@audubon-dental.com": {
     "sentAt": "2026-04-13T20:28:31.897Z",
@@ -297,7 +341,9 @@
     "city": "Spokane",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T15:35:32.112Z",
+    "followup1MessageId": "f0f7623e-31db-41bb-94c5-97f5aafac38d"
   },
   "info@dsmdentalcare.com": {
     "sentAt": "2026-04-13T20:28:37.473Z",
@@ -307,7 +353,9 @@
     "city": "Des Moines",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T15:35:37.342Z",
+    "followup1MessageId": "98806733-abb8-4baf-a6a8-b46f87a03a19"
   },
   "info@fleurdentistry.com": {
     "sentAt": "2026-04-13T20:28:43.080Z",
@@ -317,7 +365,9 @@
     "city": "Des Moines",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T15:35:42.562Z",
+    "followup1MessageId": "a72d5dc7-ac1c-4212-b053-6864f7ca03d1"
   },
   "fortdsmdental@gmail.com": {
     "sentAt": "2026-04-13T20:28:48.682Z",
@@ -327,7 +377,9 @@
     "city": "Des Moines",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T15:35:47.789Z",
+    "followup1MessageId": "898f7d2f-2954-4ad3-ac2e-63546b55fc63"
   },
   "schroederdentistry@gmail.com": {
     "sentAt": "2026-04-13T20:28:54.536Z",
@@ -337,7 +389,9 @@
     "city": "Lexington",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T15:35:53.092Z",
+    "followup1MessageId": "f3441e18-81da-464e-a793-d1c41eaf9f20"
   },
   "desmoines@emergencydental.com": {
     "sentAt": "2026-04-13T20:29:00.430Z",
@@ -347,7 +401,9 @@
     "city": "Des Moines",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T15:35:58.312Z",
+    "followup1MessageId": "5367056f-8ad4-4fdf-8bc9-28b5473644f1"
   },
   "parkhillsdentistry@gmail.com": {
     "sentAt": "2026-04-13T20:29:06.117Z",
@@ -357,7 +413,9 @@
     "city": "Lexington",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T15:36:03.554Z",
+    "followup1MessageId": "d2c26c0f-09af-4e55-8521-9781dab8cc6a"
   },
   "jeffwking12@aol.com": {
     "sentAt": "2026-04-13T20:29:11.998Z",
@@ -367,7 +425,9 @@
     "city": "Lexington",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T15:36:08.799Z",
+    "followup1MessageId": "e4555465-d68b-49ca-95e0-d930880ab748"
   },
   "thesmilelexington@gmail.com": {
     "sentAt": "2026-04-13T20:29:17.553Z",
@@ -377,7 +437,9 @@
     "city": "Lexington",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T15:36:14.078Z",
+    "followup1MessageId": "71f5734d-9888-482d-9a6a-b0503f68779b"
   },
   "huntsvilleinfo@lifedentalgroup.com": {
     "sentAt": "2026-04-13T20:29:23.272Z",
@@ -387,7 +449,9 @@
     "city": "Huntsville",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:18:20.241Z",
+    "followup1MessageId": "<202604161618.15834583070@smtp-relay.mailin.fr>"
   },
   "info@tlcdentistry.net": {
     "sentAt": "2026-04-13T20:29:28.885Z",
@@ -397,7 +461,9 @@
     "city": "Lexington",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:18:25.422Z",
+    "followup1MessageId": "<202604161618.95529193344@smtp-relay.mailin.fr>"
   },
   "dr.aprillenelson@gmail.com": {
     "sentAt": "2026-04-13T20:29:34.800Z",
@@ -407,7 +473,9 @@
     "city": "Lexington",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:18:30.597Z",
+    "followup1MessageId": "<202604161618.64595013154@smtp-relay.mailin.fr>"
   },
   "webreporting@gargle.com": {
     "sentAt": "2026-04-13T20:29:40.482Z",
@@ -417,7 +485,9 @@
     "city": "Huntsville",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:18:35.762Z",
+    "followup1MessageId": "<202604161618.85154910420@smtp-relay.mailin.fr>"
   },
   "frontdesk@springsdentistry.com": {
     "sentAt": "2026-04-14T15:25:15.367Z",
@@ -427,7 +497,9 @@
     "city": "Colorado Springs",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:18:40.963Z",
+    "followup1MessageId": "<202604161618.15342686854@smtp-relay.mailin.fr>"
   },
   "crossroads.frontoffice@gmail.com": {
     "sentAt": "2026-04-14T15:25:22.257Z",
@@ -437,7 +509,9 @@
     "city": "Colorado Springs",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:18:46.126Z",
+    "followup1MessageId": "<202604161618.55518876438@smtp-relay.mailin.fr>"
   },
   "info@sprucedentalco.com": {
     "sentAt": "2026-04-14T15:25:27.883Z",
@@ -447,7 +521,9 @@
     "city": "Colorado Springs",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:18:51.267Z",
+    "followup1MessageId": "<202604161618.88290911422@smtp-relay.mailin.fr>"
   },
   "fcsmiles@gmail.com": {
     "sentAt": "2026-04-14T15:25:33.653Z",
@@ -457,7 +533,9 @@
     "city": "Fort Collins",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:18:56.431Z",
+    "followup1MessageId": "<202604161618.48135124553@smtp-relay.mailin.fr>"
   },
   "contactus@smilecos.com": {
     "sentAt": "2026-04-14T15:25:40.172Z",
@@ -467,7 +545,9 @@
     "city": "Colorado Springs",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:19:02.384Z",
+    "followup1MessageId": "<202604161619.49644121573@smtp-relay.mailin.fr>"
   },
   "contactus@emergencydentalofamerica.com": {
     "sentAt": "2026-04-14T15:25:45.729Z",
@@ -477,7 +557,9 @@
     "city": "Colorado Springs",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:19:07.567Z",
+    "followup1MessageId": "<202604161619.24890569272@smtp-relay.mailin.fr>"
   },
   "bdental@briargatedental.com": {
     "sentAt": "2026-04-14T15:25:51.563Z",
@@ -487,7 +569,9 @@
     "city": "Colorado Springs",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:19:12.732Z",
+    "followup1MessageId": "<202604161619.92107636472@smtp-relay.mailin.fr>"
   },
   "care@alpinedentalhealth.com": {
     "sentAt": "2026-04-14T15:25:57.421Z",
@@ -497,7 +581,9 @@
     "city": "Fort Collins",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:19:17.910Z",
+    "followup1MessageId": "<202604161619.16915484329@smtp-relay.mailin.fr>"
   },
   "frontoffice.hortondental@gmail.com": {
     "sentAt": "2026-04-14T15:26:03.033Z",
@@ -507,7 +593,9 @@
     "city": "Fort Collins",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:19:23.079Z",
+    "followup1MessageId": "<202604161619.31222313458@smtp-relay.mailin.fr>"
   },
   "rockymountaindental@gmail.com": {
     "sentAt": "2026-04-14T15:26:08.631Z",
@@ -517,7 +605,9 @@
     "city": "Fort Collins",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:19:28.271Z",
+    "followup1MessageId": "<202604161619.42159213957@smtp-relay.mailin.fr>"
   },
   "info@boulderdentistryco.com": {
     "sentAt": "2026-04-14T15:26:14.277Z",
@@ -527,7 +617,9 @@
     "city": "Boulder",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:19:33.442Z",
+    "followup1MessageId": "<202604161619.12303379581@smtp-relay.mailin.fr>"
   },
   "patientcare@boulderdental.com": {
     "sentAt": "2026-04-14T15:26:19.915Z",
@@ -537,7 +629,9 @@
     "city": "Boulder",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:19:38.614Z",
+    "followup1MessageId": "<202604161619.55113374764@smtp-relay.mailin.fr>"
   },
   "office@alberdentalstudio.com": {
     "sentAt": "2026-04-14T15:26:25.503Z",
@@ -547,7 +641,9 @@
     "city": "Boulder",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:19:43.842Z",
+    "followup1MessageId": "<202604161619.25963001906@smtp-relay.mailin.fr>"
   },
   "bouldersmiledesign@gmail.com": {
     "sentAt": "2026-04-14T15:26:31.162Z",
@@ -557,7 +653,9 @@
     "city": "Boulder",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:19:49.006Z",
+    "followup1MessageId": "<202604161619.66817763970@smtp-relay.mailin.fr>"
   },
   "boulder@expdent.com": {
     "sentAt": "2026-04-14T15:26:37.046Z",
@@ -567,7 +665,9 @@
     "city": "Boulder",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:19:54.162Z",
+    "followup1MessageId": "<202604161619.80023194882@smtp-relay.mailin.fr>"
   },
   "info@tucsondentalstudio.com": {
     "sentAt": "2026-04-14T15:26:42.671Z",
@@ -577,7 +677,9 @@
     "city": "Tucson",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:19:59.415Z",
+    "followup1MessageId": "<202604161619.92697058262@smtp-relay.mailin.fr>"
   },
   "info@simplysmilesdentist.com": {
     "sentAt": "2026-04-14T15:26:48.384Z",
@@ -587,7 +689,9 @@
     "city": "Tucson",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:20:04.639Z",
+    "followup1MessageId": "<202604161620.85997611970@smtp-relay.mailin.fr>"
   },
   "office@dentalwiseaz.com": {
     "sentAt": "2026-04-14T15:26:53.958Z",
@@ -597,7 +701,9 @@
     "city": "Tucson",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:20:09.816Z",
+    "followup1MessageId": "<202604161620.80617277590@smtp-relay.mailin.fr>"
   },
   "frontoffice@weissmanfamilydental.org": {
     "sentAt": "2026-04-14T15:26:59.513Z",
@@ -607,7 +713,9 @@
     "city": "Boulder",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:20:15.046Z",
+    "followup1MessageId": "<202604161620.45693371828@smtp-relay.mailin.fr>"
   },
   "info@designagency.com": {
     "sentAt": "2026-04-14T15:27:05.166Z",
@@ -617,7 +725,9 @@
     "city": "Tucson",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:20:20.280Z",
+    "followup1MessageId": "<202604161620.17349286049@smtp-relay.mailin.fr>"
   },
   "laserdoc@smileaz.com": {
     "sentAt": "2026-04-14T15:27:10.806Z",
@@ -627,7 +737,9 @@
     "city": "Mesa",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:20:25.506Z",
+    "followup1MessageId": "<202604161620.88759044596@smtp-relay.mailin.fr>"
   },
   "analyticsintegration2k22@gmail.com": {
     "sentAt": "2026-04-14T15:27:16.460Z",
@@ -637,7 +749,9 @@
     "city": "Mesa",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:20:30.663Z",
+    "followup1MessageId": "<202604161620.63987011106@smtp-relay.mailin.fr>"
   },
   "info@snowfamilydentistry.com": {
     "sentAt": "2026-04-14T15:27:22.127Z",
@@ -647,7 +761,9 @@
     "city": "Mesa",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:20:35.833Z",
+    "followup1MessageId": "<202604161620.29029522428@smtp-relay.mailin.fr>"
   },
   "info@mydentalaz.com": {
     "sentAt": "2026-04-14T15:27:27.943Z",
@@ -657,7 +773,9 @@
     "city": "Mesa",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:20:41.005Z",
+    "followup1MessageId": "<202604161620.48175751815@smtp-relay.mailin.fr>"
   },
   "arizonadentalhealth@gmail.com": {
     "sentAt": "2026-04-14T15:27:34.416Z",
@@ -667,7 +785,9 @@
     "city": "Mesa",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:20:46.174Z",
+    "followup1MessageId": "<202604161620.49976273871@smtp-relay.mailin.fr>"
   },
   "info@tempedentalcare.com": {
     "sentAt": "2026-04-14T15:27:40.088Z",
@@ -677,7 +797,9 @@
     "city": "Tempe",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:20:51.304Z",
+    "followup1MessageId": "<202604161620.70903153609@smtp-relay.mailin.fr>"
   },
   "tempe.dentistry@yahoo.com": {
     "sentAt": "2026-04-14T15:27:45.703Z",
@@ -687,7 +809,9 @@
     "city": "Tempe",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:20:56.537Z",
+    "followup1MessageId": "<202604161620.34674780538@smtp-relay.mailin.fr>"
   },
   "drdanielfrontdesk@yahoo.com": {
     "sentAt": "2026-04-14T15:27:51.266Z",
@@ -697,7 +821,9 @@
     "city": "Boulder",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:21:01.779Z",
+    "followup1MessageId": "<202604161621.30675720830@smtp-relay.mailin.fr>"
   },
   "dentalteam@weekend-dentalcare.com": {
     "sentAt": "2026-04-14T15:27:57.114Z",
@@ -707,7 +833,9 @@
     "city": "Tempe",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:21:06.946Z",
+    "followup1MessageId": "<202604161621.95974420065@smtp-relay.mailin.fr>"
   },
   "osunadentalcare@gmail.com": {
     "sentAt": "2026-04-14T15:28:02.719Z",
@@ -717,7 +845,9 @@
     "city": "Albuquerque",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:21:12.074Z",
+    "followup1MessageId": "<202604161621.95304765136@smtp-relay.mailin.fr>"
   },
   "info@adcnm.com": {
     "sentAt": "2026-04-14T15:28:08.528Z",
@@ -727,7 +857,9 @@
     "city": "Albuquerque",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:21:17.249Z",
+    "followup1MessageId": "<202604161621.81886977658@smtp-relay.mailin.fr>"
   },
   "newagedentistryabq@gmail.com": {
     "sentAt": "2026-04-14T15:28:14.260Z",
@@ -737,7 +869,9 @@
     "city": "Albuquerque",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:21:22.402Z",
+    "followup1MessageId": "<202604161621.65093633221@smtp-relay.mailin.fr>"
   },
   "raeann@nmsmilecenter.com": {
     "sentAt": "2026-04-14T15:28:19.924Z",
@@ -747,7 +881,9 @@
     "city": "Albuquerque",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:21:27.626Z",
+    "followup1MessageId": "<202604161621.55715101116@smtp-relay.mailin.fr>"
   },
   "hello@tempe-dental.com": {
     "sentAt": "2026-04-14T15:28:25.796Z",
@@ -757,7 +893,9 @@
     "city": "Tempe",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:21:32.841Z",
+    "followup1MessageId": "<202604161621.38415924521@smtp-relay.mailin.fr>"
   },
   "info@ahhdental.com": {
     "sentAt": "2026-04-14T15:28:31.819Z",
@@ -767,7 +905,9 @@
     "city": "Santa Fe",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:21:38.013Z",
+    "followup1MessageId": "<202604161621.39020589104@smtp-relay.mailin.fr>"
   },
   "saltlakedentaloffice@gmail.com": {
     "sentAt": "2026-04-14T15:28:37.484Z",
@@ -777,7 +917,9 @@
     "city": "Salt Lake City",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:21:43.176Z",
+    "followup1MessageId": "<202604161621.45632921542@smtp-relay.mailin.fr>"
   },
   "santafedentistry@mb2dental.com": {
     "sentAt": "2026-04-14T15:28:43.234Z",
@@ -787,7 +929,9 @@
     "city": "Santa Fe",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:21:48.347Z",
+    "followup1MessageId": "<202604161621.63291069242@smtp-relay.mailin.fr>"
   },
   "slcdentalcenter@gmail.com": {
     "sentAt": "2026-04-14T15:28:49.453Z",
@@ -797,7 +941,9 @@
     "city": "Salt Lake City",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:21:54.426Z",
+    "followup1MessageId": "<202604161621.23296276617@smtp-relay.mailin.fr>"
   },
   "kris@wm4d.com": {
     "sentAt": "2026-04-14T15:28:55.050Z",
@@ -807,7 +953,9 @@
     "city": "Salt Lake City",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:21:59.622Z",
+    "followup1MessageId": "<202604161621.33493874192@smtp-relay.mailin.fr>"
   },
   "gbwiest@gmail.com": {
     "sentAt": "2026-04-14T15:29:00.640Z",
@@ -817,7 +965,9 @@
     "city": "Provo",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:22:04.788Z",
+    "followup1MessageId": "<202604161622.50573744544@smtp-relay.mailin.fr>"
   },
   "citycreekdental@gmail.com": {
     "sentAt": "2026-04-14T15:29:06.378Z",
@@ -827,7 +977,9 @@
     "city": "Salt Lake City",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:22:09.928Z",
+    "followup1MessageId": "<202604161622.73172734952@smtp-relay.mailin.fr>"
   },
   "receptionist@provofamilydentistry.com": {
     "sentAt": "2026-04-14T15:29:12.065Z",
@@ -837,7 +989,9 @@
     "city": "Provo",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:22:15.091Z",
+    "followup1MessageId": "<202604161622.37996309492@smtp-relay.mailin.fr>"
   },
   "sugarhouse@platinumdentalservices.com": {
     "sentAt": "2026-04-14T15:29:17.714Z",
@@ -847,7 +1001,9 @@
     "city": "Salt Lake City",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:22:20.309Z",
+    "followup1MessageId": "<202604161622.59697576619@smtp-relay.mailin.fr>"
   },
   "hello@thedentalspa.com": {
     "sentAt": "2026-04-14T15:29:23.348Z",
@@ -857,7 +1013,9 @@
     "city": "Salt Lake City",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:22:25.475Z",
+    "followup1MessageId": "<202604161622.44410976764@smtp-relay.mailin.fr>"
   },
   "info@highlanddental.com": {
     "sentAt": "2026-04-14T15:29:29.129Z",
@@ -867,7 +1025,9 @@
     "city": "Salt Lake City",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:22:30.647Z",
+    "followup1MessageId": "<202604161622.23255550721@smtp-relay.mailin.fr>"
   },
   "office@downtowndentalprovo.com": {
     "sentAt": "2026-04-14T15:29:34.959Z",
@@ -877,7 +1037,9 @@
     "city": "Provo",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:22:35.881Z",
+    "followup1MessageId": "<202604161622.67324783140@smtp-relay.mailin.fr>"
   },
   "adcprovo@gmail.com": {
     "sentAt": "2026-04-14T15:29:40.535Z",
@@ -887,7 +1049,9 @@
     "city": "Provo",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:22:41.121Z",
+    "followup1MessageId": "<202604161622.92641058677@smtp-relay.mailin.fr>"
   },
   "info@mckellpackerdental.com": {
     "sentAt": "2026-04-14T15:29:46.157Z",
@@ -897,7 +1061,9 @@
     "city": "Provo",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:22:46.286Z",
+    "followup1MessageId": "<202604161622.20272674061@smtp-relay.mailin.fr>"
   },
   "ogden3@platinumdentalservices.com": {
     "sentAt": "2026-04-14T15:29:51.818Z",
@@ -907,7 +1073,9 @@
     "city": "Ogden",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:22:51.460Z",
+    "followup1MessageId": "<202604161622.32240709363@smtp-relay.mailin.fr>"
   },
   "moosedentistpdm@gmail.com": {
     "sentAt": "2026-04-14T15:29:57.478Z",
@@ -917,7 +1085,9 @@
     "city": "Pleasant View",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:22:56.616Z",
+    "followup1MessageId": "<202604161622.81774555681@smtp-relay.mailin.fr>"
   },
   "office@ssknight.com": {
     "sentAt": "2026-04-14T15:30:03.148Z",
@@ -927,7 +1097,9 @@
     "city": "Farr West",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:23:01.847Z",
+    "followup1MessageId": "<202604161623.28640410284@smtp-relay.mailin.fr>"
   },
   "pvdsc5742@gmail.com": {
     "sentAt": "2026-04-14T15:30:09.052Z",
@@ -937,7 +1109,9 @@
     "city": "Ogden",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:23:07.025Z",
+    "followup1MessageId": "<202604161623.25250906744@smtp-relay.mailin.fr>"
   },
   "info@questdental.com": {
     "sentAt": "2026-04-14T15:30:14.697Z",
@@ -947,7 +1121,9 @@
     "city": "Eugene",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:23:12.143Z",
+    "followup1MessageId": "<202604161623.69732669735@smtp-relay.mailin.fr>"
   },
   "office@eugenedentalgroup.com": {
     "sentAt": "2026-04-14T15:30:20.284Z",
@@ -957,7 +1133,9 @@
     "city": "Eugene",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:23:17.300Z",
+    "followup1MessageId": "<202604161623.34203395490@smtp-relay.mailin.fr>"
   },
   "office@eugenefamilydental.com": {
     "sentAt": "2026-04-14T15:30:25.988Z",
@@ -967,7 +1145,9 @@
     "city": "Eugene",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:23:22.504Z",
+    "followup1MessageId": "<202604161623.94756806881@smtp-relay.mailin.fr>"
   },
   "drmercedesdelvalle@gmail.com": {
     "sentAt": "2026-04-14T15:30:31.998Z",
@@ -977,7 +1157,9 @@
     "city": "Eugene",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:23:27.682Z",
+    "followup1MessageId": "<202604161623.56527331476@smtp-relay.mailin.fr>"
   },
   "eugenedentalassociates@mydentalmail.com": {
     "sentAt": "2026-04-14T15:30:37.561Z",
@@ -987,7 +1169,9 @@
     "city": "Eugene",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:23:32.849Z",
+    "followup1MessageId": "<202604161623.49279591029@smtp-relay.mailin.fr>"
   },
   "info@salemsmiles.com": {
     "sentAt": "2026-04-14T15:30:43.442Z",
@@ -997,7 +1181,9 @@
     "city": "Salem",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:23:38.071Z",
+    "followup1MessageId": "<202604161623.14068987101@smtp-relay.mailin.fr>"
   },
   "info@salemdentistry.net": {
     "sentAt": "2026-04-14T15:30:49.005Z",
@@ -1007,7 +1193,9 @@
     "city": "Salem",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:23:43.307Z",
+    "followup1MessageId": "<202604161623.98414378622@smtp-relay.mailin.fr>"
   },
   "help@arvory.com": {
     "sentAt": "2026-04-14T15:30:54.664Z",
@@ -1017,7 +1205,9 @@
     "city": "Salem",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:23:48.475Z",
+    "followup1MessageId": "<202604161623.12335682354@smtp-relay.mailin.fr>"
   },
   "torghele@yahoo.com": {
     "sentAt": "2026-04-14T15:31:00.314Z",
@@ -1027,7 +1217,9 @@
     "city": "Ogden",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:23:53.703Z",
+    "followup1MessageId": "<202604161623.41987405796@smtp-relay.mailin.fr>"
   },
   "office@willisdental.net": {
     "sentAt": "2026-04-14T15:31:05.960Z",
@@ -1037,7 +1229,9 @@
     "city": "Salem",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:23:58.878Z",
+    "followup1MessageId": "<202604161623.48526516522@smtp-relay.mailin.fr>"
   },
   "crownpointdentalcare@mydentalmail.com": {
     "sentAt": "2026-04-14T15:31:11.628Z",
@@ -1047,7 +1241,9 @@
     "city": "Salem",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:24:04.074Z",
+    "followup1MessageId": "<202604161624.94668027716@smtp-relay.mailin.fr>"
   },
   "485-6123emailinfo@mydentisteugene.comaddress": {
     "sentAt": "2026-04-14T15:31:17.204Z",
@@ -1057,7 +1253,9 @@
     "city": "Eugene",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:24:09.230Z",
+    "followup1MessageId": "<202604161624.15562977929@smtp-relay.mailin.fr>"
   },
   "info@ksfamilydentist.com": {
     "sentAt": "2026-04-14T15:31:22.999Z",
@@ -1067,7 +1265,9 @@
     "city": "Salem",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:24:14.404Z",
+    "followup1MessageId": "<202604161624.94079275160@smtp-relay.mailin.fr>"
   },
   "info@skylinedentalbend.com": {
     "sentAt": "2026-04-14T15:31:29.058Z",
@@ -1077,7 +1277,9 @@
     "city": "Bend",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:24:19.589Z",
+    "followup1MessageId": "<202604161624.64850136699@smtp-relay.mailin.fr>"
   },
   "mailbox@drgiruc.com": {
     "sentAt": "2026-04-14T15:31:34.973Z",
@@ -1087,7 +1289,9 @@
     "city": "Salem",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:24:24.796Z",
+    "followup1MessageId": "<202604161624.11144445513@smtp-relay.mailin.fr>"
   },
   "info@nwxdental.com": {
     "sentAt": "2026-04-14T15:31:40.603Z",
@@ -1097,7 +1301,9 @@
     "city": "Bend",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:24:29.975Z",
+    "followup1MessageId": "<202604161624.42860352776@smtp-relay.mailin.fr>"
   },
   "admin@millpointdental.com": {
     "sentAt": "2026-04-14T15:31:46.528Z",
@@ -1107,7 +1313,9 @@
     "city": "Bend",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:24:35.205Z",
+    "followup1MessageId": "<202604161624.93716124491@smtp-relay.mailin.fr>"
   },
   "info@cascadiafamilydental.com": {
     "sentAt": "2026-04-14T15:31:52.251Z",
@@ -1117,7 +1325,9 @@
     "city": "Bend",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:24:40.376Z",
+    "followup1MessageId": "<202604161624.57883213889@smtp-relay.mailin.fr>"
   },
   "info@tacomaadvanced.com": {
     "sentAt": "2026-04-14T15:31:57.868Z",
@@ -1127,7 +1337,9 @@
     "city": "Tacoma",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:24:45.545Z",
+    "followup1MessageId": "<202604161624.30687820008@smtp-relay.mailin.fr>"
   },
   "info@barrett-dental.com": {
     "sentAt": "2026-04-14T15:32:03.487Z",
@@ -1137,7 +1349,9 @@
     "city": "Tacoma",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:24:50.703Z",
+    "followup1MessageId": "<202604161624.13241316515@smtp-relay.mailin.fr>"
   },
   "info@benddentalwellness.com": {
     "sentAt": "2026-04-14T15:32:09.158Z",
@@ -1147,7 +1361,9 @@
     "city": "Bend",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:24:55.918Z",
+    "followup1MessageId": "<202604161624.72240782746@smtp-relay.mailin.fr>"
   },
   "tacomadentalgroup@gmail.com": {
     "sentAt": "2026-04-14T15:32:14.835Z",
@@ -1157,7 +1373,9 @@
     "city": "Tacoma",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:25:01.111Z",
+    "followup1MessageId": "<202604161625.30071451584@smtp-relay.mailin.fr>"
   },
   "frontdesk@thetacomadentist.com": {
     "sentAt": "2026-04-14T15:32:20.747Z",
@@ -1167,7 +1385,9 @@
     "city": "Tacoma",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:25:06.238Z",
+    "followup1MessageId": "<202604161625.94466890046@smtp-relay.mailin.fr>"
   },
   "reception@waterplacedental.com": {
     "sentAt": "2026-04-14T15:32:26.331Z",
@@ -1177,7 +1397,9 @@
     "city": "Salem",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:25:11.419Z",
+    "followup1MessageId": "<202604161625.59874990523@smtp-relay.mailin.fr>"
   },
   "info@accessdentaloly.com": {
     "sentAt": "2026-04-14T15:32:32.012Z",
@@ -1187,7 +1409,9 @@
     "city": "Olympia",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:25:16.596Z",
+    "followup1MessageId": "<202604161625.69758805709@smtp-relay.mailin.fr>"
   },
   "odc.1840@gmail.com": {
     "sentAt": "2026-04-14T15:32:37.656Z",
@@ -1197,7 +1421,9 @@
     "city": "Tumwater",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:25:21.837Z",
+    "followup1MessageId": "<202604161625.51392537884@smtp-relay.mailin.fr>"
   },
   "info@drwinterdentistry.com": {
     "sentAt": "2026-04-14T15:32:43.236Z",
@@ -1207,7 +1433,9 @@
     "city": "Olympia",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:25:27.053Z",
+    "followup1MessageId": "<202604161625.11340704094@smtp-relay.mailin.fr>"
   },
   "connect@bhamrd.com": {
     "sentAt": "2026-04-14T15:32:49.076Z",
@@ -1217,7 +1445,9 @@
     "city": "Bellingham",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:25:32.235Z",
+    "followup1MessageId": "<202604161625.64483559161@smtp-relay.mailin.fr>"
   },
   "info@bellinghambaydental.com": {
     "sentAt": "2026-04-14T15:32:55.090Z",
@@ -1227,7 +1457,9 @@
     "city": "Bellingham",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:25:37.451Z",
+    "followup1MessageId": "<202604161625.92509237413@smtp-relay.mailin.fr>"
   },
   "info@sagawanw.com": {
     "sentAt": "2026-04-14T15:33:00.735Z",
@@ -1237,7 +1469,9 @@
     "city": "Olympia",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:25:42.577Z",
+    "followup1MessageId": "<202604161625.31452656367@smtp-relay.mailin.fr>"
   },
   "front-desk@dorschfamilydental.com": {
     "sentAt": "2026-04-14T15:33:06.360Z",
@@ -1247,7 +1481,9 @@
     "city": "Bellingham",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:25:47.708Z",
+    "followup1MessageId": "<202604161625.44056998120@smtp-relay.mailin.fr>"
   },
   "drmcrory@northsidedentalcare.net": {
     "sentAt": "2026-04-14T15:33:11.996Z",
@@ -1257,7 +1493,9 @@
     "city": "Bellingham",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:25:52.877Z",
+    "followup1MessageId": "<202604161625.67653311727@smtp-relay.mailin.fr>"
   },
   "info@bellinghamfamilydentistry.com": {
     "sentAt": "2026-04-14T15:33:17.722Z",
@@ -1267,7 +1505,9 @@
     "city": "Bellingham",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:25:58.118Z",
+    "followup1MessageId": "<202604161625.22138484784@smtp-relay.mailin.fr>"
   },
   "info@localdentistbellingham.com": {
     "sentAt": "2026-04-14T15:33:23.293Z",
@@ -1277,7 +1517,9 @@
     "city": "Bellingham",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:26:03.283Z",
+    "followup1MessageId": "<202604161626.80889658122@smtp-relay.mailin.fr>"
   },
   "bhamoffice@cefamilydental.com": {
     "sentAt": "2026-04-14T15:33:28.852Z",
@@ -1287,7 +1529,9 @@
     "city": "Bellingham",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:26:08.430Z",
+    "followup1MessageId": "<202604161626.81347552616@smtp-relay.mailin.fr>"
   },
   "xxx@xxx.com": {
     "sentAt": "2026-04-14T15:33:34.525Z",
@@ -1297,7 +1541,9 @@
     "city": "Anchorage",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:26:13.598Z",
+    "followup1MessageId": "<202604161626.97565866632@smtp-relay.mailin.fr>"
   },
   "reception@creeksidewa.com": {
     "sentAt": "2026-04-14T15:33:40.133Z",
@@ -1307,7 +1553,9 @@
     "city": "Bellingham",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:26:18.811Z",
+    "followup1MessageId": "<202604161626.11819659297@smtp-relay.mailin.fr>"
   },
   "bvdental227@gmail.com": {
     "sentAt": "2026-04-14T15:33:45.714Z",
@@ -1317,7 +1565,9 @@
     "city": "Bellingham",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:26:24.048Z",
+    "followup1MessageId": "<202604161626.82742088938@smtp-relay.mailin.fr>"
   },
   "smiles@familyfirstdentistry.com": {
     "sentAt": "2026-04-14T15:33:51.289Z",
@@ -1327,7 +1577,9 @@
     "city": "Anchorage",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:26:29.211Z",
+    "followup1MessageId": "<202604161626.97187562519@smtp-relay.mailin.fr>"
   },
   "schedule@peakhealthdentistry.com": {
     "sentAt": "2026-04-14T15:33:56.934Z",
@@ -1337,7 +1589,9 @@
     "city": "Anchorage",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:26:34.341Z",
+    "followup1MessageId": "<202604161626.93737010278@smtp-relay.mailin.fr>"
   },
   "aksmilesdentist@gmail.com": {
     "sentAt": "2026-04-14T15:34:02.660Z",
@@ -1347,7 +1601,9 @@
     "city": "Anchorage",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:26:39.518Z",
+    "followup1MessageId": "<202604161626.33000434427@smtp-relay.mailin.fr>"
   },
   "honolulu@hawaiifamilydental.com": {
     "sentAt": "2026-04-14T15:34:08.443Z",
@@ -1357,7 +1613,9 @@
     "city": "Honolulu",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:26:45.197Z",
+    "followup1MessageId": "<202604161626.14204331250@smtp-relay.mailin.fr>"
   },
   "info@hawaiidentalsmiles.com": {
     "sentAt": "2026-04-14T15:34:14.111Z",
@@ -1367,7 +1625,9 @@
     "city": "Honolulu",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:26:50.365Z",
+    "followup1MessageId": "<202604161626.44330325348@smtp-relay.mailin.fr>"
   },
   "info@kaizendentalhawaii.com": {
     "sentAt": "2026-04-14T15:34:19.711Z",
@@ -1377,7 +1637,9 @@
     "city": "Honolulu",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:26:55.559Z",
+    "followup1MessageId": "<202604161626.85536925919@smtp-relay.mailin.fr>"
   },
   "barkley.dental@comcast.net": {
     "sentAt": "2026-04-14T15:34:25.347Z",
@@ -1387,7 +1649,9 @@
     "city": "Bellingham",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:27:00.732Z",
+    "followup1MessageId": "<202604161627.71230737636@smtp-relay.mailin.fr>"
   },
   "frontdesk@kaimukidentalgroup.com": {
     "sentAt": "2026-04-14T15:34:31.059Z",
@@ -1397,7 +1661,9 @@
     "city": "Honolulu",
     "country": "US",
     "hasBooking": true,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:27:05.914Z",
+    "followup1MessageId": "<202604161627.17920478112@smtp-relay.mailin.fr>"
   },
   "allstardentalimplant@gmail.com": {
     "sentAt": "2026-04-14T15:34:36.713Z",
@@ -1407,7 +1673,9 @@
     "city": "Honolulu",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:27:11.145Z",
+    "followup1MessageId": "<202604161627.87208969143@smtp-relay.mailin.fr>"
   },
   "alamoanadentistry@gmail.com": {
     "sentAt": "2026-04-14T15:34:42.306Z",
@@ -1417,7 +1685,9 @@
     "city": "Honolulu",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:27:16.371Z",
+    "followup1MessageId": "<202604161627.71113400747@smtp-relay.mailin.fr>"
   },
   "broadmoordental@mydentalmail.com": {
     "sentAt": "2026-04-14T15:58:03.406Z",
@@ -1427,7 +1697,9 @@
     "city": "Colorado Springs",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 2
+    "modernScore": 2,
+    "followup1SentAt": "2026-04-16T16:27:21.530Z",
+    "followup1MessageId": "<202604161627.88941712927@smtp-relay.mailin.fr>"
   },
   "frontdesk@bouldercanyondental.com": {
     "sentAt": "2026-04-14T15:58:10.445Z",
@@ -1437,7 +1709,9 @@
     "city": "Boulder",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:27:26.706Z",
+    "followup1MessageId": "<202604161627.71017260885@smtp-relay.mailin.fr>"
   },
   "info@ironwooddentalaz.com": {
     "sentAt": "2026-04-14T15:58:16.726Z",
@@ -1447,7 +1721,9 @@
     "city": "Tucson",
     "country": "US",
     "hasBooking": false,
-    "modernScore": 3
+    "modernScore": 3,
+    "followup1SentAt": "2026-04-16T16:27:31.885Z",
+    "followup1MessageId": "<202604161627.20121468528@smtp-relay.mailin.fr>"
   },
   "colorado@coloradodentalgroup.com": {
     "sentAt": "2026-04-14T18:01:22.330Z",
@@ -2703,663 +2979,13 @@
     "hasBooking": false,
     "modernScore": 3
   },
-  "adcmelbournedentist@gmail.com": {
-    "sentAt": "2026-04-16T06:16:31.239Z",
-    "messageId": "06e99301-378b-4915-84a6-1da668d7efca",
-    "company": "Australian Dentists Clinic",
-    "subject": "Quick chatbot idea for Australian Dentists Clinic",
-    "city": "Melbourne Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "info@happy-dentistry.com.au": {
-    "sentAt": "2026-04-16T06:17:05.181Z",
-    "messageId": "72135cb4-ea27-414d-9de0-4cada8d3f1d5",
-    "company": "Happy Dentistry",
-    "subject": "Happy Dentistry — missing chatbot?",
-    "city": "Melbourne Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "info@melbournedentist.com": {
-    "sentAt": "2026-04-16T06:17:39.685Z",
-    "messageId": "bd4bec65-cf09-43b4-867b-03d1887bf2a3",
-    "company": "Melbourne Dentist",
-    "subject": "Noticed something about Melbourne Dentist's site",
-    "city": "Melbourne Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "dentistmelbourneclinic@gmail.com": {
-    "sentAt": "2026-04-16T06:18:13.548Z",
-    "messageId": "4b8d8598-23f3-45a8-8f80-c229be2bb331",
-    "company": "Dentist Melbourne Clinic",
-    "subject": "Quick chatbot idea for Dentist Melbourne Clinic",
-    "city": "Melbourne Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "reception@orangedentist.com.au": {
-    "sentAt": "2026-04-16T06:18:54.663Z",
-    "messageId": "82b1fc2e-d1d6-454a-8ae6-ca266e25fbab",
-    "company": "Your Orange Dentist",
-    "subject": "Your Orange Dentist — missing chatbot?",
-    "city": "Orange Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "donelle.cowan@impressiondentalgroup.com.au": {
-    "sentAt": "2026-04-16T06:19:30.018Z",
-    "messageId": "750d5696-eff4-499d-9bbd-d05081ac6371",
-    "company": "Sale Street Dental | Dentist Clinic",
-    "subject": "Noticed something about Sale Street Dental's site",
-    "city": "Orange Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "info@ndiscovered.com": {
-    "sentAt": "2026-04-16T06:20:10.055Z",
-    "messageId": "e47676ff-d789-4e91-a95c-227b4fbadf40",
-    "company": "Dr James McMillan Dental Surgery",
-    "subject": "Quick chatbot idea for Dr James McMillan Dental",
-    "city": "Orange Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "adohc@csu.edu.au": {
-    "sentAt": "2026-04-16T06:20:49.217Z",
-    "messageId": "8198b1b7-c5c8-4abe-a48b-a35a0daf376b",
-    "company": "CSU Dental & Oral Health Clinic, Orange",
-    "subject": "CSU Dental & Oral — missing chatbot?",
-    "city": "Orange Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "info@a2zdental.com.au": {
-    "sentAt": "2026-04-16T06:21:29.602Z",
-    "messageId": "57b22f92-bbfc-4e7d-b837-6615e67f184f",
-    "company": "A2Z Dental - Dentist in Rockhampton",
-    "subject": "Noticed something about A2Z Dental's site",
-    "city": "Rockhampton Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "info@cqdental.com.au": {
-    "sentAt": "2026-04-16T06:22:01.747Z",
-    "messageId": "e130c9a5-1755-4f3d-ba19-47d5d5a747ce",
-    "company": "CQ Dental Studio | Dentist Rockhampton",
-    "subject": "Quick chatbot idea for CQ Dental Studio",
-    "city": "Rockhampton Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "admin@bolsoverdental.com.au": {
-    "sentAt": "2026-04-16T06:22:38.085Z",
-    "messageId": "99dd9c40-9cae-4f8c-bf56-6c84b099a6d0",
-    "company": "Bolsover Dental Practice",
-    "subject": "Bolsover Dental Practice — missing chatbot?",
-    "city": "Rockhampton Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "emerald@serenity-dental.com.au": {
-    "sentAt": "2026-04-16T06:23:15.742Z",
-    "messageId": "ee685e88-c61c-49b1-b436-de195d8c27fd",
-    "company": "Serenity Dental CQ - Rockhampton Dentist",
-    "subject": "Noticed something about Serenity Dental CQ's site",
-    "city": "Rockhampton Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "reception@faithdental.com.au": {
-    "sentAt": "2026-04-16T06:23:52.669Z",
-    "messageId": "0dbae157-0751-4691-8ae6-0fb14b7391b5",
-    "company": "Faith Dental",
-    "subject": "Quick chatbot idea for Faith Dental",
-    "city": "Rockhampton Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "rockhampton@1300smiles.com.au": {
-    "sentAt": "2026-04-16T06:24:31.620Z",
-    "messageId": "bd41c058-507e-45c2-975d-34085761232e",
-    "company": "1300SMILES Dentists Rockhampton",
-    "subject": "1300SMILES Dentists Rockhampton — missing chatbot?",
-    "city": "Rockhampton Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "connect@northrockydental.com.au": {
-    "sentAt": "2026-04-16T06:25:06.708Z",
-    "messageId": "d7882e2d-571c-4fe4-9bc6-81ad18021d49",
-    "company": "North Rocky Dental",
-    "subject": "Noticed something about North Rocky Dental's site",
-    "city": "Rockhampton Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "info@dilleendental.com.au": {
-    "sentAt": "2026-04-16T06:25:46.845Z",
-    "messageId": "6c6905aa-2aff-455a-9c66-bf68609e2a10",
-    "company": "Dilleen Dental Practice",
-    "subject": "Quick chatbot idea for Dilleen Dental Practice",
-    "city": "Rockhampton Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "hello@paramountdentalsydney.com.au": {
-    "sentAt": "2026-04-16T06:26:22.103Z",
-    "messageId": "0f36c4c1-704b-48f7-9da4-b96f6b3b84f3",
-    "company": "Paramount Dental Sydney",
-    "subject": "Paramount Dental Sydney — missing chatbot?",
-    "city": "Sydney Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "info@pittstdentalcentre.com.au": {
-    "sentAt": "2026-04-16T06:27:03.042Z",
-    "messageId": "870d7b55-574a-4333-82f0-cb61d151fa8d",
-    "company": "Pitt Street Dental Centre",
-    "subject": "Noticed something about Pitt Street Dental Centre's site",
-    "city": "Sydney Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "info@spadental.com.au": {
-    "sentAt": "2026-04-16T06:27:44.279Z",
-    "messageId": "32ffc92d-04f4-4d0a-82ab-912b0ea7c64a",
-    "company": "Spa Dental Sydney CBD",
-    "subject": "Quick chatbot idea for Spa Dental Sydney CBD",
-    "city": "Sydney Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "info@sydneycbddentistry.com.au": {
-    "sentAt": "2026-04-16T06:28:22.837Z",
-    "messageId": "6962fa0f-37e5-4507-9c76-61377769b3d1",
-    "company": "Sydney CBD Dentistry | Cosmetique Dental",
-    "subject": "Sydney CBD Dentistry — missing chatbot?",
-    "city": "Sydney Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "enquiries@dentalboutique.com.au": {
-    "sentAt": "2026-04-16T06:28:57.885Z",
-    "messageId": "eb0d71d7-92c9-4730-8e6e-3a0cffdfa525",
-    "company": "Dental Boutique Sydney",
-    "subject": "Noticed something about Dental Boutique Sydney's site",
-    "city": "Sydney Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "info@macquariedental.com.au": {
-    "sentAt": "2026-04-16T06:29:35.209Z",
-    "messageId": "d43545cf-08af-405a-ab88-c50afe7eff9b",
-    "company": "Macquarie Dental Sydney CBD",
-    "subject": "Quick chatbot idea for Macquarie Dental Sydney CBD",
-    "city": "Sydney Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "admin@bestdentist.com.au": {
-    "sentAt": "2026-04-16T06:30:15.073Z",
-    "messageId": "469140fb-783c-4ddd-a8f6-25b50224fbd3",
-    "company": "Dental Clinic @ World Tower",
-    "subject": "Dental Clinic World Tower — missing chatbot?",
-    "city": "Sydney Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "info@easttamworthdentalcare.com.au": {
-    "sentAt": "2026-04-16T06:30:56.688Z",
-    "messageId": "37d99498-6f34-4d91-8016-9e23348cc986",
-    "company": "East Tamworth Dental Care",
-    "subject": "Noticed something about East Tamworth Dental Care's site",
-    "city": "Tamworth Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "tamworthfd@gmail.com": {
-    "sentAt": "2026-04-16T06:31:28.599Z",
-    "messageId": "e07d8b31-a35a-43e0-9e4c-1763cac0d5b8",
-    "company": "Tamworth Family Dentists",
-    "subject": "Quick chatbot idea for Tamworth Family Dentists",
-    "city": "Tamworth Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "accounts@mvservices.com.au": {
-    "sentAt": "2026-04-16T06:32:09.740Z",
-    "messageId": "b04ebbb3-c478-450e-9439-f8e58a055471",
-    "company": "Tamworth Oral Health and Dental Care",
-    "subject": "Tamworth Oral Health and — missing chatbot?",
-    "city": "Tamworth Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "tamworthcompletedental@gmail.com": {
-    "sentAt": "2026-04-16T06:32:42.691Z",
-    "messageId": "1626e002-57ab-45e5-befa-fa6c804b3b78",
-    "company": "Tamworth Complete Dental",
-    "subject": "Noticed something about Tamworth Complete Dental's site",
-    "city": "Tamworth Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "reception@tamworthdental.com": {
-    "sentAt": "2026-04-16T06:33:17.274Z",
-    "messageId": "b3f23d4c-403d-48d3-80f2-30489852c6e3",
-    "company": "Your Tamworth Dentist",
-    "subject": "Quick chatbot idea for Your Tamworth Dentist",
-    "city": "Tamworth Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "reception@darlingdental.com.au": {
-    "sentAt": "2026-04-16T06:33:49.495Z",
-    "messageId": "63f1dc20-5812-49f1-b510-d02111ee1e44",
-    "company": "Darling Dental",
-    "subject": "Darling Dental — missing chatbot?",
-    "city": "Tamworth Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "admin@centrepointdental.com.au": {
-    "sentAt": "2026-04-16T06:34:21.964Z",
-    "messageId": "0a38c661-132f-47b8-bfb4-cbd4f139a7b8",
-    "company": "Centrepoint Dental Care | Tamworth Dentist",
-    "subject": "Noticed something about Centrepoint Dental Care's site",
-    "city": "Tamworth Australia",
-    "country": "AU",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 75
-  },
-  "info@ddscolumbia.com": {
-    "sentAt": "2026-04-16T15:18:56.303Z",
-    "messageId": "3e1aed5c-9d4a-4671-9fa5-c40aefed3e8e",
-    "company": "Davis & Miller General Dentistry",
-    "subject": "Quick chatbot idea for Davis & Miller General",
-    "city": "Columbia",
+  "kapusigergo14@gmail.com": {
+    "sentAt": "2026-04-13T20:23:25.074Z",
+    "messageId": "9c6f5bc0-fc11-42f7-b3d8-4907abdf5c7e",
+    "company": "Sunset Dental Care",
+    "subject": "Quick chatbot idea for Sunset Dental Care",
+    "city": "Test City",
     "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 3
-  },
-  "appointments@itooth.net": {
-    "sentAt": "2026-04-16T15:19:31.436Z",
-    "messageId": "8cc7d922-2588-4f58-9345-2470e62c43d3",
-    "company": "iTooth",
-    "subject": "iTooth — missing chatbot?",
-    "city": "Springfield",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 3
-  },
-  "zellerbaker@topekaoralsurgery.com": {
-    "sentAt": "2026-04-16T15:20:04.016Z",
-    "messageId": "fc58ce4a-bbd7-4d66-bcc5-b9345d6865ed",
-    "company": "Topeka Oral Surgery",
-    "subject": "Noticed something about Topeka Oral Surgery's site",
-    "city": "Topeka",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 3
-  },
-  "columbiacenterfordentistryllc@gmail.com": {
-    "sentAt": "2026-04-16T15:20:37.664Z",
-    "messageId": "536fcce0-6f6d-4357-9e29-aaaa19f6296a",
-    "company": "Columbia Center For Dentistry",
-    "subject": "Quick chatbot idea for Columbia Center For Dentistry",
-    "city": "Columbia",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 2
-  },
-  "info@columbiahealthysmiles.com": {
-    "sentAt": "2026-04-16T15:21:13.066Z",
-    "messageId": "12e390b4-c4a0-49d4-bd27-4e6a5e5c2d52",
-    "company": "Columbia Healthy Smiles",
-    "subject": "Columbia Healthy Smiles — missing chatbot?",
-    "city": "Columbia",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 3
-  },
-  "frontdesk@moxiedentalmo.com": {
-    "sentAt": "2026-04-16T15:21:51.834Z",
-    "messageId": "eb74e273-d0c9-4fcf-bca2-2e373ebab266",
-    "company": "Moxie Dental",
-    "subject": "Noticed something about Moxie Dental's site",
-    "city": "Columbia",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 3
-  },
-  "info@chasepattondds.com": {
-    "sentAt": "2026-04-16T15:22:29.298Z",
-    "messageId": "04d4927d-d8b3-47f9-85d0-44bce9880465",
-    "company": "Chase Patton, D.D.S.",
-    "subject": "Quick chatbot idea for Chase Patton D.D.S.",
-    "city": "Columbia",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 3
-  },
-  "info@columbiafamilydentalmo.com": {
-    "sentAt": "2026-04-16T15:23:05.256Z",
-    "messageId": "a1b8b687-5135-4afc-afd0-ed8edfbe6640",
-    "company": "Columbia Family Dental",
-    "subject": "Columbia Family Dental — missing chatbot?",
-    "city": "Columbia",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 3
-  },
-  "plazadentalgroup@toothemail.com": {
-    "sentAt": "2026-04-16T15:23:40.305Z",
-    "messageId": "0a7b8f96-2f02-43e6-a4d8-e8c026039ecc",
-    "company": "Plaza Dental Group",
-    "subject": "Noticed something about Plaza Dental Group's site",
-    "city": "Columbia",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 3
-  },
-  "drshull@bcfdental.com": {
-    "sentAt": "2026-04-16T15:24:14.766Z",
-    "messageId": "2dcea74a-23b0-4693-9645-d61c5a33d1a4",
-    "company": "Bear Creek Family Dental",
-    "subject": "Quick chatbot idea for Bear Creek Family Dental",
-    "city": "Columbia",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 2
-  },
-  "smile@jonesfamilydental.com": {
-    "sentAt": "2026-04-16T15:24:55.492Z",
-    "messageId": "d5cd11c0-55c5-4cdd-8dbb-82f65330e833",
-    "company": "Kevin G. Jones, DDS",
-    "subject": "Kevin G. Jones DDS — missing chatbot?",
-    "city": "Little Rock",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": true,
-    "modernScore": 3
-  },
-  "info@32dentalurgent.com": {
-    "sentAt": "2026-04-16T15:25:30.563Z",
-    "messageId": "e9515893-cadb-464b-8d97-9380c9b64794",
-    "company": "32 Dental Urgent Care",
-    "subject": "Noticed something about 32 Dental Urgent Care's site",
-    "city": "Columbia",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 2
-  },
-  "kiferdental@nwafamilydentist.com": {
-    "sentAt": "2026-04-16T15:26:06.107Z",
-    "messageId": "51cd4478-cbcb-4beb-bce6-04442604195e",
-    "company": "Northwest Arkansas Family Dental",
-    "subject": "Quick chatbot idea for Northwest Arkansas Family Dental",
-    "city": "Fayetteville",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 3
-  },
-  "fayetteville@riverdentalar.com": {
-    "sentAt": "2026-04-16T15:26:40.578Z",
-    "messageId": "10c83e8a-0d40-4100-b325-302df6706707",
-    "company": "River Dental",
-    "subject": "River Dental — missing chatbot?",
-    "city": "Fayetteville",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 3
-  },
-  "info@sequoyahdental.com": {
-    "sentAt": "2026-04-16T15:27:18.414Z",
-    "messageId": "61e59584-fcd6-4151-9439-41db0b201ac5",
-    "company": "Sequoyah Dental",
-    "subject": "Noticed something about Sequoyah Dental's site",
-    "city": "Fayetteville",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": true,
-    "modernScore": 3
-  },
-  "info@fishdentistry.com": {
-    "sentAt": "2026-04-16T15:27:59.291Z",
-    "messageId": "2abe08f0-8ddf-4d3e-909f-ff260c025942",
-    "company": "Fish Family Dentistry",
-    "subject": "Quick chatbot idea for Fish Family Dentistry",
-    "city": "Fayetteville",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 2
-  },
-  "office@bbdentistry.com": {
-    "sentAt": "2026-04-16T15:28:31.664Z",
-    "messageId": "532c53a6-2a91-4073-b7e8-5b2e12d457e4",
-    "company": "Beavers & Broomfield Family Dentistry",
-    "subject": "Beavers & Broomfield Family — missing chatbot?",
-    "city": "Fayetteville",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 3
-  },
-  "kelliebarnesdds@yahoo.com": {
-    "sentAt": "2026-04-16T15:29:11.147Z",
-    "messageId": "b63e0399-aa2e-46f3-87f4-4207827bbe82",
-    "company": "Barnes Family Dental",
-    "subject": "Noticed something about Barnes Family Dental's site",
-    "city": "Fayetteville",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 3
-  },
-  "info@ddclr.com": {
-    "sentAt": "2026-04-16T15:29:43.975Z",
-    "messageId": "827d96a5-6c99-42fd-aa94-a9698b1bc13e",
-    "company": "Downtown Dental Care",
-    "subject": "Quick chatbot idea for Downtown Dental Care",
-    "city": "Little Rock",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 3
-  },
-  "contact@mississippismilesdentistry.com": {
-    "sentAt": "2026-04-16T15:30:19.210Z",
-    "messageId": "48b857ff-2a28-4937-87dc-6b0b8230ad74",
-    "company": "Mississippi Smiles Dentistry",
-    "subject": "Mississippi Smiles Dentistry — missing chatbot?",
-    "city": "Jackson",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 3
-  },
-  "contactsunnybrook@sunnybrookdentistry.com": {
-    "sentAt": "2026-04-16T15:30:55.157Z",
-    "messageId": "feff3470-282f-4acd-b902-30480a80d092",
-    "company": "Sunnybrook Dentistry & Braces",
-    "subject": "Noticed something about Sunnybrook Dentistry & Braces's site",
-    "city": "Jackson",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": true,
-    "modernScore": 3
-  },
-  "eastover@garnerdental.net": {
-    "sentAt": "2026-04-16T15:31:28.268Z",
-    "messageId": "be3a57ef-1af3-44dc-8fac-3815d0186a80",
-    "company": "Eastover Dental of Jackson",
-    "subject": "Quick chatbot idea for Eastover Dental of Jackson",
-    "city": "Jackson",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 3
-  },
-  "team@latofonts.com": {
-    "sentAt": "2026-04-16T15:32:02.452Z",
-    "messageId": "d9a7bdee-2aeb-476a-bae5-3c3a9c1f5243",
-    "company": "Jones Family Dentistry",
-    "subject": "Jones Family Dentistry — missing chatbot?",
-    "city": "Jackson",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 2
-  },
-  "chboykin@hotmail.com": {
-    "sentAt": "2026-04-16T15:32:38.877Z",
-    "messageId": "d21ce22e-a6b7-4c46-b4c1-72580a7c7064",
-    "company": "Dr. Carl H. Boykin, DDS",
-    "subject": "Noticed something about Dr. Carl H. Boykin's site",
-    "city": "Jackson",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": true,
-    "modernScore": 2
-  },
-  "info@capitaldentalinc.com": {
-    "sentAt": "2026-04-16T15:33:14.918Z",
-    "messageId": "d47c519a-3522-4dc6-9d0c-a14e9ad1df1e",
-    "company": "Capital Dental, Inc | Dr. Will Umphlett",
-    "subject": "Quick chatbot idea for Capital Dental Inc",
-    "city": "Jackson",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 3
-  },
-  "beachview@garnerdental.net": {
-    "sentAt": "2026-04-16T15:33:54.849Z",
-    "messageId": "33e7f1e2-e54c-433d-962a-7970a07db7aa",
-    "company": "Beach View Family Dental of Gulfport",
-    "subject": "Beach View Family Dental — missing chatbot?",
-    "city": "Gulfport",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 3
-  },
-  "lakelandfamilydentistry207@gmail.com": {
-    "sentAt": "2026-04-16T15:34:29.192Z",
-    "messageId": "913a74d1-6222-4e04-8ca6-445c2e5524a6",
-    "company": "Lakeland Family Dentistry",
-    "subject": "Noticed something about Lakeland Family Dentistry's site",
-    "city": "Flowood",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": true,
-    "modernScore": 3
-  },
-  "contact@smsmiles.com": {
-    "sentAt": "2026-04-16T15:35:07.175Z",
-    "messageId": "db1bc45a-79be-49ea-a190-2d9fcec97767",
-    "company": "South Mississippi Smiles - Gulfport",
-    "subject": "Quick chatbot idea for South Mississippi Smiles",
-    "city": "Gulfport",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 3
-  },
-  "ewheel@bellsouth.net": {
-    "sentAt": "2026-04-16T15:35:43.511Z",
-    "messageId": "a0e2df67-7a4b-4e1b-a4d4-7719a37e75e8",
-    "company": "Wheeler Family Dentistry",
-    "subject": "Wheeler Family Dentistry — missing chatbot?",
-    "city": "Gulfport",
-    "country": "US",
-    "lang": "en",
-    "hasBooking": false,
-    "modernScore": 3
-  },
-  "smileteam@smilegulfcoast.com": {
-    "sentAt": "2026-04-16T15:36:17.835Z",
-    "messageId": "42e0c43b-cf09-4d40-a2ab-4bc0d4fd904b",
-    "company": "Smile Gulf Coast",
-    "subject": "Noticed something about Smile Gulf Coast's site",
-    "city": "Gulfport",
-    "country": "US",
-    "lang": "en",
     "hasBooking": false,
     "modernScore": 3
   }

@@ -87,7 +87,7 @@ jobs:
 
       - name: Send daily batch (spread + per-send commit)
         env:
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
         run: |
           MARKETS="${{ github.event.inputs.markets || 'US,UK,AU' }}"
           LIMIT="${{ github.event.inputs.limit || '30' }}"

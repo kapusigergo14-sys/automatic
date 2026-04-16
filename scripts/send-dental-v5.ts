@@ -28,10 +28,10 @@ import type { LangCode } from './markets';
 
 dotenv.config({ path: path.resolve(__dirname, '../.env.local') });
 
-const RESEND_API_KEY = process.env.RESEND_API_KEY || '';
+const BREVO_API_KEY = process.env.BREVO_API_KEY || '';
 
-if (!RESEND_API_KEY) {
-  console.error('❌ Missing RESEND_API_KEY env var');
+if (!BREVO_API_KEY) {
+  console.error('❌ Missing BREVO_API_KEY env var');
   process.exit(1);
 }
 
@@ -146,29 +146,25 @@ function cleanName(name: string): string {
 
 // (Subject + body now come from email-bodies.ts via pickSubject/buildBody imports)
 
-// ── Send via Resend ──
+// ── Send via Brevo ──
 async function sendEmail(
   to: string,
   subject: string,
-  html: string,
-  pdfBase64: string,
-  pdfFilename: string
+  html: string
 ): Promise<{ ok: boolean; id?: string; error?: string }> {
   try {
-    const res = await fetch('https://api.resend.com/emails', {
+    const res = await fetch('https://api.brevo.com/v3/smtp/email', {
       method: 'POST',
       headers: {
-        'Authorization': `Bearer ${RESEND_API_KEY}`,
+        'api-key': BREVO_API_KEY,
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'Geri <geri@smartflowdev.com>',
-        reply_to: 'kapusicsgo@gmail.com',
-        to: [to],
+        sender: { name: 'Geri', email: 'geri@smartflowdev.com' },
+        to: [{ email: to }],
+        replyTo: { email: 'kapusicsgo@gmail.com' },
         subject,
-        html,
-        // No PDF attachment — improves deliverability. PDF only sent
-        // manually when a lead replies asking for the proposal.
+        htmlContent: html,
       }),
     });
     if (!res.ok) {
@@ -176,7 +172,7 @@ async function sendEmail(
       return { ok: false, error: `HTTP ${res.status}: ${errText.slice(0, 200)}` };
     }
     const data = await res.json() as any;
-    return { ok: true, id: data?.id };
+    return { ok: true, id: data?.messageId };
   } catch (err: any) {
     return { ok: false, error: err.message || String(err) };
   }
@@ -289,7 +285,7 @@ async function main() {
       continue;
     }
 
-    const result = await sendEmail(lead.email, subject, body, pdf.base64, pdfFilename);
+    const result = await sendEmail(lead.email, subject, body);
 
     if (result.ok) {
       v5State[emailLower] = {
