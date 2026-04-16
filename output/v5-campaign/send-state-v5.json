@@ -2746,5 +2746,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "reception@orangedentist.com.au": {
+    "sentAt": "2026-04-16T06:18:54.663Z",
+    "messageId": "82b1fc2e-d1d6-454a-8ae6-ca266e25fbab",
+    "company": "Your Orange Dentist",
+    "subject": "Your Orange Dentist — missing chatbot?",
+    "city": "Orange Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
