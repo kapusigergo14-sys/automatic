@@ -4055,5 +4055,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "office@westgatefamilydental.com": {
+    "sentAt": "2026-04-16T20:17:50.028Z",
+    "messageId": "<202604162017.79831945495@smtp-relay.mailin.fr>",
+    "company": "Westgate Family Dental",
+    "subject": "Honest question about Westgate Family Dental's website",
+    "city": "Toledo",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
