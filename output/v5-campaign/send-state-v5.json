@@ -3604,5 +3604,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "contacttaylor@taylordentalgroup.com": {
+    "sentAt": "2026-04-16T18:13:39.849Z",
+    "messageId": "<202604161813.10637391796@smtp-relay.mailin.fr>",
+    "company": "Taylor Dental",
+    "subject": "Noticed something about Taylor Dental's site",
+    "city": "Lafayette",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
