@@ -3054,5 +3054,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@chasepattondds.com": {
+    "sentAt": "2026-04-16T17:43:31.389Z",
+    "messageId": "<202604161743.68834674420@smtp-relay.mailin.fr>",
+    "company": "Chase Patton, D.D.S.",
+    "subject": "Quick chatbot idea for Chase Patton D.D.S.",
+    "city": "Columbia",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
