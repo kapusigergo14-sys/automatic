@@ -3032,5 +3032,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@columbiahealthysmiles.com": {
+    "sentAt": "2026-04-16T17:42:22.386Z",
+    "messageId": "<202604161742.82977775105@smtp-relay.mailin.fr>",
+    "company": "Columbia Healthy Smiles",
+    "subject": "Columbia Healthy Smiles — missing chatbot?",
+    "city": "Columbia",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
