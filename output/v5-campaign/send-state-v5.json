@@ -3659,5 +3659,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "collegefamilydentistry@gmail.com": {
+    "sentAt": "2026-04-16T18:16:55.350Z",
+    "messageId": "<202604161816.96347166139@smtp-relay.mailin.fr>",
+    "company": "College Family Dentistry",
+    "subject": "College Family Dentistry — missing chatbot?",
+    "city": "Baton Rouge",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
