@@ -3175,5 +3175,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "kelliebarnesdds@yahoo.com": {
+    "sentAt": "2026-04-16T17:50:03.572Z",
+    "messageId": "<202604161750.87758911934@smtp-relay.mailin.fr>",
+    "company": "Barnes Family Dental",
+    "subject": "Noticed something about Barnes Family Dental's site",
+    "city": "Fayetteville",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
