@@ -4275,5 +4275,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "risleydmd@gmail.com": {
+    "sentAt": "2026-04-16T20:19:56.179Z",
+    "messageId": "<202604162019.88703171039@smtp-relay.mailin.fr>",
+    "company": "Risley Dental",
+    "subject": "Risley Dental — what happens when someone visits your site at 11pm?",
+    "city": "Allentown",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
