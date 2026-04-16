@@ -3615,5 +3615,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@sammonsdds.com": {
+    "sentAt": "2026-04-16T18:14:19.294Z",
+    "messageId": "<202604161814.32510102316@smtp-relay.mailin.fr>",
+    "company": "Dental Artistry",
+    "subject": "Quick chatbot idea for Dental Artistry",
+    "city": "Lafayette",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
