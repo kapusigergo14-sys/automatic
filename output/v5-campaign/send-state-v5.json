@@ -3692,5 +3692,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@broadmoorfamilydental.org": {
+    "sentAt": "2026-04-16T18:18:47.300Z",
+    "messageId": "<202604161818.34129808200@smtp-relay.mailin.fr>",
+    "company": "Broadmoor Family Dental Care",
+    "subject": "Broadmoor Family Dental Care — missing chatbot?",
+    "city": "Shreveport",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
