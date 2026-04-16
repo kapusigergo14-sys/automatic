@@ -3043,5 +3043,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "frontdesk@moxiedentalmo.com": {
+    "sentAt": "2026-04-16T17:42:55.818Z",
+    "messageId": "<202604161742.74698940369@smtp-relay.mailin.fr>",
+    "company": "Moxie Dental",
+    "subject": "Noticed something about Moxie Dental's site",
+    "city": "Columbia",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
