@@ -3010,5 +3010,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "reception@darlingdental.com.au": {
+    "sentAt": "2026-04-16T06:33:49.495Z",
+    "messageId": "63f1dc20-5812-49f1-b510-d02111ee1e44",
+    "company": "Darling Dental",
+    "subject": "Darling Dental — missing chatbot?",
+    "city": "Tamworth Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
