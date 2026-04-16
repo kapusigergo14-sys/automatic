@@ -3131,5 +3131,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "drshull@bcfdental.com": {
+    "sentAt": "2026-04-16T15:24:14.766Z",
+    "messageId": "2dcea74a-23b0-4693-9645-d61c5a33d1a4",
+    "company": "Bear Creek Family Dental",
+    "subject": "Quick chatbot idea for Bear Creek Family Dental",
+    "city": "Columbia",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
