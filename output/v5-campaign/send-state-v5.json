@@ -3989,5 +3989,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "rahndental@mydentalmail.com": {
+    "sentAt": "2026-04-16T20:17:12.045Z",
+    "messageId": "<202604162017.63688455973@smtp-relay.mailin.fr>",
+    "company": "Rahn Dental",
+    "subject": "Honest question about Rahn Dental's website",
+    "city": "Dayton",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
