@@ -2812,5 +2812,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "admin@bolsoverdental.com.au": {
+    "sentAt": "2026-04-16T06:22:38.085Z",
+    "messageId": "99dd9c40-9cae-4f8c-bf56-6c84b099a6d0",
+    "company": "Bolsover Dental Practice",
+    "subject": "Bolsover Dental Practice — missing chatbot?",
+    "city": "Rockhampton Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
