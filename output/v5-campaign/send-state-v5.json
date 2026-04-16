@@ -2922,5 +2922,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "enquiries@dentalboutique.com.au": {
+    "sentAt": "2026-04-16T06:28:57.885Z",
+    "messageId": "eb0d71d7-92c9-4730-8e6e-3a0cffdfa525",
+    "company": "Dental Boutique Sydney",
+    "subject": "Noticed something about Dental Boutique Sydney's site",
+    "city": "Sydney Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
