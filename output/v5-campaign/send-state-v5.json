@@ -2966,5 +2966,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "tamworthfd@gmail.com": {
+    "sentAt": "2026-04-16T06:31:28.599Z",
+    "messageId": "e07d8b31-a35a-43e0-9e4c-1763cac0d5b8",
+    "company": "Tamworth Family Dentists",
+    "subject": "Quick chatbot idea for Tamworth Family Dentists",
+    "city": "Tamworth Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
