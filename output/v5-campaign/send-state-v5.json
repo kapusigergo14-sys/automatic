@@ -3274,5 +3274,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "team@latofonts.com": {
+    "sentAt": "2026-04-16T15:32:02.452Z",
+    "messageId": "d9a7bdee-2aeb-476a-bae5-3c3a9c1f5243",
+    "company": "Jones Family Dentistry",
+    "subject": "Jones Family Dentistry — missing chatbot?",
+    "city": "Jackson",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
