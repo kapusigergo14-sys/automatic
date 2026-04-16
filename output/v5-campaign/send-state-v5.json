@@ -3703,5 +3703,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@superiordentistry.com": {
+    "sentAt": "2026-04-16T18:19:21.924Z",
+    "messageId": "<202604161819.94340047181@smtp-relay.mailin.fr>",
+    "company": "Superior Dentistry",
+    "subject": "Noticed something about Superior Dentistry's site",
+    "city": "Shreveport",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
