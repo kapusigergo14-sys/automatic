@@ -334,6 +334,13 @@ async function main() {
     }
   }
 
+  // Remove sent leads from pool to prevent duplication
+  if (sent > 0 && !dryRun) {
+    const remaining = allLeads.filter((l) => !skipEmails.has(l.email.toLowerCase()));
+    fs.writeFileSync(LEADS_FILE, JSON.stringify(remaining, null, 2));
+    console.log(`\n🗑️  Pool cleaned: ${allLeads.length} → ${remaining.length} leads (${allLeads.length - remaining.length} removed)`);
+  }
+
   console.log('╔═══════════════════════════════════════════════════════════════╗');
   console.log('║  DENTAL v5 SEND COMPLETE                                      ║');
   console.log('╚═══════════════════════════════════════════════════════════════╝');
