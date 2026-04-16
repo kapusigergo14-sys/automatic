@@ -3637,5 +3637,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "vintagedental@lusfiber.net": {
+    "sentAt": "2026-04-16T18:15:37.694Z",
+    "messageId": "<202604161815.38370687250@smtp-relay.mailin.fr>",
+    "company": "Vintage Dental",
+    "subject": "Noticed something about Vintage Dental's site",
+    "city": "Lafayette",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
