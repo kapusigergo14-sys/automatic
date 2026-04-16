@@ -4374,5 +4374,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@cornerstonedentalny.com": {
+    "sentAt": "2026-04-16T20:20:54.291Z",
+    "messageId": "<202604162020.38409500960@smtp-relay.mailin.fr>",
+    "company": "Cornerstone Dental, LLP",
+    "subject": "Cornerstone Dental LLP — what happens when someone visits your site at 11pm?",
+    "city": "Rochester",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
