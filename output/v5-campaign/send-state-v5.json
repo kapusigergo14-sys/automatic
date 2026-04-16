@@ -3296,5 +3296,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "ewheel@bellsouth.net": {
+    "sentAt": "2026-04-16T17:56:55.073Z",
+    "messageId": "<202604161756.96033600862@smtp-relay.mailin.fr>",
+    "company": "Wheeler Family Dentistry",
+    "subject": "Wheeler Family Dentistry — missing chatbot?",
+    "city": "Gulfport",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
