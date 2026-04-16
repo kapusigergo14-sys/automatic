@@ -3956,5 +3956,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "vanburendental@woh.rr.com": {
+    "sentAt": "2026-04-16T20:16:53.189Z",
+    "messageId": "<202604162016.65614487249@smtp-relay.mailin.fr>",
+    "company": "Van Buren Dental",
+    "subject": "Honest question about Van Buren Dental's website",
+    "city": "Kettering",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
