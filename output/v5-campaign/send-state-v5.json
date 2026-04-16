@@ -3802,5 +3802,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "tristate@tristatefamilydental.com": {
+    "sentAt": "2026-04-16T18:24:54.146Z",
+    "messageId": "<202604161824.63296913118@smtp-relay.mailin.fr>",
+    "company": "Tri-State Family Dental Centers",
+    "subject": "Noticed something about Tri's site",
+    "city": "Evansville",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
