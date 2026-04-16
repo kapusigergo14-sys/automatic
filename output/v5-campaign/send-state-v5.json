@@ -3219,5 +3219,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "eastover@garnerdental.net": {
+    "sentAt": "2026-04-16T17:52:33.097Z",
+    "messageId": "<202604161752.70904420190@smtp-relay.mailin.fr>",
+    "company": "Eastover Dental of Jackson",
+    "subject": "Quick chatbot idea for Eastover Dental of Jackson",
+    "city": "Jackson",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
