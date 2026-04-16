@@ -3527,5 +3527,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "frontdesk@walnutgrovedentalgroup.com": {
+    "sentAt": "2026-04-16T18:09:31.078Z",
+    "messageId": "<202604161809.77393725997@smtp-relay.mailin.fr>",
+    "company": "Walnut Grove Dental Group",
+    "subject": "Walnut Grove Dental Group — missing chatbot?",
+    "city": "Memphis",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
