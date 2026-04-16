@@ -4088,5 +4088,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "oakopenings@mydentalmail.com": {
+    "sentAt": "2026-04-16T20:18:09.124Z",
+    "messageId": "<202604162018.22927014616@smtp-relay.mailin.fr>",
+    "company": "Oak Openings Dental",
+    "subject": "Honest question about Oak Openings Dental's website",
+    "city": "Toledo",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
