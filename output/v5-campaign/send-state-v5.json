@@ -3021,5 +3021,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "columbiacenterfordentistryllc@gmail.com": {
+    "sentAt": "2026-04-16T17:41:42.072Z",
+    "messageId": "<202604161741.85630160467@smtp-relay.mailin.fr>",
+    "company": "Columbia Center For Dentistry",
+    "subject": "Quick chatbot idea for Columbia Center For Dentistry",
+    "city": "Columbia",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
