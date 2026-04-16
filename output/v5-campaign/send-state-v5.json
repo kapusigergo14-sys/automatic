@@ -2944,5 +2944,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "admin@bestdentist.com.au": {
+    "sentAt": "2026-04-16T06:30:15.073Z",
+    "messageId": "469140fb-783c-4ddd-a8f6-25b50224fbd3",
+    "company": "Dental Clinic @ World Tower",
+    "subject": "Dental Clinic World Tower — missing chatbot?",
+    "city": "Sydney Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
