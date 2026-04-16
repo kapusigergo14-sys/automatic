@@ -3571,5 +3571,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "midtown@garnerdental.net": {
+    "sentAt": "2026-04-16T18:11:53.071Z",
+    "messageId": "<202604161811.61825276052@smtp-relay.mailin.fr>",
+    "company": "Midtown Dental Studio of Mobile",
+    "subject": "Noticed something about Midtown Dental Studio of's site",
+    "city": "Mobile",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
