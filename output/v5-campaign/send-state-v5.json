@@ -3362,5 +3362,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@birminghamfamilydental.comor": {
+    "sentAt": "2026-04-16T18:00:43.103Z",
+    "messageId": "<202604161800.69856354919@smtp-relay.mailin.fr>",
+    "company": "Birmingham Family Dental Services",
+    "subject": "Birmingham Family Dental Services — missing chatbot?",
+    "city": "Birmingham",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
