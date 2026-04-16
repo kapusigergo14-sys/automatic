@@ -3329,5 +3329,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "zimmermandds@live.com": {
+    "sentAt": "2026-04-16T17:58:48.008Z",
+    "messageId": "<202604161758.74481240130@smtp-relay.mailin.fr>",
+    "company": "Zimmerman Family Dentistry",
+    "subject": "Zimmerman Family Dentistry — missing chatbot?",
+    "city": "Gulfport",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
