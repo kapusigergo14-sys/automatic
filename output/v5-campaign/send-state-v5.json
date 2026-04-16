@@ -2834,5 +2834,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "reception@faithdental.com.au": {
+    "sentAt": "2026-04-16T06:23:52.669Z",
+    "messageId": "0dbae157-0751-4691-8ae6-0fb14b7391b5",
+    "company": "Faith Dental",
+    "subject": "Quick chatbot idea for Faith Dental",
+    "city": "Rockhampton Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
