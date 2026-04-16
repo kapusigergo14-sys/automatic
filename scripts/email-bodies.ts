@@ -23,25 +23,27 @@ function escHtml(s: string): string {
 // ─── English ─────────────────────────────────────────────
 
 const EN_SUBJECTS = [
-  (c: string) => `Quick chatbot idea for ${c}`,
-  (c: string) => `${c} — missing chatbot?`,
-  (c: string) => `Noticed something about ${c}'s site`,
+  (c: string) => `You're losing patients after 5pm, ${c}`,
+  (c: string) => `${c} — what happens when someone visits your site at 11pm?`,
+  (c: string) => `Honest question about ${c}'s website`,
 ];
 
 const EN_BODY = (companyRaw: string): string => {
   const c = escHtml(companyRaw);
-  return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:560px;margin:0 auto;color:#2b2b2b;line-height:1.6;font-size:15px">
-<p style="margin:0 0 14px 0">Hi ${c} team,</p>
+  return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:560px;margin:0 auto;color:#2b2b2b;line-height:1.65;font-size:15px">
+<p style="margin:0 0 14px 0">Hey ${c},</p>
 
-<p style="margin:0 0 14px 0">Geri here &mdash; I build AI chatbots for dental practices.</p>
+<p style="margin:0 0 14px 0">Quick one: I checked your site and you don't have a chatbot yet. That means every patient who visits after 5pm &mdash; and there are more than you'd think &mdash; hits a wall. No way to ask about insurance, availability, or pricing. They bounce, Google the next practice, and you never know they existed.</p>
 
-<p style="margin:0 0 14px 0">Your site actually looks solid, but there's no chatbot yet &mdash; which is probably costing you a few patients a month in after-hours inquiries.</p>
+<p style="margin:0 0 14px 0">I build AI chatbots specifically for dental practices. It answers patient questions 24/7, books appointments through conversation, and sounds like your front desk &mdash; not a robot.</p>
 
-<p style="margin:0 0 14px 0">I can install a branded one on your site in <strong>48 hours</strong>, everything included. Reply and I'll send over a short proposal with pricing and examples.</p>
+<p style="margin:0 0 14px 0">Live on your site in <strong>5 days</strong>. Flat pricing, no monthly surprises.</p>
 
-<p style="margin:0 0 14px 0">If it's interesting, just reply. If not, no worries &mdash; delete this and I'll stop reaching out.</p>
+<p style="margin:0 0 14px 0">Want to see how it works? Reply <strong>&ldquo;show me&rdquo;</strong> and I'll send a 2-minute video of a real dental chatbot in action.</p>
 
-<p style="margin:0 0 18px 0">Cheers,<br><strong>Geri</strong> &middot; <a href="https://smartflowdev.com" style="color:#6366F1;text-decoration:none">smartflowdev.com</a> &middot; <a href="https://smartflowdev.com/chatbot" style="color:#6366F1;text-decoration:none">See how the chatbot works</a></p>
+<p style="margin:0 0 18px 0">&mdash; Geri<br><a href="https://smartflowdev.com" style="color:#6366F1;text-decoration:none">smartflowdev.com</a> &middot; <a href="https://smartflowdev.com/chatbot" style="color:#6366F1;text-decoration:none">See how the chatbot works</a></p>
+
+<p style="margin:0 0 6px 0;padding-top:14px;border-top:1px solid #e5e7eb;color:#6b7280;font-size:13.5px;line-height:1.6"><strong style="color:#6366F1">PS.</strong> The chatbot pays for itself after 2-3 new patients it catches after hours. Most practices see that within the first month.</p>
 </div>`;
 };
 
