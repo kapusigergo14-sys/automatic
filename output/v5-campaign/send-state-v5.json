@@ -3153,5 +3153,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@fishdentistry.com": {
+    "sentAt": "2026-04-16T17:48:54.726Z",
+    "messageId": "<202604161748.29069697848@smtp-relay.mailin.fr>",
+    "company": "Fish Family Dentistry",
+    "subject": "Quick chatbot idea for Fish Family Dentistry",
+    "city": "Fayetteville",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
