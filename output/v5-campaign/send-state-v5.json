@@ -2988,5 +2988,16 @@
     "country": "US",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@ddscolumbia.com": {
+    "sentAt": "2026-04-16T17:39:48.055Z",
+    "messageId": "<202604161739.61286851869@smtp-relay.mailin.fr>",
+    "company": "Davis & Miller General Dentistry",
+    "subject": "Quick chatbot idea for Davis & Miller General",
+    "city": "Columbia",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
