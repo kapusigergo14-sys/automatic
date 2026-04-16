@@ -3857,5 +3857,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 2
+  },
+  "toothacres@outlook.com": {
+    "sentAt": "2026-04-16T18:27:55.134Z",
+    "messageId": "<202604161827.63475697995@smtp-relay.mailin.fr>",
+    "company": "Tooth Acres Dentistry",
+    "subject": "Tooth Acres Dentistry — missing chatbot?",
+    "city": "Fort Wayne",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
