@@ -3901,5 +3901,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 2
+  },
+  "ktowner@premierdentistpartners.com": {
+    "sentAt": "2026-04-16T20:16:21.616Z",
+    "messageId": "<202604162016.99230797559@smtp-relay.mailin.fr>",
+    "company": "DK Dental - Douglas Kosek DDS & Associates",
+    "subject": "You're losing patients after 5pm, DK Dental",
+    "city": "South Bend",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
