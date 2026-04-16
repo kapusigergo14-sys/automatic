@@ -3681,5 +3681,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "front@bonaventuredental.com": {
+    "sentAt": "2026-04-16T18:18:08.032Z",
+    "messageId": "<202604161818.43533947046@smtp-relay.mailin.fr>",
+    "company": "Bonaventure Dental Care",
+    "subject": "Quick chatbot idea for Bonaventure Dental Care",
+    "city": "Baton Rouge",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
