@@ -3131,5 +3131,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "fayetteville@riverdentalar.com": {
+    "sentAt": "2026-04-16T17:47:38.083Z",
+    "messageId": "<202604161747.83896894025@smtp-relay.mailin.fr>",
+    "company": "River Dental",
+    "subject": "River Dental — missing chatbot?",
+    "city": "Fayetteville",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
