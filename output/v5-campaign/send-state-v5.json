@@ -2801,5 +2801,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "info@cqdental.com.au": {
+    "sentAt": "2026-04-16T06:22:01.747Z",
+    "messageId": "e130c9a5-1755-4f3d-ba19-47d5d5a747ce",
+    "company": "CQ Dental Studio | Dentist Rockhampton",
+    "subject": "Quick chatbot idea for CQ Dental Studio",
+    "city": "Rockhampton Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
