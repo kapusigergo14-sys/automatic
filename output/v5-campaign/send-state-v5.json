@@ -3109,5 +3109,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@32dentalurgent.com": {
+    "sentAt": "2026-04-16T17:46:29.065Z",
+    "messageId": "<202604161746.95024087327@smtp-relay.mailin.fr>",
+    "company": "32 Dental Urgent Care",
+    "subject": "Noticed something about 32 Dental Urgent Care's site",
+    "city": "Columbia",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
