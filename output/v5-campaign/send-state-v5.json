@@ -2999,5 +2999,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "reception@tamworthdental.com": {
+    "sentAt": "2026-04-16T06:33:17.274Z",
+    "messageId": "b3f23d4c-403d-48d3-80f2-30489852c6e3",
+    "company": "Your Tamworth Dentist",
+    "subject": "Quick chatbot idea for Your Tamworth Dentist",
+    "city": "Tamworth Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
