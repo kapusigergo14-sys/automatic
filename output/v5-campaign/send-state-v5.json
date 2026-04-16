@@ -4352,5 +4352,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "ysfd@ysfd.biz": {
+    "sentAt": "2026-04-16T20:20:40.752Z",
+    "messageId": "<202604162020.76221038170@smtp-relay.mailin.fr>",
+    "company": "Your Syracuse Family Dentist",
+    "subject": "Honest question about Your Syracuse Family Dentist's website",
+    "city": "Syracuse",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
