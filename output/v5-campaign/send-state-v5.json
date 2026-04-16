@@ -3868,5 +3868,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@elitedentalfw.com": {
+    "sentAt": "2026-04-16T20:16:02.719Z",
+    "messageId": "<202604162016.98509429437@smtp-relay.mailin.fr>",
+    "company": "Elite Dental",
+    "subject": "You're losing patients after 5pm, Elite Dental",
+    "city": "Fort Wayne",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
