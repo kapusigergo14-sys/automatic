@@ -3307,5 +3307,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "smileteam@smilegulfcoast.com": {
+    "sentAt": "2026-04-16T17:57:35.651Z",
+    "messageId": "<202604161757.25421442095@smtp-relay.mailin.fr>",
+    "company": "Smile Gulf Coast",
+    "subject": "Noticed something about Smile Gulf Coast's site",
+    "city": "Gulfport",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
