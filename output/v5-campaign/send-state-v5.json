@@ -3747,5 +3747,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "dentistryfs@gmail.com": {
+    "sentAt": "2026-04-16T18:21:48.298Z",
+    "messageId": "<202604161821.61879883455@smtp-relay.mailin.fr>",
+    "company": "Northside Dental - Fort Smith Dentist",
+    "subject": "Quick chatbot idea for Northside Dental",
+    "city": "Fort Smith",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
