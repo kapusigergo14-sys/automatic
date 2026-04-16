@@ -4231,5 +4231,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "fairmontdental@hotmail.com": {
+    "sentAt": "2026-04-16T20:19:30.997Z",
+    "messageId": "<202604162019.61270078949@smtp-relay.mailin.fr>",
+    "company": "Fairmont Dental Associates",
+    "subject": "You're losing patients after 5pm, Fairmont Dental Associates",
+    "city": "Allentown",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
