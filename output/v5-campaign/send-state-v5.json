@@ -3076,5 +3076,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "plazadentalgroup@toothemail.com": {
+    "sentAt": "2026-04-16T17:44:44.089Z",
+    "messageId": "<202604161744.89597696608@smtp-relay.mailin.fr>",
+    "company": "Plaza Dental Group",
+    "subject": "Noticed something about Plaza Dental Group's site",
+    "city": "Columbia",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
