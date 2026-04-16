@@ -4297,5 +4297,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@syrdental.com": {
+    "sentAt": "2026-04-16T20:20:08.961Z",
+    "messageId": "<202604162020.73307448063@smtp-relay.mailin.fr>",
+    "company": "Syracuse Family Dental",
+    "subject": "You're losing patients after 5pm, Syracuse Family Dental",
+    "city": "Syracuse",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
