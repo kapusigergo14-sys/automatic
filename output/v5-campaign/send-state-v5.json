@@ -3230,5 +3230,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@ddclr.com": {
+    "sentAt": "2026-04-16T15:29:43.975Z",
+    "messageId": "827d96a5-6c99-42fd-aa94-a9698b1bc13e",
+    "company": "Downtown Dental Care",
+    "subject": "Quick chatbot idea for Downtown Dental Care",
+    "city": "Little Rock",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
