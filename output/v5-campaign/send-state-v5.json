@@ -4033,5 +4033,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "smilesoftoledo@gmail.com": {
+    "sentAt": "2026-04-16T20:17:37.271Z",
+    "messageId": "<202604162017.68593964694@smtp-relay.mailin.fr>",
+    "company": "Smiles of Toledo Dental",
+    "subject": "You're losing patients after 5pm, Smiles of Toledo Dental",
+    "city": "Toledo",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
