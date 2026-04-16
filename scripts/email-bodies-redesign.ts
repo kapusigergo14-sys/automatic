@@ -38,13 +38,13 @@ const EN_BODY = (companyRaw: string): string => {
 
 <p style="margin:0 0 14px 0">Your website is probably costing you new patients. Not trying to be harsh &mdash; just what I noticed when I pulled it up on my phone this morning. Slow load, no HTTPS, dated design. The kind of stuff new patients judge a practice on in the first 50 milliseconds.</p>
 
-<p style="margin:0 0 14px 0">I'm Geri, I run <a href="https://smartflowdev.com" style="color:#059669;text-decoration:none">smartflowdev.com</a>. I redesign dental practice sites in <strong>7 days</strong>, flat pricing from <strong>$800 to $2,500</strong>. Mobile-first, fast, clean &mdash; the stuff that actually moves the needle on new patient inquiries.</p>
+<p style="margin:0 0 14px 0">I'm Geri, I run <a href="https://smartflowdev.com" style="color:#059669;text-decoration:none">smartflowdev.com</a>. I redesign dental practice sites in <strong>7 days</strong>, flat pricing from <strong>$700 to $1,900</strong>. Mobile-first, fast, clean &mdash; the stuff that actually moves the needle on new patient inquiries.</p>
 
 <p style="margin:0 0 14px 0">Here's my offer: reply and I'll build you a <strong>free design concept</strong>. A real mockup of your new site with your actual practice name and brand colors &mdash; no obligation, no sales call, no BS. You can keep it even if we don't end up working together.</p>
 
 <p style="margin:0 0 18px 0">&mdash; Geri<br><a href="https://smartflowdev.com" style="color:#059669;text-decoration:none">smartflowdev.com</a> &middot; <a href="https://smartflowdev.com/proposal" style="color:#059669;text-decoration:none">See our full proposal</a></p>
 
-<p style="margin:0 0 6px 0;padding-top:14px;border-top:1px solid #e5e7eb;color:#6b7280;font-size:13.5px;line-height:1.6"><strong style="color:#059669">PS.</strong> Premium tier ($2,500) includes an AI chatbot that actually books appointments through conversation. A patient asks "do you take Delta Dental?" at 11pm &mdash; the bot answers and schedules them for Tuesday morning. $49/mo after the first free month. Sounds like sci-fi, works like magic.</p>
+<p style="margin:0 0 6px 0;padding-top:14px;border-top:1px solid #e5e7eb;color:#6b7280;font-size:13.5px;line-height:1.6"><strong style="color:#059669">PS.</strong> Premium tier ($1,900) includes an AI chatbot that actually books appointments through conversation. A patient asks "do you take Delta Dental?" at 11pm &mdash; the bot answers and schedules them for Tuesday morning. $49/mo after the first free month. Sounds like sci-fi, works like magic.</p>
 </div>`;
 };
 
@@ -107,7 +107,7 @@ const ES_BODY = (companyRaw: string): string => {
 <p>Hola equipo de ${c},</p>
 <p>Soy Geri — dirijo <a href="https://smartflowdev.com" style="color:#059669;text-decoration:none">smartflowdev.com</a>, un pequeño estudio que moderniza sitios web de clínicas dentales en 7 días.</p>
 <p>Su sitio tiene algunas cosas que podrían estar costándoles pacientes: carga lenta en móvil, sin HTTPS, diseño anticuado.</p>
-<p>Precios fijos: Starter $800, Standard $1,500, Premium $3,000. Propuesta corta adjunta.</p>
+<p>Precios fijos: Starter $700, Standard $1,300, Premium $3,000. Propuesta corta adjunta.</p>
 <p>Si les interesa, respondan a este email.</p>
 <p>Saludos,<br><strong>Geri</strong> · <a href="https://smartflowdev.com" style="color:#059669;text-decoration:none">smartflowdev.com</a></p>
 </div>`;
