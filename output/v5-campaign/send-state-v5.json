@@ -3384,5 +3384,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@douglewisdmd.com": {
+    "sentAt": "2026-04-16T18:01:49.443Z",
+    "messageId": "<202604161801.51299790649@smtp-relay.mailin.fr>",
+    "company": "Doug Lewis Dentistry",
+    "subject": "Quick chatbot idea for Doug Lewis Dentistry",
+    "city": "Birmingham",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
