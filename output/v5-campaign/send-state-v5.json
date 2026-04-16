@@ -4121,5 +4121,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "350002@nadentalgroup.com": {
+    "sentAt": "2026-04-16T20:18:28.127Z",
+    "messageId": "<202604162018.75447890491@smtp-relay.mailin.fr>",
+    "company": "Dental Express",
+    "subject": "Honest question about Dental Express's website",
+    "city": "Boardman",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
