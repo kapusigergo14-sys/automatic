@@ -3934,5 +3934,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "arlingtondentalgroup2785@gmail.com": {
+    "sentAt": "2026-04-16T20:16:40.444Z",
+    "messageId": "<202604162016.53646968522@smtp-relay.mailin.fr>",
+    "company": "Arlington Dental",
+    "subject": "You're losing patients after 5pm, Arlington Dental",
+    "city": "Akron",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 2
   }
 }
