@@ -4363,5 +4363,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "patientcare@thesmilist.com": {
+    "sentAt": "2026-04-16T20:20:48.051Z",
+    "messageId": "<202604162020.21723818886@smtp-relay.mailin.fr>",
+    "company": "Nardozza Salamino Dental Arts Group Affiliated with The Smilist Dental",
+    "subject": "You're losing patients after 5pm, Nardozza Salamino Dental Arts",
+    "city": "Syracuse",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
