@@ -3373,5 +3373,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "birminghamdmd@gmail.com": {
+    "sentAt": "2026-04-16T18:01:16.167Z",
+    "messageId": "<202604161801.23442871423@smtp-relay.mailin.fr>",
+    "company": "Hall Dental",
+    "subject": "Noticed something about Hall Dental's site",
+    "city": "Birmingham",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
