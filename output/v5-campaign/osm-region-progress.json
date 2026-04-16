@@ -208,5 +208,75 @@
     "lastNewLeads": 0,
     "totalNewLeads": 0,
     "lastResultsCount": 0
+  },
+  "US-JACKSONVILLE": {
+    "lastRunAt": "2026-04-16T20:14:05.872Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-COLUMBUS": {
+    "lastRunAt": "2026-04-16T20:14:05.872Z",
+    "totalRuns": 1,
+    "lastNewLeads": 4,
+    "totalNewLeads": 4,
+    "lastResultsCount": 14
+  },
+  "US-CHARLOTTE": {
+    "lastRunAt": "2026-04-16T20:14:05.872Z",
+    "totalRuns": 1,
+    "lastNewLeads": 9,
+    "totalNewLeads": 9,
+    "lastResultsCount": 24
+  },
+  "US-NASHVILLE": {
+    "lastRunAt": "2026-04-16T20:14:05.872Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 12
+  },
+  "US-SEATTLE": {
+    "lastRunAt": "2026-04-16T20:14:05.872Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-DENVER": {
+    "lastRunAt": "2026-04-16T20:14:05.872Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-BOSTON": {
+    "lastRunAt": "2026-04-16T20:14:05.872Z",
+    "totalRuns": 1,
+    "lastNewLeads": 14,
+    "totalNewLeads": 14,
+    "lastResultsCount": 36
+  },
+  "US-PORTLAND": {
+    "lastRunAt": "2026-04-16T20:14:05.872Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-ATLANTA": {
+    "lastRunAt": "2026-04-16T20:14:05.872Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-MIAMI": {
+    "lastRunAt": "2026-04-16T20:14:05.872Z",
+    "totalRuns": 1,
+    "lastNewLeads": 6,
+    "totalNewLeads": 6,
+    "lastResultsCount": 19
   }
 }
