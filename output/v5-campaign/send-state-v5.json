@@ -2735,5 +2735,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "dentistmelbourneclinic@gmail.com": {
+    "sentAt": "2026-04-16T06:18:13.548Z",
+    "messageId": "4b8d8598-23f3-45a8-8f80-c229be2bb331",
+    "company": "Dentist Melbourne Clinic",
+    "subject": "Quick chatbot idea for Dentist Melbourne Clinic",
+    "city": "Melbourne Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
