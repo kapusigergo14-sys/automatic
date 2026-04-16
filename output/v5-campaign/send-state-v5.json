@@ -3549,5 +3549,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "appointments@msdmemphis.com": {
+    "sentAt": "2026-04-16T18:10:38.143Z",
+    "messageId": "<202604161810.82608640251@smtp-relay.mailin.fr>",
+    "company": "Main Street Dental",
+    "subject": "Quick chatbot idea for Main Street Dental",
+    "city": "Memphis",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
