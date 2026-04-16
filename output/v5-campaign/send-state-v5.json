@@ -2702,5 +2702,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "adcmelbournedentist@gmail.com": {
+    "sentAt": "2026-04-16T06:16:31.239Z",
+    "messageId": "06e99301-378b-4915-84a6-1da668d7efca",
+    "company": "Australian Dentists Clinic",
+    "subject": "Quick chatbot idea for Australian Dentists Clinic",
+    "city": "Melbourne Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
