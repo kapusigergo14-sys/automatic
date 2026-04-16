@@ -2856,5 +2856,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "connect@northrockydental.com.au": {
+    "sentAt": "2026-04-16T06:25:06.708Z",
+    "messageId": "d7882e2d-571c-4fe4-9bc6-81ad18021d49",
+    "company": "North Rocky Dental",
+    "subject": "Noticed something about North Rocky Dental's site",
+    "city": "Rockhampton Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
