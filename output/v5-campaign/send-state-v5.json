@@ -3780,5 +3780,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@mooredentalcare.com": {
+    "sentAt": "2026-04-16T18:23:32.910Z",
+    "messageId": "<202604161823.93877821142@smtp-relay.mailin.fr>",
+    "company": "Moore Dental Care",
+    "subject": "Quick chatbot idea for Moore Dental Care",
+    "city": "Fort Smith",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
