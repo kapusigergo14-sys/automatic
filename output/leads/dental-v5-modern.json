@@ -6233,5 +6233,38 @@
     "hasBooking": false,
     "modernScore": 3,
     "collectedAt": "2026-04-15T18:00:48.651Z"
+  },
+  {
+    "name": "Oasis Family Dentistry",
+    "website": "https://dentist-jacksonville.com",
+    "phone": "+1-904-376-7386",
+    "city": "Jacksonville",
+    "country": "US",
+    "email": "alyssha.powers1@gmail.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-16T17:39:43.075Z"
+  },
+  {
+    "name": "Baymeadows Dental Care",
+    "website": "https://baymeadowsdentalcare.com",
+    "phone": "+1-904-731-9833",
+    "city": "Jacksonville",
+    "country": "US",
+    "email": "info@mandarindentalcare.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-16T17:39:43.187Z"
+  },
+  {
+    "name": "Northpoint Dental",
+    "website": "https://www.northpointdental.com",
+    "phone": "+1 904-439-8300",
+    "city": "Jacksonville",
+    "country": "US",
+    "email": "office@northpointdental.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-16T17:39:43.259Z"
   }
 ]

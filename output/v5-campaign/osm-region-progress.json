@@ -180,5 +180,26 @@
     "lastNewLeads": 0,
     "totalNewLeads": 0,
     "lastResultsCount": 0
+  },
+  "US-DALLAS": {
+    "lastRunAt": "2026-04-16T17:39:44.710Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-AUSTIN": {
+    "lastRunAt": "2026-04-16T17:39:44.710Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-JACKSONVILLE": {
+    "lastRunAt": "2026-04-16T17:39:44.710Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 5
   }
 }
