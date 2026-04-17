@@ -5969,5 +5969,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 2
+  },
+  "contact@bayhousedentalpractice.co.uk": {
+    "sentAt": "2026-04-17T11:00:22.836Z",
+    "messageId": "<202604171100.30289961975@smtp-relay.mailin.fr>",
+    "company": "Bay House Dental Practice",
+    "subject": "Bay House Dental Practice — what happens when someone visits your site at 11pm?",
+    "city": "Pontcanna",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
