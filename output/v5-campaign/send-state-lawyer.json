@@ -493,5 +493,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "barry@askbarrynow.com": {
+    "sentAt": "2026-04-17T15:48:04.620Z",
+    "messageId": "<202604171548.54765654979@smtp-relay.mailin.fr>",
+    "company": "Rothchild Law Office",
+    "subject": "Noticed something about Rothchild Law Office's site",
+    "city": "Cincinnati",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
