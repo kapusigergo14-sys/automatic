@@ -466,5 +466,17 @@
     "hasBooking": false,
     "modernScore": 2,
     "pitch": "redesign"
+  },
+  "snyder@nickelcitydentistry.com": {
+    "sentAt": "2026-04-17T16:26:34.984Z",
+    "messageId": "<202604171626.65209180695@smtp-relay.mailin.fr>",
+    "company": "Nickel City Dentistry",
+    "subject": "My honest take on Nickel City Dentistry's website",
+    "city": "Buffalo",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2,
+    "pitch": "redesign"
   }
 }
