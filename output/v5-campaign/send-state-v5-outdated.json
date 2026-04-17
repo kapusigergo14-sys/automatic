@@ -514,5 +514,17 @@
     "hasBooking": false,
     "modernScore": 2,
     "pitch": "redesign"
+  },
+  "pcompanion@champlaindentalgroup.com": {
+    "sentAt": "2026-04-17T16:27:01.212Z",
+    "messageId": "<202604171627.66362355257@smtp-relay.mailin.fr>",
+    "company": "Champlain Dental Group",
+    "subject": "Honest take on Champlain Dental Group's website",
+    "city": "South Burlington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2,
+    "pitch": "redesign"
   }
 }
