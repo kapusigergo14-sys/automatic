@@ -5496,5 +5496,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "hello@moladental.com": {
+    "sentAt": "2026-04-17T10:55:43.093Z",
+    "messageId": "<202604171055.32280855058@smtp-relay.mailin.fr>",
+    "company": "Mola Dental",
+    "subject": "Noticed something about Mola Dental's site",
+    "city": "Archer Rd",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
