@@ -4836,5 +4836,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "admin@caseydentists.com.au": {
+    "sentAt": "2026-04-17T05:18:13.426Z",
+    "messageId": "<202604170518.78756818036@smtp-relay.mailin.fr>",
+    "company": "Casey Dentists",
+    "subject": "Honest question about Casey Dentists's website",
+    "city": "Townsville Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
