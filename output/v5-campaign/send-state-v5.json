@@ -5595,5 +5595,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@cliftondentalsurgery.co.uk": {
+    "sentAt": "2026-04-17T10:56:41.485Z",
+    "messageId": "<202604171056.42852433342@smtp-relay.mailin.fr>",
+    "company": "The Dental Surgery",
+    "subject": "Noticed something about The Dental Surgery's site",
+    "city": "Clifton",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
