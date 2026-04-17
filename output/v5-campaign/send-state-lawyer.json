@@ -845,5 +845,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "ckoyste@koyste.com": {
+    "sentAt": "2026-04-17T16:30:58.873Z",
+    "messageId": "<202604171630.26614015156@smtp-relay.mailin.fr>",
+    "company": "Law Office of Christopher S. Koyste",
+    "subject": "Honest question about Law Office of Christopher's website",
+    "city": "Wilmington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
