@@ -5089,5 +5089,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "hello@bondifamilydentist.com": {
+    "sentAt": "2026-04-17T05:20:44.397Z",
+    "messageId": "<202604170520.43177212301@smtp-relay.mailin.fr>",
+    "company": "Bondi Family Dentist",
+    "subject": "Bondi Family Dentist — what happens when someone visits your site at 11pm?",
+    "city": "Bondi",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
