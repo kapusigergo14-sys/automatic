@@ -801,5 +801,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@rightlawgroup.com": {
+    "sentAt": "2026-04-17T16:30:32.169Z",
+    "messageId": "<202604171630.81316147270@smtp-relay.mailin.fr>",
+    "company": "Right Law Group",
+    "subject": "Right Law Group — what happens when a client visits your site at 11pm?",
+    "city": "Colorado Springs",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
