@@ -610,5 +610,17 @@
     "hasBooking": false,
     "modernScore": 2,
     "pitch": "redesign"
+  },
+  "info@vachondental.com": {
+    "sentAt": "2026-04-17T16:27:53.835Z",
+    "messageId": "<202604171627.24275271021@smtp-relay.mailin.fr>",
+    "company": "Vachon Dental",
+    "subject": "My honest take on Vachon Dental's website",
+    "city": "Manchester",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2,
+    "pitch": "redesign"
   }
 }
