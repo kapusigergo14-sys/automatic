@@ -1241,5 +1241,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@hcsolicitors.co.uk": {
+    "sentAt": "2026-04-17T16:34:55.894Z",
+    "messageId": "<202604171634.69251550253@smtp-relay.mailin.fr>",
+    "company": "Hunt & Coombs Solicitors",
+    "subject": "Honest question about Hunt & Coombs Solicitors's website",
+    "city": "Peterborough",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
