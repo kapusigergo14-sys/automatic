@@ -691,5 +691,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@harveyhowell.co.uk": {
+    "sentAt": "2026-04-17T16:29:26.673Z",
+    "messageId": "<202604171629.62499962403@smtp-relay.mailin.fr>",
+    "company": "Harvey Howell",
+    "subject": "Noticed something about Harvey Howell's site",
+    "city": "Liverpool",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
