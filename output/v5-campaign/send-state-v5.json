@@ -6387,5 +6387,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "patientbilling@mydrdental.com": {
+    "sentAt": "2026-04-17T21:31:59.921Z",
+    "messageId": "<202604172131.73477903971@smtp-relay.mailin.fr>",
+    "company": "Dr. Dental: Dentistry & Braces",
+    "subject": "Honest question about Dr. Dental Dentistry &'s website",
+    "city": "Manchester",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
