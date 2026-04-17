@@ -5485,5 +5485,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@schoolroaddental.co.uk": {
+    "sentAt": "2026-04-17T10:55:36.607Z",
+    "messageId": "<202604171055.78892211665@smtp-relay.mailin.fr>",
+    "company": "School Road Dental Surgery",
+    "subject": "Honest question about School Road Dental Surgery's website",
+    "city": "257 School Rd",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
