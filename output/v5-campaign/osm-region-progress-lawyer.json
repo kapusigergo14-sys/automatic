@@ -103,5 +103,145 @@
     "lastNewLeads": 13,
     "totalNewLeads": 13,
     "lastResultsCount": 28
+  },
+  "US-DENVER": {
+    "lastRunAt": "2026-04-17T15:12:18.403Z",
+    "totalRuns": 1,
+    "lastNewLeads": 9,
+    "totalNewLeads": 9,
+    "lastResultsCount": 41
+  },
+  "US-BOSTON": {
+    "lastRunAt": "2026-04-17T15:12:18.403Z",
+    "totalRuns": 1,
+    "lastNewLeads": 9,
+    "totalNewLeads": 9,
+    "lastResultsCount": 25
+  },
+  "US-PORTLAND": {
+    "lastRunAt": "2026-04-17T15:12:18.403Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-ATLANTA": {
+    "lastRunAt": "2026-04-17T15:12:18.403Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-MIAMI": {
+    "lastRunAt": "2026-04-17T15:12:18.403Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-TUCSON": {
+    "lastRunAt": "2026-04-17T15:12:18.403Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 9
+  },
+  "US-ALBUQUERQUE": {
+    "lastRunAt": "2026-04-17T15:12:18.403Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-OMAHA": {
+    "lastRunAt": "2026-04-17T15:12:18.403Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-SPOKANE": {
+    "lastRunAt": "2026-04-17T15:12:18.403Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-RICHMOND": {
+    "lastRunAt": "2026-04-17T15:12:18.403Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-WICHITA": {
+    "lastRunAt": "2026-04-17T15:12:18.403Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-TOLEDO": {
+    "lastRunAt": "2026-04-17T15:12:18.403Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-KNOXVILLE": {
+    "lastRunAt": "2026-04-17T15:12:18.403Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "US-RALEIGH": {
+    "lastRunAt": "2026-04-17T15:12:18.403Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-LEXINGTON": {
+    "lastRunAt": "2026-04-17T15:12:18.403Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 5
+  },
+  "US-MEMPHIS": {
+    "lastRunAt": "2026-04-17T15:12:18.403Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-LOUISVILLE": {
+    "lastRunAt": "2026-04-17T15:12:18.403Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-MILWAUKEE": {
+    "lastRunAt": "2026-04-17T15:12:18.403Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-PITTSBURGH": {
+    "lastRunAt": "2026-04-17T15:12:18.403Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-CINCINNATI": {
+    "lastRunAt": "2026-04-17T15:12:18.403Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 16
   }
 }
