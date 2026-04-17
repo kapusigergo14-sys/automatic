@@ -5122,5 +5122,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@curedental.com.au": {
+    "sentAt": "2026-04-17T05:21:05.403Z",
+    "messageId": "<202604170521.98417383489@smtp-relay.mailin.fr>",
+    "company": "Cure Dental",
+    "subject": "Cure Dental — what happens when someone visits your site at 11pm?",
+    "city": "Sydney NSW",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
