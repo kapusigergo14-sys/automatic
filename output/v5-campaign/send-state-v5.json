@@ -5166,5 +5166,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@thetoothplace.com.au": {
+    "sentAt": "2026-04-17T05:21:31.669Z",
+    "messageId": "<202604170521.67229299038@smtp-relay.mailin.fr>",
+    "company": "The Tooth Place",
+    "subject": "Honest question about The Tooth Place's website",
+    "city": "Sydney NSW",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
