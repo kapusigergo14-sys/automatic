@@ -4924,5 +4924,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "reception@beststdental.com.au": {
+    "sentAt": "2026-04-17T05:19:06.101Z",
+    "messageId": "<202604170519.43865962183@smtp-relay.mailin.fr>",
+    "company": "Best St Dental",
+    "subject": "Best St Dental — what happens when someone visits your site at 11pm?",
+    "city": "Wagga Wagga Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
