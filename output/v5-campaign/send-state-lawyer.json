@@ -922,5 +922,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "freddrellgreen@gmail.com": {
+    "sentAt": "2026-04-17T16:31:45.116Z",
+    "messageId": "<202604171631.67064771795@smtp-relay.mailin.fr>",
+    "company": "Green & Green, LLP",
+    "subject": "Noticed something about Green & Green LLP's site",
+    "city": "Athens",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
