@@ -911,5 +911,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "kendiouslaw@bellsouth.net": {
+    "sentAt": "2026-04-17T16:31:38.364Z",
+    "messageId": "<202604171631.68550383721@smtp-relay.mailin.fr>",
+    "company": "Ken Dious and Associates",
+    "subject": "Honest question about Ken Dious and Associates's website",
+    "city": "Athens",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
