@@ -185,5 +185,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@injurytriallawyer.com": {
+    "sentAt": "2026-04-17T15:45:08.798Z",
+    "messageId": "<202604171545.65982654222@smtp-relay.mailin.fr>",
+    "company": "Davis Law Group, P.S.",
+    "subject": "Honest question about Davis Law Group P.S.'s website",
+    "city": "Seattle WA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
