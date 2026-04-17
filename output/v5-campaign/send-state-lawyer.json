@@ -669,5 +669,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@satchellmoransolicitors.com": {
+    "sentAt": "2026-04-17T16:29:13.450Z",
+    "messageId": "<202604171629.79415320836@smtp-relay.mailin.fr>",
+    "company": "Satchell Moran",
+    "subject": "Satchell Moran — what happens when a client visits your site at 11pm?",
+    "city": "Liverpool",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
