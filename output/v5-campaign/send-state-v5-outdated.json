@@ -550,5 +550,17 @@
     "hasBooking": false,
     "modernScore": 2,
     "pitch": "redesign"
+  },
+  "smile@thrivedentalstudio.com": {
+    "sentAt": "2026-04-17T16:27:20.968Z",
+    "messageId": "<202604171627.15176522556@smtp-relay.mailin.fr>",
+    "company": "Thrive Dental Studio",
+    "subject": "Honest take on Thrive Dental Studio's website",
+    "city": "Portland",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2,
+    "pitch": "redesign"
   }
 }
