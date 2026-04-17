@@ -4484,5 +4484,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "info@ndiscovered.com": {
+    "sentAt": "2026-04-17T05:14:42.450Z",
+    "messageId": "<202604170514.27126755900@smtp-relay.mailin.fr>",
+    "company": "Dr James McMillan Dental Surgery",
+    "subject": "Noticed something about Dr James McMillan Dental's site",
+    "city": "Orange Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
