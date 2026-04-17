@@ -394,5 +394,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "contact@sweeneymerrigan.com": {
+    "sentAt": "2026-04-17T15:47:08.080Z",
+    "messageId": "<202604171547.49550660007@smtp-relay.mailin.fr>",
+    "company": "Sweeney Merrigan Law, LLP",
+    "subject": "Noticed something about Sweeney Merrigan Law LLP's site",
+    "city": "Boston",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
