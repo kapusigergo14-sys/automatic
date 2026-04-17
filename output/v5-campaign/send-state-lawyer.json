@@ -1021,5 +1021,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 2
+  },
+  "ronlaw@glenmorison.com": {
+    "sentAt": "2026-04-17T16:32:44.341Z",
+    "messageId": "<202604171632.27415973602@smtp-relay.mailin.fr>",
+    "company": "Glenmorison",
+    "subject": "Noticed something about Glenmorison's site",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
