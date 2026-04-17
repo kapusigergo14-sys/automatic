@@ -779,5 +779,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 2
+  },
+  "myattorney@ibrahimfirm.com": {
+    "sentAt": "2026-04-17T16:30:19.025Z",
+    "messageId": "<202604171630.74442631009@smtp-relay.mailin.fr>",
+    "company": "Anaheim Personal Injury Lawyers - Ibrahim Law Firm",
+    "subject": "Honest question about Anaheim Personal Injury Lawyers's website",
+    "city": "Anaheim",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
