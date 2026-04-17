@@ -598,5 +598,17 @@
     "hasBooking": false,
     "modernScore": 2,
     "pitch": "redesign"
+  },
+  "portlandsmilesdds@gmail.com": {
+    "sentAt": "2026-04-17T16:27:47.185Z",
+    "messageId": "<202604171627.56398341820@smtp-relay.mailin.fr>",
+    "company": "Portland Smiles",
+    "subject": "Portland Smiles — honest feedback on your site",
+    "city": "Portland",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2,
+    "pitch": "redesign"
   }
 }
