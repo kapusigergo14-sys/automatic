@@ -522,5 +522,70 @@
     "hasBooking": false,
     "modernScore": 3,
     "collectedAt": "2026-04-17T15:12:14.114Z"
+  },
+  {
+    "name": "Spartacus Law Firm",
+    "website": "https://spartacuslawfirm.com",
+    "city": "Las Vegas",
+    "country": "US",
+    "email": "chandon@spartacuslawfirm.com",
+    "hasBooking": true,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:14:59.249Z"
+  },
+  {
+    "name": "Benson & Bingham Car Accident & Personal Injury Lawyers",
+    "website": "https://www.bensonbingham.com",
+    "phone": "+1 702-382-9797",
+    "city": "Las Vegas",
+    "country": "US",
+    "email": "info@bensonbingham.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:14:59.305Z"
+  },
+  {
+    "name": "Nicholas M. Bui Law Firm",
+    "website": "https://www.nbuilaw.com",
+    "phone": "+1-702-382-0802",
+    "city": "Las Vegas",
+    "country": "US",
+    "email": "nbui@nbuilaw.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:14:59.654Z"
+  },
+  {
+    "name": "Amar Law Group, PLLC",
+    "website": "https://nevadalemonlaw.info",
+    "phone": "+1-702-852-2929",
+    "city": "Las Vegas",
+    "country": "US",
+    "email": "docs@amarlawgrp.com",
+    "hasBooking": true,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:14:59.826Z"
+  },
+  {
+    "name": "Brock Ohlson Injury Lawyers",
+    "website": "https://www.injured.vegas",
+    "phone": "+1 702 982 0055",
+    "city": "Las Vegas",
+    "country": "US",
+    "email": "info@injured.vegas",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:14:59.849Z"
+  },
+  {
+    "name": "Gunderson Law Group, P.C.",
+    "website": "https://gundersonlawgroup.com/nevada",
+    "phone": "+1 702-990-3515",
+    "city": "Las Vegas",
+    "country": "US",
+    "email": "contact@gundersonlawgroup.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:15:00.260Z"
   }
 ]

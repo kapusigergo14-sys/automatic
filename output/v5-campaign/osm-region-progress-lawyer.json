@@ -243,5 +243,75 @@
     "lastNewLeads": 3,
     "totalNewLeads": 3,
     "lastResultsCount": 16
+  },
+  "US-SACRAMENTO": {
+    "lastRunAt": "2026-04-17T15:15:06.765Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-LASVEGAS": {
+    "lastRunAt": "2026-04-17T15:15:06.765Z",
+    "totalRuns": 1,
+    "lastNewLeads": 6,
+    "totalNewLeads": 6,
+    "lastResultsCount": 12
+  },
+  "US-SALTLAKE": {
+    "lastRunAt": "2026-04-17T15:15:06.765Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-TAMPA": {
+    "lastRunAt": "2026-04-17T15:15:06.765Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-ORLANDO": {
+    "lastRunAt": "2026-04-17T15:15:06.765Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-STLOUIS": {
+    "lastRunAt": "2026-04-17T15:15:06.765Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-MINNEAPOLIS": {
+    "lastRunAt": "2026-04-17T15:15:06.765Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-CLEVELAND": {
+    "lastRunAt": "2026-04-17T15:15:06.765Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-NEWARK": {
+    "lastRunAt": "2026-04-17T15:15:06.765Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-BATONROUGE": {
+    "lastRunAt": "2026-04-17T15:15:06.765Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
   }
 }
