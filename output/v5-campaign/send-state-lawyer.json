@@ -306,5 +306,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@fwlawgroup.com": {
+    "sentAt": "2026-04-17T15:46:17.925Z",
+    "messageId": "<202604171546.49068564061@smtp-relay.mailin.fr>",
+    "company": "Consumer Law Pro",
+    "subject": "Consumer Law Pro — what happens when a client visits your site at 11pm?",
+    "city": "Denver",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
