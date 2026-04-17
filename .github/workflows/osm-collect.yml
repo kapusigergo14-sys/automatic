@@ -1,8 +1,12 @@
-name: OSM dental lead collection (zero-cost)
+name: OSM lead collection (zero-cost)
 
 on:
   workflow_dispatch:
     inputs:
+      industry:
+        description: 'Industry: dentist | lawyer'
+        type: string
+        default: 'dentist'
       markets:
         description: 'Markets — pick any combo, comma-separated. Available: US | UK | AU. Examples: US  /  US,UK  /  US,UK,AU'
         type: string
@@ -68,6 +72,7 @@ jobs:
 
       - name: Run OSM collector
         run: |
+          INDUSTRY="${{ github.event.inputs.industry || 'dentist' }}"
           MARKETS="${{ github.event.inputs.markets || 'US,UK,AU' }}"
           LIMIT="${{ github.event.inputs.limit || '300' }}"
           REGIONS="${{ github.event.inputs.regions_per_market || '5' }}"
@@ -79,6 +84,7 @@ jobs:
           if [ "$DRY" = "true" ]; then FLAGS="$FLAGS --dry-run"; fi
           if [ "$RESET" = "true" ]; then FLAGS="$FLAGS --reset-progress"; fi
           npx ts-node scripts/osm-collect.ts \
+            --industry "$INDUSTRY" \
             --markets "$MARKETS" \
             --limit "$LIMIT" \
             --regions-per-market "$REGIONS" \
@@ -88,10 +94,12 @@ jobs:
 
       - name: Commit collected leads
         if: github.event.inputs.dry_run != 'true'
+        env:
+          INDUSTRY: ${{ github.event.inputs.industry || 'dentist' }}
         run: |
-          git add output/leads/dental-v5-modern.json output/v5-campaign/osm-region-progress.json || true
+          git add output/leads/*.json output/v5-campaign/osm-region-progress*.json || true
           if ! git diff --staged --quiet; then
-            git commit -m "chore(osm): collect dental leads [skip ci]"
+            git commit -m "chore(osm): collect ${INDUSTRY} leads [skip ci]"
             git push origin HEAD
           else
             echo "No new OSM leads to commit"

@@ -13,6 +13,7 @@ output/leads/*
 !output/leads/dental-v5-modern.json
 !output/leads/dental-v4-qualified.json
 !output/leads/dental-v5-outdated.json
+!output/leads/lawyer-modern.json
 
 !output/dental-campaign/
 output/dental-campaign/*
@@ -25,6 +26,8 @@ output/v5-campaign/*
 !output/v5-campaign/osm-region-progress.json
 !output/v5-campaign/send-state-v5-outdated.json
 !output/v5-campaign/osm-region-progress-outdated.json
+!output/v5-campaign/send-state-lawyer.json
+!output/v5-campaign/osm-region-progress-lawyer.json
 
 !output/outreach-state.json
 

@@ -34,13 +34,18 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { OSM_REGIONS, getRegionsForMarkets, bboxToString, type OsmRegion, type MarketCode } from './osm-regions';
+import { getIndustry, listIndustries, type IndustryConfig } from './industries';
 
 // ─── Paths ──────────────────────────────────────────────────────────────
 
 const V4_STATE_FILE = path.resolve(__dirname, '../output/dental-campaign/send-state.json');
-const V5_STATE_FILE = path.resolve(__dirname, '../output/v5-campaign/send-state-v5.json');
-const LEADS_FILE = path.resolve(__dirname, '../output/leads/dental-v5-modern.json');
-const REGION_PROGRESS_FILE = path.resolve(__dirname, '../output/v5-campaign/osm-region-progress.json');
+let V5_STATE_FILE = path.resolve(__dirname, '../output/v5-campaign/send-state-v5.json');
+let LEADS_FILE = path.resolve(__dirname, '../output/leads/dental-v5-modern.json');
+let REGION_PROGRESS_FILE = path.resolve(__dirname, '../output/v5-campaign/osm-region-progress.json');
+
+// Module-level industry state — set in main() from industry config
+let currentOsmTags: string[] = ['amenity=dentist', 'healthcare=dentist'];
+let currentDefaultName = 'Dental Practice';
 
 // ─── Schema (matches V5Lead exactly — sender compatibility) ─────────────
 
@@ -74,6 +79,7 @@ interface Args {
   minCooldownDays: number;
   dryRun: boolean;
   resetProgress: boolean;
+  industry: string;
 }
 
 function parseArgs(): Args {
@@ -85,6 +91,7 @@ function parseArgs(): Args {
   let minCooldownDays = 7;
   let dryRun = false;
   let resetProgress = false;
+  let industry = 'dentist';
 
   for (let i = 0; i < a.length; i++) {
     if (a[i] === '--markets' && a[i + 1]) { marketsRaw = a[i + 1]; i++; }
@@ -92,6 +99,7 @@ function parseArgs(): Args {
     else if (a[i] === '--regions-per-market' && a[i + 1]) { regionsPerMarket = parseInt(a[i + 1], 10); i++; }
     else if (a[i] === '--concurrency' && a[i + 1]) { concurrency = parseInt(a[i + 1], 10); i++; }
     else if (a[i] === '--min-cooldown-days' && a[i + 1]) { minCooldownDays = parseInt(a[i + 1], 10); i++; }
+    else if (a[i] === '--industry' && a[i + 1]) { industry = a[i + 1]; i++; }
     else if (a[i] === '--dry-run') dryRun = true;
     else if (a[i] === '--reset-progress') resetProgress = true;
   }
@@ -111,7 +119,7 @@ function parseArgs(): Args {
     process.exit(1);
   }
 
-  return { markets, limit, regionsPerMarket, concurrency, minCooldownDays, dryRun, resetProgress };
+  return { markets, limit, regionsPerMarket, concurrency, minCooldownDays, dryRun, resetProgress, industry };
 }
 
 // ─── Region progress ────────────────────────────────────────────────────
@@ -246,22 +254,27 @@ const OVERPASS_ENDPOINTS = [
   'https://overpass.kumi.systems/api/interpreter',
 ];
 
-function buildOverpassQuery(bboxStr: string): string {
-  return `[out:json][timeout:25];
-(
-  node["amenity"="dentist"]["website"](${bboxStr});
-  way["amenity"="dentist"]["website"](${bboxStr});
-  node["healthcare"="dentist"]["website"](${bboxStr});
-  way["healthcare"="dentist"]["website"](${bboxStr});
-  node["amenity"="dentist"]["contact:website"](${bboxStr});
-  node["healthcare"="dentist"]["contact:website"](${bboxStr});
-);
-out center tags;`;
+function buildOverpassQuery(bboxStr: string, osmTags: string[]): string {
+  const tagQueries = osmTags.flatMap(tag => {
+    const [key, value] = tag.split('=');
+    return [
+      `node["${key}"="${value}"]["website"](${bboxStr});`,
+      `way["${key}"="${value}"]["website"](${bboxStr});`,
+    ];
+  });
+  const contactQueries = osmTags.flatMap(tag => {
+    const [key, value] = tag.split('=');
+    return [
+      `node["${key}"="${value}"]["contact:website"](${bboxStr});`,
+    ];
+  });
+
+  return `[out:json][timeout:25];\n(\n  ${[...tagQueries, ...contactQueries].join('\n  ')}\n);\nout center tags;`;
 }
 
 async function queryOverpass(region: OsmRegion): Promise<RawCandidate[]> {
   const bboxStr = bboxToString(region.bbox);
-  const query = buildOverpassQuery(bboxStr);
+  const query = buildOverpassQuery(bboxStr, currentOsmTags);
 
   for (const endpoint of OVERPASS_ENDPOINTS) {
     try {
@@ -288,7 +301,7 @@ async function queryOverpass(region: OsmRegion): Promise<RawCandidate[]> {
         const tags = el?.tags || {};
         const website = tags.website || tags['contact:website'];
         if (!website) continue;
-        const name = tags.name || tags['name:en'] || 'Dental Practice';
+        const name = tags.name || tags['name:en'] || currentDefaultName;
         const city = tags['addr:city'] || tags['addr:suburb'] || region.city;
         const phone = tags.phone || tags['contact:phone'];
         candidates.push({
@@ -439,7 +452,15 @@ function buildSkipSets(): { skipEmails: Set<string>; skipDomains: Set<string> } 
 async function main() {
   const args = parseArgs();
 
-  console.log('🦷 OSM DENTAL COLLECT — zero-cost (OpenStreetMap Overpass)');
+  // Resolve industry config and set module-level state
+  const industryConfig = getIndustry(args.industry);
+  LEADS_FILE = industryConfig.leadsFile;
+  V5_STATE_FILE = industryConfig.stateFile;
+  REGION_PROGRESS_FILE = industryConfig.progressFile;
+  currentOsmTags = industryConfig.osmTags;
+  currentDefaultName = industryConfig.defaultName;
+
+  console.log(`🔍 OSM ${industryConfig.label.toUpperCase()} COLLECT — zero-cost (OpenStreetMap Overpass)`);
   console.log(`   Markets:            ${args.markets.join(', ')}`);
   console.log(`   Limit:              ${args.limit} new leads`);
   console.log(`   Regions/market:     ${args.regionsPerMarket}`);
@@ -646,7 +667,7 @@ async function main() {
     console.log(`   Progress file:           ${REGION_PROGRESS_FILE}`);
   }
   console.log(`${'═'.repeat(60)}\n`);
-  console.log('📧 To send: npx ts-node scripts/send-dental-v5.ts --markets ... --limit ...\n');
+  console.log(`📧 To send: npx ts-node scripts/send-${args.industry === 'dentist' ? 'dental-v5' : args.industry}.ts --markets ... --limit ...\n`);
 }
 
 main().catch((err) => {
