@@ -130,5 +130,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "internationalinfo@abclegal.com": {
+    "sentAt": "2026-04-17T15:44:37.281Z",
+    "messageId": "<202604171544.12907908885@smtp-relay.mailin.fr>",
+    "company": "ABC Legal Services",
+    "subject": "Noticed something about ABC Legal Services's site",
+    "city": "Seattle",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
