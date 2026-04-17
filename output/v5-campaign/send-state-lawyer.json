@@ -592,5 +592,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@abjames.law": {
+    "sentAt": "2026-04-17T16:28:27.455Z",
+    "messageId": "<202604171628.51903889296@smtp-relay.mailin.fr>",
+    "company": "AB James Solicitors",
+    "subject": "Noticed something about AB James Solicitors's site",
+    "city": "Manchester",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
