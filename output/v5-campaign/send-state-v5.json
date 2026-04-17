@@ -5903,5 +5903,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "hello@pastedental.co.uk": {
+    "sentAt": "2026-04-17T10:59:43.223Z",
+    "messageId": "<202604171059.82947788510@smtp-relay.mailin.fr>",
+    "company": "Paste Dental",
+    "subject": "Paste Dental — what happens when someone visits your site at 11pm?",
+    "city": "23 Dublin Rd",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
