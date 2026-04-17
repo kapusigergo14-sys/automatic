@@ -1,1 +1,263 @@
-[]
+[
+  {
+    "name": "John M. Alton",
+    "website": "https://www.johnalton.com",
+    "phone": "+1-614-221-6751",
+    "city": "Columbus",
+    "country": "US",
+    "email": "jalton@johnalton.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:05:52.471Z"
+  },
+  {
+    "name": "Suzanne K. Sabol & Associates",
+    "website": "https://www.suzannekaysabol.com",
+    "phone": "+1-614-445-0793",
+    "city": "Columbus",
+    "country": "US",
+    "email": "hntouinc@hntou.edu.cn",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-17T15:05:54.767Z"
+  },
+  {
+    "name": "Thomas Taneff Co., LPA",
+    "website": "https://tanefflaw.com",
+    "phone": "+1-614-241-2181",
+    "city": "Columbus",
+    "country": "US",
+    "email": "contactus@tanefflaw.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:05:54.979Z"
+  },
+  {
+    "name": "Spadafore Law",
+    "website": "https://www.spadaforelaw.com",
+    "phone": "+1-614-327-0931",
+    "city": "Columbus",
+    "country": "US",
+    "email": "craig@spadaforelaw.com",
+    "hasBooking": true,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:05:55.132Z"
+  },
+  {
+    "name": "Battisti & Ansbro",
+    "website": "https://battistiansbro.com",
+    "phone": "+1-614-444-3003",
+    "city": "Columbus",
+    "country": "US",
+    "email": "hello@ansbrolaw.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:05:55.152Z"
+  },
+  {
+    "name": "Law Office of James D. Owen, LLC",
+    "website": "https://www.columbuscriminaldefenseattorney.com",
+    "phone": "+1-614-547-5757",
+    "city": "Columbus",
+    "country": "US",
+    "email": "jowen@columbuscriminaldefenseattorney.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:05:55.708Z"
+  },
+  {
+    "name": "Rutan Law",
+    "website": "https://www.defenseohio.com",
+    "phone": "+1-614-307-4343",
+    "city": "Columbus",
+    "country": "US",
+    "email": "rutanlaw@gmail.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:05:56.163Z"
+  },
+  {
+    "name": "Sever Storey, LLP",
+    "website": "https://landownerattorneys.com",
+    "phone": "+1-614-360-2818;+1-888-318-3761",
+    "city": "Dublin",
+    "country": "US",
+    "email": "jordan@landownerattorneys.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:05:57.641Z"
+  },
+  {
+    "name": "Jay E. Michael",
+    "website": "https://jaymichaellaw.com",
+    "phone": "+1-614-443-6262",
+    "city": "Columbus",
+    "country": "US",
+    "email": "team@latofonts.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:05:57.679Z"
+  },
+  {
+    "name": "Jeremy Dodgion Attorney at Law",
+    "website": "https://www.jeremydodgionlaw.com",
+    "phone": "+1-614-443-2494",
+    "city": "Columbus",
+    "country": "US",
+    "email": "jdodgion@jeremydodgionlaw.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:05:57.940Z"
+  },
+  {
+    "name": "Mansell Law",
+    "website": "https://ohio-employmentlawyer.com",
+    "phone": "+1-614-610-4134",
+    "city": "Columbus",
+    "country": "US",
+    "email": "consult@manselllawllc.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:05:58.128Z"
+  },
+  {
+    "name": "Gustad Law Group",
+    "website": "https://www.gustadlaw.com",
+    "phone": "+1-206-533-2222",
+    "city": "Seattle",
+    "country": "US",
+    "email": "jp@gustadlaw.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:05:58.423Z"
+  },
+  {
+    "name": "ABC Legal Services",
+    "website": "https://www.abclegal.com",
+    "phone": "+1-800-736-7295",
+    "city": "Seattle",
+    "country": "US",
+    "email": "internationalinfo@abclegal.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:05:58.468Z"
+  },
+  {
+    "name": "Phillips Law Firm",
+    "website": "https://www.justiceforyou.com",
+    "phone": "+1-425-984-2500",
+    "city": "Seattle",
+    "country": "US",
+    "email": "complimentarycasereview@justiceforyou.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:06:00.416Z"
+  },
+  {
+    "name": "Dickson Law Group",
+    "website": "https://www.dicksonlegal.com",
+    "phone": "+1-206-621-1110",
+    "city": "Seattle",
+    "country": "US",
+    "email": "reception@dicksonlegal.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:06:00.841Z"
+  },
+  {
+    "name": "Dubin Law Group",
+    "website": "https://dubinlawgroup.com",
+    "phone": "+1-206-800-8000",
+    "city": "Seattle WA",
+    "country": "US",
+    "email": "mattdubin@gmail.com",
+    "hasBooking": true,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:06:00.974Z"
+  },
+  {
+    "name": "Emerald City Bike Lawyer",
+    "website": "https://emeraldcitybikelawyer.com",
+    "city": "Seattle WA",
+    "country": "US",
+    "email": "hi@typemade.mx",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:06:00.982Z"
+  },
+  {
+    "name": "Davis Law Group, P.S.",
+    "website": "https://www.injurytriallawyer.com",
+    "phone": "+1-206-727-4000",
+    "city": "Seattle WA",
+    "country": "US",
+    "email": "info@injurytriallawyer.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:06:01.285Z"
+  },
+  {
+    "name": "Budge & Heipt PLLC",
+    "website": "https://budgeandheipt.com",
+    "phone": "+1-206-624-3060",
+    "city": "Seattle",
+    "country": "US",
+    "email": "media@budgeandheipt.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:06:01.415Z"
+  },
+  {
+    "name": "The Law Office of Laura Hofman",
+    "website": "https://hofmanimmigration.com",
+    "city": "Seattle",
+    "country": "US",
+    "email": "info@hofmanimmigration.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:06:01.518Z"
+  },
+  {
+    "name": "Moseley Collins Law",
+    "website": "https://www.moseleycollins.com",
+    "phone": "+1-800-426-5546",
+    "city": "Seattle",
+    "country": "US",
+    "email": "incoming@moseleycollins.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:06:01.924Z"
+  },
+  {
+    "name": "Roosevelt Law Center",
+    "website": "https://www.lawgate.net",
+    "phone": "+1-206-365-5500",
+    "city": "Seattle",
+    "country": "US",
+    "email": "info@lawgate.net",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:06:02.232Z"
+  },
+  {
+    "name": "Adler Giersch",
+    "website": "https://www.adlergiersch.com",
+    "city": "Seattle",
+    "country": "US",
+    "email": "info@adlergiersch.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:06:02.272Z"
+  },
+  {
+    "name": "Bradley Johnson Attorneys",
+    "website": "https://www.bjattorneys.com",
+    "phone": "+1-206-223-1601",
+    "city": "Seattle",
+    "country": "US",
+    "email": "brad@bjlfirm.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:06:03.048Z"
+  }
+]
