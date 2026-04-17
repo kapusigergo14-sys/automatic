@@ -482,5 +482,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@myazlawyers.com": {
+    "sentAt": "2026-04-17T15:47:58.318Z",
+    "messageId": "<202604171547.53678983295@smtp-relay.mailin.fr>",
+    "company": "My AZ Lawyers, PLC",
+    "subject": "Honest question about My AZ Lawyers PLC's website",
+    "city": "Tucson",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
