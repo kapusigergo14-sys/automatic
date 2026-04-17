@@ -299,5 +299,75 @@
     "lastNewLeads": 4,
     "totalNewLeads": 4,
     "lastResultsCount": 11
+  },
+  "AU-CAIRNS": {
+    "lastRunAt": "2026-04-17T05:07:20.246Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-TOWNSVILLE": {
+    "lastRunAt": "2026-04-17T05:07:20.246Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "AU-DARWIN": {
+    "lastRunAt": "2026-04-17T05:07:20.246Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-GEELONG": {
+    "lastRunAt": "2026-04-17T05:07:20.246Z",
+    "totalRuns": 1,
+    "lastNewLeads": 14,
+    "totalNewLeads": 14,
+    "lastResultsCount": 26
+  },
+  "AU-BALLARAT": {
+    "lastRunAt": "2026-04-17T05:07:20.246Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-BENDIGO": {
+    "lastRunAt": "2026-04-17T05:07:20.246Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 3
+  },
+  "AU-TOOWOOMBA": {
+    "lastRunAt": "2026-04-17T05:07:20.246Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-LAUNCESTON": {
+    "lastRunAt": "2026-04-17T05:07:20.246Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 1
+  },
+  "AU-ALBURY": {
+    "lastRunAt": "2026-04-17T05:07:20.246Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-MACKAY": {
+    "lastRunAt": "2026-04-17T05:07:20.246Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
   }
 }

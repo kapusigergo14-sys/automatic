@@ -5389,5 +5389,198 @@
     "hasBooking": false,
     "modernScore": 3,
     "collectedAt": "2026-04-16T20:15:54.217Z"
+  },
+  {
+    "name": "Cameron&Co",
+    "website": "https://www.cameronandco.com.au",
+    "city": "Townsville QLD",
+    "country": "AU",
+    "email": "hello@cameronandco.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T05:07:05.137Z"
+  },
+  {
+    "name": "Geelong Dental Centre",
+    "website": "https://geelongdentalcentre.com.au",
+    "phone": "+61 3 5223 2833",
+    "city": "Geelong VIC",
+    "country": "AU",
+    "email": "info@gdic.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T05:07:06.709Z"
+  },
+  {
+    "name": "Garden Street Dental",
+    "website": "https://gardenstreetdental.com.au",
+    "phone": "+61 3 5229 5811",
+    "city": "Geelong",
+    "country": "AU",
+    "email": "info@gardenstreetdental.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T05:07:08.756Z"
+  },
+  {
+    "name": "Kardinia Dental",
+    "website": "https://kardiniadental.com.au",
+    "phone": "+61 3 5229 5352",
+    "city": "Geelong VIC",
+    "country": "AU",
+    "email": "info@kardiniadental.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T05:07:09.616Z"
+  },
+  {
+    "name": "Southern Dental Specialists",
+    "website": "https://sdsendo.com.au",
+    "phone": "+61 3 5221 7511",
+    "city": "Geelong VIC",
+    "country": "AU",
+    "email": "reception@geelongendo.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T05:07:09.974Z"
+  },
+  {
+    "name": "Dental Spa",
+    "website": "https://dentalspa.com.au",
+    "phone": "+61 3 5223 1555",
+    "city": "Geelong VIC",
+    "country": "AU",
+    "email": "info@dentalspa.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T05:07:10.442Z"
+  },
+  {
+    "name": "Central Dental Geelong",
+    "website": "https://centraldentalgeelong.com.au",
+    "phone": "+61 3 5223 1719",
+    "city": "Geelong VIC",
+    "country": "AU",
+    "email": "info@centraldentalgeelong.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T05:07:10.935Z"
+  },
+  {
+    "name": "Myers Street Dental Clinic",
+    "website": "https://myersdental.com.au",
+    "city": "Geelong VIC",
+    "country": "AU",
+    "email": "info@myersdental.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T05:07:11.059Z"
+  },
+  {
+    "name": "Geelong Paediatric Dentist",
+    "website": "https://paediatricdentalhome.com.au",
+    "city": "Geelong VIC",
+    "country": "AU",
+    "email": "enquiries@paediatricdentalhome.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T05:07:11.495Z"
+  },
+  {
+    "name": "Dentists & Doctors",
+    "website": "https://dentistsndoctors.com.au",
+    "phone": "+61 3 5221 9129",
+    "city": "Geelong VIC",
+    "country": "AU",
+    "email": "%20maxbizz@mail.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T05:07:11.572Z"
+  },
+  {
+    "name": "Creative Dental Haus",
+    "website": "https://creativedentalhaus.com.au",
+    "phone": "+61 3 5222 6656",
+    "city": "Geelong VIC",
+    "country": "AU",
+    "email": "info@creativedentalhaus.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T05:07:11.998Z"
+  },
+  {
+    "name": "Whitehills Dental",
+    "website": "https://www.whitehillsdental.com.au",
+    "city": "White Hills",
+    "country": "AU",
+    "email": "reception@whitehillsdental.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T05:07:12.255Z"
+  },
+  {
+    "name": "Aberdeen Dental Care",
+    "website": "https://aberdeendentalcare.com.au",
+    "phone": "+61 3 5221 5066",
+    "city": "Geelong VIC",
+    "country": "AU",
+    "email": "info@aberdeendentalcare.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T05:07:12.280Z"
+  },
+  {
+    "name": "Dentaltown",
+    "website": "https://www.dentaltown.net.au",
+    "phone": "+61 3 6326 4368",
+    "city": "Mowbray",
+    "country": "AU",
+    "email": "launceston@dentaltown.net.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T05:07:12.541Z"
+  },
+  {
+    "name": "Geelong Dental",
+    "website": "https://geelongdental.com.au",
+    "phone": "+61 3 5277 2244",
+    "city": "Geelong VIC",
+    "country": "AU",
+    "email": "team@geelongdental.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T05:07:12.864Z"
+  },
+  {
+    "name": "Central Victorian Orthodontics - Bendigo Orthodontist",
+    "website": "https://www.centralvictorianorthodontics.com.au",
+    "phone": "+61 3 5442 1335",
+    "city": "Bendigo VIC",
+    "country": "AU",
+    "email": "admin@centralvicorthodontics.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T05:07:13.668Z"
+  },
+  {
+    "name": "Geelong Orthodontics",
+    "website": "https://goforasmile.com.au",
+    "city": "Geelong VIC",
+    "country": "AU",
+    "email": "info@goforasmile.com.au",
+    "hasBooking": true,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T05:07:13.720Z"
+  },
+  {
+    "name": "Smile Care Dentists",
+    "website": "https://smilecaredentists.com.au",
+    "phone": "+61 3 5223 3255",
+    "city": "Geelong VIC",
+    "country": "AU",
+    "email": "info@smilecaredentists.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T05:07:13.930Z"
   }
 ]
