@@ -1153,5 +1153,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@wilsoneduffus.co.uk": {
+    "sentAt": "2026-04-17T16:34:03.261Z",
+    "messageId": "<202604171634.44992738745@smtp-relay.mailin.fr>",
+    "company": "Wilsone + Duffus",
+    "subject": "Noticed something about Wilsone Duffus's site",
+    "city": "Aberdeen",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
