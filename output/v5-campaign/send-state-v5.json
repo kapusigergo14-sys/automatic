@@ -5694,5 +5694,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@newcastledentistry.co.uk": {
+    "sentAt": "2026-04-17T10:57:39.955Z",
+    "messageId": "<202604171057.10227829092@smtp-relay.mailin.fr>",
+    "company": "Newcastle Advanced Dentistry | Kingston Park Clinic | Private Dentist Newcastle",
+    "subject": "Noticed something about Newcastle Advanced Dentistry's site",
+    "city": "1 Stuart Ct",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
