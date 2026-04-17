@@ -6266,5 +6266,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "pcompanion@champlaindentalgroup.com": {
+    "sentAt": "2026-04-17T19:59:18.772Z",
+    "messageId": "<202604171959.55157210044@smtp-relay.mailin.fr>",
+    "company": "Champlain Dental Group",
+    "subject": "Noticed something about Champlain Dental Group's site",
+    "city": "South Burlington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
