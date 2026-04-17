@@ -1109,5 +1109,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "adminappeals@justice.gov.uk": {
+    "sentAt": "2026-04-17T16:33:36.999Z",
+    "messageId": "<202604171633.10750035135@smtp-relay.mailin.fr>",
+    "company": "The Upper Tribunal",
+    "subject": "Honest question about The Upper Tribunal's website",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
