@@ -251,5 +251,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "brad@bjlfirm.com": {
+    "sentAt": "2026-04-17T15:45:46.439Z",
+    "messageId": "<202604171545.61680446392@smtp-relay.mailin.fr>",
+    "company": "Bradley Johnson Attorneys",
+    "subject": "Honest question about Bradley Johnson Attorneys's website",
+    "city": "Seattle",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
