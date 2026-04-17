@@ -6310,5 +6310,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "aident@kropfdental.com": {
+    "sentAt": "2026-04-17T20:31:51.831Z",
+    "messageId": "<202604172031.82525840176@smtp-relay.mailin.fr>",
+    "company": "Associates In Dentistry",
+    "subject": "Associates In Dentistry — what happens when someone visits your site at 11pm?",
+    "city": "Burlington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 2
   }
 }
