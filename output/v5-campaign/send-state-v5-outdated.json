@@ -526,5 +526,17 @@
     "hasBooking": false,
     "modernScore": 2,
     "pitch": "redesign"
+  },
+  "aident@kropfdental.com": {
+    "sentAt": "2026-04-17T16:27:07.768Z",
+    "messageId": "<202604171627.82062596046@smtp-relay.mailin.fr>",
+    "company": "Associates In Dentistry",
+    "subject": "Associates In Dentistry — honest feedback on your site",
+    "city": "Burlington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 2,
+    "pitch": "redesign"
   }
 }
