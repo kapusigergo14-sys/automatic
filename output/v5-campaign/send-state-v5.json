@@ -5628,5 +5628,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@horfielddentalcare.co.uk": {
+    "sentAt": "2026-04-17T10:57:00.940Z",
+    "messageId": "<202604171057.42578304161@smtp-relay.mailin.fr>",
+    "company": "Horfield Dental Care",
+    "subject": "Noticed something about Horfield Dental Care's site",
+    "city": "525 Gloucester Rd",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
