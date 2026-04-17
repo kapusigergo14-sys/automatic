@@ -6211,5 +6211,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@chittendendental.com": {
+    "sentAt": "2026-04-17T19:21:55.327Z",
+    "messageId": "<202604171921.51197913868@smtp-relay.mailin.fr>",
+    "company": "Chittenden Dental + Wellness | Vermont Sleep Center",
+    "subject": "Chittenden Dental Wellness — what happens when someone visits your site at 11pm?",
+    "city": "Burlington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 2
   }
 }
