@@ -658,5 +658,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "stockport@walshsolicitors.com": {
+    "sentAt": "2026-04-17T16:29:06.935Z",
+    "messageId": "<202604171629.59627670139@smtp-relay.mailin.fr>",
+    "company": "Walsh Solicitors",
+    "subject": "Noticed something about Walsh Solicitors's site",
+    "city": "Stockport",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
