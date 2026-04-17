@@ -570,5 +570,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@injured.vegas": {
+    "sentAt": "2026-04-17T15:48:48.560Z",
+    "messageId": "<202604171548.81454815704@smtp-relay.mailin.fr>",
+    "company": "Brock Ohlson Injury Lawyers",
+    "subject": "Brock Ohlson Injury Lawyers — what happens when a client visits your site at 11pm?",
+    "city": "Las Vegas",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
