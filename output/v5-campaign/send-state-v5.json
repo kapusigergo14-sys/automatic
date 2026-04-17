@@ -5991,5 +5991,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@bradendentalcare.co.uk": {
+    "sentAt": "2026-04-17T11:00:35.942Z",
+    "messageId": "<202604171100.79436876690@smtp-relay.mailin.fr>",
+    "company": "Braden Dental Care",
+    "subject": "Noticed something about Braden Dental Care's site",
+    "city": "380 Ormeau Rd",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
