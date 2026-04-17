@@ -713,5 +713,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "enquiries@trowers.com": {
+    "sentAt": "2026-04-17T16:29:39.849Z",
+    "messageId": "<202604171629.14047262126@smtp-relay.mailin.fr>",
+    "company": "Trowers & Hamlins",
+    "subject": "Honest question about Trowers & Hamlins's website",
+    "city": "Exeter",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
