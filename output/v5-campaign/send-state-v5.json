@@ -4638,5 +4638,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "enquiries@dentalboutique.com.au": {
+    "sentAt": "2026-04-17T05:16:14.451Z",
+    "messageId": "<202604170516.39962504526@smtp-relay.mailin.fr>",
+    "company": "Dental Boutique Sydney",
+    "subject": "Honest question about Dental Boutique Sydney's website",
+    "city": "Sydney Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
