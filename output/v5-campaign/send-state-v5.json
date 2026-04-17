@@ -5562,5 +5562,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "contact@montgomerydental.uk": {
+    "sentAt": "2026-04-17T10:56:22.062Z",
+    "messageId": "<202604171056.14302871061@smtp-relay.mailin.fr>",
+    "company": "Montgomery Dental Care",
+    "subject": "Noticed something about Montgomery Dental Care's site",
+    "city": "83 Infirmary Rd",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
