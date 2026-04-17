@@ -5672,5 +5672,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "reception@duthie.dental": {
+    "sentAt": "2026-04-17T10:57:27.033Z",
+    "messageId": "<202604171057.29735035552@smtp-relay.mailin.fr>",
+    "company": "Duthie Dental",
+    "subject": "Duthie Dental — what happens when someone visits your site at 11pm?",
+    "city": "113-119 Woolton Rd",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
