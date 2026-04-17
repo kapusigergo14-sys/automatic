@@ -6244,5 +6244,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "mailbox@timberlaneadultdentistry.com": {
+    "sentAt": "2026-04-17T19:41:52.344Z",
+    "messageId": "<202604171941.72699563207@smtp-relay.mailin.fr>",
+    "company": "Timberlane Adult Dentistry & Periodontics",
+    "subject": "Timberlane Adult Dentistry & — what happens when someone visits your site at 11pm?",
+    "city": "Burlington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
