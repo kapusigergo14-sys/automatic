@@ -1175,5 +1175,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "mail@familylawgroup.co.uk": {
+    "sentAt": "2026-04-17T16:34:16.373Z",
+    "messageId": "<202604171634.90183670981@smtp-relay.mailin.fr>",
+    "company": "faMily law group",
+    "subject": "Honest question about faMily law group's website",
+    "city": "Cambridge",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
