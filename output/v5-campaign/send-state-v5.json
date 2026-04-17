@@ -5276,5 +5276,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "hello@freshfamilydental.com.au": {
+    "sentAt": "2026-04-17T05:22:37.019Z",
+    "messageId": "<202604170522.23679851997@smtp-relay.mailin.fr>",
+    "company": "Fresh Family Dental",
+    "subject": "Noticed something about Fresh Family Dental's site",
+    "city": "Gold Coast QLD",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
