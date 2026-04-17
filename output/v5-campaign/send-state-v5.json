@@ -6255,5 +6255,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "office@bradkklinedmd.com": {
+    "sentAt": "2026-04-17T19:49:26.603Z",
+    "messageId": "<202604171949.82574510060@smtp-relay.mailin.fr>",
+    "company": "Amazing Smiles Inc Dr. Brad Kline, DMD",
+    "subject": "Honest question about Amazing Smiles Inc Dr.'s website",
+    "city": "Burlington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
