@@ -490,5 +490,17 @@
     "hasBooking": false,
     "modernScore": 2,
     "pitch": "redesign"
+  },
+  "info@chittendendental.com": {
+    "sentAt": "2026-04-17T16:26:48.088Z",
+    "messageId": "<202604171626.33604969606@smtp-relay.mailin.fr>",
+    "company": "Chittenden Dental + Wellness | Vermont Sleep Center",
+    "subject": "Chittenden Dental Wellness — honest feedback on your site",
+    "city": "Burlington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 2,
+    "pitch": "redesign"
   }
 }
