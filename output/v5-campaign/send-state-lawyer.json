@@ -295,5 +295,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@muhaisenlaw.com": {
+    "sentAt": "2026-04-17T15:46:11.619Z",
+    "messageId": "<202604171546.13971303499@smtp-relay.mailin.fr>",
+    "company": "Law Firm",
+    "subject": "Noticed something about Law Firm's site",
+    "city": "Denver",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
