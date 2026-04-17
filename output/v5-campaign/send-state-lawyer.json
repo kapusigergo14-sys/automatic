@@ -856,5 +856,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "jose@thediazlawfirm.com": {
+    "sentAt": "2026-04-17T16:31:05.368Z",
+    "messageId": "<202604171631.60941998851@smtp-relay.mailin.fr>",
+    "company": "The Diaz Law Firm, P.A.",
+    "subject": "Noticed something about The Diaz Law Firm's site",
+    "city": "Hialeah",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
