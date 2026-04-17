@@ -405,5 +405,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@lawfirmofjeremyrosenthal.com": {
+    "sentAt": "2026-04-17T15:47:14.422Z",
+    "messageId": "<202604171547.67817187474@smtp-relay.mailin.fr>",
+    "company": "Denver Car Accident Attorneys - Law Firm of Jeremy Rosenthal",
+    "subject": "Denver Car Accident Attorneys — what happens when a client visits your site at 11pm?",
+    "city": "Denver",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
