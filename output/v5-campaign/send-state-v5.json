@@ -5980,5 +5980,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@thedentalcentrebelfast.com": {
+    "sentAt": "2026-04-17T11:00:29.416Z",
+    "messageId": "<202604171100.31156621862@smtp-relay.mailin.fr>",
+    "company": "The Dental Centre Belfast",
+    "subject": "Honest question about The Dental Centre Belfast's website",
+    "city": "315-317 Donegall Rd.",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
