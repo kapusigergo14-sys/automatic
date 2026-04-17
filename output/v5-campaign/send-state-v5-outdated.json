@@ -538,5 +538,17 @@
     "hasBooking": true,
     "modernScore": 2,
     "pitch": "redesign"
+  },
+  "admin@thedentalloftme.com": {
+    "sentAt": "2026-04-17T16:27:14.266Z",
+    "messageId": "<202604171627.69587996265@smtp-relay.mailin.fr>",
+    "company": "The Dental Loft",
+    "subject": "My honest take on The Dental Loft's website",
+    "city": "Portland",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2,
+    "pitch": "redesign"
   }
 }
