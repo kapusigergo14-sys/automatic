@@ -1098,5 +1098,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@rd-legal.com": {
+    "sentAt": "2026-04-17T16:33:30.447Z",
+    "messageId": "<202604171633.96523869154@smtp-relay.mailin.fr>",
+    "company": "RD Legal",
+    "subject": "RD Legal — what happens when a client visits your site at 11pm?",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
