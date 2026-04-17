@@ -977,5 +977,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "law@fergussonlaw.com": {
+    "sentAt": "2026-04-17T16:32:17.995Z",
+    "messageId": "<202604171632.95405709724@smtp-relay.mailin.fr>",
+    "company": "Fergusson Law",
+    "subject": "Honest question about Fergusson Law's website",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
