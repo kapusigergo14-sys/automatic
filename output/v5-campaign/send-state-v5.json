@@ -5243,5 +5243,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@symmetrydental.com.au": {
+    "sentAt": "2026-04-17T05:22:17.426Z",
+    "messageId": "<202604170522.72122263584@smtp-relay.mailin.fr>",
+    "company": "Symmetry Dental",
+    "subject": "Noticed something about Symmetry Dental's site",
+    "city": "Kingston",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
