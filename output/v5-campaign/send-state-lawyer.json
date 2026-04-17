@@ -1043,5 +1043,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "beverley@johnsonlegal.co.uk": {
+    "sentAt": "2026-04-17T16:32:57.502Z",
+    "messageId": "<202604171632.74257009821@smtp-relay.mailin.fr>",
+    "company": "Johnson Legal Solicitors",
+    "subject": "Honest question about Johnson Legal Solicitors's website",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
