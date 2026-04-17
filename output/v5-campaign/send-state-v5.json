@@ -5067,5 +5067,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "enquiry@odental.com.au": {
+    "sentAt": "2026-04-17T05:20:31.252Z",
+    "messageId": "<202604170520.98339677463@smtp-relay.mailin.fr>",
+    "company": "O Dental",
+    "subject": "Honest question about O Dental's website",
+    "city": "Zetland",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
