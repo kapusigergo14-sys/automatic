@@ -515,5 +515,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "deberly@emclawyers.com": {
+    "sentAt": "2026-04-17T15:48:17.086Z",
+    "messageId": "<202604171548.19469565163@smtp-relay.mailin.fr>",
+    "company": "Eberly McMahon Copetas LLC",
+    "subject": "Honest question about Eberly McMahon Copetas LLC's website",
+    "city": "Cincinnati",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
