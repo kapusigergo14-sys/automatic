@@ -5221,5 +5221,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@adelaidecosmeticdentistry.com.au": {
+    "sentAt": "2026-04-17T05:22:04.311Z",
+    "messageId": "<202604170522.92484856202@smtp-relay.mailin.fr>",
+    "company": "Adelaide Cosmetic Dentistry",
+    "subject": "Adelaide Cosmetic Dentistry — what happens when someone visits your site at 11pm?",
+    "city": "Adelaide SA",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
