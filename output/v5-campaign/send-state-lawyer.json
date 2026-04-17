@@ -944,5 +944,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "enquiries@lawfordkidd.co.uk": {
+    "sentAt": "2026-04-17T16:31:58.346Z",
+    "messageId": "<202604171631.70178400435@smtp-relay.mailin.fr>",
+    "company": "Lawford Kidd",
+    "subject": "Honest question about Lawford Kidd's website",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
