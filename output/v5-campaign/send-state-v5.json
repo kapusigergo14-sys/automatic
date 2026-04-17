@@ -4550,5 +4550,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "reception@faithdental.com.au": {
+    "sentAt": "2026-04-17T05:15:21.944Z",
+    "messageId": "<202604170515.63894032299@smtp-relay.mailin.fr>",
+    "company": "Faith Dental",
+    "subject": "Noticed something about Faith Dental's site",
+    "city": "Rockhampton Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
