@@ -5848,5 +5848,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "enquiries@bamboodental.co.uk": {
+    "sentAt": "2026-04-17T10:59:10.616Z",
+    "messageId": "<202604171059.70413257639@smtp-relay.mailin.fr>",
+    "company": "Bamboo Cosmetic Dentistry",
+    "subject": "Honest question about Bamboo Cosmetic Dentistry's website",
+    "city": "28 Cowbridge Rd W",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
