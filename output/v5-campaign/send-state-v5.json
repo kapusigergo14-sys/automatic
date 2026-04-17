@@ -6123,5 +6123,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "32009@nadentalgroup.com": {
+    "sentAt": "2026-04-17T18:17:40.144Z",
+    "messageId": "<202604171817.88154859768@smtp-relay.mailin.fr>",
+    "company": "Winning Smiles - Buffalo",
+    "subject": "Honest question about Winning Smiles's website",
+    "city": "Buffalo",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
