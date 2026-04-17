@@ -4891,5 +4891,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "info@wilddental.com.au": {
+    "sentAt": "2026-04-17T05:18:46.203Z",
+    "messageId": "<202604170518.59352099089@smtp-relay.mailin.fr>",
+    "company": "Shumack Dental & Implants",
+    "subject": "Shumack Dental & Implants — what happens when someone visits your site at 11pm?",
+    "city": "Wagga Wagga Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
