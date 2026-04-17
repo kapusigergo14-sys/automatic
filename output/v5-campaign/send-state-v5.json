@@ -6112,5 +6112,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "smiles@silvermaplerochester.com": {
+    "sentAt": "2026-04-17T18:12:08.702Z",
+    "messageId": "<202604171812.66695784151@smtp-relay.mailin.fr>",
+    "company": "Silver Maple Dental",
+    "subject": "Silver Maple Dental — what happens when someone visits your site at 11pm?",
+    "city": "Rochester",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
