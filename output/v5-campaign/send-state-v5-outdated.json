@@ -574,5 +574,17 @@
     "hasBooking": false,
     "modernScore": 2,
     "pitch": "redesign"
+  },
+  "dentalfloss12@gmail.com": {
+    "sentAt": "2026-04-17T16:27:34.062Z",
+    "messageId": "<202604171627.35561061172@smtp-relay.mailin.fr>",
+    "company": "Portland Dental Health Care & Implant Center",
+    "subject": "My honest take on Portland Dental Health Care's website",
+    "city": "Portland",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2,
+    "pitch": "redesign"
   }
 }
