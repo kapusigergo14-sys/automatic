@@ -5683,5 +5683,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "enquiries@newcastledentalcare.co.uk": {
+    "sentAt": "2026-04-17T10:57:33.440Z",
+    "messageId": "<202604171057.14924124986@smtp-relay.mailin.fr>",
+    "company": "Newcastle Dental Care",
+    "subject": "Honest question about Newcastle Dental Care's website",
+    "city": "11 Ridley Pl",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
