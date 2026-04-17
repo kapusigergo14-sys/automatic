@@ -5133,5 +5133,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@summerhillsmiles.com.au": {
+    "sentAt": "2026-04-17T05:21:12.006Z",
+    "messageId": "<202604170521.11665982318@smtp-relay.mailin.fr>",
+    "company": "Summer Hill Smiles",
+    "subject": "Honest question about Summer Hill Smiles's website",
+    "city": "Sydney NSW",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
