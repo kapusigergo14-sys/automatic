@@ -5419,5 +5419,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "manchester@nightanddaydentist.co.uk": {
+    "sentAt": "2026-04-17T10:54:57.611Z",
+    "messageId": "<202604171054.55326165261@smtp-relay.mailin.fr>",
+    "company": "Night and Day Emergency Dentist Manchester",
+    "subject": "Honest question about Night and Day Emergency's website",
+    "city": "Withington",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
