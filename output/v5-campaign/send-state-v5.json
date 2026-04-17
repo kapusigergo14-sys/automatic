@@ -5232,5 +5232,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@goodwooddental.com.au": {
+    "sentAt": "2026-04-17T05:22:10.837Z",
+    "messageId": "<202604170522.74435287663@smtp-relay.mailin.fr>",
+    "company": "Goodwood Dental",
+    "subject": "Honest question about Goodwood Dental's website",
+    "city": "Adelaide SA",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
