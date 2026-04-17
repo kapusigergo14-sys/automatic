@@ -768,5 +768,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "dave@lab6.com": {
+    "sentAt": "2026-04-17T16:30:12.535Z",
+    "messageId": "<202604171630.22835410066@smtp-relay.mailin.fr>",
+    "company": "Amar Law Group, PLLC",
+    "subject": "Amar Law Group PLLC — what happens when a client visits your site at 11pm?",
+    "city": "Scottsdale",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 2
   }
 }
