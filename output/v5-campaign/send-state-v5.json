@@ -5254,5 +5254,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@precisiondentalcare.net.au": {
+    "sentAt": "2026-04-17T05:22:24.005Z",
+    "messageId": "<202604170522.47618870308@smtp-relay.mailin.fr>",
+    "company": "Precision Dental Care",
+    "subject": "Precision Dental Care — what happens when someone visits your site at 11pm?",
+    "city": "Kingston",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
