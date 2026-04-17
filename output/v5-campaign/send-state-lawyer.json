@@ -548,5 +548,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "nbui@nbuilaw.com": {
+    "sentAt": "2026-04-17T15:48:35.938Z",
+    "messageId": "<202604171548.89643530766@smtp-relay.mailin.fr>",
+    "company": "Nicholas M. Bui Law Firm",
+    "subject": "Honest question about Nicholas M. Bui Law's website",
+    "city": "Las Vegas",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
