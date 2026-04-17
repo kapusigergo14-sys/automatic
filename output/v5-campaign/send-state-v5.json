@@ -5364,5 +5364,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "reception@greathamptondental.co.uk": {
+    "sentAt": "2026-04-17T10:54:25.158Z",
+    "messageId": "<202604171054.31669113610@smtp-relay.mailin.fr>",
+    "company": "Great Hampton Dental",
+    "subject": "Noticed something about Great Hampton Dental's site",
+    "city": "124 Livery St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
