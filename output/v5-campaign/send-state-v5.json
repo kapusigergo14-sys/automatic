@@ -4957,5 +4957,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "godental@dentegrity.com.au": {
+    "sentAt": "2026-04-17T05:19:25.808Z",
+    "messageId": "<202604170519.10511716881@smtp-relay.mailin.fr>",
+    "company": "Go Dental",
+    "subject": "Go Dental — what happens when someone visits your site at 11pm?",
+    "city": "Wagga Wagga Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
