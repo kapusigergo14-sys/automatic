@@ -4814,5 +4814,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "admin@foreverdentaltoowoomba.com.au": {
+    "sentAt": "2026-04-17T05:18:00.174Z",
+    "messageId": "<202604170518.13352537992@smtp-relay.mailin.fr>",
+    "company": "The Forever Dental & Smile Centre",
+    "subject": "Noticed something about The Forever Dental &'s site",
+    "city": "Toowoomba Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
