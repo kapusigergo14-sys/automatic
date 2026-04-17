@@ -5463,5 +5463,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "selbyroad@newsmiledentalcare.co.uk": {
+    "sentAt": "2026-04-17T10:55:23.681Z",
+    "messageId": "<202604171055.87670870586@smtp-relay.mailin.fr>",
+    "company": "New Smile Dental Care",
+    "subject": "Noticed something about New Smile Dental Care's site",
+    "city": "Woodhouse",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
