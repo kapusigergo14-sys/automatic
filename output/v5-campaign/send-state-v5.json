@@ -6079,5 +6079,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "smiles@fullheartdentistry.com": {
+    "sentAt": "2026-04-17T17:50:00.142Z",
+    "messageId": "<202604171750.69966854737@smtp-relay.mailin.fr>",
+    "company": "Full Heart Dentistry",
+    "subject": "Full Heart Dentistry — what happens when someone visits your site at 11pm?",
+    "city": "Rochester",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
