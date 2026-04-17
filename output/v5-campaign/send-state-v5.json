@@ -5947,5 +5947,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@sandowndental.com": {
+    "sentAt": "2026-04-17T11:00:09.725Z",
+    "messageId": "<202604171100.23886723066@smtp-relay.mailin.fr>",
+    "company": "Sandown Dental & Implant Clinic",
+    "subject": "Honest question about Sandown Dental & Implant's website",
+    "city": "33-35 Sandown Rd",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
