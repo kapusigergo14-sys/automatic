@@ -5397,5 +5397,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "enquiries@gartsidestreet.com": {
+    "sentAt": "2026-04-17T10:54:44.607Z",
+    "messageId": "<202604171054.66130885423@smtp-relay.mailin.fr>",
+    "company": "Gartside Street Dental Lounge",
+    "subject": "Noticed something about Gartside Street Dental Lounge's site",
+    "city": "74 Gartside St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
