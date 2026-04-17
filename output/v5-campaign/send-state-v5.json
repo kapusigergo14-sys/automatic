@@ -5958,5 +5958,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@eastbelfastdentalclinic.co.uk": {
+    "sentAt": "2026-04-17T11:00:16.339Z",
+    "messageId": "<202604171100.38035600180@smtp-relay.mailin.fr>",
+    "company": "East Belfast Dental & Implants",
+    "subject": "Noticed something about East Belfast Dental &'s site",
+    "city": "65 Cregagh Rd",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 2
   }
 }
