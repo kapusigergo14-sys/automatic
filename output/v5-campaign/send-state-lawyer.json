@@ -988,5 +988,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@watermans.co.uk": {
+    "sentAt": "2026-04-17T16:32:24.592Z",
+    "messageId": "<202604171632.65302793943@smtp-relay.mailin.fr>",
+    "company": "Watermans Solicitors",
+    "subject": "Noticed something about Watermans Solicitors's site",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
