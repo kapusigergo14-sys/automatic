@@ -5408,5 +5408,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@manchesterdentalpractice.co.uk": {
+    "sentAt": "2026-04-17T10:54:51.152Z",
+    "messageId": "<202604171054.82666688094@smtp-relay.mailin.fr>",
+    "company": "Manchester Dental Practice",
+    "subject": "Manchester Dental Practice — what happens when someone visits your site at 11pm?",
+    "city": "2-4 Exchange St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
