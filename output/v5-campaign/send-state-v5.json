@@ -5826,5 +5826,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@cardiffdentalcare.com": {
+    "sentAt": "2026-04-17T10:58:57.616Z",
+    "messageId": "<202604171058.39537988433@smtp-relay.mailin.fr>",
+    "company": "Church Road Dental Practice",
+    "subject": "Noticed something about Church Road Dental Practice's site",
+    "city": "33 Church Rd",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
