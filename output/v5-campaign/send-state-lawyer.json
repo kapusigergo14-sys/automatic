@@ -1120,5 +1120,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "wendy@mcintoshfamilylaw.com": {
+    "sentAt": "2026-04-17T16:33:43.570Z",
+    "messageId": "<202604171633.89661171641@smtp-relay.mailin.fr>",
+    "company": "McIntosh Family Law",
+    "subject": "Noticed something about McIntosh Family Law's site",
+    "city": "Aberdeen",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
