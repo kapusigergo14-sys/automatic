@@ -680,5 +680,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "clerks@7hs.co.uk": {
+    "sentAt": "2026-04-17T16:29:19.993Z",
+    "messageId": "<202604171629.17119432610@smtp-relay.mailin.fr>",
+    "company": "7 Harrington Street Chambers",
+    "subject": "Honest question about 7 Harrington Street Chambers's website",
+    "city": "Liverpool",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
