@@ -504,5 +504,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "team@denvertrafficlawyer.com": {
+    "sentAt": "2026-04-17T15:48:10.874Z",
+    "messageId": "<202604171548.12401926734@smtp-relay.mailin.fr>",
+    "company": "Denver Traffic Lawyer, LLC",
+    "subject": "Denver Traffic Lawyer LLC — what happens when a client visits your site at 11pm?",
+    "city": "Denver",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
