@@ -4759,5 +4759,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "admin@toowoombadental.com.au": {
+    "sentAt": "2026-04-17T05:17:27.143Z",
+    "messageId": "<202604170517.92248092236@smtp-relay.mailin.fr>",
+    "company": "Toowoomba Dental",
+    "subject": "Toowoomba Dental — what happens when someone visits your site at 11pm?",
+    "city": "Toowoomba Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
