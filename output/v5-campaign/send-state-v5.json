@@ -6145,5 +6145,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@brightondc.com": {
+    "sentAt": "2026-04-17T18:33:42.242Z",
+    "messageId": "<202604171833.30609459606@smtp-relay.mailin.fr>",
+    "company": "Brighton Dental Care - Implants & Invisalign Dentist Clinic In Rochester NY",
+    "subject": "Brighton Dental Care — what happens when someone visits your site at 11pm?",
+    "city": "Rochester",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
