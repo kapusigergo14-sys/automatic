@@ -4803,5 +4803,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "toowoomba@1300smiles.com.au": {
+    "sentAt": "2026-04-17T05:17:53.621Z",
+    "messageId": "<202604170517.29607570624@smtp-relay.mailin.fr>",
+    "company": "1300SMILES Dentists Toowoomba",
+    "subject": "Honest question about 1300SMILES Dentists Toowoomba's website",
+    "city": "Toowoomba Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
