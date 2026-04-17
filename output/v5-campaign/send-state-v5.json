@@ -5892,5 +5892,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@birchgrovedental.co.uk": {
+    "sentAt": "2026-04-17T10:59:36.658Z",
+    "messageId": "<202604171059.20928100590@smtp-relay.mailin.fr>",
+    "company": "Birchgrove Dental Practice",
+    "subject": "Noticed something about Birchgrove Dental Practice's site",
+    "city": "Birchgrove",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
