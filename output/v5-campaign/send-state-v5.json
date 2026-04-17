@@ -5639,5 +5639,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@liverpoolsmilestudio.co.uk": {
+    "sentAt": "2026-04-17T10:57:07.614Z",
+    "messageId": "<202604171057.41723737720@smtp-relay.mailin.fr>",
+    "company": "Liverpool Smile Studio",
+    "subject": "Liverpool Smile Studio — what happens when someone visits your site at 11pm?",
+    "city": "65 Rodney St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
