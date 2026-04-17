@@ -4594,5 +4594,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "hello@paramountdentalsydney.com.au": {
+    "sentAt": "2026-04-17T05:15:48.353Z",
+    "messageId": "<202604170515.70814951573@smtp-relay.mailin.fr>",
+    "company": "Paramount Dental Sydney",
+    "subject": "Paramount Dental Sydney — what happens when someone visits your site at 11pm?",
+    "city": "Sydney Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
