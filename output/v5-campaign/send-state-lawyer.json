@@ -999,5 +999,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "andyb@denholmassociates.com": {
+    "sentAt": "2026-04-17T16:32:31.154Z",
+    "messageId": "<202604171632.64921657714@smtp-relay.mailin.fr>",
+    "company": "Denholm Associates",
+    "subject": "Denholm Associates — what happens when a client visits your site at 11pm?",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
