@@ -361,5 +361,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "paul@hannafordimmigration.com": {
+    "sentAt": "2026-04-17T15:46:49.253Z",
+    "messageId": "<202604171546.42518745495@smtp-relay.mailin.fr>",
+    "company": "Hannaford Immigration Law",
+    "subject": "Noticed something about Hannaford Immigration Law's site",
+    "city": "Boston",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
