@@ -1219,5 +1219,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "enquiries@connellws.co.uk": {
+    "sentAt": "2026-04-17T16:34:42.643Z",
+    "messageId": "<202604171634.25122353601@smtp-relay.mailin.fr>",
+    "company": "Connell and Connell WS",
+    "subject": "Noticed something about Connell and Connell WS's site",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
