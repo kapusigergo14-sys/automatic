@@ -4715,5 +4715,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "reception@tamworthdental.com": {
+    "sentAt": "2026-04-17T05:17:00.748Z",
+    "messageId": "<202604170517.29189207921@smtp-relay.mailin.fr>",
+    "company": "Your Tamworth Dentist",
+    "subject": "Noticed something about Your Tamworth Dentist's site",
+    "city": "Tamworth Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
