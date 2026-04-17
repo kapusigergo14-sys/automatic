@@ -6013,5 +6013,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@martinacollins.com": {
+    "sentAt": "2026-04-17T11:00:48.849Z",
+    "messageId": "<202604171100.40471233260@smtp-relay.mailin.fr>",
+    "company": "Martina Collins Dental & Skin Clinic - (Private Dentist Belfast | Cosmetic Dentist Belfast | Invisalign Belfast)",
+    "subject": "Honest question about Martina Collins Dental &'s website",
+    "city": "509-511 Lisburn Rd",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
