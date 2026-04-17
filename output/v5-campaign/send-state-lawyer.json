@@ -724,5 +724,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@hughjames.com": {
+    "sentAt": "2026-04-17T16:29:46.364Z",
+    "messageId": "<202604171629.87811952400@smtp-relay.mailin.fr>",
+    "company": "Huw James",
+    "subject": "Noticed something about Huw James's site",
+    "city": "Cardiff",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
