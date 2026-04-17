@@ -5716,5 +5716,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "reception@greatnorthdentalcare.co.uk": {
+    "sentAt": "2026-04-17T10:57:52.944Z",
+    "messageId": "<202604171057.62681948760@smtp-relay.mailin.fr>",
+    "company": "Great North Dental Care",
+    "subject": "Honest question about Great North Dental Care's website",
+    "city": "Wideopen",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
