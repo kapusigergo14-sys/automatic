@@ -559,5 +559,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "docs@amarlawgrp.com": {
+    "sentAt": "2026-04-17T15:48:42.174Z",
+    "messageId": "<202604171548.83795286955@smtp-relay.mailin.fr>",
+    "company": "Amar Law Group, PLLC",
+    "subject": "Noticed something about Amar Law Group PLLC's site",
+    "city": "Las Vegas",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
