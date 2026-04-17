@@ -625,5 +625,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "law@rupertwood.co.uk": {
+    "sentAt": "2026-04-17T16:28:47.248Z",
+    "messageId": "<202604171628.75689821870@smtp-relay.mailin.fr>",
+    "company": "Rupert Wood & Son Solicitors",
+    "subject": "Noticed something about Rupert Wood & Son's site",
+    "city": "Ashton-under-Lyne",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
