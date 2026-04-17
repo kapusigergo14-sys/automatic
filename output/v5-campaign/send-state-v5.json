@@ -5331,5 +5331,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@twelvedental.com": {
+    "sentAt": "2026-04-17T10:54:05.654Z",
+    "messageId": "<202604171054.10517896395@smtp-relay.mailin.fr>",
+    "company": "Twelve Dental",
+    "subject": "Noticed something about Twelve Dental's site",
+    "city": "12 Waterloo St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
