@@ -6222,5 +6222,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 2
+  },
+  "1stadcolonie@mydentalmail.com": {
+    "sentAt": "2026-04-17T19:26:07.266Z",
+    "messageId": "<202604171926.87279014550@smtp-relay.mailin.fr>",
+    "company": "1st Advantage Dental - Colonie",
+    "subject": "Honest question about 1st Advantage Dental's website",
+    "city": "Albany",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
