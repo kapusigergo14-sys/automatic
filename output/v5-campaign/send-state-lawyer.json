@@ -1208,5 +1208,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@bandhattonbutton.com": {
+    "sentAt": "2026-04-17T16:34:36.081Z",
+    "messageId": "<202604171634.97123350030@smtp-relay.mailin.fr>",
+    "company": "Band Hatton Button",
+    "subject": "Honest question about Band Hatton Button's website",
+    "city": "Coventry",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
