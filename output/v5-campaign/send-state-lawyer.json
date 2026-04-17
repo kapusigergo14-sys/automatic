@@ -1142,5 +1142,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "aberdeen@mackinnons.com": {
+    "sentAt": "2026-04-17T16:33:56.729Z",
+    "messageId": "<202604171633.23484585332@smtp-relay.mailin.fr>",
+    "company": "Mackinnons",
+    "subject": "Honest question about Mackinnons's website",
+    "city": "Aberdeen",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
