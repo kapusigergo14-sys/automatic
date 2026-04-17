@@ -4440,5 +4440,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "info@melbournedentist.com": {
+    "sentAt": "2026-04-17T05:14:15.368Z",
+    "messageId": "<202604170514.39217229533@smtp-relay.mailin.fr>",
+    "company": "Melbourne Dentist",
+    "subject": "Honest question about Melbourne Dentist's website",
+    "city": "Melbourne Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
