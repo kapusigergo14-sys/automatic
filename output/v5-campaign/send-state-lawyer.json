@@ -449,5 +449,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@lippmanrecupero.com": {
+    "sentAt": "2026-04-17T15:47:39.328Z",
+    "messageId": "<202604171547.82583555120@smtp-relay.mailin.fr>",
+    "company": "Lippman Recupero",
+    "subject": "Honest question about Lippman Recupero's website",
+    "city": "Tucson",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
