@@ -460,5 +460,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "leevanhorn@vanhornlawoffice.net": {
+    "sentAt": "2026-04-17T15:47:45.578Z",
+    "messageId": "<202604171547.35558595195@smtp-relay.mailin.fr>",
+    "company": "Van Horn Law Office",
+    "subject": "Noticed something about Van Horn Law Office's site",
+    "city": "Lexington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
