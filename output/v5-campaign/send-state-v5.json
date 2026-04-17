@@ -5320,5 +5320,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "welcome@acorndental.co.uk": {
+    "sentAt": "2026-04-17T10:53:59.204Z",
+    "messageId": "<202604171053.76077581230@smtp-relay.mailin.fr>",
+    "company": "Acorn Dental - Moseley, Birmingham",
+    "subject": "Honest question about Acorn Dental's website",
+    "city": "208 Swanshurst Ln",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
