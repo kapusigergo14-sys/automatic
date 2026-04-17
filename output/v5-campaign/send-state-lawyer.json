@@ -64,5 +64,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "rutanlaw@gmail.com": {
+    "sentAt": "2026-04-17T15:43:59.553Z",
+    "messageId": "<202604171543.91581350637@smtp-relay.mailin.fr>",
+    "company": "Rutan Law",
+    "subject": "Noticed something about Rutan Law's site",
+    "city": "Columbus",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
