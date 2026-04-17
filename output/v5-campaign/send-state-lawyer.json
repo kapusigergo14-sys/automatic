@@ -196,5 +196,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "media@budgeandheipt.com": {
+    "sentAt": "2026-04-17T15:45:15.022Z",
+    "messageId": "<202604171545.20753418763@smtp-relay.mailin.fr>",
+    "company": "Budge & Heipt PLLC",
+    "subject": "Noticed something about Budge & Heipt PLLC's site",
+    "city": "Seattle",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
