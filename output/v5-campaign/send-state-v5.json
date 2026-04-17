@@ -5584,5 +5584,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "hello@bdsiclinic.co.uk": {
+    "sentAt": "2026-04-17T10:56:35.012Z",
+    "messageId": "<202604171056.22310625084@smtp-relay.mailin.fr>",
+    "company": "Bristol Dental Sedation and Implant Clinic",
+    "subject": "Honest question about Bristol Dental Sedation and's website",
+    "city": "88-90 High St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
