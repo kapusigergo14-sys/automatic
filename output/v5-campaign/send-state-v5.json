@@ -5529,5 +5529,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "enquiries@sharrowvaledentalcare.co.uk": {
+    "sentAt": "2026-04-17T10:56:02.447Z",
+    "messageId": "<202604171056.93128040077@smtp-relay.mailin.fr>",
+    "company": "Sharrow Vale Dental Care",
+    "subject": "Noticed something about Sharrow Vale Dental Care's site",
+    "city": "Sharrow",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
