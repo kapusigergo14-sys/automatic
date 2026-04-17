@@ -5309,5 +5309,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@edgbastondentalcentre.com": {
+    "sentAt": "2026-04-17T10:53:52.693Z",
+    "messageId": "<202604171053.34267031075@smtp-relay.mailin.fr>",
+    "company": "Edgbaston Dental Centre",
+    "subject": "Edgbaston Dental Centre — what happens when someone visits your site at 11pm?",
+    "city": "Edgbaston",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
