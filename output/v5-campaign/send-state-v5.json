@@ -5914,5 +5914,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "hello@newlifeteeth.co.uk": {
+    "sentAt": "2026-04-17T10:59:49.772Z",
+    "messageId": "<202604171059.53466133428@smtp-relay.mailin.fr>",
+    "company": "New Life Teeth",
+    "subject": "Honest question about New Life Teeth's website",
+    "city": "743-745 Lisburn Rd",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
