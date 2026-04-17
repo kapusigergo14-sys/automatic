@@ -5056,5 +5056,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@dentistsonstarkey.com.au": {
+    "sentAt": "2026-04-17T05:20:24.667Z",
+    "messageId": "<202604170520.95114003321@smtp-relay.mailin.fr>",
+    "company": "Dentists on Starkey",
+    "subject": "Dentists on Starkey — what happens when someone visits your site at 11pm?",
+    "city": "Sydney NSW",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
