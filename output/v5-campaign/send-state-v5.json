@@ -5815,5 +5815,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "enquiries@thedentalsurgerycardiff.co.uk": {
+    "sentAt": "2026-04-17T10:58:51.237Z",
+    "messageId": "<202604171058.76088101122@smtp-relay.mailin.fr>",
+    "company": "Cardiff Dental and Aesthetics Centre",
+    "subject": "Honest question about Cardiff Dental and Aesthetics's website",
+    "city": "107 Clare Rd",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
