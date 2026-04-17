@@ -4858,5 +4858,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "info@totallysmiles.com.au": {
+    "sentAt": "2026-04-17T05:18:26.457Z",
+    "messageId": "<202604170518.91167785440@smtp-relay.mailin.fr>",
+    "company": "Totally Smiles Townsville",
+    "subject": "Totally Smiles Townsville — what happens when someone visits your site at 11pm?",
+    "city": "Townsville Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
