@@ -6090,5 +6090,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "spinellidental@gmail.com": {
+    "sentAt": "2026-04-17T18:00:29.038Z",
+    "messageId": "<202604171800.29821937172@smtp-relay.mailin.fr>",
+    "company": "Spinelli Dental",
+    "subject": "Honest question about Spinelli Dental's website",
+    "city": "Rochester",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
