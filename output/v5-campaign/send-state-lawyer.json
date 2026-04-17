@@ -867,5 +867,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "aman@amansharmalaw.com": {
+    "sentAt": "2026-04-17T16:31:12.006Z",
+    "messageId": "<202604171631.92452866556@smtp-relay.mailin.fr>",
+    "company": "The Sharma Law Firm",
+    "subject": "The Sharma Law Firm — what happens when a client visits your site at 11pm?",
+    "city": "Wilmington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
