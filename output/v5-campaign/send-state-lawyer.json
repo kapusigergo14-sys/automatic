@@ -471,5 +471,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "justin@durstock.com": {
+    "sentAt": "2026-04-17T15:47:51.872Z",
+    "messageId": "<202604171547.83283069746@smtp-relay.mailin.fr>",
+    "company": "Durstock & Durstock",
+    "subject": "Durstock & Durstock — what happens when a client visits your site at 11pm?",
+    "city": "Cincinnati OH",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
