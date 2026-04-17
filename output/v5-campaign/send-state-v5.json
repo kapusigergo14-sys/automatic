@@ -4902,5 +4902,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "admin@thetoothstudio.com.au": {
+    "sentAt": "2026-04-17T05:18:52.802Z",
+    "messageId": "<202604170518.52429212382@smtp-relay.mailin.fr>",
+    "company": "The Tooth Studio",
+    "subject": "Honest question about The Tooth Studio's website",
+    "city": "Wagga Wagga Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
