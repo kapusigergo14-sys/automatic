@@ -6156,5 +6156,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "651dental@gmail.com": {
+    "sentAt": "2026-04-17T18:42:55.730Z",
+    "messageId": "<202604171842.57419324079@smtp-relay.mailin.fr>",
+    "company": "Dental Wellness of Albany",
+    "subject": "Honest question about Dental Wellness of Albany's website",
+    "city": "Albany",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
