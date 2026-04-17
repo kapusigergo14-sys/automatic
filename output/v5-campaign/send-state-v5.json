@@ -5661,5 +5661,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@pallmalldental.com": {
+    "sentAt": "2026-04-17T10:57:20.605Z",
+    "messageId": "<202604171057.50764860411@smtp-relay.mailin.fr>",
+    "company": "Pall Mall Dental Clinic Ltd",
+    "subject": "Noticed something about Pall Mall Dental Clinic's site",
+    "city": "42 Pall Mall",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
