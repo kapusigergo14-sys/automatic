@@ -416,5 +416,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "boston@morrisonmahoney.com": {
+    "sentAt": "2026-04-17T15:47:20.639Z",
+    "messageId": "<202604171547.99325420464@smtp-relay.mailin.fr>",
+    "company": "Morrison Mahoney LLP",
+    "subject": "Honest question about Morrison Mahoney LLP's website",
+    "city": "Boston",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
