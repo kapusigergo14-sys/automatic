@@ -6057,5 +6057,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "admin@queensquarterdental.com": {
+    "sentAt": "2026-04-17T11:01:15.034Z",
+    "messageId": "<202604171101.86315397632@smtp-relay.mailin.fr>",
+    "company": "Queen's Quarter Dental",
+    "subject": "Noticed something about Queen's Quarter Dental's site",
+    "city": "11 University St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
