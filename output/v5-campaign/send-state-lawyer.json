@@ -152,5 +152,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@dicksonlegal.com": {
+    "sentAt": "2026-04-17T15:44:49.811Z",
+    "messageId": "<202604171544.97926758555@smtp-relay.mailin.fr>",
+    "company": "Dickson Law Group",
+    "subject": "Honest question about Dickson Law Group's website",
+    "city": "Seattle",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
