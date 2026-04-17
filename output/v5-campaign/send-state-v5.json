@@ -6024,5 +6024,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@edinburghdentalstudio.co.uk": {
+    "sentAt": "2026-04-17T11:00:55.377Z",
+    "messageId": "<202604171100.43675701547@smtp-relay.mailin.fr>",
+    "company": "Edinburgh Dental Studio",
+    "subject": "Noticed something about Edinburgh Dental Studio's site",
+    "city": "6 Randolph Pl",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
