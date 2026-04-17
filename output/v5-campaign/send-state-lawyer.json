@@ -31,5 +31,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "craig@spadaforelaw.com": {
+    "sentAt": "2026-04-17T15:43:40.718Z",
+    "messageId": "<202604171543.88369208563@smtp-relay.mailin.fr>",
+    "company": "Spadafore Law",
+    "subject": "Noticed something about Spadafore Law's site",
+    "city": "Columbus",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
