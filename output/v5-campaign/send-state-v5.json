@@ -6046,5 +6046,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@frederickstreetdental.co.uk": {
+    "sentAt": "2026-04-17T11:01:08.455Z",
+    "messageId": "<202604171101.93655212716@smtp-relay.mailin.fr>",
+    "company": "Frederick Street Dental Care I Oral Surgery Referral Centre",
+    "subject": "Honest question about Frederick Street Dental Care's website",
+    "city": "57 Frederick St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
