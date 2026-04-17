@@ -5573,5 +5573,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@cliftonsmiles.co.uk": {
+    "sentAt": "2026-04-17T10:56:28.540Z",
+    "messageId": "<202604171056.15601335092@smtp-relay.mailin.fr>",
+    "company": "Clifton Dental Studio",
+    "subject": "Clifton Dental Studio — what happens when someone visits your site at 11pm?",
+    "city": "Clifton",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
