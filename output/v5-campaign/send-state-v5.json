@@ -4935,5 +4935,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "info@ismiledentalclinic.com.au": {
+    "sentAt": "2026-04-17T05:19:12.715Z",
+    "messageId": "<202604170519.23044330451@smtp-relay.mailin.fr>",
+    "company": "iSmile Dental Clinic",
+    "subject": "Honest question about iSmile Dental Clinic's website",
+    "city": "Wagga Wagga Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
