@@ -5441,5 +5441,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "hello@beyudental.com": {
+    "sentAt": "2026-04-17T10:55:10.700Z",
+    "messageId": "<202604171055.10214923532@smtp-relay.mailin.fr>",
+    "company": "Beyu Dental",
+    "subject": "Beyu Dental — what happens when someone visits your site at 11pm?",
+    "city": "4 Wellington Pl",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
