@@ -4748,5 +4748,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "reception@happysmiles.com.au": {
+    "sentAt": "2026-04-17T05:17:20.534Z",
+    "messageId": "<202604170517.65635312928@smtp-relay.mailin.fr>",
+    "company": "Happy Smiles Dental Care",
+    "subject": "Noticed something about Happy Smiles Dental Care's site",
+    "city": "Tamworth Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
