@@ -6332,5 +6332,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "smile@thrivedentalstudio.com": {
+    "sentAt": "2026-04-17T20:48:41.197Z",
+    "messageId": "<202604172048.27031848147@smtp-relay.mailin.fr>",
+    "company": "Thrive Dental Studio",
+    "subject": "Noticed something about Thrive Dental Studio's site",
+    "city": "Portland",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
