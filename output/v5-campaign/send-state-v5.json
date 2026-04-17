@@ -5650,5 +5650,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@redlanddental.co.uk": {
+    "sentAt": "2026-04-17T10:57:14.115Z",
+    "messageId": "<202604171057.28723768574@smtp-relay.mailin.fr>",
+    "company": "The Redland Road Dental Practice",
+    "subject": "Honest question about The Redland Road Dental's website",
+    "city": "Redland",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
