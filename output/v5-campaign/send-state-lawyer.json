@@ -1010,5 +1010,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "mma@bto.co.uk": {
+    "sentAt": "2026-04-17T16:32:37.745Z",
+    "messageId": "<202604171632.80543626126@smtp-relay.mailin.fr>",
+    "company": "BTO Solicitors LLP",
+    "subject": "Honest question about BTO Solicitors LLP's website",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 2
   }
 }
