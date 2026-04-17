@@ -4429,5 +4429,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "info@happy-dentistry.com.au": {
+    "sentAt": "2026-04-17T05:14:08.664Z",
+    "messageId": "<202604170514.99718636509@smtp-relay.mailin.fr>",
+    "company": "Happy Dentistry",
+    "subject": "Happy Dentistry — what happens when someone visits your site at 11pm?",
+    "city": "Melbourne Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
