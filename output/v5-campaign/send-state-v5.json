@@ -4946,5 +4946,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "reception@waggafamilydentist.com.au": {
+    "sentAt": "2026-04-17T05:19:19.260Z",
+    "messageId": "<202604170519.13233333282@smtp-relay.mailin.fr>",
+    "company": "Wagga Family Dentist",
+    "subject": "Noticed something about Wagga Family Dentist's site",
+    "city": "Wagga Wagga Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
