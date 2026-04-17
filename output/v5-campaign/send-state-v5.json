@@ -6189,5 +6189,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "aaamherst@yahoo.com": {
+    "sentAt": "2026-04-17T19:10:43.564Z",
+    "messageId": "<202604171910.54358092256@smtp-relay.mailin.fr>",
+    "company": "Willard Street Family Dental",
+    "subject": "Honest question about Willard Street Family Dental's website",
+    "city": "Burlington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
