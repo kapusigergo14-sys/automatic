@@ -5474,5 +5474,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "hello@briggatedental.com": {
+    "sentAt": "2026-04-17T10:55:30.136Z",
+    "messageId": "<202604171055.27894165524@smtp-relay.mailin.fr>",
+    "company": "Briggate Dental",
+    "subject": "Briggate Dental — what happens when someone visits your site at 11pm?",
+    "city": "4 Lower Briggate",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
