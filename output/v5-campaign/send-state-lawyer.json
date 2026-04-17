@@ -229,5 +229,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@lawgate.net": {
+    "sentAt": "2026-04-17T15:45:33.841Z",
+    "messageId": "<202604171545.69349715607@smtp-relay.mailin.fr>",
+    "company": "Roosevelt Law Center",
+    "subject": "Noticed something about Roosevelt Law Center's site",
+    "city": "Seattle",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
