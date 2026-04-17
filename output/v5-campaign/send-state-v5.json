@@ -6134,5 +6134,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "snyder@nickelcitydentistry.com": {
+    "sentAt": "2026-04-17T18:21:57.291Z",
+    "messageId": "<202604171821.52192337622@smtp-relay.mailin.fr>",
+    "company": "Nickel City Dentistry",
+    "subject": "Noticed something about Nickel City Dentistry's site",
+    "city": "Buffalo",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
