@@ -614,5 +614,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "farul@lawmans.law": {
+    "sentAt": "2026-04-17T16:28:40.693Z",
+    "messageId": "<202604171628.37120162838@smtp-relay.mailin.fr>",
+    "company": "Lawmans Solicitors",
+    "subject": "Honest question about Lawmans Solicitors's website",
+    "city": "Oldham",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
