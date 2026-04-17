@@ -537,5 +537,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@bensonbingham.com": {
+    "sentAt": "2026-04-17T15:48:29.623Z",
+    "messageId": "<202604171548.23515491514@smtp-relay.mailin.fr>",
+    "company": "Benson & Bingham Car Accident & Personal Injury Lawyers",
+    "subject": "Benson & Bingham Car — what happens when a client visits your site at 11pm?",
+    "city": "Las Vegas",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
