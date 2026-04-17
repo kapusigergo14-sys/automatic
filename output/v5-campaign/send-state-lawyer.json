@@ -262,5 +262,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "jeff@wolflawcolorado.com": {
+    "sentAt": "2026-04-17T15:45:52.655Z",
+    "messageId": "<202604171545.76762520037@smtp-relay.mailin.fr>",
+    "company": "Wolf Law, LLC",
+    "subject": "Noticed something about Wolf Law LLC's site",
+    "city": "Denver",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
