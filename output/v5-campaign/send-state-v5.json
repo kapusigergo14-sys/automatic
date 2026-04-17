@@ -6321,5 +6321,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 2
+  },
+  "admin@thedentalloftme.com": {
+    "sentAt": "2026-04-17T20:38:02.458Z",
+    "messageId": "<202604172038.98266926016@smtp-relay.mailin.fr>",
+    "company": "The Dental Loft",
+    "subject": "Honest question about The Dental Loft's website",
+    "city": "Portland",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
