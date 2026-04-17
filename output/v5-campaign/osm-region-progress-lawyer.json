@@ -418,5 +418,635 @@
     "lastNewLeads": 0,
     "totalNewLeads": 0,
     "lastResultsCount": 0
+  },
+  "US-BIRMINGHAM": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-ROCHESTER": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-HARTFORD": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-DESMOINES": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-MADISON": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-CHARLESTON": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-SAVANNAH": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-TULSA": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-OKCCITY": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-LITTLEROCK": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-FORTWORTH": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-HONOLULU": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-ANCHORAGE": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-BOISE": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-SPRINGFIELD": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-HUNTSVILLE": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-MOBILE": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-MONTGOMERY": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-MESA": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-SCOTTSDALE": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 6
+  },
+  "US-GILBERT": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-CHANDLER": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-FAYETTEVILLE": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 5
+  },
+  "US-SANJOSE": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-FRESNO": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-LONGBEACH": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-BAKERSFIELD": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-ANAHEIM": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 8
+  },
+  "US-SANTAANA": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-RIVERSIDE": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-STOCKTON": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-IRVINE": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-COLORADOSPRINGS": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 4,
+    "totalNewLeads": 4,
+    "lastResultsCount": 12
+  },
+  "US-AURORA-CO": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-NEWHAVEN": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-BRIDGEPORT": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-STAMFORD": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-WILMINGTON": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 4
+  },
+  "US-STPETERSBURG": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-HIALEAH": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 10
+  },
+  "US-TALLAHASSEE": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-FORTLAUDERDALE": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-CAPECORAL": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-AUGUSTA": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-MACON": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 4
+  },
+  "US-ATHENS": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 8
+  },
+  "US-NAMPA": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-AURORA-IL": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-ROCKFORD": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-NAPERVILLE": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-EDINBURGH": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 18,
+    "totalNewLeads": 18,
+    "lastResultsCount": 41
+  },
+  "UK-ABERDEEN": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 7,
+    "totalNewLeads": 7,
+    "lastResultsCount": 15
+  },
+  "UK-BELFAST": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-OXFORD": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-CAMBRIDGE": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 5
+  },
+  "UK-BATH": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-PLYMOUTH": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-CHESTER": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-COVENTRY": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 2
+  },
+  "UK-DERBY": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-DUNDEE": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-INVERNESS": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-NORWICH": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-PETERBOROUGH": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "UK-PORTSMOUTH": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-STOKE": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-SWANSEA": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-WOLVERHAMPTON": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-YORK": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-READING": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 4,
+    "totalNewLeads": 4,
+    "lastResultsCount": 5
+  },
+  "AU-SYDNEY": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-MELBOURNE": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-BRISBANE": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-PERTH": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-ADELAIDE": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-CANBERRA": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "AU-HOBART": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-GOLD-COAST": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-NEWCASTLE": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 2
+  },
+  "AU-WOLLONGONG": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-CAIRNS": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-TOWNSVILLE": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-DARWIN": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-GEELONG": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-BALLARAT": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-BENDIGO": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-TOOWOOMBA": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "AU-LAUNCESTON": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-ALBURY": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-MACKAY": {
+    "lastRunAt": "2026-04-17T16:11:59.406Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
   }
 }
