@@ -4979,5 +4979,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "clovellydent@gmail.com": {
+    "sentAt": "2026-04-17T05:19:38.895Z",
+    "messageId": "<202604170519.21207548600@smtp-relay.mailin.fr>",
+    "company": "Clovelly Dental",
+    "subject": "Noticed something about Clovelly Dental's site",
+    "city": "Sydney NSW",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
