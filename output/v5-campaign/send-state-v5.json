@@ -5606,5 +5606,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "reception@highstreetdental.co.uk": {
+    "sentAt": "2026-04-17T10:56:47.986Z",
+    "messageId": "<202604171056.13148916070@smtp-relay.mailin.fr>",
+    "company": "High Street Dental Clinic",
+    "subject": "High Street Dental Clinic — what happens when someone visits your site at 11pm?",
+    "city": "44 High St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
