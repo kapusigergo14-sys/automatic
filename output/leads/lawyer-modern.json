@@ -1,1 +1,151 @@
-[]
+[
+  {
+    "name": "AB James Solicitors",
+    "website": "http://abjames.law",
+    "phone": "+44 161 312 3141",
+    "city": "Manchester",
+    "country": "UK",
+    "email": "info@abjames.law",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-17T15:53:49.889Z"
+  },
+  {
+    "name": "Medlock Solicitors",
+    "website": "https://medlocksolicitors.co.uk",
+    "city": "Manchester",
+    "country": "UK",
+    "email": "info@medlocklaw.co.uk",
+    "hasBooking": true,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:53:49.983Z"
+  },
+  {
+    "name": "Lawmans Solicitors",
+    "website": "https://www.lawmans.law",
+    "phone": "+44161 630 2560",
+    "city": "Oldham",
+    "country": "UK",
+    "email": "farul@lawmans.law",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:53:50.260Z"
+  },
+  {
+    "name": "Rupert Wood & Son Solicitors",
+    "website": "https://www.rupertwood.co.uk",
+    "city": "Ashton-under-Lyne",
+    "country": "UK",
+    "email": "law@rupertwood.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:53:50.426Z"
+  },
+  {
+    "name": "MLC Immigration Lawyers Ltd",
+    "website": "https://www.mlcimmigration.com",
+    "phone": "+44 161 224 4224",
+    "city": "Manchester",
+    "country": "UK",
+    "email": "info@mlcimmigration.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:53:51.084Z"
+  },
+  {
+    "name": "Bromleys Solicitors LLP",
+    "website": "https://www.bromleys.co.uk",
+    "phone": "+441613306821",
+    "city": "Ashton-under-Lyne",
+    "country": "UK",
+    "email": "bromleys@bromleys.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:53:51.146Z"
+  },
+  {
+    "name": "Walsh Solicitors",
+    "website": "https://walshsolicitors.com/contact-us",
+    "phone": "+44 161 696 9786",
+    "city": "Stockport",
+    "country": "UK",
+    "email": "stockport@walshsolicitors.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:53:52.219Z"
+  },
+  {
+    "name": "Satchell Moran",
+    "website": "https://satchellmoransolicitors.com",
+    "city": "Liverpool",
+    "country": "UK",
+    "email": "info@satchellmoransolicitors.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:53:52.309Z"
+  },
+  {
+    "name": "7 Harrington Street Chambers",
+    "website": "https://7hs.co.uk",
+    "city": "Liverpool",
+    "country": "UK",
+    "email": "clerks@7hs.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:53:52.445Z"
+  },
+  {
+    "name": "Harvey Howell",
+    "website": "http://www.harveyhowell.co.uk",
+    "city": "Liverpool",
+    "country": "UK",
+    "email": "reception@harveyhowell.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-17T15:53:52.550Z"
+  },
+  {
+    "name": "Beacon Law",
+    "website": "https://beaconlaw.co.uk",
+    "phone": "+44 161 428 1234",
+    "city": "Cheadle",
+    "country": "UK",
+    "email": "info@beaconlaw.co.uk",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-17T15:53:52.699Z"
+  },
+  {
+    "name": "Trowers & Hamlins",
+    "website": "https://www.trowers.com/contact-us",
+    "phone": "+44 1392 612600;+44 1392 612601",
+    "city": "Exeter",
+    "country": "UK",
+    "email": "enquiries@trowers.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:53:53.319Z"
+  },
+  {
+    "name": "Huw James",
+    "website": "https://www.hughjames.com",
+    "phone": "+44 3330 162 222",
+    "city": "Cardiff",
+    "country": "UK",
+    "email": "info@hughjames.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:53:55.005Z"
+  },
+  {
+    "name": "Moonerams",
+    "website": "https://www.mooneerams.com",
+    "phone": "+44 2920 483 615",
+    "city": "Cardiff",
+    "country": "UK",
+    "email": "enquiries@mooneerams.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T15:53:55.134Z"
+  }
+]

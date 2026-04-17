@@ -313,5 +313,110 @@
     "lastNewLeads": 0,
     "totalNewLeads": 0,
     "lastResultsCount": 0
+  },
+  "UK-LONDON": {
+    "lastRunAt": "2026-04-17T15:53:59.145Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-MANCHESTER": {
+    "lastRunAt": "2026-04-17T15:53:59.145Z",
+    "totalRuns": 1,
+    "lastNewLeads": 8,
+    "totalNewLeads": 8,
+    "lastResultsCount": 17
+  },
+  "UK-BIRMINGHAM": {
+    "lastRunAt": "2026-04-17T15:53:59.145Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-LEEDS": {
+    "lastRunAt": "2026-04-17T15:53:59.145Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 2
+  },
+  "UK-LIVERPOOL": {
+    "lastRunAt": "2026-04-17T15:53:59.145Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 5
+  },
+  "UK-BRISTOL": {
+    "lastRunAt": "2026-04-17T15:53:59.145Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-NEWCASTLE": {
+    "lastRunAt": "2026-04-17T15:53:59.145Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-NOTTINGHAM": {
+    "lastRunAt": "2026-04-17T15:53:59.145Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-LEICESTER": {
+    "lastRunAt": "2026-04-17T15:53:59.145Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-BRIGHTON": {
+    "lastRunAt": "2026-04-17T15:53:59.145Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-SOUTHAMPTON": {
+    "lastRunAt": "2026-04-17T15:53:59.145Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-EXETER": {
+    "lastRunAt": "2026-04-17T15:53:59.145Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "UK-SHEFFIELD": {
+    "lastRunAt": "2026-04-17T15:53:59.145Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-CARDIFF": {
+    "lastRunAt": "2026-04-17T15:53:59.145Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 7
+  },
+  "UK-GLASGOW": {
+    "lastRunAt": "2026-04-17T15:53:59.145Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
   }
 }
