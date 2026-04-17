@@ -5430,5 +5430,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@smileclinicleeds.com": {
+    "sentAt": "2026-04-17T10:55:04.201Z",
+    "messageId": "<202604171055.91521641137@smtp-relay.mailin.fr>",
+    "company": "Aesthetique Dental Care",
+    "subject": "Noticed something about Aesthetique Dental Care's site",
+    "city": "21 Wharf St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
