@@ -5012,5 +5012,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "hello@benteighdentalcare.com.au": {
+    "sentAt": "2026-04-17T05:19:58.538Z",
+    "messageId": "<202604170519.84761774748@smtp-relay.mailin.fr>",
+    "company": "Bentleigh Dental Care",
+    "subject": "Noticed something about Bentleigh Dental Care's site",
+    "city": "Chatswood",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
