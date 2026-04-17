@@ -4660,5 +4660,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "admin@bestdentist.com.au": {
+    "sentAt": "2026-04-17T05:16:27.733Z",
+    "messageId": "<202604170516.35861017486@smtp-relay.mailin.fr>",
+    "company": "Dental Clinic @ World Tower",
+    "subject": "Dental Clinic World Tower — what happens when someone visits your site at 11pm?",
+    "city": "Sydney Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
