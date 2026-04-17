@@ -372,5 +372,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "rnglaw@verizon.net": {
+    "sentAt": "2026-04-17T15:46:55.526Z",
+    "messageId": "<202604171546.74538587078@smtp-relay.mailin.fr>",
+    "company": "Law Offices of Richard N Gottlieb",
+    "subject": "Law Offices of Richard — what happens when a client visits your site at 11pm?",
+    "city": "Boston",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
