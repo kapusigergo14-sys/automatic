@@ -5540,5 +5540,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@eastgatedentalbristol.co.uk": {
+    "sentAt": "2026-04-17T10:56:08.981Z",
+    "messageId": "<202604171056.57940378391@smtp-relay.mailin.fr>",
+    "company": "Eastgate Dental & Cosmetic Centre Bristol",
+    "subject": "Eastgate Dental & Cosmetic — what happens when someone visits your site at 11pm?",
+    "city": "Eastgate Rd",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
