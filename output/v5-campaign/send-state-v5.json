@@ -4517,5 +4517,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "info@cqdental.com.au": {
+    "sentAt": "2026-04-17T05:15:02.143Z",
+    "messageId": "<202604170515.74379511942@smtp-relay.mailin.fr>",
+    "company": "CQ Dental Studio | Dentist Rockhampton",
+    "subject": "Noticed something about CQ Dental Studio's site",
+    "city": "Rockhampton Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
