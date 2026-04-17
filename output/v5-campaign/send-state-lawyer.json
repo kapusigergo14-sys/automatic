@@ -207,5 +207,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@hofmanimmigration.com": {
+    "sentAt": "2026-04-17T15:45:21.353Z",
+    "messageId": "<202604171545.10688053836@smtp-relay.mailin.fr>",
+    "company": "The Law Office of Laura Hofman",
+    "subject": "The Law Office of — what happens when a client visits your site at 11pm?",
+    "city": "Seattle",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
