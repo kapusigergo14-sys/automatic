@@ -4616,5 +4616,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "info@spadental.com.au": {
+    "sentAt": "2026-04-17T05:16:01.356Z",
+    "messageId": "<202604170516.21679806952@smtp-relay.mailin.fr>",
+    "company": "Spa Dental Sydney CBD",
+    "subject": "Noticed something about Spa Dental Sydney CBD's site",
+    "city": "Sydney Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
