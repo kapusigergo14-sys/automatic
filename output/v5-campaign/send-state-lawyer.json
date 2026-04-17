@@ -526,5 +526,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "chandon@spartacuslawfirm.com": {
+    "sentAt": "2026-04-17T15:48:23.370Z",
+    "messageId": "<202604171548.48923787669@smtp-relay.mailin.fr>",
+    "company": "Spartacus Law Firm",
+    "subject": "Noticed something about Spartacus Law Firm's site",
+    "city": "Las Vegas",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
