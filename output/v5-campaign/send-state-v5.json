@@ -5551,5 +5551,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "enquiries@queensquareclinic.com": {
+    "sentAt": "2026-04-17T10:56:15.483Z",
+    "messageId": "<202604171056.39001040173@smtp-relay.mailin.fr>",
+    "company": "Queen Square Dental Clinic",
+    "subject": "Honest question about Queen Square Dental Clinic's website",
+    "city": "17 Queen Square",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
