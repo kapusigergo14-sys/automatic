@@ -5793,5 +5793,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "reception@arnolddentalcare.co.uk": {
+    "sentAt": "2026-04-17T10:58:38.333Z",
+    "messageId": "<202604171058.80158913501@smtp-relay.mailin.fr>",
+    "company": "Arnold Dental Care",
+    "subject": "Noticed something about Arnold Dental Care's site",
+    "city": "Arnold",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
