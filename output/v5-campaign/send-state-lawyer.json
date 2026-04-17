@@ -20,5 +20,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "contactus@tanefflaw.com": {
+    "sentAt": "2026-04-17T15:43:34.488Z",
+    "messageId": "<202604171543.86415999236@smtp-relay.mailin.fr>",
+    "company": "Thomas Taneff Co., LPA",
+    "subject": "Honest question about Thomas Taneff Co. LPA's website",
+    "city": "Columbus",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
