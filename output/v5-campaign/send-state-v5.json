@@ -4737,5 +4737,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "admin@centrepointdental.com.au": {
+    "sentAt": "2026-04-17T05:17:13.933Z",
+    "messageId": "<202604170517.70481380168@smtp-relay.mailin.fr>",
+    "company": "Centrepoint Dental Care | Tamworth Dentist",
+    "subject": "Honest question about Centrepoint Dental Care's website",
+    "city": "Tamworth Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
