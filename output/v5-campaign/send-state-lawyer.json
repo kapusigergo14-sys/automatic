@@ -1065,5 +1065,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "pat_info_mailbox@scotcourtstribunals.gov.uk": {
+    "sentAt": "2026-04-17T16:33:10.590Z",
+    "messageId": "<202604171633.43976357094@smtp-relay.mailin.fr>",
+    "company": "Pensions Appeal Tribunals for Scotland",
+    "subject": "Pensions Appeal Tribunals for — what happens when a client visits your site at 11pm?",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
