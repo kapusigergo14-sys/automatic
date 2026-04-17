@@ -4726,5 +4726,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "reception@darlingdental.com.au": {
+    "sentAt": "2026-04-17T05:17:07.361Z",
+    "messageId": "<202604170517.93564779961@smtp-relay.mailin.fr>",
+    "company": "Darling Dental",
+    "subject": "Darling Dental — what happens when someone visits your site at 11pm?",
+    "city": "Tamworth Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
