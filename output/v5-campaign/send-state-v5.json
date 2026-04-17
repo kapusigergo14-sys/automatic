@@ -5782,5 +5782,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "clients@stelladentalsuite.co.uk": {
+    "sentAt": "2026-04-17T10:58:31.855Z",
+    "messageId": "<202604171058.95607845392@smtp-relay.mailin.fr>",
+    "company": "Stella Dental Nottingham",
+    "subject": "Honest question about Stella Dental Nottingham's website",
+    "city": "21 The Ropewalk",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
