@@ -4869,5 +4869,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "admin@courtneydental.com.au": {
+    "sentAt": "2026-04-17T05:18:33.043Z",
+    "messageId": "<202604170518.63120666607@smtp-relay.mailin.fr>",
+    "company": "Courtney Dental | Dentist Townsville",
+    "subject": "Honest question about Courtney Dental's website",
+    "city": "Townsville Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
