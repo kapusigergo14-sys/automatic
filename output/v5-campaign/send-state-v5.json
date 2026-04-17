@@ -5738,5 +5738,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "liverpool@nightanddaydentist.co.uk": {
+    "sentAt": "2026-04-17T10:58:05.876Z",
+    "messageId": "<202604171058.79167870604@smtp-relay.mailin.fr>",
+    "company": "Night and Day Emergency Dentist Liverpool",
+    "subject": "Night and Day Emergency — what happens when someone visits your site at 11pm?",
+    "city": "Aigburth",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
