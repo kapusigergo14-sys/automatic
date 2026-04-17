@@ -1,1 +1,13 @@
-{}
+{
+  "jalton@johnalton.com": {
+    "sentAt": "2026-04-17T15:43:22.011Z",
+    "messageId": "<202604171543.83411222289@smtp-relay.mailin.fr>",
+    "company": "John M. Alton",
+    "subject": "Noticed something about John M. Alton's site",
+    "city": "Columbus",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
+  }
+}
