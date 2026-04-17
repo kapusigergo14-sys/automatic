@@ -636,5 +636,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@mlcimmigration.com": {
+    "sentAt": "2026-04-17T16:28:53.838Z",
+    "messageId": "<202604171628.12211790907@smtp-relay.mailin.fr>",
+    "company": "MLC Immigration Lawyers Ltd",
+    "subject": "MLC Immigration Lawyers Ltd — what happens when a client visits your site at 11pm?",
+    "city": "Manchester",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
