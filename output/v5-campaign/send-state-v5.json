@@ -6035,5 +6035,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "appointment@slateforddentalcare.com": {
+    "sentAt": "2026-04-17T11:01:01.893Z",
+    "messageId": "<202604171101.86260259772@smtp-relay.mailin.fr>",
+    "company": "Slateford Dental Care",
+    "subject": "Slateford Dental Care — what happens when someone visits your site at 11pm?",
+    "city": "47-51 Slateford Rd",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
