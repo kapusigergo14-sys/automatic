@@ -6365,5 +6365,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@1330dental.com": {
+    "sentAt": "2026-04-17T21:15:36.113Z",
+    "messageId": "<202604172115.79237082334@smtp-relay.mailin.fr>",
+    "company": "1330 Dental Associates",
+    "subject": "Noticed something about 1330 Dental Associates's site",
+    "city": "Portland",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
