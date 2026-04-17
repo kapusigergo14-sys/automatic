@@ -5859,5 +5859,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "gedlingdental@gmail.com": {
+    "sentAt": "2026-04-17T10:59:17.205Z",
+    "messageId": "<202604171059.87380451584@smtp-relay.mailin.fr>",
+    "company": "Gedling Dental - Nottingham",
+    "subject": "Noticed something about Gedling Dental's site",
+    "city": "Carlton",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
