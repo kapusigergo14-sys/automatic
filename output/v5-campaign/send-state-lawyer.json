@@ -889,5 +889,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@wpmhlegal.com": {
+    "sentAt": "2026-04-17T16:31:25.096Z",
+    "messageId": "<202604171631.68840920706@smtp-relay.mailin.fr>",
+    "company": "Westmoreland, Patterson, Moseley & Hinson, L.L.P",
+    "subject": "Noticed something about Westmoreland Patterson Moseley &'s site",
+    "city": "Macon",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
