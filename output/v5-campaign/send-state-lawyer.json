@@ -581,5 +581,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "contact@gundersonlawgroup.com": {
+    "sentAt": "2026-04-17T15:48:54.814Z",
+    "messageId": "<202604171548.75365587299@smtp-relay.mailin.fr>",
+    "company": "Gunderson Law Group, P.C.",
+    "subject": "Honest question about Gunderson Law Group P.C.'s website",
+    "city": "Las Vegas",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
