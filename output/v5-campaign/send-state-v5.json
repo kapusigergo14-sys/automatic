@@ -4418,5 +4418,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "adcmelbournedentist@gmail.com": {
+    "sentAt": "2026-04-17T05:14:02.100Z",
+    "messageId": "<202604170514.27132673470@smtp-relay.mailin.fr>",
+    "company": "Australian Dentists Clinic",
+    "subject": "Noticed something about Australian Dentists Clinic's site",
+    "city": "Melbourne Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
