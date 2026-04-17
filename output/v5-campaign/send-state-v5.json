@@ -4528,5 +4528,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "admin@bolsoverdental.com.au": {
+    "sentAt": "2026-04-17T05:15:08.863Z",
+    "messageId": "<202604170515.89472083325@smtp-relay.mailin.fr>",
+    "company": "Bolsover Dental Practice",
+    "subject": "Bolsover Dental Practice — what happens when someone visits your site at 11pm?",
+    "city": "Rockhampton Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
