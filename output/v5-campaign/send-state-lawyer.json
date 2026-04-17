@@ -812,5 +812,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "inquiries@rockymountainlegalgroup.com": {
+    "sentAt": "2026-04-17T16:30:39.188Z",
+    "messageId": "<202604171630.75107239074@smtp-relay.mailin.fr>",
+    "company": "Marrison Family Law",
+    "subject": "Honest question about Marrison Family Law's website",
+    "city": "Colorado Springs",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
