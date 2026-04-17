@@ -647,5 +647,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "bromleys@bromleys.co.uk": {
+    "sentAt": "2026-04-17T16:29:00.392Z",
+    "messageId": "<202604171629.44899872196@smtp-relay.mailin.fr>",
+    "company": "Bromleys Solicitors LLP",
+    "subject": "Honest question about Bromleys Solicitors LLP's website",
+    "city": "Ashton-under-Lyne",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
