@@ -1087,5 +1087,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "taxchamber@scotcourtstribunals.gov.uk": {
+    "sentAt": "2026-04-17T16:33:23.794Z",
+    "messageId": "<202604171633.58009359150@smtp-relay.mailin.fr>",
+    "company": "First-tier Tribunal for Scotland Tax Chamber",
+    "subject": "Noticed something about First's site",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
