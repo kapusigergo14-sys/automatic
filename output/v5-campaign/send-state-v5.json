@@ -4561,5 +4561,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "rockhampton@1300smiles.com.au": {
+    "sentAt": "2026-04-17T05:15:28.530Z",
+    "messageId": "<202604170515.85036714837@smtp-relay.mailin.fr>",
+    "company": "1300SMILES Dentists Rockhampton",
+    "subject": "1300SMILES Dentists Rockhampton — what happens when someone visits your site at 11pm?",
+    "city": "Rockhampton Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
