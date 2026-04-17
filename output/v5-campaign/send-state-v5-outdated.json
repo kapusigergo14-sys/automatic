@@ -442,5 +442,17 @@
     "hasBooking": false,
     "modernScore": 3,
     "pitch": "redesign"
+  },
+  "spinellidental@gmail.com": {
+    "sentAt": "2026-04-17T16:26:21.854Z",
+    "messageId": "<202604171626.51783198870@smtp-relay.mailin.fr>",
+    "company": "Spinelli Dental",
+    "subject": "Honest take on Spinelli Dental's website",
+    "city": "Rochester",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2,
+    "pitch": "redesign"
   }
 }
