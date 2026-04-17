@@ -5936,5 +5936,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "mail@elitedentalpractice.co.uk": {
+    "sentAt": "2026-04-17T11:00:02.768Z",
+    "messageId": "<202604171100.66058036780@smtp-relay.mailin.fr>",
+    "company": "Elite Dental Practice",
+    "subject": "Elite Dental Practice — what happens when someone visits your site at 11pm?",
+    "city": "246-248 Ravenhill Rd",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
