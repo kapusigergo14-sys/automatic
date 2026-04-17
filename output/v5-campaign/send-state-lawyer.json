@@ -1076,5 +1076,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "mail@ennova-law.com": {
+    "sentAt": "2026-04-17T16:33:17.200Z",
+    "messageId": "<202604171633.66094010533@smtp-relay.mailin.fr>",
+    "company": "Ennova Law",
+    "subject": "Honest question about Ennova Law's website",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
