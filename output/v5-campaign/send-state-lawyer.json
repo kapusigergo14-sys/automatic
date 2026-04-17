@@ -1186,5 +1186,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "cambs@oslers.co.uk": {
+    "sentAt": "2026-04-17T16:34:22.984Z",
+    "messageId": "<202604171634.97948816922@smtp-relay.mailin.fr>",
+    "company": "Oslers Solicitors",
+    "subject": "Noticed something about Oslers Solicitors's site",
+    "city": "Cambridge",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
