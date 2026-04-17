@@ -427,5 +427,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "ashapoval@shapovallaw.com": {
+    "sentAt": "2026-04-17T15:47:26.867Z",
+    "messageId": "<202604171547.25587877845@smtp-relay.mailin.fr>",
+    "company": "Law Office of Alexander I. Shapoval, P.C.",
+    "subject": "Noticed something about Law Office of Alexander's site",
+    "city": "Chelsea",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
