@@ -369,5 +369,26 @@
     "lastNewLeads": 0,
     "totalNewLeads": 0,
     "lastResultsCount": 0
+  },
+  "UK-SOUTHAMPTON": {
+    "lastRunAt": "2026-04-17T10:53:42.818Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-EXETER": {
+    "lastRunAt": "2026-04-17T10:53:42.818Z",
+    "totalRuns": 1,
+    "lastNewLeads": 4,
+    "totalNewLeads": 4,
+    "lastResultsCount": 9
+  },
+  "UK-SHEFFIELD": {
+    "lastRunAt": "2026-04-17T10:53:42.818Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
   }
 }

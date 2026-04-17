@@ -5582,5 +5582,49 @@
     "hasBooking": false,
     "modernScore": 3,
     "collectedAt": "2026-04-17T05:07:13.930Z"
+  },
+  {
+    "name": "Just Smile Dental",
+    "website": "https://justsmiledental.co.uk",
+    "phone": "+44 7307 357077",
+    "city": "Exeter",
+    "country": "UK",
+    "email": "info@justsmiledental.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T10:53:35.432Z"
+  },
+  {
+    "name": "Inspired Dental Care",
+    "website": "https://inspireddentalcare.co.uk",
+    "phone": "+44 1392 272385",
+    "city": "Exeter",
+    "country": "UK",
+    "email": "exeter@inspireddentalcare.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T10:53:35.506Z"
+  },
+  {
+    "name": "Southernhay Dental Practice",
+    "website": "https://www.southernhaydental.co.uk",
+    "phone": "+44 1392 202242",
+    "city": "Exeter",
+    "country": "UK",
+    "email": "reception@southernhaydental.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T10:53:35.592Z"
+  },
+  {
+    "name": "Contempory Dental",
+    "website": "https://www.contemporarydental.co.uk",
+    "phone": "+44 1392 490949",
+    "city": "Exeter",
+    "country": "UK",
+    "email": "care@contemporarydental.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-17T10:53:37.449Z"
   }
 ]
