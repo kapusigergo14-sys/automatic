@@ -284,5 +284,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@mintzlawfirm.com": {
+    "sentAt": "2026-04-17T15:46:05.380Z",
+    "messageId": "<202604171546.93839711611@smtp-relay.mailin.fr>",
+    "company": "Mintz Law Firm, LLC",
+    "subject": "Honest question about Mintz Law Firm LLC's website",
+    "city": "Lakewood",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
