@@ -218,5 +218,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "incoming@moseleycollins.com": {
+    "sentAt": "2026-04-17T15:45:27.604Z",
+    "messageId": "<202604171545.70536596364@smtp-relay.mailin.fr>",
+    "company": "Moseley Collins Law",
+    "subject": "Honest question about Moseley Collins Law's website",
+    "city": "Seattle",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
