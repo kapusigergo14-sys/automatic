@@ -5771,5 +5771,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "nottinghamreception@riverdalehealthcare.com": {
+    "sentAt": "2026-04-17T10:58:25.391Z",
+    "messageId": "<202604171058.24956688956@smtp-relay.mailin.fr>",
+    "company": "Alpha Dental Care Nottingham",
+    "subject": "Alpha Dental Care Nottingham — what happens when someone visits your site at 11pm?",
+    "city": "171 Carlton Rd",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
