@@ -478,5 +478,17 @@
     "hasBooking": false,
     "modernScore": 2,
     "pitch": "redesign"
+  },
+  "info@wmyhealth.org": {
+    "sentAt": "2026-04-17T16:26:41.534Z",
+    "messageId": "<202604171626.97273678052@smtp-relay.mailin.fr>",
+    "company": "Whitney M. Young, Jr. Health Center - Albany Dental Clinic",
+    "subject": "Honest take on Whitney M. Young Jr.'s website",
+    "city": "Albany",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2,
+    "pitch": "redesign"
   }
 }
