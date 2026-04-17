@@ -4462,5 +4462,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "reception@orangedentist.com.au": {
+    "sentAt": "2026-04-17T05:14:28.577Z",
+    "messageId": "<202604170514.94090637199@smtp-relay.mailin.fr>",
+    "company": "Your Orange Dentist",
+    "subject": "Your Orange Dentist — what happens when someone visits your site at 11pm?",
+    "city": "Orange Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
