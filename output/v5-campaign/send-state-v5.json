@@ -5265,5 +5265,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@wodendentalcare.com.au": {
+    "sentAt": "2026-04-17T05:22:30.488Z",
+    "messageId": "<202604170522.26033647297@smtp-relay.mailin.fr>",
+    "company": "Woden Dental Care",
+    "subject": "Honest question about Woden Dental Care's website",
+    "city": "Canberra ACT",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
