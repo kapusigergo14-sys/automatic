@@ -5188,5 +5188,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@ashfielddentalcentre.com.au": {
+    "sentAt": "2026-04-17T05:21:44.758Z",
+    "messageId": "<202604170521.34429152084@smtp-relay.mailin.fr>",
+    "company": "Ashfield Dental Centre",
+    "subject": "Ashfield Dental Centre — what happens when someone visits your site at 11pm?",
+    "city": "Sydney NSW",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
