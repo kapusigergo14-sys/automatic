@@ -108,5 +108,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "consult@manselllawllc.com": {
+    "sentAt": "2026-04-17T15:44:24.727Z",
+    "messageId": "<202604171544.22052028476@smtp-relay.mailin.fr>",
+    "company": "Mansell Law",
+    "subject": "Mansell Law — what happens when a client visits your site at 11pm?",
+    "city": "Columbus",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
