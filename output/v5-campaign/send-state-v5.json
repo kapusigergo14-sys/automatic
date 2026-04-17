@@ -5617,5 +5617,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "reception@elginpark.co.uk": {
+    "sentAt": "2026-04-17T10:56:54.493Z",
+    "messageId": "<202604171056.58139656415@smtp-relay.mailin.fr>",
+    "company": "Elgin Park Dental Practice - Redland",
+    "subject": "Honest question about Elgin Park Dental Practice's website",
+    "city": "Redland",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
