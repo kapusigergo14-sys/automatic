@@ -790,5 +790,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@asapserve.com": {
+    "sentAt": "2026-04-17T16:30:25.508Z",
+    "messageId": "<202604171630.50533062863@smtp-relay.mailin.fr>",
+    "company": "Scottsdale Process Server",
+    "subject": "Noticed something about Scottsdale Process Server's site",
+    "city": "Scottsdale",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
