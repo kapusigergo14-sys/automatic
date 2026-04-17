@@ -4847,5 +4847,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "admin@dentalprecinct.com.au": {
+    "sentAt": "2026-04-17T05:18:19.948Z",
+    "messageId": "<202604170518.59379398190@smtp-relay.mailin.fr>",
+    "company": "Dental Precinct Townsville",
+    "subject": "Noticed something about Dental Precinct Townsville's site",
+    "city": "Townsville Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
