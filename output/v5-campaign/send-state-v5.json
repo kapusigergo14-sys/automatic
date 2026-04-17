@@ -6200,5 +6200,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@colvindental.com": {
+    "sentAt": "2026-04-17T19:16:36.176Z",
+    "messageId": "<202604171916.20693904044@smtp-relay.mailin.fr>",
+    "company": "Colvin Avenue Dental",
+    "subject": "Noticed something about Colvin Avenue Dental's site",
+    "city": "Albany",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
