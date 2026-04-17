@@ -4770,5 +4770,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "info@sdtoowoomba.com.au": {
+    "sentAt": "2026-04-17T05:17:33.891Z",
+    "messageId": "<202604170517.17383698701@smtp-relay.mailin.fr>",
+    "company": "Southside Dental Toowoomba",
+    "subject": "Honest question about Southside Dental Toowoomba's website",
+    "city": "Toowoomba Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
