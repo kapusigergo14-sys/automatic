@@ -5452,5 +5452,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@leedscitydentalcare.co.uk": {
+    "sentAt": "2026-04-17T10:55:17.206Z",
+    "messageId": "<202604171055.39147115282@smtp-relay.mailin.fr>",
+    "company": "Leeds City Dentalcare",
+    "subject": "Honest question about Leeds City Dentalcare's website",
+    "city": "159 Beeston Rd",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
