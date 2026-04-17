@@ -1054,5 +1054,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "edinburgh@gibsonkerr.co.uk": {
+    "sentAt": "2026-04-17T16:33:04.031Z",
+    "messageId": "<202604171633.77370700109@smtp-relay.mailin.fr>",
+    "company": "Gibson Kerr",
+    "subject": "Noticed something about Gibson Kerr's site",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
