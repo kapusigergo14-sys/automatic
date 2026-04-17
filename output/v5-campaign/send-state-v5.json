@@ -4913,5 +4913,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "contact@elevatedentalregional.com.au": {
+    "sentAt": "2026-04-17T05:18:59.427Z",
+    "messageId": "<202604170518.80546477288@smtp-relay.mailin.fr>",
+    "company": "Elevate Dental Wagga Wagga (Formerly Green Apple Dentistry)",
+    "subject": "Noticed something about Elevate Dental Wagga Wagga's site",
+    "city": "Wagga Wagga Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
