@@ -4506,5 +4506,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 75
+  },
+  "info@a2zdental.com.au": {
+    "sentAt": "2026-04-17T05:14:55.589Z",
+    "messageId": "<202604170514.59680155130@smtp-relay.mailin.fr>",
+    "company": "A2Z Dental - Dentist in Rockhampton",
+    "subject": "Honest question about A2Z Dental's website",
+    "city": "Rockhampton Australia",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 75
   }
 }
