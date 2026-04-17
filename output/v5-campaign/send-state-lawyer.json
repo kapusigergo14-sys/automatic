@@ -955,5 +955,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "admin@csglegal.co.uk": {
+    "sentAt": "2026-04-17T16:32:04.900Z",
+    "messageId": "<202604171632.55178982659@smtp-relay.mailin.fr>",
+    "company": "CSG",
+    "subject": "Noticed something about CSG's site",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
