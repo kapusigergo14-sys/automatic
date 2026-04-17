@@ -5518,5 +5518,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "smiles@thedentalarchitect.com": {
+    "sentAt": "2026-04-17T10:55:55.976Z",
+    "messageId": "<202604171055.36899526831@smtp-relay.mailin.fr>",
+    "company": "The Dental Architect",
+    "subject": "Honest question about The Dental Architect's website",
+    "city": "56 Wellington St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
