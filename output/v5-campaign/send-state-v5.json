@@ -5100,5 +5100,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@cleardental.com.au": {
+    "sentAt": "2026-04-17T05:20:52.322Z",
+    "messageId": "<202604170520.52543271712@smtp-relay.mailin.fr>",
+    "company": "Wynyard Dental Clinic",
+    "subject": "Honest question about Wynyard Dental Clinic's website",
+    "city": "Sydney",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
