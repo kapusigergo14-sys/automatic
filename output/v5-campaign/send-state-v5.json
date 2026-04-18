@@ -7784,5 +7784,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@azkidsdds.com": {
+    "sentAt": "2026-04-18T21:02:24.538Z",
+    "messageId": "<202604182102.19890140371@smtp-relay.mailin.fr>",
+    "company": "Desert Ridge Pediatric Dentistry",
+    "subject": "Honest question about Desert Ridge Pediatric Dentistry's website",
+    "city": "Phoenix",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
