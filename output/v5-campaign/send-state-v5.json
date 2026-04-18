@@ -7124,5 +7124,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@dreamhousedental.com": {
+    "sentAt": "2026-04-18T11:55:06.800Z",
+    "messageId": "<202604181155.76514506579@smtp-relay.mailin.fr>",
+    "company": "Dreamhouse Dental",
+    "subject": "Noticed something about Dreamhouse Dental's site",
+    "city": "Bell Gardens",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
