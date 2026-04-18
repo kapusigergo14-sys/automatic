@@ -6420,5 +6420,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "manchester@urgentdentalcareofnh.com": {
+    "sentAt": "2026-04-18T11:48:10.015Z",
+    "messageId": "<202604181148.26658749413@smtp-relay.mailin.fr>",
+    "company": "Amoskeag Urgent Dental Care",
+    "subject": "Honest question about Amoskeag Urgent Dental Care's website",
+    "city": "Manchester",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
