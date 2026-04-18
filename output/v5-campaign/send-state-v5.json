@@ -6904,5 +6904,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "office@topbeverlyhillsdentist.com": {
+    "sentAt": "2026-04-18T11:52:56.436Z",
+    "messageId": "<202604181152.77709849327@smtp-relay.mailin.fr>",
+    "company": "Beverly Hills Cosmetic Dentist | Dr Joseph Goodman",
+    "subject": "Beverly Hills Cosmetic Dentist — what happens when someone visits your site at 11pm?",
+    "city": "Beverly Hills",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
