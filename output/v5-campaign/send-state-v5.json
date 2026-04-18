@@ -6959,5 +6959,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "appointments@beachbraces.org": {
+    "sentAt": "2026-04-18T11:53:29.338Z",
+    "messageId": "<202604181153.62060965911@smtp-relay.mailin.fr>",
+    "company": "Beach Braces",
+    "subject": "Noticed something about Beach Braces's site",
+    "city": "Manhattan Beach",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
