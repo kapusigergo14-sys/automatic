@@ -7817,5 +7817,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@gbs.33a.myftpupload.com": {
+    "sentAt": "2026-04-18T21:29:43.338Z",
+    "messageId": "<202604182129.82186888409@smtp-relay.mailin.fr>",
+    "company": "Desert Dentistry",
+    "subject": "Honest question about Desert Dentistry's website",
+    "city": "Phoenix",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
