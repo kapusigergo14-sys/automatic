@@ -7773,5 +7773,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "jcfamilydentalaz@gmail.com": {
+    "sentAt": "2026-04-18T20:56:05.083Z",
+    "messageId": "<202604182056.50130662118@smtp-relay.mailin.fr>",
+    "company": "JC Family Dental",
+    "subject": "JC Family Dental — what happens when someone visits your site at 11pm?",
+    "city": "Phoenix",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
