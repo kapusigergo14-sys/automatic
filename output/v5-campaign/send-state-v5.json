@@ -6695,5 +6695,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "prw@glasgowdentalcare.co.uk": {
+    "sentAt": "2026-04-18T11:50:52.540Z",
+    "messageId": "<202604181150.99344316030@smtp-relay.mailin.fr>",
+    "company": "Complete Dental Care - Glasgow",
+    "subject": "Noticed something about Complete Dental Care's site",
+    "city": "Kinning Park",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
