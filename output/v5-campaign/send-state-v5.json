@@ -6893,5 +6893,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@thirtytwodentistry.com": {
+    "sentAt": "2026-04-18T11:52:49.885Z",
+    "messageId": "<202604181152.68269383599@smtp-relay.mailin.fr>",
+    "company": "Thirty-2 Advanced Dentistry",
+    "subject": "Noticed something about Thirty's site",
+    "city": "West Hollywood",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
