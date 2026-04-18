@@ -7443,5 +7443,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "dentalcareop@sbcglobal.net": {
+    "sentAt": "2026-04-18T11:58:16.058Z",
+    "messageId": "<202604181158.89333215966@smtp-relay.mailin.fr>",
+    "company": "Dental Care of Oak Park",
+    "subject": "Honest question about Dental Care of Oak's website",
+    "city": "Oak Park",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
