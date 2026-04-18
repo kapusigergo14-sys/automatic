@@ -6618,5 +6618,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@g1dental.com": {
+    "sentAt": "2026-04-18T11:50:06.885Z",
+    "messageId": "<202604181150.27813496663@smtp-relay.mailin.fr>",
+    "company": "G1 Dental",
+    "subject": "Honest question about G1 Dental's website",
+    "city": "54 Dundas St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
