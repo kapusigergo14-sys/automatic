@@ -7025,5 +7025,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@localsmileco.com": {
+    "sentAt": "2026-04-18T11:54:08.135Z",
+    "messageId": "<202604181154.10321771669@smtp-relay.mailin.fr>",
+    "company": "Local Smile Co",
+    "subject": "Noticed something about Local Smile Co's site",
+    "city": "Los Angeles CA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
