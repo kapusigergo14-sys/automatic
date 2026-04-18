@@ -7498,5 +7498,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@mycurasmiles.com": {
+    "sentAt": "2026-04-18T17:38:54.958Z",
+    "messageId": "<202604181738.29719160431@smtp-relay.mailin.fr>",
+    "company": "Cura Smiles",
+    "subject": "Noticed something about Cura Smiles's site",
+    "city": "Houston",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
