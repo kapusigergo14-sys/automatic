@@ -6728,5 +6728,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info.otdc@gmail.com": {
+    "sentAt": "2026-04-18T11:51:12.123Z",
+    "messageId": "<202604181151.49670232879@smtp-relay.mailin.fr>",
+    "company": "Old Town Dental Care - Invisalign, Dentist in Aberdeen",
+    "subject": "Noticed something about Old Town Dental Care's site",
+    "city": "519 King St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
