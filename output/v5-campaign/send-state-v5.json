@@ -7476,5 +7476,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "consult@premieresurgicalarts.com": {
+    "sentAt": "2026-04-18T11:58:35.589Z",
+    "messageId": "<202604181158.61572392745@smtp-relay.mailin.fr>",
+    "company": "Premiere Surgical Arts",
+    "subject": "Honest question about Premiere Surgical Arts's website",
+    "city": "Houston",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
