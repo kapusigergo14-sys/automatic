@@ -7421,5 +7421,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@sfdchicago.com": {
+    "sentAt": "2026-04-18T11:58:03.145Z",
+    "messageId": "<202604181158.68339899104@smtp-relay.mailin.fr>",
+    "company": "Sonrisa Family Dental",
+    "subject": "Noticed something about Sonrisa Family Dental's site",
+    "city": "Chicago",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
