@@ -6706,5 +6706,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@andrewscottdental.co.uk": {
+    "sentAt": "2026-04-18T11:50:59.047Z",
+    "messageId": "<202604181150.97874595327@smtp-relay.mailin.fr>",
+    "company": "Andrew Scott Dental Care",
+    "subject": "Andrew Scott Dental Care — what happens when someone visits your site at 11pm?",
+    "city": "39 Queen's Rd",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
