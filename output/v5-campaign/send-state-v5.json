@@ -7586,5 +7586,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "evol@edentalgroup.net": {
+    "sentAt": "2026-04-18T18:38:56.274Z",
+    "messageId": "<202604181838.11698695774@smtp-relay.mailin.fr>",
+    "company": "Edental",
+    "subject": "Honest question about Edental's website",
+    "city": "Houston TX",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
