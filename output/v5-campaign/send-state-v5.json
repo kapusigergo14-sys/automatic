@@ -7751,5 +7751,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "frontoffice@alanpersonsdentist.com": {
+    "sentAt": "2026-04-18T20:39:43.848Z",
+    "messageId": "<202604182039.90880243177@smtp-relay.mailin.fr>",
+    "company": "Alan Persons, DMD",
+    "subject": "Honest question about Alan Persons DMD's website",
+    "city": "Glendale",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
