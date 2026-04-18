@@ -7047,5 +7047,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@relatedental.la": {
+    "sentAt": "2026-04-18T11:54:21.240Z",
+    "messageId": "<202604181154.54177372458@smtp-relay.mailin.fr>",
+    "company": "Relate Dental Care - Culver City",
+    "subject": "Honest question about Relate Dental Care's website",
+    "city": "Culver City",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
