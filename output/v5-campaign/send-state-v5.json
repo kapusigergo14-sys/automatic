@@ -6563,5 +6563,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@newtowndentalcare.co.uk": {
+    "sentAt": "2026-04-18T11:49:34.372Z",
+    "messageId": "<202604181149.92445521617@smtp-relay.mailin.fr>",
+    "company": "New Town Dental Care",
+    "subject": "Noticed something about New Town Dental Care's site",
+    "city": "4 Henderson Row",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
