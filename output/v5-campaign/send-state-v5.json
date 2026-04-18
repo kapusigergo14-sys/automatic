@@ -7333,5 +7333,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "chicago-db-logo@2x-1.webp": {
+    "sentAt": "2026-04-18T11:57:10.721Z",
+    "messageId": "<202604181157.12968578213@smtp-relay.mailin.fr>",
+    "company": "Chicago Dental Boutique",
+    "subject": "Chicago Dental Boutique — what happens when someone visits your site at 11pm?",
+    "city": "Chicago",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
