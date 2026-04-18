@@ -6464,5 +6464,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "admin@manchestercitydental.com": {
+    "sentAt": "2026-04-18T11:48:35.938Z",
+    "messageId": "<202604181148.95723075877@smtp-relay.mailin.fr>",
+    "company": "Manchester Dental",
+    "subject": "Noticed something about Manchester Dental's site",
+    "city": "Manchester",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
