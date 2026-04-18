@@ -6475,5 +6475,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@edinburghdental.co.uk": {
+    "sentAt": "2026-04-18T11:48:42.426Z",
+    "messageId": "<202604181148.91939567418@smtp-relay.mailin.fr>",
+    "company": "Edinburgh Dental",
+    "subject": "Edinburgh Dental — what happens when someone visits your site at 11pm?",
+    "city": "59 Ratcliffe Terrace",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
