@@ -7652,5 +7652,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "dentalcare@pearlanddentalcare.com": {
+    "sentAt": "2026-04-18T19:23:03.590Z",
+    "messageId": "<202604181923.51089289312@smtp-relay.mailin.fr>",
+    "company": "Pearland Dental Care",
+    "subject": "Honest question about Pearland Dental Care's website",
+    "city": "Pearland",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
