@@ -6629,5 +6629,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@shawlandsdentalcare.co.uk": {
+    "sentAt": "2026-04-18T11:50:13.458Z",
+    "messageId": "<202604181150.26845330564@smtp-relay.mailin.fr>",
+    "company": "Shawlands Dental Care - Glasgow",
+    "subject": "Noticed something about Shawlands Dental Care's site",
+    "city": "Shawlands",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
