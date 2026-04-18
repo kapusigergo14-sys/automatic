@@ -7014,5 +7014,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@losfelizdentalcenter.com": {
+    "sentAt": "2026-04-18T11:54:01.703Z",
+    "messageId": "<202604181154.31654107710@smtp-relay.mailin.fr>",
+    "company": "los feliz dental center",
+    "subject": "Honest question about los feliz dental center's website",
+    "city": "Los Angeles CA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
