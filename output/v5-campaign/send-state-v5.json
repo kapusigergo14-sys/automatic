@@ -7487,5 +7487,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "team@adorthodontics.com": {
+    "sentAt": "2026-04-18T11:58:42.104Z",
+    "messageId": "<202604181158.22921533510@smtp-relay.mailin.fr>",
+    "company": "Advance Orthodontics - Dr John Karotkin",
+    "subject": "Noticed something about Advance Orthodontics's site",
+    "city": "Houston",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
