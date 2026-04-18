@@ -6673,5 +6673,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@amcomputerstx.com": {
+    "sentAt": "2026-04-18T11:50:39.474Z",
+    "messageId": "<202604181150.84066565897@smtp-relay.mailin.fr>",
+    "company": "Dental Scotland, Glasgow, Bridge Street | Invisalign, NHS & Private",
+    "subject": "Dental Scotland Glasgow Bridge — what happens when someone visits your site at 11pm?",
+    "city": "1 Bridge St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
