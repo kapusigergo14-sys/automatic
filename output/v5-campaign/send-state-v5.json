@@ -7619,5 +7619,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "infosugarland@flossdental.com": {
+    "sentAt": "2026-04-18T18:59:28.367Z",
+    "messageId": "<202604181859.85080877128@smtp-relay.mailin.fr>",
+    "company": "Floss Dental",
+    "subject": "Honest question about Floss Dental's website",
+    "city": "Sugar Land",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
