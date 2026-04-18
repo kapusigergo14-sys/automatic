@@ -6860,5 +6860,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "reception@portlethendentalcare.co.uk": {
+    "sentAt": "2026-04-18T11:52:30.278Z",
+    "messageId": "<202604181152.93429134172@smtp-relay.mailin.fr>",
+    "company": "Portlethen Dental Care",
+    "subject": "Noticed something about Portlethen Dental Care's site",
+    "city": "Portlethen",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
