@@ -7630,5 +7630,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "houstonsmileimage@gmail.com": {
+    "sentAt": "2026-04-18T19:07:16.686Z",
+    "messageId": "<202604181907.88693162952@smtp-relay.mailin.fr>",
+    "company": "Smile Image Dentists",
+    "subject": "Noticed something about Smile Image Dentists's site",
+    "city": "Houston",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
