@@ -7740,5 +7740,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "fox@mb2dental.com": {
+    "sentAt": "2026-04-18T20:33:14.456Z",
+    "messageId": "<202604182033.76008986418@smtp-relay.mailin.fr>",
+    "company": "Fox Family Dental",
+    "subject": "Fox Family Dental — what happens when someone visits your site at 11pm?",
+    "city": "Sun City",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
