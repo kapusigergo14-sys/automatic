@@ -1482,5 +1482,26 @@
     "lastNewLeads": 0,
     "totalNewLeads": 0,
     "lastResultsCount": 0
+  },
+  "UK-ABERDEEN": {
+    "lastRunAt": "2026-04-18T11:46:36.487Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-BELFAST": {
+    "lastRunAt": "2026-04-18T11:46:36.487Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-OXFORD": {
+    "lastRunAt": "2026-04-18T11:46:36.487Z",
+    "totalRuns": 1,
+    "lastNewLeads": 4,
+    "totalNewLeads": 4,
+    "lastResultsCount": 13
   }
 }

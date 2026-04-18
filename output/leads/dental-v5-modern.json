@@ -7022,5 +7022,47 @@
     "hasBooking": false,
     "modernScore": 3,
     "collectedAt": "2026-04-18T11:41:14.595Z"
+  },
+  {
+    "name": "Moreton Road Dental Practice",
+    "website": "https://www.4mrdp.com",
+    "phone": "+44 1865 557808",
+    "city": "Oxford",
+    "country": "UK",
+    "email": "info_mrdp@btinternet.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-18T11:46:30.633Z"
+  },
+  {
+    "name": "St Giles' Dentists",
+    "website": "https://42stgiles.com",
+    "city": "Oxford",
+    "country": "UK",
+    "email": "enquiries@42stgiles.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-18T11:46:30.730Z"
+  },
+  {
+    "name": "Manor Dental Care",
+    "website": "https://www.colosseumdental.co.uk/practices/manor-dental-clinic",
+    "city": "Oxford",
+    "country": "UK",
+    "email": "reception.manor@colosseumdental.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-18T11:46:30.925Z"
+  },
+  {
+    "name": "Damira Dental Studios",
+    "website": "https://damiradental.co.uk/location/oxford",
+    "phone": "+441865689997",
+    "city": "Oxford",
+    "country": "UK",
+    "email": "oxford.reception@damiradental.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-18T11:46:31.289Z"
   }
 ]
