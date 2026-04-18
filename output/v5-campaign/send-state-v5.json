@@ -6750,5 +6750,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@holburndentalclinic.co.uk": {
+    "sentAt": "2026-04-18T11:51:25.069Z",
+    "messageId": "<202604181151.84521377674@smtp-relay.mailin.fr>",
+    "company": "Holburn Dental and Implant Centre",
+    "subject": "Honest question about Holburn Dental and Implant's website",
+    "city": "616 Holburn St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
