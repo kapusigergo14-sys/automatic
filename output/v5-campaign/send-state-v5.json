@@ -6497,5 +6497,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@linksdentalpractice.co.uk": {
+    "sentAt": "2026-04-18T11:48:55.576Z",
+    "messageId": "<202604181148.82578070968@smtp-relay.mailin.fr>",
+    "company": "Links Dental Practice",
+    "subject": "Noticed something about Links Dental Practice's site",
+    "city": "101-103 Whitehouse Loan",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
