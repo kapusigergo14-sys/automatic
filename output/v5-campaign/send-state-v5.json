@@ -7223,5 +7223,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@aghbashian.com": {
+    "sentAt": "2026-04-18T11:56:05.408Z",
+    "messageId": "<202604181156.24875810416@smtp-relay.mailin.fr>",
+    "company": "Aghbashian Dental",
+    "subject": "Noticed something about Aghbashian Dental's site",
+    "city": "Glendale",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
