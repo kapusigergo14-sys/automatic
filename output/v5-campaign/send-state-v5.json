@@ -6739,5 +6739,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@academydentalcare.co.uk": {
+    "sentAt": "2026-04-18T11:51:18.568Z",
+    "messageId": "<202604181151.84260752827@smtp-relay.mailin.fr>",
+    "company": "Academy Dental Care",
+    "subject": "Academy Dental Care — what happens when someone visits your site at 11pm?",
+    "city": "86 Crown St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
