@@ -6915,5 +6915,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@visiondental.com": {
+    "sentAt": "2026-04-18T11:53:02.956Z",
+    "messageId": "<202604181153.43866149469@smtp-relay.mailin.fr>",
+    "company": "Vision Dental",
+    "subject": "Honest question about Vision Dental's website",
+    "city": "Los Angeles",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
