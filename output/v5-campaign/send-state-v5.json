@@ -6508,5 +6508,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@dentistryonthesquare.co.uk": {
+    "sentAt": "2026-04-18T11:49:02.056Z",
+    "messageId": "<202604181149.20471684555@smtp-relay.mailin.fr>",
+    "company": "Dentistry On The Square",
+    "subject": "Dentistry On The Square — what happens when someone visits your site at 11pm?",
+    "city": "12 Niddrie Square",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
