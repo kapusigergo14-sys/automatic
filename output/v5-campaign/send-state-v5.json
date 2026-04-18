@@ -7245,5 +7245,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@abcburbankdentist.com": {
+    "sentAt": "2026-04-18T11:56:18.348Z",
+    "messageId": "<202604181156.24636517015@smtp-relay.mailin.fr>",
+    "company": "ABC Dental",
+    "subject": "Honest question about ABC Dental's website",
+    "city": "Burbank",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
