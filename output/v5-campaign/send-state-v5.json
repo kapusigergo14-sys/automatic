@@ -7520,5 +7520,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@questdentalbearcreek.com": {
+    "sentAt": "2026-04-18T17:51:49.717Z",
+    "messageId": "<202604181751.18867873463@smtp-relay.mailin.fr>",
+    "company": "Quest Dentistry",
+    "subject": "Honest question about Quest Dentistry's website",
+    "city": "Houston",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
