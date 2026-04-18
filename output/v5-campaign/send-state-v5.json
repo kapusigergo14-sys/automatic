@@ -7003,5 +7003,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 2
+  },
+  "admin@alphaonedental.com": {
+    "sentAt": "2026-04-18T11:53:55.247Z",
+    "messageId": "<202604181153.14070660945@smtp-relay.mailin.fr>",
+    "company": "Alpha One",
+    "subject": "Alpha One — what happens when someone visits your site at 11pm?",
+    "city": "Los Angeles CA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
