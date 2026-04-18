@@ -6651,5 +6651,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@dentalpractice.com": {
+    "sentAt": "2026-04-18T11:50:26.469Z",
+    "messageId": "<202604181150.88348480292@smtp-relay.mailin.fr>",
+    "company": "Kalyani Dental Lounge and Gallery",
+    "subject": "Honest question about Kalyani Dental Lounge and's website",
+    "city": "200 Bath St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
