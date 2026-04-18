@@ -7542,5 +7542,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@rivervillagedental.com": {
+    "sentAt": "2026-04-18T18:02:15.367Z",
+    "messageId": "<202604181802.28023879798@smtp-relay.mailin.fr>",
+    "company": "River Village Dental",
+    "subject": "River Village Dental — what happens when someone visits your site at 11pm?",
+    "city": "Chicago IL",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
