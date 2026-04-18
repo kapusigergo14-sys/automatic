@@ -7091,5 +7091,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "happy@tooth.com": {
+    "sentAt": "2026-04-18T11:54:47.303Z",
+    "messageId": "<202604181154.26651242080@smtp-relay.mailin.fr>",
+    "company": "All Smiles Dental Group",
+    "subject": "Noticed something about All Smiles Dental Group's site",
+    "city": "Burbank",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
