@@ -7553,5 +7553,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "implants@newsmilesbellaire.com": {
+    "sentAt": "2026-04-18T18:13:37.445Z",
+    "messageId": "<202604181813.53153252207@smtp-relay.mailin.fr>",
+    "company": "New Smiles Implant & Orthodontic Center",
+    "subject": "Honest question about New Smiles Implant &'s website",
+    "city": "Houston",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
