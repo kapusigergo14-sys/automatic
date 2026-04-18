@@ -7113,5 +7113,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@airdentalburbank.com": {
+    "sentAt": "2026-04-18T11:55:00.299Z",
+    "messageId": "<202604181155.39954454391@smtp-relay.mailin.fr>",
+    "company": "Air Dental",
+    "subject": "Honest question about Air Dental's website",
+    "city": "Burbank",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
