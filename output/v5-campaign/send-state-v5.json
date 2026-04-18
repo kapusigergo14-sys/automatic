@@ -7674,5 +7674,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@enamordentistry.com": {
+    "sentAt": "2026-04-18T19:41:09.387Z",
+    "messageId": "<202604181941.93826822201@smtp-relay.mailin.fr>",
+    "company": "Enamor Dentistry",
+    "subject": "Enamor Dentistry — what happens when someone visits your site at 11pm?",
+    "city": "Scottsdale",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
