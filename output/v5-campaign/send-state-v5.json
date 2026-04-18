@@ -6783,5 +6783,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "reception@westenddentalaberdeen.co.uk": {
+    "sentAt": "2026-04-18T11:51:44.483Z",
+    "messageId": "<202604181151.46422816742@smtp-relay.mailin.fr>",
+    "company": "West End Dental",
+    "subject": "Honest question about West End Dental's website",
+    "city": "189 Great Western Rd",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
