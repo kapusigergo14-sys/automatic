@@ -6640,5 +6640,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@glasgowdentalcentre.co.uk": {
+    "sentAt": "2026-04-18T11:50:20.000Z",
+    "messageId": "<202604181150.24281875010@smtp-relay.mailin.fr>",
+    "company": "Glasgow Dental Centre",
+    "subject": "Glasgow Dental Centre — what happens when someone visits your site at 11pm?",
+    "city": "1403 Gallowgate",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
