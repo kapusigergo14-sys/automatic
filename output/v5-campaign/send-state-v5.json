@@ -7729,5 +7729,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@lawsfamilydental.com": {
+    "sentAt": "2026-04-18T20:28:10.561Z",
+    "messageId": "<202604182028.33054418624@smtp-relay.mailin.fr>",
+    "company": "Law's Family Dentistry",
+    "subject": "Noticed something about Law's Family Dentistry's site",
+    "city": "Glendale",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
