@@ -7064,5 +7064,48 @@
     "hasBooking": false,
     "modernScore": 3,
     "collectedAt": "2026-04-18T11:46:31.289Z"
+  },
+  {
+    "name": "John Moore Dental",
+    "website": "https://johnmooredental.co.uk",
+    "city": "Plymouth",
+    "country": "UK",
+    "email": "info@mooredental.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-18T17:29:21.049Z"
+  },
+  {
+    "name": "Newmarket Road Dentistry",
+    "website": "https://www.newmarketroaddentistry.co.uk",
+    "phone": "+44 1223 321855",
+    "city": "Cambridge",
+    "country": "UK",
+    "email": "reception@newmarketroaddentistry.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-18T17:29:21.450Z"
+  },
+  {
+    "name": "Trumpington Street Dentistry",
+    "website": "https://www.trumpingtonstreetdentistry.co.uk",
+    "phone": "+441223367870",
+    "city": "Cambridge",
+    "country": "UK",
+    "email": "reception@trumpingtonstreetdentistry.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-18T17:29:22.294Z"
+  },
+  {
+    "name": "Green Tree Dental",
+    "website": "https://www.greentreedental.co.uk",
+    "phone": "+44 1223 354176",
+    "city": "Cambridge",
+    "country": "UK",
+    "email": "peterborough@greentreedental.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-18T17:29:22.506Z"
   }
 ]

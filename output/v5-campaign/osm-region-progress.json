@@ -1503,5 +1503,26 @@
     "lastNewLeads": 4,
     "totalNewLeads": 4,
     "lastResultsCount": 13
+  },
+  "UK-CAMBRIDGE": {
+    "lastRunAt": "2026-04-18T17:29:26.977Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 14
+  },
+  "UK-BATH": {
+    "lastRunAt": "2026-04-18T17:29:26.977Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-PLYMOUTH": {
+    "lastRunAt": "2026-04-18T17:29:26.977Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 5
   }
 }
