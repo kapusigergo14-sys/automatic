@@ -7509,5 +7509,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "springbranchdentalgroup@gmail.com": {
+    "sentAt": "2026-04-18T17:42:58.830Z",
+    "messageId": "<202604181742.67679918742@smtp-relay.mailin.fr>",
+    "company": "Spring Branch Dental Group",
+    "subject": "Spring Branch Dental Group — what happens when someone visits your site at 11pm?",
+    "city": "Houston",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
