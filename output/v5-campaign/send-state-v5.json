@@ -7762,5 +7762,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@beyonddentalcare.com": {
+    "sentAt": "2026-04-18T20:49:38.883Z",
+    "messageId": "<202604182049.82548873998@smtp-relay.mailin.fr>",
+    "company": "Beyond Dental Care",
+    "subject": "Noticed something about Beyond Dental Care's site",
+    "city": "Glendale",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
