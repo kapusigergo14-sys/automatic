@@ -6684,5 +6684,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@sloandental.co.uk": {
+    "sentAt": "2026-04-18T11:50:45.975Z",
+    "messageId": "<202604181150.25174513629@smtp-relay.mailin.fr>",
+    "company": "Sloan Dental Merchant City",
+    "subject": "Honest question about Sloan Dental Merchant City's website",
+    "city": "125 High St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
