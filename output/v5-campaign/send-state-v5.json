@@ -6882,5 +6882,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@westenddentaldundee.com": {
+    "sentAt": "2026-04-18T11:52:43.328Z",
+    "messageId": "<202604181152.81878577028@smtp-relay.mailin.fr>",
+    "company": "West End Dental Practice",
+    "subject": "Honest question about West End Dental Practice's website",
+    "city": "243 Perth Rd",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
