@@ -6519,5 +6519,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@bruntsfielddental.com": {
+    "sentAt": "2026-04-18T11:49:08.565Z",
+    "messageId": "<202604181149.21334959467@smtp-relay.mailin.fr>",
+    "company": "Bruntsfield Dental",
+    "subject": "Honest question about Bruntsfield Dental's website",
+    "city": "226 Bruntsfield Pl",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
