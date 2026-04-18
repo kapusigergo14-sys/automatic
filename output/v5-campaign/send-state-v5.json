@@ -6827,5 +6827,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@i-smiledentalclinic.com": {
+    "sentAt": "2026-04-18T11:52:10.492Z",
+    "messageId": "<202604181152.10098720695@smtp-relay.mailin.fr>",
+    "company": "I-Smile Dental clinic",
+    "subject": "Noticed something about I's site",
+    "city": "322 George St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
