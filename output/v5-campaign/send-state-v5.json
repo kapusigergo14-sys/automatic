@@ -6816,5 +6816,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "reception@scottishdentalimplants.com": {
+    "sentAt": "2026-04-18T11:52:04.002Z",
+    "messageId": "<202604181152.50553696711@smtp-relay.mailin.fr>",
+    "company": "Scottish Dental Implants & Cosmetic Dentistry",
+    "subject": "Honest question about Scottish Dental Implants &'s website",
+    "city": "22 Commercial St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
