@@ -7795,5 +7795,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "team@agavedental.com": {
+    "sentAt": "2026-04-18T21:12:20.664Z",
+    "messageId": "<202604182112.87089728466@smtp-relay.mailin.fr>",
+    "company": "Agave Dental",
+    "subject": "Noticed something about Agave Dental's site",
+    "city": "Phoenix",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
