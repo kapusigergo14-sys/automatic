@@ -7157,5 +7157,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "smile@beachteeth.com": {
+    "sentAt": "2026-04-18T11:55:26.520Z",
+    "messageId": "<202604181155.55516305165@smtp-relay.mailin.fr>",
+    "company": "Beach Teeth",
+    "subject": "Noticed something about Beach Teeth's site",
+    "city": "Los Angeles CA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
