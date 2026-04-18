@@ -6486,5 +6486,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@haymarketdental.com": {
+    "sentAt": "2026-04-18T11:48:48.998Z",
+    "messageId": "<202604181148.58641573491@smtp-relay.mailin.fr>",
+    "company": "Haymarket Dental",
+    "subject": "Honest question about Haymarket Dental's website",
+    "city": "264 Morrison St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
