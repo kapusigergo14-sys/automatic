@@ -6442,5 +6442,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@vachondental.com": {
+    "sentAt": "2026-04-18T11:48:22.973Z",
+    "messageId": "<202604181148.92632120825@smtp-relay.mailin.fr>",
+    "company": "Vachon Dental",
+    "subject": "Vachon Dental — what happens when someone visits your site at 11pm?",
+    "city": "Manchester",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
