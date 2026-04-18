@@ -6409,5 +6409,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "portlandsmilesdds@gmail.com": {
+    "sentAt": "2026-04-18T11:48:03.451Z",
+    "messageId": "<202604181148.68926672782@smtp-relay.mailin.fr>",
+    "company": "Portland Smiles",
+    "subject": "Portland Smiles — what happens when someone visits your site at 11pm?",
+    "city": "Portland",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
