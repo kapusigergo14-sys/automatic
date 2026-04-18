@@ -7322,5 +7322,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "smile@thechicagodentalstudio.com": {
+    "sentAt": "2026-04-18T11:57:04.208Z",
+    "messageId": "<202604181157.88570229387@smtp-relay.mailin.fr>",
+    "company": "The Chicago Dental Studio",
+    "subject": "Noticed something about The Chicago Dental Studio's site",
+    "city": "Chicago",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
