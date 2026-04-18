@@ -7344,5 +7344,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@website.com": {
+    "sentAt": "2026-04-18T11:57:17.255Z",
+    "messageId": "<202604181157.93518739094@smtp-relay.mailin.fr>",
+    "company": "Comfort Dental",
+    "subject": "Honest question about Comfort Dental's website",
+    "city": "Glendale",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
