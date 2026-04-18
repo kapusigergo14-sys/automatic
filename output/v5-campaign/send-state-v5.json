@@ -7355,5 +7355,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@mydente.com": {
+    "sentAt": "2026-04-18T11:57:23.825Z",
+    "messageId": "<202604181157.19313241164@smtp-relay.mailin.fr>",
+    "company": "Dente Complete Dentistry",
+    "subject": "Noticed something about Dente Complete Dentistry's site",
+    "city": "Chicago IL",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
