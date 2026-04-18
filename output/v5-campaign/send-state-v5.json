@@ -7366,5 +7366,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "manus@manushp.com": {
+    "sentAt": "2026-04-18T11:57:30.326Z",
+    "messageId": "<202604181157.76717733271@smtp-relay.mailin.fr>",
+    "company": "Manus Dental",
+    "subject": "Manus Dental — what happens when someone visits your site at 11pm?",
+    "city": "Chicago",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
