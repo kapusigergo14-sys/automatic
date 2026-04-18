@@ -7465,5 +7465,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "nkfamilydentalchicago@gmail.com": {
+    "sentAt": "2026-04-18T11:58:29.074Z",
+    "messageId": "<202604181158.59246445342@smtp-relay.mailin.fr>",
+    "company": "NK Family Dental",
+    "subject": "NK Family Dental — what happens when someone visits your site at 11pm?",
+    "city": "Chicago IL",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
