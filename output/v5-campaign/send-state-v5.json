@@ -6992,5 +6992,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@a-dentalcenter.com": {
+    "sentAt": "2026-04-18T11:53:48.822Z",
+    "messageId": "<202604181153.71405009318@smtp-relay.mailin.fr>",
+    "company": "A-Dental Center",
+    "subject": "Noticed something about A's site",
+    "city": "Los Angeles",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 2
   }
 }
