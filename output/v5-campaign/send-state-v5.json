@@ -6552,5 +6552,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@citydentalcare.co.uk": {
+    "sentAt": "2026-04-18T11:49:27.921Z",
+    "messageId": "<202604181149.54631700434@smtp-relay.mailin.fr>",
+    "company": "City Dental Care",
+    "subject": "Honest question about City Dental Care's website",
+    "city": "9 Earl Grey St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
