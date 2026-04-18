@@ -7410,5 +7410,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "contact@flosslincolnpark.com": {
+    "sentAt": "2026-04-18T11:57:56.556Z",
+    "messageId": "<202604181157.32922353741@smtp-relay.mailin.fr>",
+    "company": "Floss & Co. - Lincoln Park",
+    "subject": "Honest question about Floss & Co.'s website",
+    "city": "Chicago",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
