@@ -7135,5 +7135,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "customerservice@abritersmile.com": {
+    "sentAt": "2026-04-18T11:55:13.352Z",
+    "messageId": "<202604181155.20292065887@smtp-relay.mailin.fr>",
+    "company": "A Briter Smile",
+    "subject": "A Briter Smile — what happens when someone visits your site at 11pm?",
+    "city": "Los Angeles CA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
