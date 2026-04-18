@@ -7685,5 +7685,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@arizonabiltmoredentistry.com": {
+    "sentAt": "2026-04-18T19:51:19.425Z",
+    "messageId": "<202604181951.58779867950@smtp-relay.mailin.fr>",
+    "company": "Arizona Biltmore Dentistry",
+    "subject": "Honest question about Arizona Biltmore Dentistry's website",
+    "city": "Phoenix",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
