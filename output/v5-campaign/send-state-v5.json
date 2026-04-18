@@ -6530,5 +6530,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@edinburghdentalcare.uk": {
+    "sentAt": "2026-04-18T11:49:15.058Z",
+    "messageId": "<202604181149.25081121681@smtp-relay.mailin.fr>",
+    "company": "Edinburgh Dental Care",
+    "subject": "Noticed something about Edinburgh Dental Care's site",
+    "city": "Leith",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
