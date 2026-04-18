@@ -7179,5 +7179,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "kamran_hakim@yahoo.com": {
+    "sentAt": "2026-04-18T11:55:39.494Z",
+    "messageId": "<202604181155.65976648485@smtp-relay.mailin.fr>",
+    "company": "Miracle Dental",
+    "subject": "Honest question about Miracle Dental's website",
+    "city": "Los Angeles CA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
