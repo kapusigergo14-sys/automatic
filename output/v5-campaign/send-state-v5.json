@@ -7278,5 +7278,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "nisha@alamedasmilecare.com": {
+    "sentAt": "2026-04-18T11:56:37.907Z",
+    "messageId": "<202604181156.72206856340@smtp-relay.mailin.fr>",
+    "company": "Nisha M. Patel, DDS",
+    "subject": "Honest question about Nisha M. Patel DDS's website",
+    "city": "Burbank",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
