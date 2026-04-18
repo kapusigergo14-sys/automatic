@@ -6838,5 +6838,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "enquiries@dundeedentists.co.uk": {
+    "sentAt": "2026-04-18T11:52:17.085Z",
+    "messageId": "<202604181152.11174675530@smtp-relay.mailin.fr>",
+    "company": "Union Street Dental Care",
+    "subject": "Union Street Dental Care — what happens when someone visits your site at 11pm?",
+    "city": "26 Union St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
