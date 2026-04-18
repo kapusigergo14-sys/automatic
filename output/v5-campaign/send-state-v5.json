@@ -7289,5 +7289,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "team@freshworksdental.com": {
+    "sentAt": "2026-04-18T11:56:44.417Z",
+    "messageId": "<202604181156.22068037183@smtp-relay.mailin.fr>",
+    "company": "Freshworks Dental Studio",
+    "subject": "Noticed something about Freshworks Dental Studio's site",
+    "city": "Chicago",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
