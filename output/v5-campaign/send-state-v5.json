@@ -6398,5 +6398,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "nhfdoffice@nhfamilydentist.com": {
+    "sentAt": "2026-04-18T11:47:57.019Z",
+    "messageId": "<202604181147.31457295461@smtp-relay.mailin.fr>",
+    "company": "New Hampshire Family Dentistry",
+    "subject": "Noticed something about New Hampshire Family Dentistry's site",
+    "city": "Manchester",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
