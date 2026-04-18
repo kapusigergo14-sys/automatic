@@ -6574,5 +6574,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@barntondental.com": {
+    "sentAt": "2026-04-18T11:49:40.893Z",
+    "messageId": "<202604181149.67542231721@smtp-relay.mailin.fr>",
+    "company": "Barnton Dental",
+    "subject": "Barnton Dental — what happens when someone visits your site at 11pm?",
+    "city": "461 Queensferry Rd",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
