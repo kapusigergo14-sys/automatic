@@ -6981,5 +6981,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "mehr@sparklefamilydentist.com": {
+    "sentAt": "2026-04-18T11:53:42.300Z",
+    "messageId": "<202604181153.21684167567@smtp-relay.mailin.fr>",
+    "company": "Sparkle Family Dentistry - Torrance",
+    "subject": "Honest question about Sparkle Family Dentistry's website",
+    "city": "Torrance",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
