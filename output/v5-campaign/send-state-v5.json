@@ -7212,5 +7212,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@yeodental.com": {
+    "sentAt": "2026-04-18T11:55:58.930Z",
+    "messageId": "<202604181155.67203629881@smtp-relay.mailin.fr>",
+    "company": "Yeo Family Dental Group",
+    "subject": "Honest question about Yeo Family Dental Group's website",
+    "city": "Marina Del Rey",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
