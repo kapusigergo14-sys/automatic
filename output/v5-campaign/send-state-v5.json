@@ -6585,5 +6585,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "dental@1smile.co.uk": {
+    "sentAt": "2026-04-18T11:49:47.380Z",
+    "messageId": "<202604181149.30427443419@smtp-relay.mailin.fr>",
+    "company": "1Smile Dental Clinic",
+    "subject": "Honest question about 1Smile Dental Clinic's website",
+    "city": "13 Renfield St",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
