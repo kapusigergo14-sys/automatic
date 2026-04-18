@@ -6970,5 +6970,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "dre@ladentist.com": {
+    "sentAt": "2026-04-18T11:53:35.858Z",
+    "messageId": "<202604181153.57172037001@smtp-relay.mailin.fr>",
+    "company": "Wilshire Smile Studio",
+    "subject": "Wilshire Smile Studio — what happens when someone visits your site at 11pm?",
+    "city": "Los Angeles",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
