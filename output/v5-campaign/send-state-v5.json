@@ -6596,5 +6596,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "hello@westdental.co.uk": {
+    "sentAt": "2026-04-18T11:49:53.818Z",
+    "messageId": "<202604181149.17027956415@smtp-relay.mailin.fr>",
+    "company": "West Dental Glasgow",
+    "subject": "Noticed something about West Dental Glasgow's site",
+    "city": "2 Lansdowne Cres",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
