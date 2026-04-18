@@ -6794,5 +6794,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@aberdeendentalcare.co.uk": {
+    "sentAt": "2026-04-18T11:51:50.970Z",
+    "messageId": "<202604181151.82341300587@smtp-relay.mailin.fr>",
+    "company": "Aberdeen Dental Care",
+    "subject": "Noticed something about Aberdeen Dental Care's site",
+    "city": "116 Rosemount Pl",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
