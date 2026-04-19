@@ -8158,5 +8158,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@howardplacedemtal.com": {
+    "sentAt": "2026-04-19T11:41:32.110Z",
+    "messageId": "<202604191141.66671863786@smtp-relay.mailin.fr>",
+    "company": "Howard Place Dental Practice",
+    "subject": "Noticed something about Howard Place Dental Practice's site",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
