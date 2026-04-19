@@ -214,5 +214,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:37:45.737Z",
     "originalSentAt": "2026-04-17T21:15:36.113Z"
+  },
+  "elizabeth@elizabethspindel.com": {
+    "sentAt": "2026-04-19T15:38:24.930Z",
+    "messageId": "<202604191538.14539489414@smtp-relay.mailin.fr>",
+    "company": "Spindel General and Cosmetic Dentistry",
+    "subject": "One last thing for Spindel General and Cosmetic",
+    "city": "Manchester",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:38:24.598Z",
+    "originalSentAt": "2026-04-18T11:48:29.454Z"
   }
 }
