@@ -898,5 +898,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:45:55.150Z",
     "originalSentAt": "2026-04-14T15:25:45.729Z"
+  },
+  "care@alpinedentalhealth.com": {
+    "sentAt": "2026-04-19T16:47:02.816Z",
+    "messageId": "<202604191647.72309654169@smtp-relay.mailin.fr>",
+    "company": "Alpine Dental Health - S. Taft Hill Road, Fort Collins",
+    "subject": "One last thing for Alpine Dental Health",
+    "city": "Fort Collins",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:47:02.494Z",
+    "originalSentAt": "2026-04-14T15:25:57.421Z"
   }
 }
