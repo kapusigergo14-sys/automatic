@@ -8147,5 +8147,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@holyrooddentalcare.co.uk": {
+    "sentAt": "2026-04-19T11:41:25.889Z",
+    "messageId": "<202604191141.56106327893@smtp-relay.mailin.fr>",
+    "company": "Holyrood Dental Care",
+    "subject": "Honest question about Holyrood Dental Care's website",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
