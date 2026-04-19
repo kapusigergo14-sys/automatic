@@ -622,5 +622,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:18:37.662Z",
     "originalSentAt": "2026-04-18T11:52:17.085Z"
+  },
+  "info@sunsetplazadental.com": {
+    "sentAt": "2026-04-19T16:19:41.495Z",
+    "messageId": "<202604191619.13865183706@smtp-relay.mailin.fr>",
+    "company": "Sunset Plaza Dental",
+    "subject": "Sunset Plaza Dental — 50% off, 72 hours only",
+    "city": "West Hollywood",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:19:41.150Z",
+    "originalSentAt": "2026-04-18T11:53:22.869Z"
   }
 }
