@@ -970,5 +970,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:52:49.902Z",
     "originalSentAt": "2026-04-14T15:34:19.711Z"
+  },
+  "office@mydentalessence.com": {
+    "sentAt": "2026-04-19T16:53:56.150Z",
+    "messageId": "<202604191653.31483155941@smtp-relay.mailin.fr>",
+    "company": "Dental Essence",
+    "subject": "One last thing for Dental Essence",
+    "city": "Sioux Falls",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:53:55.806Z",
+    "originalSentAt": "2026-04-15T08:21:01.841Z"
   }
 }
