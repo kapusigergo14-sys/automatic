@@ -8554,5 +8554,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "office@lajollacolonydental.com": {
+    "sentAt": "2026-04-19T19:16:33.223Z",
+    "messageId": "<202604191916.17797792308@smtp-relay.mailin.fr>",
+    "company": "La Jolla Colony Dental",
+    "subject": "AI chatbot for La Jolla Colony Dental — 50% off, 72 hours",
+    "city": "San Diego",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
