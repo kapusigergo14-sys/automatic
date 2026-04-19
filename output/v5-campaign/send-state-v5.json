@@ -8334,5 +8334,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@4greatstuartstreet.com": {
+    "sentAt": "2026-04-19T11:43:13.762Z",
+    "messageId": "<202604191143.98056921004@smtp-relay.mailin.fr>",
+    "company": "The Dental Practise",
+    "subject": "The Dental Practise — what happens when someone visits your site at 11pm?",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
