@@ -8279,5 +8279,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@vitaliteeth.co.uk": {
+    "sentAt": "2026-04-19T11:42:42.009Z",
+    "messageId": "<202604191142.38047612033@smtp-relay.mailin.fr>",
+    "company": "Vitaliteeth Dental Spa",
+    "subject": "Honest question about Vitaliteeth Dental Spa's website",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
