@@ -8191,5 +8191,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@eh10dental.com": {
+    "sentAt": "2026-04-19T11:41:51.192Z",
+    "messageId": "<202604191141.24500636360@smtp-relay.mailin.fr>",
+    "company": "EH10 Dental",
+    "subject": "Noticed something about EH10 Dental's site",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
