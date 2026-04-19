@@ -130,5 +130,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:30:00.492Z",
     "originalSentAt": "2026-04-16T18:13:08.220Z"
+  },
+  "ktowner@premierdentistpartners.com": {
+    "sentAt": "2026-04-19T15:31:18.086Z",
+    "messageId": "<202604191531.85554445883@smtp-relay.mailin.fr>",
+    "company": "DK Dental - Douglas Kosek DDS & Associates",
+    "subject": "Exclusive for DK Dental (expires Apr 22)",
+    "city": "South Bend",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:31:17.718Z",
+    "originalSentAt": "2026-04-16T20:16:21.616Z"
   }
 }
