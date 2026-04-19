@@ -274,5 +274,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:43:37.076Z",
     "originalSentAt": "2026-04-17T20:38:02.458Z"
+  },
+  "saltlakedentaloffice@gmail.com": {
+    "sentAt": "2026-04-19T15:44:37.693Z",
+    "messageId": "<202604191544.91406834240@smtp-relay.mailin.fr>",
+    "company": "Salt Lake Dental",
+    "subject": "Exclusive for Salt Lake Dental (expires Apr 22)",
+    "city": "Salt Lake City",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:44:37.365Z",
+    "originalSentAt": "2026-04-14T15:28:37.484Z"
   }
 }
