@@ -454,5 +454,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:00:40.161Z",
     "originalSentAt": "2026-04-17T10:59:04.153Z"
+  },
+  "info@edinburghdentalstudio.co.uk": {
+    "sentAt": "2026-04-19T16:02:06.761Z",
+    "messageId": "<202604191602.40056439585@smtp-relay.mailin.fr>",
+    "company": "Edinburgh Dental Studio",
+    "subject": "Exclusive for Edinburgh Dental Studio (expires Apr 22)",
+    "city": "6 Randolph Pl",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:02:06.394Z",
+    "originalSentAt": "2026-04-17T11:00:55.377Z"
   }
 }
