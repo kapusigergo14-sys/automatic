@@ -8565,5 +8565,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "chulavistasmiles@yahoo.com": {
+    "sentAt": "2026-04-19T19:17:11.472Z",
+    "messageId": "<202604191917.81172332442@smtp-relay.mailin.fr>",
+    "company": "Chula Vista Smiles",
+    "subject": "Quick one for Chula Vista Smiles — AI chatbot 50% off right now",
+    "city": "Chula Vista",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
