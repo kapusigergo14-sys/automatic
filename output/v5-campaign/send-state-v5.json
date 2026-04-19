@@ -8367,5 +8367,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@oceanorthodonticclinic.co.uk": {
+    "sentAt": "2026-04-19T11:43:32.774Z",
+    "messageId": "<202604191143.93677222430@smtp-relay.mailin.fr>",
+    "company": "Ocean Orthodontic Clinic",
+    "subject": "Ocean Orthodontic Clinic — what happens when someone visits your site at 11pm?",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
