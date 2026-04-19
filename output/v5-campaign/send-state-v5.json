@@ -8202,5 +8202,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "ripple-dental@dentallymail.co.uk": {
+    "sentAt": "2026-04-19T11:41:57.846Z",
+    "messageId": "<202604191141.38040145732@smtp-relay.mailin.fr>",
+    "company": "Ripple Dental",
+    "subject": "Ripple Dental — what happens when someone visits your site at 11pm?",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
