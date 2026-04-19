@@ -8818,5 +8818,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "austin@jdcweb.com": {
+    "sentAt": "2026-04-19T19:30:32.834Z",
+    "messageId": "<202604191930.31091974903@smtp-relay.mailin.fr>",
+    "company": "Jefferson Dental Care",
+    "subject": "AI chatbot for Jefferson Dental Care — 50% off, 72 hours",
+    "city": "Austin",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
