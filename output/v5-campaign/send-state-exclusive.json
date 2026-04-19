@@ -886,5 +886,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:44:37.638Z",
     "originalSentAt": "2026-04-14T15:25:15.367Z"
+  },
+  "contactus@emergencydentalofamerica.com": {
+    "sentAt": "2026-04-19T16:45:55.479Z",
+    "messageId": "<202604191645.38860583748@smtp-relay.mailin.fr>",
+    "company": "Emergency Dental of Colorado Springs",
+    "subject": "Exclusive for Emergency Dental of Colorado (expires Apr 22)",
+    "city": "Colorado Springs",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:45:55.150Z",
+    "originalSentAt": "2026-04-14T15:25:45.729Z"
   }
 }
