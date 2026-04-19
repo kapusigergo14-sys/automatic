@@ -8664,5 +8664,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "lakelineranchdental@yahoo.com": {
+    "sentAt": "2026-04-19T19:22:25.852Z",
+    "messageId": "<202604191922.78000709363@smtp-relay.mailin.fr>",
+    "company": "Lakeline Ranch Dental",
+    "subject": "Quick one for Lakeline Ranch Dental — AI chatbot 50% off right now",
+    "city": "Austin",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
