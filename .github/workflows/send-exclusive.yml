@@ -73,11 +73,20 @@ jobs:
             exit 1
           fi
           echo "✅ Found $CSV ($(wc -l < "$CSV") lines)"
+          if [ -f "data/resend-logs.csv" ]; then
+            echo "✅ Also found data/resend-logs.csv ($(wc -l < data/resend-logs.csv) lines) — will merge"
+          fi
 
-      - name: Import openers from CSV
+      - name: Import openers from CSV(s)
         run: |
           CSV="${{ github.event.inputs.csv_path || 'data/brevo-logs.csv' }}"
-          npx ts-node scripts/import-brevo-openers.ts --csv "$CSV"
+          FLAGS="--csv $CSV"
+          # Auto-merge Resend export if committed alongside Brevo
+          if [ -f "data/resend-logs.csv" ] && [ "$CSV" != "data/resend-logs.csv" ]; then
+            FLAGS="$FLAGS --csv data/resend-logs.csv"
+          fi
+          echo "Running: npx ts-node scripts/import-brevo-openers.ts $FLAGS"
+          npx ts-node scripts/import-brevo-openers.ts $FLAGS
 
       - name: Send exclusive batch
         env:
