@@ -922,5 +922,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:48:11.782Z",
     "originalSentAt": "2026-04-14T15:28:43.234Z"
+  },
+  "info@salemdentistry.net": {
+    "sentAt": "2026-04-19T16:48:54.847Z",
+    "messageId": "<202604191648.90910936375@smtp-relay.mailin.fr>",
+    "company": "Salem Family and Cosmetic Dentistry",
+    "subject": "Exclusive for Salem Family and Cosmetic (expires Apr 22)",
+    "city": "Salem",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:48:54.507Z",
+    "originalSentAt": "2026-04-14T15:30:49.005Z"
   }
 }
