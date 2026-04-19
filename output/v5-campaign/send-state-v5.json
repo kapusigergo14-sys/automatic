@@ -8774,5 +8774,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@avivadentalcare.com": {
+    "sentAt": "2026-04-19T19:28:13.288Z",
+    "messageId": "<202604191928.65827008037@smtp-relay.mailin.fr>",
+    "company": "Aviva Dental Care",
+    "subject": "Aviva Dental Care — 50% off AI chatbot this week",
+    "city": "Cedar Park",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
