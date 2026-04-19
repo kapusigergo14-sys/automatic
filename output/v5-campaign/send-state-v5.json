@@ -9082,5 +9082,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "appointments@kappadental.com": {
+    "sentAt": "2026-04-19T19:45:20.895Z",
+    "messageId": "<202604191945.18840909871@smtp-relay.mailin.fr>",
+    "company": "Kappa Dental Group",
+    "subject": "AI chatbot for Kappa Dental Group — 50% off, 72 hours",
+    "city": "Somerville",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
