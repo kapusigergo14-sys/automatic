@@ -373,7 +373,15 @@ interface RawCandidate {
 const OVERPASS_ENDPOINTS = [
   'https://overpass-api.de/api/interpreter',
   'https://overpass.kumi.systems/api/interpreter',
+  'https://overpass.osm.ch/api/interpreter',
+  'https://overpass.openstreetmap.ru/api/interpreter',
+  'https://overpass.private.coffee/api/interpreter',
 ];
+
+// Identifies us to Overpass operators so they can contact us if our
+// traffic pattern causes issues, per their usage policy:
+// https://dev.overpass-api.de/overpass-doc/en/preface/commons.html
+const OVERPASS_USER_AGENT = 'smartflowdev-leadgen/1.0 (+https://smartflowdev.com; geri@smartflowdev.com)';
 
 function buildOverpassQuery(bboxStr: string, osmTags: string[]): string {
   const tagQueries = osmTags.flatMap(tag => {
@@ -403,7 +411,10 @@ async function queryOverpass(region: OsmRegion): Promise<RawCandidate[]> {
       const t = setTimeout(() => ctrl.abort(), 30_000);
       const res = await fetch(endpoint, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+          'User-Agent': OVERPASS_USER_AGENT,
+        },
         body: 'data=' + encodeURIComponent(query),
         signal: ctrl.signal,
       });
@@ -715,9 +726,13 @@ async function main() {
     perRegionStats[r.code] = { resultsCount: raw.length, newQualified: 0 };
     allRaw.push(...raw);
 
-    // 5s delay between Overpass queries (rate-limit hygiene)
+    // 15-25s delay between Overpass queries (jittered). The public
+    // endpoints rate-limit aggressive back-to-back batches; GitHub
+    // Actions shared IPs are especially prone to getting a short-term
+    // 403/429 ban. Jitter helps avoid looking like bot traffic.
     if (i < selected.length - 1) {
-      await new Promise((resolve) => setTimeout(resolve, 5000));
+      const delay = 15000 + Math.floor(Math.random() * 10000);
+      await new Promise((resolve) => setTimeout(resolve, delay));
     }
   }
 
