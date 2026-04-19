@@ -142,5 +142,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:31:17.718Z",
     "originalSentAt": "2026-04-16T20:16:21.616Z"
+  },
+  "info@merskidental.com": {
+    "sentAt": "2026-04-19T15:33:01.242Z",
+    "messageId": "<202604191533.51275106958@smtp-relay.mailin.fr>",
+    "company": "Merski Dental",
+    "subject": "One last thing for Merski Dental",
+    "city": "Erie",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:33:00.900Z",
+    "originalSentAt": "2026-04-16T20:18:59.637Z"
   }
 }
