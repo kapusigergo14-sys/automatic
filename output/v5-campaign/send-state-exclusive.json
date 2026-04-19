@@ -766,5 +766,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:32:49.194Z",
     "originalSentAt": "2026-04-19T11:39:38.376Z"
+  },
+  "smile@pontcannadental.co.uk": {
+    "sentAt": "2026-04-19T16:33:58.575Z",
+    "messageId": "<202604191633.70353664063@smtp-relay.mailin.fr>",
+    "company": "Pontcanna Dental Care",
+    "subject": "Pontcanna Dental Care — 50% off, 72 hours only",
+    "city": "Cardiff",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:33:58.238Z",
+    "originalSentAt": "2026-04-19T11:40:29.104Z"
   }
 }
