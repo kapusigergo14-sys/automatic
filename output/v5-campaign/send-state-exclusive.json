@@ -790,5 +790,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:35:13.051Z",
     "originalSentAt": "2026-04-19T11:40:47.984Z"
+  },
+  "info@sevenhillsdental.co.uk": {
+    "sentAt": "2026-04-19T16:36:20.965Z",
+    "messageId": "<202604191636.86577740849@smtp-relay.mailin.fr>",
+    "company": "Seven Hills Dental Practice",
+    "subject": "One last thing for Seven Hills Dental Practice",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:36:20.631Z",
+    "originalSentAt": "2026-04-19T11:42:23.108Z"
   }
 }
