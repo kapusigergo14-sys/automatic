@@ -694,5 +694,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:25:33.558Z",
     "originalSentAt": "2026-04-18T11:58:09.631Z"
+  },
+  "info@eastbelfastdentalclinic.co.uk": {
+    "sentAt": "2026-04-19T16:26:43.263Z",
+    "messageId": "<202604191626.88390346712@smtp-relay.mailin.fr>",
+    "company": "East Belfast Dental & Implants",
+    "subject": "East Belfast Dental & — 50% off, 72 hours only",
+    "city": "65 Cregagh Rd",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:26:42.923Z",
+    "originalSentAt": "2026-04-17T11:00:16.339Z"
   }
 }
