@@ -1524,5 +1524,26 @@
     "lastNewLeads": 1,
     "totalNewLeads": 1,
     "lastResultsCount": 5
+  },
+  "US-LAS-VEGAS": {
+    "lastRunAt": "2026-04-19T19:13:28.887Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-MANHATTAN": {
+    "lastRunAt": "2026-04-19T19:13:28.887Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-STATEN-ISLAND": {
+    "lastRunAt": "2026-04-19T19:13:28.887Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
   }
 }

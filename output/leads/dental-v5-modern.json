@@ -7107,5 +7107,16 @@
     "hasBooking": false,
     "modernScore": 3,
     "collectedAt": "2026-04-18T17:29:22.506Z"
+  },
+  {
+    "name": "Joshua Kleiman, DDS & Marc Meiselman, DMD",
+    "website": "http://www.imakesmiles.com",
+    "city": "Staten Island NY",
+    "country": "US",
+    "email": "drmeiselman@imakesmiles.com",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-19T19:13:25.937Z",
+    "extractedFrom": "homepage:mailto"
   }
 ]
