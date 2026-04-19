@@ -8785,5 +8785,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "downtown@austincosmetic.com": {
+    "sentAt": "2026-04-19T19:28:53.172Z",
+    "messageId": "<202604191928.88904962479@smtp-relay.mailin.fr>",
+    "company": "Austin Cosmetic Dentistry",
+    "subject": "AI chatbot for Austin Cosmetic Dentistry — 50% off, 72 hours",
+    "city": "Austin",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
