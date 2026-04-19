@@ -1210,5 +1210,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T17:14:31.131Z",
     "originalSentAt": "2026-04-15T08:29:32.072Z"
+  },
+  "info@happy-dentistry.com.au": {
+    "sentAt": "2026-04-19T17:16:01.218Z",
+    "messageId": "<202604191716.25199780652@smtp-relay.mailin.fr>",
+    "company": "Happy Dentistry",
+    "subject": "Exclusive for Happy Dentistry (expires Apr 22)",
+    "city": "Melbourne Australia",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T17:16:00.862Z",
+    "originalSentAt": "2026-04-17T05:14:08.664Z"
   }
 }
