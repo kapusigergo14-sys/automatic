@@ -8026,5 +8026,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "care@contemporarydental.co.uk": {
+    "sentAt": "2026-04-19T11:40:16.417Z",
+    "messageId": "<202604191140.86768140009@smtp-relay.mailin.fr>",
+    "company": "Contempory Dental",
+    "subject": "Noticed something about Contempory Dental's site",
+    "city": "Exeter",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
