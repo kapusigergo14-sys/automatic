@@ -54,6 +54,14 @@ const COUNTRIES: CountryConfig[] = [
 // this radius and only the larger one is kept. Prevents overlapping bboxes.
 const DEDUP_DISTANCE_KM = 20;
 
+// Cities above this population are dropped entirely. Their Overpass
+// bbox contains millions of OSM objects and the public endpoints
+// consistently reply HTTP 406 / 429 for them — queries never complete.
+// Rather than burn our selected-per-run budget on cities that always
+// fail, we just skip them. NYC (8.3M), LA (3.9M), Chicago (2.7M),
+// London (~9M), Sydney (~5M), etc. get excluded at generation time.
+const MEGACITY_POP_CAP = 2_000_000;
+
 // ─── Geonames TSV field indexes (see docs/geoname.txt) ──────────────────
 // 0  geonameid           integer id of record in geonames database
 // 1  name                name of geographical point (utf8)
@@ -165,7 +173,9 @@ async function main() {
 
   for (const cfg of COUNTRIES) {
     const rows = allRows
-      .filter((r) => r.countryCode === cfg.geonamesCode && r.population >= cfg.minPop)
+      .filter((r) => r.countryCode === cfg.geonamesCode
+        && r.population >= cfg.minPop
+        && r.population < MEGACITY_POP_CAP)
       .sort((a, b) => b.population - a.population);
 
     const kept: EnhancedRow[] = [];

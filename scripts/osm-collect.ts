@@ -649,15 +649,23 @@ async function main() {
     .map((x) => x.region);
   const cooledOut = allRegions.length - eligible.length;
 
-  // Sort: never-run first, then oldest lastRunAt
-  eligible.sort((a, b) => {
-    const ea = progress[a.code];
-    const eb = progress[b.code];
-    if (!ea && eb) return -1;
-    if (ea && !eb) return 1;
-    if (!ea && !eb) return 0;
-    return new Date(ea!.lastRunAt).getTime() - new Date(eb!.lastRunAt).getTime();
-  });
+  // Partition: never-run regions are prioritised; among them we shuffle
+  // (Fisher-Yates) so runs spread across the ~720 regions rather than
+  // always starting with the top-population city (NYC, LA, Chicago etc.
+  // which Overpass consistently rate-limits with 406/429). Has-run
+  // regions are sorted by oldest lastRunAt so cooled regions rotate fairly.
+  const neverRun = eligible.filter((r) => !progress[r.code]);
+  const hasRun = eligible.filter((r) => progress[r.code]);
+  for (let i = neverRun.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [neverRun[i], neverRun[j]] = [neverRun[j], neverRun[i]];
+  }
+  hasRun.sort((a, b) =>
+    new Date(progress[a.code]!.lastRunAt).getTime()
+    - new Date(progress[b.code]!.lastRunAt).getTime()
+  );
+  eligible.length = 0;
+  eligible.push(...neverRun, ...hasRun);
 
   // Take N per market
   const selected: OsmRegion[] = [];
