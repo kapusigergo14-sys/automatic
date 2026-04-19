@@ -742,5 +742,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:30:38.558Z",
     "originalSentAt": "2026-04-18T20:33:14.456Z"
+  },
+  "smile.centre@rodericksdental.co.uk": {
+    "sentAt": "2026-04-19T16:31:29.338Z",
+    "messageId": "<202604191631.34863418474@smtp-relay.mailin.fr>",
+    "company": "The Smile Centre",
+    "subject": "Exclusive for The Smile Centre (expires Apr 22)",
+    "city": "Nottingham",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:31:28.985Z",
+    "originalSentAt": "2026-04-19T11:39:19.332Z"
   }
 }
