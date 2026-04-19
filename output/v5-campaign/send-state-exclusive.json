@@ -874,5 +874,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:42:59.276Z",
     "originalSentAt": "2026-04-13T20:28:20.710Z"
+  },
+  "frontdesk@springsdentistry.com": {
+    "sentAt": "2026-04-19T16:44:37.993Z",
+    "messageId": "<202604191644.37833283674@smtp-relay.mailin.fr>",
+    "company": "Springs Dentistry",
+    "subject": "Springs Dentistry — 50% off, 72 hours only",
+    "city": "Colorado Springs",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:44:37.638Z",
+    "originalSentAt": "2026-04-14T15:25:15.367Z"
   }
 }
