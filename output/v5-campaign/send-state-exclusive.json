@@ -202,5 +202,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:36:34.782Z",
     "originalSentAt": "2026-04-17T20:31:51.831Z"
+  },
+  "info@1330dental.com": {
+    "sentAt": "2026-04-19T15:37:46.079Z",
+    "messageId": "<202604191537.85742406706@smtp-relay.mailin.fr>",
+    "company": "1330 Dental Associates",
+    "subject": "Exclusive for 1330 Dental Associates (expires Apr 22)",
+    "city": "Portland",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:37:45.737Z",
+    "originalSentAt": "2026-04-17T21:15:36.113Z"
   }
 }
