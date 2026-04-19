@@ -394,5 +394,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:55:10.214Z",
     "originalSentAt": "2026-04-17T05:20:05.059Z"
+  },
+  "admin@dentalprecinct.com.au": {
+    "sentAt": "2026-04-19T15:56:19.791Z",
+    "messageId": "<202604191556.75697499886@smtp-relay.mailin.fr>",
+    "company": "Dental Precinct Townsville",
+    "subject": "One last thing for Dental Precinct Townsville",
+    "city": "Townsville Australia",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:56:19.426Z",
+    "originalSentAt": "2026-04-17T05:18:19.948Z"
   }
 }
