@@ -166,5 +166,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:33:41.661Z",
     "originalSentAt": "2026-04-16T20:19:18.456Z"
+  },
+  "350002@nadentalgroup.com": {
+    "sentAt": "2026-04-19T15:34:30.073Z",
+    "messageId": "<202604191534.40992623963@smtp-relay.mailin.fr>",
+    "company": "Dental Express",
+    "subject": "Exclusive for Dental Express (expires Apr 22)",
+    "city": "Boardman",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:34:29.748Z",
+    "originalSentAt": "2026-04-16T20:18:28.127Z"
   }
 }
