@@ -550,5 +550,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:10:58.527Z",
     "originalSentAt": "2026-04-17T19:16:36.176Z"
+  },
+  "mailbox@timberlaneadultdentistry.com": {
+    "sentAt": "2026-04-19T16:12:03.536Z",
+    "messageId": "<202604191612.32524264165@smtp-relay.mailin.fr>",
+    "company": "Timberlane Adult Dentistry & Periodontics",
+    "subject": "Timberlane Adult Dentistry & — 50% off, 72 hours only",
+    "city": "Burlington",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:12:03.189Z",
+    "originalSentAt": "2026-04-17T19:41:52.344Z"
   }
 }
