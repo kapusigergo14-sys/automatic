@@ -7872,5 +7872,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@55gosforthsmiles.co.uk": {
+    "sentAt": "2026-04-19T11:38:47.810Z",
+    "messageId": "<202604191138.48955858322@smtp-relay.mailin.fr>",
+    "company": "Gosforth Smiles",
+    "subject": "Gosforth Smiles — what happens when someone visits your site at 11pm?",
+    "city": "Newcastle",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
