@@ -8004,5 +8004,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "exeter@inspireddentalcare.co.uk": {
+    "sentAt": "2026-04-19T11:40:03.653Z",
+    "messageId": "<202604191140.20181176530@smtp-relay.mailin.fr>",
+    "company": "Inspired Dental Care",
+    "subject": "Inspired Dental Care — what happens when someone visits your site at 11pm?",
+    "city": "Exeter",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
