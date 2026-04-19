@@ -310,5 +310,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:46:32.715Z",
     "originalSentAt": "2026-04-17T05:17:00.748Z"
+  },
+  "reception@darlingdental.com.au": {
+    "sentAt": "2026-04-19T15:47:17.173Z",
+    "messageId": "<202604191547.89163617704@smtp-relay.mailin.fr>",
+    "company": "Darling Dental",
+    "subject": "Exclusive for Darling Dental (expires Apr 22)",
+    "city": "Tamworth Australia",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:47:16.830Z",
+    "originalSentAt": "2026-04-17T05:17:07.361Z"
   }
 }
