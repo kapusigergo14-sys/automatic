@@ -9071,5 +9071,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@copleydental.com": {
+    "sentAt": "2026-04-19T19:44:45.718Z",
+    "messageId": "<202604191944.86567329077@smtp-relay.mailin.fr>",
+    "company": "Copley Dental Associates",
+    "subject": "Copley Dental Associates — 50% off AI chatbot this week",
+    "city": "Boston",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
