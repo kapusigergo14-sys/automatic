@@ -8895,5 +8895,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "you@site.com": {
+    "sentAt": "2026-04-19T19:35:05.630Z",
+    "messageId": "<202604191935.10177183307@smtp-relay.mailin.fr>",
+    "company": "Buckeye Immediate Dental",
+    "subject": "Quick one for Buckeye Immediate Dental — AI chatbot 50% off right now",
+    "city": "Columbus",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
