@@ -1162,5 +1162,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T17:09:18.410Z",
     "originalSentAt": "2026-04-15T08:28:12.726Z"
+  },
+  "reception@trowerdental.com.au": {
+    "sentAt": "2026-04-19T17:10:48.359Z",
+    "messageId": "<202604191710.70809394402@smtp-relay.mailin.fr>",
+    "company": "Trower Dental",
+    "subject": "Trower Dental — 50% off, 72 hours only",
+    "city": "Darwin Australia",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T17:10:48.030Z",
+    "originalSentAt": "2026-04-15T08:28:35.071Z"
   }
 }
