@@ -262,5 +262,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:41:56.177Z",
     "originalSentAt": "2026-04-14T15:34:25.347Z"
+  },
+  "admin@thedentalloftme.com": {
+    "sentAt": "2026-04-19T15:43:37.410Z",
+    "messageId": "<202604191543.41324361359@smtp-relay.mailin.fr>",
+    "company": "The Dental Loft",
+    "subject": "The Dental Loft — 50% off, 72 hours only",
+    "city": "Portland",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:43:37.076Z",
+    "originalSentAt": "2026-04-17T20:38:02.458Z"
   }
 }
