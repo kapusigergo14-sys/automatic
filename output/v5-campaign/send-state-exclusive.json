@@ -514,5 +514,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:07:05.374Z",
     "originalSentAt": "2026-04-17T05:22:10.837Z"
+  },
+  "32009@nadentalgroup.com": {
+    "sentAt": "2026-04-19T16:08:12.407Z",
+    "messageId": "<202604191608.30171534537@smtp-relay.mailin.fr>",
+    "company": "Winning Smiles - Buffalo",
+    "subject": "Winning Smiles — 50% off, 72 hours only",
+    "city": "Buffalo",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:08:12.064Z",
+    "originalSentAt": "2026-04-17T18:17:40.144Z"
   }
 }
