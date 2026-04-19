@@ -22,5 +22,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:18:40.392Z",
     "originalSentAt": "2026-04-14T15:34:42.306Z"
+  },
+  "contact@mississippismilesdentistry.com": {
+    "sentAt": "2026-04-19T15:19:35.040Z",
+    "messageId": "<202604191519.43517607770@smtp-relay.mailin.fr>",
+    "company": "Mississippi Smiles Dentistry",
+    "subject": "Exclusive for Mississippi Smiles Dentistry (expires Apr 22)",
+    "city": "Jackson",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:19:34.702Z",
+    "originalSentAt": "2026-04-16T17:51:17.659Z"
   }
 }
