@@ -8037,5 +8037,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@andrewthomasdental.co.uk": {
+    "sentAt": "2026-04-19T11:40:22.793Z",
+    "messageId": "<202604191140.70274234400@smtp-relay.mailin.fr>",
+    "company": "Andrew Thomas Dental Care",
+    "subject": "Andrew Thomas Dental Care — what happens when someone visits your site at 11pm?",
+    "city": "Cardiff",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
