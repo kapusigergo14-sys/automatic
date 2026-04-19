@@ -1126,5 +1126,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T17:06:36.371Z",
     "originalSentAt": "2026-04-15T08:27:44.225Z"
+  },
+  "pm@cairnsdentalgroup.com.au": {
+    "sentAt": "2026-04-19T17:07:25.904Z",
+    "messageId": "<202604191707.28835562981@smtp-relay.mailin.fr>",
+    "company": "The Dentists Cairns Dental Group",
+    "subject": "The Dentists Cairns Dental — 50% off, 72 hours only",
+    "city": "Cairns Australia",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T17:07:25.494Z",
+    "originalSentAt": "2026-04-15T08:27:55.703Z"
   }
 }
