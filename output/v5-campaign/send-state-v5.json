@@ -8752,5 +8752,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "contact@circlecdental.com": {
+    "sentAt": "2026-04-19T19:27:02.938Z",
+    "messageId": "<202604191927.13984333089@smtp-relay.mailin.fr>",
+    "company": "Circle C Dental",
+    "subject": "AI chatbot for Circle C Dental — 50% off, 72 hours",
+    "city": "Austin",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
