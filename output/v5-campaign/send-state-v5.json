@@ -8994,5 +8994,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "hjdentistry@gmail.com": {
+    "sentAt": "2026-04-19T19:40:28.876Z",
+    "messageId": "<202604191940.86670600995@smtp-relay.mailin.fr>",
+    "company": "Haydn G. Jones II, DDS",
+    "subject": "Quick one for Haydn G. Jones II — AI chatbot 50% off right now",
+    "city": "Charlotte",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
