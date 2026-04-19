@@ -7971,5 +7971,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@woodthorpedentalcare.co.uk": {
+    "sentAt": "2026-04-19T11:39:44.743Z",
+    "messageId": "<202604191139.20053500403@smtp-relay.mailin.fr>",
+    "company": "Woodthorpe Dental Care",
+    "subject": "Woodthorpe Dental Care — what happens when someone visits your site at 11pm?",
+    "city": "Nottingham",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
