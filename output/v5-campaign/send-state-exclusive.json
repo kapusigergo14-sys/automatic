@@ -406,5 +406,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:56:19.426Z",
     "originalSentAt": "2026-04-17T05:18:19.948Z"
+  },
+  "donelle.cowan@impressiondentalgroup.com.au": {
+    "sentAt": "2026-04-19T15:57:55.604Z",
+    "messageId": "<202604191557.42987183970@smtp-relay.mailin.fr>",
+    "company": "Sale Street Dental | Dentist Clinic",
+    "subject": "Sale Street Dental — 50% off, 72 hours only",
+    "city": "Orange Australia",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:57:55.259Z",
+    "originalSentAt": "2026-04-17T05:14:35.855Z"
   }
 }
