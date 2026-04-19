@@ -9159,5 +9159,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "angelika.paul@kiwimotif.com": {
+    "sentAt": "2026-04-19T19:49:43.321Z",
+    "messageId": "<202604191949.25962159529@smtp-relay.mailin.fr>",
+    "company": "Carr & Associates",
+    "subject": "Quick one for Carr & Associates — AI chatbot 50% off right now",
+    "city": "Boston",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
