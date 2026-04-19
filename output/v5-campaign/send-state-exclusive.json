@@ -490,5 +490,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:04:33.834Z",
     "originalSentAt": "2026-04-17T05:19:32.323Z"
+  },
+  "chboykin@hotmail.com": {
+    "sentAt": "2026-04-19T16:05:32.920Z",
+    "messageId": "<202604191605.74474637563@smtp-relay.mailin.fr>",
+    "company": "Dr. Carl H. Boykin, DDS",
+    "subject": "Exclusive for Dr. Carl H. Boykin (expires Apr 22)",
+    "city": "Jackson",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:05:32.574Z",
+    "originalSentAt": "2026-04-16T17:53:52.501Z"
   }
 }
