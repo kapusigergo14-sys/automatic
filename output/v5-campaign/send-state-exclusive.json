@@ -670,5 +670,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:23:39.150Z",
     "originalSentAt": "2026-04-18T11:55:06.800Z"
+  },
+  "info@sfdchicago.com": {
+    "sentAt": "2026-04-19T16:24:31.662Z",
+    "messageId": "<202604191624.26410230538@smtp-relay.mailin.fr>",
+    "company": "Sonrisa Family Dental",
+    "subject": "Exclusive for Sonrisa Family Dental (expires Apr 22)",
+    "city": "Chicago",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:24:31.330Z",
+    "originalSentAt": "2026-04-18T11:58:03.145Z"
   }
 }
