@@ -610,5 +610,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:17:04.478Z",
     "originalSentAt": "2026-04-18T11:49:02.056Z"
+  },
+  "enquiries@dundeedentists.co.uk": {
+    "sentAt": "2026-04-19T16:18:38.000Z",
+    "messageId": "<202604191618.68793200292@smtp-relay.mailin.fr>",
+    "company": "Union Street Dental Care",
+    "subject": "One last thing for Union Street Dental Care",
+    "city": "26 Union St",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:18:37.662Z",
+    "originalSentAt": "2026-04-18T11:52:17.085Z"
   }
 }
