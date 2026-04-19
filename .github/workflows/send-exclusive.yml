@@ -1,0 +1,95 @@
+name: Send exclusive 50% re-engagement
+
+on:
+  workflow_dispatch:
+    inputs:
+      csv_path:
+        description: 'Path to Brevo logs CSV within the repo (e.g. data/brevo-logs.csv)'
+        type: string
+        default: 'data/brevo-logs.csv'
+      limit:
+        description: 'Max emails to send in this run'
+        type: string
+        default: '50'
+      spread_minutes:
+        description: 'Spread window in minutes (0 = 5s fixed delay)'
+        type: string
+        default: '60'
+      dry_run:
+        description: 'Dry run (imports CSV + shows what would send, no Brevo API call)'
+        type: boolean
+        default: false
+
+concurrency:
+  group: send-exclusive
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  send-exclusive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure git
+        run: |
+          git config user.name 'smartflowdev-bot'
+          git config user.email 'bot@smartflowdev.com'
+          git config --global push.default current
+
+      - name: Setup Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Verify CSV exists
+        run: |
+          CSV="${{ github.event.inputs.csv_path || 'data/brevo-logs.csv' }}"
+          if [ ! -f "$CSV" ]; then
+            echo "❌ CSV not found at $CSV. Commit the Brevo logs export first."
+            exit 1
+          fi
+          echo "✅ Found $CSV ($(wc -l < "$CSV") lines)"
+
+      - name: Import openers from CSV
+        run: |
+          CSV="${{ github.event.inputs.csv_path || 'data/brevo-logs.csv' }}"
+          npx ts-node scripts/import-brevo-openers.ts --csv "$CSV"
+
+      - name: Send exclusive batch
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+        run: |
+          LIMIT="${{ github.event.inputs.limit || '50' }}"
+          SPREAD="${{ github.event.inputs.spread_minutes || '60' }}"
+          DRY="${{ github.event.inputs.dry_run }}"
+          DRY_FLAG=""
+          if [ "$DRY" = "true" ]; then DRY_FLAG="--dry-run"; fi
+          npx ts-node scripts/send-exclusive.ts \
+            --limit "$LIMIT" \
+            --spread-minutes "$SPREAD" \
+            --git-commit-per-send \
+            $DRY_FLAG
+
+      - name: Final state push (safety net)
+        if: always()
+        run: |
+          git add output/v5-campaign/openers.json output/v5-campaign/send-state-exclusive.json || true
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(exclusive): state sync [skip ci]"
+            git push origin HEAD
+          else
+            echo "State already in sync"
+          fi
