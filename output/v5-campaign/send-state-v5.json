@@ -8114,5 +8114,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@asendodontics.com": {
+    "sentAt": "2026-04-19T11:41:06.869Z",
+    "messageId": "<202604191141.21826445590@smtp-relay.mailin.fr>",
+    "company": "A S Endodontics",
+    "subject": "Honest question about A S Endodontics's website",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
