@@ -8246,5 +8246,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@sevenhillsdental.co.uk": {
+    "sentAt": "2026-04-19T11:42:23.108Z",
+    "messageId": "<202604191142.29983870777@smtp-relay.mailin.fr>",
+    "company": "Seven Hills Dental Practice",
+    "subject": "Honest question about Seven Hills Dental Practice's website",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
