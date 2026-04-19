@@ -9126,5 +9126,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@harmonyboston.com": {
+    "sentAt": "2026-04-19T19:47:56.719Z",
+    "messageId": "<202604191947.90098257199@smtp-relay.mailin.fr>",
+    "company": "Harmony",
+    "subject": "Quick one for Harmony — AI chatbot 50% off right now",
+    "city": "Boston",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
