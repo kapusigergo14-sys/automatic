@@ -8939,5 +8939,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@modernfamilydentalcare.com": {
+    "sentAt": "2026-04-19T19:37:37.899Z",
+    "messageId": "<202604191937.21883463965@smtp-relay.mailin.fr>",
+    "company": "Modern Family Dental Care - Concord Mills",
+    "subject": "Modern Family Dental Care — 50% off AI chatbot this week",
+    "city": "Concord",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
