@@ -8048,5 +8048,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "smile@pontcannadental.co.uk": {
+    "sentAt": "2026-04-19T11:40:29.104Z",
+    "messageId": "<202604191140.56487340549@smtp-relay.mailin.fr>",
+    "company": "Pontcanna Dental Care",
+    "subject": "Honest question about Pontcanna Dental Care's website",
+    "city": "Cardiff",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
