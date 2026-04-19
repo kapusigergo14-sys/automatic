@@ -8499,5 +8499,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "alyssha.powers1@gmail.com": {
+    "sentAt": "2026-04-19T17:29:08.778Z",
+    "messageId": "<202604191729.80107345320@smtp-relay.mailin.fr>",
+    "company": "Oasis Family Dentistry",
+    "subject": "Quick one for Oasis Family Dentistry",
+    "city": "Jacksonville",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
