@@ -178,5 +178,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:34:29.748Z",
     "originalSentAt": "2026-04-16T20:18:28.127Z"
+  },
+  "info@cornerstonedentalny.com": {
+    "sentAt": "2026-04-19T15:35:16.136Z",
+    "messageId": "<202604191535.29570466522@smtp-relay.mailin.fr>",
+    "company": "Cornerstone Dental, LLP",
+    "subject": "One last thing for Cornerstone Dental LLP",
+    "city": "Rochester",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:35:15.780Z",
+    "originalSentAt": "2026-04-16T20:20:54.291Z"
   }
 }
