@@ -8906,5 +8906,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "usdmcenter@gmail.com": {
+    "sentAt": "2026-04-19T19:35:44.621Z",
+    "messageId": "<202604191935.47858430268@smtp-relay.mailin.fr>",
+    "company": "US Dental and Medical Care",
+    "subject": "US Dental and Medical — 50% off AI chatbot this week",
+    "city": "Columbus",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
