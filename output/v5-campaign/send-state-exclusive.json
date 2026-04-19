@@ -814,5 +814,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:37:19.662Z",
     "originalSentAt": "2026-04-19T11:44:04.312Z"
+  },
+  "info@ardmillanorthodontics.co.uk": {
+    "sentAt": "2026-04-19T16:38:53.268Z",
+    "messageId": "<202604191638.48213899034@smtp-relay.mailin.fr>",
+    "company": "Ardmillan Dental",
+    "subject": "Exclusive for Ardmillan Dental (expires Apr 22)",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:38:52.912Z",
+    "originalSentAt": "2026-04-19T11:41:38.420Z"
   }
 }
