@@ -1066,5 +1066,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T17:01:36.211Z",
     "originalSentAt": "2026-04-15T08:25:26.851Z"
+  },
+  "bundaberg@1300smiles.com.au": {
+    "sentAt": "2026-04-19T17:02:29.507Z",
+    "messageId": "<202604191702.93619806043@smtp-relay.mailin.fr>",
+    "company": "1300SMILES Dentists Bundaberg",
+    "subject": "Exclusive for 1300SMILES Dentists Bundaberg (expires Apr 22)",
+    "city": "Bundaberg Australia",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T17:02:29.047Z",
+    "originalSentAt": "2026-04-15T08:26:52.124Z"
   }
 }
