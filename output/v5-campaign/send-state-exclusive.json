@@ -250,5 +250,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:40:35.164Z",
     "originalSentAt": "2026-04-17T10:54:18.625Z"
+  },
+  "barkley.dental@comcast.net": {
+    "sentAt": "2026-04-19T15:41:56.526Z",
+    "messageId": "<202604191541.63253341422@smtp-relay.mailin.fr>",
+    "company": "Barkley Boulevard Dental Care",
+    "subject": "One last thing for Barkley Boulevard Dental Care",
+    "city": "Bellingham",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:41:56.177Z",
+    "originalSentAt": "2026-04-14T15:34:25.347Z"
   }
 }
