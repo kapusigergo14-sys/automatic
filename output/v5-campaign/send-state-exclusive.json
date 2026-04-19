@@ -10,5 +10,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:17:37.838Z",
     "originalSentAt": "2026-04-14T15:27:22.127Z"
+  },
+  "alamoanadentistry@gmail.com": {
+    "sentAt": "2026-04-19T15:18:40.732Z",
+    "messageId": "<202604191518.75589671432@smtp-relay.mailin.fr>",
+    "company": "Ala Moana Dentistry",
+    "subject": "Ala Moana Dentistry — 50% off, 72 hours only",
+    "city": "Honolulu",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:18:40.392Z",
+    "originalSentAt": "2026-04-14T15:34:42.306Z"
   }
 }
