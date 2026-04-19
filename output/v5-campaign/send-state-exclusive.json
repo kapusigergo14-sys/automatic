@@ -1054,5 +1054,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T17:00:15.198Z",
     "originalSentAt": "2026-04-15T08:24:53.096Z"
+  },
+  "gmg@thegardensmedical.com.au": {
+    "sentAt": "2026-04-19T17:01:36.647Z",
+    "messageId": "<202604191701.14293364041@smtp-relay.mailin.fr>",
+    "company": "Gardens Medical Group",
+    "subject": "Gardens Medical Group — 50% off, 72 hours only",
+    "city": "Albury Australia",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T17:01:36.211Z",
+    "originalSentAt": "2026-04-15T08:25:26.851Z"
   }
 }
