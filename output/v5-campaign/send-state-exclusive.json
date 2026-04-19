@@ -502,5 +502,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:05:32.574Z",
     "originalSentAt": "2026-04-16T17:53:52.501Z"
+  },
+  "reception@goodwooddental.com.au": {
+    "sentAt": "2026-04-19T16:07:05.722Z",
+    "messageId": "<202604191607.42756863863@smtp-relay.mailin.fr>",
+    "company": "Goodwood Dental",
+    "subject": "One last thing for Goodwood Dental",
+    "city": "Adelaide SA",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:07:05.374Z",
+    "originalSentAt": "2026-04-17T05:22:10.837Z"
   }
 }
