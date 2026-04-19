@@ -190,5 +190,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:35:15.780Z",
     "originalSentAt": "2026-04-16T20:20:54.291Z"
+  },
+  "aident@kropfdental.com": {
+    "sentAt": "2026-04-19T15:36:35.139Z",
+    "messageId": "<202604191536.81407058895@smtp-relay.mailin.fr>",
+    "company": "Associates In Dentistry",
+    "subject": "Associates In Dentistry — 50% off, 72 hours only",
+    "city": "Burlington",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:36:34.782Z",
+    "originalSentAt": "2026-04-17T20:31:51.831Z"
   }
 }
