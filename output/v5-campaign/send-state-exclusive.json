@@ -538,5 +538,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:09:47.870Z",
     "originalSentAt": "2026-04-17T18:59:03.682Z"
+  },
+  "info@colvindental.com": {
+    "sentAt": "2026-04-19T16:10:58.871Z",
+    "messageId": "<202604191610.63397000646@smtp-relay.mailin.fr>",
+    "company": "Colvin Avenue Dental",
+    "subject": "One last thing for Colvin Avenue Dental",
+    "city": "Albany",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:10:58.527Z",
+    "originalSentAt": "2026-04-17T19:16:36.176Z"
   }
 }
