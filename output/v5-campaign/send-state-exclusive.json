@@ -34,5 +34,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:19:34.702Z",
     "originalSentAt": "2026-04-16T17:51:17.659Z"
+  },
+  "eastover@garnerdental.net": {
+    "sentAt": "2026-04-19T15:21:09.840Z",
+    "messageId": "<202604191521.74670667890@smtp-relay.mailin.fr>",
+    "company": "Eastover Dental of Jackson",
+    "subject": "One last thing for Eastover Dental of Jackson",
+    "city": "Jackson",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:21:09.500Z",
+    "originalSentAt": "2026-04-16T17:52:33.097Z"
   }
 }
