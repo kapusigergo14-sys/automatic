@@ -334,5 +334,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:48:27.820Z",
     "originalSentAt": "2026-04-17T05:18:00.174Z"
+  },
+  "thecity@1300smiles.com.au": {
+    "sentAt": "2026-04-19T15:49:09.300Z",
+    "messageId": "<202604191549.44192939319@smtp-relay.mailin.fr>",
+    "company": "1300SMILES Dentists Townsville City",
+    "subject": "1300SMILES Dentists Townsville City — 50% off, 72 hours only",
+    "city": "Townsville Australia",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:49:08.977Z",
+    "originalSentAt": "2026-04-17T05:18:06.795Z"
   }
 }
