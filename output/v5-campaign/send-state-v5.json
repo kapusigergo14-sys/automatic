@@ -9148,5 +9148,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@cambridgesmiles.com": {
+    "sentAt": "2026-04-19T19:49:05.514Z",
+    "messageId": "<202604191949.17461778471@smtp-relay.mailin.fr>",
+    "company": "Cambridge Smiles",
+    "subject": "AI chatbot for Cambridge Smiles — 50% off, 72 hours",
+    "city": "Cambridge",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
