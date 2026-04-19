@@ -646,5 +646,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:21:04.976Z",
     "originalSentAt": "2026-04-18T11:53:29.338Z"
+  },
+  "info@relatedental.la": {
+    "sentAt": "2026-04-19T16:22:41.112Z",
+    "messageId": "<202604191622.66008003802@smtp-relay.mailin.fr>",
+    "company": "Relate Dental Care - Culver City",
+    "subject": "One last thing for Relate Dental Care",
+    "city": "Culver City",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:22:40.782Z",
+    "originalSentAt": "2026-04-18T11:54:21.240Z"
   }
 }
