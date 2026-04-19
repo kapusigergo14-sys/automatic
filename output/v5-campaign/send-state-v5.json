@@ -8587,5 +8587,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "sandiego@aplusfamilydentistry.com": {
+    "sentAt": "2026-04-19T19:18:28.814Z",
+    "messageId": "<202604191918.93999014458@smtp-relay.mailin.fr>",
+    "company": "A+ Family Dentistry",
+    "subject": "AI chatbot for A Family Dentistry — 50% off, 72 hours",
+    "city": "San Diego",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
