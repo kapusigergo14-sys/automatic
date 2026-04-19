@@ -430,5 +430,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:58:48.730Z",
     "originalSentAt": "2026-04-17T10:53:46.151Z"
+  },
+  "hello@kissdental.co.uk": {
+    "sentAt": "2026-04-19T15:59:29.204Z",
+    "messageId": "<202604191559.11167281397@smtp-relay.mailin.fr>",
+    "company": "KissDental Manchester",
+    "subject": "One last thing for KissDental Manchester",
+    "city": "Cheetham Hill",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:59:28.886Z",
+    "originalSentAt": "2026-04-17T10:54:38.016Z"
   }
 }
