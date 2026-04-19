@@ -8323,5 +8323,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@meadowsdentalclinic.co.uk": {
+    "sentAt": "2026-04-19T11:43:07.552Z",
+    "messageId": "<202604191143.79218085875@smtp-relay.mailin.fr>",
+    "company": "Meadows Dental Clinic",
+    "subject": "Noticed something about Meadows Dental Clinic's site",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
