@@ -562,5 +562,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:12:03.189Z",
     "originalSentAt": "2026-04-17T19:41:52.344Z"
+  },
+  "info@portlandmedentist.com": {
+    "sentAt": "2026-04-19T16:13:38.786Z",
+    "messageId": "<202604191613.32436770920@smtp-relay.mailin.fr>",
+    "company": "Coastal Family Dental",
+    "subject": "Exclusive for Coastal Family Dental (expires Apr 22)",
+    "city": "Portland",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:13:38.438Z",
+    "originalSentAt": "2026-04-17T20:58:58.686Z"
   }
 }
