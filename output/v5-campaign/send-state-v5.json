@@ -8686,5 +8686,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "admin@austinfamilydds.com": {
+    "sentAt": "2026-04-19T19:23:32.091Z",
+    "messageId": "<202604191923.18712170934@smtp-relay.mailin.fr>",
+    "company": "Powell & Tiller Dental Care",
+    "subject": "AI chatbot for Powell & Tiller Dental — 50% off, 72 hours",
+    "city": "Austin",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
