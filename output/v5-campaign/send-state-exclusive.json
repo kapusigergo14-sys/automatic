@@ -226,5 +226,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:38:24.598Z",
     "originalSentAt": "2026-04-18T11:48:29.454Z"
+  },
+  "dentalteam@weekend-dentalcare.com": {
+    "sentAt": "2026-04-19T15:39:23.233Z",
+    "messageId": "<202604191539.63790246488@smtp-relay.mailin.fr>",
+    "company": "Weekend Dental Care Tempe",
+    "subject": "Weekend Dental Care Tempe — 50% off, 72 hours only",
+    "city": "Tempe",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:39:22.902Z",
+    "originalSentAt": "2026-04-14T15:27:57.114Z"
   }
 }
