@@ -9016,5 +9016,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "hello@nationsdentalstudio.com": {
+    "sentAt": "2026-04-19T19:41:42.175Z",
+    "messageId": "<202604191941.30789968122@smtp-relay.mailin.fr>",
+    "company": "Nations Dental Studio",
+    "subject": "AI chatbot for Nations Dental Studio — 50% off, 72 hours",
+    "city": "Nashville",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
