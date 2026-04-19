@@ -1174,5 +1174,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T17:10:48.030Z",
     "originalSentAt": "2026-04-15T08:28:35.071Z"
+  },
+  "admin@darwinsmiles.com.au": {
+    "sentAt": "2026-04-19T17:11:26.520Z",
+    "messageId": "<202604191711.11409525009@smtp-relay.mailin.fr>",
+    "company": "Darwin Smiles",
+    "subject": "Exclusive for Darwin Smiles (expires Apr 22)",
+    "city": "Darwin Australia",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T17:11:26.182Z",
+    "originalSentAt": "2026-04-15T08:28:40.750Z"
   }
 }
