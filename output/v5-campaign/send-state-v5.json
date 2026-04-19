@@ -8411,5 +8411,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception.manor@colosseumdental.co.uk": {
+    "sentAt": "2026-04-19T11:43:57.968Z",
+    "messageId": "<202604191143.70823991372@smtp-relay.mailin.fr>",
+    "company": "Manor Dental Care",
+    "subject": "Honest question about Manor Dental Care's website",
+    "city": "Oxford",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
