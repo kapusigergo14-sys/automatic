@@ -1186,5 +1186,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T17:11:26.182Z",
     "originalSentAt": "2026-04-15T08:28:40.750Z"
+  },
+  "mackay@1300smiles.com.au": {
+    "sentAt": "2026-04-19T17:13:04.951Z",
+    "messageId": "<202604191713.11615849770@smtp-relay.mailin.fr>",
+    "company": "1300SMILES Dentists Mackay",
+    "subject": "One last thing for 1300SMILES Dentists Mackay",
+    "city": "Mackay Australia",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T17:13:04.611Z",
+    "originalSentAt": "2026-04-15T08:28:46.345Z"
   }
 }
