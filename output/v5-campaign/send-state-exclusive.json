@@ -634,5 +634,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:19:41.150Z",
     "originalSentAt": "2026-04-18T11:53:22.869Z"
+  },
+  "appointments@beachbraces.org": {
+    "sentAt": "2026-04-19T16:21:05.334Z",
+    "messageId": "<202604191621.42174790938@smtp-relay.mailin.fr>",
+    "company": "Beach Braces",
+    "subject": "Exclusive for Beach Braces (expires Apr 22)",
+    "city": "Manhattan Beach",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:21:04.976Z",
+    "originalSentAt": "2026-04-18T11:53:29.338Z"
   }
 }
