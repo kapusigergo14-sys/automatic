@@ -8015,5 +8015,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@southernhaydental.co.uk": {
+    "sentAt": "2026-04-19T11:40:10.129Z",
+    "messageId": "<202604191140.41169601049@smtp-relay.mailin.fr>",
+    "company": "Southernhay Dental Practice",
+    "subject": "Honest question about Southernhay Dental Practice's website",
+    "city": "Exeter",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
