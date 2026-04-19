@@ -9038,5 +9038,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "scheduling@madisonsmiles.com": {
+    "sentAt": "2026-04-19T19:42:52.891Z",
+    "messageId": "<202604191942.38490612856@smtp-relay.mailin.fr>",
+    "company": "Madison Family Dental",
+    "subject": "Madison Family Dental — 50% off AI chatbot this week",
+    "city": "Madison",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 2
   }
 }
