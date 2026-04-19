@@ -7894,5 +7894,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "bulwellhouse@rodericksdental.co.uk": {
+    "sentAt": "2026-04-19T11:39:00.365Z",
+    "messageId": "<202604191139.71370178798@smtp-relay.mailin.fr>",
+    "company": "Bulwell House Dental Practice",
+    "subject": "Noticed something about Bulwell House Dental Practice's site",
+    "city": "Nottingham",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
