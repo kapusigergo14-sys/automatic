@@ -9005,5 +9005,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@sixsigmadental.com": {
+    "sentAt": "2026-04-19T19:41:06.545Z",
+    "messageId": "<202604191941.93775091648@smtp-relay.mailin.fr>",
+    "company": "Six Sigma Dental Care",
+    "subject": "Six Sigma Dental Care — 50% off AI chatbot this week",
+    "city": "Matthews",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
