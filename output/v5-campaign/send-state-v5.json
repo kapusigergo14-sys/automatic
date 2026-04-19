@@ -8290,5 +8290,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@shanksdentalcare.co.uk": {
+    "sentAt": "2026-04-19T11:42:48.261Z",
+    "messageId": "<202604191142.74845887940@smtp-relay.mailin.fr>",
+    "company": "Downie, Harper and Shanks Dental Practice",
+    "subject": "Noticed something about Downie Harper and Shanks's site",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
