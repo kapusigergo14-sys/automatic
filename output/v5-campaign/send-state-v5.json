@@ -7839,5 +7839,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "benshamdental@gmail.com": {
+    "sentAt": "2026-04-19T11:38:28.764Z",
+    "messageId": "<202604191138.50975026414@smtp-relay.mailin.fr>",
+    "company": "Bensham Dental Practice",
+    "subject": "Bensham Dental Practice — what happens when someone visits your site at 11pm?",
+    "city": "Gateshead",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
