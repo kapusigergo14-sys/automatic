@@ -1030,5 +1030,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:58:12.891Z",
     "originalSentAt": "2026-04-15T08:24:27.086Z"
+  },
+  "shunga@familydentalks.com": {
+    "sentAt": "2026-04-19T16:58:51.188Z",
+    "messageId": "<202604191658.66872832617@smtp-relay.mailin.fr>",
+    "company": "Shunga Family Dental Care",
+    "subject": "Exclusive for Shunga Family Dental Care (expires Apr 22)",
+    "city": "Topeka",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:58:50.845Z",
+    "originalSentAt": "2026-04-15T08:24:38.228Z"
   }
 }
