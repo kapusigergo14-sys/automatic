@@ -8851,5 +8851,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "dentist@themeadowsdentalcare.com": {
+    "sentAt": "2026-04-19T19:32:29.154Z",
+    "messageId": "<202604191932.35240609351@smtp-relay.mailin.fr>",
+    "company": "Meadows Dental Care",
+    "subject": "AI chatbot for Meadows Dental Care — 50% off, 72 hours",
+    "city": "Austin",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
