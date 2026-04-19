@@ -8103,5 +8103,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "smile@edinburghgumsandteeth.co.uk": {
+    "sentAt": "2026-04-19T11:41:00.596Z",
+    "messageId": "<202604191141.45442676283@smtp-relay.mailin.fr>",
+    "company": "EGT",
+    "subject": "EGT — what happens when someone visits your site at 11pm?",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
