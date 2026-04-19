@@ -982,5 +982,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:53:55.806Z",
     "originalSentAt": "2026-04-15T08:21:01.841Z"
+  },
+  "info@familydentalcenter.org": {
+    "sentAt": "2026-04-19T16:54:55.205Z",
+    "messageId": "<202604191654.33205496329@smtp-relay.mailin.fr>",
+    "company": "Family Dental Center",
+    "subject": "Family Dental Center — 50% off, 72 hours only",
+    "city": "Sioux Falls",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:54:54.838Z",
+    "originalSentAt": "2026-04-15T08:21:07.680Z"
   }
 }
