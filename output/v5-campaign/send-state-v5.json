@@ -8675,5 +8675,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "toaipham@yahoo.com": {
+    "sentAt": "2026-04-19T19:22:58.760Z",
+    "messageId": "<202604191922.66109883949@smtp-relay.mailin.fr>",
+    "company": "Northwest Dental Associates",
+    "subject": "Northwest Dental Associates — 50% off AI chatbot this week",
+    "city": "Cedar Park",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
