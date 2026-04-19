@@ -1102,5 +1102,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T17:04:15.211Z",
     "originalSentAt": "2026-04-15T08:27:09.412Z"
+  },
+  "info@dentalexcellencebundaberg.com.au": {
+    "sentAt": "2026-04-19T17:05:08.449Z",
+    "messageId": "<202604191705.48951161654@smtp-relay.mailin.fr>",
+    "company": "Dental Excellence Bundaberg",
+    "subject": "Exclusive for Dental Excellence Bundaberg (expires Apr 22)",
+    "city": "Bundaberg Australia",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T17:05:08.126Z",
+    "originalSentAt": "2026-04-15T08:27:15.329Z"
   }
 }
