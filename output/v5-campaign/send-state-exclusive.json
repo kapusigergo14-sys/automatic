@@ -1234,5 +1234,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T17:17:01.214Z",
     "originalSentAt": "2026-04-17T05:15:28.530Z"
+  },
+  "contact@smsmiles.com": {
+    "sentAt": "2026-04-19T17:17:45.367Z",
+    "messageId": "<202604191717.24847036289@smtp-relay.mailin.fr>",
+    "company": "South Mississippi Smiles - Gulfport",
+    "subject": "South Mississippi Smiles — 50% off, 72 hours only",
+    "city": "Gulfport",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T17:17:45.004Z",
+    "originalSentAt": "2026-04-16T17:56:15.272Z"
   }
 }
