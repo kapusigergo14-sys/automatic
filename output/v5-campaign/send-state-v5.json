@@ -9104,5 +9104,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "frontdesk@turningleafdental.com": {
+    "sentAt": "2026-04-19T19:46:37.861Z",
+    "messageId": "<202604191946.51781589502@smtp-relay.mailin.fr>",
+    "company": "Mark C. Beal & Associates",
+    "subject": "Mark C. Beal & — 50% off AI chatbot this week",
+    "city": "Boston",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
