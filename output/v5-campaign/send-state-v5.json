@@ -8433,5 +8433,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@mooredental.com": {
+    "sentAt": "2026-04-19T11:44:10.680Z",
+    "messageId": "<202604191144.80093244646@smtp-relay.mailin.fr>",
+    "company": "John Moore Dental",
+    "subject": "John Moore Dental — what happens when someone visits your site at 11pm?",
+    "city": "Plymouth",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
