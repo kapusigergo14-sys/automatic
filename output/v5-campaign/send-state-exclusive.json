@@ -1198,5 +1198,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T17:13:04.611Z",
     "originalSentAt": "2026-04-15T08:28:46.345Z"
+  },
+  "enquiries@mcdental.com.au": {
+    "sentAt": "2026-04-19T17:14:31.484Z",
+    "messageId": "<202604191714.67351046644@smtp-relay.mailin.fr>",
+    "company": "MC Dental Melbourne Central Shopping Centre",
+    "subject": "MC Dental Melbourne Central — 50% off, 72 hours only",
+    "city": "Melbourne Australia",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T17:14:31.131Z",
+    "originalSentAt": "2026-04-15T08:29:32.072Z"
   }
 }
