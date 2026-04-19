@@ -9170,5 +9170,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@thesmileinstitute.com": {
+    "sentAt": "2026-04-19T19:50:17.101Z",
+    "messageId": "<202604191950.58257711381@smtp-relay.mailin.fr>",
+    "company": "The Smile Institute",
+    "subject": "The Smile Institute — 50% off AI chatbot this week",
+    "city": "Boston MA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
