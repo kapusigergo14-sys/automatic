@@ -934,5 +934,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:48:54.507Z",
     "originalSentAt": "2026-04-14T15:30:49.005Z"
+  },
+  "reception@waterplacedental.com": {
+    "sentAt": "2026-04-19T16:49:53.843Z",
+    "messageId": "<202604191649.92280487395@smtp-relay.mailin.fr>",
+    "company": "Waterplace Dental",
+    "subject": "One last thing for Waterplace Dental",
+    "city": "Salem",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:49:53.518Z",
+    "originalSentAt": "2026-04-14T15:32:26.331Z"
   }
 }
