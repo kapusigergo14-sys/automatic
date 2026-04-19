@@ -7828,5 +7828,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "hello@durhamfamilydental.co.uk": {
+    "sentAt": "2026-04-19T11:38:22.519Z",
+    "messageId": "<202604191138.83935378863@smtp-relay.mailin.fr>",
+    "company": "Durham Family Dental",
+    "subject": "Noticed something about Durham Family Dental's site",
+    "city": "Gateshead",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
