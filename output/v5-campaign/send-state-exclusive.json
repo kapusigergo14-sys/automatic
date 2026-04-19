@@ -598,5 +598,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:15:45.266Z",
     "originalSentAt": "2026-04-18T11:48:55.576Z"
+  },
+  "info@dentistryonthesquare.co.uk": {
+    "sentAt": "2026-04-19T16:17:04.817Z",
+    "messageId": "<202604191617.77930942213@smtp-relay.mailin.fr>",
+    "company": "Dentistry On The Square",
+    "subject": "Exclusive for Dentistry On The Square (expires Apr 22)",
+    "city": "12 Niddrie Square",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:17:04.478Z",
+    "originalSentAt": "2026-04-18T11:49:02.056Z"
   }
 }
