@@ -298,5 +298,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:45:47.977Z",
     "originalSentAt": "2026-04-17T05:14:49.019Z"
+  },
+  "reception@tamworthdental.com": {
+    "sentAt": "2026-04-19T15:46:33.055Z",
+    "messageId": "<202604191546.94212544091@smtp-relay.mailin.fr>",
+    "company": "Your Tamworth Dentist",
+    "subject": "Your Tamworth Dentist — 50% off, 72 hours only",
+    "city": "Tamworth Australia",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:46:32.715Z",
+    "originalSentAt": "2026-04-17T05:17:00.748Z"
   }
 }
