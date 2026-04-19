@@ -58,5 +58,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:22:29.483Z",
     "originalSentAt": "2026-04-16T17:55:03.419Z"
+  },
+  "smileteam@smilegulfcoast.com": {
+    "sentAt": "2026-04-19T15:23:29.335Z",
+    "messageId": "<202604191523.24880584611@smtp-relay.mailin.fr>",
+    "company": "Smile Gulf Coast",
+    "subject": "Exclusive for Smile Gulf Coast (expires Apr 22)",
+    "city": "Gulfport",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:23:28.908Z",
+    "originalSentAt": "2026-04-16T17:57:35.651Z"
   }
 }
