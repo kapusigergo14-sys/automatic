@@ -9137,5 +9137,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "infoboston@giangrassodental.com": {
+    "sentAt": "2026-04-19T19:48:28.233Z",
+    "messageId": "<202604191948.25982512885@smtp-relay.mailin.fr>",
+    "company": "Giangrasso Dental",
+    "subject": "Giangrasso Dental — 50% off AI chatbot this week",
+    "city": "Boston MA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
