@@ -8455,5 +8455,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@trumpingtonstreetdentistry.co.uk": {
+    "sentAt": "2026-04-19T11:44:23.221Z",
+    "messageId": "<202604191144.63263647501@smtp-relay.mailin.fr>",
+    "company": "Trumpington Street Dentistry",
+    "subject": "Noticed something about Trumpington Street Dentistry's site",
+    "city": "Cambridge",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
