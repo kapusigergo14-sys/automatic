@@ -18,7 +18,9 @@
     "resend": "^6.10.0"
   },
   "devDependencies": {
+    "@types/adm-zip": "^0.5.8",
     "@types/node": "^22.0.0",
+    "adm-zip": "^0.5.17",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.0"
   }
