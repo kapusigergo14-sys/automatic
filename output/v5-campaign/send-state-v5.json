@@ -8609,5 +8609,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "lajolladentalc210@gmail.com": {
+    "sentAt": "2026-04-19T19:19:36.660Z",
+    "messageId": "<202604191919.32743558290@smtp-relay.mailin.fr>",
+    "company": "La Jolla Dental",
+    "subject": "La Jolla Dental — 50% off AI chatbot this week",
+    "city": "La Jolla",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 2
   }
 }
