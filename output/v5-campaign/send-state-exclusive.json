@@ -826,5 +826,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:38:52.912Z",
     "originalSentAt": "2026-04-19T11:41:38.420Z"
+  },
+  "stephanie@therenodentist.com": {
+    "sentAt": "2026-04-19T16:39:47.668Z",
+    "messageId": "<202604191639.79374702720@smtp-relay.mailin.fr>",
+    "company": "The Reno Dentist",
+    "subject": "One last thing for The Reno Dentist",
+    "city": "Reno",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:39:47.334Z",
+    "originalSentAt": "2026-04-13T20:26:43.903Z"
   }
 }
