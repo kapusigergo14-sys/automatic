@@ -8620,5 +8620,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 2
+  },
+  "smile@canvasdental.com": {
+    "sentAt": "2026-04-19T19:20:08.424Z",
+    "messageId": "<202604191920.98030017961@smtp-relay.mailin.fr>",
+    "company": "Canvas Dental",
+    "subject": "AI chatbot for Canvas Dental — 50% off, 72 hours",
+    "city": "Austin",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
