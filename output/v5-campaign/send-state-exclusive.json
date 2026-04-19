@@ -46,5 +46,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:21:09.500Z",
     "originalSentAt": "2026-04-16T17:52:33.097Z"
+  },
+  "beachview@garnerdental.net": {
+    "sentAt": "2026-04-19T15:22:29.817Z",
+    "messageId": "<202604191522.71723644117@smtp-relay.mailin.fr>",
+    "company": "Beach View Family Dental of Gulfport",
+    "subject": "Beach View Family Dental — 50% off, 72 hours only",
+    "city": "Gulfport",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:22:29.483Z",
+    "originalSentAt": "2026-04-16T17:55:03.419Z"
   }
 }
