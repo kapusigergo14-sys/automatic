@@ -7993,5 +7993,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@justsmiledental.co.uk": {
+    "sentAt": "2026-04-19T11:39:57.404Z",
+    "messageId": "<202604191139.65460712488@smtp-relay.mailin.fr>",
+    "company": "Just Smile Dental",
+    "subject": "Noticed something about Just Smile Dental's site",
+    "city": "Exeter",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
