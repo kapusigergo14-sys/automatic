@@ -8400,5 +8400,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "enquiries@42stgiles.com": {
+    "sentAt": "2026-04-19T11:43:51.735Z",
+    "messageId": "<202604191143.21774975743@smtp-relay.mailin.fr>",
+    "company": "St Giles' Dentists",
+    "subject": "St Giles' Dentists — what happens when someone visits your site at 11pm?",
+    "city": "Oxford",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
