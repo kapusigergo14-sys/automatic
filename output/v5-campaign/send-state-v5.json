@@ -8268,5 +8268,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "enquiries@duddingstonpark.co.uk": {
+    "sentAt": "2026-04-19T11:42:35.704Z",
+    "messageId": "<202604191142.51099679844@smtp-relay.mailin.fr>",
+    "company": "Duddingston Park",
+    "subject": "Duddingston Park — what happens when someone visits your site at 11pm?",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
