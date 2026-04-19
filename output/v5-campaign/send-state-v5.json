@@ -8543,5 +8543,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@aerodentistry.com": {
+    "sentAt": "2026-04-19T19:15:58.459Z",
+    "messageId": "<202604191915.77272576052@smtp-relay.mailin.fr>",
+    "company": "Aero Dentistry Of San Diego",
+    "subject": "Aero Dentistry Of San — 50% off AI chatbot this week",
+    "city": "San Diego",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
