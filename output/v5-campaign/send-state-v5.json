@@ -8840,5 +8840,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "front@secure.texastoothfairies.com": {
+    "sentAt": "2026-04-19T19:31:49.484Z",
+    "messageId": "<202604191931.32000432757@smtp-relay.mailin.fr>",
+    "company": "Texas Tooth Fairies Pediatric Dentistry",
+    "subject": "Texas Tooth Fairies Pediatric — 50% off AI chatbot this week",
+    "city": "Cedar Park",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
