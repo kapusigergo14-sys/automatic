@@ -1,17 +1,26 @@
 /**
- * import-brevo-openers.ts — build the re-engagement opener list from a
- * Brevo Logs CSV export.
+ * import-brevo-openers.ts — build the re-engagement opener list from
+ * Brevo Logs and/or Resend export CSVs.
+ *
+ * Two provider formats are auto-detected by their header row:
+ *   - Brevo UI export:  st_text, ts, sub, frm, email, tag, mid, link
+ *   - Resend export:    id, created_at, subject, from, to, …, last_event, sent_at, …
  *
  * Pipeline:
- *   1. Parse the CSV (supports ; or , delimiter — Brevo exports use ;)
- *   2. Collect every email that has an `opened` / `unique_opened` event
- *   3. Build a blacklist of emails that hard-bounced or complained
- *   4. Cross-reference each opener against the 5 send-state files to find
- *      which pitch / company / country they're from
- *   5. Emit `output/v5-campaign/openers.json` with enriched rows
+ *   1. Parse each CSV (; or , delimiter auto-detected)
+ *   2. Merge all rows into one event stream
+ *   3. Collect every email with `opened` / `clicked` / `loaded by proxy` event
+ *      (Resend "last_event = clicked" or "opened"; Brevo "Loaded by proxy"
+ *      / "Opened" / "Clicks")
+ *   4. Blacklist anyone with `bounced`/`hardBounce`/`complaint`/`unsubscribed`
+ *   5. Cross-reference each opener against the 5 send-state files to tag
+ *      pitch / company / country / lang
+ *   6. Emit `output/v5-campaign/openers.json` with enriched rows
  *
  * CLI:
- *   npx ts-node scripts/import-brevo-openers.ts --csv data/brevo-logs.csv
+ *   npx ts-node scripts/import-brevo-openers.ts \
+ *     --csv data/brevo-logs.csv \
+ *     --csv data/resend-logs.csv
  *
  * Dedup guarantees:
  *   - One entry per email (earliest open wins)
@@ -73,11 +82,12 @@ interface Opener {
 // ─── CLI ─────────────────────────────────────────────────────────────
 function parseArgs() {
   const a = process.argv.slice(2);
-  let csv = 'data/brevo-logs.csv';
+  const csvs: string[] = [];
   for (let i = 0; i < a.length; i++) {
-    if (a[i] === '--csv' && a[i + 1]) { csv = a[i + 1]; i++; }
+    if (a[i] === '--csv' && a[i + 1]) { csvs.push(a[i + 1]); i++; }
   }
-  return { csv: path.resolve(process.cwd(), csv) };
+  if (csvs.length === 0) csvs.push('data/brevo-logs.csv');
+  return { csvs: csvs.map((c) => path.resolve(process.cwd(), c)) };
 }
 
 // ─── CSV parser ──────────────────────────────────────────────────────
@@ -135,18 +145,25 @@ function isOpenEvent(e: string): boolean {
     n === 'loadedbyproxy' ||
     n === 'clicks' ||
     n === 'uniqueclicks' ||
-    n === 'click'
+    n === 'click' ||
+    n === 'clicked' // Resend uses past tense
   );
 }
 
 function isHardBounce(e: string): boolean {
   const n = norm(e);
-  return n === 'hardbounce' || n === 'hardbounces' || n === 'blocked';
+  return (
+    n === 'hardbounce' || n === 'hardbounces' || n === 'blocked' ||
+    n === 'bounced' || n === 'failed' // Resend terms
+  );
 }
 
 function isComplaint(e: string): boolean {
   const n = norm(e);
-  return n === 'complaint' || n === 'complaints' || n === 'spam';
+  return (
+    n === 'complaint' || n === 'complaints' || n === 'spam' ||
+    n === 'complained' // Resend term
+  );
 }
 
 function isUnsubscribe(e: string): boolean {
@@ -163,72 +180,96 @@ function langFromCountry(country: string): Lang {
   return 'en'; // US / UK / AU / fallback
 }
 
+// ─── Provider detection ─────────────────────────────────────────────
+type Provider = 'brevo' | 'resend';
+
+function detectProvider(headerNorm: string[]): Provider {
+  // Resend: has `lastevent` column (or the `to` + `sentat` pair)
+  if (headerNorm.includes('lastevent')) return 'resend';
+  // Brevo UI: has `sttext` (or `st_text` normalised)
+  if (headerNorm.includes('sttext')) return 'brevo';
+  // Fallbacks
+  if (headerNorm.includes('event')) return 'brevo';
+  return 'brevo';
+}
+
 // ─── Main ────────────────────────────────────────────────────────────
 async function main() {
-  const { csv } = parseArgs();
+  const { csvs } = parseArgs();
   console.log('📥 import-brevo-openers');
-  console.log(`   CSV: ${csv}`);
+  console.log(`   CSVs: ${csvs.length}`);
+  for (const c of csvs) console.log(`     - ${c}`);
 
-  if (!fs.existsSync(csv)) {
-    console.error(`❌ CSV not found at ${csv}. Export Brevo Logs → place here.`);
-    process.exit(1);
-  }
-
-  const raw = fs.readFileSync(csv, 'utf-8');
-  const firstLine = raw.split(/\r?\n/, 1)[0] || '';
-  const delim = detectDelimiter(firstLine);
-  console.log(`   delimiter: "${delim}"`);
-  const rows = parseCsv(raw, delim);
-  if (rows.length < 2) {
-    console.error('❌ CSV has no data rows');
-    process.exit(1);
-  }
-
-  const header = rows[0].map(norm);
-  const idx = (name: string) => header.indexOf(norm(name));
-  // Brevo's UI CSV export uses compact column names: st_text / ts / sub / frm / email / tag / mid / link
-  const iEmail   = [idx('email'), idx('recipient'), idx('to')].find((x) => x >= 0) ?? -1;
-  const iEvent   = [idx('event'), idx('type'), idx('sttext'), idx('status')].find((x) => x >= 0) ?? -1;
-  const iDate    = [idx('date'), idx('sentat'), idx('timestamp'), idx('time'), idx('ts')].find((x) => x >= 0) ?? -1;
-  const iSubject = [idx('subject'), idx('messagesubject'), idx('sub')].find((x) => x >= 0) ?? -1;
-
-  if (iEmail < 0 || iEvent < 0) {
-    console.error(`❌ CSV missing required columns. Header: ${rows[0].join(' | ')}`);
-    process.exit(1);
-  }
-
-  // Pass 1: collect opens + blacklist
   const earliestOpen = new Map<string, { date: string; subject: string }>();
   const blacklist = new Set<string>();
-  let scanned = 0;
+  let totalScanned = 0;
 
-  for (let r = 1; r < rows.length; r++) {
-    const row = rows[r];
-    if (!row || row.length <= iEmail) continue;
-    const email = (row[iEmail] || '').trim().toLowerCase();
-    if (!email || !email.includes('@')) continue;
-    if (email.includes('kapusicsgo') || email.includes('kapusigergo')) continue;
-    const event = row[iEvent] || '';
-    const date = iDate >= 0 ? (row[iDate] || '') : '';
-    const subject = iSubject >= 0 ? (row[iSubject] || '') : '';
-    scanned++;
-
-    if (isHardBounce(event) || isComplaint(event) || isUnsubscribe(event)) {
-      blacklist.add(email);
+  for (const csv of csvs) {
+    if (!fs.existsSync(csv)) {
+      console.warn(`⚠️  skipping ${csv} (not found)`);
       continue;
     }
-    if (isOpenEvent(event)) {
-      const prev = earliestOpen.get(email);
-      if (!prev || (date && date < prev.date)) {
-        earliestOpen.set(email, { date, subject });
+    const raw = fs.readFileSync(csv, 'utf-8');
+    const firstLine = raw.split(/\r?\n/, 1)[0] || '';
+    const delim = detectDelimiter(firstLine);
+    const rows = parseCsv(raw, delim);
+    if (rows.length < 2) continue;
+    const header = rows[0].map(norm);
+    const provider = detectProvider(header);
+    const idx = (name: string) => header.indexOf(norm(name));
+
+    let iEmail = -1, iEvent = -1, iDate = -1, iSubject = -1;
+    if (provider === 'resend') {
+      iEmail   = [idx('to'), idx('recipient'), idx('email')].find((x) => x >= 0) ?? -1;
+      iEvent   = [idx('lastevent'), idx('event')].find((x) => x >= 0) ?? -1;
+      iDate    = [idx('sentat'), idx('createdat'), idx('date')].find((x) => x >= 0) ?? -1;
+      iSubject = [idx('subject')].find((x) => x >= 0) ?? -1;
+    } else {
+      // Brevo — st_text / ts / sub / email
+      iEmail   = [idx('email'), idx('recipient'), idx('to')].find((x) => x >= 0) ?? -1;
+      iEvent   = [idx('sttext'), idx('event'), idx('type'), idx('status')].find((x) => x >= 0) ?? -1;
+      iDate    = [idx('ts'), idx('date'), idx('sentat'), idx('timestamp'), idx('time')].find((x) => x >= 0) ?? -1;
+      iSubject = [idx('sub'), idx('subject'), idx('messagesubject')].find((x) => x >= 0) ?? -1;
+    }
+
+    if (iEmail < 0 || iEvent < 0) {
+      console.warn(`⚠️  ${path.basename(csv)}: missing required columns (email/event). Header: ${rows[0].join(' | ')}`);
+      continue;
+    }
+
+    let scanned = 0, localOpens = 0, localBlacklist = 0;
+    for (let r = 1; r < rows.length; r++) {
+      const row = rows[r];
+      if (!row || row.length <= iEmail) continue;
+      const email = (row[iEmail] || '').trim().toLowerCase();
+      if (!email || !email.includes('@')) continue;
+      if (email.includes('kapusicsgo') || email.includes('kapusigergo')) continue;
+      const event = row[iEvent] || '';
+      const date = iDate >= 0 ? (row[iDate] || '') : '';
+      const subject = iSubject >= 0 ? (row[iSubject] || '') : '';
+      scanned++;
+
+      if (isHardBounce(event) || isComplaint(event) || isUnsubscribe(event)) {
+        blacklist.add(email);
+        localBlacklist++;
+        continue;
+      }
+      if (isOpenEvent(event)) {
+        const prev = earliestOpen.get(email);
+        if (!prev || (date && date < prev.date)) {
+          earliestOpen.set(email, { date, subject });
+        }
+        localOpens++;
       }
     }
+    totalScanned += scanned;
+    console.log(`   ${path.basename(csv)} [${provider}]: ${scanned} rows, ${localOpens} open events, ${localBlacklist} blacklist events`);
   }
 
-  // Strip anyone blacklisted
+  // Strip anyone blacklisted across all providers
   for (const e of blacklist) earliestOpen.delete(e);
 
-  console.log(`   rows scanned: ${scanned}`);
+  console.log(`   total rows scanned: ${totalScanned}`);
   console.log(`   unique openers: ${earliestOpen.size}`);
   console.log(`   blacklisted (bounce/complaint/unsub): ${blacklist.size}`);
 
