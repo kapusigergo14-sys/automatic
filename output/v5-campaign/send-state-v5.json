@@ -8576,5 +8576,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "dr@sddentistry.com": {
+    "sentAt": "2026-04-19T19:17:47.919Z",
+    "messageId": "<202604191917.16761377680@smtp-relay.mailin.fr>",
+    "company": "Walnut Avenue Dentistry",
+    "subject": "Walnut Avenue Dentistry — 50% off AI chatbot this week",
+    "city": "San Diego",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
