@@ -946,5 +946,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:49:53.518Z",
     "originalSentAt": "2026-04-14T15:32:26.331Z"
+  },
+  "connect@bhamrd.com": {
+    "sentAt": "2026-04-19T16:51:11.441Z",
+    "messageId": "<202604191651.91565158060@smtp-relay.mailin.fr>",
+    "company": "Roots Dental",
+    "subject": "Roots Dental — 50% off, 72 hours only",
+    "city": "Bellingham",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:51:11.091Z",
+    "originalSentAt": "2026-04-14T15:32:49.076Z"
   }
 }
