@@ -8972,5 +8972,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@minthilldentistry.com": {
+    "sentAt": "2026-04-19T19:39:15.280Z",
+    "messageId": "<202604191939.83979926736@smtp-relay.mailin.fr>",
+    "company": "Mint Hill Dentistry",
+    "subject": "Mint Hill Dentistry — 50% off AI chatbot this week",
+    "city": "Mint Hill",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
