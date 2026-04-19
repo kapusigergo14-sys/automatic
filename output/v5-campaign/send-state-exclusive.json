@@ -910,5 +910,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:47:02.494Z",
     "originalSentAt": "2026-04-14T15:25:57.421Z"
+  },
+  "santafedentistry@mb2dental.com": {
+    "sentAt": "2026-04-19T16:48:12.132Z",
+    "messageId": "<202604191648.97406116726@smtp-relay.mailin.fr>",
+    "company": "Santa Fe Family Dentistry & Orthodontics",
+    "subject": "Santa Fe Family Dentistry — 50% off, 72 hours only",
+    "city": "Santa Fe",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:48:11.782Z",
+    "originalSentAt": "2026-04-14T15:28:43.234Z"
   }
 }
