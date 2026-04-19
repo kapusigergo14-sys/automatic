@@ -8598,5 +8598,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@kcdentalaustin.com": {
+    "sentAt": "2026-04-19T19:19:03.793Z",
+    "messageId": "<202604191919.86737665828@smtp-relay.mailin.fr>",
+    "company": "KC Dental",
+    "subject": "Quick one for KC Dental — AI chatbot 50% off right now",
+    "city": "Austin",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
