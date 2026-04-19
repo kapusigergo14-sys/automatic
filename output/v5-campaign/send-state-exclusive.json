@@ -1042,5 +1042,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:58:50.845Z",
     "originalSentAt": "2026-04-15T08:24:38.228Z"
+  },
+  "reception@matestreetdentalclinic.com.au": {
+    "sentAt": "2026-04-19T17:00:15.527Z",
+    "messageId": "<202604191700.72381356638@smtp-relay.mailin.fr>",
+    "company": "Mate Street Dental Clinic",
+    "subject": "One last thing for Mate Street Dental Clinic",
+    "city": "Albury Australia",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T17:00:15.198Z",
+    "originalSentAt": "2026-04-15T08:24:53.096Z"
   }
 }
