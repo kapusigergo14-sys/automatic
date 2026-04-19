@@ -8378,5 +8378,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "office@dentoutline.co.uk": {
+    "sentAt": "2026-04-19T11:43:39.107Z",
+    "messageId": "<202604191143.45507951623@smtp-relay.mailin.fr>",
+    "company": "DentOutline - Private Dental Clinic",
+    "subject": "Honest question about DentOutline's website",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
