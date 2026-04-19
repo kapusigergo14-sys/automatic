@@ -370,5 +370,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:52:19.558Z",
     "originalSentAt": "2026-04-17T05:18:52.802Z"
+  },
+  "zetland@aboutsmiles.com.au": {
+    "sentAt": "2026-04-19T15:53:37.584Z",
+    "messageId": "<202604191553.89094460271@smtp-relay.mailin.fr>",
+    "company": "About Smiles Dental Centres",
+    "subject": "About Smiles Dental Centres — 50% off, 72 hours only",
+    "city": "Zetland",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:53:37.172Z",
+    "originalSentAt": "2026-04-17T05:21:38.212Z"
   }
 }
