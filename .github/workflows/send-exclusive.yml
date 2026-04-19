@@ -7,6 +7,17 @@ on:
         description: 'Path to Brevo logs CSV within the repo (e.g. data/brevo-logs.csv)'
         type: string
         default: 'data/brevo-logs.csv'
+      pitch:
+        description: 'Which pitch group to target (all = every opener)'
+        type: choice
+        options:
+          - all
+          - chatbot
+          - redesign
+          - lawyer
+          - plumber
+          - hvac
+        default: 'all'
       limit:
         description: 'Max emails to send in this run'
         type: string
@@ -72,12 +83,14 @@ jobs:
         env:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
         run: |
+          PITCH="${{ github.event.inputs.pitch || 'all' }}"
           LIMIT="${{ github.event.inputs.limit || '50' }}"
           SPREAD="${{ github.event.inputs.spread_minutes || '60' }}"
           DRY="${{ github.event.inputs.dry_run }}"
           DRY_FLAG=""
           if [ "$DRY" = "true" ]; then DRY_FLAG="--dry-run"; fi
           npx ts-node scripts/send-exclusive.ts \
+            --pitch "$PITCH" \
             --limit "$LIMIT" \
             --spread-minutes "$SPREAD" \
             --git-commit-per-send \

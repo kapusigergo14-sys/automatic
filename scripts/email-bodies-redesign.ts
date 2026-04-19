@@ -40,7 +40,7 @@ const EN_BODY = (companyRaw: string): string => {
 
 <p style="margin:0 0 14px 0">I'll build you a <strong>free design concept</strong> with your real practice name and brand colors — no obligation, no sales call. Yours to keep either way. Reply <strong>Y</strong> if you want one.</p>
 
-<p style="margin:0 0 18px 0">&mdash; Geri<br><a href="https://smartflowdev.com/proposal" style="color:#1B1B1F;text-decoration:underline">smartflowdev.com/proposal</a></p>
+<p style="margin:0 0 18px 0">&mdash; Geri<br><a href="https://smartflowdev.com/redesign" style="color:#1B1B1F;text-decoration:underline">smartflowdev.com/redesign</a></p>
 
 <p style="margin:0;padding-top:14px;border-top:1px solid #e5e7eb;color:#6b7280;font-size:13.5px;line-height:1.6"><strong style="color:#1B1B1F">PS.</strong> If you reply by ${OFFER_DEADLINE}, the full redesign starts at $500 (normally $700) and the first month of hosting/chatbot is free.</p>
 </div>`;
@@ -60,7 +60,7 @@ const HU_BODY = (companyRaw: string): string => {
 <p style="margin:0 0 14px 0">Tisztelt ${c} csapat,</p>
 <p style="margin:0 0 14px 0">Megnéztem az oldalukat mobilon — lassú betöltés, nincs HTTPS, elavult dizájn. Ezeken bukik az új páciens már az első 50 ms-ben.</p>
 <p style="margin:0 0 14px 0"><strong>Ingyen készítek egy design koncepciót</strong> a praxis valódi nevével és márkaszíneivel — nincs kötöttség. Válasz <strong>I</strong> ha kell egy.</p>
-<p style="margin:0 0 18px 0">&mdash; Geri<br><a href="https://smartflowdev.com/proposal" style="color:#1B1B1F;text-decoration:underline">smartflowdev.com/proposal</a></p>
+<p style="margin:0 0 18px 0">&mdash; Geri<br><a href="https://smartflowdev.com/redesign" style="color:#1B1B1F;text-decoration:underline">smartflowdev.com/redesign</a></p>
 <p style="margin:0;padding-top:14px;border-top:1px solid #e5e7eb;color:#6b7280;font-size:13.5px"><strong>UI.</strong> Ha ${OFFER_DEADLINE}-ig válaszol, a teljes redesign 500$-ról indul (normál ár 700$).</p>
 </div>`;
 };
@@ -79,7 +79,7 @@ const DE_BODY = (companyRaw: string): string => {
 <p>Hallo ${c} Team,</p>
 <p>Ihre Site auf dem Handy: langsam, kein HTTPS, veraltet. Das kostet Patienten in den ersten 50ms.</p>
 <p>Ich baue Ihnen <strong>kostenlos ein Design-Konzept</strong> — mit echtem Praxisnamen und Markenfarben. Antworten Sie <strong>J</strong>, wenn Sie eines möchten.</p>
-<p>&mdash; Geri · <a href="https://smartflowdev.com/proposal" style="color:#1B1B1F">smartflowdev.com/proposal</a></p>
+<p>&mdash; Geri · <a href="https://smartflowdev.com/redesign" style="color:#1B1B1F">smartflowdev.com/redesign</a></p>
 <p style="color:#6b7280;font-size:13.5px"><strong>PS.</strong> Antwort bis ${OFFER_DEADLINE}: Redesign ab 500$ (statt 700$).</p>
 </div>`;
 };
@@ -98,7 +98,7 @@ const ES_BODY = (companyRaw: string): string => {
 <p>Hola equipo de ${c},</p>
 <p>Vi su sitio en móvil: carga lenta, sin HTTPS, anticuado. Eso cuesta pacientes en los primeros 50ms.</p>
 <p>Les construyo <strong>un concepto de diseño gratis</strong>, con su nombre real y colores de marca. Responde <strong>S</strong> si quieren uno.</p>
-<p>&mdash; Geri · <a href="https://smartflowdev.com/proposal" style="color:#1B1B1F">smartflowdev.com/proposal</a></p>
+<p>&mdash; Geri · <a href="https://smartflowdev.com/redesign" style="color:#1B1B1F">smartflowdev.com/redesign</a></p>
 <p style="color:#6b7280;font-size:13.5px"><strong>PD.</strong> Respuesta antes del ${OFFER_DEADLINE}: rediseño desde $500 (normal $700).</p>
 </div>`;
 };

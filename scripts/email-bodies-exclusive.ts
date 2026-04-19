@@ -25,7 +25,7 @@ function escHtml(s: string): string {
 // ─── Landing URLs per pitch ──────────────────────────────────────────
 const LANDING: Record<Pitch, string> = {
   chatbot:  'https://smartflowdev.com/chatbot',
-  redesign: 'https://smartflowdev.com/proposal',
+  redesign: 'https://smartflowdev.com/redesign',
   lawyer:   'https://smartflowdev.com/lawyer',
   plumber:  'https://smartflowdev.com/plumber',
   hvac:     'https://smartflowdev.com/hvac',

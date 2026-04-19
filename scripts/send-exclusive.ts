@@ -68,19 +68,31 @@ interface StateEntry {
 }
 
 // ── CLI ──────────────────────────────────────────────────────────────
+const VALID_PITCHES: ReadonlyArray<Pitch | 'all'> = ['all', 'chatbot', 'redesign', 'lawyer', 'plumber', 'hvac'];
+
 function parseArgs() {
   const a = process.argv.slice(2);
   let dryRun = false;
   let limit = 50;
   let spreadMinutes = 0;
   let gitCommitPerSend = false;
+  let pitchFilter: Pitch | 'all' = 'all';
   for (let i = 0; i < a.length; i++) {
     if (a[i] === '--dry-run' || a[i] === '--dry') dryRun = true;
     if (a[i] === '--limit' && a[i + 1]) { limit = parseInt(a[i + 1], 10); i++; }
     if (a[i] === '--spread-minutes' && a[i + 1]) { spreadMinutes = parseInt(a[i + 1], 10); i++; }
     if (a[i] === '--git-commit-per-send') gitCommitPerSend = true;
+    if (a[i] === '--pitch' && a[i + 1]) {
+      const v = a[i + 1] as Pitch | 'all';
+      if (!(VALID_PITCHES as readonly string[]).includes(v)) {
+        console.error(`Unknown --pitch value "${v}". Valid: ${VALID_PITCHES.join(', ')}`);
+        process.exit(1);
+      }
+      pitchFilter = v;
+      i++;
+    }
   }
-  return { dryRun, limit, spreadMinutes, gitCommitPerSend };
+  return { dryRun, limit, spreadMinutes, gitCommitPerSend, pitchFilter };
 }
 
 function senderFor(pitch: Pitch): { name: string; email: string } {
@@ -177,13 +189,14 @@ async function sendEmail(
 
 // ── Main ─────────────────────────────────────────────────────────────
 async function main() {
-  const { dryRun, limit, spreadMinutes, gitCommitPerSend } = parseArgs();
+  const { dryRun, limit, spreadMinutes, gitCommitPerSend, pitchFilter } = parseArgs();
 
   console.log('╔═══════════════════════════════════════════════════════════════╗');
   console.log('║  EXCLUSIVE SEND — 50% off re-engagement (72h deadline)        ║');
   console.log('╚═══════════════════════════════════════════════════════════════╝');
   console.log(`  Mode:            ${dryRun ? 'DRY RUN' : 'LIVE'}`);
   console.log(`  Limit:           ${limit}`);
+  console.log(`  Pitch filter:    ${pitchFilter}`);
   console.log(`  Spread minutes:  ${spreadMinutes || 'off (fixed 5s delay)'}`);
   console.log(`  Git per send:    ${gitCommitPerSend ? 'YES' : 'no'}`);
   console.log('');
@@ -192,8 +205,10 @@ async function main() {
     console.error(`❌ ${OPENERS_FILE} not found. Run import-brevo-openers.ts first.`);
     process.exit(1);
   }
-  const openers: Opener[] = JSON.parse(fs.readFileSync(OPENERS_FILE, 'utf-8'));
-  console.log(`Loaded ${openers.length} openers`);
+  const allOpeners: Opener[] = JSON.parse(fs.readFileSync(OPENERS_FILE, 'utf-8'));
+  const openers: Opener[] =
+    pitchFilter === 'all' ? allOpeners : allOpeners.filter((o) => o.pitch === pitchFilter);
+  console.log(`Loaded ${allOpeners.length} total openers → ${openers.length} match pitch filter "${pitchFilter}"`);
 
   // Dedup against send-state-exclusive.json
   const state: Record<string, StateEntry> = fs.existsSync(STATE_FILE)
