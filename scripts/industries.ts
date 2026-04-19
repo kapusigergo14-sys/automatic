@@ -52,6 +52,37 @@ export const INDUSTRIES: Record<string, IndustryConfig> = {
     chatbotFilter: true,
     defaultName: 'Law Firm',
   },
+
+  plumber: {
+    id: 'plumber',
+    label: 'Plumbing services',
+    osmTags: [
+      'craft=plumber',
+      'shop=plumbing',
+      'office=plumber',
+    ],
+    leadsFile: path.join(LEADS_DIR, 'plumber-modern.json'),
+    stateFile: path.join(STATE_DIR, 'send-state-plumber.json'),
+    progressFile: path.join(STATE_DIR, 'osm-region-progress-plumber.json'),
+    chatbotFilter: true,
+    defaultName: 'Plumbing Service',
+  },
+
+  hvac: {
+    id: 'hvac',
+    label: 'HVAC services',
+    osmTags: [
+      'craft=hvac',
+      'shop=hvac',
+      'office=hvac',
+      'craft=heating_engineer',
+    ],
+    leadsFile: path.join(LEADS_DIR, 'hvac-modern.json'),
+    stateFile: path.join(STATE_DIR, 'send-state-hvac.json'),
+    progressFile: path.join(STATE_DIR, 'osm-region-progress-hvac.json'),
+    chatbotFilter: true,
+    defaultName: 'HVAC Service',
+  },
 };
 
 export function getIndustry(id: string): IndustryConfig {

@@ -1,5 +1,5 @@
 /**
- * email-bodies-lawyer.ts — Per-language subject + body templates for lawyer chatbot pitch
+ * email-bodies-hvac.ts — Per-language subject + body templates for HVAC chatbot pitch
  *
  * Short-form ("reply Y/N" + time-limited offer). Bump OFFER_DEADLINE every
  * 7-10 days.
@@ -26,7 +26,7 @@ function escHtml(s: string): string {
 
 const EN_SUBJECTS = [
   (c: string) => `Noticed something about ${c}'s site`,
-  (c: string) => `${c} — what happens when a client visits at 11pm?`,
+  (c: string) => `${c} — broken AC at midnight = lost call`,
   (c: string) => `Quick one for ${c}`,
 ];
 
@@ -35,11 +35,11 @@ const EN_BODY = (companyRaw: string): string => {
   return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:560px;margin:0 auto;color:#2b2b2b;line-height:1.65;font-size:15px">
 <p style="margin:0 0 14px 0">Hey ${c},</p>
 
-<p style="margin:0 0 14px 0">Quick one — your site doesn't have a way for someone needing legal help at 11pm to book a consult without calling. We build that in 5 days. $700 setup, $49/mo.</p>
+<p style="margin:0 0 14px 0">Quick one — when an AC dies at midnight your site has no way for that homeowner to book a tech without calling. We build that in 5 days. $700 setup, $49/mo.</p>
 
 <p style="margin:0 0 14px 0">Worth a 10-min call this week? Reply <strong>Y</strong> or <strong>N</strong>.</p>
 
-<p style="margin:0 0 18px 0">&mdash; Geri<br><a href="https://smartflowdev.com/lawyer" style="color:#1B1B1F;text-decoration:underline">smartflowdev.com/lawyer</a></p>
+<p style="margin:0 0 18px 0">&mdash; Geri<br><a href="https://smartflowdev.com/hvac" style="color:#1B1B1F;text-decoration:underline">smartflowdev.com/hvac</a></p>
 
 <p style="margin:0;padding-top:14px;border-top:1px solid #e5e7eb;color:#6b7280;font-size:13.5px;line-height:1.6"><strong style="color:#1B1B1F">PS.</strong> If you reply by ${OFFER_DEADLINE}, setup is $500 and the first month is free.</p>
 </div>`;
@@ -49,7 +49,7 @@ const EN_BODY = (companyRaw: string): string => {
 
 const HU_SUBJECTS = [
   (c: string) => `Chatbot ötlet a(z) ${c} weboldalához`,
-  (c: string) => `${c} — éjszakai konzultáció foglalás?`,
+  (c: string) => `${c} — éjszakai klíma-meghibásodás?`,
   (c: string) => `Gyors kérdés: ${c}`,
 ];
 
@@ -57,9 +57,9 @@ const HU_BODY = (companyRaw: string): string => {
   const c = escHtml(companyRaw);
   return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:560px;margin:0 auto;color:#2b2b2b;line-height:1.65;font-size:15px">
 <p style="margin:0 0 14px 0">Tisztelt ${c},</p>
-<p style="margin:0 0 14px 0">Gyors kérdés — az oldalukon nincs mód arra, hogy egy 23 órakor jogi segítséget kereső ügyfél konzultációt foglaljon hívás nélkül. 5 nap alatt megépítjük. 700$ setup, 49$/hó.</p>
+<p style="margin:0 0 14px 0">Gyors kérdés — ha egy ügyfél klímája éjjel elromlik, az oldalukon nem tud időpontot foglalni hívás nélkül. 5 nap alatt megépítjük. 700$ setup, 49$/hó.</p>
 <p style="margin:0 0 14px 0">Megér egy 10 perces hívást? Válasz: <strong>I</strong> vagy <strong>N</strong>.</p>
-<p style="margin:0 0 18px 0">&mdash; Geri<br><a href="https://smartflowdev.com/lawyer" style="color:#1B1B1F;text-decoration:underline">smartflowdev.com/lawyer</a></p>
+<p style="margin:0 0 18px 0">&mdash; Geri<br><a href="https://smartflowdev.com/hvac" style="color:#1B1B1F;text-decoration:underline">smartflowdev.com/hvac</a></p>
 <p style="margin:0;padding-top:14px;border-top:1px solid #e5e7eb;color:#6b7280;font-size:13.5px"><strong>UI.</strong> Ha ${OFFER_DEADLINE}-ig válaszol, a setup 500$ és az első hónap ingyenes.</p>
 </div>`;
 };
@@ -68,7 +68,7 @@ const HU_BODY = (companyRaw: string): string => {
 
 const DE_SUBJECTS = [
   (c: string) => `Chatbot-Idee für ${c}`,
-  (c: string) => `${c} — Beratung um 23 Uhr buchen?`,
+  (c: string) => `${c} — Klimaanlage defekt um Mitternacht?`,
   (c: string) => `Kurze Frage zu ${c}`,
 ];
 
@@ -76,9 +76,9 @@ const DE_BODY = (companyRaw: string): string => {
   const c = escHtml(companyRaw);
   return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:560px;margin:0 auto;color:#2b2b2b;line-height:1.65;font-size:15px">
 <p>Hallo ${c} Team,</p>
-<p>Kurz: Auf Ihrer Website kann niemand mit nächtlichem Rechtsberatungsbedarf eine Beratung buchen, ohne anzurufen. Wir bauen das in 5 Tagen. 700$ Setup, 49$/Monat.</p>
+<p>Kurz: Wenn nachts eine Klimaanlage ausfällt, gibt es auf Ihrer Seite keine Buchung ohne Anruf. Wir bauen das in 5 Tagen. 700$ Setup, 49$/Monat.</p>
 <p>Lust auf 10 Minuten diese Woche? Antworten Sie <strong>J</strong> oder <strong>N</strong>.</p>
-<p>&mdash; Geri · <a href="https://smartflowdev.com/lawyer" style="color:#1B1B1F">smartflowdev.com/lawyer</a></p>
+<p>&mdash; Geri · <a href="https://smartflowdev.com/hvac" style="color:#1B1B1F">smartflowdev.com/hvac</a></p>
 <p style="color:#6b7280;font-size:13.5px"><strong>PS.</strong> Antwort bis ${OFFER_DEADLINE}: Setup 500$, erster Monat gratis.</p>
 </div>`;
 };
@@ -87,7 +87,7 @@ const DE_BODY = (companyRaw: string): string => {
 
 const ES_SUBJECTS = [
   (c: string) => `Idea de chatbot para ${c}`,
-  (c: string) => `${c} — ¿reservar consulta a las 11pm?`,
+  (c: string) => `${c} — ¿AC roto a medianoche?`,
   (c: string) => `Pregunta rápida para ${c}`,
 ];
 
@@ -95,9 +95,9 @@ const ES_BODY = (companyRaw: string): string => {
   const c = escHtml(companyRaw);
   return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:560px;margin:0 auto;color:#2b2b2b;line-height:1.65;font-size:15px">
 <p>Hola equipo de ${c},</p>
-<p>Rápido: su sitio no permite que alguien con necesidad legal a las 11pm reserve una consulta sin llamar. Lo construimos en 5 días. $700 setup, $49/mes.</p>
+<p>Rápido: cuando un AC falla de noche, su sitio no permite reservar sin llamar. Lo construimos en 5 días. $700 setup, $49/mes.</p>
 <p>¿Vale 10 minutos esta semana? Responde <strong>S</strong> o <strong>N</strong>.</p>
-<p>&mdash; Geri · <a href="https://smartflowdev.com/lawyer" style="color:#1B1B1F">smartflowdev.com/lawyer</a></p>
+<p>&mdash; Geri · <a href="https://smartflowdev.com/hvac" style="color:#1B1B1F">smartflowdev.com/hvac</a></p>
 <p style="color:#6b7280;font-size:13.5px"><strong>PD.</strong> Respuesta antes del ${OFFER_DEADLINE}: setup $500, primer mes gratis.</p>
 </div>`;
 };

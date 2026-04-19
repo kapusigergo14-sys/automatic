@@ -4,8 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       industry:
-        description: 'Industry: dentist | lawyer'
-        type: string
+        description: 'Industry'
+        type: choice
+        options:
+          - dentist
+          - lawyer
+          - plumber
+          - hvac
         default: 'dentist'
       markets:
         description: 'Markets — pick any combo, comma-separated. Available: US | UK | AU. Examples: US  /  US,UK  /  US,UK,AU'

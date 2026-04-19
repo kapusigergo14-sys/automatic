@@ -1,8 +1,9 @@
 /**
- * email-bodies.ts — Per-language subject + body templates for v5 dental
+ * email-bodies.ts — Per-language subject + body templates for v5 dental chatbot pitch
  *
- * Each language has 3 subject variants (rotation) and one body template
- * keyed by company name. Body uses inline styles + image preview link.
+ * Short-form ("reply Y/N" + time-limited offer) — replaces the 5-paragraph
+ * version after 0 replies in 2 days at 28% open / 36% click. Bump
+ * OFFER_DEADLINE every 7-10 days.
  */
 
 import type { LangCode } from './markets';
@@ -11,6 +12,8 @@ export interface EmailBody {
   subjects: Array<(company: string) => string>;
   body: (company: string) => string;
 }
+
+const OFFER_DEADLINE = 'April 25';
 
 function escHtml(s: string): string {
   return s
@@ -25,7 +28,7 @@ function escHtml(s: string): string {
 const EN_SUBJECTS = [
   (c: string) => `Noticed something about ${c}'s site`,
   (c: string) => `${c} — what happens when someone visits your site at 11pm?`,
-  (c: string) => `Honest question about ${c}'s website`,
+  (c: string) => `Quick one for ${c}`,
 ];
 
 const EN_BODY = (companyRaw: string): string => {
@@ -33,17 +36,13 @@ const EN_BODY = (companyRaw: string): string => {
   return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:560px;margin:0 auto;color:#2b2b2b;line-height:1.65;font-size:15px">
 <p style="margin:0 0 14px 0">Hey ${c},</p>
 
-<p style="margin:0 0 14px 0">Quick one: I checked your site and you don't have a chatbot yet. That means every patient who visits after 5pm &mdash; and there are more than you'd think &mdash; hits a wall. No way to ask about insurance, availability, or pricing. They bounce, Google the next practice, and you never know they existed.</p>
+<p style="margin:0 0 14px 0">Quick one — your site doesn't have a way for someone with toothache at 11pm to book an appointment without calling. We build that in 5 days. $700 setup, $49/mo.</p>
 
-<p style="margin:0 0 14px 0">I build AI chatbots specifically for dental practices. It answers patient questions 24/7, books appointments through conversation, and sounds like your front desk &mdash; not a robot.</p>
+<p style="margin:0 0 14px 0">Worth a 10-min call this week? Reply <strong>Y</strong> or <strong>N</strong>.</p>
 
-<p style="margin:0 0 14px 0">Live on your site in <strong>5 days</strong>. Flat pricing, no monthly surprises.</p>
+<p style="margin:0 0 18px 0">&mdash; Geri<br><a href="https://smartflowdev.com/chatbot" style="color:#1B1B1F;text-decoration:underline">smartflowdev.com/chatbot</a></p>
 
-<p style="margin:0 0 14px 0">Want to see how it works? Reply <strong>&ldquo;show me&rdquo;</strong> and I'll send a 2-minute video of a real dental chatbot in action.</p>
-
-<p style="margin:0 0 18px 0">&mdash; Geri<br><a href="https://smartflowdev.com" style="color:#6366F1;text-decoration:none">smartflowdev.com</a> &middot; <a href="https://smartflowdev.com/chatbot" style="color:#6366F1;text-decoration:none">See how the chatbot works</a></p>
-
-<p style="margin:0 0 6px 0;padding-top:14px;border-top:1px solid #e5e7eb;color:#6b7280;font-size:13.5px;line-height:1.6"><strong style="color:#6366F1">PS.</strong> The chatbot pays for itself after 2-3 new patients it catches after hours. Most practices see that within the first month.</p>
+<p style="margin:0;padding-top:14px;border-top:1px solid #e5e7eb;color:#6b7280;font-size:13.5px;line-height:1.6"><strong style="color:#1B1B1F">PS.</strong> If you reply by ${OFFER_DEADLINE}, setup is $500 and the first month is free.</p>
 </div>`;
 };
 
@@ -51,50 +50,37 @@ const EN_BODY = (companyRaw: string): string => {
 
 const HU_SUBJECTS = [
   (c: string) => `Chatbot ötlet a(z) ${c} weboldalához`,
-  (c: string) => `${c} — hiányzó chatbot?`,
-  (c: string) => `Észrevétel a(z) ${c} oldaláról`,
+  (c: string) => `${c} — éjszakai időpontfoglalás?`,
+  (c: string) => `Gyors kérdés: ${c}`,
 ];
 
 const HU_BODY = (companyRaw: string): string => {
   const c = escHtml(companyRaw);
   return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:560px;margin:0 auto;color:#2b2b2b;line-height:1.65;font-size:15px">
 <p style="margin:0 0 14px 0">Tisztelt ${c} csapat,</p>
-
-<p style="margin:0 0 14px 0">Geri vagyok &mdash; magyar fejlesztő, mesterséges intelligenciával működő chatbotokat építek fogorvosi praxisok weboldalaira.</p>
-
-<p style="margin:0 0 14px 0">A(z) ${c} weboldala jól néz ki, de észrevettem, hogy nincs még chatbot rajta &mdash; ami pedig segíthetne elkapni az esti és hétvégi érdeklődőket, akik amúgy elvesznek mire visszahívják őket.</p>
-
-<p style="margin:0 0 14px 0">Egy márkára szabott chatbotot <strong>48 óra alatt</strong> tudok telepíteni az oldalukra. Mindent tartalmaz, magyar nyelven. Csatoltam egy rövid összefoglalót PDF-ben.</p>
-
-<p style="margin:0 0 14px 0">Ha érdekes, írjon vissza erre az emailre. Ha nem aktuális, semmi gond &mdash; nyugodtan törölje.</p>
-
-<p style="margin:0 0 18px 0">Üdvözlettel,<br><strong>Geri</strong> &middot; <a href="https://smartflowdev.com" style="color:#6366F1;text-decoration:none">smartflowdev.com</a></p>
-
-<p style="margin:0">
-  <a href="https://smartflowdev.com" style="display:block;text-decoration:none">
-    <img src="https://www.smartflowdev.com/chatbot-preview.png" alt="AI Chatbot Ajánlat — smartflowdev" width="420" style="display:block;width:100%;max-width:420px;height:auto;border-radius:10px;border:1px solid #e4e4e7" />
-  </a>
-</p>
+<p style="margin:0 0 14px 0">Gyors kérdés — az oldalukon nincs mód arra, hogy egy 23 órakor fogfájó páciens időpontot foglaljon hívás nélkül. 5 nap alatt megépítjük. 700$ setup, 49$/hó.</p>
+<p style="margin:0 0 14px 0">Megér egy 10 perces hívást? Válasz: <strong>I</strong> vagy <strong>N</strong>.</p>
+<p style="margin:0 0 18px 0">&mdash; Geri<br><a href="https://smartflowdev.com/chatbot" style="color:#1B1B1F;text-decoration:underline">smartflowdev.com/chatbot</a></p>
+<p style="margin:0;padding-top:14px;border-top:1px solid #e5e7eb;color:#6b7280;font-size:13.5px"><strong>UI.</strong> Ha ${OFFER_DEADLINE}-ig válaszol, a setup 500$ és az első hónap ingyenes.</p>
 </div>`;
 };
 
-// ─── German (placeholder, can extend later) ──────────────
+// ─── German (placeholder) ───────────────────────────────
 
 const DE_SUBJECTS = [
   (c: string) => `Chatbot-Idee für ${c}`,
-  (c: string) => `${c} — fehlender Chatbot?`,
-  (c: string) => `Etwas zur Website von ${c}`,
+  (c: string) => `${c} — Termin um 23 Uhr buchen?`,
+  (c: string) => `Kurze Frage zu ${c}`,
 ];
 
 const DE_BODY = (companyRaw: string): string => {
   const c = escHtml(companyRaw);
-  return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:560px;margin:0 auto;color:#2b2b2b;line-height:1.6;font-size:15px">
+  return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:560px;margin:0 auto;color:#2b2b2b;line-height:1.65;font-size:15px">
 <p>Hallo ${c} Team,</p>
-<p>Geri hier — ich baue KI-Chatbots für Zahnarztpraxen.</p>
-<p>Ihre Website sieht solide aus, aber es gibt noch keinen Chatbot — was wahrscheinlich pro Monat ein paar Patienten kostet, die nach Feierabend anfragen.</p>
-<p>Ich kann einen markenspezifischen Chatbot in <strong>48 Stunden</strong> installieren. Kurze Übersicht als PDF anbei.</p>
-<p>Bei Interesse einfach antworten. Falls nicht, kein Problem.</p>
-<p>Beste Grüße,<br><strong>Geri</strong> · <a href="https://smartflowdev.com" style="color:#6366F1;text-decoration:none">smartflowdev.com</a></p>
+<p>Kurz: Auf Ihrer Website kann niemand mit Zahnschmerzen um 23 Uhr einen Termin buchen, ohne anzurufen. Wir bauen das in 5 Tagen. 700$ Setup, 49$/Monat.</p>
+<p>Lust auf 10 Minuten diese Woche? Antworten Sie <strong>J</strong> oder <strong>N</strong>.</p>
+<p>&mdash; Geri · <a href="https://smartflowdev.com/chatbot" style="color:#1B1B1F">smartflowdev.com/chatbot</a></p>
+<p style="color:#6b7280;font-size:13.5px"><strong>PS.</strong> Antwort bis ${OFFER_DEADLINE}: Setup 500$, erster Monat gratis.</p>
 </div>`;
 };
 
@@ -102,19 +88,18 @@ const DE_BODY = (companyRaw: string): string => {
 
 const ES_SUBJECTS = [
   (c: string) => `Idea de chatbot para ${c}`,
-  (c: string) => `${c} — ¿chatbot faltante?`,
-  (c: string) => `Algo sobre el sitio de ${c}`,
+  (c: string) => `${c} — ¿reservar a las 11pm?`,
+  (c: string) => `Pregunta rápida para ${c}`,
 ];
 
 const ES_BODY = (companyRaw: string): string => {
   const c = escHtml(companyRaw);
-  return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:560px;margin:0 auto;color:#2b2b2b;line-height:1.6;font-size:15px">
+  return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:560px;margin:0 auto;color:#2b2b2b;line-height:1.65;font-size:15px">
 <p>Hola equipo de ${c},</p>
-<p>Soy Geri — construyo chatbots de IA para clínicas dentales.</p>
-<p>Su sitio se ve bien, pero todavía no tiene chatbot — lo cual probablemente está costándoles algunos pacientes al mes que consultan fuera del horario.</p>
-<p>Puedo instalar uno personalizado en <strong>48 horas</strong>. Resumen adjunto en PDF.</p>
-<p>Si les interesa, respondan a este email. Si no, no se preocupen.</p>
-<p>Saludos,<br><strong>Geri</strong> · <a href="https://smartflowdev.com" style="color:#6366F1;text-decoration:none">smartflowdev.com</a></p>
+<p>Rápido: su sitio no permite que alguien con dolor de muelas a las 11pm reserve sin llamar. Lo construimos en 5 días. $700 setup, $49/mes.</p>
+<p>¿Vale 10 minutos esta semana? Responde <strong>S</strong> o <strong>N</strong>.</p>
+<p>&mdash; Geri · <a href="https://smartflowdev.com/chatbot" style="color:#1B1B1F">smartflowdev.com/chatbot</a></p>
+<p style="color:#6b7280;font-size:13.5px"><strong>PD.</strong> Respuesta antes del ${OFFER_DEADLINE}: setup $500, primer mes gratis.</p>
 </div>`;
 };
 

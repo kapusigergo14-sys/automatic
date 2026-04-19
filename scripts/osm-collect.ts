@@ -59,6 +59,7 @@ interface V5Lead {
   hasBooking: boolean;
   modernScore: number; // 0-3 (viewport + https + doctype)
   collectedAt: string;
+  extractedFrom?: string; // 'homepage' | 'mailto' | 'jsonld' | 'cfemail' | 'obfuscated' | 'contact' | 'about' | 'team' | …
 }
 
 interface RegionProgress {
@@ -192,50 +193,170 @@ function modernScore(html: string, url: string): number {
   return score;
 }
 
-const JUNK = ['.gif', '.png', '.jpg', '.svg', '.css', '.js', 'your@', 'email@', 'name@', 'noreply', 'example.com', 'example@', 'wordpress', 'wixpress', 'wpengine', 'webmaster@', 'mailer-daemon', 'sentry', 'webpack', 'github', '2x.', 'mysocialpractice', 'yourdomain', 'domain.com', '@weomedia', '@gargle.com', 'webreporting@', 'u0022', '\\u0022', 'pagecloud', '@wpengine', 'marketing@', 'support@smartflow', 'kapusicsgo', 'johndoe', 'janedoe', 'sg-host.com', 'test@', 'anonymous', 'user@', '.sg-host.', '@prosites.com', '@dentalqore', '@pbhs.com'];
+// Tighter junk list — remove generic role keywords (info/marketing/support);
+// rely on domain matching + asset-extension blocks instead.
+const JUNK = [
+  '.gif', '.png', '.jpg', '.jpeg', '.svg', '.webp', '.css', '.js', '.woff', '.ttf', '.ico',
+  'your@', 'email@', 'name@', 'noreply', 'no-reply', 'donotreply',
+  'example.com', 'example@', 'mailer-daemon', 'postmaster@',
+  'wordpress', 'wixpress', 'wpengine', 'webmaster@', 'sentry', 'webpack', 'github',
+  '2x.', 'mysocialpractice', 'yourdomain', 'domain.com', '@weomedia', '@gargle.com',
+  'webreporting@', 'u0022', '\\u0022', 'pagecloud', '@wpengine',
+  'kapusicsgo', 'kapusigergo', 'johndoe', 'janedoe',
+  'sg-host.com', 'test@', 'anonymous@', 'user@', '.sg-host.',
+  '@prosites.com', '@dentalqore', '@pbhs.com', 'smartflowdev',
+];
 const isJunkEmail = (e: string) => JUNK.some((p) => e.toLowerCase().includes(p));
 
-function extractEmailFromHtml(html: string): string | null {
-  const regex = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/g;
-  const matches = html.match(regex) || [];
-  for (const m of matches) {
-    const l = m.toLowerCase();
-    if (isJunkEmail(l)) continue;
-    if (l.match(/^(info|contact|hello|office|admin|reception|appointments|dental|team|front|enquiries|enquiry|practice|booking|hi)@/)) {
-      return l;
+const PREFERRED_PREFIX = /^(info|contact|hello|office|admin|reception|appointments|dental|team|front|enquiries|enquiry|practice|booking|hi|sales|service|support|emergency|dispatch|schedule)@/;
+
+const EMAIL_REGEX = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/g;
+const MAILTO_REGEX = /href\s*=\s*["']mailto:([^"'?\s]+)/gi;
+
+// CloudFlare email obfuscation: <a class="__cf_email__" data-cfemail="HEX"…>
+const CFEMAIL_REGEX = /data-cfemail\s*=\s*["']([0-9a-fA-F]+)["']/g;
+
+// Common obfuscations used to hide emails from scrapers:
+//   info[at]clinic[dot]com / info(at)clinic(dot)com / info AT clinic DOT com
+const OBFUSCATED_REGEX = /([a-zA-Z0-9._%+-]+)\s*[\[\(]\s*at\s*[\]\)]\s*([a-zA-Z0-9.-]+)\s*[\[\(]\s*dot\s*[\]\)]\s*([a-zA-Z]{2,})/gi;
+const OBFUSCATED_SPACED_REGEX = /([a-zA-Z0-9._%+-]+)\s+(?:AT|at)\s+([a-zA-Z0-9.-]+)\s+(?:DOT|dot)\s+([a-zA-Z]{2,})/g;
+
+const JSONLD_BLOCK_REGEX = /<script[^>]+type\s*=\s*["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi;
+
+function decodeCfEmail(hex: string): string | null {
+  if (hex.length < 4 || hex.length % 2 !== 0) return null;
+  const r = parseInt(hex.slice(0, 2), 16);
+  let out = '';
+  for (let i = 2; i < hex.length; i += 2) {
+    const c = parseInt(hex.slice(i, i + 2), 16) ^ r;
+    out += String.fromCharCode(c);
+  }
+  return out;
+}
+
+interface ExtractedEmail {
+  email: string;
+  source: string; // 'mailto' | 'cfemail' | 'jsonld' | 'obfuscated' | 'text'
+}
+
+function extractEmailsFromHtml(html: string): ExtractedEmail[] {
+  const out: ExtractedEmail[] = [];
+  const seen = new Set<string>();
+
+  const push = (raw: string, source: string) => {
+    const lower = raw.toLowerCase().trim().replace(/[.,;:)>\]"']+$/g, '');
+    if (!lower || seen.has(lower)) return;
+    if (!/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(lower)) return;
+    if (isJunkEmail(lower)) return;
+    seen.add(lower);
+    out.push({ email: lower, source });
+  };
+
+  // 1. mailto: links — most reliable
+  let m: RegExpExecArray | null;
+  while ((m = MAILTO_REGEX.exec(html))) push(decodeURIComponent(m[1]), 'mailto');
+
+  // 2. CloudFlare email decoder
+  while ((m = CFEMAIL_REGEX.exec(html))) {
+    const decoded = decodeCfEmail(m[1]);
+    if (decoded) push(decoded, 'cfemail');
+  }
+
+  // 3. JSON-LD structured data (Organization/LocalBusiness email field)
+  while ((m = JSONLD_BLOCK_REGEX.exec(html))) {
+    try {
+      const json = JSON.parse(m[1].trim());
+      const visit = (node: any) => {
+        if (!node) return;
+        if (Array.isArray(node)) return node.forEach(visit);
+        if (typeof node !== 'object') return;
+        if (typeof node.email === 'string') push(node.email.replace(/^mailto:/i, ''), 'jsonld');
+        for (const v of Object.values(node)) visit(v);
+      };
+      visit(json);
+    } catch {
+      // Tolerate malformed JSON-LD blocks
     }
   }
-  for (const m of matches) {
-    const l = m.toLowerCase();
-    if (isJunkEmail(l)) continue;
-    return l;
-  }
-  return null;
+
+  // 4. Obfuscated forms ([at]/[dot] and AT/DOT)
+  while ((m = OBFUSCATED_REGEX.exec(html))) push(`${m[1]}@${m[2]}.${m[3]}`, 'obfuscated');
+  while ((m = OBFUSCATED_SPACED_REGEX.exec(html))) push(`${m[1]}@${m[2]}.${m[3]}`, 'obfuscated');
+
+  // 5. Plain text regex (lowest priority, biggest false-positive risk)
+  const textMatches = html.match(EMAIL_REGEX) || [];
+  for (const t of textMatches) push(t, 'text');
+
+  return out;
+}
+
+function pickBestEmail(
+  emails: ExtractedEmail[],
+  websiteHostname?: string
+): ExtractedEmail | null {
+  if (emails.length === 0) return null;
+  const domainHost = websiteHostname ? websiteHostname.replace(/^www\./, '').toLowerCase() : null;
+
+  const sourceRank = (s: string): number => {
+    if (s === 'mailto') return 0;
+    if (s === 'cfemail') return 1;
+    if (s === 'jsonld') return 2;
+    if (s === 'obfuscated') return 3;
+    return 4; // text
+  };
+  const matchesDomain = (e: string): boolean => {
+    if (!domainHost) return false;
+    const eDomain = e.split('@')[1] || '';
+    return eDomain === domainHost || eDomain.endsWith('.' + domainHost) || domainHost.endsWith('.' + eDomain);
+  };
+
+  const scored = emails.map((e) => {
+    let score = 0;
+    if (matchesDomain(e.email)) score -= 100; // strongly prefer same-domain
+    if (PREFERRED_PREFIX.test(e.email)) score -= 10; // prefer info@/contact@/etc
+    score += sourceRank(e.source);
+    return { e, score };
+  });
+  scored.sort((a, b) => a.score - b.score);
+  return scored[0].e;
 }
 
 // ─── HTTP fetch with timeout + byte cap ─────────────────────────────────
 
-async function fetchHtml(url: string, timeoutMs = 8000, maxBytes = 300_000): Promise<string | null> {
-  try {
-    const ctrl = new AbortController();
-    const t = setTimeout(() => ctrl.abort(), timeoutMs);
-    const res = await fetch(url, {
-      signal: ctrl.signal,
-      headers: {
-        'User-Agent':
-          'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0 Safari/537.36',
-        Accept: 'text/html,application/xhtml+xml',
-        'Accept-Language': 'en-US,en;q=0.9',
-      },
-      redirect: 'follow',
-    });
-    clearTimeout(t);
-    if (!res.ok) return null;
-    const text = await res.text();
-    return text.slice(0, maxBytes);
-  } catch {
-    return null;
+async function fetchHtml(
+  url: string,
+  timeoutMs = 8000,
+  maxBytes = 600_000,
+  retries = 1
+): Promise<string | null> {
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      const ctrl = new AbortController();
+      const t = setTimeout(() => ctrl.abort(), timeoutMs + attempt * 4000);
+      const res = await fetch(url, {
+        signal: ctrl.signal,
+        headers: {
+          'User-Agent':
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0 Safari/537.36',
+          Accept: 'text/html,application/xhtml+xml',
+          'Accept-Language': 'en-US,en;q=0.9',
+        },
+        redirect: 'follow',
+      });
+      clearTimeout(t);
+      if (!res.ok) {
+        // 5xx and 429 — retry once. 4xx other than 429 — give up.
+        if (attempt < retries && (res.status >= 500 || res.status === 429)) continue;
+        return null;
+      }
+      const text = await res.text();
+      return text.slice(0, maxBytes);
+    } catch {
+      if (attempt < retries) continue;
+      return null;
+    }
   }
+  return null;
 }
 
 // ─── Overpass query (Stage 1) ───────────────────────────────────────────
@@ -330,13 +451,33 @@ interface ProcessResult {
   reason: string;
 }
 
+// Cascade of fallback paths to try after the homepage. Most contact-having
+// pages live on one of these routes — going through all of them roughly
+// doubles the email yield without much extra latency (parallel fetch).
+const FALLBACK_PATHS = [
+  '/contact',
+  '/contact-us',
+  '/contactus',
+  '/contact.html',
+  '/about',
+  '/about-us',
+  '/our-team',
+  '/team',
+  '/staff',
+  '/meet-the-team',
+  '/get-in-touch',
+  '/inquiry',
+];
+
 async function processCandidate(c: RawCandidate): Promise<ProcessResult> {
   let normalizedUrl = c.website.trim();
   if (!/^https?:\/\//i.test(normalizedUrl)) normalizedUrl = 'https://' + normalizedUrl;
   // Strip trailing query/hash for stability
+  let websiteHost: string | undefined;
   try {
     const u = new URL(normalizedUrl);
     normalizedUrl = u.origin + u.pathname.replace(/\/$/, '');
+    websiteHost = u.hostname;
   } catch {
     return { lead: null, reason: 'invalid url' };
   }
@@ -346,22 +487,43 @@ async function processCandidate(c: RawCandidate): Promise<ProcessResult> {
 
   if (hasChatbot(html)) return { lead: null, reason: 'has chatbot' };
 
-  let email = extractEmailFromHtml(html);
-  if (!email) {
-    const contactHtml = await fetchHtml(normalizedUrl + '/contact', 6000);
-    if (contactHtml) {
-      if (hasChatbot(contactHtml)) return { lead: null, reason: 'has chatbot (contact page)' };
-      email = extractEmailFromHtml(contactHtml);
+  // Collect all extracted candidate emails across pages, then pick the best.
+  const allEmails: ExtractedEmail[] = [];
+  const homepageEmails = extractEmailsFromHtml(html);
+  for (const e of homepageEmails) {
+    // Tag homepage source as 'homepage:<src>' so we can audit later
+    allEmails.push({ email: e.email, source: 'homepage:' + e.source });
+  }
+
+  // Quick win: if homepage already has a same-domain mailto/jsonld/cfemail,
+  // we're done — no need to fetch fallbacks.
+  const earlyPick = pickBestEmail(homepageEmails, websiteHost);
+  const earlyGood = earlyPick && (
+    earlyPick.source === 'mailto' ||
+    earlyPick.source === 'cfemail' ||
+    earlyPick.source === 'jsonld'
+  );
+
+  if (!earlyGood) {
+    // Fan out fallback fetches in parallel for speed.
+    const fallbackResults = await Promise.all(
+      FALLBACK_PATHS.map(async (p) => {
+        const h = await fetchHtml(normalizedUrl + p, 6000, 600_000, 0);
+        return h ? { path: p, html: h } : null;
+      })
+    );
+    for (const r of fallbackResults) {
+      if (!r) continue;
+      // If any fallback page exposes a chatbot, the prospect is no longer a fit.
+      if (hasChatbot(r.html)) return { lead: null, reason: `has chatbot (${r.path})` };
+      const found = extractEmailsFromHtml(r.html);
+      const tag = r.path.replace(/^\//, '').replace(/-/g, '_');
+      for (const e of found) allEmails.push({ email: e.email, source: `${tag}:${e.source}` });
     }
   }
-  if (!email) {
-    const contactUsHtml = await fetchHtml(normalizedUrl + '/contact-us', 6000);
-    if (contactUsHtml) {
-      if (hasChatbot(contactUsHtml)) return { lead: null, reason: 'has chatbot (contact-us page)' };
-      email = extractEmailFromHtml(contactUsHtml);
-    }
-  }
-  if (!email) return { lead: null, reason: 'no email' };
+
+  const best = pickBestEmail(allEmails, websiteHost);
+  if (!best) return { lead: null, reason: 'no email' };
 
   const modern = modernScore(html, normalizedUrl);
   if (modern < 2) return { lead: null, reason: `not modern (${modern}/3)` };
@@ -373,10 +535,11 @@ async function processCandidate(c: RawCandidate): Promise<ProcessResult> {
       phone: c.phone,
       city: c.city,
       country: c.country,
-      email,
+      email: best.email,
       hasBooking: hasBooking(html),
       modernScore: modern,
       collectedAt: new Date().toISOString(),
+      extractedFrom: best.source,
     },
     reason: 'qualified',
   };
