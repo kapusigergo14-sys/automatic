@@ -730,5 +730,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:29:23.242Z",
     "originalSentAt": "2026-04-18T20:18:39.054Z"
+  },
+  "fox@mb2dental.com": {
+    "sentAt": "2026-04-19T16:30:38.900Z",
+    "messageId": "<202604191630.87961524788@smtp-relay.mailin.fr>",
+    "company": "Fox Family Dental",
+    "subject": "Fox Family Dental — 50% off, 72 hours only",
+    "city": "Sun City",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:30:38.558Z",
+    "originalSentAt": "2026-04-18T20:33:14.456Z"
   }
 }
