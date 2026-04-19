@@ -1114,5 +1114,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T17:05:08.126Z",
     "originalSentAt": "2026-04-15T08:27:15.329Z"
+  },
+  "cairnscentral@1300smiles.com.au": {
+    "sentAt": "2026-04-19T17:06:36.714Z",
+    "messageId": "<202604191706.26054790529@smtp-relay.mailin.fr>",
+    "company": "1300SMILES Dentists Cairns Central",
+    "subject": "One last thing for 1300SMILES Dentists Cairns Central",
+    "city": "Cairns Australia",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T17:06:36.371Z",
+    "originalSentAt": "2026-04-15T08:27:44.225Z"
   }
 }
