@@ -43,10 +43,14 @@ interface CountryConfig {
   bboxHalfDeg: number;
 }
 
+// Raised thresholds after observing low dental/business OSM coverage in
+// sub-100k US towns. Smaller cities consistently return 0 candidates,
+// wasting our Overpass budget. Keeping only mid-to-large cities where
+// OSM has meaningful commercial POI density.
 const COUNTRIES: CountryConfig[] = [
-  { market: 'US', geonamesCode: 'US', minPop: 40_000, bboxHalfDeg: 0.08 },
-  { market: 'UK', geonamesCode: 'GB', minPop: 25_000, bboxHalfDeg: 0.06 },
-  { market: 'AU', geonamesCode: 'AU', minPop: 20_000, bboxHalfDeg: 0.08 },
+  { market: 'US', geonamesCode: 'US', minPop: 150_000, bboxHalfDeg: 0.09 },
+  { market: 'UK', geonamesCode: 'GB', minPop: 50_000,  bboxHalfDeg: 0.06 },
+  { market: 'AU', geonamesCode: 'AU', minPop: 50_000,  bboxHalfDeg: 0.08 },
 ];
 
 // Minimum distance between two kept cities, in km. Same-name cities in
@@ -169,7 +173,7 @@ async function main() {
 
   const buckets: Record<string, EnhancedRow[]> = {};
   const codeDedup = new Set<string>();
-  const regions: Array<{ code: string; country: string; city: string; bbox: [number, number, number, number] }> = [];
+  const regions: Array<{ code: string; country: string; city: string; pop: number; bbox: [number, number, number, number] }> = [];
 
   for (const cfg of COUNTRIES) {
     const rows = allRows
@@ -212,6 +216,7 @@ async function main() {
         code,
         country: cfg.market,
         city,
+        pop: r.population,
         bbox: [
           +(r.lat - half).toFixed(4),
           +(r.lon - half).toFixed(4),
@@ -245,6 +250,7 @@ async function main() {
   lines2.push('  code: string;');
   lines2.push('  country: MarketCode;');
   lines2.push('  city: string;');
+  lines2.push('  pop: number;');
   lines2.push('  bbox: [number, number, number, number];');
   lines2.push('}');
   lines2.push('');
@@ -252,7 +258,7 @@ async function main() {
   for (const r of regions) {
     const cityEscaped = r.city.replace(/'/g, "\\'");
     lines2.push(
-      `  { code: '${r.code}', country: '${r.country}', city: '${cityEscaped}', bbox: [${r.bbox.join(', ')}] },`
+      `  { code: '${r.code}', country: '${r.country}', city: '${cityEscaped}', pop: ${r.pop}, bbox: [${r.bbox.join(', ')}] },`
     );
   }
   lines2.push('];');

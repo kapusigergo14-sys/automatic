@@ -660,23 +660,28 @@ async function main() {
     .map((x) => x.region);
   const cooledOut = allRegions.length - eligible.length;
 
-  // Partition: never-run regions are prioritised; among them we shuffle
-  // (Fisher-Yates) so runs spread across the ~720 regions rather than
-  // always starting with the top-population city (NYC, LA, Chicago etc.
-  // which Overpass consistently rate-limits with 406/429). Has-run
-  // regions are sorted by oldest lastRunAt so cooled regions rotate fairly.
+  // Partition + weighted shuffle. Never-run regions win priority, and
+  // within them we use a population-weighted reservoir sort (Efraimidis-
+  // Spirakis A-Res algorithm): key = U^(1/pop). Larger cities end up
+  // toward the front but still with randomness, so runs spread traffic
+  // without wasting slots on 20k-pop towns where OSM has 0 dental POIs.
+  // Has-run regions rotate by oldest lastRunAt as before.
   const neverRun = eligible.filter((r) => !progress[r.code]);
   const hasRun = eligible.filter((r) => progress[r.code]);
-  for (let i = neverRun.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [neverRun[i], neverRun[j]] = [neverRun[j], neverRun[i]];
-  }
+  const keyed = neverRun.map((r) => ({
+    r,
+    // Population acts as the weight. Fallback 50_000 if pop missing
+    // (shouldn't happen with generator, but defensive).
+    key: Math.random() ** (1 / Math.max(1, (r as any).pop || 50_000)),
+  }));
+  keyed.sort((a, b) => b.key - a.key);
+  const weighted = keyed.map((x) => x.r);
   hasRun.sort((a, b) =>
     new Date(progress[a.code]!.lastRunAt).getTime()
     - new Date(progress[b.code]!.lastRunAt).getTime()
   );
   eligible.length = 0;
-  eligible.push(...neverRun, ...hasRun);
+  eligible.push(...weighted, ...hasRun);
 
   // Take N per market
   const selected: OsmRegion[] = [];
