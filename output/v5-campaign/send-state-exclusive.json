@@ -1222,5 +1222,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T17:16:00.862Z",
     "originalSentAt": "2026-04-17T05:14:08.664Z"
+  },
+  "rockhampton@1300smiles.com.au": {
+    "sentAt": "2026-04-19T17:17:01.541Z",
+    "messageId": "<202604191717.26080580905@smtp-relay.mailin.fr>",
+    "company": "1300SMILES Dentists Rockhampton",
+    "subject": "One last thing for 1300SMILES Dentists Rockhampton",
+    "city": "Rockhampton Australia",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T17:17:01.214Z",
+    "originalSentAt": "2026-04-17T05:15:28.530Z"
   }
 }
