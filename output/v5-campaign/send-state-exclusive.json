@@ -466,5 +466,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:02:06.394Z",
     "originalSentAt": "2026-04-17T11:00:55.377Z"
+  },
+  "admin@queensquarterdental.com": {
+    "sentAt": "2026-04-19T16:03:50.222Z",
+    "messageId": "<202604191603.39893754327@smtp-relay.mailin.fr>",
+    "company": "Queen's Quarter Dental",
+    "subject": "One last thing for Queen's Quarter Dental",
+    "city": "11 University St",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:03:49.854Z",
+    "originalSentAt": "2026-04-17T11:01:15.034Z"
   }
 }
