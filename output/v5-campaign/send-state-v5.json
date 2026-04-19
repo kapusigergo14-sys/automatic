@@ -7960,5 +7960,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@bridgforddental.co.uk": {
+    "sentAt": "2026-04-19T11:39:38.376Z",
+    "messageId": "<202604191139.19235290605@smtp-relay.mailin.fr>",
+    "company": "Bridgford Dental Practice",
+    "subject": "Noticed something about Bridgford Dental Practice's site",
+    "city": "Nottingham",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
