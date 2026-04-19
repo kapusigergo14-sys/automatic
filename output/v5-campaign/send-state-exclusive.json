@@ -1006,5 +1006,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:55:59.621Z",
     "originalSentAt": "2026-04-15T08:21:41.671Z"
+  },
+  "info@briarhillsdental.com": {
+    "sentAt": "2026-04-19T16:57:04.108Z",
+    "messageId": "<202604191657.71244575660@smtp-relay.mailin.fr>",
+    "company": "Briar Hills Dental",
+    "subject": "One last thing for Briar Hills Dental",
+    "city": "Omaha",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:57:03.774Z",
+    "originalSentAt": "2026-04-15T08:22:50.492Z"
   }
 }
