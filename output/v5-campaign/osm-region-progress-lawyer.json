@@ -1468,5 +1468,145 @@
     "lastNewLeads": 0,
     "totalNewLeads": 0,
     "lastResultsCount": 0
+  },
+  "US-ARLINGTON": {
+    "lastRunAt": "2026-04-19T13:46:32.779Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-CORPUSCHRISTI": {
+    "lastRunAt": "2026-04-19T13:46:32.779Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-PLANO": {
+    "lastRunAt": "2026-04-19T13:46:32.779Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-LAREDO": {
+    "lastRunAt": "2026-04-19T13:46:32.779Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 5
+  },
+  "US-LUBBOCK": {
+    "lastRunAt": "2026-04-19T13:46:32.779Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-AMARILLO": {
+    "lastRunAt": "2026-04-19T13:46:32.779Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-PROVO": {
+    "lastRunAt": "2026-04-19T13:46:32.779Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-OREM": {
+    "lastRunAt": "2026-04-19T13:46:32.779Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-BURLINGTON": {
+    "lastRunAt": "2026-04-19T13:46:32.779Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-VIRGINIABEACH": {
+    "lastRunAt": "2026-04-19T13:46:32.779Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-NORFOLK": {
+    "lastRunAt": "2026-04-19T13:46:32.779Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "US-CHESAPEAKE": {
+    "lastRunAt": "2026-04-19T13:46:32.779Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-ARLINGTON-VA": {
+    "lastRunAt": "2026-04-19T13:46:32.779Z",
+    "totalRuns": 1,
+    "lastNewLeads": 13,
+    "totalNewLeads": 13,
+    "lastResultsCount": 26
+  },
+  "US-TACOMA": {
+    "lastRunAt": "2026-04-19T13:46:32.779Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-VANCOUVER-WA": {
+    "lastRunAt": "2026-04-19T13:46:32.779Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-BELLEVUE": {
+    "lastRunAt": "2026-04-19T13:46:32.779Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-CHARLESTON-WV": {
+    "lastRunAt": "2026-04-19T13:46:32.779Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-HUNTINGTON": {
+    "lastRunAt": "2026-04-19T13:46:32.779Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 2
+  },
+  "US-GREENBAY": {
+    "lastRunAt": "2026-04-19T13:46:32.779Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-CHEYENNE": {
+    "lastRunAt": "2026-04-19T13:46:32.779Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
   }
 }
