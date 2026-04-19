@@ -8059,5 +8059,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@dentistzone.co.uk": {
+    "sentAt": "2026-04-19T11:40:35.421Z",
+    "messageId": "<202604191140.31493154887@smtp-relay.mailin.fr>",
+    "company": "Your Dentist",
+    "subject": "Noticed something about Your Dentist's site",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
