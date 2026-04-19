@@ -994,5 +994,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:54:54.838Z",
     "originalSentAt": "2026-04-15T08:21:07.680Z"
+  },
+  "frontdesk@dakotadentalsd.com": {
+    "sentAt": "2026-04-19T16:55:59.945Z",
+    "messageId": "<202604191655.93891662737@smtp-relay.mailin.fr>",
+    "company": "Dakota Dental",
+    "subject": "Exclusive for Dakota Dental (expires Apr 22)",
+    "city": "Sioux Falls",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:55:59.621Z",
+    "originalSentAt": "2026-04-15T08:21:41.671Z"
   }
 }
