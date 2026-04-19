@@ -8477,5 +8477,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "you@email.com": {
+    "sentAt": "2026-04-19T17:28:56.478Z",
+    "messageId": "<202604191728.78379934856@smtp-relay.mailin.fr>",
+    "company": "Arcadia Dental Arts",
+    "subject": "Noticed something about Arcadia Dental Arts's site",
+    "city": "Phoenix",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
