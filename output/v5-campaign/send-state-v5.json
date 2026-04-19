@@ -9181,5 +9181,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@mysmilexp.com": {
+    "sentAt": "2026-04-19T19:50:52.422Z",
+    "messageId": "<202604191950.41046161763@smtp-relay.mailin.fr>",
+    "company": "My Smile Experience",
+    "subject": "AI chatbot for My Smile Experience — 50% off, 72 hours",
+    "city": "Somerville",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
