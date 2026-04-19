@@ -8653,5 +8653,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "blvd5thstreet@mb2dental.com": {
+    "sentAt": "2026-04-19T19:21:53.878Z",
+    "messageId": "<202604191921.62532226204@smtp-relay.mailin.fr>",
+    "company": "BLVD Dentistry & Orthodontics",
+    "subject": "AI chatbot for BLVD Dentistry & Orthodontics — 50% off, 72 hours",
+    "city": "Austin",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
