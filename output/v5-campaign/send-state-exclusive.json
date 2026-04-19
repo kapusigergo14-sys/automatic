@@ -346,5 +346,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:49:08.977Z",
     "originalSentAt": "2026-04-17T05:18:06.795Z"
+  },
+  "reception@beststdental.com.au": {
+    "sentAt": "2026-04-19T15:50:39.015Z",
+    "messageId": "<202604191550.42326022664@smtp-relay.mailin.fr>",
+    "company": "Best St Dental",
+    "subject": "Exclusive for Best St Dental (expires Apr 22)",
+    "city": "Wagga Wagga Australia",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:50:38.673Z",
+    "originalSentAt": "2026-04-17T05:19:06.101Z"
   }
 }
