@@ -1138,5 +1138,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T17:07:25.494Z",
     "originalSentAt": "2026-04-15T08:27:55.703Z"
+  },
+  "info@perfectteethcairns.com.au": {
+    "sentAt": "2026-04-19T17:08:03.858Z",
+    "messageId": "<202604191708.96859879131@smtp-relay.mailin.fr>",
+    "company": "Perfect Teeth",
+    "subject": "Exclusive for Perfect Teeth (expires Apr 22)",
+    "city": "Cairns Australia",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T17:08:03.499Z",
+    "originalSentAt": "2026-04-15T08:28:01.347Z"
   }
 }
