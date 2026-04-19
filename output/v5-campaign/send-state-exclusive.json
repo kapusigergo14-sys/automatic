@@ -238,5 +238,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:39:22.902Z",
     "originalSentAt": "2026-04-14T15:27:57.114Z"
+  },
+  "dental.hospital@nhs.net": {
+    "sentAt": "2026-04-19T15:40:35.504Z",
+    "messageId": "<202604191540.63336914662@smtp-relay.mailin.fr>",
+    "company": "Birmingham Dental Hospital",
+    "subject": "Exclusive for Birmingham Dental Hospital (expires Apr 22)",
+    "city": "5 Mill Pool Way",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:40:35.164Z",
+    "originalSentAt": "2026-04-17T10:54:18.625Z"
   }
 }
