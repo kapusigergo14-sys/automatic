@@ -118,5 +118,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:28:20.446Z",
     "originalSentAt": "2026-04-16T18:26:04.310Z"
+  },
+  "lafayette.dental.studio@gmail.com": {
+    "sentAt": "2026-04-19T15:30:00.854Z",
+    "messageId": "<202604191530.44634798793@smtp-relay.mailin.fr>",
+    "company": "Lafayette Dental Studio",
+    "subject": "Lafayette Dental Studio — 50% off, 72 hours only",
+    "city": "Lafayette",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:30:00.492Z",
+    "originalSentAt": "2026-04-16T18:13:08.220Z"
   }
 }
