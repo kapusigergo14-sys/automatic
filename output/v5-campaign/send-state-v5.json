@@ -8950,5 +8950,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "smile@pmdent.com": {
+    "sentAt": "2026-04-19T19:38:09.498Z",
+    "messageId": "<202604191938.83654926656@smtp-relay.mailin.fr>",
+    "company": "Plaza Midwood Dentistry",
+    "subject": "AI chatbot for Plaza Midwood Dentistry — 50% off, 72 hours",
+    "city": "Charlotte NC",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
