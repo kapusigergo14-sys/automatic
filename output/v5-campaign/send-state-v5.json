@@ -7927,5 +7927,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "smile.centre@rodericksdental.co.uk": {
+    "sentAt": "2026-04-19T11:39:19.332Z",
+    "messageId": "<202604191139.49421972797@smtp-relay.mailin.fr>",
+    "company": "The Smile Centre",
+    "subject": "Noticed something about The Smile Centre's site",
+    "city": "Nottingham",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
