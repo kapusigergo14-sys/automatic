@@ -322,5 +322,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:47:16.830Z",
     "originalSentAt": "2026-04-17T05:17:07.361Z"
+  },
+  "admin@foreverdentaltoowoomba.com.au": {
+    "sentAt": "2026-04-19T15:48:28.222Z",
+    "messageId": "<202604191548.56998677097@smtp-relay.mailin.fr>",
+    "company": "The Forever Dental & Smile Centre",
+    "subject": "One last thing for The Forever Dental &",
+    "city": "Toowoomba Australia",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:48:27.820Z",
+    "originalSentAt": "2026-04-17T05:18:00.174Z"
   }
 }
