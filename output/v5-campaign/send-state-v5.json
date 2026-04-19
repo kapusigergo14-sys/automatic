@@ -7861,5 +7861,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "whreception@riverdalehealthcare.com": {
+    "sentAt": "2026-04-19T11:38:41.417Z",
+    "messageId": "<202604191138.34598973648@smtp-relay.mailin.fr>",
+    "company": "Windmill Heaton Orthodontics",
+    "subject": "Noticed something about Windmill Heaton Orthodontics's site",
+    "city": "Newcastle upon Tyne",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
