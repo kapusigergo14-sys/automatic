@@ -358,5 +358,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:50:38.673Z",
     "originalSentAt": "2026-04-17T05:19:06.101Z"
+  },
+  "admin@thetoothstudio.com.au": {
+    "sentAt": "2026-04-19T15:52:19.894Z",
+    "messageId": "<202604191552.96389901397@smtp-relay.mailin.fr>",
+    "company": "The Tooth Studio",
+    "subject": "One last thing for The Tooth Studio",
+    "city": "Wagga Wagga Australia",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:52:19.558Z",
+    "originalSentAt": "2026-04-17T05:18:52.802Z"
   }
 }
