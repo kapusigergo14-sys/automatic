@@ -8741,5 +8741,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@groovymolar.com": {
+    "sentAt": "2026-04-19T19:26:26.266Z",
+    "messageId": "<202604191926.12081310692@smtp-relay.mailin.fr>",
+    "company": "Groovy Molar",
+    "subject": "Groovy Molar — 50% off AI chatbot this week",
+    "city": "Austin TX",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
