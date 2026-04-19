@@ -8466,5 +8466,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "peterborough@greentreedental.co.uk": {
+    "sentAt": "2026-04-19T11:44:29.442Z",
+    "messageId": "<202604191144.34113776321@smtp-relay.mailin.fr>",
+    "company": "Green Tree Dental",
+    "subject": "Green Tree Dental — what happens when someone visits your site at 11pm?",
+    "city": "Cambridge",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
