@@ -1150,5 +1150,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T17:08:03.499Z",
     "originalSentAt": "2026-04-15T08:28:01.347Z"
+  },
+  "reception@dentalonmartyn.com.au": {
+    "sentAt": "2026-04-19T17:09:18.740Z",
+    "messageId": "<202604191709.73936848802@smtp-relay.mailin.fr>",
+    "company": "Dental on Martyn",
+    "subject": "One last thing for Dental on Martyn",
+    "city": "Cairns Australia",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T17:09:18.410Z",
+    "originalSentAt": "2026-04-15T08:28:12.726Z"
   }
 }
