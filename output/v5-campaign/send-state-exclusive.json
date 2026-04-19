@@ -94,5 +94,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:26:27.716Z",
     "originalSentAt": "2026-04-16T18:11:53.071Z"
+  },
+  "tristate@tristatefamilydental.com": {
+    "sentAt": "2026-04-19T15:27:11.680Z",
+    "messageId": "<202604191527.18858240008@smtp-relay.mailin.fr>",
+    "company": "Tri-State Family Dental Centers",
+    "subject": "Exclusive for Tri (expires Apr 22)",
+    "city": "Evansville",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:27:11.325Z",
+    "originalSentAt": "2026-04-16T18:24:54.146Z"
   }
 }
