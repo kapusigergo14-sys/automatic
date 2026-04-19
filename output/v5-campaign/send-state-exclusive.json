@@ -850,5 +850,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:40:38.006Z",
     "originalSentAt": "2026-04-13T20:27:12.544Z"
+  },
+  "appointments@drweigand.com": {
+    "sentAt": "2026-04-19T16:41:37.103Z",
+    "messageId": "<202604191641.80950142561@smtp-relay.mailin.fr>",
+    "company": "Richard D Weigand, DDS",
+    "subject": "Exclusive for Richard D Weigand DDS (expires Apr 22)",
+    "city": "Spokane",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:41:36.757Z",
+    "originalSentAt": "2026-04-13T20:27:46.528Z"
   }
 }
