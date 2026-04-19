@@ -574,5 +574,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:13:38.438Z",
     "originalSentAt": "2026-04-17T20:58:58.686Z"
+  },
+  "office@albanydentalcare.com": {
+    "sentAt": "2026-04-19T16:14:18.980Z",
+    "messageId": "<202604191614.12769640769@smtp-relay.mailin.fr>",
+    "company": "Albany Dental Care, P.C.",
+    "subject": "One last thing for Albany Dental Care P.C.",
+    "city": "Albany",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:14:18.654Z",
+    "originalSentAt": "2026-04-17T21:24:24.183Z"
   }
 }
