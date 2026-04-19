@@ -8224,5 +8224,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@citrusdentalcare.co.uk": {
+    "sentAt": "2026-04-19T11:42:10.402Z",
+    "messageId": "<202604191142.94623604237@smtp-relay.mailin.fr>",
+    "company": "Citrus Dental Care",
+    "subject": "Noticed something about Citrus Dental Care's site",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
