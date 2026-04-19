@@ -9115,5 +9115,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "luxsomerville@luxdental.com": {
+    "sentAt": "2026-04-19T19:47:18.583Z",
+    "messageId": "<202604191947.16550618169@smtp-relay.mailin.fr>",
+    "company": "LUX Dental Care",
+    "subject": "AI chatbot for LUX Dental Care — 50% off, 72 hours",
+    "city": "Cambridge",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
