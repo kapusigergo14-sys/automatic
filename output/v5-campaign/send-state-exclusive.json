@@ -418,5 +418,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:57:55.259Z",
     "originalSentAt": "2026-04-17T05:14:35.855Z"
+  },
+  "liberty.place@rodericksdental.co.uk": {
+    "sentAt": "2026-04-19T15:58:49.092Z",
+    "messageId": "<202604191558.71754837801@smtp-relay.mailin.fr>",
+    "company": "The Dentist at Liberty Place - Birmingham",
+    "subject": "Exclusive for The Dentist at Liberty (expires Apr 22)",
+    "city": "26-38 Sheepcote St",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:58:48.730Z",
+    "originalSentAt": "2026-04-17T10:53:46.151Z"
   }
 }
