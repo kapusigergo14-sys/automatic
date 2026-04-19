@@ -9203,5 +9203,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@dentalpearlmiami.com": {
+    "sentAt": "2026-04-19T19:52:08.243Z",
+    "messageId": "<202604191952.16395395536@smtp-relay.mailin.fr>",
+    "company": "Dental Pearl",
+    "subject": "Dental Pearl — 50% off AI chatbot this week",
+    "city": "North Miami Beach",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
