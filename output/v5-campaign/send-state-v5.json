@@ -8180,5 +8180,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@barbourdentalcare.co.uk": {
+    "sentAt": "2026-04-19T11:41:44.896Z",
+    "messageId": "<202604191141.13508164236@smtp-relay.mailin.fr>",
+    "company": "Barbour Dental Practice",
+    "subject": "Honest question about Barbour Dental Practice's website",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
