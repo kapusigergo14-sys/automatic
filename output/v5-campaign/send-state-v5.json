@@ -8708,5 +8708,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "welcome@solasmile.co": {
+    "sentAt": "2026-04-19T19:24:36.806Z",
+    "messageId": "<202604191924.71478922345@smtp-relay.mailin.fr>",
+    "company": "Sola Smile Co.",
+    "subject": "Sola Smile Co. — 50% off AI chatbot this week",
+    "city": "Austin TX",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
