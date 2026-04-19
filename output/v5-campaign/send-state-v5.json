@@ -9214,5 +9214,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@choicemd.com": {
+    "sentAt": "2026-04-19T19:52:44.981Z",
+    "messageId": "<202604191952.49522473670@smtp-relay.mailin.fr>",
+    "company": "Choice MD",
+    "subject": "AI chatbot for Choice MD — 50% off, 72 hours",
+    "city": "Coral Gables",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
