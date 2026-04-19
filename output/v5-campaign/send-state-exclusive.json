@@ -958,5 +958,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:51:11.091Z",
     "originalSentAt": "2026-04-14T15:32:49.076Z"
+  },
+  "info@kaizendentalhawaii.com": {
+    "sentAt": "2026-04-19T16:52:50.249Z",
+    "messageId": "<202604191652.69668296918@smtp-relay.mailin.fr>",
+    "company": "Kaizen Dental Center - Downtown Honolulu",
+    "subject": "Exclusive for Kaizen Dental Center (expires Apr 22)",
+    "city": "Honolulu",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:52:49.902Z",
+    "originalSentAt": "2026-04-14T15:34:19.711Z"
   }
 }
