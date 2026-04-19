@@ -8444,5 +8444,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@newmarketroaddentistry.co.uk": {
+    "sentAt": "2026-04-19T11:44:16.957Z",
+    "messageId": "<202604191144.25137393464@smtp-relay.mailin.fr>",
+    "company": "Newmarket Road Dentistry",
+    "subject": "Honest question about Newmarket Road Dentistry's website",
+    "city": "Cambridge",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
