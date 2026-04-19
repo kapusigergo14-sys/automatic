@@ -8697,5 +8697,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@kellylanedentistry.com": {
+    "sentAt": "2026-04-19T19:24:04.113Z",
+    "messageId": "<202604191924.44331997908@smtp-relay.mailin.fr>",
+    "company": "Kelly Lane Dentistry",
+    "subject": "Quick one for Kelly Lane Dentistry — AI chatbot 50% off right now",
+    "city": "Pflugerville",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
