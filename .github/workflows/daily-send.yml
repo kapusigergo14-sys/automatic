@@ -76,16 +76,32 @@ jobs:
           fi
 
       - name: Commit collected leads
+        # Never fail the whole workflow just because the commit/push can't
+        # land — the send step below still needs to run from the freshly
+        # collected in-memory pool. Rebase against main to survive the
+        # race where someone pushed while OSM collect was running.
+        continue-on-error: true
         run: |
           git add output/leads/dental-v5-modern.json output/v5-campaign/osm-region-progress.json || true
           if ! git diff --staged --quiet; then
             git commit -m "chore(osm): collect leads [skip ci]"
-            git push origin HEAD
+            for i in 1 2 3; do
+              git pull --rebase --autostash origin main || true
+              if git push origin HEAD; then
+                echo "✅ pushed (attempt $i)"
+                break
+              fi
+              echo "⚠️  push attempt $i failed, retrying after rebase"
+              sleep 3
+            done
           else
             echo "No new leads to commit"
           fi
 
       - name: Send daily batch (spread + per-send commit)
+        # Run regardless of whether the commit step succeeded — the send
+        # reads the local JSON files, which are already updated.
+        if: always()
         env:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
         run: |
@@ -105,10 +121,18 @@ jobs:
       - name: Final state push (safety net)
         if: always()
         run: |
-          git add output/v5-campaign/send-state-v5.json || true
+          git add output/v5-campaign/send-state-v5.json output/leads/dental-v5-modern.json output/v5-campaign/osm-region-progress.json || true
           if ! git diff --staged --quiet; then
-            git commit -m "chore(v5): final state sync [skip ci]"
-            git push origin HEAD
+            git commit -m "chore(v5): final state sync [skip ci]" || true
+            for i in 1 2 3; do
+              git pull --rebase --autostash origin main || true
+              if git push origin HEAD; then
+                echo "✅ state pushed (attempt $i)"
+                break
+              fi
+              echo "⚠️  final-push attempt $i failed, retrying"
+              sleep 3
+            done
           else
             echo "State already in sync"
           fi
