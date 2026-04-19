@@ -8070,5 +8070,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@chapteronedental.com": {
+    "sentAt": "2026-04-19T11:40:41.731Z",
+    "messageId": "<202604191140.58869180577@smtp-relay.mailin.fr>",
+    "company": "Chapter One Dental Clinic",
+    "subject": "Chapter One Dental Clinic — what happens when someone visits your site at 11pm?",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
