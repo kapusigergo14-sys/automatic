@@ -119,9 +119,24 @@ function norm(s: string): string {
 }
 
 // ─── Event classification ────────────────────────────────────────────
+// Brevo values we've seen: "Delivered", "Soft bounce", "Hard bounce",
+// "Blocked", "Opened", "Unique opened", "Loaded by proxy", "Clicks",
+// "Unique clicks", "Complaint", "Unsubscribed".
+//
+// "Loaded by proxy" means Gmail/Outlook fetched the tracking pixel
+// through their image proxy — in practice this is the dominant open
+// signal for Gmail inboxes, so we treat it as an open.
 function isOpenEvent(e: string): boolean {
   const n = norm(e);
-  return n === 'opened' || n === 'uniqueopened' || n === 'open';
+  return (
+    n === 'opened' ||
+    n === 'uniqueopened' ||
+    n === 'open' ||
+    n === 'loadedbyproxy' ||
+    n === 'clicks' ||
+    n === 'uniqueclicks' ||
+    n === 'click'
+  );
 }
 
 function isHardBounce(e: string): boolean {
@@ -171,10 +186,11 @@ async function main() {
 
   const header = rows[0].map(norm);
   const idx = (name: string) => header.indexOf(norm(name));
+  // Brevo's UI CSV export uses compact column names: st_text / ts / sub / frm / email / tag / mid / link
   const iEmail   = [idx('email'), idx('recipient'), idx('to')].find((x) => x >= 0) ?? -1;
-  const iEvent   = [idx('event'), idx('type')].find((x) => x >= 0) ?? -1;
-  const iDate    = [idx('date'), idx('sentat'), idx('timestamp'), idx('time')].find((x) => x >= 0) ?? -1;
-  const iSubject = [idx('subject'), idx('messagesubject')].find((x) => x >= 0) ?? -1;
+  const iEvent   = [idx('event'), idx('type'), idx('sttext'), idx('status')].find((x) => x >= 0) ?? -1;
+  const iDate    = [idx('date'), idx('sentat'), idx('timestamp'), idx('time'), idx('ts')].find((x) => x >= 0) ?? -1;
+  const iSubject = [idx('subject'), idx('messagesubject'), idx('sub')].find((x) => x >= 0) ?? -1;
 
   if (iEmail < 0 || iEvent < 0) {
     console.error(`❌ CSV missing required columns. Header: ${rows[0].join(' | ')}`);
