@@ -1078,5 +1078,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T17:02:29.047Z",
     "originalSentAt": "2026-04-15T08:26:52.124Z"
+  },
+  "info@harrisdentalboutique.com": {
+    "sentAt": "2026-04-19T17:03:36.343Z",
+    "messageId": "<202604191703.47357901100@smtp-relay.mailin.fr>",
+    "company": "Harris Dental Boutique - Dentist Bundaberg",
+    "subject": "One last thing for Harris Dental Boutique",
+    "city": "Bundaberg Australia",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T17:03:36.005Z",
+    "originalSentAt": "2026-04-15T08:26:57.682Z"
   }
 }
