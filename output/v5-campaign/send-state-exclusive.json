@@ -382,5 +382,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:53:37.172Z",
     "originalSentAt": "2026-04-17T05:21:38.212Z"
+  },
+  "info@manlydentalcare.com.au": {
+    "sentAt": "2026-04-19T15:55:10.557Z",
+    "messageId": "<202604191555.29664961129@smtp-relay.mailin.fr>",
+    "company": "Manly Dental Care",
+    "subject": "Exclusive for Manly Dental Care (expires Apr 22)",
+    "city": "Sydney NSW",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:55:10.214Z",
+    "originalSentAt": "2026-04-17T05:20:05.059Z"
   }
 }
