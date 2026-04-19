@@ -802,5 +802,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:36:20.631Z",
     "originalSentAt": "2026-04-19T11:42:23.108Z"
+  },
+  "oxford.reception@damiradental.co.uk": {
+    "sentAt": "2026-04-19T16:37:20.007Z",
+    "messageId": "<202604191637.30067940546@smtp-relay.mailin.fr>",
+    "company": "Damira Dental Studios",
+    "subject": "Damira Dental Studios — 50% off, 72 hours only",
+    "city": "Oxford",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:37:19.662Z",
+    "originalSentAt": "2026-04-19T11:44:04.312Z"
   }
 }
