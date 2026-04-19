@@ -82,5 +82,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T15:25:00.180Z",
     "originalSentAt": "2026-04-16T18:08:54.810Z"
+  },
+  "midtown@garnerdental.net": {
+    "sentAt": "2026-04-19T15:26:28.048Z",
+    "messageId": "<202604191526.94966680240@smtp-relay.mailin.fr>",
+    "company": "Midtown Dental Studio of Mobile",
+    "subject": "Midtown Dental Studio of — 50% off, 72 hours only",
+    "city": "Mobile",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T15:26:27.716Z",
+    "originalSentAt": "2026-04-16T18:11:53.071Z"
   }
 }
