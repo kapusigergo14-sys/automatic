@@ -682,5 +682,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:24:31.330Z",
     "originalSentAt": "2026-04-18T11:58:03.145Z"
+  },
+  "drelmosa@yahoo.com": {
+    "sentAt": "2026-04-19T16:25:33.906Z",
+    "messageId": "<202604191625.34436844100@smtp-relay.mailin.fr>",
+    "company": "Premiere Family Dental- Archer",
+    "subject": "One last thing for Premiere Family Dental",
+    "city": "Chicago",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:25:33.558Z",
+    "originalSentAt": "2026-04-18T11:58:09.631Z"
   }
 }
