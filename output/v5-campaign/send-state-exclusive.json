@@ -586,5 +586,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:14:18.654Z",
     "originalSentAt": "2026-04-17T21:24:24.183Z"
+  },
+  "info@linksdentalpractice.co.uk": {
+    "sentAt": "2026-04-19T16:15:45.596Z",
+    "messageId": "<202604191615.94536724242@smtp-relay.mailin.fr>",
+    "company": "Links Dental Practice",
+    "subject": "Links Dental Practice — 50% off, 72 hours only",
+    "city": "101-103 Whitehouse Loan",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:15:45.266Z",
+    "originalSentAt": "2026-04-18T11:48:55.576Z"
   }
 }
