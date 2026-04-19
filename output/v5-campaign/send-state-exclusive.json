@@ -754,5 +754,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:31:28.985Z",
     "originalSentAt": "2026-04-19T11:39:19.332Z"
+  },
+  "info@bridgforddental.co.uk": {
+    "sentAt": "2026-04-19T16:32:49.537Z",
+    "messageId": "<202604191632.36605469165@smtp-relay.mailin.fr>",
+    "company": "Bridgford Dental Practice",
+    "subject": "One last thing for Bridgford Dental Practice",
+    "city": "Nottingham",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:32:49.194Z",
+    "originalSentAt": "2026-04-19T11:39:38.376Z"
   }
 }
