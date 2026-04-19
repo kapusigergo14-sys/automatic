@@ -7916,5 +7916,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "reception@msdental.co.uk": {
+    "sentAt": "2026-04-19T11:39:12.991Z",
+    "messageId": "<202604191139.56200727142@smtp-relay.mailin.fr>",
+    "company": "Market Street Dental Care",
+    "subject": "Honest question about Market Street Dental Care's website",
+    "city": "Nottingham",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
