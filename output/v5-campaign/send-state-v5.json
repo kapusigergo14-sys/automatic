@@ -9093,5 +9093,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "hello@smilebar.com": {
+    "sentAt": "2026-04-19T19:45:59.181Z",
+    "messageId": "<202604191945.77737425993@smtp-relay.mailin.fr>",
+    "company": "Smilebar",
+    "subject": "Quick one for Smilebar — AI chatbot 50% off right now",
+    "city": "Boston",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
