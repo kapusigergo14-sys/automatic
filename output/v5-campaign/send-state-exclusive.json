@@ -838,5 +838,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:39:47.334Z",
     "originalSentAt": "2026-04-13T20:26:43.903Z"
+  },
+  "smile@maplegrovedentistry.net": {
+    "sentAt": "2026-04-19T16:40:38.362Z",
+    "messageId": "<202604191640.23615244139@smtp-relay.mailin.fr>",
+    "company": "Maple Grove Dentistry",
+    "subject": "Maple Grove Dentistry — 50% off, 72 hours only",
+    "city": "Boise",
+    "country": "US",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:40:38.006Z",
+    "originalSentAt": "2026-04-13T20:27:12.544Z"
   }
 }
