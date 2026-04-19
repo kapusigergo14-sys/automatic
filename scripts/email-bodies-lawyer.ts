@@ -25,8 +25,8 @@ function escHtml(s: string): string {
 
 const EN_SUBJECTS = [
   (c: string) => `${c} — 50% off AI chatbot this week`,
-  (c: string) => `Noticed ${c}'s site — 50% off, 72 hours`,
-  (c: string) => `Quick one for ${c} (50% off right now)`,
+  (c: string) => `AI chatbot for ${c} — 50% off, 72 hours`,
+  (c: string) => `Quick one for ${c} — AI chatbot 50% off right now`,
 ];
 
 const EN_BODY = (companyRaw: string): string => {
@@ -50,8 +50,8 @@ const EN_BODY = (companyRaw: string): string => {
 
 const HU_SUBJECTS = [
   (c: string) => `${c} — 50% kedvezmény AI chatbotra ezen a héten`,
-  (c: string) => `${c} oldala — 50% off, 72 óra`,
-  (c: string) => `Gyors kérdés: ${c} (50% kedvezmény most)`,
+  (c: string) => `AI chatbot a ${c} oldalára — 50% off, 72 óra`,
+  (c: string) => `Gyors kérdés: AI chatbot 50% kedvezmény (${c})`,
 ];
 
 const HU_BODY = (companyRaw: string): string => {
@@ -70,8 +70,8 @@ const HU_BODY = (companyRaw: string): string => {
 
 const DE_SUBJECTS = [
   (c: string) => `${c} — 50% Rabatt auf AI-Chatbot diese Woche`,
-  (c: string) => `${c} Website — 50% off, 72 Stunden`,
-  (c: string) => `Kurze Frage zu ${c} (50% Rabatt jetzt)`,
+  (c: string) => `AI-Chatbot für ${c} — 50% off, 72 Stunden`,
+  (c: string) => `Kurze Frage zu ${c} — AI-Chatbot 50% Rabatt`,
 ];
 
 const DE_BODY = (companyRaw: string): string => {
@@ -90,8 +90,8 @@ const DE_BODY = (companyRaw: string): string => {
 
 const ES_SUBJECTS = [
   (c: string) => `${c} — 50% de descuento en AI chatbot esta semana`,
-  (c: string) => `Sitio de ${c} — 50% off, 72 horas`,
-  (c: string) => `Pregunta rápida para ${c} (50% de descuento ahora)`,
+  (c: string) => `AI chatbot para ${c} — 50% off, 72 horas`,
+  (c: string) => `Pregunta rápida para ${c} — AI chatbot 50% descuento`,
 ];
 
 const ES_BODY = (companyRaw: string): string => {

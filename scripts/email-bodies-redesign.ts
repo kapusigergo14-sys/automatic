@@ -24,8 +24,8 @@ function escHtml(s: string): string {
 
 const EN_SUBJECTS = [
   (c: string) => `${c} — 50% off website redesign this week`,
-  (c: string) => `Honest take on ${c}'s site (50% off, 72h)`,
-  (c: string) => `Quick one for ${c} (50% off right now)`,
+  (c: string) => `Website redesign for ${c} — 50% off, 72 hours`,
+  (c: string) => `Quick one for ${c} — site redesign 50% off right now`,
 ];
 
 const EN_BODY = (companyRaw: string): string => {
@@ -49,8 +49,8 @@ const EN_BODY = (companyRaw: string): string => {
 
 const HU_SUBJECTS = [
   (c: string) => `${c} — 50% off weboldal redesignra`,
-  (c: string) => `${c} oldala — őszinte vélemény (50% off, 72h)`,
-  (c: string) => `Gyors kérdés: ${c} (50% kedvezmény most)`,
+  (c: string) => `Weboldal redesign a ${c}-nek — 50% off, 72 óra`,
+  (c: string) => `Gyors kérdés: weboldal redesign 50% off (${c})`,
 ];
 
 const HU_BODY = (companyRaw: string): string => {
@@ -69,8 +69,8 @@ const HU_BODY = (companyRaw: string): string => {
 
 const DE_SUBJECTS = [
   (c: string) => `${c} — 50% Rabatt auf Website-Redesign diese Woche`,
-  (c: string) => `${c} Website — 50% off, 72 Stunden`,
-  (c: string) => `Kurze Frage zu ${c} (50% Rabatt jetzt)`,
+  (c: string) => `Website-Redesign für ${c} — 50% off, 72 Stunden`,
+  (c: string) => `Kurze Frage zu ${c} — Redesign 50% Rabatt`,
 ];
 
 const DE_BODY = (companyRaw: string): string => {
@@ -89,8 +89,8 @@ const DE_BODY = (companyRaw: string): string => {
 
 const ES_SUBJECTS = [
   (c: string) => `${c} — 50% de descuento en rediseño web`,
-  (c: string) => `Sitio de ${c} — 50% off, 72 horas`,
-  (c: string) => `Pregunta rápida para ${c} (50% de descuento ahora)`,
+  (c: string) => `Rediseño web para ${c} — 50% off, 72 horas`,
+  (c: string) => `Pregunta rápida para ${c} — rediseño 50% off`,
 ];
 
 const ES_BODY = (companyRaw: string): string => {

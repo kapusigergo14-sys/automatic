@@ -24,8 +24,8 @@ function escHtml(s: string): string {
 
 const EN_SUBJECTS = [
   (c: string) => `${c} — 50% off emergency-booking chatbot this week`,
-  (c: string) => `Noticed ${c}'s site — 50% off, 72 hours`,
-  (c: string) => `Quick one for ${c} (50% off right now)`,
+  (c: string) => `AC-emergency chatbot for ${c} — 50% off, 72 hours`,
+  (c: string) => `Quick one for ${c} — 24/7 booking chatbot 50% off`,
 ];
 
 const EN_BODY = (companyRaw: string): string => {
@@ -49,8 +49,8 @@ const EN_BODY = (companyRaw: string): string => {
 
 const HU_SUBJECTS = [
   (c: string) => `${c} — 50% off klíma-vészhelyzet chatbotra`,
-  (c: string) => `${c} oldala — 50% off, 72 óra`,
-  (c: string) => `Gyors kérdés: ${c} (50% kedvezmény most)`,
+  (c: string) => `Éjszakai klíma-foglaló chatbot a ${c}-nek — 50% off, 72 óra`,
+  (c: string) => `Gyors kérdés: klíma-foglaló chatbot 50% off (${c})`,
 ];
 
 const HU_BODY = (companyRaw: string): string => {
@@ -69,8 +69,8 @@ const HU_BODY = (companyRaw: string): string => {
 
 const DE_SUBJECTS = [
   (c: string) => `${c} — 50% Rabatt auf HLK-Notdienst-Chatbot`,
-  (c: string) => `${c} Website — 50% off, 72 Stunden`,
-  (c: string) => `Kurze Frage zu ${c} (50% Rabatt jetzt)`,
+  (c: string) => `HLK-Notdienst-Chatbot für ${c} — 50% off, 72 Stunden`,
+  (c: string) => `Kurze Frage zu ${c} — Buchungs-Chatbot 50% Rabatt`,
 ];
 
 const DE_BODY = (companyRaw: string): string => {
@@ -89,8 +89,8 @@ const DE_BODY = (companyRaw: string): string => {
 
 const ES_SUBJECTS = [
   (c: string) => `${c} — 50% de descuento en chatbot HVAC`,
-  (c: string) => `Sitio de ${c} — 50% off, 72 horas`,
-  (c: string) => `Pregunta rápida para ${c} (50% de descuento ahora)`,
+  (c: string) => `Chatbot de emergencia HVAC para ${c} — 50% off, 72 horas`,
+  (c: string) => `Pregunta rápida para ${c} — chatbot 24/7 50% off`,
 ];
 
 const ES_BODY = (companyRaw: string): string => {
