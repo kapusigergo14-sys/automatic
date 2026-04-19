@@ -8081,5 +8081,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "hello@cwtchdental.co.uk": {
+    "sentAt": "2026-04-19T11:40:47.984Z",
+    "messageId": "<202604191140.97825726076@smtp-relay.mailin.fr>",
+    "company": "Cwtch Dental Care",
+    "subject": "Honest question about Cwtch Dental Care's website",
+    "city": "Cardiff",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
