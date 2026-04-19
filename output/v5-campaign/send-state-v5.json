@@ -7905,5 +7905,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@ropewalkdental.co.uk": {
+    "sentAt": "2026-04-19T11:39:06.641Z",
+    "messageId": "<202604191139.82069156180@smtp-relay.mailin.fr>",
+    "company": "The Ropewalk Dental and Implant Suite",
+    "subject": "The Ropewalk Dental and — what happens when someone visits your site at 11pm?",
+    "city": "Nottingham",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
