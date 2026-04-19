@@ -478,5 +478,17 @@
     "pitch": "chatbot",
     "expiresAt": "2026-04-22T16:03:49.854Z",
     "originalSentAt": "2026-04-17T11:01:15.034Z"
+  },
+  "info@todaysdentaledgecliff.com": {
+    "sentAt": "2026-04-19T16:04:34.174Z",
+    "messageId": "<202604191604.82755147702@smtp-relay.mailin.fr>",
+    "company": "Todays Dental",
+    "subject": "Todays Dental — 50% off, 72 hours only",
+    "city": "Sydney NSW",
+    "country": "AU",
+    "lang": "en",
+    "pitch": "chatbot",
+    "expiresAt": "2026-04-22T16:04:33.834Z",
+    "originalSentAt": "2026-04-17T05:19:32.323Z"
   }
 }
