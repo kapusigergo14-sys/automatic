@@ -8125,5 +8125,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@lwdental.co.uk": {
+    "sentAt": "2026-04-19T11:41:13.262Z",
+    "messageId": "<202604191141.62982920015@smtp-relay.mailin.fr>",
+    "company": "LW Dental",
+    "subject": "Noticed something about LW Dental's site",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
