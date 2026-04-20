@@ -2187,5 +2187,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "enquiries@rogerbrookersolicitors.co.uk": {
+    "sentAt": "2026-04-20T15:40:15.151Z",
+    "messageId": "<202604201540.76074897348@smtp-relay.mailin.fr>",
+    "company": "Roger Brooker & Co.",
+    "subject": "Quick one for Roger Brooker & Co. — AI chatbot 50% off right now",
+    "city": "Chelmsford",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
