@@ -9588,5 +9588,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "ebenke11@gmail.com": {
+    "sentAt": "2026-04-20T17:36:15.622Z",
+    "messageId": "<202604201736.49865520057@smtp-relay.mailin.fr>",
+    "company": "NE1 Dental",
+    "subject": "Quick one for NE1 Dental — AI chatbot 50% off right now",
+    "city": "Minneapolis",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
