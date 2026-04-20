@@ -9412,5 +9412,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@comfortdental.biz": {
+    "sentAt": "2026-04-20T17:34:35.546Z",
+    "messageId": "<202604201734.82122672333@smtp-relay.mailin.fr>",
+    "company": "Comfort Dental",
+    "subject": "AI chatbot for Comfort Dental — 50% off, 72 hours",
+    "city": "Albuquerque",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
