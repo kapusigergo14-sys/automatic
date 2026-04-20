@@ -1934,5 +1934,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@solidumsolicitors.co.uk": {
+    "sentAt": "2026-04-20T15:37:39.744Z",
+    "messageId": "<202604201537.24949654720@smtp-relay.mailin.fr>",
+    "company": "Solidum Solicitors",
+    "subject": "Solidum Solicitors — 50% off AI chatbot this week",
+    "city": "Harrow",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
