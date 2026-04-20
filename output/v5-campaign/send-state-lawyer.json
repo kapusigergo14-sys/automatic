@@ -2495,5 +2495,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@bhwlawfirm.com": {
+    "sentAt": "2026-04-20T16:21:54.888Z",
+    "messageId": "<202604201621.80100700660@smtp-relay.mailin.fr>",
+    "company": "Barnett Howard & Williams PLLC",
+    "subject": "Barnett Howard & Williams — 50% off AI chatbot this week",
+    "city": "Fort Worth TX",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
