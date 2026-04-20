@@ -1545,5 +1545,26 @@
     "lastNewLeads": 1,
     "totalNewLeads": 1,
     "lastResultsCount": 2
+  },
+  "UK-FOLKESTONE": {
+    "lastRunAt": "2026-04-20T14:47:15.827Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "UK-MANSFIELD": {
+    "lastRunAt": "2026-04-20T14:47:15.827Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 1
+  },
+  "UK-COVENTRY": {
+    "lastRunAt": "2026-04-20T14:47:15.827Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 3
   }
 }
