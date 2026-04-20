@@ -10017,5 +10017,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "drlee@drjameslee.com": {
+    "sentAt": "2026-04-20T17:40:20.144Z",
+    "messageId": "<202604201740.62569424953@smtp-relay.mailin.fr>",
+    "company": "The Lee Center",
+    "subject": "Quick one for The Lee Center — AI chatbot 50% off right now",
+    "city": "Ann Arbor MI",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
