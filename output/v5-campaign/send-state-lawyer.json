@@ -1516,5 +1516,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "brandon@bkanelaw.com": {
+    "sentAt": "2026-04-20T15:33:22.154Z",
+    "messageId": "<202604201533.95791879861@smtp-relay.mailin.fr>",
+    "company": "Kane Law Office LLC",
+    "subject": "AI chatbot for Kane Law Office LLC — 50% off, 72 hours",
+    "city": "Kansas City",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
