@@ -9731,5 +9731,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@theglendental.com": {
+    "sentAt": "2026-04-20T17:37:36.931Z",
+    "messageId": "<202604201737.56439907044@smtp-relay.mailin.fr>",
+    "company": "The Glen Dental",
+    "subject": "The Glen Dental — 50% off AI chatbot this week",
+    "city": "San Jose",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
