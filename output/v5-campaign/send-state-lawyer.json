@@ -1637,5 +1637,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "luis@luisamartinezpc.com": {
+    "sentAt": "2026-04-20T15:34:35.874Z",
+    "messageId": "<202604201534.71389367184@smtp-relay.mailin.fr>",
+    "company": "Law Offices of Luis A. Martinez, P.C.",
+    "subject": "Law Offices of Luis — 50% off AI chatbot this week",
+    "city": "Salem",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
