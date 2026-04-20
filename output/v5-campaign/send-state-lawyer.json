@@ -1395,5 +1395,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "enquiries@parfittcresswell.com": {
+    "sentAt": "2026-04-20T14:56:34.010Z",
+    "messageId": "<202604201456.93823169337@smtp-relay.mailin.fr>",
+    "company": "Parfitt Cresswell",
+    "subject": "AI chatbot for Parfitt Cresswell — 50% off, 72 hours",
+    "city": "Windsor",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
