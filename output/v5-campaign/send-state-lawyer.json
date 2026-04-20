@@ -1340,5 +1340,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "law@wilkinsonwoodward.co.uk": {
+    "sentAt": "2026-04-20T14:56:00.508Z",
+    "messageId": "<202604201456.85304874355@smtp-relay.mailin.fr>",
+    "company": "Wilkinson Woodward Bearders Solicitors",
+    "subject": "Quick one for Wilkinson Woodward Bearders Solicitors — AI chatbot 50% off right now",
+    "city": "Brighouse",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
