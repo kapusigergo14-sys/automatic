@@ -2242,5 +2242,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "mredenburg@mjrlaw-ny.com": {
+    "sentAt": "2026-04-20T16:19:22.266Z",
+    "messageId": "<202604201619.15636158996@smtp-relay.mailin.fr>",
+    "company": "Michael J. Redenburg, Esq. P.C.",
+    "subject": "AI chatbot for Michael J. Redenburg Esq. — 50% off, 72 hours",
+    "city": "New York",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
