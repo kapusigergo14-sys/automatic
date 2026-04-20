@@ -9830,5 +9830,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@prairiedentalaurora.com": {
+    "sentAt": "2026-04-20T17:38:33.873Z",
+    "messageId": "<202604201738.78425613765@smtp-relay.mailin.fr>",
+    "company": "Prairie Dental Care",
+    "subject": "Prairie Dental Care — 50% off AI chatbot this week",
+    "city": "Aurora",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
