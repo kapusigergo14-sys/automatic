@@ -2297,5 +2297,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@nylawyersteam.com": {
+    "sentAt": "2026-04-20T16:19:56.203Z",
+    "messageId": "<202604201619.77404686684@smtp-relay.mailin.fr>",
+    "company": "Gordon Law, P.C. - NYC Family and Divorce Lawyer",
+    "subject": "Gordon Law P.C. — 50% off AI chatbot this week",
+    "city": "New York",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
