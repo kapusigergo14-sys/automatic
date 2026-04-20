@@ -9841,5 +9841,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@mybrightsmiles.com": {
+    "sentAt": "2026-04-20T17:38:40.116Z",
+    "messageId": "<202604201738.76515295984@smtp-relay.mailin.fr>",
+    "company": "Bright Smiles Dental Care",
+    "subject": "AI chatbot for Bright Smiles Dental Care — 50% off, 72 hours",
+    "city": "Nampa",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
