@@ -2836,5 +2836,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "office@mbmcgarry.co.uk": {
+    "sentAt": "2026-04-20T16:25:19.247Z",
+    "messageId": "<202604201625.53713685174@smtp-relay.mailin.fr>",
+    "company": "McGarry & Co.",
+    "subject": "AI chatbot for McGarry & Co. — 50% off, 72 hours",
+    "city": "Darlington",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
