@@ -10391,5 +10391,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "crystalcity@siranlidental.com": {
+    "sentAt": "2026-04-20T18:22:43.487Z",
+    "messageId": "<202604201822.83541280432@smtp-relay.mailin.fr>",
+    "company": "Advance Dental Care Center",
+    "subject": "AI chatbot for Advance Dental Care Center — 50% off, 72 hours",
+    "city": "Arlington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
