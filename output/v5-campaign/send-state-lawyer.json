@@ -2308,5 +2308,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@silverlinecollective.com": {
+    "sentAt": "2026-04-20T16:20:02.794Z",
+    "messageId": "<202604201620.47328626242@smtp-relay.mailin.fr>",
+    "company": "McMenamin Law Group",
+    "subject": "AI chatbot for McMenamin Law Group — 50% off, 72 hours",
+    "city": "New York",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
