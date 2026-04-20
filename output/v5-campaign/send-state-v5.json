@@ -9995,5 +9995,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "frontdesk@hanselmandds.com": {
+    "sentAt": "2026-04-20T17:40:07.635Z",
+    "messageId": "<202604201740.79277985680@smtp-relay.mailin.fr>",
+    "company": "Mark Hansleman DDS",
+    "subject": "Mark Hansleman DDS — 50% off AI chatbot this week",
+    "city": "Ann Arbor",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
