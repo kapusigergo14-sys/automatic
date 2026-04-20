@@ -2341,5 +2341,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "nycinjuryattorneys@gmail.com": {
+    "sentAt": "2026-04-20T16:20:22.824Z",
+    "messageId": "<202604201620.45816508342@smtp-relay.mailin.fr>",
+    "company": "NYC Injury Attorneys P.C.",
+    "subject": "AI chatbot for NYC Injury Attorneys P.C. — 50% off, 72 hours",
+    "city": "New York",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
