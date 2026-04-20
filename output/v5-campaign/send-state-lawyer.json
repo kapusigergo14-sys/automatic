@@ -2935,5 +2935,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "contactus@makindixon.co.uk": {
+    "sentAt": "2026-04-20T16:26:18.745Z",
+    "messageId": "<202604201626.80980245754@smtp-relay.mailin.fr>",
+    "company": "Makin Dixon Divorce and Family Solicitors",
+    "subject": "AI chatbot for Makin Dixon Divorce and — 50% off, 72 hours",
+    "city": "Keighley",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
