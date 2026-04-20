@@ -10127,5 +10127,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@mynjdentist.com": {
+    "sentAt": "2026-04-20T17:41:22.750Z",
+    "messageId": "<202604201741.22115396208@smtp-relay.mailin.fr>",
+    "company": "My New Jersey Dentist",
+    "subject": "My New Jersey Dentist — 50% off AI chatbot this week",
+    "city": "Hackensack",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
