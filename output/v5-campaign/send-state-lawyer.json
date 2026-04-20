@@ -2825,5 +2825,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@watsonwoodhouse.co.uk": {
+    "sentAt": "2026-04-20T16:25:12.695Z",
+    "messageId": "<202604201625.99542848473@smtp-relay.mailin.fr>",
+    "company": "Watson Woodhouse",
+    "subject": "Watson Woodhouse — 50% off AI chatbot this week",
+    "city": "Darlington",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
