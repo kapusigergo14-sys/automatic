@@ -1428,5 +1428,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "mike@mahonefirm.com": {
+    "sentAt": "2026-04-20T15:32:27.345Z",
+    "messageId": "<202604201532.78971934302@smtp-relay.mailin.fr>",
+    "company": "The Mahone Firm",
+    "subject": "Quick one for The Mahone Firm — AI chatbot 50% off right now",
+    "city": "New Orleans",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
