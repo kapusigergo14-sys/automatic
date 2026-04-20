@@ -2022,5 +2022,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@srikanthsolicitors.co.uk": {
+    "sentAt": "2026-04-20T15:38:33.917Z",
+    "messageId": "<202604201538.99647280283@smtp-relay.mailin.fr>",
+    "company": "Sri Kanth & Co. Solicitors",
+    "subject": "Quick one for Sri Kanth & Co. — AI chatbot 50% off right now",
+    "city": "Wembley",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
