@@ -2099,5 +2099,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "clerks@trinitychambers.com": {
+    "sentAt": "2026-04-20T15:39:21.446Z",
+    "messageId": "<202604201539.82443259447@smtp-relay.mailin.fr>",
+    "company": "Trinity Chambers",
+    "subject": "Trinity Chambers — 50% off AI chatbot this week",
+    "city": "Chelmsford",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
