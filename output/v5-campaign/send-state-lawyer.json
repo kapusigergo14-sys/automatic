@@ -2682,5 +2682,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@heimlichlaw.com": {
+    "sentAt": "2026-04-20T16:23:47.006Z",
+    "messageId": "<202604201623.22419723846@smtp-relay.mailin.fr>",
+    "company": "Heimlich Law",
+    "subject": "Quick one for Heimlich Law — AI chatbot 50% off right now",
+    "city": "San Jose",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
