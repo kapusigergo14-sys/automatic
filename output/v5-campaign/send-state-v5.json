@@ -10358,5 +10358,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "aadentalcare@gmail.com": {
+    "sentAt": "2026-04-20T18:22:21.698Z",
+    "messageId": "<202604201822.41732815452@smtp-relay.mailin.fr>",
+    "company": "Arlington Advanced Dental Care,Dr.Hossein Ahmadian,DDS",
+    "subject": "AI chatbot for Arlington Advanced Dental CareDr.Hossein — 50% off, 72 hours",
+    "city": "Arlington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
