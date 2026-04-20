@@ -2781,5 +2781,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "enquiries@clarkwillis.co.uk": {
+    "sentAt": "2026-04-20T16:24:46.347Z",
+    "messageId": "<202604201624.39328178023@smtp-relay.mailin.fr>",
+    "company": "Clark Willis Law Firm",
+    "subject": "Quick one for Clark Willis Law Firm — AI chatbot 50% off right now",
+    "city": "Darlington",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
