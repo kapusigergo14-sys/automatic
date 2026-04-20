@@ -9258,5 +9258,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "bourton.dental@btconnect.com": {
+    "sentAt": "2026-04-20T14:47:40.332Z",
+    "messageId": "<202604201447.52083988328@smtp-relay.mailin.fr>",
+    "company": "The Spencer Road Dental Surgery",
+    "subject": "The Spencer Road Dental — 50% off AI chatbot this week",
+    "city": "Coventry",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
