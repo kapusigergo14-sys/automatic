@@ -9533,5 +9533,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@elevateddental.com": {
+    "sentAt": "2026-04-20T17:35:44.314Z",
+    "messageId": "<202604201735.23003958592@smtp-relay.mailin.fr>",
+    "company": "Elevated Dental",
+    "subject": "Elevated Dental — 50% off AI chatbot this week",
+    "city": "Salt Lake City UT",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
