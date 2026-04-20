@@ -2462,5 +2462,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "contact@giselleayala.com": {
+    "sentAt": "2026-04-20T16:21:35.145Z",
+    "messageId": "<202604201621.17832072561@smtp-relay.mailin.fr>",
+    "company": "G.A.M Law Office P.C.",
+    "subject": "G.A.M Law Office P.C. — 50% off AI chatbot this week",
+    "city": "New York",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
