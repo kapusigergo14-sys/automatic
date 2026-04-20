@@ -9907,5 +9907,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "svdc1@yahoo.com": {
+    "sentAt": "2026-04-20T17:39:17.646Z",
+    "messageId": "<202604201739.45552469925@smtp-relay.mailin.fr>",
+    "company": "Spring Valley Dental Care",
+    "subject": "AI chatbot for Spring Valley Dental Care — 50% off, 72 hours",
+    "city": "Cedar Rapids",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
