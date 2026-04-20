@@ -10402,5 +10402,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@snoozedentistry.org": {
+    "sentAt": "2026-04-20T18:22:49.912Z",
+    "messageId": "<202604201822.81528222652@smtp-relay.mailin.fr>",
+    "company": "Center for Dental Anesthesia",
+    "subject": "Quick one for Center for Dental Anesthesia — AI chatbot 50% off right now",
+    "city": "Alexandria",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
