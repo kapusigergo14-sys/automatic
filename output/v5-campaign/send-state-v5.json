@@ -10039,5 +10039,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "frontdesk@annarborsdentist.com": {
+    "sentAt": "2026-04-20T17:40:32.697Z",
+    "messageId": "<202604201740.42353515005@smtp-relay.mailin.fr>",
+    "company": "Ann Arbor's Dentist",
+    "subject": "AI chatbot for Ann Arbor's Dentist — 50% off, 72 hours",
+    "city": "Ann Arbor",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
