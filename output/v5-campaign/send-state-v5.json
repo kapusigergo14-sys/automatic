@@ -9511,5 +9511,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "cliffsondrup@sundropslc.com": {
+    "sentAt": "2026-04-20T17:35:31.851Z",
+    "messageId": "<202604201735.67381208242@smtp-relay.mailin.fr>",
+    "company": "Sundrop Dental Clinic",
+    "subject": "AI chatbot for Sundrop Dental Clinic — 50% off, 72 hours",
+    "city": "Salt Lake City UT",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
