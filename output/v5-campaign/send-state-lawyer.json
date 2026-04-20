@@ -2418,5 +2418,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "singletondefense@gmail.com": {
+    "sentAt": "2026-04-20T16:21:08.795Z",
+    "messageId": "<202604201621.54043762803@smtp-relay.mailin.fr>",
+    "company": "Singleton Defense",
+    "subject": "Quick one for Singleton Defense — AI chatbot 50% off right now",
+    "city": "Oklahoma City",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
