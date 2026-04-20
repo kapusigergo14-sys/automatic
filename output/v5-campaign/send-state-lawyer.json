@@ -1791,5 +1791,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "contactus@mcdermottlaw.com": {
+    "sentAt": "2026-04-20T15:36:10.369Z",
+    "messageId": "<202604201536.42785907292@smtp-relay.mailin.fr>",
+    "company": "McDermott Will & Emery",
+    "subject": "Quick one for McDermott Will & Emery — AI chatbot 50% off right now",
+    "city": "Washington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
