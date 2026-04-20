@@ -1252,5 +1252,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "sols@ejwinter.co.uk": {
+    "sentAt": "2026-04-20T14:55:07.219Z",
+    "messageId": "<202604201455.98773309602@smtp-relay.mailin.fr>",
+    "company": "E.J. Winter & Son Solicitors",
+    "subject": "E.J. Winter & Son — 50% off AI chatbot this week",
+    "city": "Reading",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
