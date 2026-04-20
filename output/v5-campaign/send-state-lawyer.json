@@ -2803,5 +2803,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "office@macks.co.uk": {
+    "sentAt": "2026-04-20T16:24:59.422Z",
+    "messageId": "<202604201624.71017456871@smtp-relay.mailin.fr>",
+    "company": "Macks Solicitors",
+    "subject": "AI chatbot for Macks Solicitors — 50% off, 72 hours",
+    "city": "Darlington",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
