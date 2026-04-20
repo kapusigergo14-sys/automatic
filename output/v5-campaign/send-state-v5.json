@@ -10435,5 +10435,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "john@doe.com": {
+    "sentAt": "2026-04-20T18:23:09.160Z",
+    "messageId": "<202604201823.18550674047@smtp-relay.mailin.fr>",
+    "company": "Bloom Dental",
+    "subject": "Quick one for Bloom Dental — AI chatbot 50% off right now",
+    "city": "Arlington VA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
