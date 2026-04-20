@@ -10083,5 +10083,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@francodds.com": {
+    "sentAt": "2026-04-20T17:40:57.700Z",
+    "messageId": "<202604201740.27621686808@smtp-relay.mailin.fr>",
+    "company": "Franco & Associates Family and Cosmetic Dentistry",
+    "subject": "Quick one for Franco & Associates Family — AI chatbot 50% off right now",
+    "city": "Saint Paul",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
