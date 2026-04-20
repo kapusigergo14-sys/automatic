@@ -1263,5 +1263,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "enquiries@centralenglandlc.org.uk": {
+    "sentAt": "2026-04-20T14:55:13.859Z",
+    "messageId": "<202604201455.94355285546@smtp-relay.mailin.fr>",
+    "company": "Central England Law Centre",
+    "subject": "AI chatbot for Central England Law Centre — 50% off, 72 hours",
+    "city": "Coventry",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
