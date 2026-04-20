@@ -1714,5 +1714,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@debruinlawfirm.com": {
+    "sentAt": "2026-04-20T15:35:22.766Z",
+    "messageId": "<202604201535.88669596693@smtp-relay.mailin.fr>",
+    "company": "De Bruin Law Firm",
+    "subject": "AI chatbot for De Bruin Law Firm — 50% off, 72 hours",
+    "city": "Greenville",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
