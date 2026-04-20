@@ -9423,5 +9423,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "care@smilesofbroadway.com": {
+    "sentAt": "2026-04-20T17:34:41.788Z",
+    "messageId": "<202604201734.52220684609@smtp-relay.mailin.fr>",
+    "company": "Broadway Family & Cosmetic Dentistry",
+    "subject": "Quick one for Broadway Family & Cosmetic — AI chatbot 50% off right now",
+    "city": "Council Bluffs",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
