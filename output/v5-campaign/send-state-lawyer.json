@@ -1901,5 +1901,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "etheodorou@outtengolden.com": {
+    "sentAt": "2026-04-20T15:37:19.297Z",
+    "messageId": "<202604201537.28830061833@smtp-relay.mailin.fr>",
+    "company": "Outten & Golden LLP",
+    "subject": "Outten & Golden LLP — 50% off AI chatbot this week",
+    "city": "Washington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
