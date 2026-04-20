@@ -2880,5 +2880,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@crownmehria.co.uk": {
+    "sentAt": "2026-04-20T16:25:45.654Z",
+    "messageId": "<202604201625.70972009378@smtp-relay.mailin.fr>",
+    "company": "Crown & Mehria Solicitors",
+    "subject": "Quick one for Crown & Mehria Solicitors — AI chatbot 50% off right now",
+    "city": "Aylesbury ENG",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
