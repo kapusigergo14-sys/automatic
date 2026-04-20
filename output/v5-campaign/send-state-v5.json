@@ -10061,5 +10061,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@thayerorthodontics.com": {
+    "sentAt": "2026-04-20T17:40:45.176Z",
+    "messageId": "<202604201740.69356710895@smtp-relay.mailin.fr>",
+    "company": "Thayer Orthodontics",
+    "subject": "Thayer Orthodontics — 50% off AI chatbot this week",
+    "city": "Saint Paul",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
