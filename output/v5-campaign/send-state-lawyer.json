@@ -3111,5 +3111,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "rekha@sharma-crawford.com": {
+    "sentAt": "2026-04-20T19:54:29.763Z",
+    "messageId": "<202604201954.83270237780@smtp-relay.mailin.fr>",
+    "company": "Sharma Crawford",
+    "subject": "Sharma Crawford — 50% off AI chatbot this week",
+    "city": "Kansas City MO",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
