@@ -3023,5 +3023,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "david@utahdivorce.biz": {
+    "sentAt": "2026-04-20T19:53:36.467Z",
+    "messageId": "<202604201953.66716885159@smtp-relay.mailin.fr>",
+    "company": "Law Office of David Pedrazas, PLLC",
+    "subject": "AI chatbot for Law Office of David — 50% off, 72 hours",
+    "city": "Salt Lake City",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
