@@ -2044,5 +2044,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "enquiries@waddingtonandson.co.uk": {
+    "sentAt": "2026-04-20T15:38:47.357Z",
+    "messageId": "<202604201538.44910661921@smtp-relay.mailin.fr>",
+    "company": "Waddington & Son Solicitors",
+    "subject": "AI chatbot for Waddington & Son Solicitors — 50% off, 72 hours",
+    "city": "Burnley",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
