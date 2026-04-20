@@ -1736,5 +1736,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "jhorton@toatelawfirm.com": {
+    "sentAt": "2026-04-20T15:35:36.369Z",
+    "messageId": "<202604201535.64145923041@smtp-relay.mailin.fr>",
+    "company": "Horton & Horton Law Firm",
+    "subject": "Horton & Horton Law — 50% off AI chatbot this week",
+    "city": "Greenville",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
