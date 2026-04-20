@@ -2231,5 +2231,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "alejandro@pixlgraphx.com": {
+    "sentAt": "2026-04-20T16:19:15.769Z",
+    "messageId": "<202604201619.64849042172@smtp-relay.mailin.fr>",
+    "company": "Arcia & Associates",
+    "subject": "Arcia & Associates — 50% off AI chatbot this week",
+    "city": "Manhattan NY",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
