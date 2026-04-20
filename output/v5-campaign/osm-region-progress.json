@@ -1776,5 +1776,26 @@
     "lastNewLeads": 0,
     "totalNewLeads": 0,
     "lastResultsCount": 0
+  },
+  "US-SIOUX-FALLS": {
+    "lastRunAt": "2026-04-20T17:33:03.445Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 2
+  },
+  "US-PORT-SAINT-LUCIE": {
+    "lastRunAt": "2026-04-20T17:33:03.445Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 4
+  },
+  "US-LONG-BEACH": {
+    "lastRunAt": "2026-04-20T17:33:03.445Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 3
   }
 }

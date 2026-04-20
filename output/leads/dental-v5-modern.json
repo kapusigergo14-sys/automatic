@@ -2449,5 +2449,29 @@
     "modernScore": 3,
     "collectedAt": "2026-04-20T17:28:16.814Z",
     "extractedFrom": "homepage:mailto"
+  },
+  {
+    "name": "Riverview Cosmetic & Restorative Dentistry",
+    "website": "https://www.riverviewcosmeticdentistry.com",
+    "phone": "+1 772 692 6996",
+    "city": "Stuart",
+    "country": "US",
+    "email": "office@riverviewcosmeticdentistry.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-20T17:32:45.741Z",
+    "extractedFrom": "homepage:mailto"
+  },
+  {
+    "name": "Lucie Dental",
+    "website": "https://www.luciedental.com",
+    "phone": "+1-772-348-4409",
+    "city": "Port St Lucie",
+    "country": "US",
+    "email": "luciedental@mydentalmail.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-20T17:32:46.210Z",
+    "extractedFrom": "homepage:cfemail"
   }
 ]
