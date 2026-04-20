@@ -1967,5 +1967,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@alhsolicitors.com": {
+    "sentAt": "2026-04-20T15:38:00.417Z",
+    "messageId": "<202604201538.72314968405@smtp-relay.mailin.fr>",
+    "company": "ALH Solicitors",
+    "subject": "ALH Solicitors — 50% off AI chatbot this week",
+    "city": "London",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
