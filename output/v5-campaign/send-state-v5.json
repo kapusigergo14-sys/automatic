@@ -9291,5 +9291,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@orthosupersmiles.com": {
+    "sentAt": "2026-04-20T17:33:26.686Z",
+    "messageId": "<202604201733.42227642867@smtp-relay.mailin.fr>",
+    "company": "Super Smiles Orthodontics",
+    "subject": "Quick one for Super Smiles Orthodontics — AI chatbot 50% off right now",
+    "city": "Miami",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
