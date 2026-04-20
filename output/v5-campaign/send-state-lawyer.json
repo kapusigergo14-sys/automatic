@@ -2330,5 +2330,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "mmd@mdwyerlaw.com": {
+    "sentAt": "2026-04-20T16:20:16.188Z",
+    "messageId": "<202604201620.36986175447@smtp-relay.mailin.fr>",
+    "company": "Law Office of Martha M. Dwyer",
+    "subject": "Law Office of Martha — 50% off AI chatbot this week",
+    "city": "New York",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
