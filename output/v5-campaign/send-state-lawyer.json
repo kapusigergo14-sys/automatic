@@ -2858,5 +2858,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "enquiries@dma-law.co.uk": {
+    "sentAt": "2026-04-20T16:25:32.376Z",
+    "messageId": "<202604201625.16583902792@smtp-relay.mailin.fr>",
+    "company": "DMA Solicitors",
+    "subject": "DMA Solicitors — 50% off AI chatbot this week",
+    "city": "Darlington",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
