@@ -2000,5 +2000,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@hobsoncycles.co.uk": {
+    "sentAt": "2026-04-20T15:38:20.624Z",
+    "messageId": "<202604201538.26776210693@smtp-relay.mailin.fr>",
+    "company": "Hodders Law",
+    "subject": "Hodders Law — 50% off AI chatbot this week",
+    "city": "Wembley",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
