@@ -3078,5 +3078,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@ehrlichga.com": {
+    "sentAt": "2026-04-20T19:54:09.852Z",
+    "messageId": "<202604201954.63559908364@smtp-relay.mailin.fr>",
+    "company": "Ehricht & Broomas",
+    "subject": "Ehricht & Broomas — 50% off AI chatbot this week",
+    "city": "Baton Rouge",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
