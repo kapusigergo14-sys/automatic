@@ -2110,5 +2110,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "legal@leonardgray.co.uk": {
+    "sentAt": "2026-04-20T15:39:28.175Z",
+    "messageId": "<202604201539.15811646107@smtp-relay.mailin.fr>",
+    "company": "Leonard Gray",
+    "subject": "AI chatbot for Leonard Gray — 50% off, 72 hours",
+    "city": "Chelmsford",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
