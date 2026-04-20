@@ -2264,5 +2264,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "gdanetti@danettilaw.com": {
+    "sentAt": "2026-04-20T16:19:35.634Z",
+    "messageId": "<202604201619.39736606671@smtp-relay.mailin.fr>",
+    "company": "Law Office of Gina T. Danetti",
+    "subject": "Law Office of Gina — 50% off AI chatbot this week",
+    "city": "New York",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
