@@ -3012,5 +3012,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@dlf-ar.com": {
+    "sentAt": "2026-04-20T19:53:29.877Z",
+    "messageId": "<202604201953.52287138556@smtp-relay.mailin.fr>",
+    "company": "Davidson Law Firm",
+    "subject": "Davidson Law Firm — 50% off AI chatbot this week",
+    "city": "Little Rock",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
