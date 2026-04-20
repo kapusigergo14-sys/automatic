@@ -1912,5 +1912,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "verifications@pillsburylaw.com": {
+    "sentAt": "2026-04-20T15:37:26.015Z",
+    "messageId": "<202604201537.21264787844@smtp-relay.mailin.fr>",
+    "company": "Pillsbury",
+    "subject": "AI chatbot for Pillsbury — 50% off, 72 hours",
+    "city": "Arlington VA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
