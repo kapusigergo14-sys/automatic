@@ -2319,5 +2319,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@williamstriallawyers.com": {
+    "sentAt": "2026-04-20T16:20:09.540Z",
+    "messageId": "<202604201620.77797219657@smtp-relay.mailin.fr>",
+    "company": "The Williams Law Firm, P.C.",
+    "subject": "Quick one for The Williams Law Firm — AI chatbot 50% off right now",
+    "city": "New York",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
