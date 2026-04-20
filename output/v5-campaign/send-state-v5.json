@@ -9368,5 +9368,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "torosiandds@gmail.com": {
+    "sentAt": "2026-04-20T17:34:10.612Z",
+    "messageId": "<202604201734.32573906019@smtp-relay.mailin.fr>",
+    "company": "Dr. Gregory Torosian",
+    "subject": "Dr. Gregory Torosian — 50% off AI chatbot this week",
+    "city": "Omaha",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
