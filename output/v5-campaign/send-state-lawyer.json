@@ -2649,5 +2649,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "sales@knoxservices.com": {
+    "sentAt": "2026-04-20T16:23:27.268Z",
+    "messageId": "<202604201623.87599927758@smtp-relay.mailin.fr>",
+    "company": "Knox Services",
+    "subject": "Quick one for Knox Services — AI chatbot 50% off right now",
+    "city": "San Jose",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
