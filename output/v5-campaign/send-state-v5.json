@@ -9940,5 +9940,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "noelridgedental@dvfdpc.com": {
+    "sentAt": "2026-04-20T17:39:36.380Z",
+    "messageId": "<202604201739.13998983411@smtp-relay.mailin.fr>",
+    "company": "Noelridge Dental",
+    "subject": "AI chatbot for Noelridge Dental — 50% off, 72 hours",
+    "city": "Cedar Rapids",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
