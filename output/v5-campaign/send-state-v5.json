@@ -10281,5 +10281,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "admin@emergencydentistdallas.com": {
+    "sentAt": "2026-04-20T18:21:33.665Z",
+    "messageId": "<202604201821.21757809635@smtp-relay.mailin.fr>",
+    "company": "Emergency Dentist of Dallas Fort Worth",
+    "subject": "Emergency Dentist of Dallas — 50% off AI chatbot this week",
+    "city": "Grand Prairie",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
