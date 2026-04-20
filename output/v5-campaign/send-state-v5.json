@@ -10215,5 +10215,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@acorndfk.com": {
+    "sentAt": "2026-04-20T18:20:54.676Z",
+    "messageId": "<202604201820.80943859042@smtp-relay.mailin.fr>",
+    "company": "Acorn Dentistry for Kids",
+    "subject": "Acorn Dentistry for Kids — 50% off AI chatbot this week",
+    "city": "Keizer",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
