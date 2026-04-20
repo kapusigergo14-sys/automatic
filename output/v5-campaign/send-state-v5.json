@@ -9863,5 +9863,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "aurora@allstardentalclinic.com": {
+    "sentAt": "2026-04-20T17:38:52.515Z",
+    "messageId": "<202604201738.58415904840@smtp-relay.mailin.fr>",
+    "company": "All Star Dental",
+    "subject": "All Star Dental — 50% off AI chatbot this week",
+    "city": "Aurora",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
