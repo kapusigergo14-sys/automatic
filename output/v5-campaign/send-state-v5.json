@@ -9764,5 +9764,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "appointments@drrainey.com": {
+    "sentAt": "2026-04-20T17:37:55.833Z",
+    "messageId": "<202604201737.34165079390@smtp-relay.mailin.fr>",
+    "company": "Cosmetic and Family Dentistry Smile Design",
+    "subject": "Cosmetic and Family Dentistry — 50% off AI chatbot this week",
+    "city": "Tallahassee",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
