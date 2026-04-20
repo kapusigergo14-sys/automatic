@@ -1692,5 +1692,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "receptionist@lawyerchilds.com": {
+    "sentAt": "2026-04-20T15:35:09.578Z",
+    "messageId": "<202604201535.27716979666@smtp-relay.mailin.fr>",
+    "company": "Childs Law Firm LLC",
+    "subject": "Quick one for Childs Law Firm LLC — AI chatbot 50% off right now",
+    "city": "Greenville",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
