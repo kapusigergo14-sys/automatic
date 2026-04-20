@@ -2572,5 +2572,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "knevarez@fragomen.com": {
+    "sentAt": "2026-04-20T16:22:41.039Z",
+    "messageId": "<202604201622.11550480310@smtp-relay.mailin.fr>",
+    "company": "Fragomen",
+    "subject": "AI chatbot for Fragomen — 50% off, 72 hours",
+    "city": "San Jose CA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
