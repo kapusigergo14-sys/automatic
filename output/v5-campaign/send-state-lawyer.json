@@ -1835,5 +1835,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@thekaplanlawfirm.com": {
+    "sentAt": "2026-04-20T15:36:38.032Z",
+    "messageId": "<202604201536.12324187915@smtp-relay.mailin.fr>",
+    "company": "The Kaplan Law Firm",
+    "subject": "The Kaplan Law Firm — 50% off AI chatbot this week",
+    "city": "Arlington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
