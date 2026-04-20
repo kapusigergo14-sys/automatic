@@ -10479,5 +10479,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "hello@202dentalcare.com": {
+    "sentAt": "2026-04-20T18:23:34.872Z",
+    "messageId": "<202604201823.77218025559@smtp-relay.mailin.fr>",
+    "company": "202 Dental Care",
+    "subject": "202 Dental Care — 50% off AI chatbot this week",
+    "city": "Washington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
