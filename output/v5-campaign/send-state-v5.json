@@ -10413,5 +10413,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "receptionist@amcdentalspa.com": {
+    "sentAt": "2026-04-20T18:22:56.377Z",
+    "messageId": "<202604201822.20514498304@smtp-relay.mailin.fr>",
+    "company": "AMC Dental Spa",
+    "subject": "AMC Dental Spa — 50% off AI chatbot this week",
+    "city": "Alexandria",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
