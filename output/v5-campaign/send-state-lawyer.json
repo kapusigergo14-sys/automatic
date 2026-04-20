@@ -1318,5 +1318,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "contact@seatons.co.uk": {
+    "sentAt": "2026-04-20T14:55:47.266Z",
+    "messageId": "<202604201455.37993912668@smtp-relay.mailin.fr>",
+    "company": "Seatons Solicitors",
+    "subject": "Seatons Solicitors — 50% off AI chatbot this week",
+    "city": "Corby",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
