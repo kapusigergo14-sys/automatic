@@ -1857,5 +1857,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "scholarships@hkm.com": {
+    "sentAt": "2026-04-20T15:36:51.800Z",
+    "messageId": "<202604201536.39844754900@smtp-relay.mailin.fr>",
+    "company": "HKM Employment Attorneys LLP",
+    "subject": "Quick one for HKM Employment Attorneys LLP — AI chatbot 50% off right now",
+    "city": "Arlington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
