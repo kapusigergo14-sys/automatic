@@ -2594,5 +2594,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "support@alliedlegal.us": {
+    "sentAt": "2026-04-20T16:22:54.231Z",
+    "messageId": "<202604201622.59320025725@smtp-relay.mailin.fr>",
+    "company": "Allied Legal PC",
+    "subject": "Allied Legal PC — 50% off AI chatbot this week",
+    "city": "Milpitas",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
