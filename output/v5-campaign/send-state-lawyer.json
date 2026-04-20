@@ -2539,5 +2539,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "socalorders@countylegalsvc.com": {
+    "sentAt": "2026-04-20T16:22:21.373Z",
+    "messageId": "<202604201622.32674755585@smtp-relay.mailin.fr>",
+    "company": "County Legal",
+    "subject": "AI chatbot for County Legal — 50% off, 72 hours",
+    "city": "San Jose CA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
