@@ -9555,5 +9555,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "mylakesidedental@hotmail.com": {
+    "sentAt": "2026-04-20T17:35:56.857Z",
+    "messageId": "<202604201735.90556962131@smtp-relay.mailin.fr>",
+    "company": "Lakeside Dental",
+    "subject": "Quick one for Lakeside Dental — AI chatbot 50% off right now",
+    "city": "Salt Lake City",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
