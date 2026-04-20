@@ -9357,5 +9357,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "ishamdental@gmail.com": {
+    "sentAt": "2026-04-20T17:34:04.316Z",
+    "messageId": "<202604201734.88058435705@smtp-relay.mailin.fr>",
+    "company": "Isham Dental",
+    "subject": "Quick one for Isham Dental — AI chatbot 50% off right now",
+    "city": "Albuquerque",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
