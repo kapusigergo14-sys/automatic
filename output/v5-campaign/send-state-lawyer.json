@@ -2363,5 +2363,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@woodslaw.com": {
+    "sentAt": "2026-04-20T16:20:35.869Z",
+    "messageId": "<202604201620.40380901950@smtp-relay.mailin.fr>",
+    "company": "Woods Lonergan PLLC",
+    "subject": "Woods Lonergan PLLC — 50% off AI chatbot this week",
+    "city": "New York",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
