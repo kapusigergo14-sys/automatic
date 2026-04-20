@@ -2055,5 +2055,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@shanandcosolicitors.co.uk": {
+    "sentAt": "2026-04-20T15:38:54.158Z",
+    "messageId": "<202604201538.30410574312@smtp-relay.mailin.fr>",
+    "company": "Shan & Co. Solicitors",
+    "subject": "Quick one for Shan & Co. Solicitors — AI chatbot 50% off right now",
+    "city": "Brent ENG",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
