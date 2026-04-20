@@ -1461,5 +1461,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "mike@schillinglawkc.com": {
+    "sentAt": "2026-04-20T15:32:48.067Z",
+    "messageId": "<202604201532.90457136758@smtp-relay.mailin.fr>",
+    "company": "Schilling Law",
+    "subject": "Quick one for Schilling Law — AI chatbot 50% off right now",
+    "city": "Kansas City",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
