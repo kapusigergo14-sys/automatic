@@ -9225,5 +9225,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "jhdentalclinic14@outlook.com": {
+    "sentAt": "2026-04-20T14:47:21.383Z",
+    "messageId": "<202604201447.23289656679@smtp-relay.mailin.fr>",
+    "company": "JH Dental Clinic",
+    "subject": "JH Dental Clinic — 50% off AI chatbot this week",
+    "city": "Coventry",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
