@@ -9874,5 +9874,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "appt@schmidtdds.com": {
+    "sentAt": "2026-04-20T17:38:58.699Z",
+    "messageId": "<202604201738.96293256004@smtp-relay.mailin.fr>",
+    "company": "Schmidt Dental",
+    "subject": "AI chatbot for Schmidt Dental — 50% off, 72 hours",
+    "city": "Rockford",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
