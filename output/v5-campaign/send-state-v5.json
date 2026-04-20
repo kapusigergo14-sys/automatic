@@ -9962,5 +9962,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "office@eiendo.com": {
+    "sentAt": "2026-04-20T17:39:48.770Z",
+    "messageId": "<202604201739.36330278949@smtp-relay.mailin.fr>",
+    "company": "Derek T Peek DDS, MS",
+    "subject": "Derek T Peek DDS — 50% off AI chatbot this week",
+    "city": "Cedar Rapids",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
