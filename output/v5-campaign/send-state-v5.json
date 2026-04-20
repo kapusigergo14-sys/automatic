@@ -9445,5 +9445,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "frontdesk@richmondvadentalarts.com": {
+    "sentAt": "2026-04-20T17:34:54.238Z",
+    "messageId": "<202604201734.58907561551@smtp-relay.mailin.fr>",
+    "company": "Richmond VA Dental Arts",
+    "subject": "AI chatbot for Richmond VA Dental Arts — 50% off, 72 hours",
+    "city": "Richmond",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
