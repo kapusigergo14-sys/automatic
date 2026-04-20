@@ -1406,5 +1406,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "lawman330@frontier.com": {
+    "sentAt": "2026-04-20T15:32:13.946Z",
+    "messageId": "<202604201532.75426385493@smtp-relay.mailin.fr>",
+    "company": "Thomas Essex Attorney At Law",
+    "subject": "Thomas Essex Attorney At — 50% off AI chatbot this week",
+    "city": "Fort Wayne",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
