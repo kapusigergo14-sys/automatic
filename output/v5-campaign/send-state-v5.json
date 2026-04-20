@@ -9610,5 +9610,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "millcitydental@gmail.com": {
+    "sentAt": "2026-04-20T17:36:28.112Z",
+    "messageId": "<202604201736.40138435343@smtp-relay.mailin.fr>",
+    "company": "Mill City Dental",
+    "subject": "AI chatbot for Mill City Dental — 50% off, 72 hours",
+    "city": "Minneapolis",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
