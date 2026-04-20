@@ -2913,5 +2913,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "legal@wilsonandbird.co.uk": {
+    "sentAt": "2026-04-20T16:26:05.624Z",
+    "messageId": "<202604201626.80199995475@smtp-relay.mailin.fr>",
+    "company": "Wilson & Bird Solicitors",
+    "subject": "Quick one for Wilson & Bird Solicitors — AI chatbot 50% off right now",
+    "city": "Aylesbury ENG",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
