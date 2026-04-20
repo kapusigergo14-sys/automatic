@@ -2869,5 +2869,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@goodwillsolicitors.com": {
+    "sentAt": "2026-04-20T16:25:38.915Z",
+    "messageId": "<202604201625.62148819968@smtp-relay.mailin.fr>",
+    "company": "Law Firm",
+    "subject": "AI chatbot for Law Firm — 50% off, 72 hours",
+    "city": "Crawley",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
