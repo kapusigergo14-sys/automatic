@@ -9720,5 +9720,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@drjustinhong.com": {
+    "sentAt": "2026-04-20T17:37:30.656Z",
+    "messageId": "<202604201737.25565703991@smtp-relay.mailin.fr>",
+    "company": "Hong Orthodontics",
+    "subject": "Quick one for Hong Orthodontics — AI chatbot 50% off right now",
+    "city": "Orange",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
