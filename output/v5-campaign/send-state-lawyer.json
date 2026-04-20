@@ -2385,5 +2385,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@faridahmedlaw.com": {
+    "sentAt": "2026-04-20T16:20:48.961Z",
+    "messageId": "<202604201620.39817384984@smtp-relay.mailin.fr>",
+    "company": "Farid Ahmed",
+    "subject": "Quick one for Farid Ahmed — AI chatbot 50% off right now",
+    "city": "Jackson Heights",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
