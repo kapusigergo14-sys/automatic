@@ -2726,5 +2726,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "jwp@rpllawfirm.com": {
+    "sentAt": "2026-04-20T16:24:13.539Z",
+    "messageId": "<202604201624.37895530320@smtp-relay.mailin.fr>",
+    "company": "Ramsbacher Prokey Leonard LLP",
+    "subject": "Ramsbacher Prokey Leonard LLP — 50% off AI chatbot this week",
+    "city": "San Jose",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
