@@ -2605,5 +2605,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "evanslawca@gmail.com": {
+    "sentAt": "2026-04-20T16:23:00.906Z",
+    "messageId": "<202604201623.43526376029@smtp-relay.mailin.fr>",
+    "company": "Evans Law Offices",
+    "subject": "AI chatbot for Evans Law Offices — 50% off, 72 hours",
+    "city": "San Jose",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
