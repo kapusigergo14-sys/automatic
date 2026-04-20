@@ -1329,5 +1329,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "office@kiteleys.co.uk": {
+    "sentAt": "2026-04-20T14:55:53.871Z",
+    "messageId": "<202604201455.78469779374@smtp-relay.mailin.fr>",
+    "company": "Kiteleys",
+    "subject": "AI chatbot for Kiteleys — 50% off, 72 hours",
+    "city": "Bournemouth ENG",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
