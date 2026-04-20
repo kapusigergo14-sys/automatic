@@ -1890,5 +1890,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "lap@dcbar.org": {
+    "sentAt": "2026-04-20T15:37:12.395Z",
+    "messageId": "<202604201537.57375532573@smtp-relay.mailin.fr>",
+    "company": "D.C. Bar",
+    "subject": "Quick one for D.C. Bar — AI chatbot 50% off right now",
+    "city": "Washington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
