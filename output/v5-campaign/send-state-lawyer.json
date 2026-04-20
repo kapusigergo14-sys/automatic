@@ -2143,5 +2143,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@neves.co.uk": {
+    "sentAt": "2026-04-20T15:39:48.289Z",
+    "messageId": "<202604201539.58524230327@smtp-relay.mailin.fr>",
+    "company": "Neves",
+    "subject": "AI chatbot for Neves — 50% off, 72 hours",
+    "city": "Luton",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
