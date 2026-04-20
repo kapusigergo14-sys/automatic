@@ -9280,5 +9280,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "office@drcupo.com": {
+    "sentAt": "2026-04-20T17:33:20.502Z",
+    "messageId": "<202604201733.50066159787@smtp-relay.mailin.fr>",
+    "company": "Cupo Dental",
+    "subject": "AI chatbot for Cupo Dental — 50% off, 72 hours",
+    "city": "Miami Beach",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
