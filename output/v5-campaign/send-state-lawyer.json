@@ -2275,5 +2275,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@normanwonglaw.com": {
+    "sentAt": "2026-04-20T16:19:42.687Z",
+    "messageId": "<202604201619.80961911119@smtp-relay.mailin.fr>",
+    "company": "Norman Kwai Wing Wong Law Office",
+    "subject": "AI chatbot for Norman Kwai Wing Wong — 50% off, 72 hours",
+    "city": "Manhattan NY",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
