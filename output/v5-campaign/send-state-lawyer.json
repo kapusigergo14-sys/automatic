@@ -1923,5 +1923,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "robert@brownstonelaw.com": {
+    "sentAt": "2026-04-20T15:37:32.918Z",
+    "messageId": "<202604201537.82367255493@smtp-relay.mailin.fr>",
+    "company": "Brownstone Law",
+    "subject": "Quick one for Brownstone Law — AI chatbot 50% off right now",
+    "city": "Washington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
