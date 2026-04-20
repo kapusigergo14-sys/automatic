@@ -10446,5 +10446,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "admin@drreardon.com": {
+    "sentAt": "2026-04-20T18:23:15.738Z",
+    "messageId": "<202604201823.78471498126@smtp-relay.mailin.fr>",
+    "company": "Dr. Christine Reardon, DMD PC",
+    "subject": "Dr. Christine Reardon DMD — 50% off AI chatbot this week",
+    "city": "Arlington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
