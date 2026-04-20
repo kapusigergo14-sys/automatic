@@ -1797,5 +1797,68 @@
     "lastNewLeads": 0,
     "totalNewLeads": 0,
     "lastResultsCount": 3
+  },
+  "US-CORPUS-CHRISTI": {
+    "lastRunAt": "2026-04-20T17:54:53.032Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "US-MCKINNEY": {
+    "lastRunAt": "2026-04-20T17:54:53.032Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 9
+  },
+  "UK-IPSWICH": {
+    "lastRunAt": "2026-04-20T17:54:53.032Z",
+    "totalRuns": 1,
+    "lastNewLeads": 12,
+    "totalNewLeads": 12,
+    "lastResultsCount": 15
+  },
+  "AU-SUNSHINE-COAST": {
+    "lastRunAt": "2026-04-20T17:54:53.032Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 2
+  },
+  "AU-CITY-OF-PORT-PHILLIP": {
+    "lastRunAt": "2026-04-20T17:54:53.032Z",
+    "totalRuns": 1,
+    "lastNewLeads": 4,
+    "totalNewLeads": 4,
+    "lastResultsCount": 43
+  },
+  "UK-SUTTON": {
+    "lastRunAt": "2026-04-20T17:54:53.032Z",
+    "totalRuns": 1,
+    "lastNewLeads": 8,
+    "totalNewLeads": 8,
+    "lastResultsCount": 16
+  },
+  "UK-DERBY": {
+    "lastRunAt": "2026-04-20T17:54:53.032Z",
+    "totalRuns": 1,
+    "lastNewLeads": 7,
+    "totalNewLeads": 7,
+    "lastResultsCount": 22
+  },
+  "AU-LOGAN-CITY": {
+    "lastRunAt": "2026-04-20T17:54:53.032Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 6
+  },
+  "US-PEORIA": {
+    "lastRunAt": "2026-04-20T17:54:53.032Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 13
   }
 }
