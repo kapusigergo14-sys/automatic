@@ -9984,5 +9984,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@burnsparkortho.com": {
+    "sentAt": "2026-04-20T17:40:01.346Z",
+    "messageId": "<202604201740.58457163366@smtp-relay.mailin.fr>",
+    "company": "Burns Park Orthodontics",
+    "subject": "Quick one for Burns Park Orthodontics — AI chatbot 50% off right now",
+    "city": "Ann Arbor",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
