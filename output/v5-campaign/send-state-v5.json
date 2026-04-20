@@ -9599,5 +9599,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "contact@dentalcare.com": {
+    "sentAt": "2026-04-20T17:36:21.824Z",
+    "messageId": "<202604201736.59049528685@smtp-relay.mailin.fr>",
+    "company": "Fiant Dental",
+    "subject": "Fiant Dental — 50% off AI chatbot this week",
+    "city": "Minneapolis",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
