@@ -1956,5 +1956,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "lawyers@lancasters-solicitors.com": {
+    "sentAt": "2026-04-20T15:37:53.263Z",
+    "messageId": "<202604201537.66431411082@smtp-relay.mailin.fr>",
+    "company": "Lancasters Solicitors",
+    "subject": "Quick one for Lancasters Solicitors — AI chatbot 50% off right now",
+    "city": "London",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
