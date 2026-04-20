@@ -1626,5 +1626,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "admin@701justice.com": {
+    "sentAt": "2026-04-20T15:34:29.108Z",
+    "messageId": "<202604201534.98237255955@smtp-relay.mailin.fr>",
+    "company": "Heartland Law Office, PC",
+    "subject": "Quick one for Heartland Law Office PC — AI chatbot 50% off right now",
+    "city": "Bismarck",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
