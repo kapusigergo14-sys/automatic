@@ -2924,5 +2924,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "hello@milnerslaw.com": {
+    "sentAt": "2026-04-20T16:26:12.186Z",
+    "messageId": "<202604201626.71167141277@smtp-relay.mailin.fr>",
+    "company": "Close Thornton Solicitors",
+    "subject": "Close Thornton Solicitors — 50% off AI chatbot this week",
+    "city": "Darlington",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
