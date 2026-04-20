@@ -2715,5 +2715,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "kathrinelucas170@gmail.com": {
+    "sentAt": "2026-04-20T16:24:06.971Z",
+    "messageId": "<202604201624.51793376064@smtp-relay.mailin.fr>",
+    "company": "Stonebrook Law",
+    "subject": "Quick one for Stonebrook Law — AI chatbot 50% off right now",
+    "city": "San Jose",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
