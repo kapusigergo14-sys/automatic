@@ -10226,5 +10226,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "smilesbyhouston@comcast.net": {
+    "sentAt": "2026-04-20T18:21:01.046Z",
+    "messageId": "<202604201821.24179288776@smtp-relay.mailin.fr>",
+    "company": "Smiles by Houston",
+    "subject": "AI chatbot for Smiles by Houston — 50% off, 72 hours",
+    "city": "Eugene",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
