@@ -2902,5 +2902,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "ewell@lewis-dick.com": {
+    "sentAt": "2026-04-20T16:25:58.835Z",
+    "messageId": "<202604201625.42185034510@smtp-relay.mailin.fr>",
+    "company": "Lewis-Dick",
+    "subject": "AI chatbot for Lewis — 50% off, 72 hours",
+    "city": "Crawley",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
