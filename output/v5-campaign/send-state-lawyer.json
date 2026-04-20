@@ -2352,5 +2352,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "john@smith.com": {
+    "sentAt": "2026-04-20T16:20:29.277Z",
+    "messageId": "<202604201620.82629418002@smtp-relay.mailin.fr>",
+    "company": "Leo Fraser Attorney at Law",
+    "subject": "Quick one for Leo Fraser Attorney at — AI chatbot 50% off right now",
+    "city": "New York",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
