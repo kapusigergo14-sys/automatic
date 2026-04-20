@@ -9819,5 +9819,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "nampa@smiles4kidstreasurevalley.com": {
+    "sentAt": "2026-04-20T17:38:27.712Z",
+    "messageId": "<202604201738.22569171757@smtp-relay.mailin.fr>",
+    "company": "Smiles 4 Kids Dentistry",
+    "subject": "Quick one for Smiles 4 Kids Dentistry — AI chatbot 50% off right now",
+    "city": "Nampa",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
