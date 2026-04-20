@@ -9577,5 +9577,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@loopdentalmn.com": {
+    "sentAt": "2026-04-20T17:36:09.438Z",
+    "messageId": "<202604201736.14831751313@smtp-relay.mailin.fr>",
+    "company": "Loop Dental",
+    "subject": "AI chatbot for Loop Dental — 50% off, 72 hours",
+    "city": "Minneapolis MN",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
