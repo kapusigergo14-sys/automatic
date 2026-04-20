@@ -9247,5 +9247,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "bellgreendentalsurgery@gmail.com": {
+    "sentAt": "2026-04-20T14:47:33.987Z",
+    "messageId": "<202604201447.91442224891@smtp-relay.mailin.fr>",
+    "company": "Bell Green Dental Surgery",
+    "subject": "Quick one for Bell Green Dental Surgery — AI chatbot 50% off right now",
+    "city": "Coventry",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
