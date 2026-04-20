@@ -2627,5 +2627,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@greenfieldlaw.com": {
+    "sentAt": "2026-04-20T16:23:14.043Z",
+    "messageId": "<202604201623.37935477959@smtp-relay.mailin.fr>",
+    "company": "Greenfield",
+    "subject": "Greenfield — 50% off AI chatbot this week",
+    "city": "San Jose",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
