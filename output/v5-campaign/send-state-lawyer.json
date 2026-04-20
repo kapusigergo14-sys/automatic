@@ -2374,5 +2374,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "theresa@lawdandrea.com": {
+    "sentAt": "2026-04-20T16:20:42.373Z",
+    "messageId": "<202604201620.18947393970@smtp-relay.mailin.fr>",
+    "company": "D'Andrea Law PLLC",
+    "subject": "AI chatbot for D'Andrea Law PLLC — 50% off, 72 hours",
+    "city": "New York",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
