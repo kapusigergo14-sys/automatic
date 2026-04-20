@@ -9544,5 +9544,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "goldsberryortho@gmail.com": {
+    "sentAt": "2026-04-20T17:35:50.624Z",
+    "messageId": "<202604201735.55536436025@smtp-relay.mailin.fr>",
+    "company": "Goldsberry Orthodontics",
+    "subject": "AI chatbot for Goldsberry Orthodontics — 50% off, 72 hours",
+    "city": "Salt Lake City UT",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
