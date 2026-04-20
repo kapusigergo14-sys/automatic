@@ -10182,5 +10182,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "office@citystationdental.com": {
+    "sentAt": "2026-04-20T18:20:35.105Z",
+    "messageId": "<202604201820.89370677346@smtp-relay.mailin.fr>",
+    "company": "City Station Dental",
+    "subject": "City Station Dental — 50% off AI chatbot this week",
+    "city": "Troy",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
