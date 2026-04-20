@@ -3089,5 +3089,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@hugheslawyers.com": {
+    "sentAt": "2026-04-20T19:54:16.532Z",
+    "messageId": "<202604201954.87760170719@smtp-relay.mailin.fr>",
+    "company": "Hughes Law Office",
+    "subject": "AI chatbot for Hughes Law Office — 50% off, 72 hours",
+    "city": "Sioux Falls",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
