@@ -2220,5 +2220,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@mclaughlinstern.com": {
+    "sentAt": "2026-04-20T16:19:09.080Z",
+    "messageId": "<202604201619.88688709103@smtp-relay.mailin.fr>",
+    "company": "McLaughlin & Stern LLP - New York, NY",
+    "subject": "Quick one for McLaughlin & Stern LLP — AI chatbot 50% off right now",
+    "city": "New York",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
