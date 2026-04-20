@@ -2561,5 +2561,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "mail@pahl-mccay.com": {
+    "sentAt": "2026-04-20T16:22:34.543Z",
+    "messageId": "<202604201622.10523648942@smtp-relay.mailin.fr>",
+    "company": "Pahl & McCay",
+    "subject": "Pahl & McCay — 50% off AI chatbot this week",
+    "city": "San Jose CA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
