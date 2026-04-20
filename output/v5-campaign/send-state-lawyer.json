@@ -2770,5 +2770,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@nolemon.com": {
+    "sentAt": "2026-04-20T16:24:39.708Z",
+    "messageId": "<202604201624.32814178890@smtp-relay.mailin.fr>",
+    "company": "The Lemon Law Experts",
+    "subject": "AI chatbot for The Lemon Law Experts — 50% off, 72 hours",
+    "city": "San Jose",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
