@@ -2396,5 +2396,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "legalexpertusa@aol.com": {
+    "sentAt": "2026-04-20T16:20:55.505Z",
+    "messageId": "<202604201620.30346885359@smtp-relay.mailin.fr>",
+    "company": "Legal Network International, LLC",
+    "subject": "Legal Network International LLC — 50% off AI chatbot this week",
+    "city": "Jackson Heights",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
