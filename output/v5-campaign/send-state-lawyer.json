@@ -2792,5 +2792,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "lh@latimerhinks.co.uk": {
+    "sentAt": "2026-04-20T16:24:52.933Z",
+    "messageId": "<202604201624.78445940437@smtp-relay.mailin.fr>",
+    "company": "Latimer Hinks Solicitors",
+    "subject": "Latimer Hinks Solicitors — 50% off AI chatbot this week",
+    "city": "Darlington",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
