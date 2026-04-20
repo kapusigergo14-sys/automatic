@@ -2968,5 +2968,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@kovarlawgroup.com": {
+    "sentAt": "2026-04-20T19:53:03.183Z",
+    "messageId": "<202604201953.30011107504@smtp-relay.mailin.fr>",
+    "company": "Kovar Law Group",
+    "subject": "Quick one for Kovar Law Group — AI chatbot 50% off right now",
+    "city": "Saint Petersburg",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
