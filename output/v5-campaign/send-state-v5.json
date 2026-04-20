@@ -10490,5 +10490,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@chdoa.com": {
+    "sentAt": "2026-04-20T18:23:41.367Z",
+    "messageId": "<202604201823.12552367559@smtp-relay.mailin.fr>",
+    "company": "Children's Dentistry of Arlington",
+    "subject": "AI chatbot for Children's Dentistry of Arlington — 50% off, 72 hours",
+    "city": "Arlington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
