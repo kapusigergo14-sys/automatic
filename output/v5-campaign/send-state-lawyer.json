@@ -2693,5 +2693,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "admin@ascendalaw.com": {
+    "sentAt": "2026-04-20T16:23:53.592Z",
+    "messageId": "<202604201623.70825831820@smtp-relay.mailin.fr>",
+    "company": "Ascenda Law Group",
+    "subject": "Ascenda Law Group — 50% off AI chatbot this week",
+    "city": "San Jose",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
