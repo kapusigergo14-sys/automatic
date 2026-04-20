@@ -9808,5 +9808,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@smilesbybeck.com": {
+    "sentAt": "2026-04-20T17:38:21.424Z",
+    "messageId": "<202604201738.17012578068@smtp-relay.mailin.fr>",
+    "company": "Smiles by Beck & Bailey",
+    "subject": "AI chatbot for Smiles by Beck & — 50% off, 72 hours",
+    "city": "Tallahassee",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
