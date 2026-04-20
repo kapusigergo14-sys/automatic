@@ -1780,5 +1780,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@spigglelaw.com": {
+    "sentAt": "2026-04-20T15:36:03.560Z",
+    "messageId": "<202604201536.91377691665@smtp-relay.mailin.fr>",
+    "company": "The Spiggle Law Firm, PLLC",
+    "subject": "AI chatbot for The Spiggle Law Firm — 50% off, 72 hours",
+    "city": "Arlington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
