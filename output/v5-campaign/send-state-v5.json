@@ -9390,5 +9390,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "andingfd@gmail.com": {
+    "sentAt": "2026-04-20T17:34:23.061Z",
+    "messageId": "<202604201734.22631521535@smtp-relay.mailin.fr>",
+    "company": "Anding Family Dental - Omaha",
+    "subject": "Quick one for Anding Family Dental — AI chatbot 50% off right now",
+    "city": "Omaha",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
