@@ -10072,5 +10072,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@grandavenuedental.com": {
+    "sentAt": "2026-04-20T17:40:51.454Z",
+    "messageId": "<202604201740.21708847476@smtp-relay.mailin.fr>",
+    "company": "Grand Avenue Dental",
+    "subject": "AI chatbot for Grand Avenue Dental — 50% off, 72 hours",
+    "city": "St. Paul MN",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
