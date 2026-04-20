@@ -10116,5 +10116,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 2
+  },
+  "pediatricdentalridgewood@gmail.com": {
+    "sentAt": "2026-04-20T17:41:16.478Z",
+    "messageId": "<202604201741.46786568443@smtp-relay.mailin.fr>",
+    "company": "Pediatric Dental Associates",
+    "subject": "Quick one for Pediatric Dental Associates — AI chatbot 50% off right now",
+    "city": "Ridgewood",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
