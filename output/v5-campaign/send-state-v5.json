@@ -9929,5 +9929,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "wdental1001@qwestoffice.net": {
+    "sentAt": "2026-04-20T17:39:30.199Z",
+    "messageId": "<202604201739.78498612999@smtp-relay.mailin.fr>",
+    "company": "Wolken Dental",
+    "subject": "Wolken Dental — 50% off AI chatbot this week",
+    "city": "Marion",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
