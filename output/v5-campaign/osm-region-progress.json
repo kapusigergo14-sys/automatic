@@ -1566,5 +1566,215 @@
     "lastNewLeads": 3,
     "totalNewLeads": 3,
     "lastResultsCount": 3
+  },
+  "US-WASHINGTON": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 12,
+    "totalNewLeads": 12,
+    "lastResultsCount": 51
+  },
+  "US-ST-LOUIS": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 1
+  },
+  "US-CYPRESS": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 4
+  },
+  "US-SANTA-ROSA": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-SAN-JOSE": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 8,
+    "totalNewLeads": 8,
+    "lastResultsCount": 28
+  },
+  "US-NEW-SOUTH-MEMPHIS": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-OKLAHOMA-CITY": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-DES-MOINES": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 3
+  },
+  "US-ST-PETERSBURG": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 3
+  },
+  "US-VIRGINIA-BEACH": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "US-EL-PASO": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 3
+  },
+  "US-FORT-WAYNE": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 4
+  },
+  "US-FORT-WORTH": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 5
+  },
+  "US-OCEANSIDE": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-KANSAS-CITY": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 9
+  },
+  "US-BATON-ROUGE": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-GRAND-RAPIDS": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 2
+  },
+  "US-COLUMBUS-GA": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "US-PASADENA": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 2
+  },
+  "US-LITTLE-ROCK": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 4
+  },
+  "US-COLORADO-SPRINGS": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 7,
+    "totalNewLeads": 7,
+    "lastResultsCount": 20
+  },
+  "US-SAN-FRANCISCO": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 7,
+    "totalNewLeads": 7,
+    "lastResultsCount": 21
+  },
+  "US-MODESTO": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 5
+  },
+  "US-SALINAS": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 3
+  },
+  "US-GLENDALE": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 18
+  },
+  "US-ESCONDIDO": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 7
+  },
+  "US-LANCASTER": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 1
+  },
+  "US-SANTA-CLARITA": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 2
+  },
+  "US-JACKSON": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "US-MEADS": {
+    "lastRunAt": "2026-04-20T17:28:26.688Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
   }
 }
