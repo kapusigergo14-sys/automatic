@@ -1472,5 +1472,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "drucolhour@whmlaw.net": {
+    "sentAt": "2026-04-20T15:32:54.701Z",
+    "messageId": "<202604201532.71010252810@smtp-relay.mailin.fr>",
+    "company": "Wyrsch, Hobbs & Mirakian",
+    "subject": "Wyrsch Hobbs & Mirakian — 50% off AI chatbot this week",
+    "city": "Kansas City",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
