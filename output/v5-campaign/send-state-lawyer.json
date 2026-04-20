@@ -1571,5 +1571,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "yourmail@mail.com": {
+    "sentAt": "2026-04-20T15:33:55.514Z",
+    "messageId": "<202604201533.54295260533@smtp-relay.mailin.fr>",
+    "company": "Hayes Law, PLLC",
+    "subject": "Hayes Law PLLC — 50% off AI chatbot this week",
+    "city": "Nashua",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
