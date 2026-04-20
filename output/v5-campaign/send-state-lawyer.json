@@ -2891,5 +2891,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "enquiries@horwoodjames.co.uk": {
+    "sentAt": "2026-04-20T16:25:52.208Z",
+    "messageId": "<202604201625.89952766485@smtp-relay.mailin.fr>",
+    "company": "Horwood & James Solicitors",
+    "subject": "Horwood & James Solicitors — 50% off AI chatbot this week",
+    "city": "Aylesbury ENG",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
