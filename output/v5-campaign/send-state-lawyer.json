@@ -1285,5 +1285,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 2
+  },
+  "info@reeds.co.uk": {
+    "sentAt": "2026-04-20T14:55:26.978Z",
+    "messageId": "<202604201455.40041232602@smtp-relay.mailin.fr>",
+    "company": "Reeds Solicitors",
+    "subject": "Reeds Solicitors — 50% off AI chatbot this week",
+    "city": "Reading",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
