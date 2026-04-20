@@ -10138,5 +10138,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "cutesmilesnj@gmail.com": {
+    "sentAt": "2026-04-20T17:41:29.037Z",
+    "messageId": "<202604201741.20819377729@smtp-relay.mailin.fr>",
+    "company": "Cute Smile",
+    "subject": "AI chatbot for Cute Smile — 50% off, 72 hours",
+    "city": "Hackensack",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
