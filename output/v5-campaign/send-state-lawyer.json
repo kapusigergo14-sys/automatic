@@ -2550,5 +2550,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "ajiang@jianglawgroup.com": {
+    "sentAt": "2026-04-20T16:22:28.012Z",
+    "messageId": "<202604201622.86570485478@smtp-relay.mailin.fr>",
+    "company": "Law Offices of Danning Jiang",
+    "subject": "Quick one for Law Offices of Danning — AI chatbot 50% off right now",
+    "city": "San Jose",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
