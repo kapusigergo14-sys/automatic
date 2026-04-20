@@ -9742,5 +9742,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "care@orangecounty-dentalcare.com": {
+    "sentAt": "2026-04-20T17:37:43.162Z",
+    "messageId": "<202604201737.52357772967@smtp-relay.mailin.fr>",
+    "company": "Orange County Dental Care",
+    "subject": "AI chatbot for Orange County Dental Care — 50% off, 72 hours",
+    "city": "Orange",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
