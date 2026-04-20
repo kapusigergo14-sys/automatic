@@ -1439,5 +1439,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@breauxlaw.com": {
+    "sentAt": "2026-04-20T15:32:34.187Z",
+    "messageId": "<202604201532.88432401780@smtp-relay.mailin.fr>",
+    "company": "Breaux",
+    "subject": "Breaux — 50% off AI chatbot this week",
+    "city": "New Orleans LA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
