@@ -1748,5 +1748,145 @@
     "lastNewLeads": 0,
     "totalNewLeads": 0,
     "lastResultsCount": 1
+  },
+  "UK-COLCHESTER": {
+    "lastRunAt": "2026-04-20T15:13:06.179Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-GLOUCESTER": {
+    "lastRunAt": "2026-04-20T15:13:06.179Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-MILTON-KEYNES": {
+    "lastRunAt": "2026-04-20T15:13:06.179Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-BRENT": {
+    "lastRunAt": "2026-04-20T15:13:06.179Z",
+    "totalRuns": 1,
+    "lastNewLeads": 10,
+    "totalNewLeads": 10,
+    "lastResultsCount": 17
+  },
+  "UK-BOGNOR-REGIS": {
+    "lastRunAt": "2026-04-20T15:13:06.179Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-MANSFIELD": {
+    "lastRunAt": "2026-04-20T15:13:06.179Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "UK-SOUTHEND-ON-SEA": {
+    "lastRunAt": "2026-04-20T15:13:06.179Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 3
+  },
+  "UK-CARLISLE": {
+    "lastRunAt": "2026-04-20T15:13:06.179Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-KIDDERMINSTER": {
+    "lastRunAt": "2026-04-20T15:13:06.179Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-BURNLEY": {
+    "lastRunAt": "2026-04-20T15:13:06.179Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 3
+  },
+  "UK-BLACKPOOL": {
+    "lastRunAt": "2026-04-20T15:13:06.179Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "UK-RHONDDA": {
+    "lastRunAt": "2026-04-20T15:13:06.179Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "UK-MORECAMBE": {
+    "lastRunAt": "2026-04-20T15:13:06.179Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-CHELMSFORD": {
+    "lastRunAt": "2026-04-20T15:13:06.179Z",
+    "totalRuns": 1,
+    "lastNewLeads": 6,
+    "totalNewLeads": 6,
+    "lastResultsCount": 13
+  },
+  "UK-YEOVIL": {
+    "lastRunAt": "2026-04-20T15:13:06.179Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-LUTON": {
+    "lastRunAt": "2026-04-20T15:13:06.179Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 3
+  },
+  "UK-WIGAN": {
+    "lastRunAt": "2026-04-20T15:13:06.179Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-CANTERBURY": {
+    "lastRunAt": "2026-04-20T15:13:06.179Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 5
+  },
+  "UK-SWINDON": {
+    "lastRunAt": "2026-04-20T15:13:06.179Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "UK-HARLOW": {
+    "lastRunAt": "2026-04-20T15:13:06.179Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
   }
 }
