@@ -1560,5 +1560,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@mclaw.com": {
+    "sentAt": "2026-04-20T15:33:48.874Z",
+    "messageId": "<202604201533.12665578246@smtp-relay.mailin.fr>",
+    "company": "McLeod Law Firm",
+    "subject": "Quick one for McLeod Law Firm — AI chatbot 50% off right now",
+    "city": "Kansas City",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
