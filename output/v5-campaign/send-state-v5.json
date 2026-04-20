@@ -9643,5 +9643,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@jambokidsdental.com": {
+    "sentAt": "2026-04-20T17:36:46.742Z",
+    "messageId": "<202604201736.41727871118@smtp-relay.mailin.fr>",
+    "company": "Jambo Kids Dental",
+    "subject": "AI chatbot for Jambo Kids Dental — 50% off, 72 hours",
+    "city": "Huntsville AL",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
