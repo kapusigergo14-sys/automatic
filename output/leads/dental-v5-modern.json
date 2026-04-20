@@ -1793,52 +1793,5 @@
     "modernScore": 2,
     "collectedAt": "2026-04-19T19:13:25.937Z",
     "extractedFrom": "homepage:mailto"
-  },
-  {
-    "name": "JH Dental Clinic",
-    "website": "http://jhdentalclinic.com",
-    "phone": "+44 24 76422677",
-    "city": "Coventry",
-    "country": "UK",
-    "email": "jhdentalclinic14@outlook.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-20T14:47:03.851Z",
-    "extractedFrom": "homepage:mailto"
-  },
-  {
-    "name": "Ravenshead Dental Practice",
-    "website": "https://ravensheaddental.com",
-    "phone": "+44 1623 792 186",
-    "city": "Nottingham",
-    "country": "UK",
-    "email": "info@ravensheaddental.com",
-    "hasBooking": false,
-    "modernScore": 2,
-    "collectedAt": "2026-04-20T14:47:05.706Z",
-    "extractedFrom": "homepage:mailto"
-  },
-  {
-    "name": "Bell Green Dental Surgery",
-    "website": "https://www.nhs.uk/services/dentist/bell-green-dental-surgery/V007093",
-    "phone": "+44 24 7668 8579",
-    "city": "Coventry",
-    "country": "UK",
-    "email": "bellgreendentalsurgery@gmail.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-20T14:47:06.028Z",
-    "extractedFrom": "homepage:text"
-  },
-  {
-    "name": "The Spencer Road Dental Surgery",
-    "website": "https://spencer-road-dental.co.uk",
-    "city": "Coventry",
-    "country": "UK",
-    "email": "bourton.dental@btconnect.com",
-    "hasBooking": false,
-    "modernScore": 3,
-    "collectedAt": "2026-04-20T14:47:15.827Z",
-    "extractedFrom": "contact:mailto"
   }
 ]
