@@ -1307,5 +1307,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info-reading@rowberrymorris.co.uk": {
+    "sentAt": "2026-04-20T14:55:40.189Z",
+    "messageId": "<202604201455.24353495572@smtp-relay.mailin.fr>",
+    "company": "Rowberry Morris & Co",
+    "subject": "Quick one for Rowberry Morris & Co — AI chatbot 50% off right now",
+    "city": "Reading",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
