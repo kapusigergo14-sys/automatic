@@ -2748,5 +2748,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "familylaw@allanmartelle.com": {
+    "sentAt": "2026-04-20T16:24:26.688Z",
+    "messageId": "<202604201624.26689192745@smtp-relay.mailin.fr>",
+    "company": "Allan & Martelle, LLP",
+    "subject": "Quick one for Allan & Martelle LLP — AI chatbot 50% off right now",
+    "city": "San Jose",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
