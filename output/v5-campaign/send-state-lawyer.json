@@ -2660,5 +2660,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "ds@stadlinlaw.com": {
+    "sentAt": "2026-04-20T16:23:33.894Z",
+    "messageId": "<202604201623.52687729850@smtp-relay.mailin.fr>",
+    "company": "Stadlin Marinho LLP",
+    "subject": "Stadlin Marinho LLP — 50% off AI chatbot this week",
+    "city": "San Jose",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
