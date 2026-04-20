@@ -2253,5 +2253,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@elg.law": {
+    "sentAt": "2026-04-20T16:19:28.918Z",
+    "messageId": "<202604201619.83439616290@smtp-relay.mailin.fr>",
+    "company": "Law Firm",
+    "subject": "Quick one for Law Firm — AI chatbot 50% off right now",
+    "city": "Manhattan NY",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
