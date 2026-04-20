@@ -10160,5 +10160,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@mermaidsmiles.com.au": {
+    "sentAt": "2026-04-20T18:07:17.105Z",
+    "messageId": "<202604201807.95931641308@smtp-relay.mailin.fr>",
+    "company": "Mermaid Smiles",
+    "subject": "AI chatbot for Mermaid Smiles — 50% off, 72 hours",
+    "city": "Gold Coast QLD",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
