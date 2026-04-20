@@ -2440,5 +2440,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@corteslawfirm.com": {
+    "sentAt": "2026-04-20T16:21:22.038Z",
+    "messageId": "<202604201621.88630141730@smtp-relay.mailin.fr>",
+    "company": "Cortes Law Firm",
+    "subject": "AI chatbot for Cortes Law Firm — 50% off, 72 hours",
+    "city": "Oklahoma City",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
