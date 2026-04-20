@@ -9269,5 +9269,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "careteam@puredentaljp.com": {
+    "sentAt": "2026-04-20T17:33:14.227Z",
+    "messageId": "<202604201733.53831152857@smtp-relay.mailin.fr>",
+    "company": "Pure Dental",
+    "subject": "Pure Dental — 50% off AI chatbot this week",
+    "city": "Jamaica Plain",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
