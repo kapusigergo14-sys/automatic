@@ -9797,5 +9797,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "dpstamford@gmail.com": {
+    "sentAt": "2026-04-20T17:38:15.172Z",
+    "messageId": "<202604201738.45302072870@smtp-relay.mailin.fr>",
+    "company": "Dental Permanente",
+    "subject": "Dental Permanente — 50% off AI chatbot this week",
+    "city": "Stamford",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
