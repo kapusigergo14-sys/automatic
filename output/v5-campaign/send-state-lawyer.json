@@ -2704,5 +2704,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@rdlaw.net": {
+    "sentAt": "2026-04-20T16:24:00.377Z",
+    "messageId": "<202604201624.20439820261@smtp-relay.mailin.fr>",
+    "company": "Rossi Domingue LLP",
+    "subject": "AI chatbot for Rossi Domingue LLP — 50% off, 72 hours",
+    "city": "San Jose",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
