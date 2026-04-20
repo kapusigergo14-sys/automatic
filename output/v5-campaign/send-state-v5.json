@@ -10237,5 +10237,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "office@drdanstambaugh.com": {
+    "sentAt": "2026-04-20T18:21:07.594Z",
+    "messageId": "<202604201821.27502113938@smtp-relay.mailin.fr>",
+    "company": "Stambaugh Family Dental",
+    "subject": "Quick one for Stambaugh Family Dental — AI chatbot 50% off right now",
+    "city": "Springfield",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
