@@ -9500,5 +9500,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "defuscodmd@comcast.net": {
+    "sentAt": "2026-04-20T17:35:25.578Z",
+    "messageId": "<202604201735.65433360883@smtp-relay.mailin.fr>",
+    "company": "Dr. Stephen DeFusco, DMD",
+    "subject": "Dr. Stephen DeFusco DMD — 50% off AI chatbot this week",
+    "city": "Pittsburgh",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
