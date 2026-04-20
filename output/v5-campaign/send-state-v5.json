@@ -9324,5 +9324,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "mayerperio@qwestoffice.net": {
+    "sentAt": "2026-04-20T17:33:45.592Z",
+    "messageId": "<202604201733.78937174324@smtp-relay.mailin.fr>",
+    "company": "Petra I. Mayer D.D.S.",
+    "subject": "Quick one for Petra I. Mayer D.D.S. — AI chatbot 50% off right now",
+    "city": "Albuquerque",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
