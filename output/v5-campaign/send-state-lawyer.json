@@ -2528,5 +2528,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "intake@1800thewolf.com": {
+    "sentAt": "2026-04-20T16:22:14.829Z",
+    "messageId": "<202604201622.28170069006@smtp-relay.mailin.fr>",
+    "company": "1-800 The Wolf Accident Attorneys - Fort Worth",
+    "subject": "1 — 50% off AI chatbot this week",
+    "city": "Fort Worth",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
