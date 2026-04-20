@@ -1593,5 +1593,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "bpinsky@pinskylaw.com": {
+    "sentAt": "2026-04-20T15:34:08.878Z",
+    "messageId": "<202604201534.85592932966@smtp-relay.mailin.fr>",
+    "company": "Pinksky Law Group",
+    "subject": "Quick one for Pinksky Law Group — AI chatbot 50% off right now",
+    "city": "DeWitt",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
