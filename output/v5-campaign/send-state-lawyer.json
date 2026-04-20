@@ -1769,5 +1769,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@davis-davislaw.com": {
+    "sentAt": "2026-04-20T15:35:56.901Z",
+    "messageId": "<202604201535.55161349289@smtp-relay.mailin.fr>",
+    "company": "Davis & Davis, Attorneys at Law - Laredo Medical Malpractice Lawyers",
+    "subject": "Davis & Davis Attorneys — 50% off AI chatbot this week",
+    "city": "Laredo",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
