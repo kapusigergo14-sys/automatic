@@ -1505,5 +1505,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "wrrvlaw@wrrvlaw.com": {
+    "sentAt": "2026-04-20T15:33:15.529Z",
+    "messageId": "<202604201533.21297381925@smtp-relay.mailin.fr>",
+    "company": "Walters Renwick Richards Skeens and Vaughan, P.C.",
+    "subject": "Walters Renwick Richards Skeens — 50% off AI chatbot this week",
+    "city": "Kansas City",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
