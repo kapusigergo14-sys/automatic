@@ -10347,5 +10347,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "patient@arlingtondentalaesthetics.com": {
+    "sentAt": "2026-04-20T18:22:15.114Z",
+    "messageId": "<202604201822.48985759066@smtp-relay.mailin.fr>",
+    "company": "Arlington Dental Aesthetics",
+    "subject": "Arlington Dental Aesthetics — 50% off AI chatbot this week",
+    "city": "Arlington VA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
