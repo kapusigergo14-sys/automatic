@@ -2671,5 +2671,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "olga@cdbatlaw.com": {
+    "sentAt": "2026-04-20T16:23:40.504Z",
+    "messageId": "<202604201623.81820466030@smtp-relay.mailin.fr>",
+    "company": "Carter, Dougherty & McGuire",
+    "subject": "AI chatbot for Carter Dougherty & McGuire — 50% off, 72 hours",
+    "city": "San Jose",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
