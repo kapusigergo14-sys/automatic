@@ -9621,5 +9621,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "uptown_dental@yahoo.com": {
+    "sentAt": "2026-04-20T17:36:34.424Z",
+    "messageId": "<202604201736.29301652783@smtp-relay.mailin.fr>",
+    "company": "Uptown Dental",
+    "subject": "Quick one for Uptown Dental — AI chatbot 50% off right now",
+    "city": "Minneapolis",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
