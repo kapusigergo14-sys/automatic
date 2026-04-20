@@ -10248,5 +10248,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "txcoord@clarksvillesmilestn.com": {
+    "sentAt": "2026-04-20T18:21:14.158Z",
+    "messageId": "<202604201821.49316004087@smtp-relay.mailin.fr>",
+    "company": "Clarksville Smiles",
+    "subject": "Clarksville Smiles — 50% off AI chatbot this week",
+    "city": "Clarksville",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
