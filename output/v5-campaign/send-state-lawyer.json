@@ -1725,5 +1725,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@upstatedui.com": {
+    "sentAt": "2026-04-20T15:35:29.446Z",
+    "messageId": "<202604201535.82560492061@smtp-relay.mailin.fr>",
+    "company": "Steve W. Sumner, Attorney at Law, LLC.",
+    "subject": "Quick one for Steve W. Sumner Attorney — AI chatbot 50% off right now",
+    "city": "Greenville",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
