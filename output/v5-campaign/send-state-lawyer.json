@@ -2814,5 +2814,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "darlington@freemanjohnson.co.uk": {
+    "sentAt": "2026-04-20T16:25:06.034Z",
+    "messageId": "<202604201625.91227010705@smtp-relay.mailin.fr>",
+    "company": "Freeman Johnson Solicitors",
+    "subject": "Quick one for Freeman Johnson Solicitors — AI chatbot 50% off right now",
+    "city": "Darlington",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
