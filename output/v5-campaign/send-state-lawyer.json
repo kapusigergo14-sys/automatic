@@ -2517,5 +2517,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@thevalleylawgroup.com": {
+    "sentAt": "2026-04-20T16:22:08.251Z",
+    "messageId": "<202604201622.25337753103@smtp-relay.mailin.fr>",
+    "company": "The Valley Law Group - Peoria",
+    "subject": "Quick one for The Valley Law Group — AI chatbot 50% off right now",
+    "city": "Peoria",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
