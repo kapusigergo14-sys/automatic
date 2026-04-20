@@ -9753,5 +9753,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "peter@dentistdds.com": {
+    "sentAt": "2026-04-20T17:37:49.335Z",
+    "messageId": "<202604201737.31423945935@smtp-relay.mailin.fr>",
+    "company": "Dantini Dental of Stamford",
+    "subject": "Quick one for Dantini Dental of Stamford — AI chatbot 50% off right now",
+    "city": "Stamford",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
