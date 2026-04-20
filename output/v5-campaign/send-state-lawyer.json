@@ -1604,5 +1604,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@catalanolegal.com": {
+    "sentAt": "2026-04-20T15:34:15.680Z",
+    "messageId": "<202604201534.37427092892@smtp-relay.mailin.fr>",
+    "company": "Catalano Law",
+    "subject": "Catalano Law — 50% off AI chatbot this week",
+    "city": "Syracuse",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
