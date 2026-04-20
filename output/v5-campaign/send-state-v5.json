@@ -9973,5 +9973,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "riversidedentistry@att.net": {
+    "sentAt": "2026-04-20T17:39:55.067Z",
+    "messageId": "<202604201739.11704797652@smtp-relay.mailin.fr>",
+    "company": "Riverside Family Dentistry",
+    "subject": "AI chatbot for Riverside Family Dentistry — 50% off, 72 hours",
+    "city": "Moline",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
