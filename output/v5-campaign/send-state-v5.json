@@ -9434,5 +9434,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "wjparrdds@msn.com": {
+    "sentAt": "2026-04-20T17:34:47.988Z",
+    "messageId": "<202604201734.84694747633@smtp-relay.mailin.fr>",
+    "company": "Parr Dental",
+    "subject": "Parr Dental — 50% off AI chatbot this week",
+    "city": "Omaha",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
