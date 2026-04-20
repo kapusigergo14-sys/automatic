@@ -10336,5 +10336,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "pr@vadentalcare.com": {
+    "sentAt": "2026-04-20T18:22:08.526Z",
+    "messageId": "<202604201822.94038247873@smtp-relay.mailin.fr>",
+    "company": "Virginia Dental Care",
+    "subject": "Quick one for Virginia Dental Care — AI chatbot 50% off right now",
+    "city": "Arlington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
