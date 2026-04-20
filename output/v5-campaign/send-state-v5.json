@@ -9676,5 +9676,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "sunnysmileshsv@gmail.com": {
+    "sentAt": "2026-04-20T17:37:05.582Z",
+    "messageId": "<202604201737.58645418587@smtp-relay.mailin.fr>",
+    "company": "Sunny Smiles Dental Center",
+    "subject": "AI chatbot for Sunny Smiles Dental Center — 50% off, 72 hours",
+    "city": "Huntsville AL",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
