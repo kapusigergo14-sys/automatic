@@ -10292,5 +10292,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "receptionist@drwisdomteeth.com": {
+    "sentAt": "2026-04-20T18:21:41.298Z",
+    "messageId": "<202604201821.50336058764@smtp-relay.mailin.fr>",
+    "company": "Dr. Wisdom Teeth",
+    "subject": "AI chatbot for Dr. Wisdom Teeth — 50% off, 72 hours",
+    "city": "Provo",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
