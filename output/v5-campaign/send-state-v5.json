@@ -9951,5 +9951,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@gehringortho.com": {
+    "sentAt": "2026-04-20T17:39:42.591Z",
+    "messageId": "<202604201739.68712305312@smtp-relay.mailin.fr>",
+    "company": "Gehring Orthodontics",
+    "subject": "Quick one for Gehring Orthodontics — AI chatbot 50% off right now",
+    "city": "Cedar Rapids",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
