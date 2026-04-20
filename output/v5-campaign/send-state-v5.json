@@ -10105,5 +10105,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "greashaberdentistry@gmail.com": {
+    "sentAt": "2026-04-20T17:41:10.288Z",
+    "messageId": "<202604201741.68480188414@smtp-relay.mailin.fr>",
+    "company": "Greashaber Dentistry",
+    "subject": "AI chatbot for Greashaber Dentistry — 50% off, 72 hours",
+    "city": "Ann Arbor MI",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 2
   }
 }
