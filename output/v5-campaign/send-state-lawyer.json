@@ -1648,5 +1648,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@johnsontaylorlaw.com": {
+    "sentAt": "2026-04-20T15:34:42.542Z",
+    "messageId": "<202604201534.97489289243@smtp-relay.mailin.fr>",
+    "company": "Johnson and Taylor, Personal Injury and Family Law",
+    "subject": "AI chatbot for Johnson and Taylor Personal — 50% off, 72 hours",
+    "city": "Salem",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
