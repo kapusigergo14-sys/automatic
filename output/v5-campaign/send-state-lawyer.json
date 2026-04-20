@@ -1802,5 +1802,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "contact@deckerlaw.com": {
+    "sentAt": "2026-04-20T15:36:17.723Z",
+    "messageId": "<202604201536.85955729033@smtp-relay.mailin.fr>",
+    "company": "The Decker Law Firm",
+    "subject": "The Decker Law Firm — 50% off AI chatbot this week",
+    "city": "Norfolk",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
