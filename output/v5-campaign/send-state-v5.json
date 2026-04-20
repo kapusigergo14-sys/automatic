@@ -9401,5 +9401,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "tc@abqortho.com": {
+    "sentAt": "2026-04-20T17:34:29.250Z",
+    "messageId": "<202604201734.31930922680@smtp-relay.mailin.fr>",
+    "company": "Anderson Orthodontics",
+    "subject": "Anderson Orthodontics — 50% off AI chatbot this week",
+    "city": "Albuquerque",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
