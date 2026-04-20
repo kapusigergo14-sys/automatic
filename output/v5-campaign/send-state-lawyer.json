@@ -1868,5 +1868,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "publicrelations@dc-law.net": {
+    "sentAt": "2026-04-20T15:36:58.620Z",
+    "messageId": "<202604201536.57232794049@smtp-relay.mailin.fr>",
+    "company": "Chaikin, Sherman, Cammarata & Siegel Personal Injury Lawyers - Washington, D.C.",
+    "subject": "Chaikin Sherman Cammarata & — 50% off AI chatbot this week",
+    "city": "Washington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
