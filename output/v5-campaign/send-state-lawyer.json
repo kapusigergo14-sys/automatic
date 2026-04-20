@@ -1582,5 +1582,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "web@campaignium.com": {
+    "sentAt": "2026-04-20T15:34:02.205Z",
+    "messageId": "<202604201534.26419374740@smtp-relay.mailin.fr>",
+    "company": "Eng & Woods Attorneys at Law",
+    "subject": "AI chatbot for Eng & Woods Attorneys — 50% off, 72 hours",
+    "city": "Columbia",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
