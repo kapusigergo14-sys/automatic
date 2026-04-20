@@ -9852,5 +9852,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@smilesofaurora.com": {
+    "sentAt": "2026-04-20T17:38:46.273Z",
+    "messageId": "<202604201738.75970744610@smtp-relay.mailin.fr>",
+    "company": "Smiles of Aurora",
+    "subject": "Quick one for Smiles of Aurora — AI chatbot 50% off right now",
+    "city": "Aurora",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
