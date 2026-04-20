@@ -1989,5 +1989,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "admin@tannandtann.co.uk": {
+    "sentAt": "2026-04-20T15:38:14.007Z",
+    "messageId": "<202604201538.68733179045@smtp-relay.mailin.fr>",
+    "company": "Tann & Tann Solicitors",
+    "subject": "Quick one for Tann & Tann Solicitors — AI chatbot 50% off right now",
+    "city": "Brent ENG",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
