@@ -1978,5 +1978,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "wycombe@edensolicitors.co.uk": {
+    "sentAt": "2026-04-20T15:38:07.295Z",
+    "messageId": "<202604201538.63172274860@smtp-relay.mailin.fr>",
+    "company": "Eden Solicitors",
+    "subject": "AI chatbot for Eden Solicitors — 50% off, 72 hours",
+    "city": "Brent ENG",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
