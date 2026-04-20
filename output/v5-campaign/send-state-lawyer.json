@@ -2429,5 +2429,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "smith@wuattorneys.com": {
+    "sentAt": "2026-04-20T16:21:15.425Z",
+    "messageId": "<202604201621.54178096641@smtp-relay.mailin.fr>",
+    "company": "Wheeler Upham",
+    "subject": "Wheeler Upham — 50% off AI chatbot this week",
+    "city": "Grand Rapids",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
