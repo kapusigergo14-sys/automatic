@@ -1351,5 +1351,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "law@funnellperring.co.uk": {
+    "sentAt": "2026-04-20T14:56:07.100Z",
+    "messageId": "<202604201456.88309817300@smtp-relay.mailin.fr>",
+    "company": "Funnell & Perring",
+    "subject": "Funnell & Perring — 50% off AI chatbot this week",
+    "city": "Hastings",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
