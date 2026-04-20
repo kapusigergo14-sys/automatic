@@ -1659,5 +1659,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "dbb@deborahbarbier.com": {
+    "sentAt": "2026-04-20T15:34:49.157Z",
+    "messageId": "<202604201534.20000261087@smtp-relay.mailin.fr>",
+    "company": "Deborah B. Barbier, LLC",
+    "subject": "Quick one for Deborah B. Barbier LLC — AI chatbot 50% off right now",
+    "city": "Columbia",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
