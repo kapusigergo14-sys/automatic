@@ -2198,5 +2198,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@msclawfirm.com": {
+    "sentAt": "2026-04-20T16:18:55.554Z",
+    "messageId": "<202604201618.68327256375@smtp-relay.mailin.fr>",
+    "company": "Mahoney, SIlverman, and Cross",
+    "subject": "Mahoney SIlverman and Cross — 50% off AI chatbot this week",
+    "city": "Oswego",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
