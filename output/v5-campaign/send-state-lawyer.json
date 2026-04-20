@@ -1384,5 +1384,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "enquiries@chancellors.com": {
+    "sentAt": "2026-04-20T14:56:27.342Z",
+    "messageId": "<202604201456.65571809438@smtp-relay.mailin.fr>",
+    "company": "Chancellors Lea Brewer LLP",
+    "subject": "Chancellors Lea Brewer LLP — 50% off AI chatbot this week",
+    "city": "Bexley ENG",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
