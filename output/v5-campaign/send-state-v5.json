@@ -9313,5 +9313,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "office@tucsonkidsdentist.com": {
+    "sentAt": "2026-04-20T17:33:39.356Z",
+    "messageId": "<202604201733.72038438341@smtp-relay.mailin.fr>",
+    "company": "Davis Pediatric Dentistry",
+    "subject": "AI chatbot for Davis Pediatric Dentistry — 50% off, 72 hours",
+    "city": "Tucson",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
