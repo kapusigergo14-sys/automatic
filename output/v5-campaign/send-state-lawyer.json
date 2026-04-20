@@ -1483,5 +1483,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@spencerfane.com": {
+    "sentAt": "2026-04-20T15:33:01.538Z",
+    "messageId": "<202604201533.36342410683@smtp-relay.mailin.fr>",
+    "company": "Spencer Fane",
+    "subject": "AI chatbot for Spencer Fane — 50% off, 72 hours",
+    "city": "Kansas City",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
