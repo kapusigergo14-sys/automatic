@@ -9775,5 +9775,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@tallyteeth.com": {
+    "sentAt": "2026-04-20T17:38:02.302Z",
+    "messageId": "<202604201738.61793526394@smtp-relay.mailin.fr>",
+    "company": "Chaney, Couch, and Associates Family Dentistry",
+    "subject": "AI chatbot for Chaney Couch and Associates — 50% off, 72 hours",
+    "city": "Tallahassee",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
