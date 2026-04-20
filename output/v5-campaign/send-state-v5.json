@@ -10050,5 +10050,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@wennerstendental.com": {
+    "sentAt": "2026-04-20T17:40:38.917Z",
+    "messageId": "<202604201740.97313106021@smtp-relay.mailin.fr>",
+    "company": "Wennersten Dental Care",
+    "subject": "Quick one for Wennersten Dental Care — AI chatbot 50% off right now",
+    "city": "Ann Arbor MI",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
