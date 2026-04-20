@@ -1373,5 +1373,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@napthens.co.uk": {
+    "sentAt": "2026-04-20T14:56:20.807Z",
+    "messageId": "<202604201456.66877936847@smtp-relay.mailin.fr>",
+    "company": "Napthens",
+    "subject": "Quick one for Napthens — AI chatbot 50% off right now",
+    "city": "Preston",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
