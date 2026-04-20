@@ -9335,5 +9335,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "jennifer@ridgewaydds.com": {
+    "sentAt": "2026-04-20T17:33:51.830Z",
+    "messageId": "<202604201733.59920265220@smtp-relay.mailin.fr>",
+    "company": "Jennifer Ridgeway, DDS",
+    "subject": "Jennifer Ridgeway DDS — 50% off AI chatbot this week",
+    "city": "Albuquerque",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
