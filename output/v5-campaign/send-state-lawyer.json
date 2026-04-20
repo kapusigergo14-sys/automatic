@@ -2616,5 +2616,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "gpshide@haworthlaw.com": {
+    "sentAt": "2026-04-20T16:23:07.509Z",
+    "messageId": "<202604201623.27689176617@smtp-relay.mailin.fr>",
+    "company": "Haworth Bradshaw Stallknecht & Barber",
+    "subject": "Quick one for Haworth Bradshaw Stallknecht & — AI chatbot 50% off right now",
+    "city": "Campbell",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
