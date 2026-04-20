@@ -1608,5 +1608,145 @@
     "lastNewLeads": 0,
     "totalNewLeads": 0,
     "lastResultsCount": 0
+  },
+  "UK-HASTINGS": {
+    "lastRunAt": "2026-04-20T14:44:39.131Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 1
+  },
+  "UK-CRAIGAVON": {
+    "lastRunAt": "2026-04-20T14:44:39.131Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-ROYAL-TUNBRIDGE-WELLS": {
+    "lastRunAt": "2026-04-20T14:44:39.131Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-NEWCASTLE-UPON-TYNE": {
+    "lastRunAt": "2026-04-20T14:44:39.131Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-BEXLEY": {
+    "lastRunAt": "2026-04-20T14:44:39.131Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 3
+  },
+  "UK-NORTHAMPTON": {
+    "lastRunAt": "2026-04-20T14:44:39.131Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-EASTBOURNE": {
+    "lastRunAt": "2026-04-20T14:44:39.131Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-CORBY": {
+    "lastRunAt": "2026-04-20T14:44:39.131Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 1
+  },
+  "UK-IPSWICH": {
+    "lastRunAt": "2026-04-20T14:44:39.131Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-HUDDERSFIELD": {
+    "lastRunAt": "2026-04-20T14:44:39.131Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "UK-BOURNEMOUTH": {
+    "lastRunAt": "2026-04-20T14:44:39.131Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 3
+  },
+  "UK-SAINT-PETERS": {
+    "lastRunAt": "2026-04-20T14:44:39.131Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-SLOUGH": {
+    "lastRunAt": "2026-04-20T14:44:39.131Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "UK-STOKE-ON-TRENT": {
+    "lastRunAt": "2026-04-20T14:44:39.131Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-PRESTON": {
+    "lastRunAt": "2026-04-20T14:44:39.131Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 1
+  },
+  "UK-HARROGATE": {
+    "lastRunAt": "2026-04-20T14:44:39.131Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-KINGSTON-UPON-HULL": {
+    "lastRunAt": "2026-04-20T14:44:39.131Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-LINCOLN": {
+    "lastRunAt": "2026-04-20T14:44:39.131Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-SUTTON": {
+    "lastRunAt": "2026-04-20T14:44:39.131Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-SCUNTHORPE": {
+    "lastRunAt": "2026-04-20T14:44:39.131Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
   }
 }

@@ -592,5 +592,99 @@
     "modernScore": 3,
     "collectedAt": "2026-04-19T13:46:29.048Z",
     "extractedFrom": "homepage:mailto"
+  },
+  {
+    "name": "Seatons Solicitors",
+    "website": "https://seatons.co.uk",
+    "phone": "+44 1536267300",
+    "city": "Corby",
+    "country": "UK",
+    "email": "contact@seatons.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-20T14:44:31.024Z",
+    "extractedFrom": "homepage:jsonld"
+  },
+  {
+    "name": "Kiteleys",
+    "website": "https://www.kiteleys.co.uk",
+    "city": "Bournemouth ENG",
+    "country": "UK",
+    "email": "office@kiteleys.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-20T14:44:31.483Z",
+    "extractedFrom": "homepage:jsonld"
+  },
+  {
+    "name": "Wilkinson Woodward Bearders Solicitors",
+    "website": "https://www.wilkinsonwoodward.co.uk",
+    "phone": "+44 1484 710571",
+    "city": "Brighouse",
+    "country": "UK",
+    "email": "law@wilkinsonwoodward.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-20T14:44:31.954Z",
+    "extractedFrom": "homepage:mailto"
+  },
+  {
+    "name": "Funnell & Perring",
+    "website": "https://funnellandperring.co.uk",
+    "phone": "+44 1424 426287",
+    "city": "Hastings",
+    "country": "UK",
+    "email": "law@funnellperring.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-20T14:44:32.205Z",
+    "extractedFrom": "homepage:mailto"
+  },
+  {
+    "name": "Ellis Jones Solicitors",
+    "website": "https://www.ellisjones.co.uk/contact/poole-solicitors",
+    "city": "Bournemouth ENG",
+    "country": "UK",
+    "email": "info@ellisjones.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-20T14:44:32.375Z",
+    "extractedFrom": "homepage:mailto"
+  },
+  {
+    "name": "Napthens",
+    "website": "https://www.napthens.co.uk",
+    "phone": "+44 1772 888444",
+    "city": "Preston",
+    "country": "UK",
+    "email": "info@napthens.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-20T14:44:33.738Z",
+    "extractedFrom": "homepage:jsonld"
+  },
+  {
+    "name": "Chancellors Lea Brewer LLP",
+    "website": "https://www.chancellors.com",
+    "phone": "+44 20 8303 0077",
+    "city": "Bexley ENG",
+    "country": "UK",
+    "email": "enquiries@chancellors.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-20T14:44:35.788Z",
+    "extractedFrom": "contact:mailto"
+  },
+  {
+    "name": "Parfitt Cresswell",
+    "website": "https://www.parfittcresswell.com",
+    "phone": "+44 1753 271640",
+    "city": "Windsor",
+    "country": "UK",
+    "email": "enquiries@parfittcresswell.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-20T14:44:39.130Z",
+    "extractedFrom": "homepage:text"
   }
 ]
