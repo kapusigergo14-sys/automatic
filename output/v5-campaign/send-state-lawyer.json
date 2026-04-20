@@ -1846,5 +1846,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "brenemanlaw@aol.com": {
+    "sentAt": "2026-04-20T15:36:44.801Z",
+    "messageId": "<202604201536.22703337287@smtp-relay.mailin.fr>",
+    "company": "Breneman and Georges",
+    "subject": "AI chatbot for Breneman and Georges — 50% off, 72 hours",
+    "city": "Alexandria",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
