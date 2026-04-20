@@ -2033,5 +2033,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "solicitor@starckuberoi.co.uk": {
+    "sentAt": "2026-04-20T15:38:40.657Z",
+    "messageId": "<202604201538.43782737932@smtp-relay.mailin.fr>",
+    "company": "Starck Uberoi",
+    "subject": "Starck Uberoi — 50% off AI chatbot this week",
+    "city": "Brent ENG",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
