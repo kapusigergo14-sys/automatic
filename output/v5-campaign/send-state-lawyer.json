@@ -2957,5 +2957,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "chris@waggenerlaw.com": {
+    "sentAt": "2026-04-20T19:52:56.491Z",
+    "messageId": "<202604201952.86081200005@smtp-relay.mailin.fr>",
+    "company": "Waggener Law, Pllc.",
+    "subject": "AI chatbot for Waggener Law Pllc. — 50% off, 72 hours",
+    "city": "Saint Petersburg",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
