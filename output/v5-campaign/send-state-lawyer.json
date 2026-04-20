@@ -2011,5 +2011,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "joinourteam@shacklocks.co.uk": {
+    "sentAt": "2026-04-20T15:38:27.282Z",
+    "messageId": "<202604201538.73241823536@smtp-relay.mailin.fr>",
+    "company": "Shacklocks LLP",
+    "subject": "AI chatbot for Shacklocks LLP — 50% off, 72 hours",
+    "city": "Mansfield",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
