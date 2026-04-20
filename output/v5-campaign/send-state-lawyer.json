@@ -2165,5 +2165,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "enquiries@bondjoseph.co.uk": {
+    "sentAt": "2026-04-20T15:40:01.547Z",
+    "messageId": "<202604201540.87348393259@smtp-relay.mailin.fr>",
+    "company": "Bond Joseph",
+    "subject": "Bond Joseph — 50% off AI chatbot this week",
+    "city": "Canterbury",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
