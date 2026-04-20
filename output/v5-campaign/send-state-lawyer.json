@@ -2077,5 +2077,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@tgcollins-solicitors.co.uk": {
+    "sentAt": "2026-04-20T15:39:07.937Z",
+    "messageId": "<202604201539.49085075006@smtp-relay.mailin.fr>",
+    "company": "T.G. Collins Solicitors",
+    "subject": "AI chatbot for T.G. Collins Solicitors — 50% off, 72 hours",
+    "city": "Chelmsford",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
