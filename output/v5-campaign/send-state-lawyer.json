@@ -2154,5 +2154,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "hr@furleypage.co.uk": {
+    "sentAt": "2026-04-20T15:39:54.957Z",
+    "messageId": "<202604201539.62607624379@smtp-relay.mailin.fr>",
+    "company": "Furley Page",
+    "subject": "Quick one for Furley Page — AI chatbot 50% off right now",
+    "city": "Canterbury",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
