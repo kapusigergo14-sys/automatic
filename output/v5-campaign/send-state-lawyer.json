@@ -2088,5 +2088,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "enquiries@legalombudsman.org.uk": {
+    "sentAt": "2026-04-20T15:39:14.659Z",
+    "messageId": "<202604201539.77192054634@smtp-relay.mailin.fr>",
+    "company": "DV Solicitors",
+    "subject": "Quick one for DV Solicitors — AI chatbot 50% off right now",
+    "city": "Luton",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
