@@ -1747,5 +1747,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@maxeymcfarlandlaw.com": {
+    "sentAt": "2026-04-20T15:35:43.014Z",
+    "messageId": "<202604201535.94558979778@smtp-relay.mailin.fr>",
+    "company": "Maxey McFarland Law Firm",
+    "subject": "AI chatbot for Maxey McFarland Law Firm — 50% off, 72 hours",
+    "city": "Greenville",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
