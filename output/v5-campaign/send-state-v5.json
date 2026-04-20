@@ -9456,5 +9456,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@lexingtonsmiles.com": {
+    "sentAt": "2026-04-20T17:35:00.532Z",
+    "messageId": "<202604201735.70272058628@smtp-relay.mailin.fr>",
+    "company": "Arnold Dental",
+    "subject": "Quick one for Arnold Dental — AI chatbot 50% off right now",
+    "city": "lexington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
