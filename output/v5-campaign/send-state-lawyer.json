@@ -1670,5 +1670,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "tammy@reynoldsdefensefirm.com": {
+    "sentAt": "2026-04-20T15:34:55.810Z",
+    "messageId": "<202604201534.23534769688@smtp-relay.mailin.fr>",
+    "company": "Reynolds Defense Firm",
+    "subject": "Reynolds Defense Firm — 50% off AI chatbot this week",
+    "city": "Salem",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
