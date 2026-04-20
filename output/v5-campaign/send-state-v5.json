@@ -10424,5 +10424,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "moutaz1971@yahoo.com": {
+    "sentAt": "2026-04-20T18:23:02.751Z",
+    "messageId": "<202604201823.92998970986@smtp-relay.mailin.fr>",
+    "company": "Alexandria Smiles Dentistry",
+    "subject": "AI chatbot for Alexandria Smiles Dentistry — 50% off, 72 hours",
+    "city": "Alexandria",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
