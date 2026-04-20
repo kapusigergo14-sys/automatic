@@ -9379,5 +9379,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@dvsmiles.com": {
+    "sentAt": "2026-04-20T17:34:16.860Z",
+    "messageId": "<202604201734.13740902272@smtp-relay.mailin.fr>",
+    "company": "Desert Valley Pediatric Dentristry",
+    "subject": "AI chatbot for Desert Valley Pediatric Dentristry — 50% off, 72 hours",
+    "city": "Tucson",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
