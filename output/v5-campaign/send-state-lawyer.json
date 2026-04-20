@@ -2407,5 +2407,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "contact@khashmatilaw.com": {
+    "sentAt": "2026-04-20T16:21:02.079Z",
+    "messageId": "<202604201621.57901576752@smtp-relay.mailin.fr>",
+    "company": "Khashmati Law, P.C.",
+    "subject": "AI chatbot for Khashmati Law P.C. — 50% off, 72 hours",
+    "city": "Maspeth",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
