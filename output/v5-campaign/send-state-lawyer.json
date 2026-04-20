@@ -1945,5 +1945,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@taxtg.co.uk": {
+    "sentAt": "2026-04-20T15:37:46.502Z",
+    "messageId": "<202604201537.83776675032@smtp-relay.mailin.fr>",
+    "company": "TG Associates Ltd",
+    "subject": "AI chatbot for TG Associates Ltd — 50% off, 72 hours",
+    "city": "Harrow",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
