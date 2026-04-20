@@ -9665,5 +9665,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@tranquilitydental.com": {
+    "sentAt": "2026-04-20T17:36:59.370Z",
+    "messageId": "<202604201736.55734720822@smtp-relay.mailin.fr>",
+    "company": "Tranquility Dental",
+    "subject": "Tranquility Dental — 50% off AI chatbot this week",
+    "city": "San Jose",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
