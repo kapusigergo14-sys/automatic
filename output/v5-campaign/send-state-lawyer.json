@@ -3045,5 +3045,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "dianar@amaya-law.com": {
+    "sentAt": "2026-04-20T19:53:49.851Z",
+    "messageId": "<202604201953.93340559258@smtp-relay.mailin.fr>",
+    "company": "The Law Offices Of Martha Amaya",
+    "subject": "The Law Offices Of — 50% off AI chatbot this week",
+    "city": "Salt Lake City",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
