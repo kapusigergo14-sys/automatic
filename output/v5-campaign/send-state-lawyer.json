@@ -2946,5 +2946,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@marsalisilaw.com": {
+    "sentAt": "2026-04-20T19:52:49.803Z",
+    "messageId": "<202604201952.85951253728@smtp-relay.mailin.fr>",
+    "company": "Marsalisi Law",
+    "subject": "Marsalisi Law — 50% off AI chatbot this week",
+    "city": "Saint Petersburg",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
