@@ -9566,5 +9566,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@lhdmpls.com": {
+    "sentAt": "2026-04-20T17:36:03.099Z",
+    "messageId": "<202604201736.77895311488@smtp-relay.mailin.fr>",
+    "company": "Linden Hills Dentistry",
+    "subject": "Linden Hills Dentistry — 50% off AI chatbot this week",
+    "city": "Minneapolis",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
