@@ -1549,5 +1549,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "nkruger@gravesgarrett.com": {
+    "sentAt": "2026-04-20T15:33:42.200Z",
+    "messageId": "<202604201533.40553330001@smtp-relay.mailin.fr>",
+    "company": "Graves Garrett LLC",
+    "subject": "AI chatbot for Graves Garrett LLC — 50% off, 72 hours",
+    "city": "Kansas City",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
