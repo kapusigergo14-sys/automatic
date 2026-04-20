@@ -2051,5 +2051,73 @@
     "modernScore": 3,
     "collectedAt": "2026-04-20T17:54:36.033Z",
     "extractedFrom": "homepage:mailto"
+  },
+  {
+    "name": "CBC Dental Hygiene Clinic",
+    "website": "https://www.columbiabasin.edu/learn/discover-your-path/health-sciences/dental-hygiene-clinic/index.html",
+    "phone": "+1-509-542-4571",
+    "city": "Richland",
+    "country": "US",
+    "email": "dentalclinic@columbiabasin.edu",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-20T18:20:10.488Z",
+    "extractedFrom": "homepage:mailto"
+  },
+  {
+    "name": "Fort Myers Laser Dentistry",
+    "website": "https://www.fortmyerslaserdentist.com",
+    "city": "Fort Myers",
+    "country": "US",
+    "email": "info@fortmyerslaserdentist.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-20T18:20:11.853Z",
+    "extractedFrom": "homepage:mailto"
+  },
+  {
+    "name": "Family First Dental",
+    "website": "https://callfamilyfirst.com",
+    "city": "Tri-Cities WA",
+    "country": "US",
+    "email": "hello@callfamilyfirst.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-20T18:20:12.012Z",
+    "extractedFrom": "homepage:mailto"
+  },
+  {
+    "name": "Clearwater Dental",
+    "website": "https://www.clearwaterdental.com",
+    "phone": "+1-509-783-5000",
+    "city": "Kennewick",
+    "country": "US",
+    "email": "info@clearwaterdental.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-20T18:20:13.502Z",
+    "extractedFrom": "homepage:text"
+  },
+  {
+    "name": "Billings Family Dentistry",
+    "website": "https://billingsfamilydds.com",
+    "city": "Metairie",
+    "country": "US",
+    "email": "info@billingsfamilydds.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-20T18:20:17.824Z",
+    "extractedFrom": "homepage:text"
+  },
+  {
+    "name": "Columbia Basin Pediatric Dentistry",
+    "website": "https://www.yvfwc.com/locations/columbia-basin-pediatric-dentistry",
+    "city": "Kennewick",
+    "country": "US",
+    "email": "concerns@yvfwc.org",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-20T18:20:19.078Z",
+    "extractedFrom": "contact:mailto"
   }
 ]

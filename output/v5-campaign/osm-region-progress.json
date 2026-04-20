@@ -1860,5 +1860,26 @@
     "lastNewLeads": 2,
     "totalNewLeads": 2,
     "lastResultsCount": 13
+  },
+  "US-TRI-CITIES": {
+    "lastRunAt": "2026-04-20T18:20:19.079Z",
+    "totalRuns": 1,
+    "lastNewLeads": 4,
+    "totalNewLeads": 4,
+    "lastResultsCount": 7
+  },
+  "US-CAPE-CORAL": {
+    "lastRunAt": "2026-04-20T18:20:19.079Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 4
+  },
+  "US-NEW-ORLEANS": {
+    "lastRunAt": "2026-04-20T18:20:19.079Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 7
   }
 }
