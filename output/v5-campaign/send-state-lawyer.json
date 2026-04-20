@@ -1813,5 +1813,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@ericramoslaw.com": {
+    "sentAt": "2026-04-20T15:36:24.354Z",
+    "messageId": "<202604201536.87856286890@smtp-relay.mailin.fr>",
+    "company": "Eric Ramos Law, PLLC",
+    "subject": "AI chatbot for Eric Ramos Law PLLC — 50% off, 72 hours",
+    "city": "Laredo",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
