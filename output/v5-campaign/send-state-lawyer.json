@@ -2737,5 +2737,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@iplg.com": {
+    "sentAt": "2026-04-20T16:24:20.100Z",
+    "messageId": "<202604201624.60154452224@smtp-relay.mailin.fr>",
+    "company": "Intellectual Property Law Group",
+    "subject": "AI chatbot for Intellectual Property Law Group — 50% off, 72 hours",
+    "city": "San Jose",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
