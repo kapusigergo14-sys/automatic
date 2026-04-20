@@ -1758,5 +1758,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "janene.jackson@hklaw.com": {
+    "sentAt": "2026-04-20T15:35:49.679Z",
+    "messageId": "<202604201535.77215709051@smtp-relay.mailin.fr>",
+    "company": "Holland & Knight",
+    "subject": "Quick one for Holland & Knight — AI chatbot 50% off right now",
+    "city": "Arlington VA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
