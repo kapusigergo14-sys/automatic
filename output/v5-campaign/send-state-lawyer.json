@@ -1417,5 +1417,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "dev@crosscountrycreative.com": {
+    "sentAt": "2026-04-20T15:32:20.664Z",
+    "messageId": "<202604201532.89932319432@smtp-relay.mailin.fr>",
+    "company": "Charbonnet Law Firm",
+    "subject": "AI chatbot for Charbonnet Law Firm — 50% off, 72 hours",
+    "city": "New Orleans LA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
