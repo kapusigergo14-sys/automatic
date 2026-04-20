@@ -3067,5 +3067,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "scovarrubias@hanklacayo.org": {
+    "sentAt": "2026-04-20T19:54:03.108Z",
+    "messageId": "<202604201954.19265715759@smtp-relay.mailin.fr>",
+    "company": "La Hermandad Hank Lacayo",
+    "subject": "Quick one for La Hermandad Hank Lacayo — AI chatbot 50% off right now",
+    "city": "Oxnard CA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
