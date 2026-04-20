@@ -9346,5 +9346,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "first.last@company.com": {
+    "sentAt": "2026-04-20T17:33:58.092Z",
+    "messageId": "<202604201733.90123365524@smtp-relay.mailin.fr>",
+    "company": "El Rio Northwest Dental",
+    "subject": "AI chatbot for El Rio Northwest Dental — 50% off, 72 hours",
+    "city": "Tucson",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
