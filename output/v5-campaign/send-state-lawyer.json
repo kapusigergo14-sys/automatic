@@ -1703,5 +1703,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "comm@chacelaw.com": {
+    "sentAt": "2026-04-20T15:35:16.217Z",
+    "messageId": "<202604201535.38931451860@smtp-relay.mailin.fr>",
+    "company": "ChaceLaw",
+    "subject": "ChaceLaw — 50% off AI chatbot this week",
+    "city": "Greenville SC",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
