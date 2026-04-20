@@ -3001,5 +3001,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "jnicholson@jnlawoffices.org": {
+    "sentAt": "2026-04-20T19:53:23.200Z",
+    "messageId": "<202604201953.77015538936@smtp-relay.mailin.fr>",
+    "company": "Law Offices of Jerry Nicholson",
+    "subject": "Quick one for Law Offices of Jerry — AI chatbot 50% off right now",
+    "city": "Long Beach",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
