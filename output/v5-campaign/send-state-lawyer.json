@@ -1362,5 +1362,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@ellisjones.co.uk": {
+    "sentAt": "2026-04-20T14:56:13.756Z",
+    "messageId": "<202604201456.41025152668@smtp-relay.mailin.fr>",
+    "company": "Ellis Jones Solicitors",
+    "subject": "AI chatbot for Ellis Jones Solicitors — 50% off, 72 hours",
+    "city": "Bournemouth ENG",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
