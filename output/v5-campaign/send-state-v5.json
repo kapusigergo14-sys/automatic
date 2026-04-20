@@ -9918,5 +9918,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "jonschroeder1@gmail.com": {
+    "sentAt": "2026-04-20T17:39:23.957Z",
+    "messageId": "<202604201739.94709283955@smtp-relay.mailin.fr>",
+    "company": "Katie Milden DDS Family Dentistry",
+    "subject": "Quick one for Katie Milden DDS Family — AI chatbot 50% off right now",
+    "city": "Cedar Rapids",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
