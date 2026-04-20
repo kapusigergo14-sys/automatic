@@ -2979,5 +2979,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@lawfran.com": {
+    "sentAt": "2026-04-20T19:53:09.922Z",
+    "messageId": "<202604201953.29646814958@smtp-relay.mailin.fr>",
+    "company": "Fran Haasch Law Group Accident & Injury Lawyers - St. Petersburg",
+    "subject": "Fran Haasch Law Group — 50% off AI chatbot this week",
+    "city": "Saint Petersburg",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
