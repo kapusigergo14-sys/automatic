@@ -1615,5 +1615,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@bhlawpllc.com": {
+    "sentAt": "2026-04-20T15:34:22.404Z",
+    "messageId": "<202604201534.59615912725@smtp-relay.mailin.fr>",
+    "company": "Bousquet Holstein PLLC",
+    "subject": "AI chatbot for Bousquet Holstein PLLC — 50% off, 72 hours",
+    "city": "Syracuse",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
