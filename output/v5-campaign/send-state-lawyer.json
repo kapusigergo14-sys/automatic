@@ -3980,5 +3980,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@taitlawyers.com.au": {
+    "sentAt": "2026-04-21T18:41:53.460Z",
+    "messageId": "<202604211841.70586476625@smtp-relay.mailin.fr>",
+    "company": "TAIT Lawyers",
+    "subject": "AI chatbot for TAIT Lawyers — 50% off, 72 hours",
+    "city": "City of Port Phillip 07",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
