@@ -10721,5 +10721,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@stantonparkdental.com": {
+    "sentAt": "2026-04-21T17:28:33.167Z",
+    "messageId": "<202604211728.46598049707@smtp-relay.mailin.fr>",
+    "company": "Stanton Park Dental",
+    "subject": "AI chatbot for Stanton Park Dental — 50% off, 72 hours",
+    "city": "Washington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
