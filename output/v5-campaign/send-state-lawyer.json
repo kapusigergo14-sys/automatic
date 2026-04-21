@@ -3529,5 +3529,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@bruce-co.co.uk": {
+    "sentAt": "2026-04-21T17:46:41.602Z",
+    "messageId": "<202604211746.57130951582@smtp-relay.mailin.fr>",
+    "company": "Bruce & CO. Solicitors",
+    "subject": "Quick one for Bruce & CO. Solicitors — AI chatbot 50% off right now",
+    "city": "Arbroath SCT",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
