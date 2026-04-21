@@ -11568,5 +11568,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "hello@callfamilyfirst.com": {
+    "sentAt": "2026-04-21T17:36:57.569Z",
+    "messageId": "<202604211736.13336895088@smtp-relay.mailin.fr>",
+    "company": "Family First Dental",
+    "subject": "Family First Dental — 50% off AI chatbot this week",
+    "city": "Tri-Cities WA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
