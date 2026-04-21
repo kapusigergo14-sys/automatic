@@ -3540,5 +3540,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "enquiries@kerrstirling.co.uk": {
+    "sentAt": "2026-04-21T17:46:48.157Z",
+    "messageId": "<202604211746.47270512874@smtp-relay.mailin.fr>",
+    "company": "Kerr Stirling",
+    "subject": "Kerr Stirling — 50% off AI chatbot this week",
+    "city": "Stirling",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
