@@ -3584,5 +3584,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "lawyers@bondadams.com": {
+    "sentAt": "2026-04-21T17:47:13.931Z",
+    "messageId": "<202604211747.71821081078@smtp-relay.mailin.fr>",
+    "company": "Bond Adams",
+    "subject": "AI chatbot for Bond Adams — 50% off, 72 hours",
+    "city": "Aldershot",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
