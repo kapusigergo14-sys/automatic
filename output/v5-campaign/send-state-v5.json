@@ -11194,5 +11194,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "luciedental@mydentalmail.com": {
+    "sentAt": "2026-04-21T17:33:15.105Z",
+    "messageId": "<202604211733.29140761634@smtp-relay.mailin.fr>",
+    "company": "Lucie Dental",
+    "subject": "Quick one for Lucie Dental — AI chatbot 50% off right now",
+    "city": "Port St Lucie",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
