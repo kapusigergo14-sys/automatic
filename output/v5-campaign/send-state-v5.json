@@ -10655,5 +10655,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "riverhousedental@hotmail.com": {
+    "sentAt": "2026-04-21T17:27:54.183Z",
+    "messageId": "<202604211727.60319034545@smtp-relay.mailin.fr>",
+    "company": "The Dental Office at River House",
+    "subject": "AI chatbot for The Dental Office at — 50% off, 72 hours",
+    "city": "Arlington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
