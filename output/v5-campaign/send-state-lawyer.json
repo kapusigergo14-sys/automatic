@@ -3386,5 +3386,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "jake@pulsemarketing.co": {
+    "sentAt": "2026-04-21T17:25:09.291Z",
+    "messageId": "<202604211725.85120780030@smtp-relay.mailin.fr>",
+    "company": "Bolen, Robinson & Ellis LLP",
+    "subject": "Bolen Robinson & Ellis — 50% off AI chatbot this week",
+    "city": "Decatur",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
