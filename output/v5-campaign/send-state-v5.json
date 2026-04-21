@@ -10963,5 +10963,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@missionpediatricdentist.com": {
+    "sentAt": "2026-04-21T17:30:57.612Z",
+    "messageId": "<202604211730.27022122930@smtp-relay.mailin.fr>",
+    "company": "Mission Pediatric Dentistry",
+    "subject": "Quick one for Mission Pediatric Dentistry — AI chatbot 50% off right now",
+    "city": "Mission",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
