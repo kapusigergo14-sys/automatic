@@ -10710,5 +10710,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@jlamdds.com": {
+    "sentAt": "2026-04-21T17:28:26.676Z",
+    "messageId": "<202604211728.51686849978@smtp-relay.mailin.fr>",
+    "company": "SJ Dental",
+    "subject": "SJ Dental — 50% off AI chatbot this week",
+    "city": "San Jose",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
