@@ -11040,5 +11040,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@pasteldentalcare.com": {
+    "sentAt": "2026-04-21T17:31:43.374Z",
+    "messageId": "<202604211731.41721478108@smtp-relay.mailin.fr>",
+    "company": "Pastel Dental",
+    "subject": "Pastel Dental — 50% off AI chatbot this week",
+    "city": "San Francisco CA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
