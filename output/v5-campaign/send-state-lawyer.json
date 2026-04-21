@@ -3958,5 +3958,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@merhilawyers.com.au": {
+    "sentAt": "2026-04-21T18:41:40.406Z",
+    "messageId": "<202604211841.40699892393@smtp-relay.mailin.fr>",
+    "company": "Merhi Lawyers",
+    "subject": "Quick one for Merhi Lawyers — AI chatbot 50% off right now",
+    "city": "City of Port Phillip 07",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
