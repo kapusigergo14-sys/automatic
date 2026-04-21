@@ -10919,5 +10919,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@sherwoodsmile.com": {
+    "sentAt": "2026-04-21T17:30:31.024Z",
+    "messageId": "<202604211730.83995633906@smtp-relay.mailin.fr>",
+    "company": "Sherwood Smile - Jeff Powell, DDS",
+    "subject": "AI chatbot for Sherwood Smile — 50% off, 72 hours",
+    "city": "Little Rock AR",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
