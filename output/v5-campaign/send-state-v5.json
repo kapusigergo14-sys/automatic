@@ -11755,5 +11755,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "enquiry@advancedentalclinic.com": {
+    "sentAt": "2026-04-21T17:38:47.336Z",
+    "messageId": "<202604211738.21334662684@smtp-relay.mailin.fr>",
+    "company": "Advance Dental Clinic",
+    "subject": "Quick one for Advance Dental Clinic — AI chatbot 50% off right now",
+    "city": "Chelmsford",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
