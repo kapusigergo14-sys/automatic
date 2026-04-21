@@ -11469,5 +11469,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@grovesdentalcentre.co.uk": {
+    "sentAt": "2026-04-21T17:35:59.496Z",
+    "messageId": "<202604211735.86008240414@smtp-relay.mailin.fr>",
+    "company": "Groves Dental Centre",
+    "subject": "Groves Dental Centre — 50% off AI chatbot this week",
+    "city": "New Malden",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
