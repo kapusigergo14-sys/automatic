@@ -3562,5 +3562,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@pbh-law.co.uk": {
+    "sentAt": "2026-04-21T17:47:01.164Z",
+    "messageId": "<202604211747.62929372061@smtp-relay.mailin.fr>",
+    "company": "Place, Blair & Hatch, Solicitors",
+    "subject": "Quick one for Place Blair & Hatch — AI chatbot 50% off right now",
+    "city": "Northallerton",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
