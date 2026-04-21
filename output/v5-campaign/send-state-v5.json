@@ -11216,5 +11216,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@illumedental.com": {
+    "sentAt": "2026-04-21T17:33:28.785Z",
+    "messageId": "<202604211733.13630746889@smtp-relay.mailin.fr>",
+    "company": "Illume Dental of McKinney",
+    "subject": "AI chatbot for Illume Dental of McKinney — 50% off, 72 hours",
+    "city": "McKinney TX",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
