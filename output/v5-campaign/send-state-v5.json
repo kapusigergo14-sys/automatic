@@ -11447,5 +11447,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "mackworth@rodericksdental.co.uk": {
+    "sentAt": "2026-04-21T17:35:46.496Z",
+    "messageId": "<202604211735.99499271621@smtp-relay.mailin.fr>",
+    "company": "Mackworth Dental Practice",
+    "subject": "AI chatbot for Mackworth Dental Practice — 50% off, 72 hours",
+    "city": "Derby",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
