@@ -3628,5 +3628,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "law@hayes-storr.com": {
+    "sentAt": "2026-04-21T17:47:40.391Z",
+    "messageId": "<202604211747.98438188045@smtp-relay.mailin.fr>",
+    "company": "Hayes + Storr Solicitors",
+    "subject": "Quick one for Hayes Storr Solicitors — AI chatbot 50% off right now",
+    "city": "King's Lynn",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
