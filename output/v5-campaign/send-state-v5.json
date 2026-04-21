@@ -10567,5 +10567,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "pgdental@alexandriakidsdentist.com": {
+    "sentAt": "2026-04-21T17:27:01.564Z",
+    "messageId": "<202604211727.56641682241@smtp-relay.mailin.fr>",
+    "company": "Parker-Gray Pediatric Dental Care",
+    "subject": "Quick one for Parker — AI chatbot 50% off right now",
+    "city": "Alexandria",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
