@@ -10941,5 +10941,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "customerservice@myidealdental.com": {
+    "sentAt": "2026-04-21T17:30:44.156Z",
+    "messageId": "<202604211730.36673024739@smtp-relay.mailin.fr>",
+    "company": "Ideal Dental",
+    "subject": "Ideal Dental — 50% off AI chatbot this week",
+    "city": "Pasadena TX",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
