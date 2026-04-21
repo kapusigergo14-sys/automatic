@@ -10875,5 +10875,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "fortworth@polishedfamilydental.com": {
+    "sentAt": "2026-04-21T17:30:04.629Z",
+    "messageId": "<202604211730.21753414715@smtp-relay.mailin.fr>",
+    "company": "Polished Family Dental",
+    "subject": "Polished Family Dental — 50% off AI chatbot this week",
+    "city": "Fort Worth TX",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
