@@ -11073,5 +11073,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "draruna@cospringsdentistry.com.test-google-a.com": {
+    "sentAt": "2026-04-21T17:32:02.946Z",
+    "messageId": "<202604211732.67511949485@smtp-relay.mailin.fr>",
+    "company": "Springs Family and Cosmetic Dentistry",
+    "subject": "Springs Family and Cosmetic — 50% off AI chatbot this week",
+    "city": "Colorado Springs",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
