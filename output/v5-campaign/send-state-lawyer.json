@@ -3925,5 +3925,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "admin@justicefamilylawyers.com.au": {
+    "sentAt": "2026-04-21T18:41:20.595Z",
+    "messageId": "<202604211841.41490777994@smtp-relay.mailin.fr>",
+    "company": "Justice Family Lawyers Melbourne",
+    "subject": "Quick one for Justice Family Lawyers Melbourne — AI chatbot 50% off right now",
+    "city": "City of Port Phillip 07",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
