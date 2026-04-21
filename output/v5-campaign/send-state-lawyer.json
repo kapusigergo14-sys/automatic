@@ -3144,5 +3144,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "edinburgh@adamswhyte.com": {
+    "sentAt": "2026-04-21T17:22:40.372Z",
+    "messageId": "<202604211722.51155979261@smtp-relay.mailin.fr>",
+    "company": "Adams Whyte",
+    "subject": "Quick one for Adams Whyte — AI chatbot 50% off right now",
+    "city": "Livingston SCT",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
