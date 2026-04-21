@@ -11370,5 +11370,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@wimbledondentalcare.co.uk": {
+    "sentAt": "2026-04-21T17:35:00.666Z",
+    "messageId": "<202604211735.38693244086@smtp-relay.mailin.fr>",
+    "company": "Wimbledon Dental Centre",
+    "subject": "Wimbledon Dental Centre — 50% off AI chatbot this week",
+    "city": "Sutton ENG",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
