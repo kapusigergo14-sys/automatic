@@ -3221,5 +3221,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "leecountydocs@gmail.com": {
+    "sentAt": "2026-04-21T17:23:27.967Z",
+    "messageId": "<202604211723.74653224992@smtp-relay.mailin.fr>",
+    "company": "Lee County Document Preparation, Inc.",
+    "subject": "Lee County Document Preparation — 50% off AI chatbot this week",
+    "city": "Fort Myers",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
