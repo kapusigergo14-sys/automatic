@@ -3892,5 +3892,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "admin@fjrlawyers.com.au": {
+    "sentAt": "2026-04-21T18:41:01.122Z",
+    "messageId": "<202604211841.49199495481@smtp-relay.mailin.fr>",
+    "company": "FJR Lawyers",
+    "subject": "Quick one for FJR Lawyers — AI chatbot 50% off right now",
+    "city": "Brunswick",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
