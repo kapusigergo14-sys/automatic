@@ -3210,5 +3210,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@charltonweeks.com": {
+    "sentAt": "2026-04-21T17:23:21.345Z",
+    "messageId": "<202604211723.31756955515@smtp-relay.mailin.fr>",
+    "company": "Charlton Weeks LLP",
+    "subject": "Quick one for Charlton Weeks LLP — AI chatbot 50% off right now",
+    "city": "Palmdale",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
