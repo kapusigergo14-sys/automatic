@@ -3397,5 +3397,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "obie26@aol.com": {
+    "sentAt": "2026-04-21T17:25:15.829Z",
+    "messageId": "<202604211725.30305567055@smtp-relay.mailin.fr>",
+    "company": "Obie Law",
+    "subject": "AI chatbot for Obie Law — 50% off, 72 hours",
+    "city": "Bel Air",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
