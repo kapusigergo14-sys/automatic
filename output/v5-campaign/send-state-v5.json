@@ -10974,5 +10974,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "smldentalgroup@gmail.com": {
+    "sentAt": "2026-04-21T17:31:04.156Z",
+    "messageId": "<202604211731.25022271142@smtp-relay.mailin.fr>",
+    "company": "Hancock Family Dentistry",
+    "subject": "Hancock Family Dentistry — 50% off AI chatbot this week",
+    "city": "Colorado Springs",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
