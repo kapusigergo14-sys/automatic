@@ -10589,5 +10589,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "office@nalasmiles.com": {
+    "sentAt": "2026-04-21T17:27:15.198Z",
+    "messageId": "<202604211727.76854830785@smtp-relay.mailin.fr>",
+    "company": "Dentist Ashley S. Nguyen",
+    "subject": "AI chatbot for Dentist Ashley S. Nguyen — 50% off, 72 hours",
+    "city": "Washington DC",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
