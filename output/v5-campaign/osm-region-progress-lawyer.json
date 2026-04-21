@@ -2504,5 +2504,96 @@
     "lastNewLeads": 2,
     "totalNewLeads": 2,
     "lastResultsCount": 2
+  },
+  "US-LANCASTER": {
+    "lastRunAt": "2026-04-21T15:38:42.340Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 3
+  },
+  "US-CAPE-CORAL": {
+    "lastRunAt": "2026-04-21T15:38:42.340Z",
+    "totalRuns": 1,
+    "lastNewLeads": 7,
+    "totalNewLeads": 7,
+    "lastResultsCount": 27
+  },
+  "US-SANTA-CLARITA": {
+    "lastRunAt": "2026-04-21T15:38:42.340Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-CORPUS-CHRISTI": {
+    "lastRunAt": "2026-04-21T15:38:42.340Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 5
+  },
+  "US-MCKINNEY": {
+    "lastRunAt": "2026-04-21T15:38:42.340Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "US-COLUMBUS-GA": {
+    "lastRunAt": "2026-04-21T15:38:42.340Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "US-CYPRESS": {
+    "lastRunAt": "2026-04-21T15:38:42.340Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 3
+  },
+  "US-ST-LOUIS": {
+    "lastRunAt": "2026-04-21T15:38:42.340Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 8
+  },
+  "US-FORT-WAYNE": {
+    "lastRunAt": "2026-04-21T15:38:42.340Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 3
+  },
+  "US-WINSTON-SALEM": {
+    "lastRunAt": "2026-04-21T15:38:42.340Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 5
+  },
+  "US-PASADENA": {
+    "lastRunAt": "2026-04-21T15:38:42.340Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-JACKSON": {
+    "lastRunAt": "2026-04-21T15:38:42.340Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 3
+  },
+  "US-FREMONT": {
+    "lastRunAt": "2026-04-21T15:38:42.340Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
   }
 }
