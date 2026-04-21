@@ -3716,5 +3716,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "clientservices@southernwaters.com.au": {
+    "sentAt": "2026-04-21T18:39:16.088Z",
+    "messageId": "<202604211839.33959471466@smtp-relay.mailin.fr>",
+    "company": "Millards Lawyers",
+    "subject": "AI chatbot for Millards Lawyers — 50% off, 72 hours",
+    "city": "Avalon Beach",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
