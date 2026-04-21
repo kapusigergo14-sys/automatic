@@ -3496,5 +3496,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@trusted.legal": {
+    "sentAt": "2026-04-21T17:26:16.424Z",
+    "messageId": "<202604211726.87273643468@smtp-relay.mailin.fr>",
+    "company": "Trusted Legal",
+    "subject": "AI chatbot for Trusted Legal — 50% off, 72 hours",
+    "city": "Santa Barbara",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
