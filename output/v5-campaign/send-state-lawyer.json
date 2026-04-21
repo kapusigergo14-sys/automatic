@@ -3848,5 +3848,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "lauren@laurentyelegal.com.au": {
+    "sentAt": "2026-04-21T18:40:34.762Z",
+    "messageId": "<202604211840.75304838387@smtp-relay.mailin.fr>",
+    "company": "Lauren Tye Legal",
+    "subject": "AI chatbot for Lauren Tye Legal — 50% off, 72 hours",
+    "city": "City of Port Phillip 07",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
