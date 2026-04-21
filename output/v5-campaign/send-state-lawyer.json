@@ -3507,5 +3507,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "jeberst@eberstlaw.com": {
+    "sentAt": "2026-04-21T17:46:28.847Z",
+    "messageId": "<202604211746.96858961684@smtp-relay.mailin.fr>",
+    "company": "The Eberst Law Firm - Car Accident & Personal Injury Attorneys",
+    "subject": "The Eberst Law Firm — 50% off AI chatbot this week",
+    "city": "Gainesville",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
