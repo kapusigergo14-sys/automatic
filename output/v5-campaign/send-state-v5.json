@@ -11029,5 +11029,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "hsdportal@gmail.com": {
+    "sentAt": "2026-04-21T17:31:36.662Z",
+    "messageId": "<202604211731.18497547042@smtp-relay.mailin.fr>",
+    "company": "Haight Street Dental",
+    "subject": "Quick one for Haight Street Dental — AI chatbot 50% off right now",
+    "city": "San Francisco CA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
