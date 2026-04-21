@@ -11722,5 +11722,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "advent-sharrow-dental@dentallymail.co.uk": {
+    "sentAt": "2026-04-21T17:38:28.013Z",
+    "messageId": "<202604211738.89096727086@smtp-relay.mailin.fr>",
+    "company": "Advent Dental Practice",
+    "subject": "Quick one for Advent Dental Practice — AI chatbot 50% off right now",
+    "city": "Chelmsford",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
