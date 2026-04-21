@@ -10831,5 +10831,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@briscoedentistry.com": {
+    "sentAt": "2026-04-21T17:29:38.703Z",
+    "messageId": "<202604211729.45737622423@smtp-relay.mailin.fr>",
+    "company": "Todd P. Briscoe DDS",
+    "subject": "Quick one for Todd P. Briscoe DDS — AI chatbot 50% off right now",
+    "city": "Fort Wayne",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
