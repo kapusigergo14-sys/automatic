@@ -11403,5 +11403,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception.mdc@outlook.com": {
+    "sentAt": "2026-04-21T17:35:20.841Z",
+    "messageId": "<202604211735.84605750527@smtp-relay.mailin.fr>",
+    "company": "Manor Dental Care",
+    "subject": "Manor Dental Care — 50% off AI chatbot this week",
+    "city": "Wallington",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
