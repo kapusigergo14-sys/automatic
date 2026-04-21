@@ -10798,5 +10798,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "sam@imagineorthostudio.com": {
+    "sentAt": "2026-04-21T17:29:19.143Z",
+    "messageId": "<202604211729.71572557561@smtp-relay.mailin.fr>",
+    "company": "Imagine Orthodontic Studio",
+    "subject": "Quick one for Imagine Orthodontic Studio — AI chatbot 50% off right now",
+    "city": "Pinellas Park",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
