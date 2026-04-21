@@ -3353,5 +3353,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "lawtrist@gmail.com": {
+    "sentAt": "2026-04-21T17:24:49.257Z",
+    "messageId": "<202604211724.71843828389@smtp-relay.mailin.fr>",
+    "company": "The Jagroop Law Office, Inc.",
+    "subject": "The Jagroop Law Office — 50% off AI chatbot this week",
+    "city": "Newark",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
