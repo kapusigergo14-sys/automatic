@@ -11315,5 +11315,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info.ipswich@allenhousedental.co.uk": {
+    "sentAt": "2026-04-21T17:34:27.638Z",
+    "messageId": "<202604211734.35164794315@smtp-relay.mailin.fr>",
+    "company": "Allen House Dental",
+    "subject": "AI chatbot for Allen House Dental — 50% off, 72 hours",
+    "city": "Ipswich",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
