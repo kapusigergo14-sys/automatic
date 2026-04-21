@@ -11436,5 +11436,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@derbycitydentalcare.com": {
+    "sentAt": "2026-04-21T17:35:40.059Z",
+    "messageId": "<202604211735.94695316164@smtp-relay.mailin.fr>",
+    "company": "Derby City Dental Care",
+    "subject": "Derby City Dental Care — 50% off AI chatbot this week",
+    "city": "Derby",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
