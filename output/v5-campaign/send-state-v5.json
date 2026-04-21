@@ -11106,5 +11106,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "getperfectsmile@kingstdental.com": {
+    "sentAt": "2026-04-21T17:32:22.972Z",
+    "messageId": "<202604211732.49030443691@smtp-relay.mailin.fr>",
+    "company": "King St. Dental",
+    "subject": "King St. Dental — 50% off AI chatbot this week",
+    "city": "San Francisco CA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 2
   }
 }
