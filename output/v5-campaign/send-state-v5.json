@@ -11480,5 +11480,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "support@normantonroaddental.co.uk": {
+    "sentAt": "2026-04-21T17:36:05.820Z",
+    "messageId": "<202604211736.23630831665@smtp-relay.mailin.fr>",
+    "company": "Normanton Road Family Dental Centre",
+    "subject": "AI chatbot for Normanton Road Family Dental — 50% off, 72 hours",
+    "city": "Derby",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
