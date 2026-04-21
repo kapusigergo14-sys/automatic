@@ -43,14 +43,15 @@ interface CountryConfig {
   bboxHalfDeg: number;
 }
 
-// Raised thresholds after observing low dental/business OSM coverage in
-// sub-100k US towns. Smaller cities consistently return 0 candidates,
-// wasting our Overpass budget. Keeping only mid-to-large cities where
-// OSM has meaningful commercial POI density.
+// Lowered thresholds to expand region pool to 1000+ cities. Smaller US
+// towns have thinner OSM commercial-POI coverage, but for lawyer/plumber/
+// hvac industries even small towns have at least 1-3 providers, so the
+// per-region yield is lower but the aggregate volume is worth it. Tight
+// bboxHalfDeg per tier prevents neighboring-town bleed.
 const COUNTRIES: CountryConfig[] = [
-  { market: 'US', geonamesCode: 'US', minPop: 150_000, bboxHalfDeg: 0.09 },
-  { market: 'UK', geonamesCode: 'GB', minPop: 50_000,  bboxHalfDeg: 0.06 },
-  { market: 'AU', geonamesCode: 'AU', minPop: 50_000,  bboxHalfDeg: 0.08 },
+  { market: 'US', geonamesCode: 'US', minPop: 20_000, bboxHalfDeg: 0.05 },
+  { market: 'UK', geonamesCode: 'GB', minPop: 15_000, bboxHalfDeg: 0.04 },
+  { market: 'AU', geonamesCode: 'AU', minPop: 15_000, bboxHalfDeg: 0.05 },
 ];
 
 // Minimum distance between two kept cities, in km. Same-name cities in
