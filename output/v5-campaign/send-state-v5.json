@@ -11799,5 +11799,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "appts@chelmervillagedental.co.uk": {
+    "sentAt": "2026-04-21T17:39:13.250Z",
+    "messageId": "<202604211739.89145859535@smtp-relay.mailin.fr>",
+    "company": "Chelmer Village Dental",
+    "subject": "Chelmer Village Dental — 50% off AI chatbot this week",
+    "city": "Chelmsford",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
