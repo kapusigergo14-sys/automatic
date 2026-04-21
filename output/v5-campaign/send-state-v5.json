@@ -11128,5 +11128,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "themissiondental@gmail.com": {
+    "sentAt": "2026-04-21T17:32:35.986Z",
+    "messageId": "<202604211732.47172006182@smtp-relay.mailin.fr>",
+    "company": "Mission Dental",
+    "subject": "Quick one for Mission Dental — AI chatbot 50% off right now",
+    "city": "San Francisco",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
