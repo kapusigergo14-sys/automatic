@@ -1881,5 +1881,187 @@
     "lastNewLeads": 1,
     "totalNewLeads": 1,
     "lastResultsCount": 7
+  },
+  "US-ELK-GROVE": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-SOUTHEND-ON-SEA": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "UK-TELFORD": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "UK-NORTHAMPTON": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 6,
+    "totalNewLeads": 6,
+    "lastResultsCount": 13
+  },
+  "UK-AYLESBURY": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-NEWCASTLE-UPON-TYNE": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 19
+  },
+  "UK-LUTON": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-NORWICH": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-SWINDON": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-WINSTON-SALEM": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 4
+  },
+  "UK-CLACTON-ON-SEA": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "UK-CHELMSFORD": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 7,
+    "totalNewLeads": 7,
+    "lastResultsCount": 15
+  },
+  "UK-CREWE": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-RANCHO-CUCAMONGA": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 11
+  },
+  "UK-PAIGNTON": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 5
+  },
+  "US-AURORA": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 7
+  },
+  "UK-MILTON-KEYNES": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 3
+  },
+  "UK-HEREFORD": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 1
+  },
+  "UK-MAIDSTONE": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-BROWNSVILLE": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-SALT-LAKE-CITY": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 29
+  },
+  "US-FORT-LAUDERDALE": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 5
+  },
+  "US-OXNARD": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 3
+  },
+  "US-FREMONT": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 6
+  },
+  "US-FORT-COLLINS": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 5,
+    "totalNewLeads": 5,
+    "lastResultsCount": 22
+  },
+  "US-MURFREESBORO": {
+    "lastRunAt": "2026-04-21T16:17:43.724Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 3
   }
 }
