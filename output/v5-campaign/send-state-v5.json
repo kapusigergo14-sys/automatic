@@ -11623,5 +11623,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@eastparkdental.co.uk": {
+    "sentAt": "2026-04-21T17:37:29.827Z",
+    "messageId": "<202604211737.99558020178@smtp-relay.mailin.fr>",
+    "company": "East Park Dental Practice",
+    "subject": "Quick one for East Park Dental Practice — AI chatbot 50% off right now",
+    "city": "Northampton",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
