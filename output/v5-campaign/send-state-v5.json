@@ -10611,5 +10611,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "delitedental@gmail.com": {
+    "sentAt": "2026-04-21T17:27:28.136Z",
+    "messageId": "<202604211727.86952660954@smtp-relay.mailin.fr>",
+    "company": "Delite Dental, PLLC",
+    "subject": "Delite Dental PLLC — 50% off AI chatbot this week",
+    "city": "Washington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
