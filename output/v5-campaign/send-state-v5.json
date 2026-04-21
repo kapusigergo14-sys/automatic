@@ -11667,5 +11667,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "victoria.promenade@rodericksdental.co.uk": {
+    "sentAt": "2026-04-21T17:37:55.615Z",
+    "messageId": "<202604211737.25702686864@smtp-relay.mailin.fr>",
+    "company": "Victoria Promenade Dental Surgery",
+    "subject": "Victoria Promenade Dental Surgery — 50% off AI chatbot this week",
+    "city": "Northampton",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
