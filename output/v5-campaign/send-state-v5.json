@@ -11612,5 +11612,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@flossdental.co.uk": {
+    "sentAt": "2026-04-21T17:37:23.313Z",
+    "messageId": "<202604211737.56671607113@smtp-relay.mailin.fr>",
+    "company": "Floss",
+    "subject": "AI chatbot for Floss — 50% off, 72 hours",
+    "city": "Northampton",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
