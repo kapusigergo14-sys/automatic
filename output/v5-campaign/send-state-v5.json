@@ -11700,5 +11700,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@jawdocs.com": {
+    "sentAt": "2026-04-21T17:38:15.203Z",
+    "messageId": "<202604211738.31211817228@smtp-relay.mailin.fr>",
+    "company": "Smith & Shehan Oral and Maxillofacial Surgery",
+    "subject": "Smith & Shehan Oral — 50% off AI chatbot this week",
+    "city": "Winston-Salem",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
