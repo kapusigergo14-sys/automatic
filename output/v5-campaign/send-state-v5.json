@@ -10633,5 +10633,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "staff@thedcdentist.com": {
+    "sentAt": "2026-04-21T17:27:41.178Z",
+    "messageId": "<202604211727.89022917191@smtp-relay.mailin.fr>",
+    "company": "The DC Dentist",
+    "subject": "Quick one for The DC Dentist — AI chatbot 50% off right now",
+    "city": "Washington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
