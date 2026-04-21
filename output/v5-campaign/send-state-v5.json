@@ -10578,5 +10578,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "officemanager@takomadentist.com": {
+    "sentAt": "2026-04-21T17:27:08.667Z",
+    "messageId": "<202604211727.37130688246@smtp-relay.mailin.fr>",
+    "company": "Premier Dental Care",
+    "subject": "Premier Dental Care — 50% off AI chatbot this week",
+    "city": "Washington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
