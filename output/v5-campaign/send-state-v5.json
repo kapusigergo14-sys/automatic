@@ -10622,5 +10622,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@dentaldevotion.com": {
+    "sentAt": "2026-04-21T17:27:34.650Z",
+    "messageId": "<202604211727.25347576465@smtp-relay.mailin.fr>",
+    "company": "Dental Devotion of Arlington",
+    "subject": "AI chatbot for Dental Devotion of Arlington — 50% off, 72 hours",
+    "city": "Arlington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
