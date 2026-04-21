@@ -11161,5 +11161,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "appointments@allfamilydentalcarelancaster.com": {
+    "sentAt": "2026-04-21T17:32:55.558Z",
+    "messageId": "<202604211732.28132654766@smtp-relay.mailin.fr>",
+    "company": "All Family Dental Care",
+    "subject": "Quick one for All Family Dental Care — AI chatbot 50% off right now",
+    "city": "Lancaster",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
