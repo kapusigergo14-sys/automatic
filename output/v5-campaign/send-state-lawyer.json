@@ -3474,5 +3474,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "frontdesk@reetzfox.com": {
+    "sentAt": "2026-04-21T17:26:03.037Z",
+    "messageId": "<202604211726.36912720542@smtp-relay.mailin.fr>",
+    "company": "Reetz Fox & Bartlett LLP",
+    "subject": "Quick one for Reetz Fox & Bartlett — AI chatbot 50% off right now",
+    "city": "Santa Barbara",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
