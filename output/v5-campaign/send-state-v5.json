@@ -11139,5 +11139,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@salinasdentalhealth.com": {
+    "sentAt": "2026-04-21T17:32:42.351Z",
+    "messageId": "<202604211732.40683137684@smtp-relay.mailin.fr>",
+    "company": "Salinas Dental Health",
+    "subject": "Salinas Dental Health — 50% off AI chatbot this week",
+    "city": "Salinas",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
