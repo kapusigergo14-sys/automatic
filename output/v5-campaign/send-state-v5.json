@@ -10688,5 +10688,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@1bethesdadentalcenter.com": {
+    "sentAt": "2026-04-21T17:28:13.560Z",
+    "messageId": "<202604211728.29942555769@smtp-relay.mailin.fr>",
+    "company": "1 Bethesda Dental Center",
+    "subject": "AI chatbot for 1 Bethesda Dental Center — 50% off, 72 hours",
+    "city": "Bethesda",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
