@@ -11238,5 +11238,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "bernersdental@btconnect.com": {
+    "sentAt": "2026-04-21T17:33:41.857Z",
+    "messageId": "<202604211733.13056716932@smtp-relay.mailin.fr>",
+    "company": "Berners Dental Practice",
+    "subject": "Berners Dental Practice — 50% off AI chatbot this week",
+    "city": "Ipswich",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
