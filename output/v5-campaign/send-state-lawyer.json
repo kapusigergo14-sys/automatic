@@ -3661,5 +3661,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "cheltenham@montpellier.legal": {
+    "sentAt": "2026-04-21T17:47:59.575Z",
+    "messageId": "<202604211747.95825447126@smtp-relay.mailin.fr>",
+    "company": "Montpellier Legal",
+    "subject": "Quick one for Montpellier Legal — AI chatbot 50% off right now",
+    "city": "Cirencester ENG",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
