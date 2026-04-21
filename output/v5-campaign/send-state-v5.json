@@ -11766,5 +11766,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "beaulieudental@btinternet.com": {
+    "sentAt": "2026-04-21T17:38:53.800Z",
+    "messageId": "<202604211738.82063121623@smtp-relay.mailin.fr>",
+    "company": "Beaulieu Dental",
+    "subject": "Beaulieu Dental — 50% off AI chatbot this week",
+    "city": "Chelmsford",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
