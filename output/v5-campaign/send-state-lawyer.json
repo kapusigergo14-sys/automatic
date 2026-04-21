@@ -3826,5 +3826,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@swiftlylegal.com.au": {
+    "sentAt": "2026-04-21T18:40:21.795Z",
+    "messageId": "<202604211840.25707600966@smtp-relay.mailin.fr>",
+    "company": "Swiftly Legal",
+    "subject": "Quick one for Swiftly Legal — AI chatbot 50% off right now",
+    "city": "City of Port Phillip 07",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
