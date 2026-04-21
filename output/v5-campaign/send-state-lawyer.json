@@ -3793,5 +3793,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@rrrlawyers.com.au": {
+    "sentAt": "2026-04-21T18:40:01.499Z",
+    "messageId": "<202604211840.78261991766@smtp-relay.mailin.fr>",
+    "company": "RRR Lawyers",
+    "subject": "Quick one for RRR Lawyers — AI chatbot 50% off right now",
+    "city": "City of Port Phillip 07",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
