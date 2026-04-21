@@ -11051,5 +11051,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "appointments@onemarketdental.com": {
+    "sentAt": "2026-04-21T17:31:49.988Z",
+    "messageId": "<202604211731.95332906158@smtp-relay.mailin.fr>",
+    "company": "One Market Dental",
+    "subject": "AI chatbot for One Market Dental — 50% off, 72 hours",
+    "city": "San Francisco",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
