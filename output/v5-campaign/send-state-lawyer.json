@@ -3914,5 +3914,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "admin@tartaglia.com.au": {
+    "sentAt": "2026-04-21T18:41:13.974Z",
+    "messageId": "<202604211841.35876599899@smtp-relay.mailin.fr>",
+    "company": "Tartaglia Lawyers",
+    "subject": "AI chatbot for Tartaglia Lawyers — 50% off, 72 hours",
+    "city": "City of Port Phillip 07",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
