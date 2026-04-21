@@ -11348,5 +11348,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@whiteenamel.me.uk": {
+    "sentAt": "2026-04-21T17:34:47.619Z",
+    "messageId": "<202604211734.88278506819@smtp-relay.mailin.fr>",
+    "company": "White Enamel",
+    "subject": "AI chatbot for White Enamel — 50% off, 72 hours",
+    "city": "Ipswich",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
