@@ -3969,5 +3969,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "hello@sanickilawyers.com.au": {
+    "sentAt": "2026-04-21T18:41:47.055Z",
+    "messageId": "<202604211841.15297421108@smtp-relay.mailin.fr>",
+    "company": "Sanicki Lawyers",
+    "subject": "Sanicki Lawyers — 50% off AI chatbot this week",
+    "city": "Prahran",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
