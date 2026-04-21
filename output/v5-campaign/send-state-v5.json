@@ -10908,5 +10908,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "hello@marconidentalaesthetics.com": {
+    "sentAt": "2026-04-21T17:30:24.456Z",
+    "messageId": "<202604211730.88507345342@smtp-relay.mailin.fr>",
+    "company": "Marconi Dental Aesthetics - Pasadena, TX",
+    "subject": "Marconi Dental Aesthetics — 50% off AI chatbot this week",
+    "city": "Pasadena",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
