@@ -3177,5 +3177,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "joe@cerinolaw.com": {
+    "sentAt": "2026-04-21T17:23:01.108Z",
+    "messageId": "<202604211723.61888785199@smtp-relay.mailin.fr>",
+    "company": "Law Office of Joseph Cerino",
+    "subject": "Quick one for Law Office of Joseph — AI chatbot 50% off right now",
+    "city": "Fort Myers",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
