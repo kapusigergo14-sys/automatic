@@ -11458,5 +11458,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@bridgedentalclinic.co.uk": {
+    "sentAt": "2026-04-21T17:35:52.847Z",
+    "messageId": "<202604211735.84987709515@smtp-relay.mailin.fr>",
+    "company": "Bridge Dental Clinic",
+    "subject": "Quick one for Bridge Dental Clinic — AI chatbot 50% off right now",
+    "city": "Derby",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
