@@ -3650,5 +3650,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@sml-law.co.uk": {
+    "sentAt": "2026-04-21T17:47:53.171Z",
+    "messageId": "<202604211747.50207115938@smtp-relay.mailin.fr>",
+    "company": "Sewell Mullings Logie",
+    "subject": "AI chatbot for Sewell Mullings Logie — 50% off, 72 hours",
+    "city": "Cirencester",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
