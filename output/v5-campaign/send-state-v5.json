@@ -11546,5 +11546,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "dentalclinic@columbiabasin.edu": {
+    "sentAt": "2026-04-21T17:36:44.558Z",
+    "messageId": "<202604211736.46650840529@smtp-relay.mailin.fr>",
+    "company": "CBC Dental Hygiene Clinic",
+    "subject": "AI chatbot for CBC Dental Hygiene Clinic — 50% off, 72 hours",
+    "city": "Richland",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
