@@ -11150,5 +11150,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@granddentistry.com": {
+    "sentAt": "2026-04-21T17:32:48.857Z",
+    "messageId": "<202604211732.64475936084@smtp-relay.mailin.fr>",
+    "company": "Grand Dentistry",
+    "subject": "AI chatbot for Grand Dentistry — 50% off, 72 hours",
+    "city": "Escondido CA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
