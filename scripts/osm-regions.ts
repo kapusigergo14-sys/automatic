@@ -3,7 +3,7 @@
  *
  * GENERATED FILE — do not edit by hand.
  * Source: https://download.geonames.org/export/dump/cities15000.zip
- * Generated: 2026-04-21T16:45:27.679Z
+ * Generated: 2026-04-21T16:55:18.232Z
  * Regenerate with: npx ts-node scripts/gen-osm-regions.ts
  *
  * Bbox format: [south, west, north, east] in decimal degrees.
@@ -21,7 +21,7 @@ export interface OsmRegion {
   bbox: [number, number, number, number];
 }
 
-export const OSM_REGIONS: OsmRegion[] = [
+const _OSM_REGIONS_DATA = [
   { code: 'US-PHOENIX', country: 'US', city: 'Phoenix AZ', pop: 1650070, bbox: [33.3984, -112.124, 33.4984, -112.024] },
   { code: 'US-PHILADELPHIA', country: 'US', city: 'Philadelphia PA', pop: 1573916, bbox: [39.9024, -75.2136, 40.0024, -75.1136] },
   { code: 'US-SAN-ANTONIO', country: 'US', city: 'San Antonio TX', pop: 1526656, bbox: [29.3741, -98.5436, 29.4741, -98.4436] },
@@ -1169,6 +1169,8 @@ export const OSM_REGIONS: OsmRegion[] = [
   { code: 'AU-ECHUCA', country: 'AU', city: 'Echuca 07', pop: 15056, bbox: [-36.1906, 144.7018, -36.0906, 144.8019] },
   { code: 'AU-WALLAN', country: 'AU', city: 'Wallan 07', pop: 15004, bbox: [-37.4662, 144.9286, -37.3663, 145.0286] },
 ];
+
+export const OSM_REGIONS: OsmRegion[] = _OSM_REGIONS_DATA as OsmRegion[];
 
 export function getRegionsForMarkets(markets: string[]): OsmRegion[] {
   const set = new Set(markets.map((m) => m.toUpperCase()));

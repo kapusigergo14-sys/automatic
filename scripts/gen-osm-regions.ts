@@ -255,7 +255,12 @@ async function main() {
   lines2.push('  bbox: [number, number, number, number];');
   lines2.push('}');
   lines2.push('');
-  lines2.push('export const OSM_REGIONS: OsmRegion[] = [');
+  // Emit as a plain array cast to OsmRegion[] at the end. Annotating the
+  // literal directly (`: OsmRegion[] = [ ... ]`) makes TypeScript compute a
+  // contextual union type over every element; with 1000+ entries this hits
+  // TS2590 "union type too complex to represent". The explicit cast defers
+  // the check to a single assignment site.
+  lines2.push('const _OSM_REGIONS_DATA = [');
   for (const r of regions) {
     const cityEscaped = r.city.replace(/'/g, "\\'");
     lines2.push(
@@ -263,6 +268,8 @@ async function main() {
     );
   }
   lines2.push('];');
+  lines2.push('');
+  lines2.push('export const OSM_REGIONS: OsmRegion[] = _OSM_REGIONS_DATA as OsmRegion[];');
   lines2.push('');
   lines2.push('export function getRegionsForMarkets(markets: string[]): OsmRegion[] {');
   lines2.push('  const set = new Set(markets.map((m) => m.toUpperCase()));');
