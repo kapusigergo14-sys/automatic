@@ -3320,5 +3320,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@emplawfirm.com": {
+    "sentAt": "2026-04-21T17:24:28.693Z",
+    "messageId": "<202604211724.90308913264@smtp-relay.mailin.fr>",
+    "company": "EMP Law",
+    "subject": "EMP Law — 50% off AI chatbot this week",
+    "city": "Winston-Salem",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
