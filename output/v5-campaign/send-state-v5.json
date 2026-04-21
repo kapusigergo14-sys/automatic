@@ -10820,5 +10820,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@jtorthodontics.com": {
+    "sentAt": "2026-04-21T17:29:32.181Z",
+    "messageId": "<202604211729.87485527719@smtp-relay.mailin.fr>",
+    "company": "JT Orthodontics",
+    "subject": "AI chatbot for JT Orthodontics — 50% off, 72 hours",
+    "city": "El Paso",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
