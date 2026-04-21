@@ -11172,5 +11172,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "richlanddentalms@hotmail.com": {
+    "sentAt": "2026-04-21T17:33:02.171Z",
+    "messageId": "<202604211733.85351509227@smtp-relay.mailin.fr>",
+    "company": "Richland Dental",
+    "subject": "Richland Dental — 50% off AI chatbot this week",
+    "city": "Richland",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
