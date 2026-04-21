@@ -3122,5 +3122,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "dafabetgolf@gmail.com": {
+    "sentAt": "2026-04-21T17:22:26.239Z",
+    "messageId": "<202604211722.88688121825@smtp-relay.mailin.fr>",
+    "company": "Worthingtons Solicitors",
+    "subject": "Worthingtons Solicitors — 50% off AI chatbot this week",
+    "city": "Folkestone",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
