@@ -3419,5 +3419,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@stephenjenningsking.com": {
+    "sentAt": "2026-04-21T17:25:29.229Z",
+    "messageId": "<202604211725.42116158367@smtp-relay.mailin.fr>",
+    "company": "Stephen Jennings King",
+    "subject": "Stephen Jennings King — 50% off AI chatbot this week",
+    "city": "Bel Air",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
