@@ -3452,5 +3452,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "contact@stellutelaw.com": {
+    "sentAt": "2026-04-21T17:25:49.600Z",
+    "messageId": "<202604211725.75690653547@smtp-relay.mailin.fr>",
+    "company": "The Stellute Law Firm",
+    "subject": "The Stellute Law Firm — 50% off AI chatbot this week",
+    "city": "Hampton",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
