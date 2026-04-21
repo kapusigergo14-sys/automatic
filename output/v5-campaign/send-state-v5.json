@@ -10765,5 +10765,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "milpitasdentalcenter@gmail.com": {
+    "sentAt": "2026-04-21T17:28:59.357Z",
+    "messageId": "<202604211728.37947150896@smtp-relay.mailin.fr>",
+    "company": "Milpitas Dental Center",
+    "subject": "Quick one for Milpitas Dental Center — AI chatbot 50% off right now",
+    "city": "Milpitas",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
