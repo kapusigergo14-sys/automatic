@@ -10743,5 +10743,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "contactus@svsmilesolutions.com": {
+    "sentAt": "2026-04-21T17:28:46.247Z",
+    "messageId": "<202604211728.84852977083@smtp-relay.mailin.fr>",
+    "company": "Silicon Valley Smile Solutions",
+    "subject": "Silicon Valley Smile Solutions — 50% off AI chatbot this week",
+    "city": "San Jose",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
