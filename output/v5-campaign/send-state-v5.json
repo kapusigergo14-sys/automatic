@@ -11304,5 +11304,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@ipswichortho.com": {
+    "sentAt": "2026-04-21T17:34:21.079Z",
+    "messageId": "<202604211734.64377884590@smtp-relay.mailin.fr>",
+    "company": "Ipswich Orthodontic Centre",
+    "subject": "Ipswich Orthodontic Centre — 50% off AI chatbot this week",
+    "city": "Ipswich",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
