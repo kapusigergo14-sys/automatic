@@ -2063,5 +2063,47 @@
     "lastNewLeads": 0,
     "totalNewLeads": 0,
     "lastResultsCount": 3
+  },
+  "US-KALISPELL": {
+    "lastRunAt": "2026-04-21T17:26:19.298Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-LIVERMORE": {
+    "lastRunAt": "2026-04-21T17:26:19.298Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 3
+  },
+  "US-LOWELL": {
+    "lastRunAt": "2026-04-21T17:26:19.298Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "UK-READING": {
+    "lastRunAt": "2026-04-21T17:26:19.298Z",
+    "totalRuns": 1,
+    "lastNewLeads": 5,
+    "totalNewLeads": 5,
+    "lastResultsCount": 6
+  },
+  "UK-DUNDEE": {
+    "lastRunAt": "2026-04-21T17:26:19.298Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 6
+  },
+  "UK-SHREWSBURY": {
+    "lastRunAt": "2026-04-21T17:26:19.298Z",
+    "totalRuns": 1,
+    "lastNewLeads": 6,
+    "totalNewLeads": 6,
+    "lastResultsCount": 8
   }
 }
