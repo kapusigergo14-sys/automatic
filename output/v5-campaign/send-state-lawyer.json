@@ -3254,5 +3254,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@muscalaw.com": {
+    "sentAt": "2026-04-21T17:23:48.138Z",
+    "messageId": "<202604211723.88517952423@smtp-relay.mailin.fr>",
+    "company": "Musca Law",
+    "subject": "Musca Law — 50% off AI chatbot this week",
+    "city": "Fort Myers",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
