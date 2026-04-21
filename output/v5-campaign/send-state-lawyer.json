@@ -3771,5 +3771,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "office@randlescooper.com.au": {
+    "sentAt": "2026-04-21T18:39:48.367Z",
+    "messageId": "<202604211839.51550553959@smtp-relay.mailin.fr>",
+    "company": "Randles Cooper Lawyers",
+    "subject": "Randles Cooper Lawyers — 50% off AI chatbot this week",
+    "city": "City of Port Phillip 07",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
