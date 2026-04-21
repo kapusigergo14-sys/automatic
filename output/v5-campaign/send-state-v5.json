@@ -11491,5 +11491,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "derby.house@rodericksdental.co.uk": {
+    "sentAt": "2026-04-21T17:36:12.107Z",
+    "messageId": "<202604211736.15156648230@smtp-relay.mailin.fr>",
+    "company": "Derby House Dental Practice",
+    "subject": "Quick one for Derby House Dental Practice — AI chatbot 50% off right now",
+    "city": "Derby",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
