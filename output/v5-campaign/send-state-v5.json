@@ -11007,5 +11007,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "citadel@premierdentalcare.com": {
+    "sentAt": "2026-04-21T17:31:23.531Z",
+    "messageId": "<202604211731.98011464319@smtp-relay.mailin.fr>",
+    "company": "Premier Dental Care",
+    "subject": "Premier Dental Care — 50% off AI chatbot this week",
+    "city": "Colorado Springs",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
