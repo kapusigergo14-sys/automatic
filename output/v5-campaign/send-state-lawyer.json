@@ -3298,5 +3298,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@lashlybaer.com": {
+    "sentAt": "2026-04-21T17:24:15.111Z",
+    "messageId": "<202604211724.14364566389@smtp-relay.mailin.fr>",
+    "company": "Lashly & Baer",
+    "subject": "AI chatbot for Lashly & Baer — 50% off, 72 hours",
+    "city": "Saint Louis",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
