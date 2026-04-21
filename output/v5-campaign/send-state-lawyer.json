@@ -3738,5 +3738,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@browne-link.com.au": {
+    "sentAt": "2026-04-21T18:39:29.111Z",
+    "messageId": "<202604211839.77663136256@smtp-relay.mailin.fr>",
+    "company": "Browne Linkenbagh Legal Services",
+    "subject": "Browne Linkenbagh Legal Services — 50% off AI chatbot this week",
+    "city": "Blue Mountains 02",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
