@@ -3133,5 +3133,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@tnasolicitors.co.uk": {
+    "sentAt": "2026-04-21T17:22:33.265Z",
+    "messageId": "<202604211722.16049468256@smtp-relay.mailin.fr>",
+    "company": "TNA Solicitors",
+    "subject": "AI chatbot for TNA Solicitors — 50% off, 72 hours",
+    "city": "Folkestone ENG",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
