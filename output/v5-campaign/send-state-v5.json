@@ -11062,5 +11062,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "hello@valenciadentalcenter.com": {
+    "sentAt": "2026-04-21T17:31:56.423Z",
+    "messageId": "<202604211731.46560438343@smtp-relay.mailin.fr>",
+    "company": "Valencia Dental",
+    "subject": "Quick one for Valencia Dental — AI chatbot 50% off right now",
+    "city": "San Francisco CA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
