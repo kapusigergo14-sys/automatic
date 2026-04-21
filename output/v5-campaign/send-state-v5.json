@@ -10930,5 +10930,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "office@mountsdentalcare.com": {
+    "sentAt": "2026-04-21T17:30:37.671Z",
+    "messageId": "<202604211730.17409002530@smtp-relay.mailin.fr>",
+    "company": "Mounts Dental Care",
+    "subject": "Quick one for Mounts Dental Care — AI chatbot 50% off right now",
+    "city": "North Little Rock",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
