@@ -10600,5 +10600,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "patientcare@facialart.com": {
+    "sentAt": "2026-04-21T17:27:21.644Z",
+    "messageId": "<202604211727.30573104377@smtp-relay.mailin.fr>",
+    "company": "Kazemi Oral Surgery & Dental Implants",
+    "subject": "Quick one for Kazemi Oral Surgery & — AI chatbot 50% off right now",
+    "city": "Bethesda",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
