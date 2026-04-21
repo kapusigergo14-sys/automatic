@@ -11832,5 +11832,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "star@stardentalgroup.com": {
+    "sentAt": "2026-04-21T17:39:32.684Z",
+    "messageId": "<202604211739.82960993544@smtp-relay.mailin.fr>",
+    "company": "Star Dental Group",
+    "subject": "Star Dental Group — 50% off AI chatbot this week",
+    "city": "Rancho Cucamonga",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
