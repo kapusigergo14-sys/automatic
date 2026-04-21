@@ -10732,5 +10732,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "care@butterflydental.net": {
+    "sentAt": "2026-04-21T17:28:39.619Z",
+    "messageId": "<202604211728.70062475976@smtp-relay.mailin.fr>",
+    "company": "Butterfly Dental Care",
+    "subject": "Quick one for Butterfly Dental Care — AI chatbot 50% off right now",
+    "city": "San Jose",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
