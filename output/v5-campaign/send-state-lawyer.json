@@ -3331,5 +3331,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@injurylawtx.com": {
+    "sentAt": "2026-04-21T17:24:35.862Z",
+    "messageId": "<202604211724.62150712585@smtp-relay.mailin.fr>",
+    "company": "Mott & Moffett LLP",
+    "subject": "AI chatbot for Mott & Moffett LLP — 50% off, 72 hours",
+    "city": "Cypress",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
