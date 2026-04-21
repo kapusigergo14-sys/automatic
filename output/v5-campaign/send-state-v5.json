@@ -11788,5 +11788,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "drricciardi@verizon.net": {
+    "sentAt": "2026-04-21T17:39:06.877Z",
+    "messageId": "<202604211739.37901194014@smtp-relay.mailin.fr>",
+    "company": "Dr Mario J Ricciardi Orthodontics",
+    "subject": "Quick one for Dr Mario J Ricciardi — AI chatbot 50% off right now",
+    "city": "Rancho Cucamonga",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
