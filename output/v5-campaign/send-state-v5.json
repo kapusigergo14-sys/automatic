@@ -11392,5 +11392,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "optmeout@bupa.com": {
+    "sentAt": "2026-04-21T17:35:13.783Z",
+    "messageId": "<202604211735.10892128230@smtp-relay.mailin.fr>",
+    "company": "Bupa Dental Care",
+    "subject": "Quick one for Bupa Dental Care — AI chatbot 50% off right now",
+    "city": "Banstead",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
