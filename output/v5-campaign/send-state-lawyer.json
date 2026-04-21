@@ -3672,5 +3672,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "cirencester@wilmots.co.uk": {
+    "sentAt": "2026-04-21T17:48:06.038Z",
+    "messageId": "<202604211748.19363530104@smtp-relay.mailin.fr>",
+    "company": "Wilmot & Co Solicitors",
+    "subject": "Wilmot & Co Solicitors — 50% off AI chatbot this week",
+    "city": "Cirencester",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
