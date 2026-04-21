@@ -3760,5 +3760,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@www.fitzroy-legal.org.au": {
+    "sentAt": "2026-04-21T18:39:42.022Z",
+    "messageId": "<202604211839.63790445580@smtp-relay.mailin.fr>",
+    "company": "Fitzroy Legal Service",
+    "subject": "Quick one for Fitzroy Legal Service — AI chatbot 50% off right now",
+    "city": "Fitzroy",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
