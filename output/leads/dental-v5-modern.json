@@ -980,5 +980,52 @@
     "modernScore": 3,
     "collectedAt": "2026-04-21T17:26:19.297Z",
     "extractedFrom": "contact_us:mailto"
+  },
+  {
+    "name": "Michael A. Macinnes, DDS",
+    "website": "https://www.macinnesdentistry.com",
+    "phone": "+1-425-391-8830",
+    "city": "Sammamish",
+    "country": "US",
+    "email": "contact@macinnesdentistry.com",
+    "hasBooking": true,
+    "modernScore": 3,
+    "collectedAt": "2026-04-21T17:56:13.469Z",
+    "extractedFrom": "homepage:cfemail"
+  },
+  {
+    "name": "Summit Implants & Oral Surgery - Sammamish",
+    "website": "https://www.summitoralsurgeons.com",
+    "city": "Sammamish",
+    "country": "US",
+    "email": "info@summitoralsurgeons.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-21T17:56:14.643Z",
+    "extractedFrom": "contact:cfemail"
+  },
+  {
+    "name": "Sammamish Pediatric Dentistry",
+    "website": "https://sammamishpediatricdentistry.com",
+    "phone": "+1-425-466-5210",
+    "city": "Sammamish",
+    "country": "US",
+    "email": "info@sammamishpediatricdentistry.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-21T17:56:15.209Z",
+    "extractedFrom": "homepage:text"
+  },
+  {
+    "name": "Cathedral Dental",
+    "website": "https://www.cathedraldental.com.au",
+    "phone": "+61 8 9964 5488",
+    "city": "Geraldton",
+    "country": "AU",
+    "email": "cathedral.dental@gmail.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-21T17:56:16.709Z",
+    "extractedFrom": "contact:mailto"
   }
 ]

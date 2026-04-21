@@ -2105,5 +2105,68 @@
     "lastNewLeads": 6,
     "totalNewLeads": 6,
     "lastResultsCount": 8
+  },
+  "US-CITY-OF-SAMMAMISH": {
+    "lastRunAt": "2026-04-21T17:56:17.188Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 6
+  },
+  "US-SANTA-FE": {
+    "lastRunAt": "2026-04-21T17:56:17.188Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-HASTINGS-MN": {
+    "lastRunAt": "2026-04-21T17:56:17.188Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-KIDDERMINSTER": {
+    "lastRunAt": "2026-04-21T17:56:17.188Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-PETERBOROUGH": {
+    "lastRunAt": "2026-04-21T17:56:17.188Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 2
+  },
+  "AU-HORSHAM": {
+    "lastRunAt": "2026-04-21T17:56:17.188Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-TAMWORTH": {
+    "lastRunAt": "2026-04-21T17:56:17.188Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 2
+  },
+  "AU-GERALDTON": {
+    "lastRunAt": "2026-04-21T17:56:17.188Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "AU-WODONGA": {
+    "lastRunAt": "2026-04-21T17:56:17.188Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
   }
 }
