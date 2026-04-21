@@ -3837,5 +3837,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "office@seoudsolicitors.com.au": {
+    "sentAt": "2026-04-21T18:40:28.173Z",
+    "messageId": "<202604211840.47676191445@smtp-relay.mailin.fr>",
+    "company": "Seoud Solicitors",
+    "subject": "Seoud Solicitors — 50% off AI chatbot this week",
+    "city": "City of Port Phillip 07",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
