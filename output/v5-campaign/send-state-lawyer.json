@@ -3551,5 +3551,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@tallents.co.uk": {
+    "sentAt": "2026-04-21T17:46:54.605Z",
+    "messageId": "<202604211746.70589344915@smtp-relay.mailin.fr>",
+    "company": "Tallents Solicitors",
+    "subject": "AI chatbot for Tallents Solicitors — 50% off, 72 hours",
+    "city": "Newark on Trent ENG",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
