@@ -11733,5 +11733,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "nikki@dovetaildental.co.uk": {
+    "sentAt": "2026-04-21T17:38:34.420Z",
+    "messageId": "<202604211738.64870305272@smtp-relay.mailin.fr>",
+    "company": "Dovetail Dental",
+    "subject": "Dovetail Dental — 50% off AI chatbot this week",
+    "city": "Newcastle upon Tyne",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
