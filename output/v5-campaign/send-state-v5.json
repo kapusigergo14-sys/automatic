@@ -11117,5 +11117,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 2
+  },
+  "drheiner@modestoortho.com": {
+    "sentAt": "2026-04-21T17:32:29.459Z",
+    "messageId": "<202604211732.85651325556@smtp-relay.mailin.fr>",
+    "company": "Heiner Orthodontics",
+    "subject": "AI chatbot for Heiner Orthodontics — 50% off, 72 hours",
+    "city": "Modesto",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
