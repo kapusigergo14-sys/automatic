@@ -11821,5 +11821,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@mkdentalpractice.co.uk": {
+    "sentAt": "2026-04-21T17:39:26.245Z",
+    "messageId": "<202604211739.67476296737@smtp-relay.mailin.fr>",
+    "company": "MK Dental Practice",
+    "subject": "Quick one for MK Dental Practice — AI chatbot 50% off right now",
+    "city": "MIlton Keynes",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
