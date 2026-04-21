@@ -3573,5 +3573,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "wecanhelp@ringroselaw.co.uk": {
+    "sentAt": "2026-04-21T17:47:07.541Z",
+    "messageId": "<202604211747.74846654958@smtp-relay.mailin.fr>",
+    "company": "Ringrose Law Solicitors",
+    "subject": "Ringrose Law Solicitors — 50% off AI chatbot this week",
+    "city": "Newark",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
