@@ -3518,5 +3518,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "hrdept@mullenlaw.com": {
+    "sentAt": "2026-04-21T17:46:35.315Z",
+    "messageId": "<202604211746.56144504673@smtp-relay.mailin.fr>",
+    "company": "Mullen & Henzell Attorneys At Law",
+    "subject": "AI chatbot for Mullen & Henzell Attorneys — 50% off, 72 hours",
+    "city": "Santa Barbara",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
