@@ -11810,5 +11810,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "millbrookdental@gmail.com": {
+    "sentAt": "2026-04-21T17:39:19.829Z",
+    "messageId": "<202604211739.88170510176@smtp-relay.mailin.fr>",
+    "company": "Millbrook Villas Dental Practice",
+    "subject": "AI chatbot for Millbrook Villas Dental Practice — 50% off, 72 hours",
+    "city": "Torquay",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
