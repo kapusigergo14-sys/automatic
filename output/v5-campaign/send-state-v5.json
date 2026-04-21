@@ -11271,5 +11271,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "contacts@gbdental.co.uk": {
+    "sentAt": "2026-04-21T17:34:01.239Z",
+    "messageId": "<202604211734.74464683261@smtp-relay.mailin.fr>",
+    "company": "GB Dental",
+    "subject": "GB Dental — 50% off AI chatbot this week",
+    "city": "Ipswich",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
