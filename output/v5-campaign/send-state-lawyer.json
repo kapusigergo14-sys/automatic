@@ -3870,5 +3870,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "nest@nestlegal.com.au": {
+    "sentAt": "2026-04-21T18:40:47.974Z",
+    "messageId": "<202604211840.24863818148@smtp-relay.mailin.fr>",
+    "company": "Nest Legal",
+    "subject": "Nest Legal — 50% off AI chatbot this week",
+    "city": "Thornbury",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
