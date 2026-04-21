@@ -3430,5 +3430,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "dale@bsfs.org": {
+    "sentAt": "2026-04-21T17:25:35.866Z",
+    "messageId": "<202604211725.88940322284@smtp-relay.mailin.fr>",
+    "company": "Law Office of Donald J. Arnold",
+    "subject": "AI chatbot for Law Office of Donald — 50% off, 72 hours",
+    "city": "Bel Air",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
