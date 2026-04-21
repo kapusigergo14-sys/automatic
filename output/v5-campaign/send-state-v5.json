@@ -11502,5 +11502,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@dental-perfectionuk.co.uk": {
+    "sentAt": "2026-04-21T17:36:18.622Z",
+    "messageId": "<202604211736.45427195388@smtp-relay.mailin.fr>",
+    "company": "Dental Perfection",
+    "subject": "Dental Perfection — 50% off AI chatbot this week",
+    "city": "Derby",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
