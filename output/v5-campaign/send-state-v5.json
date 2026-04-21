@@ -10787,5 +10787,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "sanjose.periodontics@gmail.com": {
+    "sentAt": "2026-04-21T17:29:12.636Z",
+    "messageId": "<202604211729.39337377332@smtp-relay.mailin.fr>",
+    "company": "San Jose Periodontics",
+    "subject": "AI chatbot for San Jose Periodontics — 50% off, 72 hours",
+    "city": "San Jose",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
