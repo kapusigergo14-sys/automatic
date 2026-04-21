@@ -3265,5 +3265,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "eadler@ralaw.com": {
+    "sentAt": "2026-04-21T17:23:54.917Z",
+    "messageId": "<202604211723.19264415258@smtp-relay.mailin.fr>",
+    "company": "Roetzel & Andress",
+    "subject": "AI chatbot for Roetzel & Andress — 50% off, 72 hours",
+    "city": "Fort Myers",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
