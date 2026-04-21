@@ -10886,5 +10886,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "crud@dentistryart.com": {
+    "sentAt": "2026-04-21T17:30:11.208Z",
+    "messageId": "<202604211730.86089891640@smtp-relay.mailin.fr>",
+    "company": "Crossroads Dentistry",
+    "subject": "AI chatbot for Crossroads Dentistry — 50% off, 72 hours",
+    "city": "Kansas City",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
