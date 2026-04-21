@@ -10699,5 +10699,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "appt@drsoniamathew.com": {
+    "sentAt": "2026-04-21T17:28:20.131Z",
+    "messageId": "<202604211728.68915446867@smtp-relay.mailin.fr>",
+    "company": "Rose Garden Smiles",
+    "subject": "Quick one for Rose Garden Smiles — AI chatbot 50% off right now",
+    "city": "San Jose",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
