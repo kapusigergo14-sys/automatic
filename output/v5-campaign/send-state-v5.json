@@ -10897,5 +10897,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "staff@tbendo.com": {
+    "sentAt": "2026-04-21T17:30:17.962Z",
+    "messageId": "<202604211730.28779092717@smtp-relay.mailin.fr>",
+    "company": "Tampa Bay Endodontics",
+    "subject": "Quick one for Tampa Bay Endodontics — AI chatbot 50% off right now",
+    "city": "Saint Petersburg",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
