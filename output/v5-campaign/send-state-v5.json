@@ -11381,5 +11381,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@zen-dental.co.uk": {
+    "sentAt": "2026-04-21T17:35:07.325Z",
+    "messageId": "<202604211735.71643976744@smtp-relay.mailin.fr>",
+    "company": "Zen Dental",
+    "subject": "AI chatbot for Zen Dental — 50% off, 72 hours",
+    "city": "Banstead",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
