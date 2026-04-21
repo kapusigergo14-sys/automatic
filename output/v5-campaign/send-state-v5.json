@@ -11645,5 +11645,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "weston.favell@rodericksdental.co.uk": {
+    "sentAt": "2026-04-21T17:37:42.803Z",
+    "messageId": "<202604211737.54368887043@smtp-relay.mailin.fr>",
+    "company": "Weston Favell Dental Practice",
+    "subject": "AI chatbot for Weston Favell Dental Practice — 50% off, 72 hours",
+    "city": "Northampton",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
