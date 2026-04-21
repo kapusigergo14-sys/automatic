@@ -11249,5 +11249,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "rdc@rushmeredentalcare.co.uk": {
+    "sentAt": "2026-04-21T17:33:48.298Z",
+    "messageId": "<202604211733.12093599218@smtp-relay.mailin.fr>",
+    "company": "Rushmere Dental Care",
+    "subject": "AI chatbot for Rushmere Dental Care — 50% off, 72 hours",
+    "city": "Ipswich",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
