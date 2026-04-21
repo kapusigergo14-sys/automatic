@@ -10809,5 +10809,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "thedrsberger@gmail.com": {
+    "sentAt": "2026-04-21T17:29:25.707Z",
+    "messageId": "<202604211729.75569596444@smtp-relay.mailin.fr>",
+    "company": "The Doctors Berger Family Dentistry",
+    "subject": "The Doctors Berger Family — 50% off AI chatbot this week",
+    "city": "Virginia Beach",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
