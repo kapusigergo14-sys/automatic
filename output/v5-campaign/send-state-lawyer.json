@@ -3199,5 +3199,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "intake@wilburlaw.com": {
+    "sentAt": "2026-04-21T17:23:14.595Z",
+    "messageId": "<202604211723.56825617547@smtp-relay.mailin.fr>",
+    "company": "Wilbur Smith Law Firm",
+    "subject": "AI chatbot for Wilbur Smith Law Firm — 50% off, 72 hours",
+    "city": "Fort Myers",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
