@@ -3485,5 +3485,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "steve@robertarushpa.com": {
+    "sentAt": "2026-04-21T17:26:09.821Z",
+    "messageId": "<202604211726.80876901274@smtp-relay.mailin.fr>",
+    "company": "Robert A. Rush Law Office",
+    "subject": "Robert A. Rush Law — 50% off AI chatbot this week",
+    "city": "Gainesville",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
