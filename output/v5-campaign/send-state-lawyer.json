@@ -3694,5 +3694,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "breydons@breydonssolicitors.co.uk": {
+    "sentAt": "2026-04-21T17:48:18.675Z",
+    "messageId": "<202604211748.10005975068@smtp-relay.mailin.fr>",
+    "company": "Breydons Solicitors",
+    "subject": "Quick one for Breydons Solicitors — AI chatbot 50% off right now",
+    "city": "King's Lynn",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
