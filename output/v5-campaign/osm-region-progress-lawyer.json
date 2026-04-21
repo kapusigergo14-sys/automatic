@@ -2595,5 +2595,355 @@
     "lastNewLeads": 1,
     "totalNewLeads": 1,
     "lastResultsCount": 2
+  },
+  "US-REEDLEY": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-TOPEKA": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 5
+  },
+  "US-ABILENE": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "US-BULLHEAD-CITY": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-DECATUR": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 9
+  },
+  "US-OLATHE": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-MASON-CITY": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "US-SOUTH-BEL-AIR": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 6,
+    "totalNewLeads": 6,
+    "lastResultsCount": 27
+  },
+  "US-EAST-HAMPTON": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 3
+  },
+  "US-BELVIDERE": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-NORWICH": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-XENIA": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-BEND": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 4
+  },
+  "US-SOUTH-FULTON": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-BROCKTON": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-STRONGSVILLE": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-DANBURY": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-LEBANON-PA": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-GAINESVILLE": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 5
+  },
+  "US-LIVERMORE": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-GRAND-FORKS": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-KIRYAS-JOEL": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-SANTA-BARBARA": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 8
+  },
+  "US-OGDEN": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-WATERTOWN": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-GOOLE": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-ABERYSTWYTH": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "UK-NORTHALLERTON": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 1
+  },
+  "UK-STIRLING": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 1
+  },
+  "UK-NEWARK-ON-TRENT": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 2
+  },
+  "UK-KILMARNOCK": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-FARNHAM": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 3
+  },
+  "UK-ARBROATH": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 1
+  },
+  "UK-REDRUTH": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-PRESTATYN": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-ST-AUSTELL": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-BANBURY": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 5
+  },
+  "UK-PENZANCE": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-WHITEHAVEN": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-COLERAINE": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "UK-COLWYN-BAY": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-BOSTON": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-PORTHCAWL": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "UK-LOUTH": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "UK-DUMFRIES": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-KING-S-LYNN": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 6
+  },
+  "UK-WISHAW": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-CIRENCESTER": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 3
+  },
+  "UK-SPALDING": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-ASHINGTON": {
+    "lastRunAt": "2026-04-21T17:21:29.237Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
   }
 }
