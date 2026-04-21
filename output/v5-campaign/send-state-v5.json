@@ -11590,5 +11590,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@billingsfamilydds.com": {
+    "sentAt": "2026-04-21T17:37:10.526Z",
+    "messageId": "<202604211737.84572926414@smtp-relay.mailin.fr>",
+    "company": "Billings Family Dentistry",
+    "subject": "Quick one for Billings Family Dentistry — AI chatbot 50% off right now",
+    "city": "Metairie",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
