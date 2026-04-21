@@ -3936,5 +3936,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@elvinlawyers.com.au": {
+    "sentAt": "2026-04-21T18:41:27.281Z",
+    "messageId": "<202604211841.42046602475@smtp-relay.mailin.fr>",
+    "company": "Elvin Lawyers",
+    "subject": "Elvin Lawyers — 50% off AI chatbot this week",
+    "city": "City of Port Phillip 07",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
