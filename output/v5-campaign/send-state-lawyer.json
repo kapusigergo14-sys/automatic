@@ -3232,5 +3232,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@swiftlawinjury.com": {
+    "sentAt": "2026-04-21T17:23:34.735Z",
+    "messageId": "<202604211723.70592190365@smtp-relay.mailin.fr>",
+    "company": "Swift Referral Services",
+    "subject": "AI chatbot for Swift Referral Services — 50% off, 72 hours",
+    "city": "Fort Myers",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
