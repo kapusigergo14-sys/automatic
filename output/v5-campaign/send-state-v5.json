@@ -10512,5 +10512,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "contact@cherrydaledentistry.com": {
+    "sentAt": "2026-04-21T17:26:28.876Z",
+    "messageId": "<202604211726.66191208743@smtp-relay.mailin.fr>",
+    "company": "Cherrydale Family Dental",
+    "subject": "Cherrydale Family Dental — 50% off AI chatbot this week",
+    "city": "Arlington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
