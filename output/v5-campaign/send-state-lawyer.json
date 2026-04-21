@@ -3617,5 +3617,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@bgsolicitors.com": {
+    "sentAt": "2026-04-21T17:47:33.811Z",
+    "messageId": "<202604211747.69638206183@smtp-relay.mailin.fr>",
+    "company": "BG Solicitors LLP",
+    "subject": "AI chatbot for BG Solicitors LLP — 50% off, 72 hours",
+    "city": "Louth ENG",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
