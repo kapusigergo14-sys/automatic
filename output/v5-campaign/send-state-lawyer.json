@@ -3606,5 +3606,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@brethertons.co.uk": {
+    "sentAt": "2026-04-21T17:47:26.792Z",
+    "messageId": "<202604211747.48209870876@smtp-relay.mailin.fr>",
+    "company": "Brethertons LLP Solicitors",
+    "subject": "Brethertons LLP Solicitors — 50% off AI chatbot this week",
+    "city": "Banbury",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
