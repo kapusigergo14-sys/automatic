@@ -11018,5 +11018,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@smilesforcolorado.com": {
+    "sentAt": "2026-04-21T17:31:30.078Z",
+    "messageId": "<202604211731.49030020777@smtp-relay.mailin.fr>",
+    "company": "Smiles For Colorado Orthodontics",
+    "subject": "AI chatbot for Smiles For Colorado Orthodontics — 50% off, 72 hours",
+    "city": "Colorado Springs",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
