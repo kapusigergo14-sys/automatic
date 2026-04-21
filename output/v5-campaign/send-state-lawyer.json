@@ -3639,5 +3639,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "banbury@bowerbailey.co.uk": {
+    "sentAt": "2026-04-21T17:47:46.693Z",
+    "messageId": "<202604211747.68769041120@smtp-relay.mailin.fr>",
+    "company": "Bower Bailey Solicitors",
+    "subject": "Bower Bailey Solicitors — 50% off AI chatbot this week",
+    "city": "Banbury",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
