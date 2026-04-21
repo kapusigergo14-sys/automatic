@@ -3287,5 +3287,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "dale@roseknowslaw.com": {
+    "sentAt": "2026-04-21T17:24:08.442Z",
+    "messageId": "<202604211724.54232895799@smtp-relay.mailin.fr>",
+    "company": "Dale R. Rose, PLLC",
+    "subject": "Dale R. Rose PLLC — 50% off AI chatbot this week",
+    "city": "McKinney",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
