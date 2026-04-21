@@ -3441,5 +3441,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "admin@santinilegal.com": {
+    "sentAt": "2026-04-21T17:25:42.572Z",
+    "messageId": "<202604211725.69977601494@smtp-relay.mailin.fr>",
+    "company": "Law Offices of Rafael J. Santini P.A.",
+    "subject": "Quick one for Law Offices of Rafael — AI chatbot 50% off right now",
+    "city": "Bel Air",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
