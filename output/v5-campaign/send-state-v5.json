@@ -10644,5 +10644,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "contact@capitolhilldentalarts.com": {
+    "sentAt": "2026-04-21T17:27:47.738Z",
+    "messageId": "<202604211727.88616920753@smtp-relay.mailin.fr>",
+    "company": "Capitol Hill Dental Arts",
+    "subject": "Capitol Hill Dental Arts — 50% off AI chatbot this week",
+    "city": "Washington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
