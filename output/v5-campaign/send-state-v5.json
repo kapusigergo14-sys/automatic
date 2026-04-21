@@ -11414,5 +11414,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "thewhitehouse@soegateway.com": {
+    "sentAt": "2026-04-21T17:35:27.276Z",
+    "messageId": "<202604211735.98528491520@smtp-relay.mailin.fr>",
+    "company": "The White House Dental Surgery",
+    "subject": "AI chatbot for The White House Dental — 50% off, 72 hours",
+    "city": "Sutton ENG",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
