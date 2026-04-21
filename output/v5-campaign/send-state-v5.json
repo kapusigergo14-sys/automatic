@@ -11535,5 +11535,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@ashbourneroaddental.co.uk": {
+    "sentAt": "2026-04-21T17:36:38.047Z",
+    "messageId": "<202604211736.61823179817@smtp-relay.mailin.fr>",
+    "company": "Ashbourne Road Dental",
+    "subject": "Ashbourne Road Dental — 50% off AI chatbot this week",
+    "city": "Derby",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
