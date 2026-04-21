@@ -11601,5 +11601,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "concerns@yvfwc.org": {
+    "sentAt": "2026-04-21T17:37:16.924Z",
+    "messageId": "<202604211737.31406852211@smtp-relay.mailin.fr>",
+    "company": "Columbia Basin Pediatric Dentistry",
+    "subject": "Columbia Basin Pediatric Dentistry — 50% off AI chatbot this week",
+    "city": "Kennewick",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
