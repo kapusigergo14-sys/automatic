@@ -3903,5 +3903,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@philwil.com.au": {
+    "sentAt": "2026-04-21T18:41:07.607Z",
+    "messageId": "<202604211841.84538887331@smtp-relay.mailin.fr>",
+    "company": "Phillips & Wilkins Solicitors",
+    "subject": "Phillips & Wilkins Solicitors — 50% off AI chatbot this week",
+    "city": "Thornbury",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
