@@ -3705,5 +3705,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "enquiries@hunterlegal.com.au": {
+    "sentAt": "2026-04-21T18:39:09.545Z",
+    "messageId": "<202604211839.23357156375@smtp-relay.mailin.fr>",
+    "company": "Hunter Legal & Conveyancing",
+    "subject": "Hunter Legal & Conveyancing — 50% off AI chatbot this week",
+    "city": "Maitland 02",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
