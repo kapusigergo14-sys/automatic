@@ -10534,5 +10534,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "charlestondental77@gmail.com": {
+    "sentAt": "2026-04-21T17:26:41.948Z",
+    "messageId": "<202604211726.30590931842@smtp-relay.mailin.fr>",
+    "company": "Charleston Dental Associates",
+    "subject": "Quick one for Charleston Dental Associates — AI chatbot 50% off right now",
+    "city": "Charleston",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
