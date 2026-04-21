@@ -11084,5 +11084,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "hello@onsitedental.com": {
+    "sentAt": "2026-04-21T17:32:09.409Z",
+    "messageId": "<202604211732.89144100028@smtp-relay.mailin.fr>",
+    "company": "Onsite Dental",
+    "subject": "AI chatbot for Onsite Dental — 50% off, 72 hours",
+    "city": "San Francisco CA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
