@@ -3804,5 +3804,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "admin@northcotelawyers.com.au": {
+    "sentAt": "2026-04-21T18:40:08.210Z",
+    "messageId": "<202604211840.92216874417@smtp-relay.mailin.fr>",
+    "company": "Northcote Lawyers & Associates",
+    "subject": "Northcote Lawyers & Associates — 50% off AI chatbot this week",
+    "city": "City of Port Phillip 07",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
