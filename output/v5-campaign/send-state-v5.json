@@ -11634,5 +11634,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "the.elms@rodericksdental.co.uk": {
+    "sentAt": "2026-04-21T17:37:36.305Z",
+    "messageId": "<202604211737.28258663133@smtp-relay.mailin.fr>",
+    "company": "The Elms Dental Practice",
+    "subject": "The Elms Dental Practice — 50% off AI chatbot this week",
+    "city": "Northampton",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
