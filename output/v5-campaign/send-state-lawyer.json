@@ -3155,5 +3155,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "livingston@kwlaw.co.uk": {
+    "sentAt": "2026-04-21T17:22:47.524Z",
+    "messageId": "<202604211722.62019790759@smtp-relay.mailin.fr>",
+    "company": "KW Law",
+    "subject": "KW Law — 50% off AI chatbot this week",
+    "city": "Livingston SCT",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
