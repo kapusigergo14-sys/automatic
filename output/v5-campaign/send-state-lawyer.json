@@ -3243,5 +3243,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "parker@wcctxlaw.com": {
+    "sentAt": "2026-04-21T17:23:41.438Z",
+    "messageId": "<202604211723.99998901568@smtp-relay.mailin.fr>",
+    "company": "Webb Cason, PC",
+    "subject": "Quick one for Webb Cason PC — AI chatbot 50% off right now",
+    "city": "Corpus Christi",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
