@@ -12646,5 +12646,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "dental.v12220@nhs.net": {
+    "sentAt": "2026-04-22T06:36:30.331Z",
+    "messageId": "<202604220636.76434544869@smtp-relay.mailin.fr>",
+    "company": "Shrewsbury Orthodontic Centre",
+    "subject": "AI chatbot for Shrewsbury Orthodontic Centre — 50% off, 72 hours",
+    "city": "Shrewsbury",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
