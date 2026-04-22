@@ -12327,5 +12327,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "admin@centralvicorthodontics.com.au": {
+    "sentAt": "2026-04-22T06:21:23.040Z",
+    "messageId": "<202604220621.24678801737@smtp-relay.mailin.fr>",
+    "company": "Central Victorian Orthodontics - Bendigo Orthodontist",
+    "subject": "Quick one for Central Victorian Orthodontics — AI chatbot 50% off right now",
+    "city": "Bendigo VIC",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
