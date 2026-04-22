@@ -11975,5 +11975,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@bluebirddental.com.au": {
+    "sentAt": "2026-04-22T06:17:58.223Z",
+    "messageId": "<202604220617.49794472976@smtp-relay.mailin.fr>",
+    "company": "Bluebird Dental",
+    "subject": "Bluebird Dental — 50% off AI chatbot this week",
+    "city": "Melbourne VIC",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
