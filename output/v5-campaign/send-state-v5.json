@@ -12371,5 +12371,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@therichmonddentist.com.au": {
+    "sentAt": "2026-04-22T06:21:47.943Z",
+    "messageId": "<202604220621.96035739215@smtp-relay.mailin.fr>",
+    "company": "The Richmond Dentist",
+    "subject": "The Richmond Dentist — 50% off AI chatbot this week",
+    "city": "Richmond",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
