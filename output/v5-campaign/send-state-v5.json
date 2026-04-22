@@ -12316,5 +12316,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "team@geelongdental.com.au": {
+    "sentAt": "2026-04-22T06:21:16.790Z",
+    "messageId": "<202604220621.34174886073@smtp-relay.mailin.fr>",
+    "company": "Geelong Dental",
+    "subject": "AI chatbot for Geelong Dental — 50% off, 72 hours",
+    "city": "Geelong VIC",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
