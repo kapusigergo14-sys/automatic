@@ -12525,5 +12525,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@gardeniadental.com": {
+    "sentAt": "2026-04-22T06:23:15.133Z",
+    "messageId": "<202604220623.32629333267@smtp-relay.mailin.fr>",
+    "company": "Gardenia Dental",
+    "subject": "Quick one for Gardenia Dental — AI chatbot 50% off right now",
+    "city": "Coolaroo",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
