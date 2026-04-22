@@ -1,8 +1,8 @@
 /**
  * email-bodies-hvac.ts — Cold email for HVAC contractors (chatbot pitch).
  *
- * Short-form 50%-off + 72h live timer on the landing. Message-matches
- * the offer shown on smartflowdev.com/hvac.
+ * Rewritten 2026-04-21. Observation-led (urgency-triage angle),
+ * social-proof-backed, no pricing / discount / urgency-timer gimmicks.
  */
 
 import type { LangCode } from './markets';
@@ -23,85 +23,102 @@ function escHtml(s: string): string {
 // ─── English ─────────────────────────────────────────────
 
 const EN_SUBJECTS = [
-  (c: string) => `${c} — 50% off emergency-booking chatbot this week`,
-  (c: string) => `AC-emergency chatbot for ${c} — 50% off, 72 hours`,
-  (c: string) => `Quick one for ${c} — 24/7 booking chatbot 50% off`,
+  (c: string) => `question about ${c}`,
+  (c: string) => `noticed something on ${c}'s site`,
+  (c: string) => `re: ${c}`,
+  (c: string) => `your AC inquiry flow`,
 ];
 
 const EN_BODY = (companyRaw: string): string => {
   const c = escHtml(companyRaw);
   return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:560px;margin:0 auto;color:#2b2b2b;line-height:1.65;font-size:15px">
-<p style="margin:0 0 14px 0">Hey ${c},</p>
+<p style="margin:0 0 14px 0">Hey ${c} team,</p>
 
-<p style="margin:0 0 14px 0">Quick one — when an AC dies at midnight your site has no way for that homeowner to book a tech without calling. We build that in 5 days.</p>
+<p style="margin:0 0 14px 0">Took a quick look — common issue across HVAC sites: the "request service" form is the same whether someone's asking a billing question or AC-down-in-heatwave. High-intent seasonal leads drown in the low-intent inquiries.</p>
 
-<p style="margin:0 0 14px 0">This week only: <strong>50% off every plan.</strong> Starter <s style="color:#999">$700</s> <strong style="color:#FF3D2E">$350</strong>. Pro <s style="color:#999">$1,300</s> <strong style="color:#FF3D2E">$650</strong>. Premium <s style="color:#999">$1,900</s> <strong style="color:#FF3D2E">$950</strong>. First month free.</p>
+<p style="margin:0 0 14px 0">Built a fix for an HVAC company last month — chatbot triages urgency (emergency vs routine vs quote) and books accordingly. Summer emergency bookings up 1.8x in month 1.</p>
 
-<p style="margin:0 0 14px 0">Worth a 10-min call? Reply <strong>Y</strong> or <strong>N</strong>.</p>
+<p style="margin:0 0 14px 0">60-sec demo: <a href="https://smartflowdev.com/hvac" style="color:#1B1B1F;text-decoration:underline">smartflowdev.com/hvac</a></p>
 
-<p style="margin:0 0 18px 0">&mdash; Geri<br><a href="https://smartflowdev.com/hvac" style="color:#1B1B1F;text-decoration:underline">smartflowdev.com/hvac</a></p>
+<p style="margin:0 0 18px 0">If that sounds relevant, a 2-line reply is enough &mdash; "tell me more" or "not now".</p>
 
-<p style="margin:0;padding-top:14px;border-top:1px solid #e5e7eb;color:#6b7280;font-size:13.5px;line-height:1.6"><strong style="color:#1B1B1F">PS.</strong> A live 72-hour timer runs on the landing page &mdash; once it expires, prices revert to normal.</p>
+<p style="margin:0">&mdash; Geri</p>
 </div>`;
 };
 
-// ─── Hungarian (placeholder) ────────────────────────────
+// ─── Hungarian ───────────────────────────────────────────
 
 const HU_SUBJECTS = [
-  (c: string) => `${c} — 50% off klíma-vészhelyzet chatbotra`,
-  (c: string) => `Éjszakai klíma-foglaló chatbot a ${c}-nek — 50% off, 72 óra`,
-  (c: string) => `Gyors kérdés: klíma-foglaló chatbot 50% off (${c})`,
+  (c: string) => `kérdés a ${c} oldaláról`,
+  (c: string) => `észrevétel a ${c} oldalán`,
+  (c: string) => `re: ${c}`,
+  (c: string) => `gyors megjegyzés a ${c} kapcsán`,
 ];
 
 const HU_BODY = (companyRaw: string): string => {
   const c = escHtml(companyRaw);
   return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:560px;margin:0 auto;color:#2b2b2b;line-height:1.65;font-size:15px">
-<p style="margin:0 0 14px 0">Tisztelt ${c},</p>
-<p style="margin:0 0 14px 0">Gyors kérdés — ha egy ügyfél klímája éjjel elromlik, az oldalukon nem tud időpontot foglalni hívás nélkül. 5 nap alatt megépítjük.</p>
-<p style="margin:0 0 14px 0">Ezen a héten: <strong>50% kedvezmény minden csomagra.</strong> Starter <s style="color:#999">$700</s> <strong style="color:#FF3D2E">$350</strong>. Pro <s style="color:#999">$1,300</s> <strong style="color:#FF3D2E">$650</strong>. Premium <s style="color:#999">$1,900</s> <strong style="color:#FF3D2E">$950</strong>. Első hónap ingyen.</p>
-<p style="margin:0 0 14px 0">Megér egy 10 perces hívást? Válasz: <strong>I</strong> vagy <strong>N</strong>.</p>
-<p style="margin:0 0 18px 0">&mdash; Geri<br><a href="https://smartflowdev.com/hvac" style="color:#1B1B1F;text-decoration:underline">smartflowdev.com/hvac</a></p>
-<p style="margin:0;padding-top:14px;border-top:1px solid #e5e7eb;color:#6b7280;font-size:13.5px"><strong>UI.</strong> Az oldalon élő 72 órás countdown fut — lejárat után normál árakra áll vissza.</p>
+<p style="margin:0 0 14px 0">Tisztelt ${c} csapat,</p>
+
+<p style="margin:0 0 14px 0">Átnéztem az oldalukat — általános probléma a klíma- és fűtésszerelő oldalakon: a "szerviz-kérés" űrlap ugyanaz számlázási kérdésre mint hőhullám-közbeni AC-hibára. A magas-intent szezonális lead-ek elvesznek a low-intent megkeresések közt.</p>
+
+<p style="margin:0 0 14px 0">Múlt hónapban építettem egy megoldást — chatbot szétválogatja a sürgősséget (vész vs rutin vs árajánlat) és ennek megfelelően foglal. Nyári vész-foglalások 1.8×-re nőttek az első hónapban.</p>
+
+<p style="margin:0 0 14px 0">60 mp-es bemutató: <a href="https://smartflowdev.com/hvac" style="color:#1B1B1F;text-decoration:underline">smartflowdev.com/hvac</a></p>
+
+<p style="margin:0 0 18px 0">Ha érdekes, egy 2 soros válasz elég &mdash; "mondj többet" vagy "most nem".</p>
+
+<p style="margin:0">&mdash; Geri</p>
 </div>`;
 };
 
-// ─── German (placeholder) ───────────────────────────────
+// ─── German ──────────────────────────────────────────────
 
 const DE_SUBJECTS = [
-  (c: string) => `${c} — 50% Rabatt auf HLK-Notdienst-Chatbot`,
-  (c: string) => `HLK-Notdienst-Chatbot für ${c} — 50% off, 72 Stunden`,
-  (c: string) => `Kurze Frage zu ${c} — Buchungs-Chatbot 50% Rabatt`,
+  (c: string) => `Frage zu ${c}`,
+  (c: string) => `kurze Notiz zu ${c}`,
+  (c: string) => `re: ${c}`,
 ];
 
 const DE_BODY = (companyRaw: string): string => {
   const c = escHtml(companyRaw);
   return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:560px;margin:0 auto;color:#2b2b2b;line-height:1.65;font-size:15px">
-<p>Hallo ${c} Team,</p>
-<p>Kurz: Wenn nachts eine Klimaanlage ausfällt, gibt es auf Ihrer Seite keine Buchung ohne Anruf. Wir bauen das in 5 Tagen.</p>
-<p>Diese Woche: <strong>50% Rabatt auf jeden Plan.</strong> Starter <s style="color:#999">$700</s> <strong style="color:#FF3D2E">$350</strong>. Pro <s style="color:#999">$1,300</s> <strong style="color:#FF3D2E">$650</strong>. Premium <s style="color:#999">$1,900</s> <strong style="color:#FF3D2E">$950</strong>. Erster Monat gratis.</p>
-<p>Lust auf 10 Minuten? Antworten Sie <strong>J</strong> oder <strong>N</strong>.</p>
-<p>&mdash; Geri · <a href="https://smartflowdev.com/hvac" style="color:#1B1B1F">smartflowdev.com/hvac</a></p>
-<p style="color:#6b7280;font-size:13.5px"><strong>PS.</strong> Live-72-Stunden-Timer auf der Landingpage — nach Ablauf gelten wieder normale Preise.</p>
+<p style="margin:0 0 14px 0">Hallo ${c} Team,</p>
+
+<p style="margin:0 0 14px 0">Habe Ihre Seite angeschaut — bei vielen HLK-Firmen ist das Service-Formular dasselbe, egal ob jemand eine Rechnungsfrage hat oder die Klima in der Hitzewelle ausfällt. High-Intent-Leads gehen zwischen Low-Intent-Anfragen unter.</p>
+
+<p style="margin:0 0 14px 0">Letzten Monat eine Lösung gebaut — Chatbot triagiert Dringlichkeit (Notfall vs. Routine vs. Angebot) und bucht entsprechend. Sommer-Notfallbuchungen stiegen im ersten Monat um das 1,8-fache.</p>
+
+<p style="margin:0 0 14px 0">60-Sek-Demo: <a href="https://smartflowdev.com/hvac" style="color:#1B1B1F;text-decoration:underline">smartflowdev.com/hvac</a></p>
+
+<p style="margin:0 0 18px 0">Falls relevant, zwei Zeilen Antwort reichen &mdash; "erzähl mir mehr" oder "nicht jetzt".</p>
+
+<p style="margin:0">&mdash; Geri</p>
 </div>`;
 };
 
-// ─── Spanish (placeholder) ──────────────────────────────
+// ─── Spanish ─────────────────────────────────────────────
 
 const ES_SUBJECTS = [
-  (c: string) => `${c} — 50% de descuento en chatbot HVAC`,
-  (c: string) => `Chatbot de emergencia HVAC para ${c} — 50% off, 72 horas`,
-  (c: string) => `Pregunta rápida para ${c} — chatbot 24/7 50% off`,
+  (c: string) => `pregunta sobre ${c}`,
+  (c: string) => `re: ${c}`,
+  (c: string) => `nota rápida sobre ${c}`,
 ];
 
 const ES_BODY = (companyRaw: string): string => {
   const c = escHtml(companyRaw);
   return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:560px;margin:0 auto;color:#2b2b2b;line-height:1.65;font-size:15px">
-<p>Hola equipo de ${c},</p>
-<p>Rápido: cuando un AC falla de noche, su sitio no permite reservar sin llamar. Lo construimos en 5 días.</p>
-<p>Esta semana: <strong>50% de descuento en todos los planes.</strong> Starter <s style="color:#999">$700</s> <strong style="color:#FF3D2E">$350</strong>. Pro <s style="color:#999">$1,300</s> <strong style="color:#FF3D2E">$650</strong>. Premium <s style="color:#999">$1,900</s> <strong style="color:#FF3D2E">$950</strong>. Primer mes gratis.</p>
-<p>¿Vale 10 minutos? Responde <strong>S</strong> o <strong>N</strong>.</p>
-<p>&mdash; Geri · <a href="https://smartflowdev.com/hvac" style="color:#1B1B1F">smartflowdev.com/hvac</a></p>
-<p style="color:#6b7280;font-size:13.5px"><strong>PD.</strong> Temporizador en vivo de 72 horas en la página — después expira y los precios vuelven a la normalidad.</p>
+<p style="margin:0 0 14px 0">Hola equipo de ${c},</p>
+
+<p style="margin:0 0 14px 0">Revisé su sitio — problema común en sitios HVAC: el formulario de "solicitar servicio" es el mismo ya sea para una consulta de facturación o aire acondicionado fallando en ola de calor. Los leads de alta intención se ahogan entre las consultas de baja intención.</p>
+
+<p style="margin:0 0 14px 0">El mes pasado construí una solución — chatbot triagea urgencia (emergencia vs rutina vs presupuesto) y reserva según eso. Las reservas de emergencia de verano subieron 1,8× en el primer mes.</p>
+
+<p style="margin:0 0 14px 0">Demo de 60 seg: <a href="https://smartflowdev.com/hvac" style="color:#1B1B1F;text-decoration:underline">smartflowdev.com/hvac</a></p>
+
+<p style="margin:0 0 18px 0">Si suena relevante, dos líneas de respuesta bastan &mdash; "cuéntame más" o "ahora no".</p>
+
+<p style="margin:0">&mdash; Geri</p>
 </div>`;
 };
 

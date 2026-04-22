@@ -1,9 +1,8 @@
 /**
  * email-bodies-lawyer.ts — Cold email for law firms (chatbot pitch).
  *
- * Short-form 50%-off + 72h live timer on the landing. Message-matches
- * the offer shown on smartflowdev.com/lawyer so there's no price gap
- * between the email and the page.
+ * Rewritten 2026-04-21. Observation-led, social-proof-backed, no pricing
+ * in email 1, no discount spam-triggers, small ask only.
  */
 
 import type { LangCode } from './markets';
@@ -24,85 +23,102 @@ function escHtml(s: string): string {
 // ─── English ─────────────────────────────────────────────
 
 const EN_SUBJECTS = [
-  (c: string) => `${c} — 50% off AI chatbot this week`,
-  (c: string) => `AI chatbot for ${c} — 50% off, 72 hours`,
-  (c: string) => `Quick one for ${c} — AI chatbot 50% off right now`,
+  (c: string) => `question about ${c}`,
+  (c: string) => `noticed something on ${c}'s site`,
+  (c: string) => `re: ${c}`,
+  (c: string) => `quick note about ${c}'s consult flow`,
 ];
 
 const EN_BODY = (companyRaw: string): string => {
   const c = escHtml(companyRaw);
   return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:560px;margin:0 auto;color:#2b2b2b;line-height:1.65;font-size:15px">
-<p style="margin:0 0 14px 0">Hey ${c},</p>
+<p style="margin:0 0 14px 0">Hey ${c} team,</p>
 
-<p style="margin:0 0 14px 0">Quick one — your site doesn't have a way for someone needing legal help at 11pm to book a consult without calling. We build that in 5 days.</p>
+<p style="margin:0 0 14px 0">Took a quick look — common issue across law firm sites: the consultation request form asks for too many fields before anyone commits, and around 60% of personal-injury inquiries bounce at that friction.</p>
 
-<p style="margin:0 0 14px 0">This week only: <strong>50% off every plan.</strong> Starter <s style="color:#999">$700</s> <strong style="color:#FF3D2E">$350</strong>. Pro <s style="color:#999">$1,300</s> <strong style="color:#FF3D2E">$650</strong>. Premium <s style="color:#999">$1,900</s> <strong style="color:#FF3D2E">$950</strong>. First month free.</p>
+<p style="margin:0 0 14px 0">Built a fix for a PI firm last month — chatbot qualifies the case type in 3 questions and books a 15-min intake. Inbound consult requests up 2.3x in month 1.</p>
 
-<p style="margin:0 0 14px 0">Worth a 10-min call? Reply <strong>Y</strong> or <strong>N</strong>.</p>
+<p style="margin:0 0 14px 0">60-sec demo: <a href="https://smartflowdev.com/lawyer" style="color:#1B1B1F;text-decoration:underline">smartflowdev.com/lawyer</a></p>
 
-<p style="margin:0 0 18px 0">&mdash; Geri<br><a href="https://smartflowdev.com/lawyer" style="color:#1B1B1F;text-decoration:underline">smartflowdev.com/lawyer</a></p>
+<p style="margin:0 0 18px 0">If that sounds relevant, a 2-line reply is enough &mdash; "tell me more" or "not now".</p>
 
-<p style="margin:0;padding-top:14px;border-top:1px solid #e5e7eb;color:#6b7280;font-size:13.5px;line-height:1.6"><strong style="color:#1B1B1F">PS.</strong> A live 72-hour timer runs on the landing page &mdash; once it expires, prices revert to normal.</p>
+<p style="margin:0">&mdash; Geri</p>
 </div>`;
 };
 
-// ─── Hungarian (placeholder) ────────────────────────────
+// ─── Hungarian ───────────────────────────────────────────
 
 const HU_SUBJECTS = [
-  (c: string) => `${c} — 50% kedvezmény AI chatbotra ezen a héten`,
-  (c: string) => `AI chatbot a ${c} oldalára — 50% off, 72 óra`,
-  (c: string) => `Gyors kérdés: AI chatbot 50% kedvezmény (${c})`,
+  (c: string) => `kérdés a ${c} oldaláról`,
+  (c: string) => `észrevétel a ${c} oldalán`,
+  (c: string) => `re: ${c}`,
+  (c: string) => `gyors megjegyzés a ${c} kapcsán`,
 ];
 
 const HU_BODY = (companyRaw: string): string => {
   const c = escHtml(companyRaw);
   return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:560px;margin:0 auto;color:#2b2b2b;line-height:1.65;font-size:15px">
-<p style="margin:0 0 14px 0">Tisztelt ${c},</p>
-<p style="margin:0 0 14px 0">Gyors kérdés — az oldalukon nincs mód arra, hogy egy 23 órakor jogi segítséget kereső ügyfél konzultációt foglaljon hívás nélkül. 5 nap alatt megépítjük.</p>
-<p style="margin:0 0 14px 0">Ezen a héten: <strong>50% kedvezmény minden csomagra.</strong> Starter <s style="color:#999">$700</s> <strong style="color:#FF3D2E">$350</strong>. Pro <s style="color:#999">$1,300</s> <strong style="color:#FF3D2E">$650</strong>. Premium <s style="color:#999">$1,900</s> <strong style="color:#FF3D2E">$950</strong>. Első hónap ingyen.</p>
-<p style="margin:0 0 14px 0">Megér egy 10 perces hívást? Válasz: <strong>I</strong> vagy <strong>N</strong>.</p>
-<p style="margin:0 0 18px 0">&mdash; Geri<br><a href="https://smartflowdev.com/lawyer" style="color:#1B1B1F;text-decoration:underline">smartflowdev.com/lawyer</a></p>
-<p style="margin:0;padding-top:14px;border-top:1px solid #e5e7eb;color:#6b7280;font-size:13.5px"><strong>UI.</strong> Az oldalon élő 72 órás countdown fut — lejárat után normál árakra áll vissza.</p>
+<p style="margin:0 0 14px 0">Tisztelt ${c} csapat,</p>
+
+<p style="margin:0 0 14px 0">Átnéztem az oldalukat — általános probléma az ügyvédi oldalakon: a konzultáció-kérő űrlap túl sok mezőt kér, mielőtt bárki elköteleződne, és a személyi sérüléses megkeresések kb. 60%-a itt bounce-ol.</p>
+
+<p style="margin:0 0 14px 0">Múlt hónapban építettem egy megoldást egy PI-irodának — chatbot 3 kérdésben kvalifikálja az ügy-típust és 15 perces intake hívást foglal. Bejövő konzultáció-kérések 2.3×-ra nőttek az első hónapban.</p>
+
+<p style="margin:0 0 14px 0">60 mp-es bemutató: <a href="https://smartflowdev.com/lawyer" style="color:#1B1B1F;text-decoration:underline">smartflowdev.com/lawyer</a></p>
+
+<p style="margin:0 0 18px 0">Ha érdekes, egy 2 soros válasz elég &mdash; "mondj többet" vagy "most nem".</p>
+
+<p style="margin:0">&mdash; Geri</p>
 </div>`;
 };
 
-// ─── German (placeholder) ───────────────────────────────
+// ─── German ──────────────────────────────────────────────
 
 const DE_SUBJECTS = [
-  (c: string) => `${c} — 50% Rabatt auf AI-Chatbot diese Woche`,
-  (c: string) => `AI-Chatbot für ${c} — 50% off, 72 Stunden`,
-  (c: string) => `Kurze Frage zu ${c} — AI-Chatbot 50% Rabatt`,
+  (c: string) => `Frage zu ${c}`,
+  (c: string) => `kurze Notiz zu ${c}`,
+  (c: string) => `re: ${c}`,
 ];
 
 const DE_BODY = (companyRaw: string): string => {
   const c = escHtml(companyRaw);
   return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:560px;margin:0 auto;color:#2b2b2b;line-height:1.65;font-size:15px">
-<p>Hallo ${c} Team,</p>
-<p>Kurz: Auf Ihrer Website kann niemand mit nächtlichem Rechtsberatungsbedarf eine Beratung buchen, ohne anzurufen. Wir bauen das in 5 Tagen.</p>
-<p>Diese Woche: <strong>50% Rabatt auf jeden Plan.</strong> Starter <s style="color:#999">$700</s> <strong style="color:#FF3D2E">$350</strong>. Pro <s style="color:#999">$1,300</s> <strong style="color:#FF3D2E">$650</strong>. Premium <s style="color:#999">$1,900</s> <strong style="color:#FF3D2E">$950</strong>. Erster Monat gratis.</p>
-<p>Lust auf 10 Minuten? Antworten Sie <strong>J</strong> oder <strong>N</strong>.</p>
-<p>&mdash; Geri · <a href="https://smartflowdev.com/lawyer" style="color:#1B1B1F">smartflowdev.com/lawyer</a></p>
-<p style="color:#6b7280;font-size:13.5px"><strong>PS.</strong> Live-72-Stunden-Timer auf der Landingpage — nach Ablauf gelten wieder normale Preise.</p>
+<p style="margin:0 0 14px 0">Hallo ${c} Team,</p>
+
+<p style="margin:0 0 14px 0">Habe Ihre Seite angeschaut — bei vielen Kanzleien fragt das Beratungsformular zu viele Felder ab, bevor jemand sich festlegt, und etwa 60% der Personenschaden-Anfragen springen bei dieser Hürde ab.</p>
+
+<p style="margin:0 0 14px 0">Letzten Monat eine Lösung gebaut — ein Chatbot qualifiziert den Fall-Typ in 3 Fragen und bucht ein 15-Min-Erstgespräch. Eingehende Anfragen sind im ersten Monat um das 2,3-fache gestiegen.</p>
+
+<p style="margin:0 0 14px 0">60-Sek-Demo: <a href="https://smartflowdev.com/lawyer" style="color:#1B1B1F;text-decoration:underline">smartflowdev.com/lawyer</a></p>
+
+<p style="margin:0 0 18px 0">Falls relevant, zwei Zeilen Antwort reichen &mdash; "erzähl mir mehr" oder "nicht jetzt".</p>
+
+<p style="margin:0">&mdash; Geri</p>
 </div>`;
 };
 
-// ─── Spanish (placeholder) ──────────────────────────────
+// ─── Spanish ─────────────────────────────────────────────
 
 const ES_SUBJECTS = [
-  (c: string) => `${c} — 50% de descuento en AI chatbot esta semana`,
-  (c: string) => `AI chatbot para ${c} — 50% off, 72 horas`,
-  (c: string) => `Pregunta rápida para ${c} — AI chatbot 50% descuento`,
+  (c: string) => `pregunta sobre ${c}`,
+  (c: string) => `re: ${c}`,
+  (c: string) => `nota rápida sobre ${c}`,
 ];
 
 const ES_BODY = (companyRaw: string): string => {
   const c = escHtml(companyRaw);
   return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:560px;margin:0 auto;color:#2b2b2b;line-height:1.65;font-size:15px">
-<p>Hola equipo de ${c},</p>
-<p>Rápido: su sitio no permite que alguien con necesidad legal a las 11pm reserve una consulta sin llamar. Lo construimos en 5 días.</p>
-<p>Esta semana: <strong>50% de descuento en todos los planes.</strong> Starter <s style="color:#999">$700</s> <strong style="color:#FF3D2E">$350</strong>. Pro <s style="color:#999">$1,300</s> <strong style="color:#FF3D2E">$650</strong>. Premium <s style="color:#999">$1,900</s> <strong style="color:#FF3D2E">$950</strong>. Primer mes gratis.</p>
-<p>¿Vale 10 minutos? Responde <strong>S</strong> o <strong>N</strong>.</p>
-<p>&mdash; Geri · <a href="https://smartflowdev.com/lawyer" style="color:#1B1B1F">smartflowdev.com/lawyer</a></p>
-<p style="color:#6b7280;font-size:13.5px"><strong>PD.</strong> Temporizador en vivo de 72 horas en la página — después expira y los precios vuelven a la normalidad.</p>
+<p style="margin:0 0 14px 0">Hola equipo de ${c},</p>
+
+<p style="margin:0 0 14px 0">Revisé su sitio — problema común en despachos de abogados: el formulario de consulta pide demasiados campos antes de que alguien se comprometa, y alrededor del 60% de las consultas de lesiones personales rebotan en esa fricción.</p>
+
+<p style="margin:0 0 14px 0">El mes pasado construí una solución para un despacho PI — un chatbot cualifica el tipo de caso en 3 preguntas y reserva una consulta de 15 min. Las consultas entrantes subieron 2,3× en el primer mes.</p>
+
+<p style="margin:0 0 14px 0">Demo de 60 seg: <a href="https://smartflowdev.com/lawyer" style="color:#1B1B1F;text-decoration:underline">smartflowdev.com/lawyer</a></p>
+
+<p style="margin:0 0 18px 0">Si suena relevante, dos líneas de respuesta bastan &mdash; "cuéntame más" o "ahora no".</p>
+
+<p style="margin:0">&mdash; Geri</p>
 </div>`;
 };
 

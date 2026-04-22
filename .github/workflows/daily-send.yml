@@ -1,10 +1,12 @@
 name: Daily v5 dental send
 
+# ── PAUSED 2026-04-21 ──
+# Cold email copy being refactored after 0 replies on 1,415 sends.
+# Re-enable after Phase 2 (new observation-led copy) + Phase 3 (A/B test ≥1%).
+# Manual dispatch still works for controlled tests.
 on:
-  schedule:
-    # 17:00 UTC = 13:00 EDT (summer) / 12:00 EST (winter)
-    # = 19:00 CEST / 18:00 CET — middle of US Eastern 12:00-16:00 window
-    - cron: '0 17 * * *'
+  # schedule:
+  #   - cron: '0 17 * * *'
   workflow_dispatch:
     inputs:
       markets:
