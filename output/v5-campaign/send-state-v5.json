@@ -12514,5 +12514,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "enquiries@hardydental.com.au": {
+    "sentAt": "2026-04-22T06:23:08.921Z",
+    "messageId": "<202604220623.73266754228@smtp-relay.mailin.fr>",
+    "company": "Hardy Avenue Dental Surgery",
+    "subject": "AI chatbot for Hardy Avenue Dental Surgery — 50% off, 72 hours",
+    "city": "Craigieburn",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
