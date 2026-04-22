@@ -12437,5 +12437,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "cathedral.dental@gmail.com": {
+    "sentAt": "2026-04-22T06:22:25.235Z",
+    "messageId": "<202604220622.27814035727@smtp-relay.mailin.fr>",
+    "company": "Cathedral Dental",
+    "subject": "Cathedral Dental — 50% off AI chatbot this week",
+    "city": "Geraldton",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
