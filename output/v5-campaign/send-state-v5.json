@@ -12140,5 +12140,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@prosmiles.com.au": {
+    "sentAt": "2026-04-22T06:19:31.628Z",
+    "messageId": "<202604220619.25224289957@smtp-relay.mailin.fr>",
+    "company": "ProSmiles Dentist Collingwood",
+    "subject": "ProSmiles Dentist Collingwood — 50% off AI chatbot this week",
+    "city": "Collingwood",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
