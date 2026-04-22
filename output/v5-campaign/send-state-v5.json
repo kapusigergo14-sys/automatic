@@ -11953,5 +11953,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@willsmeredental.com.au": {
+    "sentAt": "2026-04-22T06:17:45.611Z",
+    "messageId": "<202604220617.41228380155@smtp-relay.mailin.fr>",
+    "company": "Willsmere Dental",
+    "subject": "AI chatbot for Willsmere Dental — 50% off, 72 hours",
+    "city": "Kew",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
