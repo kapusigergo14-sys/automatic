@@ -4002,5 +4002,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "busselton@lbh.net.au": {
+    "sentAt": "2026-04-22T06:08:48.270Z",
+    "messageId": "<202604220608.48701737302@smtp-relay.mailin.fr>",
+    "company": "Lane Buck & Higgins",
+    "subject": "AI chatbot for Lane Buck & Higgins — 50% off, 72 hours",
+    "city": "Busselton",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
