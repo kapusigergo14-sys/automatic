@@ -12580,5 +12580,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "earley@evergreen.dentist": {
+    "sentAt": "2026-04-22T06:35:51.423Z",
+    "messageId": "<202604220635.77959112525@smtp-relay.mailin.fr>",
+    "company": "evergreen reading",
+    "subject": "AI chatbot for evergreen reading — 50% off, 72 hours",
+    "city": "Reading",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
