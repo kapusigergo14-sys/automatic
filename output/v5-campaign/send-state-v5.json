@@ -12360,5 +12360,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@bdg.net.au": {
+    "sentAt": "2026-04-22T06:21:41.738Z",
+    "messageId": "<202604220621.20665929343@smtp-relay.mailin.fr>",
+    "company": "Brunswick Dental Group",
+    "subject": "Quick one for Brunswick Dental Group — AI chatbot 50% off right now",
+    "city": "City of Port Phillip 07",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
