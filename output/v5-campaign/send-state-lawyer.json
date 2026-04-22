@@ -3991,5 +3991,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@stclegal.com.au": {
+    "sentAt": "2026-04-22T06:08:41.833Z",
+    "messageId": "<202604220608.72595276532@smtp-relay.mailin.fr>",
+    "company": "STC Legal",
+    "subject": "STC Legal — 50% off AI chatbot this week",
+    "city": "Goulburn",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
