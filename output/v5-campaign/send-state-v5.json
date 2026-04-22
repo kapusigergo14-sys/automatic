@@ -12701,5 +12701,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@olivetreedental.co.uk": {
+    "sentAt": "2026-04-22T06:37:02.877Z",
+    "messageId": "<202604220637.99652738645@smtp-relay.mailin.fr>",
+    "company": "Olive Tree Dental",
+    "subject": "Olive Tree Dental — 50% off AI chatbot this week",
+    "city": "Reading ENG",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
