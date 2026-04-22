@@ -12624,5 +12624,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@dundeedentists.com": {
+    "sentAt": "2026-04-22T06:36:17.388Z",
+    "messageId": "<202604220636.78473517079@smtp-relay.mailin.fr>",
+    "company": "Whitehall Dental",
+    "subject": "Quick one for Whitehall Dental — AI chatbot 50% off right now",
+    "city": "Dundee",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
