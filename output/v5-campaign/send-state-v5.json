@@ -12547,5 +12547,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@collinshouse.co.uk": {
+    "sentAt": "2026-04-22T06:35:31.841Z",
+    "messageId": "<202604220635.27608369141@smtp-relay.mailin.fr>",
+    "company": "Collins House Dental Surgery",
+    "subject": "AI chatbot for Collins House Dental Surgery — 50% off, 72 hours",
+    "city": "Hereford ENG",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
