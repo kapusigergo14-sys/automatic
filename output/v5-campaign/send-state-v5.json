@@ -12041,5 +12041,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "team@alexyusupov.com.au": {
+    "sentAt": "2026-04-22T06:18:35.637Z",
+    "messageId": "<202604220618.31216138532@smtp-relay.mailin.fr>",
+    "company": "Alex Yusupov Specialist Orthodontists",
+    "subject": "Alex Yusupov Specialist Orthodontists — 50% off AI chatbot this week",
+    "city": "Melbourne VIC",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
