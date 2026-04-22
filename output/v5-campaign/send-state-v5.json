@@ -12074,5 +12074,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@highstreetdentalclinic.com.au": {
+    "sentAt": "2026-04-22T06:18:54.369Z",
+    "messageId": "<202604220618.21445458111@smtp-relay.mailin.fr>",
+    "company": "High St Dental Clinic",
+    "subject": "High St Dental Clinic — 50% off AI chatbot this week",
+    "city": "Melbourne VIC",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
