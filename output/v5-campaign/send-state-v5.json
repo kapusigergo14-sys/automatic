@@ -12305,5 +12305,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "launceston@dentaltown.net.au": {
+    "sentAt": "2026-04-22T06:21:10.466Z",
+    "messageId": "<202604220621.38009056193@smtp-relay.mailin.fr>",
+    "company": "Dentaltown",
+    "subject": "Dentaltown — 50% off AI chatbot this week",
+    "city": "Mowbray",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
