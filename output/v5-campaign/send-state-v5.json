@@ -12217,5 +12217,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@geelongendo.au": {
+    "sentAt": "2026-04-22T06:20:15.107Z",
+    "messageId": "<202604220620.75227648730@smtp-relay.mailin.fr>",
+    "company": "Southern Dental Specialists",
+    "subject": "AI chatbot for Southern Dental Specialists — 50% off, 72 hours",
+    "city": "Geelong VIC",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
