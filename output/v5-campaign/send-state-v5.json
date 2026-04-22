@@ -12679,5 +12679,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@greyfriarsdental.co.uk": {
+    "sentAt": "2026-04-22T06:36:49.858Z",
+    "messageId": "<202604220636.65214085217@smtp-relay.mailin.fr>",
+    "company": "Greyfriars Dental Practice",
+    "subject": "AI chatbot for Greyfriars Dental Practice — 50% off, 72 hours",
+    "city": "Shrewsbury",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
