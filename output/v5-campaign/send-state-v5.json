@@ -12723,5 +12723,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "kingslynn@smiledentalcare.co.uk": {
+    "sentAt": "2026-04-22T06:37:15.806Z",
+    "messageId": "<202604220637.47042448002@smtp-relay.mailin.fr>",
+    "company": "Smile Dental Care",
+    "subject": "Quick one for Smile Dental Care — AI chatbot 50% off right now",
+    "city": "King's Lynn",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
