@@ -12052,5 +12052,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@northenddental.co": {
+    "sentAt": "2026-04-22T06:18:41.837Z",
+    "messageId": "<202604220618.26463115084@smtp-relay.mailin.fr>",
+    "company": "Northend Dental",
+    "subject": "AI chatbot for Northend Dental — 50% off, 72 hours",
+    "city": "Melbourne VIC",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
