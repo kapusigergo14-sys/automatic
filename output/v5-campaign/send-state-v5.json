@@ -12107,5 +12107,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "enquiries@scsmiles.com.au": {
+    "sentAt": "2026-04-22T06:19:13.042Z",
+    "messageId": "<202604220619.71197638302@smtp-relay.mailin.fr>",
+    "company": "Southern Cross Smiles",
+    "subject": "Southern Cross Smiles — 50% off AI chatbot this week",
+    "city": "Melbourne VIC",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
