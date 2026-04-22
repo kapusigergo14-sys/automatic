@@ -11986,5 +11986,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@belleviewdental.com.au": {
+    "sentAt": "2026-04-22T06:18:04.463Z",
+    "messageId": "<202604220618.40268039236@smtp-relay.mailin.fr>",
+    "company": "Belleview Dental",
+    "subject": "AI chatbot for Belleview Dental — 50% off, 72 hours",
+    "city": "Brunswick",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
