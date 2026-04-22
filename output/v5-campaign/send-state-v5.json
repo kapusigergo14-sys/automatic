@@ -12129,5 +12129,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "hello@thenorthsidedentist.com.au": {
+    "sentAt": "2026-04-22T06:19:25.424Z",
+    "messageId": "<202604220619.89892423508@smtp-relay.mailin.fr>",
+    "company": "The Northside Dentist",
+    "subject": "Quick one for The Northside Dentist — AI chatbot 50% off right now",
+    "city": "Thornbury",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
