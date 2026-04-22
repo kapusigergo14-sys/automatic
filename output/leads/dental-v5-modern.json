@@ -1098,5 +1098,28 @@
     "modernScore": 3,
     "collectedAt": "2026-04-22T05:28:26.182Z",
     "extractedFrom": "homepage:mailto"
+  },
+  {
+    "name": "Hardy Avenue Dental Surgery",
+    "website": "https://hardydental.com.au",
+    "city": "Craigieburn",
+    "country": "AU",
+    "email": "enquiries@hardydental.com.au",
+    "hasBooking": false,
+    "modernScore": 2,
+    "collectedAt": "2026-04-22T06:16:50.351Z",
+    "extractedFrom": "contact:mailto"
+  },
+  {
+    "name": "Gardenia Dental",
+    "website": "https://www.gardeniadental.com.au",
+    "phone": "+61 3 9308 7514",
+    "city": "Coolaroo",
+    "country": "AU",
+    "email": "info@gardeniadental.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-22T06:16:57.643Z",
+    "extractedFrom": "homepage:text"
   }
 ]

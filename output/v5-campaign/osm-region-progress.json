@@ -2378,5 +2378,26 @@
     "lastNewLeads": 0,
     "totalNewLeads": 0,
     "lastResultsCount": 0
+  },
+  "AU-DUBBO": {
+    "lastRunAt": "2026-04-22T06:16:57.644Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-MORPHETT-VALE": {
+    "lastRunAt": "2026-04-22T06:16:57.644Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "AU-CRAIGIEBURN": {
+    "lastRunAt": "2026-04-22T06:16:57.644Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 2
   }
 }
