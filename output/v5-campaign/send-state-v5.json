@@ -12118,5 +12118,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "toothfairy@paladindental.com.au": {
+    "sentAt": "2026-04-22T06:19:19.228Z",
+    "messageId": "<202604220619.45453453342@smtp-relay.mailin.fr>",
+    "company": "Paladin Dental",
+    "subject": "AI chatbot for Paladin Dental — 50% off, 72 hours",
+    "city": "Melbourne VIC",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
