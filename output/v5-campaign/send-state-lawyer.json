@@ -4024,5 +4024,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "admin@saslaw.com.au": {
+    "sentAt": "2026-04-22T06:09:01.008Z",
+    "messageId": "<202604220609.84426704344@smtp-relay.mailin.fr>",
+    "company": "S&S Law",
+    "subject": "S&S Law — 50% off AI chatbot this week",
+    "city": "Warwick",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
