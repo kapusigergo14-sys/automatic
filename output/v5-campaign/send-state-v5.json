@@ -11931,5 +11931,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@coburgdentalgroup.com.au": {
+    "sentAt": "2026-04-22T06:17:33.119Z",
+    "messageId": "<202604220617.68544937911@smtp-relay.mailin.fr>",
+    "company": "Coburg Dental Group",
+    "subject": "Quick one for Coburg Dental Group — AI chatbot 50% off right now",
+    "city": "Melbourne VIC",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
