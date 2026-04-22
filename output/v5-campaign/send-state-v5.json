@@ -12404,5 +12404,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "warrigaldental@gmail.com": {
+    "sentAt": "2026-04-22T06:22:06.625Z",
+    "messageId": "<202604220622.68215171428@smtp-relay.mailin.fr>",
+    "company": "Warrigal Dental",
+    "subject": "Warrigal Dental — 50% off AI chatbot this week",
+    "city": "Brisbane",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
