@@ -12173,5 +12173,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "hello@cameronandco.com.au": {
+    "sentAt": "2026-04-22T06:19:50.292Z",
+    "messageId": "<202604220619.70247692070@smtp-relay.mailin.fr>",
+    "company": "Cameron&Co",
+    "subject": "Cameron&Co — 50% off AI chatbot this week",
+    "city": "Townsville QLD",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
