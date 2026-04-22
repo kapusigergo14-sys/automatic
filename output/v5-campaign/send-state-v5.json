@@ -11909,5 +11909,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@pureorthodontics.com.au": {
+    "sentAt": "2026-04-22T06:17:20.576Z",
+    "messageId": "<202604220617.46340170225@smtp-relay.mailin.fr>",
+    "company": "Pure Orthodontics",
+    "subject": "Pure Orthodontics — 50% off AI chatbot this week",
+    "city": "Melbourne VIC",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
