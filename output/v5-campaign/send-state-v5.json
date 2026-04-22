@@ -12470,5 +12470,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@smilemakers.com.au": {
+    "sentAt": "2026-04-22T06:22:43.885Z",
+    "messageId": "<202604220622.38516858043@smtp-relay.mailin.fr>",
+    "company": "Smilemakers",
+    "subject": "Smilemakers — 50% off AI chatbot this week",
+    "city": "Blue Mountains 02",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
