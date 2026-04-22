@@ -12591,5 +12591,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@beechlanedentalcare.co.uk": {
+    "sentAt": "2026-04-22T06:35:57.863Z",
+    "messageId": "<202604220635.88461460939@smtp-relay.mailin.fr>",
+    "company": "Beech Lane Dental Care",
+    "subject": "Quick one for Beech Lane Dental Care — AI chatbot 50% off right now",
+    "city": "Reading",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
