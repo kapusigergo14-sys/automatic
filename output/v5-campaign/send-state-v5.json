@@ -11876,5 +11876,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@melbournesmileclinic.com.au": {
+    "sentAt": "2026-04-22T06:17:01.755Z",
+    "messageId": "<202604220617.88144412457@smtp-relay.mailin.fr>",
+    "company": "Melbourne Smile Clinic",
+    "subject": "Melbourne Smile Clinic — 50% off AI chatbot this week",
+    "city": "Melbourne VIC",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
