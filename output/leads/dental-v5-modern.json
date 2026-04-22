@@ -432,5 +432,16 @@
     "modernScore": 3,
     "collectedAt": "2026-04-21T17:56:15.209Z",
     "extractedFrom": "homepage:text"
+  },
+  {
+    "name": "Smile Dental Care",
+    "website": "https://www.smile-dentalcare.co.uk/dentist-kings-lynn",
+    "city": "King's Lynn",
+    "country": "UK",
+    "email": "kingslynn@smiledentalcare.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-22T06:35:21.755Z",
+    "extractedFrom": "homepage:mailto"
   }
 ]

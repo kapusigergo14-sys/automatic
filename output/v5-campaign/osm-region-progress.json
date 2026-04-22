@@ -2399,5 +2399,26 @@
     "lastNewLeads": 2,
     "totalNewLeads": 2,
     "lastResultsCount": 2
+  },
+  "UK-BOURNEMOUTH": {
+    "lastRunAt": "2026-04-22T06:35:21.756Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-MIDDLESBROUGH": {
+    "lastRunAt": "2026-04-22T06:35:21.756Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "UK-KING-S-LYNN": {
+    "lastRunAt": "2026-04-22T06:35:21.756Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 3
   }
 }
