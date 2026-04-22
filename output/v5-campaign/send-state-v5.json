@@ -12250,5 +12250,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@myersdental.com.au": {
+    "sentAt": "2026-04-22T06:20:34.007Z",
+    "messageId": "<202604220620.30853239447@smtp-relay.mailin.fr>",
+    "company": "Myers Street Dental Clinic",
+    "subject": "AI chatbot for Myers Street Dental Clinic — 50% off, 72 hours",
+    "city": "Geelong VIC",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
