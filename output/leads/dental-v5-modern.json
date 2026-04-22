@@ -1027,5 +1027,76 @@
     "modernScore": 3,
     "collectedAt": "2026-04-21T17:56:16.709Z",
     "extractedFrom": "contact:mailto"
+  },
+  {
+    "name": "Manchester Road Dental Surgery",
+    "website": "https://manchesterrddental.com.au",
+    "phone": "+61 3 9726 5484",
+    "city": "Mooroolbark",
+    "country": "AU",
+    "email": "manchester.rd.dental@gmail.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-22T05:28:20.225Z",
+    "extractedFrom": "homepage:jsonld"
+  },
+  {
+    "name": "Port Macquarie Dental Care",
+    "website": "https://portdental.com.au",
+    "phone": "+61 2 6583 1711",
+    "city": "Port Macquarie 02",
+    "country": "AU",
+    "email": "info@portdental.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-22T05:28:20.679Z",
+    "extractedFrom": "homepage:cfemail"
+  },
+  {
+    "name": "Smilemakers",
+    "website": "https://www.smilemakers.com.au",
+    "phone": "+61 2 4784 2560",
+    "city": "Blue Mountains 02",
+    "country": "AU",
+    "email": "info@smilemakers.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-22T05:28:21.749Z",
+    "extractedFrom": "homepage:mailto"
+  },
+  {
+    "name": "The Dental Club",
+    "website": "https://www.thedentalclub.com.au",
+    "phone": "+61 7 5428 1244",
+    "city": "Caboolture 04",
+    "country": "AU",
+    "email": "caboolture@thedentalclub.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-22T05:28:23.921Z",
+    "extractedFrom": "homepage:mailto"
+  },
+  {
+    "name": "Warragul Dental Care",
+    "website": "https://warraguldentalcare.com.au",
+    "phone": "+61 3 5623 5588",
+    "city": "Warragul 07",
+    "country": "AU",
+    "email": "contact@warraguldental.com.au",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-22T05:28:25.314Z",
+    "extractedFrom": "contact:mailto"
+  },
+  {
+    "name": "Queen Street Dental",
+    "website": "https://www.warragul.dentist",
+    "city": "Warragul",
+    "country": "AU",
+    "email": "info@warragul.dentist",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-22T05:28:26.182Z",
+    "extractedFrom": "homepage:mailto"
   }
 ]

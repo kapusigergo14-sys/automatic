@@ -2168,5 +2168,215 @@
     "lastNewLeads": 0,
     "totalNewLeads": 0,
     "lastResultsCount": 0
+  },
+  "AU-WARRNAMBOOL": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-LILYDALE": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "AU-BLUE-MOUNTAINS": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 1
+  },
+  "AU-BROKEN-HILL": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-PORT-MACQUARIE": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "AU-WARRAGUL": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 2
+  },
+  "AU-TORQUAY": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 2
+  },
+  "AU-MOUNT-GAMBIER": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "AU-BLACKTOWN": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "AU-CENTRAL-COAST": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-MAITLAND": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "AU-HERVEY-BAY": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-MILDURA": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-ALBANY": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-CABOOLTURE": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 1
+  },
+  "AU-GYMPIE": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-GLADSTONE": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-MOUNT-ISA": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-REDBANK-PLAINS": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-ROCKHAMPTON": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "AU-BALDIVIS": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-BACCHUS-MARSH": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-BUNDABERG": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-BUNBURY": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "AU-DEVONPORT": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-GRIFFITH": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-COFFS-HARBOUR": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-MUSWELLBROOK": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-PAKENHAM": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "AU-BAIRNSDALE": {
+    "lastRunAt": "2026-04-22T05:28:28.411Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
   }
 }
