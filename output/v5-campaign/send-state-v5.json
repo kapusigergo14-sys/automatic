@@ -12503,5 +12503,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@warragul.dentist": {
+    "sentAt": "2026-04-22T06:23:02.510Z",
+    "messageId": "<202604220623.47497402094@smtp-relay.mailin.fr>",
+    "company": "Queen Street Dental",
+    "subject": "Queen Street Dental — 50% off AI chatbot this week",
+    "city": "Warragul",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
