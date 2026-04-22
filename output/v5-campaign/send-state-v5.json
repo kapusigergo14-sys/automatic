@@ -12635,5 +12635,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@ch-dp.co.uk": {
+    "sentAt": "2026-04-22T06:36:23.874Z",
+    "messageId": "<202604220636.14185788153@smtp-relay.mailin.fr>",
+    "company": "Caversham Heights Dental Practice",
+    "subject": "Caversham Heights Dental Practice — 50% off AI chatbot this week",
+    "city": "Reading",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
