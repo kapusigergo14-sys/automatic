@@ -12448,5 +12448,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "manchester.rd.dental@gmail.com": {
+    "sentAt": "2026-04-22T06:22:31.432Z",
+    "messageId": "<202604220622.21677885101@smtp-relay.mailin.fr>",
+    "company": "Manchester Road Dental Surgery",
+    "subject": "AI chatbot for Manchester Road Dental Surgery — 50% off, 72 hours",
+    "city": "Mooroolbark",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
