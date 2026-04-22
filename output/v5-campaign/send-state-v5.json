@@ -12019,5 +12019,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@dentistthornbury.com.au": {
+    "sentAt": "2026-04-22T06:18:23.198Z",
+    "messageId": "<202604220618.58317615038@smtp-relay.mailin.fr>",
+    "company": "Thornbury Family Dental",
+    "subject": "AI chatbot for Thornbury Family Dental — 50% off, 72 hours",
+    "city": "Melbourne VIC",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
