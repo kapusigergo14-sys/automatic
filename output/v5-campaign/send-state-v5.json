@@ -12668,5 +12668,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@nphd.co.uk": {
+    "sentAt": "2026-04-22T06:36:43.325Z",
+    "messageId": "<202604220636.16506339821@smtp-relay.mailin.fr>",
+    "company": "New Park House Dental Centre",
+    "subject": "New Park House Dental — 50% off AI chatbot this week",
+    "city": "Shrewsbury",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
