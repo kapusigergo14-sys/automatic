@@ -12536,5 +12536,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@dental-works.co.uk": {
+    "sentAt": "2026-04-22T06:35:25.244Z",
+    "messageId": "<202604220635.84102919817@smtp-relay.mailin.fr>",
+    "company": "Dental Works",
+    "subject": "Dental Works — 50% off AI chatbot this week",
+    "city": "Milton Keynes",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
