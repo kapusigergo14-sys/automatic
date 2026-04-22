@@ -12569,5 +12569,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@avenuedental.co.uk": {
+    "sentAt": "2026-04-22T06:35:44.951Z",
+    "messageId": "<202604220635.88986047046@smtp-relay.mailin.fr>",
+    "company": "Avenue Dental Surgery",
+    "subject": "Avenue Dental Surgery — 50% off AI chatbot this week",
+    "city": "Torquay",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
