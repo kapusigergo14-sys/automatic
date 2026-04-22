@@ -11942,5 +11942,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@simplysmilesdental.com.au": {
+    "sentAt": "2026-04-22T06:17:39.337Z",
+    "messageId": "<202604220617.75828191347@smtp-relay.mailin.fr>",
+    "company": "Simply Smiles",
+    "subject": "Simply Smiles — 50% off AI chatbot this week",
+    "city": "Melbourne VIC",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
