@@ -12294,5 +12294,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@aberdeendentalcare.com.au": {
+    "sentAt": "2026-04-22T06:21:04.263Z",
+    "messageId": "<202604220621.80082263311@smtp-relay.mailin.fr>",
+    "company": "Aberdeen Dental Care",
+    "subject": "Quick one for Aberdeen Dental Care — AI chatbot 50% off right now",
+    "city": "Geelong VIC",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
