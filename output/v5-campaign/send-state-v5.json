@@ -12228,5 +12228,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@dentalspa.com.au": {
+    "sentAt": "2026-04-22T06:20:21.417Z",
+    "messageId": "<202604220620.39262915333@smtp-relay.mailin.fr>",
+    "company": "Dental Spa",
+    "subject": "Quick one for Dental Spa — AI chatbot 50% off right now",
+    "city": "Geelong VIC",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
