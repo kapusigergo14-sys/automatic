@@ -12283,5 +12283,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "reception@whitehillsdental.com.au": {
+    "sentAt": "2026-04-22T06:20:58.043Z",
+    "messageId": "<202604220620.35786623440@smtp-relay.mailin.fr>",
+    "company": "Whitehills Dental",
+    "subject": "AI chatbot for Whitehills Dental — 50% off, 72 hours",
+    "city": "White Hills",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
