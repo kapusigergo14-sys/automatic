@@ -11964,5 +11964,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "prestonsmilesreception@gmail.com": {
+    "sentAt": "2026-04-22T06:17:51.981Z",
+    "messageId": "<202604220617.36462995584@smtp-relay.mailin.fr>",
+    "company": "Preston Smiles",
+    "subject": "Quick one for Preston Smiles — AI chatbot 50% off right now",
+    "city": "Melbourne VIC",
+    "country": "AU",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
