@@ -1498,5 +1498,17 @@
     "pitch": "lawyer",
     "expiresAt": "2026-04-30T15:17:57.045Z",
     "originalSentAt": "2026-04-17T16:34:29.471Z"
+  },
+  "enquiries@thorntons-law.co.uk": {
+    "sentAt": "2026-04-23T15:18:04.121Z",
+    "messageId": "<202604231518.67594464955@smtp-relay.mailin.fr>",
+    "company": "Patience and Buchan",
+    "subject": "One last thing for Patience and Buchan",
+    "city": "Aberdeen",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "lawyer",
+    "expiresAt": "2026-04-30T15:18:03.640Z",
+    "originalSentAt": "2026-04-17T16:34:09.853Z"
   }
 }
