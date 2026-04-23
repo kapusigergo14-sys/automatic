@@ -12822,5 +12822,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "staff@schaffnerfamilydental.com": {
+    "sentAt": "2026-04-23T16:38:00.196Z",
+    "messageId": "<202604231638.40616162775@smtp-relay.mailin.fr>",
+    "company": "Schaffner & Eulenstein Family Dental",
+    "subject": "question about Schaffner & Eulenstein Family",
+    "city": "Fort Collins",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
