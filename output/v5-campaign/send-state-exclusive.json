@@ -1342,5 +1342,17 @@
     "pitch": "lawyer",
     "expiresAt": "2026-04-30T15:16:29.252Z",
     "originalSentAt": "2026-04-17T15:48:42.174Z"
+  },
+  "deberly@emclawyers.com": {
+    "sentAt": "2026-04-23T15:16:36.614Z",
+    "messageId": "<202604231516.47879379589@smtp-relay.mailin.fr>",
+    "company": "Eberly McMahon Copetas LLC",
+    "subject": "Exclusive for Eberly McMahon Copetas LLC (expires Apr 30)",
+    "city": "Cincinnati",
+    "country": "US",
+    "lang": "en",
+    "pitch": "lawyer",
+    "expiresAt": "2026-04-30T15:16:36.119Z",
+    "originalSentAt": "2026-04-17T15:48:17.086Z"
   }
 }
