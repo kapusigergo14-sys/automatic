@@ -12811,5 +12811,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "finessefamilydental1@gmail.com": {
+    "sentAt": "2026-04-23T16:37:52.229Z",
+    "messageId": "<202604231637.87766185471@smtp-relay.mailin.fr>",
+    "company": "Finesse Family Dental",
+    "subject": "quick note about Finesse Family Dental",
+    "city": "Fremont CA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
