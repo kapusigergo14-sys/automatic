@@ -1330,5 +1330,17 @@
     "pitch": "lawyer",
     "expiresAt": "2026-04-30T15:16:22.669Z",
     "originalSentAt": "2026-04-17T15:47:58.318Z"
+  },
+  "docs@amarlawgrp.com": {
+    "sentAt": "2026-04-23T15:16:29.819Z",
+    "messageId": "<202604231516.65631102292@smtp-relay.mailin.fr>",
+    "company": "Amar Law Group, PLLC",
+    "subject": "Amar Law Group PLLC — 50% off, 72 hours only",
+    "city": "Las Vegas",
+    "country": "US",
+    "lang": "en",
+    "pitch": "lawyer",
+    "expiresAt": "2026-04-30T15:16:29.252Z",
+    "originalSentAt": "2026-04-17T15:48:42.174Z"
   }
 }
