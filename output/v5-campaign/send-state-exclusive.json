@@ -1486,5 +1486,17 @@
     "pitch": "lawyer",
     "expiresAt": "2026-04-30T15:17:50.399Z",
     "originalSentAt": "2026-04-17T16:33:36.999Z"
+  },
+  "enquiries@jgcollie.co.uk": {
+    "sentAt": "2026-04-23T15:17:57.523Z",
+    "messageId": "<202604231517.28196625072@smtp-relay.mailin.fr>",
+    "company": "James & George Collie",
+    "subject": "Exclusive for James & George Collie (expires Apr 30)",
+    "city": "Aberdeen",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "lawyer",
+    "expiresAt": "2026-04-30T15:17:57.045Z",
+    "originalSentAt": "2026-04-17T16:34:29.471Z"
   }
 }
