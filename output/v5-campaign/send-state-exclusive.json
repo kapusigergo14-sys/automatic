@@ -1378,5 +1378,17 @@
     "pitch": "lawyer",
     "expiresAt": "2026-04-30T15:16:50.285Z",
     "originalSentAt": "2026-04-17T15:46:42.991Z"
+  },
+  "info@medlocklaw.co.uk": {
+    "sentAt": "2026-04-23T15:16:57.383Z",
+    "messageId": "<202604231516.19746526385@smtp-relay.mailin.fr>",
+    "company": "Medlock Solicitors",
+    "subject": "Exclusive for Medlock Solicitors (expires Apr 30)",
+    "city": "Manchester",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "lawyer",
+    "expiresAt": "2026-04-30T15:16:56.901Z",
+    "originalSentAt": "2026-04-17T16:28:34.124Z"
   }
 }
