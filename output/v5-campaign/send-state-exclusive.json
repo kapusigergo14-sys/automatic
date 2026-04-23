@@ -1510,5 +1510,17 @@
     "pitch": "lawyer",
     "expiresAt": "2026-04-30T15:18:03.640Z",
     "originalSentAt": "2026-04-17T16:34:09.853Z"
+  },
+  "info@hcsolicitors.co.uk": {
+    "sentAt": "2026-04-23T15:18:10.787Z",
+    "messageId": "<202604231518.86247029657@smtp-relay.mailin.fr>",
+    "company": "Hunt & Coombs Solicitors",
+    "subject": "Hunt & Coombs Solicitors — 50% off, 72 hours only",
+    "city": "Peterborough",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "lawyer",
+    "expiresAt": "2026-04-30T15:18:10.292Z",
+    "originalSentAt": "2026-04-17T16:34:55.894Z"
   }
 }
