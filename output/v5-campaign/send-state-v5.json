@@ -12855,5 +12855,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "boardwalkdentalcare@dr.com": {
+    "sentAt": "2026-04-23T16:38:22.546Z",
+    "messageId": "<202604231638.15201159838@smtp-relay.mailin.fr>",
+    "company": "Boardwalk Dental",
+    "subject": "quick note about Boardwalk Dental",
+    "city": "Fort Collins",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
