@@ -1390,5 +1390,17 @@
     "pitch": "lawyer",
     "expiresAt": "2026-04-30T15:16:56.901Z",
     "originalSentAt": "2026-04-17T16:28:34.124Z"
+  },
+  "info@satchellmoransolicitors.com": {
+    "sentAt": "2026-04-23T15:17:04.222Z",
+    "messageId": "<202604231517.62545207584@smtp-relay.mailin.fr>",
+    "company": "Satchell Moran",
+    "subject": "One last thing for Satchell Moran",
+    "city": "Liverpool",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "lawyer",
+    "expiresAt": "2026-04-30T15:17:03.728Z",
+    "originalSentAt": "2026-04-17T16:29:13.450Z"
   }
 }
