@@ -12844,5 +12844,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 2
+  },
+  "mallory@drcoryfoster.com": {
+    "sentAt": "2026-04-23T16:38:13.936Z",
+    "messageId": "<202604231638.22601145485@smtp-relay.mailin.fr>",
+    "company": "Corey Foster, DDS",
+    "subject": "re: Corey Foster DDS",
+    "city": "Fort Collins",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
