@@ -12965,5 +12965,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "bedford@chrysalisdentalpractice.co.uk": {
+    "sentAt": "2026-04-23T16:39:34.914Z",
+    "messageId": "<202604231639.71243105699@smtp-relay.mailin.fr>",
+    "company": "Chrysalis",
+    "subject": "noticed something on Chrysalis's site",
+    "city": "Bedford ENG",
+    "country": "UK",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
