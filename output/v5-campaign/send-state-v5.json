@@ -12866,5 +12866,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "college@collegeavemoderndental.com": {
+    "sentAt": "2026-04-23T16:38:29.242Z",
+    "messageId": "<202604231638.31446832148@smtp-relay.mailin.fr>",
+    "company": "College Avenue Modern Dental",
+    "subject": "question about College Avenue Modern Dental",
+    "city": "Fort Collins",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
