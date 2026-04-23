@@ -12789,5 +12789,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "premiersmilecenter@outlook.com": {
+    "sentAt": "2026-04-23T16:37:39.029Z",
+    "messageId": "<202604231637.67344626285@smtp-relay.mailin.fr>",
+    "company": "Premier Smile Center",
+    "subject": "noticed something on Premier Smile Center's site",
+    "city": "Fort Lauderdale",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
