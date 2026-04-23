@@ -12899,5 +12899,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "contact@macinnesdentistry.com": {
+    "sentAt": "2026-04-23T16:38:49.354Z",
+    "messageId": "<202604231638.84634411001@smtp-relay.mailin.fr>",
+    "company": "Michael A. Macinnes, DDS",
+    "subject": "quick note about Michael A. Macinnes DDS",
+    "city": "Sammamish",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
