@@ -1282,5 +1282,17 @@
     "pitch": "lawyer",
     "expiresAt": "2026-04-30T15:15:56.061Z",
     "originalSentAt": "2026-04-17T15:46:11.619Z"
+  },
+  "contact@sweeneymerrigan.com": {
+    "sentAt": "2026-04-23T15:16:03.171Z",
+    "messageId": "<202604231516.43338215404@smtp-relay.mailin.fr>",
+    "company": "Sweeney Merrigan Law, LLP",
+    "subject": "One last thing for Sweeney Merrigan Law LLP",
+    "city": "Boston",
+    "country": "US",
+    "lang": "en",
+    "pitch": "lawyer",
+    "expiresAt": "2026-04-30T15:16:02.681Z",
+    "originalSentAt": "2026-04-17T15:47:08.080Z"
   }
 }
