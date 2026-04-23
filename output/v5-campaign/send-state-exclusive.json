@@ -1318,5 +1318,17 @@
     "pitch": "lawyer",
     "expiresAt": "2026-04-30T15:16:15.966Z",
     "originalSentAt": "2026-04-17T15:47:39.328Z"
+  },
+  "info@myazlawyers.com": {
+    "sentAt": "2026-04-23T15:16:23.154Z",
+    "messageId": "<202604231516.21719939283@smtp-relay.mailin.fr>",
+    "company": "My AZ Lawyers, PLC",
+    "subject": "One last thing for My AZ Lawyers PLC",
+    "city": "Tucson",
+    "country": "US",
+    "lang": "en",
+    "pitch": "lawyer",
+    "expiresAt": "2026-04-30T15:16:22.669Z",
+    "originalSentAt": "2026-04-17T15:47:58.318Z"
   }
 }
