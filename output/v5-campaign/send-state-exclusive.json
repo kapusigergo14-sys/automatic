@@ -1462,5 +1462,17 @@
     "pitch": "lawyer",
     "expiresAt": "2026-04-30T15:17:37.028Z",
     "originalSentAt": "2026-04-17T16:33:10.590Z"
+  },
+  "taxchamber@scotcourtstribunals.gov.uk": {
+    "sentAt": "2026-04-23T15:17:44.297Z",
+    "messageId": "<202604231517.82190679296@smtp-relay.mailin.fr>",
+    "company": "First-tier Tribunal for Scotland Tax Chamber",
+    "subject": "One last thing for First",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "lawyer",
+    "expiresAt": "2026-04-30T15:17:43.735Z",
+    "originalSentAt": "2026-04-17T16:33:23.794Z"
   }
 }
