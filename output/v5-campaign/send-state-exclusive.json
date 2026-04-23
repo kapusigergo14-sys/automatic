@@ -1558,5 +1558,17 @@
     "pitch": "lawyer",
     "expiresAt": "2026-04-30T15:18:30.597Z",
     "originalSentAt": "2026-04-17T16:31:25.096Z"
+  },
+  "aurora@orthoexp.com": {
+    "sentAt": "2026-04-23T15:18:37.804Z",
+    "messageId": "<202604231518.28300823594@smtp-relay.mailin.fr>",
+    "company": "Orthodontic Experts",
+    "subject": "Exclusive for Orthodontic Experts (expires Apr 30)",
+    "city": "Chicago",
+    "country": "US",
+    "lang": "en",
+    "pitch": "redesign",
+    "expiresAt": "2026-04-30T15:18:37.320Z",
+    "originalSentAt": "2026-04-15T20:40:06.569Z"
   }
 }
