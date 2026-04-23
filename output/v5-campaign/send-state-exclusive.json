@@ -1354,5 +1354,17 @@
     "pitch": "lawyer",
     "expiresAt": "2026-04-30T15:16:36.119Z",
     "originalSentAt": "2026-04-17T15:48:17.086Z"
+  },
+  "info@fwlawgroup.com": {
+    "sentAt": "2026-04-23T15:16:44.160Z",
+    "messageId": "<202604231516.10555249547@smtp-relay.mailin.fr>",
+    "company": "Consumer Law Pro",
+    "subject": "One last thing for Consumer Law Pro",
+    "city": "Denver",
+    "country": "US",
+    "lang": "en",
+    "pitch": "lawyer",
+    "expiresAt": "2026-04-30T15:16:43.685Z",
+    "originalSentAt": "2026-04-17T15:46:17.925Z"
   }
 }
