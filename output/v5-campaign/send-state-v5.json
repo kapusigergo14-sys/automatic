@@ -12778,5 +12778,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "marketing@cidentist.com": {
+    "sentAt": "2026-04-23T16:37:32.365Z",
+    "messageId": "<202604231637.61156116315@smtp-relay.mailin.fr>",
+    "company": "Channel Islands Family Dental Office",
+    "subject": "question about Channel Islands Family Dental",
+    "city": "Oxnard",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
