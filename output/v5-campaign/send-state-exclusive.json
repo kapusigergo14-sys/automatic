@@ -1426,5 +1426,17 @@
     "pitch": "lawyer",
     "expiresAt": "2026-04-30T15:17:17.168Z",
     "originalSentAt": "2026-04-17T16:30:05.940Z"
+  },
+  "law@fergussonlaw.com": {
+    "sentAt": "2026-04-23T15:17:24.431Z",
+    "messageId": "<202604231517.27346908779@smtp-relay.mailin.fr>",
+    "company": "Fergusson Law",
+    "subject": "One last thing for Fergusson Law",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "lawyer",
+    "expiresAt": "2026-04-30T15:17:23.944Z",
+    "originalSentAt": "2026-04-17T16:32:17.995Z"
   }
 }
