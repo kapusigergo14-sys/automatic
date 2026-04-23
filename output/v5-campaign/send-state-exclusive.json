@@ -1438,5 +1438,17 @@
     "pitch": "lawyer",
     "expiresAt": "2026-04-30T15:17:23.944Z",
     "originalSentAt": "2026-04-17T16:32:17.995Z"
+  },
+  "enquiries@lawfordkidd.co.uk": {
+    "sentAt": "2026-04-23T15:17:30.990Z",
+    "messageId": "<202604231517.73757609534@smtp-relay.mailin.fr>",
+    "company": "Lawford Kidd",
+    "subject": "Lawford Kidd — 50% off, 72 hours only",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "lawyer",
+    "expiresAt": "2026-04-30T15:17:30.513Z",
+    "originalSentAt": "2026-04-17T16:31:58.346Z"
   }
 }
