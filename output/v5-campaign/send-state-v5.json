@@ -12745,5 +12745,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "main@legacydental.com": {
+    "sentAt": "2026-04-23T16:37:12.328Z",
+    "messageId": "<202604231637.24408093611@smtp-relay.mailin.fr>",
+    "company": "Legacy Dental",
+    "subject": "noticed something on Legacy Dental's site",
+    "city": "Salt Lake City",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
