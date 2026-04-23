@@ -1546,5 +1546,17 @@
     "pitch": "lawyer",
     "expiresAt": "2026-04-30T15:18:23.916Z",
     "originalSentAt": "2026-04-17T15:47:01.835Z"
+  },
+  "info@wpmhlegal.com": {
+    "sentAt": "2026-04-23T15:18:31.097Z",
+    "messageId": "<202604231518.87892914179@smtp-relay.mailin.fr>",
+    "company": "Westmoreland, Patterson, Moseley & Hinson, L.L.P",
+    "subject": "Westmoreland Patterson Moseley & — 50% off, 72 hours only",
+    "city": "Macon",
+    "country": "US",
+    "lang": "en",
+    "pitch": "lawyer",
+    "expiresAt": "2026-04-30T15:18:30.597Z",
+    "originalSentAt": "2026-04-17T16:31:25.096Z"
   }
 }
