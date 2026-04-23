@@ -1474,5 +1474,17 @@
     "pitch": "lawyer",
     "expiresAt": "2026-04-30T15:17:43.735Z",
     "originalSentAt": "2026-04-17T16:33:23.794Z"
+  },
+  "adminappeals@justice.gov.uk": {
+    "sentAt": "2026-04-23T15:17:50.885Z",
+    "messageId": "<202604231517.27075930244@smtp-relay.mailin.fr>",
+    "company": "The Upper Tribunal",
+    "subject": "The Upper Tribunal — 50% off, 72 hours only",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "lawyer",
+    "expiresAt": "2026-04-30T15:17:50.399Z",
+    "originalSentAt": "2026-04-17T16:33:36.999Z"
   }
 }
