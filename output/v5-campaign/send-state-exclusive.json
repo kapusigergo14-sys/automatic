@@ -1402,5 +1402,17 @@
     "pitch": "lawyer",
     "expiresAt": "2026-04-30T15:17:03.728Z",
     "originalSentAt": "2026-04-17T16:29:13.450Z"
+  },
+  "clerks@7hs.co.uk": {
+    "sentAt": "2026-04-23T15:17:11.008Z",
+    "messageId": "<202604231517.32425912088@smtp-relay.mailin.fr>",
+    "company": "7 Harrington Street Chambers",
+    "subject": "7 Harrington Street Chambers — 50% off, 72 hours only",
+    "city": "Liverpool",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "lawyer",
+    "expiresAt": "2026-04-30T15:17:10.497Z",
+    "originalSentAt": "2026-04-17T16:29:19.993Z"
   }
 }
