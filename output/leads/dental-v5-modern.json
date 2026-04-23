@@ -234,5 +234,51 @@
     "modernScore": 3,
     "collectedAt": "2026-04-21T17:56:15.209Z",
     "extractedFrom": "homepage:text"
+  },
+  {
+    "name": "Southside Dental Practice",
+    "website": "https://www.southsidedentalpractice.co.uk",
+    "city": "Southsea",
+    "country": "UK",
+    "email": "reception@southsidedentalpractice.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-23T16:30:11.688Z",
+    "extractedFrom": "homepage:mailto"
+  },
+  {
+    "name": "Perfect Smile Maple House",
+    "website": "https://www.perfectsmile-dental.com",
+    "phone": "+44 2392 690888",
+    "city": "Portsmouth",
+    "country": "UK",
+    "email": "info@perfectsmile-dental.com",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-23T16:30:12.229Z",
+    "extractedFrom": "homepage:jsonld"
+  },
+  {
+    "name": "MediKa Dental",
+    "website": "https://medikapractice.co.uk",
+    "phone": "+44 2392 732047",
+    "city": "Southsea",
+    "country": "UK",
+    "email": "team@medikapractice.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-23T16:30:13.827Z",
+    "extractedFrom": "contact:cfemail"
+  },
+  {
+    "name": "Chrysalis",
+    "website": "https://www.chrysalisdentalpractice.co.uk",
+    "city": "Bedford ENG",
+    "country": "UK",
+    "email": "bedford@chrysalisdentalpractice.co.uk",
+    "hasBooking": false,
+    "modernScore": 3,
+    "collectedAt": "2026-04-23T16:30:16.591Z",
+    "extractedFrom": "contact.html:cfemail"
   }
 ]

@@ -2420,5 +2420,47 @@
     "lastNewLeads": 1,
     "totalNewLeads": 1,
     "lastResultsCount": 3
+  },
+  "US-OXFORD": {
+    "lastRunAt": "2026-04-23T16:30:19.089Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-PORTSMOUTH": {
+    "lastRunAt": "2026-04-23T16:30:19.089Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-COLUMBUS-NE": {
+    "lastRunAt": "2026-04-23T16:30:19.089Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "UK-PORTSMOUTH": {
+    "lastRunAt": "2026-04-23T16:30:19.089Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 9
+  },
+  "UK-BEDFORD": {
+    "lastRunAt": "2026-04-23T16:30:19.089Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 3
+  },
+  "UK-SCUNTHORPE": {
+    "lastRunAt": "2026-04-23T16:30:19.089Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
   }
 }
