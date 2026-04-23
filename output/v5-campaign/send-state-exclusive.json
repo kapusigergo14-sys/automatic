@@ -1522,5 +1522,17 @@
     "pitch": "lawyer",
     "expiresAt": "2026-04-30T15:18:10.292Z",
     "originalSentAt": "2026-04-17T16:34:55.894Z"
+  },
+  "info@watermans.co.uk": {
+    "sentAt": "2026-04-23T15:18:17.330Z",
+    "messageId": "<202604231518.35567365826@smtp-relay.mailin.fr>",
+    "company": "Watermans Solicitors",
+    "subject": "Exclusive for Watermans Solicitors (expires Apr 30)",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "lawyer",
+    "expiresAt": "2026-04-30T15:18:16.828Z",
+    "originalSentAt": "2026-04-17T16:32:24.592Z"
   }
 }
