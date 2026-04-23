@@ -12910,5 +12910,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@summitoralsurgeons.com": {
+    "sentAt": "2026-04-23T16:38:56.016Z",
+    "messageId": "<202604231638.35431337622@smtp-relay.mailin.fr>",
+    "company": "Summit Implants & Oral Surgery - Sammamish",
+    "subject": "question about Summit Implants & Oral",
+    "city": "Sammamish",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
