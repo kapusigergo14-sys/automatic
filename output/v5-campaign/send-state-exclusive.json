@@ -1450,5 +1450,17 @@
     "pitch": "lawyer",
     "expiresAt": "2026-04-30T15:17:30.513Z",
     "originalSentAt": "2026-04-17T16:31:58.346Z"
+  },
+  "pat_info_mailbox@scotcourtstribunals.gov.uk": {
+    "sentAt": "2026-04-23T15:17:37.514Z",
+    "messageId": "<202604231517.84981636489@smtp-relay.mailin.fr>",
+    "company": "Pensions Appeal Tribunals for Scotland",
+    "subject": "Exclusive for Pensions Appeal Tribunals for (expires Apr 30)",
+    "city": "Edinburgh",
+    "country": "UK",
+    "lang": "en",
+    "pitch": "lawyer",
+    "expiresAt": "2026-04-30T15:17:37.028Z",
+    "originalSentAt": "2026-04-17T16:33:10.590Z"
   }
 }
