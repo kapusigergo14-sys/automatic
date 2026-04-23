@@ -12800,5 +12800,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "fremontsmiles@comcast.net": {
+    "sentAt": "2026-04-23T16:37:45.559Z",
+    "messageId": "<202604231637.82247460033@smtp-relay.mailin.fr>",
+    "company": "Fremont Smiles",
+    "subject": "re: Fremont Smiles",
+    "city": "Fremont",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
