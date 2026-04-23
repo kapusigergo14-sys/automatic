@@ -1258,5 +1258,17 @@
     "pitch": "lawyer",
     "expiresAt": "2026-04-30T15:15:42.602Z",
     "originalSentAt": "2026-04-17T15:44:49.811Z"
+  },
+  "bill@boyleinjurylaw.com": {
+    "sentAt": "2026-04-23T15:15:49.863Z",
+    "messageId": "<202604231515.37159046431@smtp-relay.mailin.fr>",
+    "company": "The Boyle Law Firm",
+    "subject": "The Boyle Law Firm — 50% off, 72 hours only",
+    "city": "Englewood",
+    "country": "US",
+    "lang": "en",
+    "pitch": "lawyer",
+    "expiresAt": "2026-04-30T15:15:49.365Z",
+    "originalSentAt": "2026-04-17T15:46:24.244Z"
   }
 }
