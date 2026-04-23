@@ -1294,5 +1294,17 @@
     "pitch": "lawyer",
     "expiresAt": "2026-04-30T15:16:02.681Z",
     "originalSentAt": "2026-04-17T15:47:08.080Z"
+  },
+  "mlamber@fennemorelaw.com": {
+    "sentAt": "2026-04-23T15:16:09.839Z",
+    "messageId": "<202604231516.83783697424@smtp-relay.mailin.fr>",
+    "company": "Lamber Goodnow Injury Lawyers Denver",
+    "subject": "Lamber Goodnow Injury Lawyers — 50% off, 72 hours only",
+    "city": "Denver",
+    "country": "US",
+    "lang": "en",
+    "pitch": "lawyer",
+    "expiresAt": "2026-04-30T15:16:09.348Z",
+    "originalSentAt": "2026-04-17T15:45:59.015Z"
   }
 }
