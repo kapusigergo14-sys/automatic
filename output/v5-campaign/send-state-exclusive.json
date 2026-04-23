@@ -1366,5 +1366,17 @@
     "pitch": "lawyer",
     "expiresAt": "2026-04-30T15:16:43.685Z",
     "originalSentAt": "2026-04-17T15:46:17.925Z"
+  },
+  "renata.ferrari@ropesgray.com": {
+    "sentAt": "2026-04-23T15:16:50.767Z",
+    "messageId": "<202604231516.90875943759@smtp-relay.mailin.fr>",
+    "company": "Ropes & Gray LLP",
+    "subject": "Ropes & Gray LLP — 50% off, 72 hours only",
+    "city": "Boston",
+    "country": "US",
+    "lang": "en",
+    "pitch": "lawyer",
+    "expiresAt": "2026-04-30T15:16:50.285Z",
+    "originalSentAt": "2026-04-17T15:46:42.991Z"
   }
 }
