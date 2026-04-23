@@ -39,7 +39,9 @@ if (!BREVO_API_KEY) {
 const OPENERS_FILE = path.resolve(__dirname, '../output/v5-campaign/openers.json');
 const STATE_FILE = path.resolve(__dirname, '../output/v5-campaign/send-state-exclusive.json');
 
-const OFFER_WINDOW_MS = 72 * 60 * 60 * 1000;
+// 2026-04-23 — extended to 7 days for week-long re-engagement push.
+// Matches the same window now running on smartflowdev.com landings.
+const OFFER_WINDOW_MS = 7 * 24 * 60 * 60 * 1000;
 
 interface Opener {
   email: string;

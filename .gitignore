@@ -34,6 +34,8 @@ output/v5-campaign/*
 !output/v5-campaign/osm-region-progress-hvac.json
 !output/v5-campaign/openers.json
 !output/v5-campaign/send-state-exclusive.json
+!output/v5-campaign/bounce-blacklist.json
+!output/v5-campaign/contacted-blacklist.json
 
 !output/outreach-state.json
 

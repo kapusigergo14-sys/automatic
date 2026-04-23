@@ -22,7 +22,13 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
-const BOUNCE_CSV = path.resolve(__dirname, '../input/brevo-bounces.csv');
+// Accept either a pre-filtered bounces CSV at input/brevo-bounces.csv OR
+// the full Brevo logs dump at data/brevo-logs.csv (we'll filter rows whose
+// `st_text` column contains "bounce").
+const BOUNCE_CSV_CANDIDATES = [
+  path.resolve(__dirname, '../input/brevo-bounces.csv'),
+  path.resolve(__dirname, '../data/brevo-logs.csv'),
+];
 const LEADS_DIR = path.resolve(__dirname, '../output/leads');
 const BLACKLIST_FILE = path.resolve(
   __dirname,
@@ -65,10 +71,23 @@ function extractBouncedEmails(csv: string): Set<string> {
 
   const headerCols = parseCsvLine(lines[0]).map((c) => c.toLowerCase());
   const emailIdx = headerCols.findIndex((c) => c === 'email' || c === 'recipient');
+  // Brevo full-log dump has `st_text` containing e.g. "Soft bounce", "Hard
+  // bounce", "Loaded by proxy", "Delivered", "Clicked". If that column
+  // exists we only keep rows with "bounce" (case-insensitive). If the
+  // column is absent, we assume every row is already a bounce.
+  const statusIdx = headerCols.findIndex(
+    (c) => c === 'st_text' || c === 'status' || c === 'event'
+  );
 
   const emails = new Set<string>();
   for (const line of lines.slice(1)) {
     const cols = parseCsvLine(line);
+
+    if (statusIdx >= 0) {
+      const status = (cols[statusIdx] ?? '').toLowerCase();
+      if (!status.includes('bounce')) continue;
+    }
+
     let candidate: string | null = null;
     if (emailIdx >= 0 && cols[emailIdx]) {
       candidate = cols[emailIdx];
@@ -146,15 +165,18 @@ function writeBlacklist(bounced: Set<string>, dryRun: boolean) {
 async function main() {
   const dryRun = process.argv.includes('--dry-run');
 
-  if (!fs.existsSync(BOUNCE_CSV)) {
-    console.error(`❌ Missing bounce CSV at ${BOUNCE_CSV}`);
-    console.error('   Export from Brevo: Transactional → Logs → Filter Bounced → Export CSV');
-    console.error(`   Then save it to: ${path.relative(process.cwd(), BOUNCE_CSV)}`);
+  const bounceCsv = BOUNCE_CSV_CANDIDATES.find((p) => fs.existsSync(p));
+  if (!bounceCsv) {
+    console.error('❌ No bounce CSV found. Looked at:');
+    BOUNCE_CSV_CANDIDATES.forEach((p) =>
+      console.error('   ' + path.relative(process.cwd(), p))
+    );
+    console.error('Export from Brevo: Transactional → Logs → Export CSV');
     process.exit(1);
   }
 
-  console.log(`📄 Reading bounce CSV: ${path.relative(process.cwd(), BOUNCE_CSV)}`);
-  const csv = fs.readFileSync(BOUNCE_CSV, 'utf-8');
+  console.log(`📄 Reading bounce CSV: ${path.relative(process.cwd(), bounceCsv)}`);
+  const csv = fs.readFileSync(bounceCsv, 'utf-8');
   const bounced = extractBouncedEmails(csv);
   console.log(`   ${bounced.size} bounced emails detected\n`);
 

@@ -3,8 +3,9 @@
  * for the re-engagement exclusive-offer campaign.
  *
  * Sent ONLY to recipients who opened a previous campaign mail but didn't
- * reply. 50% off all tiers, first month free, 72-hour rolling deadline
- * (per-recipient, computed at send time).
+ * reply. 50% off all tiers, first month free, 7-day rolling deadline
+ * (per-recipient, computed at send time — matches the 7-day window on
+ * the smartflowdev landing pages as of 2026-04-23).
  *
  * Signature differs from other email-bodies files — takes an `expiresAt`
  * Date and renders a human-readable deadline inline.
