@@ -12888,5 +12888,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "general@granadadental.com": {
+    "sentAt": "2026-04-23T16:38:42.708Z",
+    "messageId": "<202604231638.56170623877@smtp-relay.mailin.fr>",
+    "company": "Granada Dental",
+    "subject": "re: Granada Dental",
+    "city": "Livermore",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
