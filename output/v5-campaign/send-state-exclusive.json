@@ -1306,5 +1306,17 @@
     "pitch": "lawyer",
     "expiresAt": "2026-04-30T15:16:09.348Z",
     "originalSentAt": "2026-04-17T15:45:59.015Z"
+  },
+  "info@lippmanrecupero.com": {
+    "sentAt": "2026-04-23T15:16:16.460Z",
+    "messageId": "<202604231516.19669707320@smtp-relay.mailin.fr>",
+    "company": "Lippman Recupero",
+    "subject": "Exclusive for Lippman Recupero (expires Apr 30)",
+    "city": "Tucson",
+    "country": "US",
+    "lang": "en",
+    "pitch": "lawyer",
+    "expiresAt": "2026-04-30T15:16:15.966Z",
+    "originalSentAt": "2026-04-17T15:47:39.328Z"
   }
 }
