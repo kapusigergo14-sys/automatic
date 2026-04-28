@@ -4343,5 +4343,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@omni-ar.com": {
+    "sentAt": "2026-04-28T19:54:22.382Z",
+    "messageId": "<202604281954.82667523382@smtp-relay.mailin.fr>",
+    "company": "Omni Ar",
+    "subject": "question about Omni Ar",
+    "city": "Idaho Falls",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
