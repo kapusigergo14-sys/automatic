@@ -4618,5 +4618,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@bfgfirm.com": {
+    "sentAt": "2026-04-28T19:57:07.163Z",
+    "messageId": "<202604281957.99938653603@smtp-relay.mailin.fr>",
+    "company": "Bangerter Frazier Group Attorneys",
+    "subject": "noticed something on Bangerter Frazier Group Attorneys's site",
+    "city": "St. George",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
