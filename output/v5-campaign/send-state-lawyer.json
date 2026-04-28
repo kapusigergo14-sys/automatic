@@ -4167,5 +4167,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@trlawyer.com": {
+    "sentAt": "2026-04-28T19:52:35.846Z",
+    "messageId": "<202604281952.27618047007@smtp-relay.mailin.fr>",
+    "company": "Theisen & Roche, Ltd.",
+    "subject": "question about Theisen & Roche Ltd.",
+    "city": "Chicago",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
