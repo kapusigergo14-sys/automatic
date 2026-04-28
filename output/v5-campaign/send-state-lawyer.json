@@ -4255,5 +4255,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@yoursite.com": {
+    "sentAt": "2026-04-28T19:53:29.358Z",
+    "messageId": "<202604281953.38512403023@smtp-relay.mailin.fr>",
+    "company": "J Douglas Fleenor Attorney at Law",
+    "subject": "question about J Douglas Fleenor Attorney",
+    "city": "Bristol",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
