@@ -4244,5 +4244,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@gdowd.law": {
+    "sentAt": "2026-04-28T19:53:22.639Z",
+    "messageId": "<202604281953.11344970639@smtp-relay.mailin.fr>",
+    "company": "G. Dowd Law LLC",
+    "subject": "quick note about G. Dowd Law LLC's consult flow",
+    "city": "Chicago",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
