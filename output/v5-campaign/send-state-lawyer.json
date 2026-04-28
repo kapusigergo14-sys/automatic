@@ -4849,5 +4849,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "max@maxhydelawfirm.com": {
+    "sentAt": "2026-04-28T19:59:25.981Z",
+    "messageId": "<202604281959.20279081211@smtp-relay.mailin.fr>",
+    "company": "Hyde Law Firm",
+    "subject": "re: Hyde Law Firm",
+    "city": "Spartanburg",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
