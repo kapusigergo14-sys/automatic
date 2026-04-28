@@ -4112,5 +4112,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "sallen@attorneyshaytallen.com": {
+    "sentAt": "2026-04-28T19:52:02.691Z",
+    "messageId": "<202604281952.96483666236@smtp-relay.mailin.fr>",
+    "company": "S.T. Allen Law P.C.",
+    "subject": "quick note about S.T. Allen Law P.C.'s consult flow",
+    "city": "West Town IL",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
