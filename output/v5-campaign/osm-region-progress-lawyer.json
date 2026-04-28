@@ -3155,5 +3155,215 @@
     "lastNewLeads": 0,
     "totalNewLeads": 0,
     "lastResultsCount": 0
+  },
+  "US-HARLINGEN": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "US-MENIFEE": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-EDMOND": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "US-WASCO": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-WEST-TOWN": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 21,
+    "totalNewLeads": 21,
+    "lastResultsCount": 40
+  },
+  "US-BRISTOL": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 1
+  },
+  "US-FLINT": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-LIBERTY": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 1
+  },
+  "US-TYLER": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 3
+  },
+  "US-IMMOKALEE": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-ROSENBERG": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-SAINT-JOSEPH": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-JOLIET": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 3
+  },
+  "US-MINOT": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-NAPA": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 1
+  },
+  "US-ASHEVILLE": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 2
+  },
+  "US-LONG-BRANCH": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-DELTONA": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 2
+  },
+  "US-BAYTOWN": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "US-EAST-PENSACOLA-HEIGHTS": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-IDAHO-FALLS": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 4
+  },
+  "US-HOBBS": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-LANCASTER-OH": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-HOLLAND": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "US-FRAMINGHAM": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "US-INGLEWOOD": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 3
+  },
+  "US-INDEPENDENCE": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-HATTIESBURG": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "US-LEBANON": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "US-LEWISTON": {
+    "lastRunAt": "2026-04-28T19:00:03.231Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
   }
 }
