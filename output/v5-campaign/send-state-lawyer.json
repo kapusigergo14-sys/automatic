@@ -4398,5 +4398,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "brad@thecrouchgroup.com": {
+    "sentAt": "2026-04-28T19:54:55.274Z",
+    "messageId": "<202604281954.98295426787@smtp-relay.mailin.fr>",
+    "company": "The Reecer Law Firm",
+    "subject": "noticed something on The Reecer Law Firm's site",
+    "city": "Denton",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
