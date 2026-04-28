@@ -4541,5 +4541,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "justin.scott@btlaw.com": {
+    "sentAt": "2026-04-28T19:56:21.070Z",
+    "messageId": "<202604281956.65561594634@smtp-relay.mailin.fr>",
+    "company": "Barnes & Thornburg LLP",
+    "subject": "re: Barnes & Thornburg LLP",
+    "city": "South Bend",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
