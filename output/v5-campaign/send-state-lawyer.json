@@ -4959,5 +4959,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "pai@pailawfirm.com": {
+    "sentAt": "2026-04-28T20:00:32.848Z",
+    "messageId": "<202604282000.30488942110@smtp-relay.mailin.fr>",
+    "company": "Pai Law Firm",
+    "subject": "question about Pai Law Firm",
+    "city": "Chico",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
