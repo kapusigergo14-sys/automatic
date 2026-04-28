@@ -4750,5 +4750,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "michael@mchamberslaw.com": {
+    "sentAt": "2026-04-28T19:58:26.399Z",
+    "messageId": "<202604281958.16702786618@smtp-relay.mailin.fr>",
+    "company": "Law Office of Michael L. Chambers, Jr., Car Accident & Personal Injury Attorneys",
+    "subject": "noticed something on Law Office of Michael's site",
+    "city": "Waterbury",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
