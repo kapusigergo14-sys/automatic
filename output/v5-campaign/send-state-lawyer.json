@@ -4728,5 +4728,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@aronlawfirm.com": {
+    "sentAt": "2026-04-28T19:58:13.134Z",
+    "messageId": "<202604281958.68331287274@smtp-relay.mailin.fr>",
+    "company": "Aron Law Firm - San Luis Obispo",
+    "subject": "quick note about Aron Law Firm's consult flow",
+    "city": "San Luis Obispo",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
