@@ -4508,5 +4508,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "g@cotruststaxes.com": {
+    "sentAt": "2026-04-28T19:56:01.453Z",
+    "messageId": "<202604281956.98816314645@smtp-relay.mailin.fr>",
+    "company": "Colorado Trusts & Taxes",
+    "subject": "quick note about Colorado Trusts & Taxes's consult flow",
+    "city": "Centennial",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
