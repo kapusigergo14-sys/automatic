@@ -4486,5 +4486,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "colin@bresee.com": {
+    "sentAt": "2026-04-28T19:55:48.378Z",
+    "messageId": "<202604281955.53491301601@smtp-relay.mailin.fr>",
+    "company": "Law Offices of M. Colin Bresee",
+    "subject": "noticed something on Law Offices of M.'s site",
+    "city": "Centennial",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
