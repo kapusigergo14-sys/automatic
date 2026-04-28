@@ -4640,5 +4640,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "dearmorelaw@gmail.com": {
+    "sentAt": "2026-04-28T19:57:20.273Z",
+    "messageId": "<202604281957.20159752572@smtp-relay.mailin.fr>",
+    "company": "Dearmore Law Firm, PLLC",
+    "subject": "quick note about Dearmore Law Firm PLLC's consult flow",
+    "city": "Fayetteville AR",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
