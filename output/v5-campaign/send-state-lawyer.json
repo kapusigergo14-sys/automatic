@@ -4684,5 +4684,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "amanda@taylorlawyuma.com": {
+    "sentAt": "2026-04-28T19:57:46.785Z",
+    "messageId": "<202604281957.20817317266@smtp-relay.mailin.fr>",
+    "company": "Amanda J. Taylor",
+    "subject": "quick note about Amanda J. Taylor's consult flow",
+    "city": "Yuma AZ",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
