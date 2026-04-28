@@ -4816,5 +4816,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@galbreathcostner.com": {
+    "sentAt": "2026-04-28T19:59:06.164Z",
+    "messageId": "<202604281959.88505861553@smtp-relay.mailin.fr>",
+    "company": "Nelson & Galbreath",
+    "subject": "quick note about Nelson & Galbreath's consult flow",
+    "city": "Spartanburg",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
