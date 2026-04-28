@@ -4871,5 +4871,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "matthew@izzilawoffice.com": {
+    "sentAt": "2026-04-28T19:59:39.924Z",
+    "messageId": "<202604281959.65308346595@smtp-relay.mailin.fr>",
+    "company": "Izzi Law Office",
+    "subject": "question about Izzi Law Office",
+    "city": "Redding",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
