@@ -4288,5 +4288,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "llamas@mlbnapalaw.com": {
+    "sentAt": "2026-04-28T19:53:48.960Z",
+    "messageId": "<202604281953.36618462120@smtp-relay.mailin.fr>",
+    "company": "Murphy, Logan & Roades-Brown",
+    "subject": "quick note about Murphy Logan & Roades's consult flow",
+    "city": "Napa",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
