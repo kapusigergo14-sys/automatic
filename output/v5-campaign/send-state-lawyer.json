@@ -4574,5 +4574,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "justin@jbm-law.com": {
+    "sentAt": "2026-04-28T19:56:40.827Z",
+    "messageId": "<202604281956.28836697370@smtp-relay.mailin.fr>",
+    "company": "JBM Law",
+    "subject": "noticed something on JBM Law's site",
+    "city": "Utica",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
