@@ -4365,5 +4365,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "contact@idahoadvocates.com": {
+    "sentAt": "2026-04-28T19:54:35.450Z",
+    "messageId": "<202604281954.91132774229@smtp-relay.mailin.fr>",
+    "company": "The Advocates",
+    "subject": "re: The Advocates",
+    "city": "Idaho Falls",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
