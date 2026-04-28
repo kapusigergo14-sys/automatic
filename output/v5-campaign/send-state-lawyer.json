@@ -4530,5 +4530,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "support@hustl.it": {
+    "sentAt": "2026-04-28T19:56:14.534Z",
+    "messageId": "<202604281956.74291809422@smtp-relay.mailin.fr>",
+    "company": "Goldberg & Osborne",
+    "subject": "noticed something on Goldberg & Osborne's site",
+    "city": "Casa Grande",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
