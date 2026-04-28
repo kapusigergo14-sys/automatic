@@ -4607,5 +4607,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "randy@samonalaw.com": {
+    "sentAt": "2026-04-28T19:57:00.419Z",
+    "messageId": "<202604281957.95211944940@smtp-relay.mailin.fr>",
+    "company": "Law Office of Randy Samona, P.C.",
+    "subject": "question about Law Office of Randy",
+    "city": "Sterling Heights",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
