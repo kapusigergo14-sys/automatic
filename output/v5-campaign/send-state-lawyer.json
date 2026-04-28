@@ -4915,5 +4915,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "contilaw@verizon.net": {
+    "sentAt": "2026-04-28T20:00:06.464Z",
+    "messageId": "<202604282000.42567270708@smtp-relay.mailin.fr>",
+    "company": "Contiguglia Law Offices, LLP",
+    "subject": "question about Contiguglia Law Offices LLP",
+    "city": "Auburn",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
