@@ -4453,5 +4453,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@griffithslawpc.com": {
+    "sentAt": "2026-04-28T19:55:28.584Z",
+    "messageId": "<202604281955.83811323743@smtp-relay.mailin.fr>",
+    "company": "Griffiths Law PC",
+    "subject": "re: Griffiths Law PC",
+    "city": "Lone Tree",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
