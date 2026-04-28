@@ -4563,5 +4563,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@kevinhickeylaw.com": {
+    "sentAt": "2026-04-28T19:56:34.214Z",
+    "messageId": "<202604281956.43867097098@smtp-relay.mailin.fr>",
+    "company": "Hickey & Hull Law Partners - Fort Smith",
+    "subject": "question about Hickey & Hull Law",
+    "city": "Fort Smith",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
