@@ -4156,5 +4156,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "office@sterlinglawyers.com": {
+    "sentAt": "2026-04-28T19:52:28.995Z",
+    "messageId": "<202604281952.52706811857@smtp-relay.mailin.fr>",
+    "company": "Sterling Hughes, LLC",
+    "subject": "quick note about Sterling Hughes LLC's consult flow",
+    "city": "Chicago",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
