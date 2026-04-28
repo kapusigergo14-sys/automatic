@@ -4134,5 +4134,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@glozmanlaw.com": {
+    "sentAt": "2026-04-28T19:52:15.793Z",
+    "messageId": "<202604281952.37791688366@smtp-relay.mailin.fr>",
+    "company": "Law Offices of Vadim A. Glozman",
+    "subject": "noticed something on Law Offices of Vadim's site",
+    "city": "Chicago",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
