@@ -4332,5 +4332,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@btbattorneys.com": {
+    "sentAt": "2026-04-28T19:54:15.865Z",
+    "messageId": "<202604281954.87174229988@smtp-relay.mailin.fr>",
+    "company": "Buckman Tuinstra & Brown PC",
+    "subject": "quick note about Buckman Tuinstra & Brown's consult flow",
+    "city": "Holland",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
