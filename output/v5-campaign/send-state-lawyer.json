@@ -4739,5 +4739,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "calendar@mcdanielreporting.com": {
+    "sentAt": "2026-04-28T19:58:19.856Z",
+    "messageId": "<202604281958.24728049162@smtp-relay.mailin.fr>",
+    "company": "McDaniel Reporting",
+    "subject": "question about McDaniel Reporting",
+    "city": "San Luis Obispo CA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
