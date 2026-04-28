@@ -4673,5 +4673,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "you@company.com": {
+    "sentAt": "2026-04-28T19:57:40.200Z",
+    "messageId": "<202604281957.13830197691@smtp-relay.mailin.fr>",
+    "company": "Flanders, Elsberg, Herber & Dunn, LLC",
+    "subject": "re: Flanders Elsberg Herber &",
+    "city": "Longmont",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
