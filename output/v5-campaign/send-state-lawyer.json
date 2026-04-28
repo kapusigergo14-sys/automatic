@@ -4904,5 +4904,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "puritz@northvalleylawyer.com": {
+    "sentAt": "2026-04-28T19:59:59.882Z",
+    "messageId": "<202604281959.60978666234@smtp-relay.mailin.fr>",
+    "company": "The Law Offices of Lawrence A. Puritz",
+    "subject": "quick note about The Law Offices of's consult flow",
+    "city": "Chico",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
