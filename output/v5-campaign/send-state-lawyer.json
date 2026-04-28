@@ -4387,5 +4387,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@lannomwilliams.com": {
+    "sentAt": "2026-04-28T19:54:48.542Z",
+    "messageId": "<202604281954.49478148298@smtp-relay.mailin.fr>",
+    "company": "Frank Lannom Law Group",
+    "subject": "question about Frank Lannom Law Group",
+    "city": "Lebanon",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
