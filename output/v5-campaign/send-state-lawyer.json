@@ -4761,5 +4761,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "matt@trollingerlaw.com": {
+    "sentAt": "2026-04-28T19:58:33.027Z",
+    "messageId": "<202604281958.44433594120@smtp-relay.mailin.fr>",
+    "company": "Trollinger Law LLC",
+    "subject": "re: Trollinger Law LLC",
+    "city": "Waldorf",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
