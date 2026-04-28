@@ -4376,5 +4376,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "office@medicalrecovery.org": {
+    "sentAt": "2026-04-28T19:54:41.989Z",
+    "messageId": "<202604281954.35427454713@smtp-relay.mailin.fr>",
+    "company": "Medical Recovery Services",
+    "subject": "quick note about Medical Recovery Services's consult flow",
+    "city": "Idaho Falls",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
