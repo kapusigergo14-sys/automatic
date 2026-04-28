@@ -4706,5 +4706,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "jimrmiller2@gmail.com": {
+    "sentAt": "2026-04-28T19:57:59.962Z",
+    "messageId": "<202604281957.72880764639@smtp-relay.mailin.fr>",
+    "company": "James R. Miller II Attorney at Law",
+    "subject": "noticed something on James R. Miller II's site",
+    "city": "Johnson City",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
