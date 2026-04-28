@@ -4200,5 +4200,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "keith@we-fight.com": {
+    "sentAt": "2026-04-28T19:52:55.703Z",
+    "messageId": "<202604281952.30837389055@smtp-relay.mailin.fr>",
+    "company": "Shindler & Shindler",
+    "subject": "quick note about Shindler & Shindler's consult flow",
+    "city": "Chicago",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
