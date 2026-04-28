@@ -4596,5 +4596,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@casamchenrycounty.org": {
+    "sentAt": "2026-04-28T19:56:53.947Z",
+    "messageId": "<202604281956.62200807705@smtp-relay.mailin.fr>",
+    "company": "Casa",
+    "subject": "quick note about Casa's consult flow",
+    "city": "Crystal Lake IL",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
