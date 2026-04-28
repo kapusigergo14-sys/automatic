@@ -4068,5 +4068,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "budinlaw@aol.com": {
+    "sentAt": "2026-04-28T19:51:35.682Z",
+    "messageId": "<202604281951.66858556266@smtp-relay.mailin.fr>",
+    "company": "Budin Law Offices",
+    "subject": "quick note about Budin Law Offices's consult flow",
+    "city": "Chicago",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
