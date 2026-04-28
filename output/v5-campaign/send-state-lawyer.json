@@ -4189,5 +4189,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "markbrown@lanebrownlaw.com": {
+    "sentAt": "2026-04-28T19:52:49.063Z",
+    "messageId": "<202604281952.58440342279@smtp-relay.mailin.fr>",
+    "company": "Lane Brown, LLC",
+    "subject": "re: Lane Brown LLC",
+    "city": "Chicago",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
