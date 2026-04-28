@@ -4475,5 +4475,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@dentonlawyer.com": {
+    "sentAt": "2026-04-28T19:55:41.763Z",
+    "messageId": "<202604281955.15894831801@smtp-relay.mailin.fr>",
+    "company": "Sawko & Burroughs PC",
+    "subject": "question about Sawko & Burroughs PC",
+    "city": "Denton",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
