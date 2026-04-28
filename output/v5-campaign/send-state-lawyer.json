@@ -4827,5 +4827,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@millertasho.com": {
+    "sentAt": "2026-04-28T19:59:12.590Z",
+    "messageId": "<202604281959.31572391177@smtp-relay.mailin.fr>",
+    "company": "The Law Office of Miller & Tasho",
+    "subject": "question about The Law Office of",
+    "city": "Waterbury",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
