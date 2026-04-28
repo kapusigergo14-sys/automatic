@@ -4860,5 +4860,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "tyelo@tprentisslaw.com": {
+    "sentAt": "2026-04-28T19:59:32.800Z",
+    "messageId": "<202604281959.68345240865@smtp-relay.mailin.fr>",
+    "company": "Prentiss Law Office",
+    "subject": "quick note about Prentiss Law Office's consult flow",
+    "city": "Redding",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
