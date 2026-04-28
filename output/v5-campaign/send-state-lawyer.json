@@ -4805,5 +4805,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@smithandhaskell.com": {
+    "sentAt": "2026-04-28T19:58:59.460Z",
+    "messageId": "<202604281958.88860271951@smtp-relay.mailin.fr>",
+    "company": "Smith & Haskell Law Firm",
+    "subject": "re: Smith & Haskell Law",
+    "city": "Spartanburg",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
