@@ -4431,5 +4431,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "lawfirm@lukeolsenlaw.com": {
+    "sentAt": "2026-04-28T19:55:15.514Z",
+    "messageId": "<202604281955.39179036151@smtp-relay.mailin.fr>",
+    "company": "Luke & Olsen Law and Escrow",
+    "subject": "question about Luke & Olsen Law",
+    "city": "Edmonds",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
