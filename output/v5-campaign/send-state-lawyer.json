@@ -4585,5 +4585,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@johntatone.com": {
+    "sentAt": "2026-04-28T19:56:47.442Z",
+    "messageId": "<202604281956.66684223381@smtp-relay.mailin.fr>",
+    "company": "John R. Tatone & Associates",
+    "subject": "re: John R. Tatone &",
+    "city": "Utica",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
