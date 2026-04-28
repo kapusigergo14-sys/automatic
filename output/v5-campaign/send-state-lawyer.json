@@ -4299,5 +4299,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@mcdevittlaw.com": {
+    "sentAt": "2026-04-28T19:53:55.926Z",
+    "messageId": "<202604281953.57936139945@smtp-relay.mailin.fr>",
+    "company": "McDevitt & Cobb - Chicago Car Accident & Personal Injury Attorneys",
+    "subject": "question about McDevitt & Cobb",
+    "city": "Chicago",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
