@@ -4420,5 +4420,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@malpractice-injury-lawyers.com": {
+    "sentAt": "2026-04-28T19:55:08.641Z",
+    "messageId": "<202604281955.79634111473@smtp-relay.mailin.fr>",
+    "company": "PA Medical Malpractice Lawyers P.C.",
+    "subject": "quick note about PA Medical Malpractice Lawyers's consult flow",
+    "city": "Reading",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": true,
+    "modernScore": 3
   }
 }
