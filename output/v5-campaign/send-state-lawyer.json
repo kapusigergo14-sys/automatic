@@ -4552,5 +4552,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "jackberman72@gmail.com": {
+    "sentAt": "2026-04-28T19:56:27.694Z",
+    "messageId": "<202604281956.20134737465@smtp-relay.mailin.fr>",
+    "company": "Jack Berman & Associates PC",
+    "subject": "quick note about Jack Berman & Associates's consult flow",
+    "city": "Utica",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
