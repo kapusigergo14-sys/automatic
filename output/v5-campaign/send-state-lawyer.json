@@ -4629,5 +4629,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@michlawservices.com": {
+    "sentAt": "2026-04-28T19:57:13.711Z",
+    "messageId": "<202604281957.20511278792@smtp-relay.mailin.fr>",
+    "company": "Michigan Law Services, PLLC",
+    "subject": "re: Michigan Law Services PLLC",
+    "city": "Utica",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
