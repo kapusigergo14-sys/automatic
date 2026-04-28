@@ -4464,5 +4464,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "contact@lawlancaster.com": {
+    "sentAt": "2026-04-28T19:55:35.199Z",
+    "messageId": "<202604281955.36659982464@smtp-relay.mailin.fr>",
+    "company": "Lancaster Law Group",
+    "subject": "quick note about Lancaster Law Group's consult flow",
+    "city": "Lancaster",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
