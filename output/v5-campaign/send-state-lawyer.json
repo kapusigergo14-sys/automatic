@@ -4497,5 +4497,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@kashlegal.com": {
+    "sentAt": "2026-04-28T19:55:54.880Z",
+    "messageId": "<202604281955.84232277025@smtp-relay.mailin.fr>",
+    "company": "Kash Legal Group - Personal Injury and Accident Lawyers",
+    "subject": "re: Kash Legal Group",
+    "city": "Pleasant Hill",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
