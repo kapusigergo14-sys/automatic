@@ -4035,5 +4035,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "wfkattorney@yahoo.com": {
+    "sentAt": "2026-04-28T19:51:15.788Z",
+    "messageId": "<202604281951.70081606556@smtp-relay.mailin.fr>",
+    "company": "The Law Office of William F. Kimball",
+    "subject": "question about The Law Office of",
+    "city": "Harlingen",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 2
   }
 }
