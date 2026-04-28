@@ -3645,5 +3645,425 @@
     "lastNewLeads": 2,
     "totalNewLeads": 2,
     "lastResultsCount": 3
+  },
+  "US-MERCED": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "US-MOUNT-PLEASANT": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-FAIRFIELD": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-YUMA": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 3
+  },
+  "US-BLOOMINGTON": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 4
+  },
+  "US-LONGMONT": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 4
+  },
+  "US-GRAHAM": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-MOUNT-VERNON": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 4
+  },
+  "US-JOHNSON-CITY": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "US-LIVONIA": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-SAN-LUIS-OBISPO": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 8
+  },
+  "US-GUILFORD": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-WATERBURY": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 2
+  },
+  "US-OSHKOSH": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 2
+  },
+  "US-EDEN-PRAIRIE": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-KILLEEN": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-VALRICO": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-WALDORF": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 1
+  },
+  "US-KENOSHA": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 2
+  },
+  "US-FREMONT-NE": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-CUMBERLAND": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-OWENSBORO": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 2
+  },
+  "US-ROGERS": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "US-CHAMPAIGN": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 10
+  },
+  "US-FRANKLIN": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-THE-ACREAGE": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-GERMANTOWN": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-PRESCOTT-VALLEY": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-TUSCALOOSA": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 2
+  },
+  "US-UTICA": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "US-BROKEN-ARROW": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-OCALA": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 4
+  },
+  "US-SPARTANBURG": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 3,
+    "totalNewLeads": 3,
+    "lastResultsCount": 9
+  },
+  "US-DAVIS": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "US-REDDING": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 3
+  },
+  "US-HILLSBORO": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 2
+  },
+  "US-BENTON": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "US-TEMPLE": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-THOUSAND-OAKS": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 4
+  },
+  "US-JACKSONVILLE-AR": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "US-SARASOTA": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 6
+  },
+  "US-GREEN-BAY": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "US-JACKSON-TN": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-DELAWARE": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-BLOOMINGTON-IL": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 2
+  },
+  "US-MASON": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "US-AUBURN-NY": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 1,
+    "totalNewLeads": 1,
+    "lastResultsCount": 1
+  },
+  "US-KOKOMO": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-ATLANTIC-CITY": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "US-BENSALEM": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-NIAGARA-FALLS": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-CHICO": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 4
+  },
+  "US-KANKAKEE": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-GREENVILLE-TX": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-O-FALLON": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "US-MCALLEN": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 2,
+    "totalNewLeads": 2,
+    "lastResultsCount": 5
+  },
+  "US-LOMPOC": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-MIRA-MESA": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 0
+  },
+  "US-DESOTO": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
+  },
+  "US-SUFFOLK": {
+    "lastRunAt": "2026-04-28T19:42:26.157Z",
+    "totalRuns": 1,
+    "lastNewLeads": 0,
+    "totalNewLeads": 0,
+    "lastResultsCount": 1
   }
 }
