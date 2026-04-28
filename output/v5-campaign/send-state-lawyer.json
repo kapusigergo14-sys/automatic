@@ -4970,5 +4970,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "intake@guerralawgroup.com": {
+    "sentAt": "2026-04-28T20:00:39.353Z",
+    "messageId": "<202604282000.44873090333@smtp-relay.mailin.fr>",
+    "company": "Guerra Law Group",
+    "subject": "noticed something on Guerra Law Group's site",
+    "city": "McAllen",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
