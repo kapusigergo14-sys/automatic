@@ -4937,5 +4937,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@patinolaw.com": {
+    "sentAt": "2026-04-28T20:00:19.652Z",
+    "messageId": "<202604282000.76664195727@smtp-relay.mailin.fr>",
+    "company": "Patino Law Firm",
+    "subject": "re: Patino Law Firm",
+    "city": "McAllen",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
