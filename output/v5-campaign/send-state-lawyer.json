@@ -4519,5 +4519,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "bookkeeper@sextonsanders.com": {
+    "sentAt": "2026-04-28T19:56:07.960Z",
+    "messageId": "<202604281956.98894846623@smtp-relay.mailin.fr>",
+    "company": "Sexton & Sanders Law Firm",
+    "subject": "question about Sexton & Sanders Law",
+    "city": "Fort Smith",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
