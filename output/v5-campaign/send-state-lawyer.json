@@ -4662,5 +4662,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "info@snlawoffice.com": {
+    "sentAt": "2026-04-28T19:57:33.593Z",
+    "messageId": "<202604281957.31633117164@smtp-relay.mailin.fr>",
+    "company": "Slotegraaf Niehoff, PC",
+    "subject": "noticed something on Slotegraaf Niehoff PC's site",
+    "city": "Bloomington",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
