@@ -4651,5 +4651,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "pr@fellerwendt.com": {
+    "sentAt": "2026-04-28T19:57:26.938Z",
+    "messageId": "<202604281957.23537067721@smtp-relay.mailin.fr>",
+    "company": "Feller & Wendt, LLC",
+    "subject": "question about Feller & Wendt LLC",
+    "city": "St. George",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
