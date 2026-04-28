@@ -4838,5 +4838,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@gloverlawfirm.com": {
+    "sentAt": "2026-04-28T19:59:19.194Z",
+    "messageId": "<202604281959.34767322901@smtp-relay.mailin.fr>",
+    "company": "Glover Law Firm Accident & Injury Lawyer",
+    "subject": "noticed something on Glover Law Firm Accident's site",
+    "city": "Ocala",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
