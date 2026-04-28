@@ -4409,5 +4409,16 @@
     "lang": "en",
     "hasBooking": true,
     "modernScore": 3
+  },
+  "info@trinitylaw.com": {
+    "sentAt": "2026-04-28T19:55:01.894Z",
+    "messageId": "<202604281955.68462933820@smtp-relay.mailin.fr>",
+    "company": "Trinity Law",
+    "subject": "re: Trinity Law",
+    "city": "Lancaster PA",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
