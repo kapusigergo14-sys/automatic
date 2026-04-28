@@ -4442,5 +4442,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "sh@hwanglaw.com": {
+    "sentAt": "2026-04-28T19:55:22.020Z",
+    "messageId": "<202604281955.60122339084@smtp-relay.mailin.fr>",
+    "company": "Law Offices of Sung Hwang",
+    "subject": "noticed something on Law Offices of Sung's site",
+    "city": "New Haven",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
