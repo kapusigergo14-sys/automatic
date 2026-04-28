@@ -4046,5 +4046,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 2
+  },
+  "info@malmanlaw.com": {
+    "sentAt": "2026-04-28T19:51:22.425Z",
+    "messageId": "<202604281951.94177152978@smtp-relay.mailin.fr>",
+    "company": "Malman Law Chicago",
+    "subject": "noticed something on Malman Law Chicago's site",
+    "city": "Chicago",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
