@@ -4145,5 +4145,16 @@
     "lang": "en",
     "hasBooking": false,
     "modernScore": 3
+  },
+  "fedor@nslslaw.com": {
+    "sentAt": "2026-04-28T19:52:22.488Z",
+    "messageId": "<202604281952.90099470326@smtp-relay.mailin.fr>",
+    "company": "North Suburban Legal Services LLC",
+    "subject": "re: North Suburban Legal Services",
+    "city": "Chicago",
+    "country": "US",
+    "lang": "en",
+    "hasBooking": false,
+    "modernScore": 3
   }
 }
